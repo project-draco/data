@@ -1,0 +1,17 @@
+AnkiDroid_src_main_java_com_ichi2_anki_NavigationDrawerActivity.java/[CN]/NavigationDrawerActivity/[MT]/selectNavigationItem(int)	AnkiDroid_src_main_java_com_ichi2_anki_NavigationDrawerActivity.java/[CN]/	12	0.8571	14	2160
+AnkiDroid_src_main_java_com_ichi2_anki_Reviewer.java/[CN]/Reviewer/[MT]/onOptionsItemSelected(MenuItem)	AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/	10	0.8333	12	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/onActivityResult(int,int,Intent)	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	11	0.8462	13	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/showStartupScreensAndDialogs(SharedPreferences,int)	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	11	0.7857	14	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/onResume()	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	10	1.0000	10	2160
+AnkiDroid_src_main_java_com_ichi2_anki_NoteEditor.java/[CN]/NoteEditor/[MT]/onCollectionLoaded(Collection)	AnkiDroid_src_main_java_com_ichi2_anki_NoteEditor.java/[CN]/	10	0.8333	12	2160
+AnkiDroid_src_main_java_com_ichi2_anki_widgets_DeckAdapter.java/[CN]/DeckAdapter/[MT]/onBindViewHolder(ViewHolder,int)	AnkiDroid_src_main_java_com_ichi2_anki_widgets_DeckAdapter.java/[CN]/	9	1.0000	9	2160
+AnkiDroid_src_main_java_com_ichi2_anki_provider_CardContentProvider.java/[CN]/CardContentProvider/[MT]/insert(Uri,ContentValues)	AnkiDroid_src_main_java_com_ichi2_anki_provider_CardContentProvider.java/[CN]/	10	1.0000	10	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/onCreate(Bundle)	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	23	0.7931	29	2160
+AnkiDroid_src_main_java_com_ichi2_anki_provider_CardContentProvider.java/[CN]/CardContentProvider/[MT]/update(Uri,ContentValues,String,String[])	AnkiDroid_src_main_java_com_ichi2_anki_provider_CardContentProvider.java/[CN]/	11	1.0000	11	2160
+AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/AbstractFlashcardViewer/[MT]/restorePreferences()	AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/	12	0.7500	16	2160
+AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/AbstractFlashcardViewer/[MT]/restorePreferences()	AnkiDroid_src_main_java_com_ichi2_anki_Preferences.java/[CN]/	10	0.6250	16	2160
+AnkiDroid_src_main_java_com_ichi2_anki_CardBrowser.java/[CN]/CardBrowser/[MT]/onCollectionLoaded(Collection)	AnkiDroid_src_main_java_com_ichi2_anki_CardBrowser.java/[CN]/	11	0.9167	12	2160
+AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/AbstractFlashcardViewer/[MT]/initLayout()	AnkiDroid_src_main_java_com_ichi2_anki_AbstractFlashcardViewer.java/[CN]/	11	1.0000	11	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/updateDeckList()	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	9	0.6429	14	2160
+AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/DeckPicker/[MT]/onOptionsItemSelected(MenuItem)	AnkiDroid_src_main_java_com_ichi2_anki_DeckPicker.java/[CN]/	9	0.9000	10	2160
+AnkiDroid_src_main_java_com_ichi2_anki_Reviewer.java/[CN]/Reviewer/[MT]/onOptionsItemSelected(MenuItem)	AnkiDroid_src_main_java_com_ichi2_anki_Reviewer.java/[CN]/	9	0.7500	12	2160

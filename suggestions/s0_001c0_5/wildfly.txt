@@ -1,0 +1,2 @@
+
+mail_src_main_java_org_jboss_as_mail_extension_MailSessionAdd.java/[CN]/MailSessionAdd/[MT]/populateModel(ModelNode,ModelNode) MailSubsystemParser 2 [{MailSubsystemParser 2}]

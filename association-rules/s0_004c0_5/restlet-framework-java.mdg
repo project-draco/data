@@ -1,0 +1,4 @@
+modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/Introspector/[MT]/main(String[])	modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/	21	0.8077	26	3006
+modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/Introspector/[MT]/printHelp()	modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/	16	1.0000	16	3006
+modules_org.restlet_src_org_restlet_Application.java/[CN]/Application/[CS]/Application(Context)	modules_org.restlet_src_org_restlet_Application.java/[CN]/	15	0.7143	21	3006
+modules_org.restlet_src_org_restlet_resource_ServerResource.java/[CN]/ServerResource/[MT]/handle()	modules_org.restlet_src_org_restlet_resource_ServerResource.java/[CN]/	13	0.7222	18	3006

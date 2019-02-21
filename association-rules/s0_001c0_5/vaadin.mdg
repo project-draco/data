@@ -1,0 +1,3 @@
+src_com_vaadin_terminal_gwt_server_AbstractCommunicationManager.java/[CN]/AbstractCommunicationManager/[MT]/writeUidlResponse(boolean,PrintWriter,Root,boolean)	src_com_vaadin_terminal_gwt_server_AbstractCommunicationManager.java/[CN]/	12	0.6000	20	5371
+server_src_main_java_com_vaadin_data_Binder.java/[CN]/Binder/[CN]/BindingImpl/[MT]/validate()	server_src_main_java_com_vaadin_data_Binder.java/[CN]/	8	1.0000	8	5371
+src_com_vaadin_terminal_gwt_client_ui_VScrollTable.java/[CN]/VScrollTable/[CN]/VScrollTableBody/[CN]/VScrollTableRow/[MT]/onBrowserEvent(Event)	src_com_vaadin_terminal_gwt_client_ui_VScrollTable.java/[CN]/	6	1.0000	6	5371

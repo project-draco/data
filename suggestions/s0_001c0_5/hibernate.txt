@@ -1,0 +1,6 @@
+
+hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimestampTypeDescriptor.java/[CN]/TimestampTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>) TimeTypeDescriptor 2 [{TimeTypeDescriptor 2}]
+hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimeTypeDescriptor.java/[CN]/TimeTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>) TimestampTypeDescriptor 2 [{TimestampTypeDescriptor 2}]
+hibernate-core_src_main_java_org_hibernate_service_internal_StandardSessionFactoryServiceInitiators.java/[CN]/StandardSessionFactoryServiceInitiators/[MT]/buildStandardServiceInitiatorList() QueryPlanCache 2 [{QueryPlanCache 2}]
+hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimestampTypeDescriptor.java/[CN]/TimestampTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>)	hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimestampTypeDescriptor.java/[CN]/TimestampTypeDescriptor/[MT]/getExtractor(JavaTypeDescriptor<X>) TimeTypeDescriptor 0 [{TimeTypeDescriptor 0}]
+hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimeTypeDescriptor.java/[CN]/TimeTypeDescriptor/[MT]/getBinder(JavaTypeDescriptor<X>)	hibernate-core_src_main_java_org_hibernate_type_descriptor_sql_TimeTypeDescriptor.java/[CN]/TimeTypeDescriptor/[MT]/getExtractor(JavaTypeDescriptor<X>) TimestampTypeDescriptor 0 [{TimestampTypeDescriptor 0}]

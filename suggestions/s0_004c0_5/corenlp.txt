@@ -1,0 +1,2 @@
+
+src_edu_stanford_nlp_classify_LinearClassifierFactory.java/[CN]/LinearClassifierFactory/[MT]/loadFromFilename(String) LinearClassifier 4 [{CoNLLMentionExtractor 2} {MetaClass 2} {Tree 2} {PRCurve 2} {ParserAnnotatorUtils 2} {ChineseDocumentToSentenceProcessor 2} {CoreNLPServlet 2} {PTBLexer 2} {LinearClassifier 4}]

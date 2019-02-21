@@ -1,0 +1,2 @@
+
+core_metamodel_src_main_java_org_apache_isis_core_commons_lang_ClassExtensions.java/[CN]/ClassExtensions/[MT]/resourceProperties(Class<?>,String) VersionReprRenderer 2 [{VersionReprRenderer 2} {Clob 2} {Blob 2}]

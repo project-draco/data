@@ -1,0 +1,8 @@
+
+main_src_cgeo_geocaching_ui_dialog_CustomProgressDialog.java/[CN]/CustomProgressDialog/[CS]/CustomProgressDialog(Context)	main_src_cgeo_geocaching_ui_dialog_CustomProgressDialog.java/[CN]/CustomProgressDialog/[MT]/onCreate(Bundle) CoordinatesInputDialog 0 [{CoordinatesInputDialog 0} {GpxExport 0}]
+main_src_cgeo_geocaching_settings_RegisterSend2CgeoPreference.java/[CN]/RegisterSend2CgeoPreference/[MT]/getOnPreferenceClickListener(SettingsActivity) StatusFragment 2 [{StatusFragment 2} {CacheDetailActivity 2} {DataStore 2} {AbstractCheckCredentialsPreference 2} {RecaptchaHandler 2} {PocketQueryList 2} {MainActivity 2}]
+main_src_cgeo_geocaching_connector_trackable_GeokretyParser.java/[CN]/GeokretyParser/[MT]/parseResponse(String) GeokretyConnector 4 [{GeokretyConnector 4}]
+main_src_cgeo_geocaching_connector_oc_OCApiLiveConnector.java/[CN]/OCApiLiveConnector/[MT]/searchByViewport(Viewport,MapTokens) GCMap 2 [{GCMap 2}]
+main_src_cgeo_geocaching_ui_dialog_LiveMapInfoDialogBuilder.java/[CN]/LiveMapInfoDialogBuilder/[MT]/create(Activity) CGeoMap 2 [{CGeoMap 2} {GpxExport 2}]
+main_src_cgeo_geocaching_connector_trackable_GeokretyParser.java/[CN]/GeokretyParser/[MT]/parse(InputSource) GeokretyConnector 8 [{GeokretyConnector 8}]
+main_src_cgeo_geocaching_Intents.java/[CN]/Intents/[MT]/getListType(Intent) CacheListActivity 4 [{CacheListActivity 4}]

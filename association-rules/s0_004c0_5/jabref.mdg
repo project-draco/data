@@ -1,0 +1,5 @@
+src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/JabRefFrame/[MT]/init()	src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/	14	0.8750	16	3017
+src_main_java_net_sf_jabref_logic_importer_fetcher_MedlineFetcher.java/[CN]/MedlineFetcher/[MT]/performSearch(String)	src_main_java_net_sf_jabref_logic_importer_fetcher_MedlineFetcher.java/[CN]/	14	1.0000	14	3017
+src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/JabRefFrame/[MT]/initActions()	src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/	14	0.8750	16	3017
+src_main_java_net_sf_jabref_gui_entryeditor_EntryEditorTab.java/[CN]/EntryEditorTab/[MT]/setupPanel(JabRefFrame,BasePanel,boolean,boolean,String)	src_main_java_net_sf_jabref_gui_entryeditor_EntryEditor.java/[CN]/	15	0.7143	21	3017
+src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/JabRefFrame/[MT]/fillMenu()	src_main_java_net_sf_jabref_gui_JabRefFrame.java/[CN]/	30	0.8824	34	3017

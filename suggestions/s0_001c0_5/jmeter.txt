@@ -1,0 +1,10 @@
+
+src_core_org_apache_jmeter_config_gui_RowDetailDialog.java/[CN]/RowDetailDialog/[MT]/createRootPane() SearchTreeDialog 2 [{SearchTreeDialog 2} {FunctionHelper 2}]
+src_core_org_apache_jmeter_gui_action_SearchTreeDialog.java/[CN]/SearchTreeDialog/[MT]/createRootPane() RowDetailDialog 2 [{RowDetailDialog 2} {FunctionHelper 2}]
+src_components_org_apache_jmeter_visualizers_ViewResultsFullVisualizer.java/[CN]/ViewResultsFullVisualizer/[MT]/add(SampleResult) StatGraphVisualizer 2 [{StatGraphVisualizer 2} {GraphVisualizer 2} {AssertionVisualizer 2} {ComparisonVisualizer 2} {StatVisualizer 2} {MailerVisualizer 2} {TableVisualizer 2} {SummaryReport 2}]
+src_components_org_apache_jmeter_visualizers_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/add(SampleResult) AssertionVisualizer 2 [{AssertionVisualizer 2} {ComparisonVisualizer 2} {ViewResultsFullVisualizer 2}]
+src_components_org_apache_jmeter_visualizers_ComparisonVisualizer.java/[CN]/ComparisonVisualizer/[MT]/add(SampleResult) StatVisualizer 2 [{StatVisualizer 2} {AssertionVisualizer 2} {TableVisualizer 2} {ViewResultsFullVisualizer 2} {GraphVisualizer 2} {DistributionGraphVisualizer 2} {SummaryReport 2} {StatGraphVisualizer 2} {MailerVisualizer 2} {SplineVisualizer 2}]
+src_components_org_apache_jmeter_visualizers_StatVisualizer.java/[CN]/StatVisualizer/[MT]/add(SampleResult) MailerVisualizer 2 [{MailerVisualizer 2} {ViewResultsFullVisualizer 2} {AssertionVisualizer 2} {StatGraphVisualizer 2} {GraphVisualizer 2} {ComparisonVisualizer 2}]
+src_core_org_apache_jmeter_control_gui_TestPlanGui.java/[CN]/TestPlanGui/[MT]/createPopupMenu() MenuFactory 8 [{MenuFactory 8}]
+src_core_org_apache_jmeter_functions_gui_FunctionHelper.java/[CN]/FunctionHelper/[MT]/createRootPane() RowDetailDialog 2 [{RowDetailDialog 2} {SearchTreeDialog 2}]
+src_core_org_apache_jmeter_gui_action_Cut.java/[CN]/Cut/[MT]/doAction(ActionEvent) Copy 6 [{Copy 6}]

@@ -1,0 +1,6 @@
+
+services_src_main_java_io_druid_guice_RealtimeModule.java/[CN]/RealtimeModule/[MT]/configure(Binder) CliPeon 2 [{CliPeon 2}]
+processing_src_main_java_io_druid_query_metadata_SegmentMetadataQueryRunnerFactory.java/[CN]/SegmentMetadataQueryRunnerFactory/[MT]/createRunner(Segment) SegmentMetadataQueryQueryToolChest 2 [{SegmentMetadataQueryQueryToolChest 2}]
+services_src_main_java_io_druid_cli_CliMiddleManager.java/[CN]/CliMiddleManager/[MT]/getModules() CliOverlord 2 [{CliOverlord 2}]
+services_src_main_java_io_druid_cli_CliHistorical.java/[CN]/CliHistorical/[MT]/getModules() CliBroker 2 [{CliBroker 2}]
+processing_src_main_java_io_druid_query_groupby_GroupByQueryRunnerFactory.java/[CN]/GroupByQueryRunnerFactory/[MT]/mergeRunners(ExecutorService,Iterable<QueryRunner<Row>>) GroupByParallelQueryRunner 2 [{GroupByParallelQueryRunner 2}]

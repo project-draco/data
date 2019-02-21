@@ -1,0 +1,8 @@
+
+api_src_main_java_org_openmrs_validator_PersonMergeLogValidator.java/[CN]/PersonMergeLogValidator/[MT]/validate(Object,Errors) PersonServiceImpl 2 [{PersonServiceImpl 2} {HibernatePersonDAO 2}]
+api_src_main_java_org_openmrs_util_OpenmrsConstants.java/[CN]/OpenmrsConstants/[FE]/DEFAULT_CUSTOM_DATATYPE CustomDatatypeUtil 4 [{CustomDatatypeUtil 4}]
+api_src_main_java_org_openmrs_validator_HL7SourceValidator.java/[CN]/HL7SourceValidator/[MT]/validate(Object,Errors) ProgramValidator 2 [{ProgramValidator 2}]
+api_src_main_java_org_openmrs_util_databasechange_ProgramValidatorChangeSet.java/[CN]/ProgramValidatorChangeSet/[MT]/execute(Database) DatabaseUtil 4 [{HibernateAdministrationDAO 2} {UpdateFilter 2} {DatabaseUtil 4} {ConceptValidatorChangeSet 2} {BooleanConceptChangeSet 2}]
+api_src_main_java_org_openmrs_customdatatype_datatype_LongFreeTextDatatype.java/[CN]/LongFreeTextDatatype/[MT]/getTextSummary(String) DateDatatype 2 [{DateDatatype 2} {SerializingCustomDatatype 2}]
+api_src_main_java_org_openmrs_validator_ConceptDatatypeValidator.java/[CN]/ConceptDatatypeValidator/[MT]/validate(Object,Errors) EncounterTypeValidator 2 [{EncounterTypeValidator 2} {RoleValidator 2} {PatientIdentifierTypeValidator 2} {PrivilegeValidator 2} {ProgramValidator 2} {ConceptClassValidator 2} {PersonAttributeTypeValidator 2}]
+api_src_main_java_org_openmrs_validator_PrivilegeValidator.java/[CN]/PrivilegeValidator/[MT]/validate(Object,Errors) RoleValidator 2 [{RoleValidator 2} {EncounterTypeValidator 2} {ConceptDatatypeValidator 2} {ProgramValidator 2} {PersonAttributeTypeValidator 2} {PatientIdentifierTypeValidator 2} {ConceptClassValidator 2}]

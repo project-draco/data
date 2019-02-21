@@ -1,0 +1,2 @@
+
+src_main_java_net_minecraftforge_common_MinecraftForge.java/[CN]/MinecraftForge/[MT]/initialize() ForgeModContainer 2 [{ForgeModContainer 2}]

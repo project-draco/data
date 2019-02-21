@@ -1,0 +1,3 @@
+
+graphdb_src_main_java_com_orientechnologies_orient_graph_sql_functions_OSQLFunctionShortestPath.java/[CN]/OSQLFunctionShortestPath/[MT]/execute(Object,OIdentifiable,Object,Object[],OCommandContext) OGraphCommandExecutorSQLFactory 4 [{OSQLFunctionDijkstra 2} {OSQLFunctionMove 2} {OSQLFunctionLabel 2} {OGraphCommandExecutorSQLFactory 4}]
+graphdb_src_main_java_com_orientechnologies_orient_graph_sql_functions_OSQLFunctionLabel.java/[CN]/OSQLFunctionLabel/[MT]/execute(Object,OIdentifiable,Object,Object[],OCommandContext) OGraphCommandExecutorSQLFactory 4 [{OCommandExecutorSQLDeleteEdge 2} {OSQLFunctionDijkstra 2} {OSQLFunctionMove 2} {OGraphCommandExecutorSQLFactory 4} {OSQLFunctionShortestPath 2}]

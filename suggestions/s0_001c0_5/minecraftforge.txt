@@ -1,0 +1,5 @@
+
+src_main_java_net_minecraftforge_common_MinecraftForge.java/[CN]/MinecraftForge/[MT]/initialize() ForgeModContainer 2 [{ForgeModContainer 2}]
+fml_src_main_java_cpw_mods_fml_common_launcher_FMLServerTweaker.java/[CN]/FMLServerTweaker/[MT]/injectIntoClassLoader(LaunchClassLoader) FMLTweaker 2 [{FMLTweaker 2}]
+src_main_java_net_minecraftforge_client_MinecraftForgeClient.java/[CN]/MinecraftForgeClient/[MT]/getRenderLayer() ForgeHooksClient 4 [{ForgeHooksClient 4}]
+src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/makeItemStack(String,int,int,String) FMLControlledNamespacedRegistry 4 [{FMLControlledNamespacedRegistry 4}]

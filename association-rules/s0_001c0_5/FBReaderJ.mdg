@@ -1,0 +1,4 @@
+third-party_android-filechooser_code_src_group_pals_android_lib_ui_filechooser_utils_FileUtils.java/[CN]/FileUtils/[MT]/getResIcon(IFile,IFileProvider.FilterMode)	third-party_android-filechooser_code_src_group_pals_android_lib_ui_filechooser_utils_FileUtils.java/[CN]/	5	0.8333	6	3325
+src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/DirectoriesManagerActivity/[MT]/onCreate(Bundle)	src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/	4	0.8000	5	3325
+src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/DirectoriesManagerActivity/[CN]/DirectoriesAdapter/[MT]/getView(int,View,ViewGroup)	src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/	5	1.0000	5	3325
+src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/DirectoriesManagerActivity/[MT]/setupActionButtons()	src_org_geometerplus_android_fbreader_DirectoriesManagerActivity.java/[CN]/	4	1.0000	4	3325

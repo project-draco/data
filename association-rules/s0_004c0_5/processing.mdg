@@ -1,0 +1,5 @@
+core_src_processing_core_PApplet.java/[CN]/PApplet/[MT]/runSketch(String[],PApplet)	core_src_processing_core_PApplet.java/[CN]/	28	0.7778	36	4534
+core_src_processing_core_PApplet.java/[CN]/PApplet/[MT]/handleDraw()	core_src_processing_core_PApplet.java/[CN]/	21	0.8077	26	4534
+app_src_processing_app_Base.java/[CN]/Base/[CS]/Base(String[])	app_src_processing_app_Base.java/[CN]/	34	0.8293	41	4534
+core_src_processing_opengl_PGraphicsOpenGL.java/[CN]/PGraphicsOpenGL/[MT]/beginDraw()	core_src_processing_opengl_PGraphicsOpenGL.java/[CN]/	29	0.9062	32	4534
+app_src_processing_app_Sketch.java/[CN]/Sketch/[MT]/saveAs()	app_src_processing_app_Sketch.java/[CN]/	21	0.8077	26	4534

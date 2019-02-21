@@ -1,0 +1,5 @@
+
+plugins_org.jkiss.dbeaver.core_src_org_jkiss_dbeaver_ui_dialogs_driver_DriverDownloadManualPage.java/[CN]/DriverDownloadManualPage/[MT]/performFinish() DriverDownloadDialog 2 [{DriverDownloadDialog 2}]
+plugins_org.jkiss.dbeaver.ext.postgresql_src_org_jkiss_dbeaver_ext_postgresql_PostgreDataSourceProvider.java/[CN]/PostgreDataSourceProvider/[MT]/openDataSource(DBRProgressMonitor,DBPDataSourceContainer) PostgreMetaModel 2 [{PostgreMetaModel 2}]
+plugins_org.jkiss.dbeaver.core_src_org_jkiss_dbeaver_ui_resources_ScriptsHandlerImpl.java/[CN]/ScriptsHandlerImpl/[MT]/getAssociatedDataSources(IResource)	plugins_org.jkiss.dbeaver.core_src_org_jkiss_dbeaver_ui_resources_ScriptsHandlerImpl.java/[CN]/ScriptsHandlerImpl/[MT]/getResourceDescription(IResource) ResourceUtils 2 [{ResourceUtils 2}]
+plugins_org.jkiss.dbeaver.ext.oracle_src_org_jkiss_dbeaver_ext_oracle_OracleDataSourceProvider.java/[CN]/OracleDataSourceProvider/[MT]/getConnectionURL(DBPDriver,DBPConnectionConfiguration) OCIUtils 8 [{OCIUtils 8}]

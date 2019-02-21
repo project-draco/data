@@ -1,0 +1,4 @@
+
+modules_cpr_src_main_java_org_atmosphere_cpr_ContainerInitializer.java/[CN]/ContainerInitializer/[MT]/onStartup(Set<Class<?>>,ServletContext) AtmosphereFramework 8 [{JSR356AsyncSupport 4} {AtmosphereFramework 8} {IOUtils 4}]
+modules_cpr_src_main_java_org_atmosphere_cpr_Meteor.java/[CN]/Meteor/[MT]/lookup(HttpServletRequest) AtmosphereResourceImpl 4 [{AsynchronousProcessor 2} {AtmosphereResourceImpl 4}]
+modules_cpr_src_main_java_org_atmosphere_util_AbstractBroadcasterProxy.java/[CN]/AbstractBroadcasterProxy/[MT]/getBroadcastHandler() DefaultBroadcaster 2 [{DefaultBroadcaster 2}]

@@ -1,0 +1,8 @@
+src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/leftCluster()	src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/	11	1.0000	11	2148
+src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/startClustering()	src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/	13	0.9286	14	2148
+src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/notifyConferenceMonitors(ConferenceEvent)	src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/	9	1.0000	9	2148
+src_java_org_jivesoftware_openfire_container_AdminConsolePlugin.java/[CN]/AdminConsolePlugin/[MT]/startup()	src_java_org_jivesoftware_openfire_http_HttpBindManager.java/[CN]/	17	0.8500	20	2148
+src_java_org_jivesoftware_openfire_http_HttpBindManager.java/[CN]/HttpBindManager/[MT]/configureHttpBindServer(int,int)	src_java_org_jivesoftware_openfire_http_HttpBindManager.java/[CN]/	14	0.9333	15	2148
+src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/stopClustering()	src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/	11	1.0000	11	2148
+src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/HttpSession/[MT]/addConnection(HttpConnection,boolean)	src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/	11	1.0000	11	2148
+src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/callEventNotification(com.sun.voip.CallEvent)	src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/	9	1.0000	9	2148

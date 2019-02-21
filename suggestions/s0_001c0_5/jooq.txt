@@ -1,0 +1,7 @@
+
+jOOQ_src_main_java_org_jooq_impl_SQLTable.java/[CN]/SQLTable/[MT]/fields0() TableAlias 2 [{TableAlias 2} {Pivot 2} {JoinTable 2} {QualifiedTable 2} {FunctionTable 2} {Dual 2} {TableImpl 2} {Values 2} {ArrayTable 2} {ArrayTableSimulation 2} {SelectQueryAsTable 2}]
+jOOQ_src_main_java_org_jooq_impl_QualifiedTable.java/[CN]/QualifiedTable/[MT]/fields0() Values 2 [{Values 2} {Dual 2} {TableImpl 2} {ArrayTableSimulation 2} {SQLTable 2} {SelectQueryAsTable 2} {Pivot 2} {TableAlias 2} {ArrayTable 2} {FunctionTable 2} {JoinTable 2}]
+jOOQ_src_main_java_org_jooq_impl_FunctionTable.java/[CN]/FunctionTable/[MT]/fields0() Pivot 2 [{Pivot 2} {ArrayTable 2} {SQLTable 2} {Dual 2} {ArrayTableSimulation 2} {TableImpl 2} {TableAlias 2} {Values 2} {QualifiedTable 2} {SelectQueryAsTable 2} {JoinTable 2}]
+jOOQ_src_main_java_org_jooq_impl_Dual.java/[CN]/Dual/[MT]/fields0() Pivot 2 [{Pivot 2} {FunctionTable 2} {TableAlias 2} {QualifiedTable 2} {Values 2} {SQLTable 2} {JoinTable 2} {ArrayTable 2} {ArrayTableSimulation 2} {TableImpl 2} {SelectQueryAsTable 2}]
+jOOQ_src_main_java_org_jooq_impl_UDTRecordImpl.java/[CN]/UDTRecordImpl/[MT]/getSQLTypeName() DefaultExecuteContext 4 [{DefaultExecuteContext 4}]
+jOOQ_src_main_java_org_jooq_impl_DerivedColumnListImpl.java/[CN]/DerivedColumnListImpl/[MT]/as(Select) NameImpl 4 [{NameImpl 4}]

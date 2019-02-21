@@ -1,0 +1,2 @@
+
+hazelcast_src_main_java_com_hazelcast_mapreduce_impl_MapReduceDataSerializerHook.java/[CN]/MapReduceDataSerializerHook/[MT]/createFactory() JobSupervisor 2 [{JobSupervisor 2} {MapCombineTask 2}]

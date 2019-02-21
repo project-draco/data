@@ -1,0 +1,3 @@
+
+src_main_java_com_google_devtools_build_lib_rules_objc_IosApplication.java/[CN]/IosApplication/[MT]/configureTarget(RuleConfiguredTargetBuilder,RuleContext,ReleaseBundlingSupport) ReleaseBundlingSupport 8 [{ReleaseBundlingSupport 8} {ObjcRuleClasses 4} {BinaryLinkingTargetFactory 2}]
+src_main_java_com_google_devtools_build_lib_rules_objc_ObjcProtoAspect.java/[CN]/ObjcProtoAspect/[MT]/getDefinition(AspectParameters) IosTest 2 [{IosTest 2} {ObjcProtoLibrary 2} {ObjcConfiguration 2} {BinaryLinkingTargetFactory 2} {AppleBinary 2}]

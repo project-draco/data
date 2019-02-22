@@ -1,4 +1,3 @@
-src_java_org_mule_config_builders_MuleXmlConfigurationBuilder.java/[CN]/MuleXmlConfigurationBuilder/[CS]/MuleXmlConfigurationBuilder()	src_java_org_mule_config_builders_MuleXmlConfigurationBuilder.java/[CN]/	6	0.8571	7	5413
-src_java_org_mule_providers_AbstractMessageDispatcher.java/[CN]/AbstractMessageDispatcher/[MT]/send(UMOEvent)	src_java_org_mule_providers_AbstractMessageDispatcher.java/[CN]/	6	1.0000	6	5413
-src_java_org_mule_providers_AbstractMessageDispatcher.java/[CN]/AbstractMessageDispatcher/[MT]/dispatch(UMOEvent)	src_java_org_mule_providers_AbstractMessageDispatcher.java/[CN]/	6	0.8571	7	5413
-src_java_org_mule_routing_outbound_FilteringXmlMessageSplitter.java/[CN]/FilteringXmlMessageSplitter/[MT]/initialise(UMOMessage)	src_java_org_mule_routing_outbound_FilteringXmlMessageSplitter.java/[CN]/	6	0.7500	8	5413
+version https://git-lfs.github.com/spec/v1
+oid sha256:c275b7fb53339408906be132431a2b7dcc05399c9e49291deb2920e642ff1799
+size 833

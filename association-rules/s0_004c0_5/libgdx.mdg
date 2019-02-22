@@ -1,8 +1,3 @@
-gdx_src_com_badlogic_gdx_scenes_scene2d_ui_Tree.java/[CN]/Tree/[MT]/initialize()	gdx_src_com_badlogic_gdx_scenes_scene2d_ui_Tree.java/[CN]/	18	0.9000	20	3759
-gdx_src_com_badlogic_gdx_utils_JsonReader.java/[CN]/JsonReader/[MT]/parse(char[],int,int)	gdx_src_com_badlogic_gdx_utils_JsonReader.java/[CN]/	22	0.9565	23	3759
-backends_gdx-backend-android_src_com_badlogic_gdx_backends_android_AndroidApplication.java/[CN]/AndroidApplication/[MT]/initializeForView(ApplicationListener,AndroidApplicationConfiguration)	backends_gdx-backend-android_src_com_badlogic_gdx_backends_android_AndroidApplication.java/[CN]/	18	1.0000	18	3759
-gdx_src_com_badlogic_gdx_utils_Json.java/[CN]/Json/[MT]/writeValue(Object,Class,Class)	gdx_src_com_badlogic_gdx_utils_Json.java/[CN]/	16	0.9412	17	3759
-backends_gdx-backends-gwt_src_com_badlogic_gdx_backends_gwt_GwtApplication.java/[CN]/GwtApplication/[MT]/setupLoop()	backends_gdx-backends-gwt_src_com_badlogic_gdx_backends_gwt_GwtApplication.java/[CN]/	17	0.8500	20	3759
-gdx_src_com_badlogic_gdx_scenes_scene2d_utils_DragAndDrop.java/[CN]/DragAndDrop/[MT]/addSource(Source)	gdx_src_com_badlogic_gdx_scenes_scene2d_utils_DragAndDrop.java/[CN]/	17	0.8947	19	3759
-backends_gdx-backend-android_src_com_badlogic_gdx_backends_android_AndroidApplication.java/[CN]/AndroidApplication/[MT]/initialize(ApplicationListener,AndroidApplicationConfiguration)	backends_gdx-backend-android_src_com_badlogic_gdx_backends_android_AndroidApplication.java/[CN]/	21	0.9545	22	3759
-gdx_src_com_badlogic_gdx_scenes_scene2d_ui_Label.java/[CN]/Label/[MT]/layout()	gdx_src_com_badlogic_gdx_scenes_scene2d_ui_Label.java/[CN]/	18	0.9000	20	3759
+version https://git-lfs.github.com/spec/v1
+oid sha256:c9230a3740bfb397efcd372d8253899aa5be1f539a0ff97b41a1a070f7f1dcf3
+size 1652

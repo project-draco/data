@@ -1,8 +1,3 @@
-fabric8-maven-plugin_src_main_java_io_fabric8_maven_ApplyMojo.java/[CN]/ApplyMojo/[MT]/execute()	fabric8-maven-plugin_src_main_java_io_fabric8_maven_ApplyMojo.java/[CN]/	22	0.7586	29	3342
-components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/Controller/[MT]/applyReplicationController(ReplicationController,String)	components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/	21	1.0000	21	3342
-fabric8-maven-plugin_src_main_java_io_fabric8_maven_ApplyMojo.java/[CN]/ApplyMojo/[MT]/execute()	components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/	16	0.5517	29	3342
-fabric8-maven-plugin_src_main_java_io_fabric8_maven_JsonMojo.java/[CN]/JsonMojo/[MT]/generateKubernetesJson(File)	fabric8-maven-plugin_src_main_java_io_fabric8_maven_JsonMojo.java/[CN]/	41	0.8039	51	3342
-components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/Controller/[MT]/applyPod(Pod,String)	components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/	18	1.0000	18	3342
-fabric8-maven-plugin_src_main_java_io_fabric8_maven_CreateEnvMojo.java/[CN]/CreateEnvMojo/[MT]/execute()	fabric8-maven-plugin_src_main_java_io_fabric8_maven_CreateEnvMojo.java/[CN]/	16	0.9412	17	3342
-components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/Controller/[MT]/applyService(Service,String)	components_kubernetes-api_src_main_java_io_fabric8_kubernetes_api_Controller.java/[CN]/	18	0.9474	19	3342
-components_fabric8-devops-connector_src_main_java_io_fabric8_devops_connector_DevOpsConnector.java/[CN]/DevOpsConnector/[MT]/execute()	components_fabric8-devops-connector_src_main_java_io_fabric8_devops_connector_DevOpsConnector.java/[CN]/	16	0.8000	20	3342
+version https://git-lfs.github.com/spec/v1
+oid sha256:7800e9b51277621a59911fe8f93fd1806a0f7484296c9782a0524f5de0b1cdeb
+size 1795

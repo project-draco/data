@@ -1,3 +1,3 @@
-core_java_android_app_ActivityManagerNative.java/[CN]/ActivityManagerNative/[MT]/onTransact(int,Parcel,Parcel,int)	services_core_java_com_android_server_am_ActivityManagerService.java/[CN]/	130	0.5462	238	26860
-core_java_android_app_ActivityManagerNative.java/[CN]/ActivityManagerNative/[MT]/onTransact(int,Parcel,Parcel,int)	core_java_android_app_ActivityManagerNative.java/[CN]/	226	0.9496	238	26860
-packages_SystemUI_src_com_android_systemui_statusbar_phone_PhoneStatusBar.java/[CN]/PhoneStatusBar/[MT]/makeStatusBarView()	packages_SystemUI_src_com_android_systemui_statusbar_phone_PhoneStatusBar.java/[CN]/	142	0.6827	208	26860
+version https://git-lfs.github.com/spec/v1
+oid sha256:a1a474630c5ec3f6787f3c057cc0e44dbac66a9ab8000ef1f6a94f9cbe7d3b5e
+size 635

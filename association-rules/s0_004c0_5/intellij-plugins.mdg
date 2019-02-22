@@ -1,5 +1,3 @@
-Dart_src_com_jetbrains_lang_dart_ide_formatter_DartSpacingProcessor.java/[CN]/DartSpacingProcessor/[MT]/getSpacing(Block,Block)	Dart_src_com_jetbrains_lang_dart_ide_formatter_DartIndentProcessor.java/[CN]/	22	0.6875	32	4274
-Dart_src_com_jetbrains_lang_dart_ide_formatter_DartIndentProcessor.java/[CN]/DartIndentProcessor/[MT]/getChildIndent(ASTNode)	Dart_src_com_jetbrains_lang_dart_ide_formatter_DartSpacingProcessor.java/[CN]/	21	0.7000	30	4274
-Dart_src_com_jetbrains_lang_dart_analyzer_DartAnalysisServerService.java/[CN]/DartAnalysisServerService/[CS]/DartAnalysisServerService()	Dart_src_com_jetbrains_lang_dart_analyzer_DartAnalysisServerService.java/[CN]/	19	0.9500	20	4274
-flex_src_com_intellij_lang_javascript_flex_projectStructure_ui_DependenciesConfigurable.java/[CN]/DependenciesConfigurable/[MT]/reset()	flex_src_com_intellij_lang_javascript_flex_projectStructure_ui_DependenciesConfigurable.java/[CN]/	22	1.0000	22	4274
-Dart_src_com_jetbrains_lang_dart_ide_formatter_DartSpacingProcessor.java/[CN]/DartSpacingProcessor/[MT]/getSpacing(Block,Block)	Dart_src_com_jetbrains_lang_dart_ide_formatter_DartSpacingProcessor.java/[CN]/	18	0.5625	32	4274
+version https://git-lfs.github.com/spec/v1
+oid sha256:1fadc0eae51d9ef8322b9c97047f19a656db5e6cfd918df7dff4fde72337139c
+size 1164

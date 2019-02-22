@@ -1,34 +1,3 @@
-src_main_java_hex_NeuralNet.java/[CN]/NeuralNet/[MT]/startTrain()	src_main_java_hex_NeuralNet.java/[CN]/	13	0.7647	17	3195
-src_main_java_hex_CoxPH.java/[CN]/CoxPH/[MT]/execImpl()	src_main_java_hex_CoxPH.java/[CN]/	14	1.0000	14	3195
-hadoop_src_main_java_water_hadoop_h2odriver.java/[CN]/h2odriver/[MT]/parseArgs(String[])	hadoop_src_main_java_water_hadoop_h2odriver.java/[CN]/	18	1.0000	18	3195
-src_main_java_water_api_SummaryPage2.java/[CN]/SummaryPage2/[MT]/serve()	src_main_java_hex_Summary2.java/[CN]/	15	0.9375	16	3195
-src_main_java_water_H2O.java/[CN]/H2O/[MT]/main(String[])	src_main_java_water_H2O.java/[CN]/	26	0.8387	31	3195
-src_main_java_water_H2O.java/[CN]/H2O/[MT]/printHelp()	src_main_java_water_H2O.java/[CN]/	13	0.8667	15	3195
-src_main_java_hex_Layer.java/[CN]/Layer/[CN]/Linear/[MT]/bprop()	src_main_java_hex_Layer.java/[CN]/	14	1.0000	14	3195
-src_main_java_hex_Layer.java/[CN]/Layer/[CN]/Softmax/[MT]/bprop()	src_main_java_hex_Layer.java/[CN]/	13	0.9286	14	3195
-src_main_java_hex_singlenoderf_SpeeDRFModel.java/[CN]/SpeeDRFModel/[MT]/generateHTML(String,StringBuilder)	src_main_java_hex_singlenoderf_SpeeDRF.java/[CN]/	13	0.5417	24	3195
-src_main_java_hex_singlenoderf_Tree.java/[CN]/Tree/[MT]/compute2()	src_main_java_hex_singlenoderf_Tree.java/[CN]/	13	0.8125	16	3195
-src_main_java_water_api_Cloud.java/[CN]/Cloud/[MT]/serve()	src_main_java_water_HeartBeatThread.java/[CN]/	16	0.7273	22	3195
-src_main_java_hex_Layer.java/[CN]/Layer/[CN]/Rectifier/[MT]/bprop()	src_main_java_hex_Layer.java/[CN]/	13	1.0000	13	3195
-src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[MT]/execImpl()	src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	13	0.8125	16	3195
-src_main_java_hex_Trainer.java/[CN]/Trainer/[CN]/DescentChunk/[MT]/compute2()	src_main_java_hex_Trainer.java/[CN]/	14	1.0000	14	3195
-src_main_java_hex_NeuralNet.java/[CN]/NeuralNet/[MT]/queryArgumentValueSet(Argument,java.util.Properties)	src_main_java_hex_NeuralNet.java/[CN]/	15	1.0000	15	3195
-src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/DeepLearningModel/[MT]/generateHTML(String,StringBuilder)	src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/	30	0.6977	43	3195
-src_main_java_water_HeartBeatThread.java/[CN]/HeartBeatThread/[MT]/run()	src_main_java_water_api_Cloud.java/[CN]/	16	0.6957	23	3195
-src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[MT]/checkParams()	src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	14	0.7778	18	3195
-src_main_java_hex_FrameTask.java/[CN]/FrameTask/[MT]/map(Chunk[],NewChunk[])	src_main_java_hex_FrameTask.java/[CN]/	21	0.7778	27	3195
-src_main_java_water_api_AUC.java/[CN]/AUC/[MT]/toHTML(StringBuilder)	src_main_java_water_api_AUC.java/[CN]/	17	0.9444	18	3195
-hadoop_src_main_java_water_hadoop_h2odriver.java/[CN]/h2odriver/[MT]/run2(String[])	hadoop_src_main_java_water_hadoop_h2odriver.java/[CN]/	21	0.9130	23	3195
-src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[MT]/trainModel(DeepLearningModel)	src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	30	0.8333	36	3195
-src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[MT]/queryArgumentValueSet(Argument,java.util.Properties)	src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	16	0.9412	17	3195
-src_main_java_water_MRTask2.java/[CN]/MRTask2/[MT]/postLocal()	src_main_java_water_MRTask2.java/[CN]/	14	0.8750	16	3195
-src_main_java_water_HeartBeatThread.java/[CN]/HeartBeatThread/[MT]/run()	src_main_java_water_HeartBeat.java/[CN]/	14	0.6087	23	3195
-src_main_java_hex_Summary2.java/[CN]/Summary2/[MT]/toHTML(Vec,String,StringBuilder)	src_main_java_hex_Summary2.java/[CN]/	14	0.9333	15	3195
-src_main_java_water_Model.java/[CN]/Model/[MT]/toJava(SB)	src_main_java_water_Model.java/[CN]/	13	0.7647	17	3195
-src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/DeepLearningModel/[MT]/generateHTML(String,StringBuilder)	src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	23	0.5349	43	3195
-src_main_java_hex_glm_GLM2.java/[CN]/GLM2/[CN]/Iteration/[MT]/callback(GLMIterationTask)	src_main_java_hex_glm_GLM2.java/[CN]/	33	0.8250	40	3195
-src_main_java_hex_Summary2.java/[CN]/Summary2/[MT]/add(Chunk)	src_main_java_hex_Summary2.java/[CN]/	13	1.0000	13	3195
-src_main_java_hex_deeplearning_Neurons.java/[CN]/Neurons/[MT]/bprop(int,float,float,float)	src_main_java_hex_deeplearning_Neurons.java/[CN]/	14	0.8235	17	3195
-src_main_java_water_api_Parse.java/[CN]/Parse/[CN]/ExistingCSVKey/[MT]/parse(String)	src_main_java_water_api_Parse.java/[CN]/	19	0.6786	28	3195
-src_main_java_hex_singlenoderf_SpeeDRFModel.java/[CN]/SpeeDRFModel/[MT]/generateHTML(String,StringBuilder)	src_main_java_hex_singlenoderf_SpeeDRFModel.java/[CN]/	21	0.8750	24	3195
-src_main_java_water_fvec_ParseDataset2.java/[CN]/ParseDataset2/[CN]/MultiFileParseTask/[MT]/map(Key)	src_main_java_water_fvec_ParseDataset2.java/[CN]/	29	0.8788	33	3195
+version https://git-lfs.github.com/spec/v1
+oid sha256:3806649f85c69898645c92fdbccef44734a846ba4dc0e518ef6d76223334d715
+size 4903

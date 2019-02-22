@@ -1,21 +1,3 @@
-OsmAnd_src_net_osmand_plus_views_MapControlsLayer.java/[CN]/MapControlsLayer/[MT]/initLayer(OsmandMapTileView)	OsmAnd_src_net_osmand_plus_views_MapControlsLayer.java/[CN]/	22	0.8462	26	4934
-OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/OsmandSettings/[MT]/toHumanString(Context).conflicted2	OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/	30	1.0000	30	4934
-OsmAnd-java_src_net_osmand_util_GeoPointParserUtil.java/[CN]/GeoPointParserUtil/[MT]/main(String[])	OsmAnd-java_src_net_osmand_util_GeoPointParserUtil.java/[CN]/	33	0.9167	36	4934
-OsmAnd_src_net_osmand_plus_osmo_OsMoGroupsActivity.java/[CN]/OsMoGroupsActivity/[MT]/enterSelectionMode(Object)	OsmAnd_src_net_osmand_plus_osmo_OsMoGroupsActivity.java/[CN]/	34	0.7907	43	4934
-OsmAnd_src_net_osmand_plus_activities_search_SearchActivity.java/[CN]/SearchActivity/[MT]/onCreate(Bundle)	OsmAnd_src_net_osmand_plus_activities_search_SearchActivity.java/[CN]/	22	0.6111	36	4934
-OsmAnd-java_src_net_osmand_util_GeoPointParserUtil.java/[CN]/GeoPointParserUtil/[MT]/parse(String)	OsmAnd-java_src_net_osmand_util_GeoPointParserUtil.java/[CN]/	26	1.0000	26	4934
-OsmAnd_src_net_osmand_plus_activities_MapActivity.java/[CN]/MapActivity/[MT]/onResume()	OsmAnd_src_net_osmand_plus_activities_MapActivity.java/[CN]/	65	0.7065	92	4934
-OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/OsmandSettings/[MT]/toHumanString(Context).conflicted0	OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/	34	1.0000	34	4934
-OsmAnd_src_net_osmand_plus_download_DownloadActivity.java/[CN]/DownloadActivity/[MT]/onCreate(Bundle)	OsmAnd_src_net_osmand_plus_download_DownloadActivity.java/[CN]/	32	0.5246	61	4934
-OsmAnd_src_net_osmand_plus_activities_MapActivityActions.java/[CN]/MapActivityActions/[MT]/contextMenuPoint(double,double,ContextMenuAdapter,Object)	OsmAnd_src_net_osmand_plus_activities_MapActivityActions.java/[CN]/	45	0.7258	62	4934
-OsmAnd_src_net_osmand_plus_mapcontextmenu_MapContextMenuFragment.java/[CN]/MapContextMenuFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)	OsmAnd_src_net_osmand_plus_mapcontextmenu_MapContextMenu.java/[CN]/	34	0.5667	60	4934
-OsmAnd_src_net_osmand_plus_dashboard_DashboardOnMap.java/[CN]/DashboardOnMap/[MT]/setDashboardVisibility(boolean,DashboardType,DashboardType,boolean)	OsmAnd_src_net_osmand_plus_dashboard_DashboardOnMap.java/[CN]/	22	0.8148	27	4934
-OsmAnd_src_net_osmand_plus_mapcontextmenu_MapContextMenuFragment.java/[CN]/MapContextMenuFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)	OsmAnd_src_net_osmand_plus_mapcontextmenu_MapContextMenuFragment.java/[CN]/	43	0.7167	60	4934
-OsmAnd_src_net_osmand_plus_dashboard_DashboardOnMap.java/[CN]/DashboardOnMap/[MT]/createDashboardView()	OsmAnd_src_net_osmand_plus_dashboard_DashboardOnMap.java/[CN]/	33	0.7674	43	4934
-OsmAnd_src_net_osmand_plus_activities_SettingsActivity.java/[CN]/SettingsActivity/[MT]/onCreate(Bundle)	OsmAnd_src_net_osmand_plus_activities_SettingsActivity.java/[CN]/	41	0.5541	74	4934
-OsmAnd_src_net_osmand_plus_views_MapInfoLayer.java/[CN]/MapInfoLayer/[MT]/registerAllControls()	OsmAnd_src_net_osmand_plus_views_MapInfoLayer.java/[CN]/	36	0.6316	57	4934
-OsmAnd_src_net_osmand_plus_activities_MapActivity.java/[CN]/MapActivity/[MT]/onCreate(Bundle)	OsmAnd_src_net_osmand_plus_activities_MapActivity.java/[CN]/	58	0.6237	93	4934
-OsmAnd_src_net_osmand_plus_search_QuickSearchDialogFragment.java/[CN]/QuickSearchDialogFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)	OsmAnd_src_net_osmand_plus_search_QuickSearchDialogFragment.java/[CN]/	23	0.8519	27	4934
-OsmAnd_src_net_osmand_plus_activities_search_SearchPOIActivity.java/[CN]/SearchPOIActivity/[MT]/onCreate(Bundle)	OsmAnd_src_net_osmand_plus_activities_search_SearchPOIActivity.java/[CN]/	31	0.8611	36	4934
-OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/OsmandSettings/[MT]/toHumanString(Context).conflicted1	OsmAnd_src_net_osmand_plus_OsmandSettings.java/[CN]/	45	1.0000	45	4934
-OsmAnd_src_net_osmand_plus_views_MapInfoLayer.java/[CN]/MapInfoLayer/[MT]/initLayer(OsmandMapTileView)	OsmAnd_src_net_osmand_plus_views_MapInfoLayer.java/[CN]/	20	0.7407	27	4934
+version https://git-lfs.github.com/spec/v1
+oid sha256:8717df7d8671d601eda422ebfaac7ccd156dc18b9155e81413ed0e85a172b2d8
+size 4123

@@ -1,4 +1,3 @@
-modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/Introspector/[MT]/main(String[])	modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/	21	0.8077	26	3006
-modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/Introspector/[MT]/printHelp()	modules_org.restlet.ext.apispark_src_org_restlet_ext_apispark_Introspector.java/[CN]/	16	1.0000	16	3006
-modules_org.restlet_src_org_restlet_Application.java/[CN]/Application/[CS]/Application(Context)	modules_org.restlet_src_org_restlet_Application.java/[CN]/	15	0.7143	21	3006
-modules_org.restlet_src_org_restlet_resource_ServerResource.java/[CN]/ServerResource/[MT]/handle()	modules_org.restlet_src_org_restlet_resource_ServerResource.java/[CN]/	13	0.7222	18	3006
+version https://git-lfs.github.com/spec/v1
+oid sha256:8499fdf74e52aee0e5d069f7140437ee8c8ac203333ce6d48c4588c38f2ab607
+size 806

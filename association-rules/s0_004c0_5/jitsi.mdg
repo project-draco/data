@@ -1,2 +1,3 @@
-src_net_java_sip_communicator_impl_gui_main_contactlist_ContactListTreeCellRenderer.java/[CN]/ContactListTreeCellRenderer/[MT]/initButtonsPanel(UIContact)	src_net_java_sip_communicator_impl_gui_main_contactlist_ContactListTreeCellRenderer.java/[CN]/	24	0.6857	35	5158
-src_net_java_sip_communicator_impl_protocol_jabber_extensions_colibri_ColibriIQProvider.java/[CN]/ColibriIQProvider/[MT]/parseIQ(XmlPullParser)	src_net_java_sip_communicator_impl_protocol_jabber_extensions_colibri_ColibriConferenceIQ.java/[CN]/	24	0.7742	31	5158
+version https://git-lfs.github.com/spec/v1
+oid sha256:7696fbfa52cd81b86ba1284a943c2513ffec0d3e70a5180107d933613f380e0b
+size 533

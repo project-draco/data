@@ -1,3 +1,3 @@
-src_org_opencms_ui_apps_CmsFileExplorer.java/[CN]/CmsFileExplorer/[CS]/CmsFileExplorer()	src_org_opencms_ui_apps_CmsFileExplorer.java/[CN]/	32	0.9697	33	7886
-src_org_opencms_configuration_CmsSystemConfiguration.java/[CN]/CmsSystemConfiguration/[MT]/addXmlDigesterRules(Digester)	src_org_opencms_configuration_CmsSystemConfiguration.java/[CN]/	36	0.9730	37	7886
-src_org_opencms_configuration_CmsSystemConfiguration.java/[CN]/CmsSystemConfiguration/[MT]/generateXml(Element)	src_org_opencms_configuration_CmsSystemConfiguration.java/[CN]/	35	0.8140	43	7886
+version https://git-lfs.github.com/spec/v1
+oid sha256:8c8eb3d7981a67e59616a86f7e133bb601587ca920c8df605115c0eec413f28a
+size 558

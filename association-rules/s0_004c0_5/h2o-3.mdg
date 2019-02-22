@@ -1,17 +1,3 @@
-h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[CN]/DeepLearningDriver/[MT]/buildModel()	h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/	33	0.6735	49	4196
-h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/DeepLearningModel/[CS]/DeepLearningModel(Key,DeepLearningParameters,DeepLearningModel,boolean,DataInfo)	h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/	19	0.9048	21	4196
-h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[CN]/DeepLearningDriver/[MT]/trainModel(DeepLearningModel)	h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/	54	0.7200	75	4196
-h2o-py_h2o_estimators_gbm.py/[CN]/H2OGradientBoostingEstimator/[CS]/__init__	h2o-py_h2o_estimators_gbm.py/[CN]/	18	0.8571	21	4196
-h2o-algos_src_main_java_hex_DataInfo.java/[CN]/DataInfo/[MT]/extractDenseRow(Chunk[],int,Row)	h2o-algos_src_main_java_hex_DataInfo.java/[CN]/	31	0.8857	35	4196
-h2o-core_src_main_java_water_api_RequestServer.java/[CN]/RequestServer/[MT]/serve(String,String,Properties,Properties)	h2o-core_src_main_java_water_api_RequestServer.java/[CN]/	30	0.6383	47	4196
-h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/DeepLearningModel/[MT]/score0(double[],double[],double,double)	h2o-algos_src_main_java_hex_deeplearning_DeepLearningModel.java/[CN]/	18	1.0000	18	4196
-h2o-py_h2o_frame.py/[CN]/H2OFrame/[MT]/head	h2o-py_h2o_frame.py/[CN]/	17	1.0000	17	4196
-h2o-algos_src_main_java_hex_kmeans_KMeans.java/[CN]/KMeans/[MT]/init(boolean)	h2o-algos_src_main_java_hex_kmeans_KMeans.java/[CN]/	17	0.8095	21	4196
-h2o-py_h2o_frame.py/other	h2o-py_h2o_frame.py/[CN]/	37	0.8810	42	4196
-h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[CN]/DeepLearningDriver/[MT]/buildModel()	h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	33	0.6735	49	4196
-h2o-algos_src_main_java_hex_optimization_L__BFGS.java/[CN]/L_BFGS/[MT]/solve(GradientSolver,double[],GradientInfo,ProgressMonitor)	h2o-algos_src_main_java_hex_glm_GLM.java/[CN]/	18	0.9000	20	4196
-h2o-core_src_main_java_water_parser_ParseDataset.java/[CN]/ParseDataset/[CN]/MultiFileParseTask/[MT]/map(Key)	h2o-core_src_main_java_water_parser_ParseDataset.java/[CN]/	17	0.7391	23	4196
-h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/DeepLearning/[CN]/DeepLearningDriver/[MT]/trainModel(DeepLearningModel)	h2o-algos_src_main_java_hex_deeplearning_DeepLearning.java/[CN]/	39	0.5200	75	4196
-h2o-algos_src_main_java_hex_glm_GLM.java/[CN]/GLM/[MT]/init(boolean)	h2o-algos_src_main_java_hex_glm_GLM.java/[CN]/	18	0.5294	34	4196
-h2o-py_h2o_frame.py/[CN]/H2OFrame/[MT]/__setitem__	h2o-py_h2o_frame.py/[CN]/	21	0.8077	26	4196
-h2o-algos_src_main_java_hex_tree_gbm_GBM.java/[CN]/GBM/[MT]/init(boolean)	h2o-algos_src_main_java_hex_tree_gbm_GBM.java/[CN]/	21	0.6562	32	4196
+version https://git-lfs.github.com/spec/v1
+oid sha256:bbcbd36cebc039c6b821586c0e2360d37552e3ab41bf367b6199c6596f8a3805
+size 2899

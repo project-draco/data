@@ -1,0 +1,12 @@
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.DriverConnectInterceptor(com.navercorp.pinpoint.bootstrap.context.TraceContext, com.navercorp.pinpoint.bootstrap.context.MethodDescriptor, com.navercorp.pinpoint.bootstrap.plugin.jdbc.JdbcUrlParser);DefaultDatabaseInfo
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.methodDescriptor;DefaultDatabaseInfo
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.recordConnection;DefaultDatabaseInfo
+com.navercorp.pinpoint.profiler.plugin.PluginConfig.DEFAULT_PINPOINT_PLUGIN_PACKAGE_NAME;ProfilerPluginLoader
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.jdbcUrlParser;DefaultDatabaseInfo
+com.navercorp.pinpoint.bootstrap.resolver.ConditionProvider.DEFAULT_CONDITION_PROVIDER;ApplicationServerTypePluginResolver
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.createDatabaseInfo(java.lang.String);DefaultDatabaseInfo
+com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor.isDebug;DefaultDatabaseInfo
+com.navercorp.pinpoint.profiler.plugin.PluginConfig.static {};ProfilerPluginLoader
+com.navercorp.pinpoint.bootstrap.resolver.ConditionProvider.static {};ApplicationServerTypePluginResolver
+com.navercorp.pinpoint.bootstrap.resolver.ConditionProvider.ConditionProvider();ApplicationServerTypePluginResolver
+com.navercorp.pinpoint.profiler.context.SpanEvent.getAnnotations();MockAgent

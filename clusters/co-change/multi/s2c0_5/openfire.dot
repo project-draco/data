@@ -1,0 +1,2346 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digraph {
+subgraph cluster365 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/initialize(JID,ComponentManager)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/createClientListeners()/body";
+}
+subgraph cluster295 {
+"src_java_org_jivesoftware_openfire_sasl_SaslProvider.java/[CN]/SaslProvider/[CS]/SaslProvider()/body";
+"src_java_org_jivesoftware_openfire_sasl_SaslServerFactoryImpl.java/[CN]/SaslServerFactoryImpl/[MT]/createSaslServer(String,String,String,Map<String,?>,CallbackHandler)/body";
+}
+subgraph cluster213 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/processPacket(Presence)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/removeComponent(String)/body";
+}
+subgraph cluster262 {
+"src_plugins_hazelcast_src_java_com_jivesoftware_util_cache_ClusteredCacheFactory.java/[CN]/ClusteredCacheFactory/[MT]/doSynchronousClusterTask(ClusterTask,byte[])/body";
+"src_plugins_hazelcast_src_java_com_jivesoftware_util_cache_ClusteredCacheFactory.java/[CN]/ClusteredCacheFactory/[MT]/doSynchronousClusterTask(ClusterTask,boolean)/body";
+}
+subgraph cluster194 {
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String)/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/escapeForSQL(String)/body";
+}
+subgraph cluster92 {
+"src_plugins_sip_src_java_org_jivesoftware_openfire_sip_calllog_CallLogDAO.java/[CN]/CallLogDAO/[MT]/getCalls(CallFilter,int,int)/body";
+"src_plugins_sip_src_java_org_jivesoftware_openfire_sip_calllog_CallLogDAO.java/[CN]/CallLogDAO/[MT]/getLogCount(CallFilter)/body";
+}
+subgraph cluster320 {
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/replyDataFormResult(Collection<User>,IQ)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[MT]/getFeatures(String,String,JID)/body";
+}
+subgraph cluster217 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCTransport.java/[CN]/IRCTransport/[MT]/registrationLoggedOut(TransportSession)/body";
+}
+subgraph cluster336 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/getUserCount()/body";
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/removeComponentRoute(JID)/body";
+}
+subgraph cluster199 {
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/addUser(Participant,Element)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[MT]/initializePlugin(PluginManager,File)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/Participant/[MT]/recordData(RawPacket)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_Recorder.java/[CN]/Recorder/[MT]/writeData(DataToWrite)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[MT]/destroyPlugin()/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[MT]/basicAuth(String,String,String)/body";
+}
+subgraph cluster221 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/logIn(PresenceType,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNListener.java/[CN]/MSNListener/[MT]/contactListSyncCompleted(MsnMessenger)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNListener.java/[CN]/MSNListener/[MT]/loginCompleted(MsnMessenger)/body";
+}
+subgraph cluster19 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/addSharedGroupToRoster(Group,String)/body";
+}
+subgraph cluster505 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_Registration.java/[CN]/Registration/[MT]/setLastLogin(Date)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_Registration.java/[CN]/Registration/[MT]/insertIntoDb()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_Registration.java/[CN]/Registration/[MT]/loadFromDb()/body";
+}
+subgraph cluster412 {
+"src_java_org_jivesoftware_util_FaviconServlet.java/[CN]/FaviconServlet/[MT]/getImage(String)/body";
+"src_java_org_jivesoftware_util_FaviconServlet.java/[CN]/FaviconServlet/[MT]/getImage(String,byte[])/body";
+}
+subgraph cluster259 {
+"src_java_org_jivesoftware_openfire_cluster_ClusterManager.java/[CN]/ClusterManager/[MT]/shutdown()/body";
+"src_java_org_jivesoftware_openfire_cluster_ClusterManager.java/[CN]/ClusterManager/[MT]/startup()/body";
+}
+subgraph cluster424 {
+"src_java_org_jivesoftware_messenger_IQRouter.java/[CN]/IQRouter/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_messenger_IQRouter.java/[CN]/IQRouter/[MT]/handle(IQ)/body";
+}
+subgraph cluster252 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCSession.java/[CN]/IRCSession/[MT]/updateStatus(PresenceType,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCSession.java/[CN]/IRCSession/[MT]/logIn(PresenceType,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onQuit(IRCUser,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCSession.java/[CN]/IRCSession/[MT]/logOut()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onRegistered()/body";
+}
+subgraph cluster144 {
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/saslSuccessful()/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/tlsNegotiated()/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/geStreamHeader()/body";
+}
+subgraph cluster29 {
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_DebuggerPlugin.java/[CN]/DebuggerPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_DebuggerPlugin.java/[CN]/DebuggerPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster170 {
+"src_java_org_jivesoftware_admin_LdapUserProfile.java/[CN]/LdapUserProfile/[MT]/initForOpenLDAP()/body";
+"src_java_org_jivesoftware_admin_LdapUserProfile.java/[CN]/LdapUserProfile/[MT]/saveProperties()/body";
+}
+subgraph cluster45 {
+"src_java_org_jivesoftware_openfire_privacy_PrivacyList.java/[CN]/PrivacyList/[MT]/writeExternal(ObjectOutput)/body";
+"src_java_org_jivesoftware_openfire_privacy_PrivacyList.java/[CN]/PrivacyList/[MT]/readExternal(ObjectInput)/body";
+}
+subgraph cluster478 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPrivateStorage()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQDiscoItemsHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getComponentManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPacketRouter()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQPEPHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getMulticastRouter()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getRoutingTable()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/start()/body";
+}
+subgraph cluster27 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_TransportSessionManager.java/[CN]/TransportSessionManager/[MT]/getSessionsSorted(String,String)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startConnectionManagerListener(String)/body";
+}
+subgraph cluster64 {
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/getString(byte[])/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/getBytes(String)/body";
+}
+subgraph cluster292 {
+"src_java_org_jivesoftware_openfire_server_OutgoingSessionPromise.java/[CN]/OutgoingSessionPromise/[CN]/PacketsProcessor/[MT]/sendPacket(Packet)/body";
+}
+subgraph cluster121 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/getOnlineUsersOf(String)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_MainInterceptor.java/[CN]/MainInterceptor/[MT]/removeTransport(String)/body";
+"src_java_org_jivesoftware_openfire_session_ClientSessionInfo.java/[CN]/ClientSessionInfo/[CS]/ClientSessionInfo(LocalClientSession)/body";
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/getCertsByIssuer(KeyStore)/body";
+}
+subgraph cluster39 {
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/negotiateTLS()/body";
+"src_plugins_jingleNodes_src_java_org_jinglenodes_JingleNodesPlugin.java/[CN]/JingleNodesPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/closeNeverSecuredConnection()/body";
+}
+subgraph cluster235 {
+"src_java_org_jivesoftware_messenger_container_AdminConsolePlugin.java/[CN]/AdminConsolePlugin/[MT]/restartListeners()/body";
+"src_java_org_jivesoftware_messenger_container_AdminConsolePlugin.java/[CN]/AdminConsolePlugin/[MT]/loadListeners()/body";
+}
+subgraph cluster359 {
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/start()/body";
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/stopLocal()/body";
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/setLocalEnabled(boolean)/body";
+"src_java_org_jivesoftware_wildfire_privacy_PrivacyListProvider.java/[CN]/PrivacyListProvider/[MT]/loadDefaultPrivacyList(String)/body";
+"src_java_org_jivesoftware_messenger_container_PluginServlet.java/[CN]/PluginServlet/[MT]/getClasspathForPlugin(Plugin)/body";
+}
+subgraph cluster508 {
+"src_java_org_jivesoftware_openfire_user_DefaultUserProvider.java/[CN]/DefaultUserProvider/[MT]/loadUser(String)/body";
+"src_java_org_jivesoftware_openfire_user_JDBCUserProvider.java/[CN]/JDBCUserProvider/[MT]/loadUser(String)/body";
+}
+subgraph cluster248 {
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/getChildrenProperties(Element,String)/body";
+}
+subgraph cluster439 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_base_RemoteRosterPlugin.java/[CN]/RemoteRosterPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster10 {
+"src_java_org_jivesoftware_messenger_interceptor_InterceptorManager.java/[CN]/InterceptorManager/[MT]/addUserInterceptor(String,int,PacketInterceptor)/body";
+"src_java_org_jivesoftware_messenger_interceptor_InterceptorManager.java/[CN]/InterceptorManager/[MT]/getUserInterceptors(String)/body";
+"src_java_org_jivesoftware_messenger_interceptor_InterceptorManager.java/[CN]/InterceptorManager/[MT]/invokeInterceptors(Packet,Session,boolean,boolean)/body";
+}
+subgraph cluster486 {
+"src_java_org_jivesoftware_messenger_interceptor_InterceptorManager.java/[CN]/InterceptorManager/[MT]/addInterceptor(int,PacketInterceptor)/body";
+"src_java_org_jivesoftware_messenger_server_OutgoingSessionPromise.java/[CN]/OutgoingSessionPromise/[MT]/createSessionAndSendPacket(Packet)/body";
+"src_java_org_jivesoftware_util_cache_DefaultLocalCacheStrategy.java/[CN]/DefaultLocalCacheStrategy/[MT]/initCacheNameMap()/body";
+}
+subgraph cluster484 {
+"src_java_org_jivesoftware_util_TaskEngine.java/[CN]/TaskEngine/[MT]/scheduleAtFixedRate(TimerTask,long,long)/body";
+"src_java_org_jivesoftware_wildfire_roster_RosterManager.java/[CN]/RosterManager/[MT]/start()/body";
+}
+subgraph cluster278 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportSession.java/[CN]/TransportSession/[MT]/isHighestPriority(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportSession.java/[CN]/TransportSession/[MT]/hasResource(String)/body";
+}
+subgraph cluster109 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[CN]/VCard/[MT]/treeWalk(Element,Map<String,String>)/body";
+"src_java_org_jivesoftware_util_WebManager.java/[CN]/WebManager/[MT]/copy(URL,File)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/gatherGatewayStatistics()/body";
+}
+subgraph cluster455 {
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/processGetPacket(IQ)/body";
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/replyDisabled(IQ)/body";
+}
+subgraph cluster354 {
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/propertyDeleted(String,Map)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/deleteVCard(String)/body";
+}
+subgraph cluster353 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[CS]/OSCARSession(Registration,JID,OSCARTransport,Integer)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/logOut()/body";
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/authenticateDomain(String,String)/body";
+"src_java_org_jivesoftware_openfire_sasl_VerifyPasswordCallback.java/[CN]/VerifyPasswordCallback/[CS]/VerifyPasswordCallback(char[])/body";
+}
+subgraph cluster112 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onReply(int,String,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onNotice(String,IRCUser,String)/body";
+}
+subgraph cluster13 {
+"src_plugins_jitsivideobridge_src_java_org_ifsoft_sip_CallSession.java/[CN]/CallSession/[MT]/parseSDP(String,boolean)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/inviteNewParticipant(URI,URI,IQ)/body";
+}
+subgraph cluster114 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/broadcastSpeaking(Boolean,String,String,JID)/body";
+}
+subgraph cluster233 {
+"src_java_org_jivesoftware_messenger_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/processConfigurationForm(XDataFormImpl,MUCRole)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/refreshConfigurationFormValues()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/init()/body";
+}
+subgraph cluster35 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupUserDeleted(Group,String)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/adminRemoved(Group,Map)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupModified(Group,Map)/body";
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[MT]/unloadPlugin(String)/body";
+"src_java_org_jivesoftware_openfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/getSASLMechanismsElement(Session)/body";
+}
+subgraph cluster236 {
+"src_java_org_jivesoftware_messenger_vcard_DefaultVCardProvider.java/[CN]/DefaultVCardProvider/[MT]/deleteVCard(String)/body";
+"src_java_org_jivesoftware_messenger_vcard_DefaultVCardProvider.java/[CN]/DefaultVCardProvider/[MT]/loadVCard(String)/body";
+}
+subgraph cluster125 {
+"src_java_org_jivesoftware_openfire_sasl_VerifyPasswordCallback.java/[CN]/VerifyPasswordCallback/[MT]/getPassword()/body";
+}
+subgraph cluster189 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/createUser(String,String,String,String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/getUserCount()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/setEmail(String,String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/setName(String,String)/body";
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/buildDoc(Reader)/body";
+}
+subgraph cluster167 {
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/getBestRoute(JID)/body";
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/sendServerMessage(JID,String,String)/body";
+}
+subgraph cluster108 {
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/processUserAnswer(Participant,Element)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/deliver(Packet)/body";
+}
+subgraph cluster110 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleAcceptCommand(AcceptCommand,IQ)/body";
+}
+subgraph cluster205 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/createCache(String)/body";
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster74 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String,int,int)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/populateGroups(Enumeration<SearchResult>)/body";
+"src_java_org_jivesoftware_openfire_handler_IQAuthHandler.java/[CN]/IQAuthHandler/[MT]/initialize(XMPPServer)/body";
+}
+subgraph cluster497 {
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/getSharedUsers(Collection<Group>)/body";
+"src_java_org_jivesoftware_wildfire_user_UserManager.java/[CN]/UserManager/[MT]/isRegisteredUser(JID)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/memberRemoved(Group,Map)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/joinRoom(String,String,HistoryRequest,LocalMUCUser,Presence)/body";
+}
+subgraph cluster138 {
+"src_java_org_jivesoftware_wildfire_filetransfer_ProxyConnectionManager.java/[CN]/ProxyConnectionManager/[CS]/ProxyConnectionManager(FileTransferManager)/body";
+"src_java_org_jivesoftware_wildfire_filetransfer_ProxyConnectionManager.java/[CN]/ProxyConnectionManager/[MT]/processConnections(InetAddress,int)/body";
+"src_java_org_jivesoftware_wildfire_filetransfer_FileTransferProxy.java/[CN]/FileTransferProxy/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/removeComponent(String,Component)/body";
+}
+subgraph cluster133 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/doConfigClearspace()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/configClearspace()/body";
+}
+subgraph cluster161 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupByName(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/setName(String,String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/deleteMember(String,JID)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupNames(int,int)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startClientListeners(String)/body";
+}
+subgraph cluster286 {
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/propertySet(String,Map)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/propertyDeleted(String,Map)/body";
+}
+subgraph cluster201 {
+"src_java_org_jivesoftware_wildfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/createOutgoingSession(String,String,int)/body";
+"src_java_org_jivesoftware_wildfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/verifyKey(String,String,String,String,String,int)/body";
+}
+subgraph cluster104 {
+"src_java_org_jivesoftware_wildfire_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/addTotalRoomStats()/body";
+"src_java_org_jivesoftware_wildfire_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/addNumberOutgoingMessages()/body";
+}
+subgraph cluster23 {
+"src_java_org_jivesoftware_messenger_net_SocketPacketWriteHandler.java/[CN]/SocketPacketWriteHandler/[CS]/SocketPacketWriteHandler(SessionManager,RoutingTable,OfflineMessageStrategy)/body";
+"src_java_org_jivesoftware_messenger_net_SocketPacketWriteHandler.java/[CN]/SocketPacketWriteHandler/[MT]/process(Packet)/body";
+}
+subgraph cluster347 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPacketDeliverer()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/syncLegacyRoster(JID,List<TransportBuddy>)/body";
+"src_java_org_jivesoftware_wildfire_user_UserManager.java/[CN]/UserManager/[MT]/receivedAnswer(IQ)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/deleteRegistration(JID)/body";
+}
+subgraph cluster171 {
+"src_java_org_jivesoftware_util_JiveProperties.java/[CN]/JiveProperties/[MT]/insertProperty(String,String)/body";
+"src_java_org_jivesoftware_util_JiveProperties.java/[CN]/JiveProperties/[MT]/deleteProperty(String)/body";
+}
+subgraph cluster311 {
+"src_plugins_presence_src_java_org_jivesoftware_wildfire_plugin_PresencePlugin.java/[CN]/PresencePlugin/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster445 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/connectToService(int,String,ByteBlock)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/logIn(PresenceType,String)/body";
+}
+subgraph cluster358 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupUserDeleted(Group,Collection<String>,String)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/addSharedUser(Group,String)/body";
+"src_java_org_jivesoftware_wildfire_handler_PresenceSubscribeHandler.java/[CN]/PresenceSubscribeHandler/[MT]/getRoster(JID)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster328 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/getTerminologyUsername()/body";
+"src_java_org_jivesoftware_openfire_muc_MUCRoomHistory.java/[CN]/MUCRoomHistory/[MT]/addOldMessage(String,String,Date,String,String)/body";
+"src_java_org_jivesoftware_openfire_session_LocalIncomingServerSession.java/[CN]/LocalIncomingServerSession/[MT]/createSession(String,XMPPPacketReader,SocketConnection)/body";
+}
+subgraph cluster315 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_SnacManager.java/[CN]/SnacManager/[MT]/dequeueSnacs(int)/body";
+}
+subgraph cluster102 {
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/getLogoImage()/body";
+}
+subgraph cluster450 {
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[CS]/PluginManager(File)/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/overrideSidebar(Element,Element)/body";
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/getEndEntityCertificate(Certificate[],KeyStore,KeyStore)/body";
+}
+subgraph cluster9 {
+"src_java_org_jivesoftware_openfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/doAnonymousAuthentication(LocalSession)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_processors_GojaraAdminProcessor.java/[CN]/GojaraAdminProcessor/[MT]/handleStatistic(Message,String,String)/body";
+}
+subgraph cluster142 {
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/createSession(String,XmlPullParser,Connection)/body";
+"src_plugins_contentFilter_src_java_org_jivesoftware_wildfire_plugin_ContentFilterPlugin.java/[CN]/ContentFilterPlugin/[MT]/sendViolationNotification(Packet)/body";
+}
+subgraph cluster231 {
+"src_java_org_jivesoftware_openfire_vcard_DefaultVCardProvider.java/[CN]/DefaultVCardProvider/[MT]/updateVCard(String,Element)/body";
+"src_java_org_jivesoftware_openfire_vcard_VCardManager.java/[CN]/VCardManager/[MT]/setVCard(String,Element)/body";
+"src_java_org_jivesoftware_openfire_vcard_DefaultVCardProvider.java/[CN]/DefaultVCardProvider/[MT]/createVCard(String,Element)/body";
+}
+subgraph cluster271 {
+"src_java_org_jivesoftware_wildfire_handler_IQRosterHandler.java/[CN]/IQRosterHandler/[MT]/manageRoster(org.xmpp.packet.Roster)/body";
+"src_java_org_jivesoftware_openfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/createSession(InetAddress,Element,HttpConnection)/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/retrieveDeliverable(long)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/Participant/[MT]/removeMediaStream()/body";
+}
+subgraph cluster203 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleAnswerCommand(AnswerCommand,IQ)/body";
+"src_java_org_jivesoftware_openfire_user_JDBCUserProvider.java/[CN]/JDBCUserProvider/[CS]/JDBCUserProvider()/body";
+}
+subgraph cluster21 {
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/getLoginLogoImage()/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/rebuildModel()/body";
+}
+subgraph cluster297 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/changePriority(JID,int)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/addAnonymousSession(Session)/body";
+}
+subgraph cluster227 {
+"src_java_org_jivesoftware_messenger_vcard_DefaultVCardProvider.java/[CN]/DefaultVCardProvider/[MT]/updateVCard(String,Element)/body";
+}
+subgraph cluster166 {
+"src_java_org_jivesoftware_openfire_disco_IQDiscoInfoHandler.java/[CN]/IQDiscoInfoHandler/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_openfire_disco_IQDiscoInfoHandler.java/[CN]/IQDiscoInfoHandler/[MT]/getServerInfoProvider()/body";
+}
+subgraph cluster351 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionListener.java/[CN]/ConnectionListener/[MT]/enable(boolean)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MUCPersistenceManager.java/[CN]/MUCPersistenceManager/[MT]/loadFromDB(LocalMUCRoom)/body";
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/getFilteredSearchFields()/body";
+}
+subgraph cluster143 {
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_java_org_jivesoftware_openfire_admin_AdminManager.java/[CN]/AdminManager/[MT]/addAdminAccount(JID)/body";
+}
+subgraph cluster53 {
+"src_java_org_jivesoftware_messenger_OfflineMessageStrategy.java/[CN]/OfflineMessageStrategy/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_messenger_OfflineMessageStrategy.java/[CN]/OfflineMessageStrategy/[MT]/storeOffline(Message)/body";
+}
+subgraph cluster159 {
+"src_java_org_jivesoftware_wildfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/initMechanisms()/body";
+"src_java_org_jivesoftware_wildfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/getSupportedMechanisms()/body";
+"src_java_org_jivesoftware_wildfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/handle(Session,Element)/body";
+}
+subgraph cluster54 {
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/addServerRoute(JID,LocalOutgoingServerSession)/body";
+}
+subgraph cluster93 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/search(String,int,int)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/search(String)/body";
+}
+subgraph cluster2 {
+"src_java_org_jivesoftware_wildfire_group_GroupManager.java/[CN]/GroupManager/[MT]/getGroups()/body";
+"src_java_org_jivesoftware_wildfire_group_GroupManager.java/[CN]/GroupManager/[MT]/getGroupCount()/body";
+}
+subgraph cluster391 {
+"src_java_org_jivesoftware_wildfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/deleteMessages(String)/body";
+"src_java_org_jivesoftware_wildfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getSize(String)/body";
+}
+subgraph cluster134 {
+"src_plugins_broadcast_src_java_org_jivesoftware_messenger_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/getName()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/syncUsers()/body";
+}
+subgraph cluster362 {
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/destroyPlugin()/body";
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster44 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/doPhoneAndPcCall(String,CallParticipant,IQ)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_ServiceConnection.java/[CN]/ServiceConnection/[MT]/handleSnacResponse(SnacResponseEvent)/body";
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/initialize(XMPPServer)/body";
+}
+subgraph cluster319 {
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroupCount()/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups()/body";
+}
+subgraph cluster0 {
+"src_java_org_jivesoftware_wildfire_auth_JDBCAuthProvider.java/[CN]/JDBCAuthProvider/[MT]/isDigestSupported()/body";
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster507 {
+"src_java_org_jivesoftware_wildfire_container_PluginManager.java/[CN]/PluginManager/[CN]/PluginMonitor/[MT]/run()/body";
+}
+subgraph cluster208 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceLockOutProvider.java/[CN]/ClearspaceLockOutProvider/[MT]/getDisabledStatus(String)/body";
+"src_java_org_jivesoftware_openfire_cluster_ClusterManager.java/[CN]/ClusterManager/[FE]/CLUSTER_PROPERTY_NAME";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceSecurityAuditProvider.java/[CN]/ClearspaceSecurityAuditProvider/[MT]/getAuditURL()/body";
+}
+subgraph cluster254 {
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/hashCode()/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[CS]/CachedPreparedStatement(String)/body";
+}
+subgraph cluster76 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportSession.java/[CN]/TransportSession/[MT]/removeResource(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportSession.java/[CN]/TransportSession/[MT]/addResource(String,Integer)/body";
+}
+subgraph cluster465 {
+"src_plugins_hazelcast_src_java_com_jivesoftware_util_cache_ClusteredCacheFactory.java/[CN]/ClusteredCacheFactory/[MT]/doClusterTask(ClusterTask,byte[])/body";
+}
+subgraph cluster181 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/deleteRoster(JID)/body";
+}
+subgraph cluster475 {
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/deliverRawText(String)/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/close()/body";
+}
+subgraph cluster111 {
+"src_plugins_broadcast_src_java_org_jivesoftware_messenger_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_plugins_broadcast_src_java_org_jivesoftware_messenger_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster333 {
+"src_java_org_jivesoftware_wildfire_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupUserAdded(Group,Collection<JID>,JID)/body";
+"src_java_org_jivesoftware_wildfire_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupUserDeleted(Group,Collection<JID>,JID)/body";
+}
+subgraph cluster454 {
+"src_plugins_broadcast_src_java_org_jivesoftware_openfire_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/destroyPlugin()/body";
+"src_plugins_broadcast_src_java_org_jivesoftware_openfire_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster214 {
+"src_plugins_userservice_src_java_org_jivesoftware_openfire_plugin_UserServicePlugin.java/[CN]/UserServicePlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_plugins_userservice_src_java_org_jivesoftware_openfire_plugin_userService_UserServiceServlet.java/[CN]/UserServiceServlet/[MT]/doGet(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster183 {
+"src_java_org_jivesoftware_util_cache_DefaultCache.java/[CN]/DefaultCache/[MT]/containsKey(Object)/body";
+"src_java_org_jivesoftware_util_cache_DefaultCache.java/[CN]/DefaultCache/[MT]/put(K,V)/body";
+}
+subgraph cluster491 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/addContact(RosterItem)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/addContact(RosterItem)/body";
+}
+subgraph cluster442 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPresenceManager()/body";
+"src_java_org_jivesoftware_openfire_session_ClientSessionInfo.java/[CN]/ClientSessionInfo/[MT]/readExternal(ObjectInput)/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQRegisterHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getMediaProxyService()/body";
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/incrementConflictCount()/body";
+"src_java_org_jivesoftware_openfire_streammanagement_StreamManager.java/[CN]/StreamManager/[MT]/sentStanza(Packet)/body";
+}
+subgraph cluster366 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/getTerminologyPassword()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/getTerminologyRegistration()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/getTerminologyUsername()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/getTerminologyRegistration()/body";
+}
+subgraph cluster340 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[CS]/YahooSession(Registration,JID,YahooTransport,Integer)/body";
+"src_java_org_jivesoftware_util_cache_DefaultCache.java/[CN]/DefaultCache/[MT]/containsValue(Object)/body";
+}
+subgraph cluster464 {
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/deleteConfiguration(String)/body";
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/allowAccess(ExternalComponentConfiguration)/body";
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/getConfigurations(Permission)/body";
+}
+subgraph cluster470 {
+"src_java_org_jivesoftware_wildfire_container_PluginManager.java/[CN]/PluginManager/[MT]/loadPlugin(File)/body";
+}
+subgraph cluster393 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/sendChatInactiveNotification(JID,JID)/body";
+}
+subgraph cluster122 {
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/isCertificate(KeyStore,String,String)/body";
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/isDSACertificate(X509Certificate)/body";
+}
+subgraph cluster124 {
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[CS]/LdapVCardProvider()/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/enableConnectionManagerListener(boolean)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/setServerListenerPort(int)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceSecurityAuditProvider.java/[CN]/ClearspaceSecurityAuditProvider/[MT]/logEvent(String,String,String)/body";
+}
+subgraph cluster175 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleBridgedDialCommand(DialCommand,IQ)/body";
+"src_java_org_jivesoftware_openfire_container_PluginServlet.java/[CN]/PluginServlet/[MT]/registerServlet(PluginManager,Plugin,GenericServlet,String)/body";
+"src_java_org_jivesoftware_openfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/createIncomingSession(XMPPPacketReader)/body";
+}
+subgraph cluster36 {
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[MT]/loadPlugin(File)/body";
+}
+subgraph cluster338 {
+"src_java_org_jivesoftware_wildfire_filetransfer_FileTransferProxy.java/[CN]/FileTransferProxy/[MT]/isEnabled()/body";
+"src_java_org_jivesoftware_wildfire_filetransfer_FileTransferProxy.java/[CN]/FileTransferProxy/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster123 {
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/handleIQ(IQ)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/processSetPacket(IQ)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/findUsers(String,String)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/processPacket(Packet)/body";
+"src_java_org_jivesoftware_messenger_disco_IQDiscoInfoHandler.java/[CN]/IQDiscoInfoHandler/[MT]/getServerInfoProvider()/body";
+}
+subgraph cluster50 {
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/installPlugin(InputStream,String)/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/configureCaches(Path,String)/body";
+}
+subgraph cluster364 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addOutcast(String,String,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/startClearspaceConfig()/body";
+}
+subgraph cluster499 {
+"src_plugins_callbackOnOffline_src_java_com_fotsum_CallbackOnOffline.java/[CN]/CallbackOnOffline/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster494 {
+"src_java_org_jivesoftware_messenger_server_ServerDialback.java/[CN]/ServerDialback/[MT]/createIncomingSession(XPPPacketReader)/body";
+}
+subgraph cluster310 {
+"src_java_org_jivesoftware_util_cert_SANCertificateIdentityMapping.java/[CN]/SANCertificateIdentityMapping/[FE]/OTHERNAME_XMPP_OID";
+"src_java_org_jivesoftware_util_cert_SANCertificateIdentityMapping.java/[CN]/SANCertificateIdentityMapping/[MT]/mapIdentity(X509Certificate)/body";
+}
+subgraph cluster498 {
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[CS]/MultiUserChatServiceImpl(String,String,Boolean)/body";
+}
+subgraph cluster268 {
+"src_java_org_jivesoftware_openfire_container_PluginClassLoader.java/[CN]/PluginClassLoader/[MT]/addDirectory(File,boolean)/body";
+"src_java_org_jivesoftware_openfire_container_PluginClassLoader.java/[CN]/PluginClassLoader/[MT]/unloadJarFiles()/body";
+}
+subgraph cluster174 {
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/deleteDir(Path)/body";
+"src_java_org_jivesoftware_util_cache_DefaultLocalCacheStrategy.java/[CN]/DefaultLocalCacheStrategy/[MT]/createCache(String)/body";
+}
+subgraph cluster267 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/memberAdded(Group,Map)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_MainInterceptor.java/[CN]/MainInterceptor/[MT]/addTransport(String)/body";
+}
+subgraph cluster18 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/getGroupID(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/getUserID(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/checkAuthentication(String,String)/body";
+}
+subgraph cluster400 {
+"src_java_org_jivesoftware_wildfire_group_DefaultGroupProvider.java/[CN]/DefaultGroupProvider/[MT]/getGroup(String)/body";
+"src_java_org_jivesoftware_wildfire_group_DefaultGroupProvider.java/[CN]/DefaultGroupProvider/[MT]/getGroups(JID)/body";
+}
+subgraph cluster202 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/getTerminologyUsername()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/getTerminologyPassword()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/getTerminologyRegistration()/body";
+}
+subgraph cluster398 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceVCardProvider.java/[CN]/ClearspaceVCardProvider/[MT]/isAvatarReadOnly()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceVCardProvider.java/[CN]/ClearspaceVCardProvider/[MT]/saveVCard(String,Element)/body";
+}
+subgraph cluster345 {
+"src_java_org_jivesoftware_openfire_muc_cluster_AddMember.java/[CN]/AddMember/[MT]/readExternal(ObjectInput)/body";
+"src_java_org_jivesoftware_openfire_muc_cluster_AddMember.java/[CN]/AddMember/[MT]/writeExternal(ObjectOutput)/body";
+}
+subgraph cluster302 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/isUsernameValid(String)/body";
+"src_java_org_jivesoftware_openfire_net_OCSPChecker.java/[CN]/OCSPChecker/[MT]/check(Certificate,Collection<String>)/body";
+}
+subgraph cluster438 {
+"src_java_org_jivesoftware_wildfire_http_HttpConnection.java/[CN]/HttpConnection/[MT]/getResponse()/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/createSession(InetAddress,Element,HttpConnection)/body";
+}
+subgraph cluster12 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_ClientToComponentUpdateProcessor.java/[CN]/ClientToComponentUpdateProcessor/[MT]/process(Packet)/body";
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_CleanUpRosterProcessor.java/[CN]/CleanUpRosterProcessor/[MT]/process(Packet)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/isValidVCardChange(String,Element)/body";
+}
+subgraph cluster61 {
+"src_java_org_jivesoftware_openfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/validateRemoteDomain(Element,StreamID)/body";
+"src_java_org_jivesoftware_openfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/verifyReceivedKey(Element,Connection)/body";
+}
+subgraph cluster323 {
+"src_java_org_jivesoftware_wildfire_http_HttpConnection.java/[CN]/HttpConnection/[MT]/waitForResponse()/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/deliver(Deliverable)/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/addConnection(HttpConnection,boolean)/body";
+}
+subgraph cluster216 {
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/sendError(HttpServletRequest,HttpServletResponse,BoshBindingError,HttpSession)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/handleSessionRequest(String,HttpServletRequest,HttpServletResponse,Element)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/isContinuation(HttpServletRequest,HttpServletResponse)/body";
+"src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/HttpSession/[MT]/addConnection(HttpConnection,boolean)/body";
+}
+subgraph cluster279 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/start()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/stop()/body";
+}
+subgraph cluster453 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_remoteroster_processors_NonPersistantRosterProcessor.java/[CN]/NonPersistantRosterProcessor/[MT]/process(Packet)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_remoteroster_processors_NonPersistantRosterProcessor.java/[CN]/NonPersistantRosterProcessor/[CS]/NonPersistantRosterProcessor(RosterManager,String)/body";
+}
+subgraph cluster289 {
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/encodeHex(byte[])/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/replaceIgnoreCase(String,String,String)/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/replaceIgnoreCase(String,String,String,int[])/body";
+}
+subgraph cluster73 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/findUsers(Set<String>,String,int,int)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/setCreationDate(String,Date)/body";
+}
+subgraph cluster490 {
+"src_java_org_jivesoftware_wildfire_group_DefaultGroupProvider.java/[CN]/DefaultGroupProvider/[MT]/getGroups(int,int)/body";
+"src_java_org_jivesoftware_openfire_nio_XMLLightweightParser.java/[CN]/XMLLightweightParser/[MT]/read(ByteBuffer)/body";
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/extractSearchQuery(Element)/body";
+"src_java_org_jivesoftware_openfire_net_ClientTrustManager.java/[CN]/ClientTrustManager/[MT]/checkClientTrusted(X509Certificate[],String)/body";
+}
+subgraph cluster56 {
+"src_plugins_packetFilter_src_java_org_jivesoftware_openfire_plugin_rules_DbRuleManager.java/[CN]/DbRuleManager/[MT]/updateRule(Rule,Integer)/body";
+"src_plugins_presence_src_java_org_jivesoftware_wildfire_plugin_PresencePlugin.java/[CN]/PresencePlugin/[MT]/getPresence(String,String)/body";
+}
+subgraph cluster130 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_TransportSessionManager.java/[CN]/TransportSessionManager/[MT]/getConnectionsFor(String)/body";
+"src_java_org_jivesoftware_util_WebManager.java/[CN]/WebManager/[MT]/getUserManager()/body";
+"src_java_org_jivesoftware_wildfire_group_GroupManager.java/[CN]/GroupManager/[MT]/getSharedGroups()/body";
+}
+subgraph cluster106 {
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/deleteProperty(String)/body";
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/getProperty(String)/body";
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/setProperties(String,List<String>)/body";
+"src_java_org_jivesoftware_util_JiveProperties.java/[CN]/JiveProperties/[MT]/remove(Object)/body";
+}
+subgraph cluster68 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/translateGroup(Element)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupNames()/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addAdmin(JID,MUCRole)/body";
+"src_plugins_registration_src_java_org_jivesoftware_openfire_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/destroyPlugin()/body";
+}
+subgraph cluster240 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/notifyConferenceMonitors(ConferenceEvent)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/callEventNotification(com.sun.voip.CallEvent)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleHandsetDialCommand(DialCommand,IQ)/body";
+}
+subgraph cluster326 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/nicknameChanged(ChangeNickname)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[CN]/RoomRole/[MT]/getRoleAddress()/body";
+}
+subgraph cluster504 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/getTerminologyPassword()/body";
+"src_java_org_jivesoftware_database_DefaultConnectionProvider.java/[CN]/DefaultConnectionProvider/[MT]/getConnection()/body";
+}
+subgraph cluster160 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/friendRemovedReceived(SessionFriendEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/friendAddedReceived(SessionFriendEvent)/body";
+}
+subgraph cluster288 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/removeSharedGroupFromRoster(Group,String)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/getVisibleGroups(Group)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/getAffectedUsers(Group,String,String)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupUserAdded(Group,String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[CS]/MUCRoomImpl(MultiUserChatServer,String,PacketRouter)/body";
+}
+subgraph cluster22 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/getUsers(int,int)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/setEmail(String,String)/body";
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/isActiveRoute(String,String)/body";
+}
+subgraph cluster69 {
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/isAllowed(Connection)/body";
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/isAllowedAnonymous(Connection)/body";
+}
+subgraph cluster37 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/generateDocument(Object,Document)/body";
+}
+subgraph cluster80 {
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsers()/body";
+}
+subgraph cluster305 {
+"src_java_org_jivesoftware_messenger_PresenceRouter.java/[CN]/PresenceRouter/[MT]/handle(Presence)/body";
+"src_plugins_emailListener_src_java_org_jivesoftware_openfire_plugin_emailListener_EmailListener.java/[CN]/EmailListener/[MT]/listenMessages()/body";
+}
+subgraph cluster381 {
+"src_plugins_broadcast_src_java_org_jivesoftware_openfire_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/processMessage(Message,boolean,Group,boolean)/body";
+}
+subgraph cluster180 {
+"src_java_org_jivesoftware_wildfire_net_ConnectionMultiplexerSocketReader.java/[CN]/ConnectionMultiplexerSocketReader/[MT]/processMessage(Message)/body";
+"src_java_org_jivesoftware_wildfire_net_ConnectionMultiplexerSocketReader.java/[CN]/ConnectionMultiplexerSocketReader/[MT]/processPresence(Presence)/body";
+}
+subgraph cluster190 {
+"src_java_org_jivesoftware_messenger_container_AdminConsolePlugin.java/[CN]/AdminConsolePlugin/[MT]/destroyPlugin()/body";
+"src_java_org_jivesoftware_openfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/verifyCertificate(X509Certificate,String)/body";
+}
+subgraph cluster409 {
+"src_plugins_sip_src_java_org_jivesoftware_openfire_sip_sipaccount_SipAccountDAO.java/[CN]/SipAccountDAO/[MT]/getUserCount()/body";
+"src_plugins_sip_src_java_org_jivesoftware_openfire_sip_sipaccount_SipAccountDAO.java/[CN]/SipAccountDAO/[MT]/getUsers(int,int)/body";
+}
+subgraph cluster493 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/stopInstance()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_GatewayPlugin.java/[CN]/GatewayPlugin/[MT]/disableService(String)/body";
+}
+subgraph cluster282 {
+"src_plugins_contentFilter_src_java_org_jivesoftware_wildfire_plugin_ContentFilterPlugin.java/[CN]/ContentFilterPlugin/[MT]/initFilter()/body";
+"src_plugins_contentFilter_src_java_org_jivesoftware_wildfire_plugin_ContentFilterPlugin.java/[CN]/ContentFilterPlugin/[MT]/interceptPacket(Packet,Session,boolean,boolean)/body";
+}
+subgraph cluster283 {
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/authenticateClient(Element)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/sendMucMessage(String,String,JID,String)/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/processPresence(Presence)/body";
+}
+subgraph cluster176 {
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/provideRosterItem(JID,String,List<String>)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterItem.java/[CN]/RosterItem/[MT]/getSubStatus()/body";
+}
+subgraph cluster427 {
+"src_java_org_jivesoftware_wildfire_privacy_PrivacyListProvider.java/[CN]/PrivacyListProvider/[MT]/deletePrivacyLists(String)/body";
+"src_java_org_jivesoftware_wildfire_privacy_PrivacyListProvider.java/[CN]/PrivacyListProvider/[MT]/loadPrivacyList(String,String)/body";
+"src_java_org_jivesoftware_wildfire_privacy_PrivacyListProvider.java/[CN]/PrivacyListProvider/[MT]/deletePrivacyList(String,String)/body";
+}
+subgraph cluster386 {
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[MT]/setDescription(String)/body";
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[CN]/PropertiesMap/[MT]/put(Object,Object)/body";
+"src_java_org_jivesoftware_database_EmbeddedConnectionProvider.java/[CN]/EmbeddedConnectionProvider/[MT]/getConnection()/body";
+}
+subgraph cluster272 {
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/getVersionString()/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[MT]/getChatRoom(String,JID)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/createSession(Connection)/body";
+}
+subgraph cluster49 {
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_RawPrintFilter.java/[CN]/RawPrintFilter/[MT]/sessionClosed(NextFilter,IoSession)/body";
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_RawPrintFilter.java/[CN]/RawPrintFilter/[MT]/sessionCreated(NextFilter,IoSession)/body";
+}
+subgraph cluster60 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/logIn()/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/shutdown()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/sendMessage(JID,String)/body";
+}
+subgraph cluster150 {
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/attemptSASLexternal(SocketConnection,MXParser,XMPPPacketReader,String,String,String,StringBuilder)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_MainInterceptor.java/[CN]/MainInterceptor/[MT]/interceptPacket(Packet,Session,boolean,boolean)/body";
+}
+subgraph cluster186 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/setSearchFilter(String)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[CN]/VCardTemplate/[MT]/treeWalk(Element,Set<String>)/body";
+}
+subgraph cluster509 {
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startServerListener(String)/body";
+}
+subgraph cluster196 {
+"src_java_org_jivesoftware_openfire_update_UpdateManager.java/[CN]/UpdateManager/[MT]/saveLatestServerInfo()/body";
+}
+subgraph cluster474 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/unregisterUserFrom(String,String)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/confirmGatewayConfig(String)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/gatewayUnregistered(String)/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/unloadPlugin(String)/body";
+}
+subgraph cluster368 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/loadUser(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/getUserByUsername(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/loadReadOnly()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/translate(Node)/body";
+}
+subgraph cluster31 {
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroupNames(JID)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/search(String,int,int)/body";
+}
+subgraph cluster460 {
+"src_plugins_gateway_src_java_org_jivesoftware_openfire_gateway_protocols_xmpp_XMPPListener.java/[CN]/XMPPListener/[MT]/processMessage(Chat,org.jivesoftware.smack.packet.Message)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_openfire_gateway_protocols_xmpp_XMPPSession.java/[CN]/XMPPSession/[MT]/logIn(PresenceType,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_openfire_gateway_protocols_xmpp_XMPPSession.java/[CN]/XMPPSession/[MT]/logOut()/body";
+"src_java_org_jivesoftware_util_SimpleSSLSocketFactory.java/[CN]/SimpleSSLSocketFactory/[CS]/SimpleSSLSocketFactory()/body";
+}
+subgraph cluster321 {
+"src_java_org_jivesoftware_openfire_net_VirtualConnection.java/[CN]/VirtualConnection/[MT]/close()/body";
+}
+subgraph cluster378 {
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/addBoolean(boolean)/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[FE]/sql";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/initialize(Container)/body";
+}
+subgraph cluster164 {
+"src_java_org_jivesoftware_openfire_group_JDBCGroupProvider.java/[CN]/JDBCGroupProvider/[CS]/JDBCGroupProvider()/body";
+}
+subgraph cluster230 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/getClusteredCacheStrategyClassLoader()/body";
+}
+subgraph cluster28 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getFileTransferProxy()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getFileTransferManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getMessageRouter()/body";
+"src_java_org_jivesoftware_openfire_muc_MultiUserChatManager.java/[CN]/MultiUserChatManager/[MT]/insertService(String,String,Boolean)/body";
+}
+subgraph cluster232 {
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/purgeNode(LeafNode)/body";
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/getPublishedItems(LeafNode,int)/body";
+}
+subgraph cluster285 {
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/stop()/body";
+}
+subgraph cluster317 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/rosterLoaded(Roster)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/sendPacket(Packet)/body";
+}
+subgraph cluster129 {
+"src_java_org_jivesoftware_messenger_PresenceRouter.java/[CN]/PresenceRouter/[MT]/initialize(XMPPServer)/body";
+}
+subgraph cluster57 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/setClientSSLListenerPort(int)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/enableServerListener(boolean)/body";
+}
+subgraph cluster324 {
+"src_java_org_jivesoftware_wildfire_net_ConnectionMultiplexerSocketReader.java/[CN]/ConnectionMultiplexerSocketReader/[MT]/processUnknowPacket(Element)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/finishCallRecord(CallParticipant)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/handleIQRegister(IQ)/body";
+}
+subgraph cluster185 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/logIn()/body";
+"src_java_org_jivesoftware_openfire_commands_clearspace_SystemAdminAdded.java/[CN]/SystemAdminAdded/[MT]/getActions(SessionData)/body";
+"src_java_org_jivesoftware_openfire_FlashCrossDomainHandler.java/[CN]/FlashCrossDomainHandler/[MT]/stop()/body";
+}
+subgraph cluster132 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/isUsernameValid(String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/changeOccupantRole(String,int)/body";
+}
+subgraph cluster20 {
+"src_java_org_jivesoftware_messenger_group_GroupManager.java/[CN]/GroupManager/[MT]/createGroup(String)/body";
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[MT]/setName(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/setConnectionURI(String)/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/removeHttpBindServlet(Context)/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/addXMLSource(InputStream)/body";
+}
+subgraph cluster7 {
+"src_java_org_jivesoftware_openfire_user_UserManager.java/[CN]/UserManager/[MT]/createUser(String,String,String,String)/body";
+"src_plugins_jitsivideobridge_src_java_com_rayo_core_xml_providers_ColibriProvider.java/[CN]/ColibriProvider/[MT]/buildColibriCommand(Element)/body";
+}
+subgraph cluster32 {
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/sendRegistrationNotificatonMessage(User)/body";
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/sendWelcomeMessage(User)/body";
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/setRegistrationWelcomeEnabled(boolean)/body";
+"src_plugins_registration_src_java_org_jivesoftware_messenger_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/setRegistrationNotificationEnabled(boolean)/body";
+}
+subgraph cluster3 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/removeOccupantRole(MUCRole)/body";
+}
+subgraph cluster325 {
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/replace(String,String,String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/kickPresence(Presence,JID)/body";
+}
+subgraph cluster291 {
+"src_java_org_jivesoftware_openfire_net_ClientTrustManager.java/[CN]/ClientTrustManager/[MT]/loadCRL()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/offlineMessageReceived(SessionEvent)/body";
+}
+subgraph cluster117 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/broadcast(Packet)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/removeSession(Session)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/getSessionCount(String)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/userBroadcast(String,Packet)/body";
+}
+subgraph cluster506 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_ReceiveComponentUpdatesProcessor.java/[CN]/ReceiveComponentUpdatesProcessor/[MT]/process(Packet)/body";
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_DiscoIQResigteredProcessor.java/[CN]/DiscoIQResigteredProcessor/[CS]/DiscoIQResigteredProcessor(String)/body";
+}
+subgraph cluster304 {
+"src_java_org_jivesoftware_database_DefaultConnectionProvider.java/[CN]/DefaultConnectionProvider/[MT]/loadProperties()/body";
+"src_java_org_jivesoftware_database_DbConnectionManager.java/[CN]/DbConnectionManager/[MT]/setMetaData(Connection)/body";
+}
+subgraph cluster387 {
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/stop()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/getUserID(JID)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/routeSIPCall(JID,CallParticipant,String,Map<String,String>)/body";
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/secureAndAuthenticate(String,SocketConnection,XMPPPacketReader,StringBuilder,String)/body";
+}
+subgraph cluster371 {
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/setUnsecureHttpBindPort(int)/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/setSecureHttpBindPort(int)/body";
+}
+subgraph cluster209 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/executeRequest(HttpType,String,String)/body";
+"src_java_org_jivesoftware_messenger_container_PluginClassLoader.java/[CN]/PluginClassLoader/[MT]/initialize()/body";
+}
+subgraph cluster449 {
+"src_java_org_jivesoftware_openfire_roster_RosterItem.java/[CN]/RosterItem/[MT]/readExternal(ObjectInput)/body";
+"src_java_org_jivesoftware_openfire_roster_RosterItem.java/[CN]/RosterItem/[MT]/writeExternal(ObjectOutput)/body";
+}
+subgraph cluster192 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/errorPacketReceived(SessionErrorEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onError(int,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/processPacket(Message)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCTransport.java/[CN]/IRCTransport/[MT]/convertJabStatusToIRC(PresenceType,String)/body";
+}
+subgraph cluster67 {
+"src_java_org_jivesoftware_util_JiveProperties.java/[CN]/JiveProperties/[MT]/updateProperty(String,String)/body";
+}
+subgraph cluster341 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/setUsernameField(String)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleHangupCommand(IQ)/body";
+}
+subgraph cluster246 {
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/retrieveList(String,String,int,int,String)/body";
+}
+subgraph cluster380 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getSessionManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPresenceRouter()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPresenceSubscribeHandler()/body";
+}
+subgraph cluster66 {
+"src_java_org_jivesoftware_openfire_spi_ClientRoute.java/[CN]/ClientRoute/[MT]/readExternal(ObjectInput)/body";
+"src_java_org_jivesoftware_openfire_container_PluginServlet.java/[CN]/PluginServlet/[MT]/unregisterServlet(Plugin,String)/body";
+"src_java_org_jivesoftware_openfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/doExternalAuthentication(LocalSession,Element)/body";
+}
+subgraph cluster370 {
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/processMessage(Message)/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/processIQ(IQ)/body";
+}
+subgraph cluster452 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/setMixer(CallHandler,IQ,CallParticipant)/body";
+}
+subgraph cluster59 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/addOutcast(String,String,MUCRole)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getOutcasts()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getOccupants()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/changeOccupantAffiliation(String,int,int)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getOccupantsByBareJID(String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getOccupant(String)/body";
+}
+subgraph cluster276 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[CS]/GojaraAdminManager()/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/testAdminConfiguration(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceVCardProvider.java/[CN]/ClearspaceVCardProvider/[MT]/loadVCard(String)/body";
+}
+subgraph cluster481 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/enableClientListener(boolean)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/addSession(Session)/body";
+"src_java_org_jivesoftware_openfire_update_UpdateManager.java/[CN]/UpdateManager/[MT]/loadLatestServerInfo()/body";
+}
+subgraph cluster473 {
+"src_java_org_jivesoftware_messenger_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/authenticationSuccessful(String)/body";
+"src_java_org_jivesoftware_admin_AuthCheckFilter.java/[CN]/AuthCheckFilter/[MT]/doFilter(ServletRequest,ServletResponse,FilterChain)/body";
+}
+subgraph cluster81 {
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/setAllowedAnonymIPs(Map<String,String>)/body";
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/getAllowedAnonymIPs()/body";
+}
+subgraph cluster384 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/getListener(ConnectionType,boolean)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/getListeners()/body";
+}
+subgraph cluster241 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/updateOccupant(UpdateOccupantRequest)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/occupantUpdated(UpdateOccupant)/body";
+"src_java_org_jivesoftware_openfire_muc_cluster_UpdateOccupantRequest.java/[CN]/UpdateOccupantRequest/[MT]/getAffiliation()/body";
+}
+subgraph cluster448 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_TransportSessionManager.java/[CN]/TransportSessionManager/[MT]/initializeSessions()/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_processors_GojaraAdminProcessor.java/[CN]/GojaraAdminProcessor/[MT]/process(Packet,String,String,String)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_messagefilter_processors_GojaraAdminProcessor.java/[CN]/GojaraAdminProcessor/[MT]/handleOnlineUsers(Message,String)/body";
+}
+subgraph cluster239 {
+"src_java_org_jivesoftware_util_lock_LocalLockFactory.java/[CN]/LocalLockFactory/[MT]/lookupLockForAcquire(Object)/body";
+"src_java_org_jivesoftware_util_lock_LocalLockFactory.java/[CN]/LocalLockFactory/[MT]/lookupLockForRelease(Object)/body";
+}
+subgraph cluster210 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCEventDelegate.java/[CN]/ClearspaceMUCEventDelegate/[MT]/joiningRoom(String,JID)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsers(int,int)/body";
+}
+subgraph cluster462 {
+"src_java_org_dom4j_io_XPPPacketReader.java/[CN]/XPPPacketReader/[MT]/parseDocument()/body";
+"src_java_org_dom4j_io_XPPPacketReader.java/[CN]/XPPPacketReader/[MT]/getXPPFactory()/body";
+}
+subgraph cluster215 {
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/OutputStreamWrapper/[MT]/write(int)/body";
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/WritableByteChannelWrapper/[MT]/write(ByteBuffer)/body";
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/OutputStreamWrapper/[MT]/write(byte[])/body";
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/InputStreamWrapper/[MT]/read(byte[])/body";
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/ReadableByteChannelWrapper/[MT]/read(ByteBuffer)/body";
+}
+subgraph cluster151 {
+"src_plugins_monitoring_src_java_org_jivesoftware_openfire_archive_ConversationManager.java/[CN]/ConversationManager/[CN]/ConversationPropertyListener/[MT]/propertySet(String,Map<String,Object>)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/setServerSessionIdleTime(int)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/addSharedUser(String,Collection<Group>,Group)/body";
+}
+subgraph cluster152 {
+"src_plugins_jingleNodes_src_java_org_jinglenodes_JingleNodesPlugin.java/[CN]/JingleNodesPlugin/[MT]/destroyPlugin()/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/broadcast(BroadcastPresenceRequest)/body";
+}
+subgraph cluster502 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/getUsernames()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/setCreationDate(String,Date)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/findUsers(Set<String>,String,int,int)/body";
+}
+subgraph cluster296 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/xmlPropertyDeleted(String,Map)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/xmlPropertySet(String,Map)/body";
+}
+subgraph cluster416 {
+"src_java_org_jivesoftware_util_lock_LocalLockFactory.java/[CN]/LocalLockFactory/[MT]/releaseLock(Object)/body";
+"src_java_org_jivesoftware_util_lock_LocalLockFactory.java/[CN]/LocalLockFactory/[MT]/acquireLock(Object)/body";
+}
+subgraph cluster407 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/getBestRoute(JID)/body";
+"src_java_org_jivesoftware_openfire_handler_IQAuthHandler.java/[CN]/IQAuthHandler/[MT]/handleIQ(IQ)/body";
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/sendUnavailableFromSessions(JID,JID)/body";
+}
+subgraph cluster273 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/createGroup(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/setDescription(String,String)/body";
+"src_java_org_jivesoftware_messenger_user_DefaultUserProvider.java/[CN]/DefaultUserProvider/[MT]/findUsers(Set<String>,String)/body";
+}
+subgraph cluster299 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/registrationLoggedOut(TransportSession)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/registrationLoggedOut(TransportSession)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/registrationLoggedOut(TransportSession)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/shutdown()/body";
+}
+subgraph cluster156 {
+"src_java_org_jivesoftware_messenger_server_OutgoingServerSession.java/[CN]/OutgoingServerSession/[MT]/process(Packet)/body";
+"src_java_org_jivesoftware_messenger_server_OutgoingServerSession.java/[CN]/OutgoingServerSession/[MT]/authenticateDomain(String,String)/body";
+}
+subgraph cluster263 {
+"src_java_org_jivesoftware_openfire_ldap_LdapAuthProvider.java/[CN]/LdapAuthProvider/[CS]/LdapAuthProvider()/body";
+"src_java_org_jivesoftware_openfire_auth_POP3AuthProvider.java/[CN]/POP3AuthProvider/[CS]/POP3AuthProvider()/body";
+}
+subgraph cluster322 {
+"src_java_org_jivesoftware_util_XMLWriter.java/[CN]/XMLWriter/[CS]/XMLWriter()/body";
+}
+subgraph cluster25 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/logOut()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/logOut()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/updateStatus(PresenceType,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/logIn(PresenceType,String)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroup(String)/body";
+}
+subgraph cluster298 {
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_sessions_GojaraAdminManager.java/[CN]/GojaraAdminManager/[MT]/areGatewaysConfigured()/body";
+"src_java_org_jivesoftware_wildfire_filetransfer_ProxyConnectionManager.java/[CN]/ProxyConnectionManager/[MT]/disable()/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[MT]/getIdentities(String,String,JID)/body";
+}
+subgraph cluster479 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_RemoteRosterPlugin.java/[CN]/RemoteRosterPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_RemoteRosterPlugin.java/[CN]/RemoteRosterPlugin/[FE]/Log";
+}
+subgraph cluster457 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/newMailReceived(SessionNewMailEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onError(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/inputExceptionThrown(SessionExceptionEvent)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/findUserDN(String,String)/body";
+}
+subgraph cluster120 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addNone(JID,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addMember(JID,String,MUCRole)/body";
+}
+subgraph cluster411 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleIQGet(IQ)/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/load()/body";
+}
+subgraph cluster413 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleOnOffHookCommand(Object,IQ)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/expireColibriChannel(Participant)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/retrieveContactStatus(JID)/body";
+}
+subgraph cluster97 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/sessionAvailable(ClientSession)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/sessionUnavailable(ClientSession)/body";
+}
+subgraph cluster303 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCListener.java/[CN]/IRCListener/[MT]/onDisconnected()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_IQMUCRegisterHandler.java/[CN]/IQMUCRegisterHandler/[MT]/initialize()/body";
+"src_plugins_emailListener_src_java_org_jivesoftware_openfire_plugin_emailListener_EmailListener.java/[CN]/EmailListener/[MT]/start()/body";
+}
+subgraph cluster441 {
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroupNames(int,int)/body";
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[CS]/SearchPlugin()/body";
+}
+subgraph cluster394 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startComponentListener()/body";
+}
+subgraph cluster329 {
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startClientSSLListeners(String)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/createVCard(String,Element)/body";
+"src_java_org_jivesoftware_openfire_admin_AdminManager.java/[CN]/AdminManager/[MT]/setAdminJIDs(List<JID>)/body";
+}
+subgraph cluster434 {
+"src_plugins_rayo_src_java_org_xmpp_jnodes_RelayChannel.java/[CN]/RelayChannel/[MT]/close()/body";
+"src_java_org_jivesoftware_openfire_SessionManager.java/[CN]/SessionManager/[MT]/restoreCacheContent()/body";
+}
+subgraph cluster436 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_SendRosterProcessor.java/[CN]/SendRosterProcessor/[MT]/process(Packet)/body";
+}
+subgraph cluster234 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/getServerSessionTimeout()/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/setServerSessionTimeout(int)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/getServerSessionIdleTime()/body";
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/deleteSharedUser(JID,Group)/body";
+}
+subgraph cluster88 {
+"src_java_org_jivesoftware_wildfire_net_TLSStreamHandler.java/[CN]/TLSStreamHandler/[CS]/TLSStreamHandler(Socket,boolean,String,boolean)/body";
+"src_java_org_jivesoftware_messenger_container_PluginServlet.java/[CN]/PluginServlet/[MT]/handleJSP(String,HttpServletRequest,HttpServletResponse)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[CS]/Roster(String)/body";
+}
+subgraph cluster390 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[CS]/MSNSession(Registration,JID,MSNTransport,Integer)/body";
+}
+subgraph cluster435 {
+"src_java_org_jivesoftware_wildfire_handler_PresenceSubscribeHandler.java/[CN]/PresenceSubscribeHandler/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/createSocketReader(Socket,boolean,ServerPort,boolean)/body";
+}
+subgraph cluster301 {
+"src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/HttpSession/[CN]/Delivered/[MT]/getPackets()/body";
+}
+subgraph cluster467 {
+"src_java_org_jivesoftware_messenger_OfflineMessageStrategy.java/[CN]/OfflineMessageStrategy/[MT]/bounce(Message)/body";
+}
+subgraph cluster168 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/updateContact(RosterItem)/body";
+"src_java_org_jivesoftware_openfire_pep_IQPEPHandler.java/[CN]/IQPEPHandler/[MT]/loadPEPServiceFromDB(String)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[CS]/InternalComponentManager()/body";
+}
+subgraph cluster314 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_SendRosterProcessor.java/[CN]/SendRosterProcessor/[MT]/sendRosterToComponent(Packet,Collection<RosterItem>)/body";
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_ClientToComponentUpdateProcessor.java/[CN]/ClientToComponentUpdateProcessor/[CS]/ClientToComponentUpdateProcessor(String)/body";
+}
+subgraph cluster42 {
+"src_plugins_jingleNodes_src_java_org_jinglenodes_JingleNodesPlugin.java/[CN]/JingleNodesPlugin/[MT]/createRelayChannel()/body";
+"src_plugins_jingleNodes_src_java_org_jinglenodes_JingleNodesPlugin.java/[CN]/JingleNodesPlugin/[MT]/setup()/body";
+}
+subgraph cluster211 {
+"src_java_org_jivesoftware_messenger_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getMessages(String,boolean)/body";
+"src_java_org_jivesoftware_messenger_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getMessage(String,Date)/body";
+"src_java_org_jivesoftware_messenger_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/deleteMessages(String)/body";
+}
+subgraph cluster40 {
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/performSearch(Element)/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/doEnableHttpBind(boolean)/body";
+}
+subgraph cluster431 {
+"src_java_org_jivesoftware_wildfire_SessionPacketRouter.java/[CN]/SessionPacketRouter/[MT]/route(Element)/body";
+"src_java_org_jivesoftware_wildfire_SessionPacketRouter.java/[CN]/SessionPacketRouter/[MT]/getIQ(Element)/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/changeHttpBindPorts(int,int)/body";
+}
+subgraph cluster96 {
+"src_java_org_jivesoftware_messenger_server_ServerDialback.java/[CN]/ServerDialback/[MT]/verifyReceivedKey(Element,Connection)/body";
+"src_java_org_jivesoftware_messenger_server_ServerDialback.java/[CN]/ServerDialback/[MT]/verifyKey(String,String,String,String,String,int)/body";
+"src_java_org_jivesoftware_messenger_server_ServerDialback.java/[CN]/ServerDialback/[MT]/isHostUnknown(String)/body";
+}
+subgraph cluster290 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/broadcastPresence(Presence)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/broadcast(Message)/body";
+}
+subgraph cluster385 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/getSearchFields()/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/findUsers(Set<String>,String)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/setName(String,String)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/setModificationDate(String,Date)/body";
+}
+subgraph cluster397 {
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/ColibriIQHandler/[CS]/ColibriIQHandler()/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/ColibriIQHandler/[MT]/occupantJoined(JID,JID,String)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/ColibriIQHandler/[MT]/occupantLeft(JID,JID)/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/getResponse(long)/body";
+}
+subgraph cluster224 {
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[CS]/EmailService()/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/startup()/body";
+"src_java_org_jivesoftware_wildfire_muc_spi_MUCUserImpl.java/[CN]/MUCUserImpl/[MT]/addRole(String,MUCRole)/body";
+}
+subgraph cluster360 {
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/overrideEntry(Element,Element)/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/overrideTab(Element,Element)/body";
+}
+subgraph cluster243 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_LoginConnection.java/[CN]/LoginConnection/[MT]/handleStateChange(ClientConnEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BasicFlapConnection.java/[CN]/BasicFlapConnection/[MT]/handleFlapPacket(FlapPacketEvent)/body";
+}
+subgraph cluster443 {
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/getSession(String,String,String)/body";
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/changePriority(JID,int)/body";
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/getSessionCount(String)/body";
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/removeSession(ClientSession)/body";
+}
+subgraph cluster489 {
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/addSession(ClientSession)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/createNewSession(HttpServletRequest,HttpServletResponse,Element)/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/getResponse(HttpConnection)/body";
+}
+subgraph cluster212 {
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/escapeHTMLTags(String)/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/stripTags(String)/body";
+}
+subgraph cluster5 {
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/routePacket(JID,Packet)/body";
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/getClientsRoutes(boolean)/body";
+"src_java_org_jivesoftware_openfire_SessionManager.java/[CN]/SessionManager/[MT]/registerIncomingServerSession(String,LocalIncomingServerSession)/body";
+}
+subgraph cluster265 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/getMaxClusterNodes()/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/findGroupDN(String,String)/body";
+"src_java_org_jivesoftware_openfire_group_GroupManager.java/[CN]/GroupManager/[CS]/GroupManager()/body";
+}
+subgraph cluster274 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/addMember(String,String,MUCRole)/body";
+}
+subgraph cluster16 {
+"src_java_org_jivesoftware_messenger_handler_IQRegisterHandler.java/[CN]/IQRegisterHandler/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_messenger_handler_IQRegisterHandler.java/[CN]/IQRegisterHandler/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster270 {
+"src_java_org_jivesoftware_openfire_net_MultiplexerStanzaHandler.java/[CN]/MultiplexerStanzaHandler/[MT]/startTLS()/body";
+"src_java_org_jivesoftware_openfire_net_SocketReadingMode.java/[CN]/SocketReadingMode/[MT]/negotiateTLS()/body";
+"src_java_org_jivesoftware_openfire_net_SocketConnection.java/[CN]/SocketConnection/[MT]/startTLS(boolean,String,ClientAuth)/body";
+"src_java_org_jivesoftware_openfire_net_TLSWrapper.java/[CN]/TLSWrapper/[CS]/TLSWrapper(Connection,boolean,boolean,String)/body";
+}
+subgraph cluster135 {
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/getHostName()/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/getHostAddress()/body";
+}
+subgraph cluster372 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/processPacket(Packet)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/deleteSharedUser(String,Collection<Group>,Group)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/shareGroupRenamed(Collection<String>)/body";
+"src_java_org_jivesoftware_openfire_muc_MUCRoomHistory.java/[CN]/MUCRoomHistory/[MT]/addMessage(Message)/body";
+}
+subgraph cluster242 {
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/propertySet(String,Map)/body";
+}
+subgraph cluster300 {
+"src_java_org_jivesoftware_wildfire_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/broadcastUpdate(Presence)/body";
+"src_java_org_jivesoftware_wildfire_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/directedPresenceSent(Presence,ChannelHandler,String)/body";
+}
+subgraph cluster26 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNTransport.java/[CN]/MSNTransport/[MT]/registrationLoggedIn(Registration,JID,PresenceType,String,Integer)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/groupDeleting(Group,Map)/body";
+}
+subgraph cluster219 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/findUsers(Set<String>,String)/body";
+"src_java_org_jivesoftware_openfire_handler_IQRegisterHandler.java/[CN]/IQRegisterHandler/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster179 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNListener.java/[CN]/MSNListener/[MT]/exceptionCaught(MsnMessenger,Throwable)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/leaveRoom(OccupantLeftEvent)/body";
+}
+subgraph cluster500 {
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups(int,int)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/populateGroups(Enumeration<SearchResult>)/body";
+"src_java_org_jivesoftware_messenger_container_PluginServlet.java/[CN]/PluginServlet/[MT]/handleServlet(String,HttpServletRequest,HttpServletResponse)/body";
+"src_java_org_jivesoftware_openfire_muc_MUCEventDelegate.java/[CN]/MUCEventDelegate/[MT]/loadConfig(MUCRoom)/body";
+}
+subgraph cluster433 {
+"src_plugins_gateway_src_java_org_jivesoftware_openfire_gateway_protocols_xmpp_XMPPSession.java/[CN]/XMPPSession/[MT]/sendMessage(JID,String)/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[CN]/ThreadLocalEncoder/extend";
+}
+subgraph cluster90 {
+"src_java_org_jivesoftware_wildfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getMessage(String,Date)/body";
+}
+subgraph cluster115 {
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/replace(String,String,String,int[])/body";
+}
+subgraph cluster238 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportSession.java/[CN]/TransportSession/[MT]/removeAllResources()/body";
+}
+subgraph cluster98 {
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[CN]/PropertiesEntrySet/[MT]/iterator()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/setSavedToDB(boolean)/body";
+"src_java_org_jivesoftware_admin_LdapUserTester.java/[CN]/LdapUserTester/[MT]/getAttributes(String)/body";
+}
+subgraph cluster173 {
+"src_java_org_jivesoftware_messenger_net_SocketConnection.java/[CN]/SocketConnection/[MT]/close()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_PendingSnacMgr.java/[CN]/PendingSnacMgr/[MT]/getPending(int)/body";
+}
+subgraph cluster244 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/isReadOnly()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupCount()/body";
+}
+subgraph cluster395 {
+"src_plugins_jitsivideobridge_src_java_org_ifsoft_sip_VideoBridgeSipListener.java/[CN]/VideoBridgeSipListener/[MT]/processRequest(RequestEvent)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[MT]/findCreateSession(String,String,String)/body";
+}
+subgraph cluster432 {
+"src_java_org_jivesoftware_openfire_spi_ClientRoute.java/[CN]/ClientRoute/[MT]/writeExternal(ObjectOutput)/body";
+}
+subgraph cluster255 {
+"src_java_org_jivesoftware_openfire_pubsub_PubSubEngine.java/[CN]/PubSubEngine/[MT]/publishItemsToNode(PubSubService,IQ,Element)/body";
+"src_java_org_jivesoftware_openfire_pubsub_PubSubEngine.java/[CN]/PubSubEngine/[MT]/createNode(PubSubService,IQ,Element,Element)/body";
+}
+subgraph cluster421 {
+"src_java_org_jivesoftware_openfire_pubsub_LeafNode.java/[CN]/LeafNode/[MT]/publishItems(JID,List<Element>)/body";
+"src_java_org_jivesoftware_openfire_pubsub_LeafNode.java/[CN]/LeafNode/[MT]/postConfigure(DataForm)/body";
+}
+subgraph cluster330 {
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsernames()/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String,int,int)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/search(String,String)/body";
+}
+subgraph cluster415 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/getGroupIdOrCreateNew(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/gotCompleteSSI()/body";
+}
+subgraph cluster428 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/enable()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/disable()/body";
+}
+subgraph cluster357 {
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/process(Packet)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/addListener(ComponentEventListener)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/addComponent(String,Component)/body";
+"src_java_org_jivesoftware_openfire_component_InternalComponentManager.java/[CN]/InternalComponentManager/[MT]/initialize(XMPPServer)/body";
+}
+subgraph cluster153 {
+"src_java_org_jivesoftware_openfire_group_JDBCGroupProvider.java/[CN]/JDBCGroupProvider/[MT]/getGroupNames(JID)/body";
+"src_java_org_jivesoftware_openfire_group_JDBCGroupProvider.java/[CN]/JDBCGroupProvider/[MT]/getMembers(String,boolean)/body";
+}
+subgraph cluster344 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoleImpl.java/[CN]/MUCRoleImpl/[MT]/changeNickname(String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/getItems()/body";
+"src_java_org_jivesoftware_openfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/doSharedSecretAuthentication(LocalSession,Element)/body";
+"src_plugins_rayo_src_java_com_sun_voip_server_MemberSender.java/[CN]/MemberSender/[MT]/sendData(int[])/body";
+}
+subgraph cluster383 {
+"src_java_org_jivesoftware_messenger_user_DefaultUserProvider.java/[CN]/DefaultUserProvider/[MT]/getSearchFields()/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getSearchFields()/body";
+}
+subgraph cluster77 {
+"src_java_org_jivesoftware_messenger_container_PluginServlet.java/[CN]/PluginServlet/[MT]/service(HttpServletRequest,HttpServletResponse)/body";
+"src_java_org_jivesoftware_messenger_container_PluginServlet.java/[CN]/PluginServlet/[MT]/init(ServletConfig)/body";
+}
+subgraph cluster177 {
+"src_java_org_jivesoftware_util_JiveGlobals.java/[CN]/JiveGlobals/[MT]/setupPropertyEncryptionAlgorithm(String)/body";
+"src_java_org_jivesoftware_util_JiveGlobals.java/[CN]/JiveGlobals/[MT]/setupPropertyEncryptionKey(String)/body";
+}
+subgraph cluster78 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/unlock(MUCRole)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/lock(MUCRole)/body";
+}
+subgraph cluster139 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_LoginConnection.java/[CN]/LoginConnection/[MT]/handleSnacResponse(SnacResponseEvent)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCTranscriptManager.java/[CN]/ClearspaceMUCTranscriptManager/[MT]/occupantLeft(JID,JID)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNListener.java/[CN]/MSNListener/[MT]/ownerStatusChanged(MsnMessenger)/body";
+}
+subgraph cluster463 {
+"src_java_org_jivesoftware_wildfire_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/addNumberIncomingMessages()/body";
+"src_java_org_jivesoftware_util_WebManager.java/[CN]/WebManager/[MT]/getPrivateStore()/body";
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startConnectionManagerListener(String)/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/deliver(Packet)/body";
+}
+subgraph cluster426 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addOwner(JID,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/processConfigurationForm(DataForm,MUCRole)/body";
+}
+subgraph cluster79 {
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/removeChatRoom(String)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/broadcastPresence(Presence,boolean)/body";
+}
+subgraph cluster339 {
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/getPluginFile(String)/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[CS]/PluginManager(File)/body";
+}
+subgraph cluster94 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupNames(JID)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/updateMember(String,JID,boolean)/body";
+"src_java_org_jivesoftware_messenger_server_ServerDialback.java/[CN]/ServerDialback/[MT]/validateRemoteDomain(Element,StreamID)/body";
+}
+subgraph cluster58 {
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setSSLEnabled(boolean)/body";
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setPort(int)/body";
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/createSession()/body";
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setDebugEnabled(boolean)/body";
+}
+subgraph cluster469 {
+"src_java_org_jivesoftware_messenger_container_AdminConsolePlugin.java/[CN]/AdminConsolePlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_java_org_jivesoftware_util_WebManager.java/[CN]/WebManager/[MT]/copy(InputStream,OutputStream)/body";
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[MT]/shutdown()/body";
+}
+subgraph cluster327 {
+"src_java_org_jivesoftware_openfire_muc_MultiUserChatManager.java/[CN]/MultiUserChatManager/[MT]/registerMultiUserChatService(MultiUserChatService)/body";
+}
+subgraph cluster284 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/gotGroup(GroupItem)/body";
+"src_java_org_jivesoftware_openfire_pep_IQPEPHandler.java/[CN]/IQPEPHandler/[MT]/getUserItems(String,JID)/body";
+}
+subgraph cluster377 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/hasMutualVisibility(String,Collection<Group>,String,Collection<Group>)/body";
+"src_java_org_jivesoftware_admin_AuthCheckFilter.java/[CN]/AuthCheckFilter/[MT]/init(FilterConfig)/body";
+}
+subgraph cluster281 {
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/parseDocument(HttpServletRequest,HttpServletResponse,InputStream)/body";
+}
+subgraph cluster313 {
+"src_java_org_jivesoftware_messenger_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/sendChallenge(byte[])/body";
+"src_java_org_jivesoftware_messenger_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/authenticationFailed()/body";
+}
+subgraph cluster418 {
+"src_java_org_jivesoftware_messenger_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/createSubscribePresence(JID,boolean)/body";
+"src_java_org_jivesoftware_messenger_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/getTrackInfo()/body";
+}
+subgraph cluster163 {
+"src_java_org_jivesoftware_messenger_roster_RosterItem.java/[CN]/RosterItem/[MT]/setGroups(List<String>)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/getReset()/body";
+}
+subgraph cluster277 {
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[FE]/types";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/package";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/toString()/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/getSQL()/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/addString(String)/body";
+}
+subgraph cluster437 {
+"src_java_org_jivesoftware_openfire_pep_IQPEPHandler.java/[CN]/IQPEPHandler/[MT]/cancelSubscriptionToPEPService(JID,JID)/body";
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/getPublishedItem(LeafNode,String)/body";
+"src_java_org_jivesoftware_messenger_net_SocketReader.java/[CN]/SocketReader/[MT]/readStream()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[MT]/setSharedSecret(String)/body";
+}
+subgraph cluster127 {
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/getChatRoom(String,XMPPAddress)/body";
+"src_java_org_jivesoftware_wildfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/deleteMessage(String,Date)/body";
+"src_java_org_jivesoftware_wildfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getMessages(String,boolean)/body";
+}
+subgraph cluster447 {
+"src_java_org_jivesoftware_openfire_disco_IQDiscoItemsHandler.java/[CN]/IQDiscoItemsHandler/[MT]/leftCluster(byte[])/body";
+"src_java_org_jivesoftware_openfire_disco_IQDiscoItemsHandler.java/[CN]/IQDiscoItemsHandler/[MT]/restoreCacheContent()/body";
+"src_java_org_jivesoftware_openfire_disco_IQDiscoItemsHandler.java/[CN]/IQDiscoItemsHandler/[MT]/removeComponentItem(String)/body";
+}
+subgraph cluster376 {
+"src_java_org_jivesoftware_openfire_user_User.java/[CN]/User/[MT]/setEmail(String)/body";
+"src_java_org_jivesoftware_openfire_user_User.java/[CN]/User/[MT]/setName(String)/body";
+}
+subgraph cluster169 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCPersistenceManager.java/[CN]/MUCPersistenceManager/[MT]/loadFromDB(MUCRoomImpl)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCPersistenceManager.java/[CN]/MUCPersistenceManager/[MT]/saveToDB(MUCRoomImpl)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCPersistenceManager.java/[CN]/MUCPersistenceManager/[MT]/loadRoomsFromDB(MultiUserChatServer,Date,PacketRouter)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCUserImpl.java/[CN]/MUCUserImpl/[MT]/process(Presence)/body";
+}
+subgraph cluster480 {
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/loadPlugin(Path)/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[CN]/PluginMonitor/[MT]/unzipPlugin(String,Path,Path)/body";
+"src_java_org_jivesoftware_openfire_container_PluginManager.java/[CN]/PluginManager/[MT]/getElementValue(Plugin,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/addingContact(Roster,RosterItem,boolean)/body";
+}
+subgraph cluster197 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/addContact(RosterItem)/body";
+"src_java_org_jivesoftware_messenger_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/broadcastUnavailableForDirectedPresences(Presence)/body";
+}
+subgraph cluster250 {
+"src_java_org_jivesoftware_messenger_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/probePresence(String,XMPPAddress)/body";
+"src_java_org_jivesoftware_messenger_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/probePresence(XMPPAddress,XMPPAddress)/body";
+}
+subgraph cluster218 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_Registration.java/[CN]/Registration/[MT]/setUsername(String)/body";
+"src_java_org_jivesoftware_wildfire_update_UpdateManager.java/[CN]/UpdateManager/[MT]/saveAvailablePluginsInfo()/body";
+"src_java_org_jivesoftware_util_WebManager.java/[CN]/WebManager/[MT]/getRosterManager()/body";
+"src_java_org_jivesoftware_openfire_muc_cluster_UpdateOccupantRequest.java/[CN]/UpdateOccupantRequest/[MT]/writeExternal(ObjectOutput)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups(int,int)/body";
+}
+subgraph cluster158 {
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/getProperty(Element,String)/body";
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/setProperties(Element,String,String[])/body";
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/includesProperty(Element,String)/body";
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/setProperty(Element,String,String)/body";
+"src_java_org_jivesoftware_util_ElementUtil.java/[CN]/ElementUtil/[MT]/getProperties(Element,String)/body";
+}
+subgraph cluster404 {
+"src_java_org_jivesoftware_openfire_net_DNSUtil.java/[CN]/DNSUtil/[MT]/srvLookup(String)/body";
+"src_java_org_jivesoftware_openfire_net_DNSUtil.java/[CN]/DNSUtil/[MT]/resolveXMPPDomain(String,int)/body";
+}
+subgraph cluster266 {
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setHost(String)/body";
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/setProperty(String,String)/body";
+}
+subgraph cluster17 {
+"src_java_org_jivesoftware_messenger_handler_IQAuthHandler.java/[CN]/IQAuthHandler/[MT]/login(String,Element,IQ,IQ,String,Session,String)/body";
+"src_java_org_jivesoftware_messenger_handler_IQAuthHandler.java/[CN]/IQAuthHandler/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster11 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/occupantAdded(OccupantAddedEvent)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/removeOccupantRole(MUCRole,boolean)/body";
+}
+subgraph cluster200 {
+"src_java_org_jivesoftware_openfire_container_PluginClassLoader.java/[CN]/PluginClassLoader/[MT]/addURLFile(URL)/body";
+"src_java_org_jivesoftware_admin_LdapUserTester.java/[CN]/LdapUserTester/[MT]/getLdapAttributes()/body";
+}
+subgraph cluster511 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/gotBuddy(BuddyItem)/body";
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/propertySet(String,Map<String,Object>)/body";
+"src_java_org_jivesoftware_openfire_net_StanzaHandler.java/[CN]/StanzaHandler/[MT]/geStreamHeader()/body";
+"src_java_org_jivesoftware_wildfire_net_VirtualConnection.java/[CN]/VirtualConnection/[MT]/removeCloseListener(ConnectionCloseListener)/body";
+}
+subgraph cluster62 {
+"src_java_org_jivesoftware_openfire_FlashCrossDomainHandler.java/[CN]/FlashCrossDomainHandler/[MT]/start()/body";
+"src_java_org_jivesoftware_openfire_FlashCrossDomainHandler.java/[CN]/FlashCrossDomainHandler/[MT]/getPort()/body";
+}
+subgraph cluster335 {
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/createAdminConsoleServer()/body";
+"src_java_org_jivesoftware_wildfire_HttpServerManager.java/[CN]/HttpServerManager/[MT]/shutdown()/body";
+}
+subgraph cluster89 {
+"src_java_org_jivesoftware_messenger_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/handleIQ(IQ,MUCRole)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_IQOwnerHandler.java/[CN]/IQOwnerHandler/[MT]/handleItemsElement(List,MUCRole,IQ)/body";
+}
+subgraph cluster119 {
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/deleteRosterItem(JID,boolean)/body";
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/updateRosterItem(RosterItem)/body";
+}
+subgraph cluster461 {
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/adminAdded(Group,Map)/body";
+"src_java_org_jivesoftware_messenger_roster_RosterManager.java/[CN]/RosterManager/[MT]/getSharedGroups(User)/body";
+"src_java_org_jivesoftware_openfire_handler_IQRegisterHandler.java/[CN]/IQRegisterHandler/[MT]/initialize(XMPPServer)/body";
+}
+subgraph cluster136 {
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUserCount()/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroupCount()/body";
+}
+subgraph cluster369 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/propertySet(String,Map)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/propertyDeleted(String,Map)/body";
+}
+subgraph cluster374 {
+"src_java_org_jivesoftware_messenger_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/doHandshake(Element)/body";
+"src_java_org_jivesoftware_messenger_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/getSASLMechanisms(Session)/body";
+}
+subgraph cluster472 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getAdmins()/body";
+}
+subgraph cluster402 {
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/purgeItems()/body";
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/shutdown()/body";
+}
+subgraph cluster198 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/loadUser(String)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/createUser(String,String,String,String)/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/getUsers()/body";
+}
+subgraph cluster55 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQDiscoInfoHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getFlashCrossDomainHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getMultiUserChatManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getTransportHandler()/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCEventDelegate.java/[CN]/ClearspaceMUCEventDelegate/[MT]/getRoomConfig(String)/body";
+}
+subgraph cluster15 {
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startClientListeners(String)/body";
+"src_java_org_jivesoftware_wildfire_net_SocketAcceptThread.java/[CN]/SocketAcceptThread/[CS]/SocketAcceptThread(ConnectionManager,ServerPort)/body";
+"src_java_org_jivesoftware_wildfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/startComponentListener(String)/body";
+}
+subgraph cluster471 {
+"src_java_org_jivesoftware_util_TaskEngine.java/[CN]/TaskEngine/[MT]/scheduleAtFixedRate(TimerTask,Date,long)/body";
+"src_java_org_jivesoftware_util_TaskEngine.java/[CN]/TaskEngine/[MT]/schedule(TimerTask,long,long)/body";
+}
+subgraph cluster350 {
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/processPacket(Packet)/body";
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/userAvailable(Presence)/body";
+}
+subgraph cluster52 {
+"src_java_org_jivesoftware_messenger_handler_PresenceUpdateHandler.java/[CN]/PresenceUpdateHandler/[MT]/process(Packet)/body";
+"src_java_org_jivesoftware_messenger_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/probePresence(JID,JID)/body";
+}
+subgraph cluster423 {
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[MT]/saveProperties()/body";
+"src_java_org_jivesoftware_util_JiveGlobals.java/[CN]/JiveGlobals/[MT]/setXMLProperties(Map<String,String>)/body";
+}
+subgraph cluster261 {
+"src_java_org_jivesoftware_admin_SidebarTag.java/[CN]/SidebarTag/[MT]/doEndTag()/body";
+"src_java_org_jivesoftware_admin_TabsTag.java/[CN]/TabsTag/[MT]/doEndTag()/body";
+}
+subgraph cluster495 {
+"src_java_org_jivesoftware_admin_LdapUserProfile.java/[CN]/LdapUserProfile/[MT]/initForActiveDirectory()/body";
+"src_java_org_jivesoftware_admin_LdapUserProfile.java/[CN]/LdapUserProfile/[MT]/loadFromProperties()/body";
+}
+subgraph cluster84 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/removeContact(RosterItem)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/updateContact(RosterItem)/body";
+}
+subgraph cluster485 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/syncContactGroups(String,List<String>)/body";
+"src_java_org_jivesoftware_util_FaviconServlet.java/[CN]/FaviconServlet/[MT]/writeBytesToStream(byte[],HttpServletResponse)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/ColibriIQHandler/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster382 {
+"src_java_org_jivesoftware_openfire_keystore_CertificateStoreManager.java/[CN]/CertificateStoreManager/[MT]/getTrustStore(ConnectionType)/body";
+"src_java_org_jivesoftware_openfire_keystore_CertificateStoreManager.java/[CN]/CertificateStoreManager/[MT]/getIdentityStore(ConnectionType)/body";
+}
+subgraph cluster269 {
+"src_java_org_jivesoftware_util_cache_DefaultLocalCacheStrategy.java/[CN]/DefaultLocalCacheStrategy/[MT]/setMaxSizeProperty(String,int)/body";
+"src_java_org_jivesoftware_util_cache_DefaultLocalCacheStrategy.java/[CN]/DefaultLocalCacheStrategy/[MT]/setMaxLifetimeProperty(String,long)/body";
+}
+subgraph cluster483 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_GatewayPlugin.java/[CN]/GatewayPlugin/[MT]/maybeStartService(String)/body";
+"src_java_org_jivesoftware_messenger_interceptor_InterceptorManager.java/[CN]/InterceptorManager/[MT]/getInterceptors()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_GatewayPlugin.java/[CN]/GatewayPlugin/[MT]/enableService(String)/body";
+}
+subgraph cluster312 {
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/setServiceName(String)/body";
+"src_java_org_jivesoftware_wildfire_update_UpdateManager.java/[CN]/UpdateManager/[MT]/loadAvailablePluginsInfo()/body";
+}
+subgraph cluster222 {
+"src_java_org_jivesoftware_wildfire_auth_JDBCAuthProvider.java/[CN]/JDBCAuthProvider/[MT]/authenticate(String,String,String)/body";
+"src_java_org_jivesoftware_wildfire_auth_JDBCAuthProvider.java/[CN]/JDBCAuthProvider/[MT]/getPassword(String)/body";
+}
+subgraph cluster6 {
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/updateComponentSecret(String,String)/body";
+}
+subgraph cluster30 {
+"src_java_org_xmpp_packet_JID.java/[CN]/JID/[MT]/resourceprep(String)/body";
+"src_plugins_packetFilter_src_java_org_jivesoftware_openfire_plugin_rules_DbRuleManager.java/[CN]/DbRuleManager/[MT]/addRule(Rule,Integer)/body";
+}
+subgraph cluster91 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCTranscriptManager.java/[CN]/ClearspaceMUCTranscriptManager/[MT]/roomSubjectChanged(JID,JID,String)/body";
+"src_java_org_xmpp_packet_JID.java/[CN]/JID/[MT]/init(String,String,String)/body";
+"src_java_org_jivesoftware_wildfire_net_VirtualConnection.java/[CN]/VirtualConnection/[MT]/registerCloseListener(ConnectionCloseListener,Object)/body";
+}
+subgraph cluster86 {
+"src_java_org_jivesoftware_util_lock_LocalLockFactory.java/[CN]/LocalLockFactory/[MT]/getLock(Object)/body";
+"src_java_org_jivesoftware_util_lock_LockManager.java/[CN]/LockManager/[MT]/setLockFactory(LockFactory)/body";
+}
+subgraph cluster191 {
+"src_java_org_jivesoftware_wildfire_auth_JDBCAuthProvider.java/[CN]/JDBCAuthProvider/[MT]/isPlainSupported()/body";
+"src_java_org_jivesoftware_wildfire_auth_JDBCAuthProvider.java/[CN]/JDBCAuthProvider/[MT]/authenticate(String,String)/body";
+}
+subgraph cluster146 {
+"src_java_org_jivesoftware_openfire_http_HttpConnection.java/[CN]/HttpConnection/[MT]/close()/body";
+"src_java_org_jivesoftware_wildfire_roster_RosterManager.java/[CN]/RosterManager/[MT]/stop()/body";
+}
+subgraph cluster258 {
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[MT]/start()/body";
+}
+subgraph cluster47 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_CleanUpRosterProcessor.java/[CN]/CleanUpRosterProcessor/[CS]/CleanUpRosterProcessor(RosterManager,String)/body";
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[CN]/MemberCollection/[MT]/iterator()/body";
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_RemotePackageInterceptor.java/[CN]/RemotePackageInterceptor/[MT]/interceptPacket(Packet,Session,boolean,boolean)/body";
+}
+subgraph cluster399 {
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/attemptDialbackOverTLS(Connection,XMPPPacketReader,String,String,String)/body";
+"src_java_org_jivesoftware_openfire_server_ServerDialback.java/[CN]/ServerDialback/[MT]/createOutgoingSession(String,String,int)/body";
+}
+subgraph cluster8 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroupCount()/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups()/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups(JID)/body";
+}
+subgraph cluster206 {
+"src_java_org_jivesoftware_openfire_OfflineMessageStore.java/[CN]/OfflineMessageStore/[MT]/getMessages(String,boolean)/body";
+"src_java_org_jivesoftware_wildfire_muc_spi_MUCUserImpl.java/[CN]/MUCUserImpl/[MT]/process(Presence)/body";
+"src_java_org_jivesoftware_util_FaviconServlet.java/[CN]/FaviconServlet/[MT]/doGet(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster348 {
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/addSharedUser(JID,Collection<Group>,Group)/body";
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/addSharedUser(Group,JID)/body";
+}
+subgraph cluster280 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/createClientSSLListeners()/body";
+"src_java_org_jivesoftware_openfire_muc_cluster_UpdateOccupantRequest.java/[CN]/UpdateOccupantRequest/[MT]/readExternal(ObjectInput)/body";
+"src_java_org_jivesoftware_wildfire_group_Group.java/[CN]/Group/[MT]/getSharedGroupsNames()/body";
+}
+subgraph cluster251 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQRouter()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getUpdateManager()/body";
+}
+subgraph cluster72 {
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/userUnavailable(Presence)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/retrieveListCount(String,String)/body";
+}
+subgraph cluster492 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/sendComposingPausedNotification(JID,JID)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/sendComposingNotification(JID,JID)/body";
+}
+subgraph cluster137 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addNone(String,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addMember(String,String,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addOwner(String,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addAdmin(String,MUCRole)/body";
+}
+subgraph cluster379 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/registrationLoggedIn(Registration,JID,PresenceType,String,Integer)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapManager.java/[CN]/LdapManager/[MT]/setSearchFilter(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARTransport.java/[CN]/OSCARTransport/[MT]/registrationLoggedIn(Registration,JID,PresenceType,String,Integer)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCTransport.java/[CN]/IRCTransport/[MT]/registrationLoggedIn(Registration,JID,PresenceType,String,Integer)/body";
+}
+subgraph cluster34 {
+"src_java_org_jivesoftware_util_cache_DefaultCache.java/[CN]/DefaultCache/[MT]/remove(Object)/body";
+"src_java_org_jivesoftware_util_cache_DefaultCache.java/[CN]/DefaultCache/[MT]/get(Object)/body";
+}
+subgraph cluster253 {
+"src_plugins_search_src_java_org_jivesoftware_messenger_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/setServiceEnabled(boolean)/body";
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/replyNonDataFormResult(Collection<User>,IQ)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/checkForTimedOutUsers()/body";
+}
+subgraph cluster309 {
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/replyNonDataFormResult(Set<User>,IQ)/body";
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/replyDataFormResult(Set<User>,IQ)/body";
+}
+subgraph cluster223 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_RegistrationManager.java/[CN]/RegistrationManager/[MT]/getRegistrations(JID)/body";
+"src_java_org_jivesoftware_admin_AdminConsole.java/[CN]/AdminConsole/[MT]/getAppName()/body";
+"src_java_org_jivesoftware_messenger_disco_IQDiscoItemsHandler.java/[CN]/IQDiscoItemsHandler/[MT]/getServerItemsProvider()/body";
+}
+subgraph cluster451 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/destroyRoom(String,String)/body";
+}
+subgraph cluster496 {
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/getBaseDN()/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/getAdminDN()/body";
+}
+subgraph cluster63 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooTransport.java/[CN]/YahooTransport/[MT]/isUsernameValid(String)/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/startTLS(boolean,String,ClientAuth)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/syncUsers()/body";
+}
+subgraph cluster82 {
+"src_java_org_jivesoftware_openfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[MT]/addWrittenBytesStat()/body";
+"src_java_org_jivesoftware_openfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[MT]/addReadBytesStat()/body";
+}
+subgraph cluster1 {
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/InputStreamWrapper/[MT]/read(byte[],int,int)/body";
+"src_java_org_jivesoftware_wildfire_net_ServerTrafficCounter.java/[CN]/ServerTrafficCounter/[CN]/OutputStreamWrapper/[MT]/write(byte[],int,int)/body";
+"src_java_org_jivesoftware_messenger_server_OutgoingSessionPromise.java/[CN]/OutgoingSessionPromise/[MT]/returnErrorToSender(Packet)/body";
+}
+subgraph cluster375 {
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/setSQL(String)/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/setParams(PreparedStatement)/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[FE]/params";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/addInt(int)/body";
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/addLong(long)/body";
+}
+subgraph cluster367 {
+"src_java_org_jivesoftware_openfire_session_ClientSessionInfo.java/[CN]/ClientSessionInfo/[MT]/writeExternal(ObjectOutput)/body";
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_RawPrintFilter.java/[CN]/RawPrintFilter/[MT]/messageReceived(NextFilter,IoSession,Object)/body";
+}
+subgraph cluster70 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleUnjoinCommand(UnjoinCommand,IQ)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/handleJoinCommand(JoinCommand,IQ)/body";
+}
+subgraph cluster487 {
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/routeIncomingSIP(CallParticipant)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/messageReceived(SessionEvent)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/routeJoinEvent(String,CallParticipant,ConferenceEvent,int,String,String,CallHandler)/body";
+}
+subgraph cluster126 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/notifyReceived(SessionNotifyEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/buzzReceived(SessionEvent)/body";
+}
+subgraph cluster155 {
+"src_java_org_jivesoftware_openfire_muc_MultiUserChatManager.java/[CN]/MultiUserChatManager/[MT]/updateMultiUserChatService(Long,String,String)/body";
+"src_java_org_jivesoftware_openfire_muc_MultiUserChatManager.java/[CN]/MultiUserChatManager/[MT]/joinedCluster()/body";
+}
+subgraph cluster405 {
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[CS]/LdapUserProvider()/body";
+}
+subgraph cluster510 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/addNone(String,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_sasl_SaslServerPlainImpl.java/[CN]/SaslServerPlainImpl/[MT]/evaluateResponse(byte[])/body";
+}
+subgraph cluster172 {
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setUsername(String)/body";
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/createMimeMessage()/body";
+"src_plugins_registration_src_java_org_jivesoftware_openfire_plugin_RegistrationPlugin.java/[CN]/RegistrationPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+"src_java_org_jivesoftware_wildfire_group_DefaultGroupProvider.java/[CN]/DefaultGroupProvider/[MT]/getGroups()/body";
+}
+subgraph cluster249 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/destroyCache(String)/body";
+"src_java_org_jivesoftware_wildfire_update_UpdateManager.java/[CN]/UpdateManager/[MT]/processAvailablePluginsResponse(String,boolean)/body";
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/stopClustering()/body";
+"src_java_org_jivesoftware_util_Version.java/[CN]/Version/[MT]/getVersionString()/body";
+}
+subgraph cluster48 {
+"src_java_org_jivesoftware_database_CachedPreparedStatement.java/[CN]/CachedPreparedStatement/[MT]/equals(Object)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/start()/body";
+"src_java_org_jivesoftware_messenger_group_Group.java/[CN]/Group/[CN]/MemberCollection/[MT]/add(Object)/body";
+}
+subgraph cluster458 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getModerators()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getParticipants()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getMembers()/body";
+}
+subgraph cluster105 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/addMember(String,JID,boolean)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/deleteGroup(String)/body";
+"src_java_org_jivesoftware_util_TaskEngine.java/[CN]/TaskEngine/[MT]/schedule(TimerTask,Date,long)/body";
+"src_java_org_jivesoftware_wildfire_net_SASLAuthentication.java/[CN]/SASLAuthentication/[MT]/getSASLMechanisms(Session)/body";
+}
+subgraph cluster352 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/setModificationDate(String,Date)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/deleteUser(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/getManager()/body";
+"src_java_org_dom4j_io_XPPPacketReader.java/[CN]/XPPPacketReader/[MT]/getXPPParser()/body";
+}
+subgraph cluster95 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceLockOutProvider.java/[CN]/ClearspaceLockOutProvider/[MT]/setDisabledStatus(LockOutFlag)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceLockOutProvider.java/[CN]/ClearspaceLockOutProvider/[MT]/unsetDisabledStatus(String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceSecurityAuditProvider.java/[CN]/ClearspaceSecurityAuditProvider/[CS]/ClearspaceSecurityAuditProvider()/body";
+}
+subgraph cluster256 {
+"src_java_org_jivesoftware_util_Version.java/[CN]/Version/[CS]/Version(int,int,int,ReleaseStatus,int)/body";
+"src_java_org_jivesoftware_util_Version.java/[CN]/Version/[MT]/compareTo(Version)/body";
+}
+subgraph cluster260 {
+"src_java_org_jivesoftware_wildfire_IQRouter.java/[CN]/IQRouter/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_wildfire_IQRouter.java/[CN]/IQRouter/[MT]/handle(IQ)/body";
+}
+subgraph cluster87 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/removeMember(JID)/body";
+"src_java_org_jivesoftware_messenger_net_SocketSendingTracker.java/[CN]/SocketSendingTracker/[MT]/checkHealth()/body";
+}
+subgraph cluster103 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/syncContactGroups(Email,List<String>)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/removeContact(RosterItem)/body";
+}
+subgraph cluster342 {
+"src_plugins_callbackOnOffline_src_java_com_fotsum_CallbackOnOffline.java/[CN]/CallbackOnOffline/[MT]/interceptPacket(Packet,Session,boolean,boolean)/body";
+}
+subgraph cluster307 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/handleDiscoInfo(IQ)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/processPacket(IQ)/body";
+}
+subgraph cluster430 {
+"src_java_org_xmpp_packet_Packet.java/[CN]/Packet/[MT]/getTo()/body";
+"src_java_org_xmpp_packet_Packet.java/[CN]/Packet/[MT]/getFrom()/body";
+}
+subgraph cluster396 {
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/getItems(String,String,XMPPAddress)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/getChatRoom(String)/body";
+}
+subgraph cluster406 {
+"src_java_org_jivesoftware_wildfire_privacy_PrivacyListProvider.java/[CN]/PrivacyListProvider/[MT]/getPrivacyLists(String)/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapVCardProvider.java/[CN]/LdapVCardProvider/[MT]/updateVCard(String,Element)/body";
+}
+subgraph cluster154 {
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/addComponentRoute(JID,RoutableChannelHandler)/body";
+}
+subgraph cluster131 {
+"src_plugins_remoteRoster_src_java_org_jivesoftware_openfire_plugin_packageProcessor_DiscoIQResigteredProcessor.java/[CN]/DiscoIQResigteredProcessor/[MT]/process(Packet)/body";
+}
+subgraph cluster41 {
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/createOutgoingSession(String,String,int)/body";
+"src_java_org_jivesoftware_messenger_container_PluginManager.java/[CN]/PluginManager/[CN]/PluginMonitor/[MT]/unzipPlugin(String,File,File)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCTranscriptManager.java/[CN]/ClearspaceMUCTranscriptManager/[MT]/start()/body";
+}
+subgraph cluster331 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getAuditManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getConnectionManager()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getOfflineMessageStore()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/loadModules()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPresenceUpdateHandler()/body";
+}
+subgraph cluster476 {
+"src_plugins_rayo_src_java_org_xmpp_jnodes_RelayChannel.java/[CN]/RelayChannel/[MT]/setCrypto(Handset)/body";
+}
+subgraph cluster392 {
+"src_java_org_jivesoftware_messenger_group_GroupManager.java/[CN]/GroupManager/[MT]/deleteGroup(Group)/body";
+}
+subgraph cluster83 {
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/updateRosterItem(RosterItem)/body";
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/deleteRosterItem(JID,boolean)/body";
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/createRosterItem(org.xmpp.packet.Roster.Item)/body";
+}
+subgraph cluster165 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getPubSubModule()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getOfflineMessageStrategy()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getIQAuthHandler()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/getRosterManager()/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/updateStatus(PresenceType,String)/body";
+}
+subgraph cluster128 {
+"src_java_org_jivesoftware_messenger_roster_RosterItem.java/[CN]/RosterItem/[MT]/isOnlyShared()/body";
+"src_java_org_jivesoftware_messenger_roster_RosterItem.java/[CN]/RosterItem/[MT]/isShared()/body";
+}
+subgraph cluster482 {
+"src_java_org_jivesoftware_openfire_commands_admin_user_AuthenticateUser.java/[CN]/AuthenticateUser/[MT]/execute(SessionData,Element)/body";
+"src_java_org_jivesoftware_openfire_user_User.java/[CN]/User/[MT]/setPassword(String)/body";
+}
+subgraph cluster71 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/searchForGroups(String,String[])/body";
+}
+subgraph cluster293 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_RegistrationManager.java/[CN]/RegistrationManager/[MT]/deleteRegistration(Registration)/body";
+}
+subgraph cluster361 {
+"src_java_org_jivesoftware_messenger_net_XMLSocketWriter.java/[CN]/XMLSocketWriter/[MT]/flush()/body";
+"src_java_org_jivesoftware_messenger_net_SocketConnection.java/[CN]/SocketConnection/[MT]/validate()/body";
+"src_java_org_jivesoftware_messenger_net_SocketConnection.java/[CN]/SocketConnection/[MT]/deliverRawText(String)/body";
+}
+subgraph cluster220 {
+"src_java_org_jivesoftware_wildfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/start()/body";
+"src_java_org_jivesoftware_wildfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/stop()/body";
+}
+subgraph cluster414 {
+"src_java_org_jivesoftware_openfire_handler_IQEntityTimeHandler.java/[CN]/IQEntityTimeHandler/[MT]/handleIQ(IQ)/body";
+"src_java_org_jivesoftware_openfire_handler_IQEntityTimeHandler.java/[CN]/IQEntityTimeHandler/[MT]/getUtcDate(Date)/body";
+}
+subgraph cluster422 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/enableComponentListener(boolean)/body";
+"src_java_org_jivesoftware_wildfire_ldap_LdapManager.java/[CN]/LdapManager/[MT]/findUserDN(String,String)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/enableClientSSLListener(boolean)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/setClientListenerPort(int)/body";
+}
+subgraph cluster226 {
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCUser.java/[CN]/LocalMUCUser/[MT]/process(Message)/body";
+}
+subgraph cluster187 {
+"src_java_org_jivesoftware_openfire_admin_AdminManager.java/[CN]/AdminManager/[MT]/removeAdminAccount(JID)/body";
+}
+subgraph cluster466 {
+"src_java_org_jivesoftware_wildfire_group_GroupManager.java/[CN]/GroupManager/[MT]/getGroups(JID)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/logConversation()/body";
+}
+subgraph cluster349 {
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/propertyDeleted(String,Map<String,Object>)/body";
+"src_plugins_search_src_java_org_jivesoftware_openfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/processSetPacket(IQ)/body";
+}
+subgraph cluster459 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_web_ConfigManager.java/[CN]/ConfigManager/[MT]/updateRegistration(Integer,String,String,String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_web_ConfigManager.java/[CN]/ConfigManager/[MT]/deleteRegistration(Integer)/body";
+}
+subgraph cluster14 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/retrieveContactStatus(JID)/body";
+}
+subgraph cluster43 {
+"src_java_org_jivesoftware_openfire_pep_IQPEPHandler.java/[CN]/IQPEPHandler/[MT]/availableSession(ClientSession,Presence)/body";
+"src_java_org_jivesoftware_openfire_pep_IQPEPHandler.java/[CN]/IQPEPHandler/[MT]/handleIQ(IQ)/body";
+}
+subgraph cluster247 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[MT]/startInstance()/body";
+}
+subgraph cluster184 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/removeContact(RosterItem)/body";
+"src_java_org_jivesoftware_openfire_nio_XMLLightweightParser.java/[CN]/XMLLightweightParser/[MT]/foundMsg(String)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindServlet.java/[CN]/HttpBindServlet/[MT]/respond(HttpServletRequest,HttpServletResponse,HttpConnection,String)/body";
+}
+subgraph cluster429 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/getSession(JID)/body";
+}
+subgraph cluster388 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/createLocalCache(String)/body";
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/getLock(Object,Cache)/body";
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/initialize()/body";
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/startClustering()/body";
+}
+subgraph cluster306 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceLockOutProvider.java/[CN]/ClearspaceLockOutProvider/[MT]/getUserByUsername(String)/body";
+"src_java_org_jivesoftware_openfire_cluster_ClusterManager.java/[CN]/ClusterManager/[MT]/setClusteringEnabled(boolean)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSession.java/[CN]/YahooSession/[MT]/updateStatus(PresenceType,String)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceGroupProvider.java/[CN]/ClearspaceGroupProvider/[MT]/getGroupMembers(long)/body";
+}
+subgraph cluster316 {
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsers(int,int)/body";
+"src_java_org_jivesoftware_openfire_net_XMPPCallbackHandler.java/[CN]/XMPPCallbackHandler/[MT]/handle(Callback[])/body";
+"src_java_org_jivesoftware_openfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String)/body";
+}
+subgraph cluster308 {
+"src_java_org_jivesoftware_openfire_user_User.java/[CN]/User/[CS]/User(String,String,String,Date,Date)/body";
+}
+subgraph cluster257 {
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/canProbePresence(JID,String)/body";
+"src_java_org_jivesoftware_wildfire_handler_IQvCardHandler.java/[CN]/IQvCardHandler/[MT]/handleIQ(IQ)/body";
+"src_java_org_jivesoftware_wildfire_spi_PresenceManagerImpl.java/[CN]/PresenceManagerImpl/[MT]/probePresence(JID,JID)/body";
+}
+subgraph cluster264 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_RegistrationManager.java/[CN]/RegistrationManager/[MT]/getRegistrations(JID,GatewayType)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/getAddress()/body";
+}
+subgraph cluster118 {
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/loadUser(String)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsers(int,int)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUserCount()/body";
+}
+subgraph cluster334 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/createConnectionManagerListener()/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/createComponentListener()/body";
+}
+subgraph cluster425 {
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/flushItems()/body";
+"src_java_org_jivesoftware_wildfire_net_ConnectionMultiplexerSocketReader.java/[CN]/ConnectionMultiplexerSocketReader/[MT]/processIQ(IQ)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionListener.java/[CN]/ConnectionListener/[MT]/generateConnectionConfiguration()/body";
+}
+subgraph cluster355 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/handleIQVersion(IQ)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/getVersionString()/body";
+}
+subgraph cluster346 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceManager.java/[CN]/ClearspaceManager/[CS]/ClearspaceManager(Map<String,String>)/body";
+}
+subgraph cluster178 {
+"src_java_org_jivesoftware_wildfire_net_ComponentSocketReader.java/[CN]/ComponentSocketReader/[MT]/processUnknowPacket(Element)/body";
+"src_java_org_jivesoftware_wildfire_component_ComponentSession.java/[CN]/ComponentSession/[CN]/ExternalComponent/[MT]/getInitialSubdomain()/body";
+}
+subgraph cluster38 {
+"src_java_org_jivesoftware_messenger_ComponentManager.java/[CN]/ComponentManager/[MT]/getComponent(String)/body";
+"src_java_org_jivesoftware_messenger_ComponentManager.java/[CN]/ComponentManager/[MT]/removeComponent(String)/body";
+}
+subgraph cluster148 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/getOwners()/body";
+}
+subgraph cluster157 {
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[MT]/isClosed()/body";
+"src_java_org_jivesoftware_openfire_nio_NIOConnection.java/[CN]/NIOConnection/[CS]/NIOConnection(IoSession,PacketDeliverer)/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/initialize()/body";
+}
+subgraph cluster228 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BOSConnection.java/[CN]/BOSConnection/[MT]/handleSnacResponse(SnacResponseEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BaseFlapConnection.java/[CN]/BaseFlapConnection/[MT]/initBaseFlapConnection()/body";
+"src_plugins_broadcast_src_java_org_jivesoftware_messenger_plugin_BroadcastPlugin.java/[CN]/BroadcastPlugin/[MT]/getDescription()/body";
+}
+subgraph cluster332 {
+"src_java_org_jivesoftware_openfire_streammanagement_StreamManager.java/[CN]/StreamManager/[MT]/onClose(PacketRouter,JID)/body";
+}
+subgraph cluster275 {
+"src_java_org_jivesoftware_util_EmailService.java/[CN]/EmailService/[MT]/setPassword(String)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_yahoo_YahooSessionListener.java/[CN]/YahooSessionListener/[MT]/friendsUpdateReceived(SessionFriendEvent)/body";
+}
+subgraph cluster294 {
+"src_java_org_jivesoftware_wildfire_SessionManager.java/[CN]/SessionManager/[MT]/createClientSession(Connection)/body";
+"src_java_org_jivesoftware_util_XMLProperties.java/[CN]/XMLProperties/[CS]/XMLProperties(InputStream)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[CS]/ConnectionManagerImpl()/body";
+}
+subgraph cluster75 {
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/createX509V3Certificate(KeyPair,int,String,String,String,String)/body";
+"src_java_org_jivesoftware_util_CertificateManager.java/[CN]/CertificateManager/[MT]/parseCertificates(InputStream)/body";
+}
+subgraph cluster403 {
+"src_java_org_jivesoftware_messenger_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/findUsers(Set<String>,String,int,int)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindManager.java/[CN]/HttpBindManager/[MT]/configureHttpBindServer(int,int)/body";
+"src_plugins_jitsivideobridge_src_java_org_ifsoft_sip_CallSession.java/[CN]/CallSession/[MT]/sendBye()/body";
+}
+subgraph cluster145 {
+"src_plugins_jingleNodes_src_java_org_jinglenodes_JingleNodesPlugin.java/[CN]/JingleNodesPlugin/[MT]/verifyNetwork()/body";
+}
+subgraph cluster195 {
+"src_plugins_rayo_src_java_com_sun_voip_server_MemberReceiver.java/[CN]/MemberReceiver/[MT]/initialize(ConferenceManager,CallHandler,byte,byte,RtcpReceiver)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoComponent.java/[CN]/RayoComponent/[MT]/setMixer(CallHandler,IQ,CallParticipant,boolean)/body";
+}
+subgraph cluster456 {
+"src_java_org_jivesoftware_openfire_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/processGroup(LdapContext,Attributes)/body";
+}
+subgraph cluster188 {
+"src_java_org_jivesoftware_openfire_pubsub_cluster_AffiliationTask.java/[CN]/AffiliationTask/[MT]/writeExternal(ObjectOutput)/body";
+"src_java_org_jivesoftware_openfire_pubsub_cluster_AffiliationTask.java/[CN]/AffiliationTask/[MT]/readExternal(ObjectInput)/body";
+}
+subgraph cluster100 {
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/setConnectionManagerListenerPort(int)/body";
+"src_java_org_jivesoftware_openfire_spi_ConnectionManagerImpl.java/[CN]/ConnectionManagerImpl/[MT]/setComponentListenerPort(int)/body";
+}
+subgraph cluster229 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_TransportInstance.java/[CN]/TransportInstance/[CS]/TransportInstance(TransportType,String,String,ComponentManager)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_IQMUCRegisterHandler.java/[CN]/IQMUCRegisterHandler/[MT]/handleIQ(IQ)/body";
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/joinedCluster()/body";
+}
+subgraph cluster141 {
+"src_java_org_jivesoftware_wildfire_http_HttpSession.java/[CN]/HttpSession/[MT]/closeConnection()/body";
+}
+subgraph cluster113 {
+"src_plugins_rayo_src_java_com_rayo_core_verb_Handset.java/[CN]/Handset/[MT]/toString()/body";
+"src_java_org_jivesoftware_wildfire_SessionPacketRouter.java/[CN]/SessionPacketRouter/[MT]/route(IQ)/body";
+"src_java_org_jivesoftware_util_StringUtils.java/[CN]/StringUtils/[MT]/escapeForXML(String)/body";
+}
+subgraph cluster501 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/contactAdded(Roster,RosterItem)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/contactDeleted(Roster,RosterItem)/body";
+}
+subgraph cluster420 {
+"src_java_org_jivesoftware_wildfire_user_UserManager.java/[CN]/UserManager/[MT]/isRegisteredUser(String)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[MT]/stop()/body";
+}
+subgraph cluster444 {
+"src_plugins_xmldebugger_src_java_org_jivesoftware_openfire_plugin_RawPrintFilter.java/[CN]/RawPrintFilter/[CS]/RawPrintFilter(String)/body";
+"src_java_org_jivesoftware_openfire_admin_AdminManager.java/[CN]/AdminManager/[MT]/isUserAdmin(JID,boolean)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceUserProvider.java/[CN]/ClearspaceUserProvider/[MT]/isReadOnly()/body";
+}
+subgraph cluster245 {
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/leaveRoom(String)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/joinRoom(String,String,HistoryRequest,MUCUser,Presence)/body";
+}
+subgraph cluster4 {
+"src_java_org_jivesoftware_util_FaviconServlet.java/[CN]/FaviconServlet/[MT]/init(ServletConfig)/body";
+}
+subgraph cluster343 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_BaseTransport.java/[CN]/BaseTransport/[MT]/contactUpdated(Roster,RosterItem)/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MUCRoomImpl.java/[CN]/MUCRoomImpl/[MT]/changeSubject(Message,MUCRole)/body";
+"src_java_org_jivesoftware_openfire_http_HttpBindManager.java/[CN]/HttpBindManager/[MT]/getHttpBindSecurePort()/body";
+}
+subgraph cluster373 {
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/blockAccess(String)/body";
+"src_java_org_jivesoftware_openfire_component_ExternalComponentManager.java/[CN]/ExternalComponentManager/[MT]/canAccess(String)/body";
+}
+subgraph cluster401 {
+"src_plugins_presence_src_java_org_jivesoftware_wildfire_plugin_PresencePlugin.java/[CN]/PresencePlugin/[MT]/destroyPlugin()/body";
+"src_plugins_presence_src_java_org_jivesoftware_wildfire_plugin_PresencePlugin.java/[CN]/PresencePlugin/[MT]/processPacket(Packet)/body";
+}
+subgraph cluster193 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/syncContactGroupsAndNickname(String,String,List<String>)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/bosDisconnected()/body";
+"src_java_org_jivesoftware_wildfire_roster_Roster.java/[CN]/Roster/[MT]/getImplicitRosterItem(JID)/body";
+}
+subgraph cluster488 {
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/start()/body";
+"src_java_org_jivesoftware_openfire_XMPPServer.java/[CN]/XMPPServer/[MT]/stop()/body";
+}
+subgraph cluster225 {
+"src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/HttpSession/[MT]/getLastActivity()/body";
+"src_java_org_jivesoftware_openfire_http_HttpSession.java/[CN]/HttpSession/[MT]/closeSession()/body";
+}
+subgraph cluster356 {
+"src_java_org_jivesoftware_util_cache_CacheFactory.java/[CN]/CacheFactory/[MT]/leftCluster()/body";
+"src_java_org_jivesoftware_openfire_session_LocalOutgoingServerSession.java/[CN]/LocalOutgoingServerSession/[MT]/authenticateSubdomain(String,String)/body";
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/removeExternalServer(int)/body";
+"src_java_org_jivesoftware_openfire_auth_DefaultAuthProvider.java/[CN]/DefaultAuthProvider/[MT]/setPassword(String,String)/body";
+"src_plugins_gojara_src_java_org_jivesoftware_openfire_plugin_gojara_base_RemoteRosterPlugin.java/[CN]/RemoteRosterPlugin/[MT]/initializePlugin(PluginManager,File)/body";
+}
+subgraph cluster477 {
+"src_java_org_jivesoftware_messenger_roster_Roster.java/[CN]/Roster/[MT]/deleteSharedUser(Group,String)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_LocalMUCRoom.java/[CN]/LocalMUCRoom/[MT]/addOutcast(JID,String,MUCRole)/body";
+}
+subgraph cluster116 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_SnacManager.java/[CN]/SnacManager/[MT]/unregister(BasicFlapConnection)/body";
+}
+subgraph cluster46 {
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/getStunServerAddresses(String)/body";
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/setEnabled(boolean,boolean)/body";
+"src_java_org_jivesoftware_wildfire_stun_STUNService.java/[CN]/STUNService/[MT]/startLocalServer()/body";
+}
+subgraph cluster389 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_SnacManager.java/[CN]/SnacManager/[MT]/getConn(int)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_SnacManager.java/[CN]/SnacManager/[MT]/register(BasicFlapConnection)/body";
+}
+subgraph cluster24 {
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/searchForGroups(String,String[])/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroups(User)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapGroupProvider.java/[CN]/LdapGroupProvider/[MT]/getGroup(String)/body";
+}
+subgraph cluster65 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUserCount()/body";
+}
+subgraph cluster410 {
+"src_java_org_jivesoftware_wildfire_SessionPacketRouter.java/[CN]/SessionPacketRouter/[MT]/route(Presence)/body";
+"src_java_org_jivesoftware_wildfire_SessionPacketRouter.java/[CN]/SessionPacketRouter/[MT]/route(Message)/body";
+}
+subgraph cluster468 {
+"src_plugins_rayo_src_java_org_voicebridge_Application.java/[CN]/Application/[MT]/appStart(File)/body";
+"src_plugins_rayo_src_java_org_ifsoft_rayo_RayoPlugin.java/[CN]/RayoPlugin/[MT]/checkRecordingFolder(File)/body";
+}
+subgraph cluster101 {
+"src_plugins_monitoring_src_java_org_jivesoftware_openfire_archive_ConversationManager.java/[CN]/ConversationManager/[MT]/start()/body";
+"src_plugins_search_src_java_org_jivesoftware_wildfire_plugin_SearchPlugin.java/[CN]/SearchPlugin/[MT]/destroyPlugin()/body";
+"src_java_org_jivesoftware_messenger_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/initialize(XMPPServer)/body";
+"src_java_org_jivesoftware_openfire_muc_spi_MultiUserChatServiceImpl.java/[CN]/MultiUserChatServiceImpl/[MT]/start()/body";
+}
+subgraph cluster162 {
+"src_java_org_jivesoftware_openfire_commands_clearspace_SystemAdminRemoved.java/[CN]/SystemAdminRemoved/[MT]/getActions(SessionData)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_OSCARSession.java/[CN]/OSCARSession/[MT]/retrieveContactStatus(JID)/body";
+}
+subgraph cluster446 {
+"src_java_org_jivesoftware_openfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/start()/body";
+"src_java_org_jivesoftware_openfire_http_HttpSessionManager.java/[CN]/HttpSessionManager/[MT]/stop()/body";
+}
+subgraph cluster287 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_Registration.java/[CN]/Registration/[MT]/setPassword(String)/body";
+}
+subgraph cluster408 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BasicFlapConnection.java/[CN]/BasicFlapConnection/[MT]/handleSnacPacket(SnacPacketEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BasicFlapConnection.java/[CN]/BasicFlapConnection/[MT]/getAndSendAllStatuses(JID)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BasicFlapConnection.java/[CN]/BasicFlapConnection/[MT]/handleSnacResponse(SnacResponseEvent)/body";
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_oscar_BasicFlapConnection.java/[CN]/BasicFlapConnection/[MT]/getAndSendStatus(String)/body";
+}
+subgraph cluster182 {
+"src_java_org_jivesoftware_messenger_ldap_LdapUserInfoProvider.java/[CN]/LdapUserInfoProvider/[MT]/generateNewUserInfoInDb(long)/body";
+"src_java_org_jivesoftware_messenger_auth_spi_DbGroupProvider.java/[CN]/DbGroupProvider/[MT]/deleteGroup(long)/body";
+"src_java_org_jivesoftware_messenger_ldap_LdapUserInfoProvider.java/[CN]/LdapUserInfoProvider/[MT]/setInfo(long,UserInfo)/body";
+"src_java_org_jivesoftware_messenger_auth_spi_DbGroupProvider.java/[CN]/DbGroupProvider/[MT]/deleteProperty(long,String)/body";
+}
+subgraph cluster207 {
+"src_java_org_jivesoftware_database_SequenceManager.java/[CN]/SequenceManager/[MT]/nextID(int)/body";
+"src_java_org_jivesoftware_database_SequenceManager.java/[CN]/SequenceManager/[MT]/setBlockSize(int,int)/body";
+}
+subgraph cluster149 {
+"src_java_org_jivesoftware_wildfire_ldap_LdapUserProvider.java/[CN]/LdapUserProvider/[MT]/getUsernames()/body";
+"src_java_org_jivesoftware_openfire_pubsub_PubSubPersistenceManager.java/[CN]/PubSubPersistenceManager/[MT]/removeNode(Node)/body";
+}
+subgraph cluster99 {
+"src_plugins_hazelcast_src_java_com_jivesoftware_openfire_session_RemoteSession.java/[CN]/RemoteSession/[MT]/doSynchronousClusterTask(ClusterTask)/body";
+}
+subgraph cluster147 {
+"src_java_org_jivesoftware_messenger_handler_IQHandler.java/[CN]/IQHandler/[MT]/process(Packet)/body";
+}
+subgraph cluster503 {
+"src_java_org_jivesoftware_messenger_handler_PresenceSubscribeHandler.java/[CN]/PresenceSubscribeHandler/[MT]/updateState(RosterItem,Presence.Type,boolean)/body";
+"src_java_org_jivesoftware_messenger_handler_PresenceSubscribeHandler.java/[CN]/PresenceSubscribeHandler/[MT]/process(Packet)/body";
+}
+subgraph cluster337 {
+"src_java_org_jivesoftware_openfire_streammanagement_StreamManager.java/[CN]/StreamManager/[MT]/processClientAcknowledgement(Element)/body";
+}
+subgraph cluster419 {
+"src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_msn_MSNSession.java/[CN]/MSNSession/[MT]/updateContact(RosterItem)/body";
+}
+subgraph cluster51 {
+"src_java_org_jivesoftware_openfire_SessionManager.java/[CN]/SessionManager/[MT]/removeSession(ClientSession,JID,boolean,boolean)/body";
+"src_java_org_jivesoftware_openfire_SessionManager.java/[CN]/SessionManager/[MT]/addSession(LocalClientSession)/body";
+}
+subgraph cluster107 {
+"src_java_org_jivesoftware_wildfire_net_SocketReader.java/[CN]/SocketReader/[MT]/negotiateTLS()/body";
+"src_java_org_jivesoftware_wildfire_container_PluginClassLoader.java/[CN]/PluginClassLoader/[MT]/addDirectory(File,boolean)/body";
+}
+subgraph cluster417 {
+"src_java_org_jivesoftware_wildfire_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/addTotalOccupantsStats()/body";
+"src_java_org_jivesoftware_wildfire_muc_spi_MultiUserChatServerImpl.java/[CN]/MultiUserChatServerImpl/[MT]/addTotalConnectedUsers()/body";
+}
+subgraph cluster237 {
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/sessionAvailable(Session)/body";
+"src_java_org_jivesoftware_messenger_SessionManager.java/[CN]/SessionManager/[MT]/sessionUnavailable(Session)/body";
+}
+subgraph cluster318 {
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/getUsernames()/body";
+"src_java_org_jivesoftware_openfire_user_HybridUserProvider.java/[CN]/HybridUserProvider/[MT]/deleteUser(String)/body";
+}
+subgraph cluster85 {
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/createColibriChannel(Participant)/body";
+"src_plugins_jitsivideobridge_src_java_org_jitsi_videobridge_openfire_PluginImpl.java/[CN]/PluginImpl/[CN]/FocusAgent/[MT]/removeColibriChannel(JID)/body";
+"src_java_org_jivesoftware_wildfire_group_GroupManager.java/[CN]/GroupManager/[MT]/getGroups(int,int)/body";
+}
+subgraph cluster204 {
+"src_java_org_jivesoftware_openfire_session_LocalClientSession.java/[CN]/LocalClientSession/[MT]/deliver(Packet)/body";
+}
+subgraph cluster440 {
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCTranscriptManager.java/[CN]/ClearspaceMUCTranscriptManager/[MT]/messageReceived(JID,JID,String,Message)/body";
+"src_java_org_jivesoftware_openfire_clearspace_ClearspaceMUCTranscriptManager.java/[CN]/ClearspaceMUCTranscriptManager/[MT]/occupantJoined(JID,JID,String)/body";
+}
+subgraph cluster140 {
+"src_java_org_jivesoftware_openfire_spi_RoutingTableImpl.java/[CN]/RoutingTableImpl/[MT]/routeToLocalDomain(JID,Packet,boolean)/body";
+"src_plugins_hazelcast_src_java_com_jivesoftware_openfire_session_RemoteSession.java/[CN]/RemoteSession/[MT]/doClusterTask(ClusterTask)/body";
+}
+}

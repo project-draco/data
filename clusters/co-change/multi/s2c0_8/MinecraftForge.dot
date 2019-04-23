@@ -1,0 +1,989 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digraph {
+subgraph cluster252 {
+"fml_server_cpw_mods_fml_server_FMLHandler.java/[CN]/FMLHandler/[MT]/handlePacket250(Packet250CustomPayload,EntityPlayer)/body";
+}
+subgraph cluster51 {
+"src_main_java_net_minecraftforge_common_UsernameCache.java/[CN]/UsernameCache/[MT]/load()/body";
+}
+subgraph cluster36 {
+"src_main_java_net_minecraftforge_common_BiomeDictionary.java/[CN]/BiomeDictionary/[MT]/makeBestGuess(BiomeGenBase)/body";
+}
+subgraph cluster128 {
+"fml_update__packages.py/other";
+}
+subgraph cluster165 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted1/body";
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted1/body";
+}
+subgraph cluster215 {
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[CN]/MissingMapping/[MT]/warn()/body";
+}
+subgraph cluster92 {
+"fml_getversion.py/[MT]/main/body";
+"fml_getversion.py/other";
+}
+subgraph cluster23 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted0/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted2/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted6/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted4/body";
+}
+subgraph cluster149 {
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderCrosshairs(int,int)/body";
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderHealth(int,int)/body";
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderExperience(int,int)/body";
+}
+subgraph cluster88 {
+"src_main_java_net_minecraftforge_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/loadDummied(Set<ResourceLocation>)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/markDummy(ResourceLocation,Integer,I)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_PersistentRegistryManager.java/[CN]/PersistentRegistryManager/[MT]/loadPersistentDataToStagingRegistry(boolean,Map<ResourceLocation,Map<ResourceLocation,Integer[]>>,LinkedHashMap<ResourceLocation,Map<ResourceLocation,Integer>>,Map.Entry<ResourceLocation,GameDataSnapshot.Entry>,Class<T>)/body";
+}
+subgraph cluster47 {
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[MT]/applyModContainer(ModContainer)/body";
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[MT]/get()/body";
+}
+subgraph cluster140 {
+"fml_src_main_java_net_minecraftforge_fml_client_GuiScrollingList.java/[CN]/GuiScrollingList/[MT]/overlayBackground(int,int,int,int)/body";
+"fml_src_main_java_net_minecraftforge_fml_client_GuiScrollingList.java/[CN]/GuiScrollingList/[MT]/drawGradientRect(int,int,int,int,int,int)/body";
+}
+subgraph cluster10 {
+"src_main_java_net_minecraftforge_fml_client_GuiScrollingList.java/[CN]/GuiScrollingList/[MT]/drawGradientRect(int,int,int,int,int,int)/body";
+"src_main_java_net_minecraftforge_fml_client_GuiScrollingList.java/[CN]/GuiScrollingList/[MT]/drawScreen(int,int,float)/body";
+}
+subgraph cluster139 {
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[MT]/tickEnd(EnumSet<TickType>,Object)/body";
+}
+subgraph cluster24 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/extend";
+}
+subgraph cluster239 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted6/body";
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted4/body";
+}
+subgraph cluster122 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MAX_ITEM_ID";
+}
+subgraph cluster186 {
+"fml_install_fml.py/[MT]/pre_decompile/body";
+}
+subgraph cluster93 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/buildWorldItemData(NBTTagList)/body";
+}
+subgraph cluster233 {
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[MT]/keyTick(EnumSet<TickType>,boolean)/body";
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[FE]/keyBindings";
+"fml_client_cpw_mods_fml_client_modloader_ModLoaderKeyBindingHandler.java/[CN]/ModLoaderKeyBindingHandler/[MT]/keyDown(EnumSet<TickType>,KeyBinding,boolean,boolean)/body";
+}
+subgraph cluster89 {
+"fml_common_cpw_mods_fml_common_event_FMLInterModComms.java/[CN]/FMLInterModComms/[MT]/sendMessage(String,String,String)/body";
+}
+subgraph cluster9 {
+"fml_install_fml.py/[MT]/setup_fml/body";
+"fml_server_net_minecraft_src_ModLoader.java/[CN]/ModLoader/[MT]/registerEntityID(Class<? extends Entity>,String,int)/body";
+}
+subgraph cluster39 {
+"src_main_java_net_minecraftforge_event_world_WorldEvent.java/[CN]/WorldEvent/[CN]/CreateSpawnPosition/[CS]/CreateSpawnPosition(World,WorldSettings)/body";
+"src_main_java_net_minecraftforge_event_world_WorldEvent.java/[CN]/WorldEvent/[CN]/CreateSpawnPosition/[FE]/settings";
+"src_main_java_net_minecraftforge_event_world_WorldEvent.java/[CN]/WorldEvent/[CN]/CreateSpawnPosition/extend";
+}
+subgraph cluster232 {
+"src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/getStatus()/body";
+"src_main_java_net_minecraftforge_common_ForgeModContainer.java/[CN]/ForgeModContainer/[CS]/ForgeModContainer()/body";
+}
+subgraph cluster207 {
+"client_net_minecraftforge_client_GuiControlsScrollPanel.java/[CN]/GuiControlsScrollPanel/[MT]/drawScreen(int,int,float)/body";
+"client_net_minecraftforge_client_GuiControlsScrollPanel.java/[CN]/GuiControlsScrollPanel/[MT]/drawSlot(int,int,int,int,Tessellator)/body";
+}
+subgraph cluster188 {
+"common_net_minecraftforge_common_ForgeChunkManager.java/[CN]/ForgeChunkManager/[MT]/captureConfig(File)/body";
+}
+subgraph cluster187 {
+"forge_forge__server_src_net_minecraft_src_forge_ForgeHooksServer.java/[CN]/ForgeHooksServer/[MT]/sendModListRequest(NetworkManager)/body";
+"forge_forge__client_src_net_minecraft_src_forge_PacketHandlerClient.java/[CN]/PacketHandlerClient/[MT]/onMissingMods(PacketMissingMods,NetClientHandler)/body";
+}
+subgraph cluster202 {
+"fml_client_cpw_mods_fml_client_registry_RenderingRegistry.java/[CN]/RenderingRegistry/[MT]/addTextureOverride(String,String)/body";
+"fml_client_cpw_mods_fml_client_registry_RenderingRegistry.java/[CN]/RenderingRegistry/[MT]/getUniqueTextureIndex(String)/body";
+}
+subgraph cluster164 {
+"client_net_minecraftforge_client_model_techne_TechneModel.java/[CN]/TechneModel/[MT]/bindTexture()/body";
+}
+subgraph cluster31 {
+"src_main_java_net_minecraftforge_fml_common_registry_ObjectHolderRef.java/[CN]/ObjectHolderRef/[MT]/apply()/body";
+}
+subgraph cluster72 {
+"fml_common_cpw_mods_fml_common_InjectedModContainer.java/[CN]/InjectedModContainer/[CS]/InjectedModContainer(ModContainer,File)/body";
+"fml_src_main_java_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/bindServerListData(ServerData,ServerStatusResponse)/body";
+}
+subgraph cluster81 {
+"forge_forge__common_net_minecraft_src_forge_DungeonLoot.java/[CN]/DungeonLoot/[MT]/equals(ItemStack,int,int)/body";
+"fml_bukkit_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/parseValue(String,MLProp,Class<?>,String,String)/body";
+}
+subgraph cluster151 {
+"forge_forge.py/other";
+"forge_setup.py/other";
+}
+subgraph cluster117 {
+"fml_src_main_java_cpw_mods_fml_common_network_handshake_NetworkDispatcher.java/[CN]/NetworkDispatcher/[MT]/handleServerSideCustomPacket(C17PacketCustomPayload,ChannelHandlerContext)/body";
+"fml_src_main_java_cpw_mods_fml_common_network_handshake_NetworkDispatcher.java/[CN]/NetworkDispatcher/[MT]/handleClientSideCustomPacket(S3FPacketCustomPayload,ChannelHandlerContext)/body";
+}
+subgraph cluster174 {
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[FE]/mccversion";
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[MT]/getCrashInformation()/body";
+}
+subgraph cluster196 {
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/[CN]/FOVUpdateEvent/[FE]/fov";
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/[CN]/FOVUpdateEvent/extend";
+}
+subgraph cluster1 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted1/body";
+}
+subgraph cluster153 {
+"fml_src_main_java_cpw_mods_fml_client_FMLConfigGuiFactory.java/[CN]/FMLConfigGuiFactory/[MT]/getHandlerFor(RuntimeOptionCategoryElement)/body";
+"fml_src_main_java_cpw_mods_fml_client_FMLConfigGuiFactory.java/[CN]/FMLConfigGuiFactory/[MT]/runtimeGuiCategories()/body";
+}
+subgraph cluster100 {
+"forge_forge__common_net_minecraft_src_forge_Configuration.java/[CN]/Configuration/[MT]/getOrCreateProperty(String,String,String)/body";
+}
+subgraph cluster183 {
+"fml_src_main_java_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/enhanceServerListEntry(ServerListEntryNormal,ServerData,int,int,int,int,int)/body";
+}
+subgraph cluster132 {
+"fml_common_cpw_mods_fml_common_ModClassLoader.java/[CN]/ModClassLoader/[MT]/loadClass(String)/body";
+"fml_common_cpw_mods_fml_common_ModClassLoader.java/[CN]/ModClassLoader/[MT]/addFile(File)/body";
+}
+subgraph cluster157 {
+"src_main_java_net_minecraftforge_event_entity_living_LivingHealEvent.java/[CN]/LivingHealEvent/[FE]/amount";
+}
+subgraph cluster200 {
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/serializeInto(Map<String,Integer>)/body";
+}
+subgraph cluster95 {
+"src_main_java_net_minecraftforge_event_entity_player_PlayerWakeUpEvent.java/[CN]/PlayerWakeUpEvent/[CS]/PlayerWakeUpEvent(EntityPlayer,boolean,boolean,boolean)/body";
+"src_main_java_net_minecraftforge_event_entity_player_PlayerWakeUpEvent.java/[CN]/PlayerWakeUpEvent/[FE]/updateWorld";
+"src_main_java_net_minecraftforge_event_entity_player_PlayerWakeUpEvent.java/[CN]/PlayerWakeUpEvent/[FE]/wakeImmediatly";
+"src_main_java_net_minecraftforge_event_entity_player_PlayerWakeUpEvent.java/[CN]/PlayerWakeUpEvent/[FE]/setSpawn";
+}
+subgraph cluster125 {
+"fml_src_main_java_net_minecraftforge_fml_client_GuiScrollingList.java/[CN]/GuiScrollingList/[MT]/drawScreen(int,int,float)/body";
+"fml_src_main_java_net_minecraftforge_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/printStackTrace(PrintStream)/body";
+}
+subgraph cluster82 {
+"fml_src_main_java_cpw_mods_fml_common_network_handshake_NetworkDispatcher.java/[CN]/NetworkDispatcher/[MT]/channelRead0(ChannelHandlerContext,Packet)/body";
+"fml_src_main_java_cpw_mods_fml_common_network_handshake_NetworkDispatcher.java/[CN]/NetworkDispatcher/[MT]/completeHandshake(Side)/body";
+}
+subgraph cluster145 {
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[FE]/repeatings";
+"fml_client_cpw_mods_fml_client_modloader_ModLoaderKeyBindingHandler.java/[CN]/ModLoaderKeyBindingHandler/[MT]/getLabel()/body";
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[MT]/keyDown(EnumSet<TickType>,KeyBinding,boolean,boolean)/body";
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[MT]/keyUp(EnumSet<TickType>,KeyBinding,boolean)/body";
+}
+subgraph cluster62 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted6/body";
+}
+subgraph cluster182 {
+"forge_forge__client_src_net_minecraft_src_forge_ForgeHooksClient.java/[CN]/ForgeHooksClient/[MT]/afterRenderPass(int)/body";
+"forge_forge__client_src_net_minecraft_src_forge_ForgeHooksClient.java/[CN]/ForgeHooksClient/[MT]/beforeRenderPass(int)/body";
+}
+subgraph cluster167 {
+"fml_src_main_java_cpw_mods_fml_relauncher_ModListHelper.java/[CN]/ModListHelper/[MT]/parseListFile(String)/body";
+"fml_src_main_java_cpw_mods_fml_relauncher_ModListHelper.java/[CN]/ModListHelper/[MT]/tryAddFile(String,File,String)/body";
+}
+subgraph cluster205 {
+"src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/startVersionCheck()/body";
+"src_main_java_net_minecraftforge_common_ForgeChunkManager.java/[CN]/ForgeChunkManager/[MT]/fetchDormantChunk(long,World)/body";
+}
+subgraph cluster141 {
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/set(FMLControlledNamespacedRegistry<I>)/body";
+}
+subgraph cluster76 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Detonate/[MT]/getAffectedBlocks()/body";
+}
+subgraph cluster21 {
+"common_net_minecraftforge_common_FakePlayerFactory.java/[CN]/FakePlayerFactory/[MT]/getMinecraft(World)/body";
+}
+subgraph cluster20 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/fixBrokenIds(Map<String,Integer>,Set<Integer>)/body";
+}
+subgraph cluster249 {
+"forge_forge__common_net_minecraft_src_forge_Configuration.java/[CN]/Configuration/[MT]/getOrCreateBlockIdProperty(String,int)/body";
+}
+subgraph cluster237 {
+"fml_common_cpw_mods_fml_common_asm_transformers_DeobfuscationTransformer.java/[CN]/DeobfuscationTransformer/[MT]/unmapClassName(String)/body";
+"fml_common_cpw_mods_fml_common_asm_transformers_DeobfuscationTransformer.java/[CN]/DeobfuscationTransformer/[MT]/transform(String,String,byte[])/body";
+}
+subgraph cluster185 {
+"fml_common_cpw_mods_fml_common_event_FMLInterModComms.java/[CN]/FMLInterModComms/[CN]/IMCMessage/[FE]/sender";
+}
+subgraph cluster193 {
+"fml_common_cpw_mods_fml_common_discovery_JarDiscoverer.java/[CN]/JarDiscoverer/[MT]/discover(ModCandidate,ASMDataTable)/body";
+}
+subgraph cluster146 {
+"src_main_java_net_minecraftforge_server_command_CommandTreeBase.java/[CN]/CommandTreeBase/[MT]/isUsernameIndex(String[],int)/body";
+}
+subgraph cluster22 {
+"src_main_java_net_minecraftforge_event_entity_living_LivingHealEvent.java/[CN]/LivingHealEvent/extend";
+}
+subgraph cluster79 {
+"src_main_java_net_minecraftforge_fml_common_registry_VillagerRegistry.java/[CN]/VillagerRegistry/[CN]/VillagerCareer/[MT]/getTrades(int)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_VillagerRegistry.java/[CN]/VillagerRegistry/[CN]/VillagerCareer/[MT]/addTrade(int,ITradeList)/body";
+}
+subgraph cluster86 {
+"fml_common_cpw_mods_fml_relauncher_FMLEmbeddingRelauncher.java/[CN]/FMLEmbeddingRelauncher/[MT]/setupHome()/body";
+}
+subgraph cluster179 {
+"fml_common_cpw_mods_fml_common_registry_EntityRegistry.java/[CN]/EntityRegistry/[CS]/EntityRegistry()/body";
+}
+subgraph cluster253 {
+"fml_common_cpw_mods_fml_common_versioning_DefaultArtifactVersion.java/[CN]/DefaultArtifactVersion/[MT]/getVersionString()/body";
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[MT]/sortModList()/body";
+}
+subgraph cluster234 {
+"src_main_java_net_minecraftforge_event_entity_living_LivingHealEvent.java/package";
+"src_main_java_net_minecraftforge_event_entity_living_LivingHealEvent.java/[CN]/LivingHealEvent/[CS]/LivingHealEvent(EntityLivingBase,float)/body";
+}
+subgraph cluster129 {
+"common_net_minecraftforge_liquids_LiquidStack.java/[CN]/LiquidStack/[MT]/isLiquidEqual(LiquidStack)/body";
+"common_net_minecraftforge_liquids_LiquidStack.java/[CN]/LiquidStack/[MT]/writeToNBT(NBTTagCompound)/body";
+"common_net_minecraftforge_liquids_LiquidStack.java/[CN]/LiquidStack/[MT]/loadLiquidStackFromNBT(NBTTagCompound)/body";
+}
+subgraph cluster194 {
+"fml_common_cpw_mods_fml_relauncher_FMLLaunchHandler.java/[CN]/FMLLaunchHandler/[MT]/setupHome()/body";
+"fml_common_cpw_mods_fml_common_asm_transformers_deobf_FMLDeobfuscatingRemapper.java/[CN]/FMLDeobfuscatingRemapper/[MT]/findAndMergeSuperMaps(String)/body";
+}
+subgraph cluster224 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[MT]/loadClass(String)/body";
+}
+subgraph cluster197 {
+"fml_common_cpw_mods_fml_relauncher_FMLRelaunchLog.java/[CN]/FMLRelaunchLog/[CN]/ConsoleLogWrapper/[MT]/publish(LogRecord)/body";
+"fml_common_cpw_mods_fml_relauncher_FMLRelaunchLog.java/[CN]/FMLRelaunchLog/[MT]/configureLogging()/body";
+}
+subgraph cluster135 {
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[MT]/serverStopping()/body";
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[MT]/serverStopped()/body";
+}
+subgraph cluster75 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/register(K,ResourceLocation)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/register(K)/body";
+}
+subgraph cluster119 {
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/init()/body";
+}
+subgraph cluster11 {
+"forge_forge__server_src_net_minecraft_src_forge_PacketHandlerServer.java/[CN]/PacketHandlerServer/[MT]/onModListResponse(NetServerHandler,PacketModList)/body";
+"forge_forge__common_net_minecraft_src_forge_packets_PacketModList.java/[CN]/PacketModList/[MT]/toString(boolean)/body";
+}
+subgraph cluster41 {
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/createProviderFor(int)/body";
+}
+subgraph cluster245 {
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[MT]/getLength()/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[MT]/getItem(int)/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[CS]/PotionBrewEvent(ItemStack[])/body";
+}
+subgraph cluster59 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[FE]/sources";
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[MT]/addURL(URL)/body";
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[CS]/RelaunchClassLoader(URL[])/body";
+}
+subgraph cluster14 {
+"fml_common_cpw_mods_fml_common_network_NetworkModHandler.java/[CN]/NetworkModHandler/[CS]/NetworkModHandler(ModContainer,NetworkMod)/body";
+"src_main_java_net_minecraftforge_fluids_FluidRegistry.java/[CN]/FluidRegistry/[MT]/getFluidID(String)/body";
+}
+subgraph cluster210 {
+"forge_forge__common_net_minecraft_src_forge_DungeonLoot.java/[CN]/DungeonLoot/[MT]/generateStack(Random)/body";
+"forge_forge__common_net_minecraft_src_forge_DungeonLoot.java/[CN]/DungeonLoot/[MT]/equals(ItemStack)/body";
+}
+subgraph cluster173 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted3/body";
+"fml_src_main_java_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/trackMissingTexture(ResourceLocation)/body";
+"fml_update__packages.py/[MT]/main/body";
+}
+subgraph cluster127 {
+"fml_src_main_java_cpw_mods_fml_common_asm_transformers_ModAccessTransformer.java/[CN]/ModAccessTransformer/[MT]/addJar(JarFile)/body";
+"fml_src_main_java_cpw_mods_fml_common_asm_transformers_ModAccessTransformer.java/[CN]/ModAccessTransformer/[CS]/ModAccessTransformer()/body";
+}
+subgraph cluster58 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/isModIgnoredForIdValidation(String)/body";
+}
+subgraph cluster107 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/clientValidationLatch";
+"fml_common_cpw_mods_fml_server_FMLServerHandler.java/[CN]/FMLServerHandler/[MT]/finishServerLoading()/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/releaseGate(boolean)/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/package";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/isSaveValid";
+}
+subgraph cluster118 {
+"fml_common_cpw_mods_fml_common_ModClassLoader.java/[CN]/ModClassLoader/[FE]/mainClassLoader";
+}
+subgraph cluster206 {
+"fml_common_cpw_mods_fml_common_event_FMLInterModComms.java/[CN]/FMLInterModComms/[CN]/IMCMessage/[FE]/value";
+"fml_src_main_java_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/logMissingTextureErrors()/body";
+}
+subgraph cluster222 {
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderHelper.java/[CN]/ModLoaderHelper/[MT]/updateGUITicks(BaseMod,boolean,boolean)/body";
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderHelper.java/[CN]/ModLoaderHelper/[MT]/updateStandardTicks(BaseMod,boolean,boolean)/body";
+}
+subgraph cluster155 {
+"fml_src_main_java_net_minecraftforge_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/printStackTrace(PrintWriter)/body";
+}
+subgraph cluster236 {
+"fml_update__patches.py/other";
+}
+subgraph cluster91 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted1/body";
+}
+subgraph cluster98 {
+"client_net_minecraftforge_client_model_techne_TechneModel.java/[CN]/TechneModel/[MT]/renderPart(String)/body";
+"client_net_minecraftforge_client_model_techne_TechneModel.java/[CN]/TechneModel/[MT]/loadTechneModel(URL)/body";
+}
+subgraph cluster209 {
+"fml_common_cpw_mods_fml_common_ModClassLoader.java/[CN]/ModClassLoader/[MT]/getParentSources()/body";
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MIN_POTION_ID";
+}
+subgraph cluster30 {
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[CS]/KeyHandler(KeyBinding[],boolean[])/body";
+}
+subgraph cluster55 {
+"src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/getTarget()/body";
+}
+subgraph cluster161 {
+"fml_client_net_minecraft_src_ModTextureStatic.java/[CN]/ModTextureStatic/[MT]/toString()/body";
+"fml_client_net_minecraft_src_ModTextureAnimation.java/[CN]/ModTextureAnimation/[CS]/ModTextureAnimation(int,int,String,BufferedImage,int)/body";
+"fml_client_net_minecraft_src_ModTextureStatic.java/[CN]/ModTextureStatic/[CS]/ModTextureStatic(int,int,String,BufferedImage)/body";
+}
+subgraph cluster171 {
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewedEvent.java/[CN]/PotionBrewedEvent/[CS]/PotionBrewedEvent(ItemStack[])/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[CN]/Post/extend";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewedEvent.java/[CN]/PotionBrewedEvent/extend";
+}
+subgraph cluster120 {
+"src_main_java_net_minecraftforge_fml_common_registry_ObjectHolderRef.java/[CN]/ObjectHolderRef/[MT]/getRegistryForType(Field)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_ObjectHolderRef.java/[CN]/ObjectHolderRef/[CS]/ObjectHolderRef(Field,ResourceLocation,boolean)/body";
+}
+subgraph cluster38 {
+"fml_transformers_cpw_mods_fml_common_asm_transformers_AccessTransformer.java/[CN]/AccessTransformer/[CS]/AccessTransformer()/body";
+"fml_transformers_cpw_mods_fml_common_asm_transformers_AccessTransformer.java/[CN]/AccessTransformer/[CN]/Modifier/[MT]/setTargetAccess(String)/body";
+}
+subgraph cluster148 {
+"src_main_java_net_minecraftforge_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/addObjectRaw(int,ResourceLocation,I)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/set(FMLControlledNamespacedRegistry<I>)/body";
+}
+subgraph cluster2 {
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/package";
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/[CN]/FOVUpdateEvent/[FE]/newfov";
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/[CN]/FOVUpdateEvent/[FE]/entity";
+}
+subgraph cluster240 {
+"src_main_java_net_minecraftforge_common_config_ConfigCategory.java/[CN]/ConfigCategory/[MT]/setComment(String)/body";
+"src_main_java_net_minecraftforge_common_config_Property.java/[CN]/Property/[MT]/setName(String)/body";
+}
+subgraph cluster242 {
+"client_net_minecraftforge_client_event_RenderPlayerEvent.java/[CN]/RenderPlayerEvent/[CN]/SetArmorModel/[CS]/SetArmorModel(EntityPlayer,RenderPlayer,int,float,ItemStack)/body";
+}
+subgraph cluster152 {
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/getIDs()/body";
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/setWorld(int,WorldServer)/body";
+}
+subgraph cluster123 {
+"fml_client_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/onPreWorldTick()/body";
+}
+subgraph cluster143 {
+"fml_common_cpw_mods_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/onPlayerLogout(EntityPlayer)/body";
+}
+subgraph cluster229 {
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderGameOverlay(float,boolean,int,int)/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/addAlias(String,String,GameRegistry.Type)/body";
+}
+subgraph cluster77 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MIN_BLOCK_ID";
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MAX_BLOCK_ID";
+}
+subgraph cluster87 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[MT]/registerItem(Item,String)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[MT]/registerBlock(Block,String)/body";
+}
+subgraph cluster48 {
+"src_main_java_net_minecraftforge_client_model_ModelLoader.java/[CN]/ModelLoader/[CN]/UVLock/[MT]/apply(IModelPart)/body";
+"src_main_java_net_minecraftforge_client_model_ModelLoader.java/[CN]/ModelLoader/[CN]/VanillaModelWrapper/[MT]/bake(IModelState,VertexFormat,Function<ResourceLocation,TextureAtlasSprite>)/body";
+}
+subgraph cluster180 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/getRegistry().conflicted0/body";
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/getRegistry().conflicted1/body";
+}
+subgraph cluster133 {
+"fml_install_install.py/other";
+}
+subgraph cluster61 {
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/tickStart(TickType,Object)/body";
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/tickEnd(TickType,Object)/body";
+"fml_client_net_minecraft_src_BaseMod.java/[CN]/BaseMod/[MT]/doTickInGame(TickType,boolean,Object,Object)/body";
+}
+subgraph cluster172 {
+"common_net_minecraftforge_common_RotationHelper.java/[CN]/RotationHelper/[MT]/rotateVanillaBlock(Block,World,int,int,int,ForgeDirection)/body";
+}
+subgraph cluster241 {
+"common_net_minecraftforge_common_RotationHelper.java/[CN]/RotationHelper/[MT]/getValidVanillaBlockRotations(Block)/body";
+}
+subgraph cluster212 {
+"common_net_minecraftforge_common_FakePlayer.java/[CN]/FakePlayer/extend";
+"forge_release.py/[MT]/main/body";
+}
+subgraph cluster28 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[MT]/getSources()/body";
+"fml_common_cpw_mods_fml_common_ModClassLoader.java/[CN]/ModClassLoader/[CS]/ModClassLoader(ClassLoader)/body";
+}
+subgraph cluster43 {
+"fml_client_net_minecraft_src_ModLoader.java/[CN]/ModLoader/[MT]/sendPacket(Packet)/body";
+}
+subgraph cluster102 {
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/load()/body";
+}
+subgraph cluster45 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MAX_POTION_ID";
+}
+subgraph cluster49 {
+"fml_client_cpw_mods_fml_client_TextureFXManager.java/[CN]/TextureFXManager/[MT]/registerTextureOverrides(RenderEngine)/body";
+"fml_client_cpw_mods_fml_client_modloader_ModLoaderClientHelper.java/[CN]/ModLoaderClientHelper/[MT]/handleFinishLoadingFor(ModLoaderModContainer,Minecraft)/body";
+}
+subgraph cluster181 {
+"fml_common_cpw_mods_fml_common_FMLDummyContainer.java/[CN]/FMLDummyContainer/[MT]/readData(SaveHandler,WorldInfo,Map<String,NBTBase>,NBTTagCompound)/body";
+"fml_common_cpw_mods_fml_common_asm_transformers_deobf_FMLDeobfuscatingRemapper.java/[CN]/FMLDeobfuscatingRemapper/[MT]/getMethodMap(String)/body";
+}
+subgraph cluster176 {
+"fml_common_cpw_mods_fml_common_asm_transformers_MCPMerger.java/[CN]/MCPMerger/[CN]/MethodWrapper/[MT]/equals(Object)/body";
+"fml_common_cpw_mods_fml_common_asm_transformers_MCPMerger.java/[CN]/MCPMerger/[MT]/processMethods(ClassNode,ClassNode,ClassInfo)/body";
+}
+subgraph cluster12 {
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderConnectionHandler.java/[CN]/ModLoaderConnectionHandler/[MT]/connectionOpened(NetHandler,String,int,NetworkManager)/body";
+"fml_common_cpw_mods_fml_common_modloader_ModLoaderConnectionHandler.java/[CN]/ModLoaderConnectionHandler/[MT]/connectionClosed(NetworkManager)/body";
+}
+subgraph cluster0 {
+"fml_common_cpw_mods_fml_common_network_NetworkModHandler.java/[CN]/NetworkModHandler/[CS]/NetworkModHandler(ModContainer,Class<?>,ASMDataTable)/body";
+"common_net_minecraftforge_common_ForgeChunkManager.java/[CN]/ForgeChunkManager/[MT]/loadWorld(World)/body";
+}
+subgraph cluster170 {
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[CN]/MissingMapping/[CS]/MissingMapping(String,int)/body";
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[CN]/MissingMapping/[MT]/ignore()/body";
+"fml_src_main_java_cpw_mods_fml_common_FMLContainer.java/[CN]/FMLContainer/[MT]/readData(SaveHandler,WorldInfo,Map<String,NBTBase>,NBTTagCompound)/body";
+}
+subgraph cluster220 {
+"forge_forge__client_src_net_minecraft_src_forge_GuiControlsScrollPanel.java/[CN]/GuiControlsScrollPanel/[MT]/drawScreen(int,int,float)/body";
+"forge_forge__client_src_net_minecraft_src_forge_GuiControlsScrollPanel.java/[CN]/GuiControlsScrollPanel/[MT]/drawSlot(int,int,int,int,Tessellator)/body";
+}
+subgraph cluster78 {
+"fml_common_cpw_mods_fml_relauncher_CoreModManager.java/[CN]/CoreModManager/[MT]/handleCascadingTweak(File,JarFile,String,LaunchClassLoader,Integer)/body";
+"fml_common_cpw_mods_fml_relauncher_CoreModManager.java/[CN]/CoreModManager/[MT]/injectTransformers(LaunchClassLoader)/body";
+}
+subgraph cluster96 {
+"fml_common_cpw_mods_fml_relauncher_CoreModManager.java/[CN]/CoreModManager/[MT]/loadCoreMod(LaunchClassLoader,String,File)/body";
+"fml_common_cpw_mods_fml_relauncher_CoreModManager.java/[CN]/CoreModManager/[MT]/handleLaunch(File,LaunchClassLoader,FMLTweaker)/body";
+}
+subgraph cluster33 {
+"forge_forge__client_src_net_minecraft_src_forge_PacketHandlerClient.java/[CN]/PacketHandlerClient/[MT]/onModListCheck(NetClientHandler,PacketModList)/body";
+}
+subgraph cluster83 {
+"src_main_java_net_minecraftforge_client_model_pipeline_WorldRendererConsumer.java/[CN]/WorldRendererConsumer/[MT]/put(int,float)/body";
+"src_main_java_net_minecraftforge_client_model_pipeline_ForgeBlockModelRenderer.java/[CN]/ForgeBlockModelRenderer/[MT]/renderModelStandard(IBlockAccess,IBakedModel,Block,BlockPos,WorldRenderer,boolean)/body";
+"src_main_java_net_minecraftforge_client_model_pipeline_VertexLighterFlat.java/[CN]/VertexLighterFlat/[MT]/processQuad()/body";
+}
+subgraph cluster104 {
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[MT]/tickStart(EnumSet<TickType>,Object)/body";
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[CN]/TickQueueElement/[MT]/scheduledNow()/body";
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[CN]/TickQueueElement/[MT]/update()/body";
+}
+subgraph cluster204 {
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/postModInit()/body";
+}
+subgraph cluster254 {
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[CN]/MissingMapping/[MT]/setAction(Action)/body";
+}
+subgraph cluster124 {
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[CN]/Post/[CS]/Post(ItemStack[])/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/package";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[CN]/Pre/[CS]/Pre(ItemStack[])/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/extend";
+"src_main_java_net_minecraftforge_event_ForgeEventFactory.java/[CN]/ForgeEventFactory/[MT]/onPotionBrewed(ItemStack[])/body";
+}
+subgraph cluster90 {
+"fml_server_net_minecraft_src_ModLoader.java/[CN]/ModLoader/[MT]/registerEntityID(Class<? extends Entity>,String,int,int,int)/body";
+"src_main_java_net_minecraftforge_common_ForgeModContainer.java/[CN]/ForgeModContainer/[MT]/onConfigChanged(OnConfigChangedEvent)/body";
+}
+subgraph cluster65 {
+"fml_common_cpw_mods_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/onPlayerLogin(EntityPlayer)/body";
+}
+subgraph cluster247 {
+"fml_common_cpw_mods_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/onPlayerRespawn(EntityPlayer)/body";
+"fml_bukkit_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/configureMod()/body";
+"fml_src_main_java_net_minecraftforge_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/getMessage()/body";
+}
+subgraph cluster219 {
+"fml_common_cpw_mods_fml_common_registry_ItemData.java/[CN]/ItemData/[MT]/toString()/body";
+"fml_common_cpw_mods_fml_common_registry_ItemData.java/[CN]/ItemData/[CS]/ItemData(Item,ModContainer)/body";
+"fml_common_cpw_mods_fml_common_registry_ItemData.java/[CN]/ItemData/[MT]/mayDifferByOrdinal(ItemData)/body";
+}
+subgraph cluster225 {
+"src_main_java_net_minecraftforge_fluids_DispenseFluidContainer.java/[CN]/DispenseFluidContainer/[MT]/dumpContainer(IBlockSource,ItemStack)/body";
+"src_main_java_net_minecraftforge_fluids_DispenseFluidContainer.java/[CN]/DispenseFluidContainer/[MT]/fillContainer(IBlockSource,ItemStack)/body";
+}
+subgraph cluster250 {
+"src_main_java_net_minecraftforge_fml_common_network_internal_FMLMessage.java/[CN]/FMLMessage/[CN]/EntitySpawnMessage/[MT]/fromBytes(ByteBuf)/body";
+"src_main_java_net_minecraftforge_fml_common_network_internal_FMLMessage.java/[CN]/FMLMessage/[CN]/EntitySpawnMessage/[MT]/toBytes(ByteBuf)/body";
+}
+subgraph cluster66 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MIN_ITEM_ID";
+"fml_install_fml.py/[MT]/file_backup/body";
+}
+subgraph cluster195 {
+"src_main_java_net_minecraftforge_fml_client_config_GuiUtils.java/[CN]/GuiUtils/[MT]/drawTexturedModalRect(int,int,int,int,int,int,float)/body";
+}
+subgraph cluster158 {
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/initializeMods()/body";
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/loadModClass(File,String,String)/body";
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/preModInit()/body";
+}
+subgraph cluster156 {
+"fml_client_cpw_mods_fml_client_GuiModList.java/[CN]/GuiModList/[MT]/selectModIndex(int)/body";
+}
+subgraph cluster213 {
+"common_net_minecraftforge_oredict_OreDictionary.java/[CN]/OreDictionary/[MT]/itemMatches(ItemStack,ItemStack,boolean)/body";
+"common_net_minecraftforge_oredict_OreDictionary.java/[CN]/OreDictionary/[MT]/initVanillaEntries()/body";
+}
+subgraph cluster198 {
+"fml_install_install.py/[MT]/fml_main/body";
+}
+subgraph cluster40 {
+"fml_client_cpw_mods_fml_client_modloader_ModLoaderKeyBindingHandler.java/[CN]/ModLoaderKeyBindingHandler/[MT]/keyUp(EnumSet<TickType>,KeyBinding,boolean)/body";
+}
+subgraph cluster130 {
+"fml_transformers_cpw_mods_fml_common_asm_transformers_AccessTransformer.java/[CN]/AccessTransformer/[MT]/getFixedAccess(int,Modifier)/body";
+}
+subgraph cluster56 {
+"client_net_minecraftforge_client_event_RenderPlayerEvent.java/[CN]/RenderPlayerEvent/[CN]/Specials/[CS]/Specials(EntityPlayer,RenderPlayer,float)/body";
+"fml_client_net_minecraft_src_ModLoader.java/[CN]/ModLoader/[MT]/addArmor(String)/body";
+}
+subgraph cluster223 {
+"fml_common_cpw_mods_fml_common_registry_EntityRegistry.java/[CN]/EntityRegistry/[MT]/validateAndClaimId(int)/body";
+}
+subgraph cluster144 {
+"src_main_java_net_minecraftforge_client_model_pipeline_ForgeBlockModelRenderer.java/[CN]/ForgeBlockModelRenderer/[MT]/renderModelAmbientOcclusion(IBlockAccess,IBakedModel,Block,BlockPos,WorldRenderer,boolean)/body";
+"src_main_java_net_minecraftforge_client_model_pipeline_WorldRendererConsumer.java/[CN]/WorldRendererConsumer/[MT]/setOffset(BlockPos)/body";
+"src_main_java_net_minecraftforge_client_model_pipeline_ForgeBlockModelRenderer.java/[CN]/ForgeBlockModelRenderer/[FE]/wrSmooth";
+}
+subgraph cluster216 {
+"fml_common_cpw_mods_fml_common_network_ModListRequestPacket.java/[CN]/ModListRequestPacket/[MT]/execute(NetworkManager,FMLNetworkHandler,NetHandler,String)/body";
+"fml_common_cpw_mods_fml_common_network_ModMissingPacket.java/[CN]/ModMissingPacket/[MT]/execute(NetworkManager,FMLNetworkHandler,NetHandler,String)/body";
+}
+subgraph cluster35 {
+"fml_applypatches.py/other";
+"fml_update__patches.py/[MT]/main/body";
+}
+subgraph cluster160 {
+"src_main_java_net_minecraftforge_common_ForgeModContainer.java/[CN]/ForgeModContainer/[MT]/syncConfig(boolean)/body";
+}
+subgraph cluster84 {
+"fml_client_net_minecraft_src_BaseMod.java/[CN]/BaseMod/[MT]/doTickInGUI(TickType,boolean,Object,Object)/body";
+}
+subgraph cluster228 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted7/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted3/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted5/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted4/body";
+}
+subgraph cluster184 {
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/swap(int,String,I)/body";
+}
+subgraph cluster190 {
+"fml_install_fml.py/other";
+}
+subgraph cluster150 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchClassLoader.java/[CN]/RelaunchClassLoader/[MT]/registerTransformer(String)/body";
+"fml_common_cpw_mods_fml_relauncher_FMLCorePlugin.java/[CN]/FMLCorePlugin/[MT]/getASMTransformerClass()/body";
+}
+subgraph cluster106 {
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/registerProviderType(int,Class<? extends WorldProvider>,boolean)/body";
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/getWorlds()/body";
+}
+subgraph cluster57 {
+"fml_install_fml.py/[MT]/runcmd/body";
+"fml_install_fml.py/[MT]/setup_mcp/body";
+}
+subgraph cluster115 {
+"client_net_minecraftforge_client_event_FOVUpdateEvent.java/[CN]/FOVUpdateEvent/[CS]/FOVUpdateEvent(EntityPlayerSP,float)/body";
+"fml_install_fml.py/[MT]/post_decompile/body";
+}
+subgraph cluster162 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Detonate/[MT]/getAffectedEntities()/body";
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Detonate/[FE]/entityList";
+}
+subgraph cluster13 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MAX_BIOME_ID";
+"src_main_java_net_minecraftforge_fml_common_registry_GameData.java/[CN]/GameData/[FE]/MIN_BIOME_ID";
+}
+subgraph cluster3 {
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[MT]/uploadKeyBindingsToGame(GameSettings)/body";
+"fml_client_cpw_mods_fml_client_registry_KeyBindingRegistry.java/[CN]/KeyBindingRegistry/[CN]/KeyHandler/[MT]/getKeyBindings()/body";
+}
+subgraph cluster42 {
+"fml_common_cpw_mods_fml_common_FMLHooks.java/[CN]/FMLHooks/[MT]/registerChannel(ModContainer,String)/body";
+}
+subgraph cluster244 {
+"forge_forge__common_net_minecraft_src_forge_packets_PacketModList.java/[CN]/PacketModList/[MT]/readData(DataInputStream)/body";
+}
+subgraph cluster178 {
+"src_main_java_net_minecraftforge_fml_client_config_GuiUtils.java/[CN]/GuiUtils/[MT]/drawGradientRect(int,int,int,int,int,int,int)/body";
+"src_main_java_net_minecraftforge_fml_client_config_GuiUtils.java/[CN]/GuiUtils/[MT]/drawHoveringText(List<String>,int,int,int,int,int,FontRenderer)/body";
+"src_main_java_net_minecraftforge_fml_client_config_GuiEditArray.java/[CN]/GuiEditArray/[MT]/drawToolTip(List<String>,int,int)/body";
+}
+subgraph cluster255 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted7/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted6/body";
+}
+subgraph cluster154 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/register(Object,String,int)/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/getEntriesNotIn(FMLControlledNamespacedRegistry<I>)/body";
+}
+subgraph cluster5 {
+"fml_src_main_java_cpw_mods_fml_common_event_FMLMissingMappingsEvent.java/[CN]/FMLMissingMappingsEvent/[CN]/MissingMapping/[MT]/fail()/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/injectWorldIDMap(Map<String,Integer>,boolean,boolean)/body";
+}
+subgraph cluster99 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/set(GameData)/body";
+}
+subgraph cluster109 {
+"src_main_java_net_minecraftforge_client_model_pipeline_WorldRendererConsumer.java/[CN]/WorldRendererConsumer/[FE]/offset";
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/attemptFileLoad(File)/body";
+}
+subgraph cluster26 {
+"fml_common_cpw_mods_fml_common_patcher_ClassPatchManager.java/[CN]/ClassPatchManager/[MT]/setup(Side)/body";
+}
+subgraph cluster29 {
+"fml_server_cpw_mods_fml_server_FMLHandler.java/[CN]/FMLHandler/[MT]/handleLogin(Packet1Login,NetworkManager)/body";
+}
+subgraph cluster201 {
+"src_main_java_net_minecraftforge_fluids_FluidRegistry.java/[CN]/FluidRegistry/[MT]/getFluidID(Fluid)/body";
+}
+subgraph cluster177 {
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/attemptDirLoad(File)/body";
+"fml_common_fml_Loader.java/[CN]/Loader/[MT]/modInit()/body";
+}
+subgraph cluster199 {
+"fml_common_cpw_mods_fml_common_network_ModListRequestPacket.java/[CN]/ModListRequestPacket/[MT]/consumePacket(byte[])/body";
+}
+subgraph cluster192 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/difference";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/shouldContinue";
+"fml_common_cpw_mods_fml_common_network_ModIdMapPacket.java/[CN]/ModIdMapPacket/[MT]/execute(INetworkManager,FMLNetworkHandler,NetHandler,String)/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/gateWorldLoadingForValidation()/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/initializeServerGate(int)/body";
+"fml_common_cpw_mods_fml_common_network_ModListResponsePacket.java/[CN]/ModListResponsePacket/[MT]/execute(INetworkManager,FMLNetworkHandler,NetHandler,String)/body";
+}
+subgraph cluster67 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted5/body";
+}
+subgraph cluster214 {
+"src_main_java_net_minecraftforge_fml_client_config_GuiConfig.java/[CN]/GuiConfig/[MT]/drawToolTip(List<String>,int,int)/body";
+}
+subgraph cluster217 {
+"forge_setup.py/[MT]/setup_fml/body";
+}
+subgraph cluster46 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/serverValidationLatch";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/validateWorldSave(Set<ItemData>)/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[FE]/idMap";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/writeItemData(NBTTagList)/body";
+}
+subgraph cluster168 {
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/registerBlock(Block,String,int)/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/registerItem(Item,String,int)/body";
+}
+subgraph cluster101 {
+"src_main_java_net_minecraftforge_fml_common_registry_PersistentRegistryManager.java/[CN]/PersistentRegistryManager/[MT]/injectSnapshot(GameDataSnapshot,boolean,boolean)/body";
+}
+subgraph cluster53 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchLibraryManager.java/[CN]/RelaunchLibraryManager/[MT]/performDownload(InputStream,int,String,File)/body";
+"fml_common_cpw_mods_fml_relauncher_Downloader.java/[CN]/Downloader/[MT]/requestClose(String)/body";
+}
+subgraph cluster17 {
+"fml_common_cpw_mods_fml_common_discovery_asm_ASMModParser.java/[CN]/ASMModParser/[CS]/ASMModParser(InputStream)/body";
+}
+subgraph cluster108 {
+"src_main_java_net_minecraftforge_fml_client_config_GuiConfigEntries.java/[CN]/GuiConfigEntries/[CN]/ListEntryBase/[CS]/ListEntryBase(GuiConfig,GuiConfigEntries,IConfigElement)/body";
+"src_main_java_net_minecraftforge_fml_client_config_GuiEditArray.java/[CN]/GuiEditArray/[CS]/GuiEditArray(GuiScreen,IConfigElement,int,Object[],boolean)/body";
+"src_main_java_net_minecraftforge_fml_client_config_GuiSelectString.java/[CN]/GuiSelectString/[CS]/GuiSelectString(GuiScreen,IConfigElement,int,Map<Object,String>,Object,boolean)/body";
+"src_main_java_net_minecraftforge_fml_client_config_GuiSelectString.java/[CN]/GuiSelectString/[MT]/drawToolTip(List<String>,int,int)/body";
+}
+subgraph cluster60 {
+"fml_server_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/getPreDepends()/body";
+}
+subgraph cluster27 {
+"fml_transformers_cpw_mods_fml_common_asm_transformers_AccessTransformer.java/[CN]/AccessTransformer/[MT]/readMapFile(String)/body";
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[CN]/TickQueueElement/[MT]/compareTo(TickQueueElement)/body";
+}
+subgraph cluster126 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted7/body";
+}
+subgraph cluster121 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CS]/ExplosionEvent(World,Explosion)/body";
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Start/extend";
+}
+subgraph cluster52 {
+"forge_forge__server_src_net_minecraft_src_forge_PacketHandlerServer.java/[CN]/PacketHandlerServer/[MT]/doMissingMods(NetServerHandler,ArrayList<NetworkMod>)/body";
+}
+subgraph cluster248 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted4/body";
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted5/body";
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted7/body";
+}
+subgraph cluster243 {
+"fml_src_main_java_cpw_mods_fml_common_ZipperUtil.java/[CN]/ZipperUtil/[MT]/backupWorld()/body";
+"fml_src_main_java_cpw_mods_fml_common_ZipperUtil.java/[CN]/ZipperUtil/[MT]/backupWorld(String,String)/body";
+}
+subgraph cluster227 {
+"src_main_java_net_minecraftforge_common_BiomeDictionary.java/[CN]/BiomeDictionary/[MT]/registerBiomeType(BiomeGenBase,Type)/body";
+}
+subgraph cluster221 {
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[MT]/hashCode()/body";
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[MT]/writeToNBT(NBTTagCompound)/body";
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[MT]/isFluidEqual(FluidStack)/body";
+}
+subgraph cluster136 {
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[MT]/tickStart(TickType,Object)/body";
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[MT]/tickEnd(TickType,Object)/body";
+}
+subgraph cluster63 {
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[MT]/setItem(int,ItemStack)/body";
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[CN]/Pre/extend";
+}
+subgraph cluster19 {
+"forge_forge__common_net_minecraft_src_forge_packets_PacketModList.java/[CN]/PacketModList/[MT]/writeData(DataOutputStream)/body";
+}
+subgraph cluster231 {
+"common_net_minecraftforge_common_ForgeChunkManager.java/[CN]/ForgeChunkManager/[MT]/loadConfiguration()/body";
+}
+subgraph cluster166 {
+"src_main_java_net_minecraftforge_fluids_FluidRegistry.java/[CN]/FluidRegistry/[MT]/registerFluid(Fluid)/body";
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[MT]/getFluid()/body";
+}
+subgraph cluster70 {
+"src_main_java_net_minecraftforge_common_BiomeManager.java/[CN]/BiomeManager/[MT]/addBiome(BiomeType,BiomeEntry)/body";
+"src_main_java_net_minecraftforge_common_BiomeManager.java/[CN]/BiomeManager/[MT]/removeBiome(BiomeType,BiomeEntry)/body";
+"src_main_java_net_minecraftforge_common_BiomeManager.java/[CN]/BiomeManager/[MT]/setupBiomes()/body";
+}
+subgraph cluster25 {
+"fml_client_cpw_mods_fml_client_GuiModList.java/[CN]/GuiModList/[MT]/func_6448_a()/body";
+"fml_client_cpw_mods_fml_client_GuiSlotModList.java/[CN]/GuiSlotModList/[CS]/GuiSlotModList(GuiModList,ArrayList<ModContainer>,int)/body";
+}
+subgraph cluster137 {
+"src_main_java_net_minecraftforge_event_AttachCapabilitiesEvent.java/[CN]/AttachCapabilitiesEvent/[CN]/World/[CS]/World(net.minecraft.world.World)/body";
+"src_main_java_net_minecraftforge_event_AttachCapabilitiesEvent.java/[CN]/AttachCapabilitiesEvent/[CN]/World/extend";
+}
+subgraph cluster246 {
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/registerItem(Item,String)/body";
+"src_main_java_net_minecraftforge_fml_common_registry_GameRegistry.java/[CN]/GameRegistry/[MT]/registerItem(Item)/body";
+}
+subgraph cluster113 {
+"fml_src_main_java_cpw_mods_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/printStackTrace(PrintWriter)/body";
+"fml_src_main_java_cpw_mods_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/getMessage()/body";
+"fml_src_main_java_cpw_mods_fml_common_EnhancedRuntimeException.java/[CN]/EnhancedRuntimeException/[MT]/printStackTrace(PrintStream)/body";
+}
+subgraph cluster251 {
+"src_main_java_net_minecraftforge_event_entity_PlaySoundAtEntityEvent.java/[CN]/PlaySoundAtEntityEvent/[FE]/newVolume";
+"src_main_java_net_minecraftforge_event_entity_PlaySoundAtEntityEvent.java/[CN]/PlaySoundAtEntityEvent/[FE]/newPitch";
+}
+subgraph cluster191 {
+"fml_common_cpw_mods_fml_common_FMLModLoaderContainer.java/[CN]/FMLModLoaderContainer/[MT]/getMetadata()/body";
+"fml_client_cpw_mods_fml_client_GuiModList.java/[CN]/GuiModList/[MT]/func_571_a(int,int,float)/body";
+}
+subgraph cluster6 {
+"fml_common_cpw_mods_fml_common_event_FMLInterModComms.java/[CN]/FMLInterModComms/[CN]/IMCEvent/[MT]/getMessages()/body";
+"fml_common_cpw_mods_fml_common_event_FMLInterModComms.java/[CN]/FMLInterModComms/[CN]/IMCEvent/[MT]/applyModContainer(ModContainer)/body";
+}
+subgraph cluster230 {
+"fml_client_cpw_mods_fml_client_GuiModList.java/[CN]/GuiModList/[MT]/func_572_a(GuiButton)/body";
+}
+subgraph cluster103 {
+"src_main_java_net_minecraftforge_event_brewing_PotionBrewEvent.java/[CN]/PotionBrewEvent/[FE]/stacks";
+}
+subgraph cluster4 {
+"fml_common_cpw_mods_fml_common_FMLModContainer.java/[CN]/FMLModContainer/[MT]/getVersion()/body";
+"fml_client_cpw_mods_fml_client_GuiSlotModList.java/[CN]/GuiSlotModList/[MT]/drawSlot(int,int,int,int,Tessellator)/body";
+}
+subgraph cluster74 {
+"forge_install_install.py/other";
+"forge_install_install.py/[MT]/main/body";
+}
+subgraph cluster111 {
+"fml_common_cpw_mods_fml_relauncher_FMLEmbeddingRelauncher.java/[CN]/FMLEmbeddingRelauncher/[MT]/relaunch(ArgsWrapper)/body";
+"fml_common_cpw_mods_fml_relauncher_FMLEmbeddingRelauncher.java/[CN]/FMLEmbeddingRelauncher/[MT]/relaunchClient(ArgsWrapper)/body";
+}
+subgraph cluster50 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/newItemAdded(Item)/body";
+}
+subgraph cluster80 {
+"fml_common_cpw_mods_fml_common_network_ModListResponsePacket.java/[CN]/ModListResponsePacket/[MT]/execute(NetworkManager,FMLNetworkHandler,NetHandler,String)/body";
+"fml_common_cpw_mods_fml_common_network_FMLNetworkHandler.java/[CN]/FMLNetworkHandler/[MT]/handleClientConnection(NetLoginHandler,MinecraftServer,SocketAddress,String)/body";
+}
+subgraph cluster163 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted2/body";
+}
+subgraph cluster142 {
+"fml_common_cpw_mods_fml_common_Loader.java/[CN]/Loader/[MT]/identifyMods()/body";
+"fml_client_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/onRenderTickStart(float)/body";
+}
+subgraph cluster97 {
+"src_main_java_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderPlayerList(int,int)/body";
+"src_main_java_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderHealth(int,int)/body";
+}
+subgraph cluster116 {
+"forge_setup.py/[MT]/main/body";
+}
+subgraph cluster134 {
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/dump()/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/func_148756_a(int,String,Object)/body";
+"fml_src_main_java_cpw_mods_fml_common_registry_FMLControlledNamespacedRegistry.java/[CN]/FMLControlledNamespacedRegistry/[MT]/add(int,String,I)/body";
+}
+subgraph cluster218 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Start/[CS]/Start(World,Explosion)/body";
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Detonate/extend";
+}
+subgraph cluster15 {
+"src_main_java_net_minecraftforge_fluids_FluidTank.java/[CN]/FluidTank/[MT]/drain(int,boolean)/body";
+"src_main_java_net_minecraftforge_fluids_FluidTank.java/[CN]/FluidTank/[MT]/fill(FluidStack,boolean)/body";
+}
+subgraph cluster138 {
+"forge_forge__common_net_minecraft_src_forge_Configuration.java/[CN]/Configuration/[MT]/save()/body";
+"forge_forge__common_net_minecraft_src_forge_Configuration.java/[CN]/Configuration/[MT]/load()/body";
+}
+subgraph cluster169 {
+"src_main_java_net_minecraftforge_server_command_CommandTreeBase.java/[CN]/CommandTreeBase/[MT]/getTabCompletionOptions(MinecraftServer,ICommandSender,String[],BlockPos)/body";
+"src_main_java_net_minecraftforge_server_command_CommandTreeBase.java/[CN]/CommandTreeBase/[MT]/getSubCommands()/body";
+}
+subgraph cluster64 {
+"fml_common_cpw_mods_fml_relauncher_Downloader.java/[CN]/Downloader/[MT]/makeDialog()/body";
+"fml_common_cpw_mods_fml_relauncher_Downloader.java/[CN]/Downloader/[MT]/makeHeadless()/body";
+}
+subgraph cluster112 {
+"release.py/[MT]/zip_start/body";
+"release.py/other";
+"release.py/[MT]/main/body";
+}
+subgraph cluster71 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted3/body";
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted2/body";
+}
+subgraph cluster105 {
+"fml_common_cpw_mods_fml_relauncher_RelaunchLibraryManager.java/[CN]/RelaunchLibraryManager/[MT]/handleLaunch(File,RelaunchClassLoader)/body";
+}
+subgraph cluster203 {
+"fml_client_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/onRenderTickEnd(float)/body";
+}
+subgraph cluster18 {
+"fml_server_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/getPostDepends()/body";
+}
+subgraph cluster110 {
+"src_main_java_net_minecraftforge_fluids_FluidContainerRegistry.java/[CN]/FluidContainerRegistry/[CN]/ContainerKey/[MT]/hashCode()/body";
+}
+subgraph cluster235 {
+"build.py/other";
+"forge.py/[MT]/build_forge_dev/body";
+}
+subgraph cluster54 {
+"src_main_java_net_minecraftforge_client_model_ModelFluid.java/[CN]/BakedFluid/[MT]/putVertex(UnpackedBakedQuad.Builder,EnumFacing,float,float,float,float,float)/body";
+}
+subgraph cluster69 {
+"src_main_java_net_minecraftforge_client_model_ModelFluid.java/[CN]/BakedFluid/[CS]/BakedFluid(Optional<TRSRTransformation>,ImmutableMap<TransformType,TRSRTransformation>,VertexFormat,int,TextureAtlasSprite,TextureAtlasSprite,boolean,boolean,int[],int)/body";
+}
+subgraph cluster16 {
+"fml_bukkit_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[CS]/ModLoaderModContainer(Class<? extends BaseMod>,File)/body";
+"fml_bukkit_cpw_mods_fml_server_ModLoaderModContainer.java/[CN]/ModLoaderModContainer/[MT]/toString()/body";
+}
+subgraph cluster7 {
+"src_main_java_net_minecraftforge_client_model_MultiModel.java/[CN]/MultiModel/[MT]/bake(IModelState,VertexFormat,Function<ResourceLocation,TextureAtlasSprite>)/body";
+}
+subgraph cluster131 {
+"forge_forge__client_src_net_minecraft_src_mod__MinecraftForge.java/[CN]/mod_MinecraftForge/extend";
+"forge_forge__server_src_net_minecraft_src_mod__MinecraftForge.java/[CN]/mod_MinecraftForge/extend";
+}
+subgraph cluster68 {
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[CS]/FluidStack(FluidStack,int)/body";
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[MT]/copy()/body";
+"src_main_java_net_minecraftforge_fluids_FluidRegistry.java/[CN]/FluidRegistry/[MT]/getFluidName(FluidStack)/body";
+"src_main_java_net_minecraftforge_fluids_FluidStack.java/[CN]/FluidStack/[CS]/FluidStack(Fluid,int)/body";
+}
+subgraph cluster189 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/package";
+}
+subgraph cluster44 {
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/getNextFreeDimId()/body";
+"common_net_minecraftforge_common_DimensionManager.java/[CN]/DimensionManager/[MT]/registerDimension(int,int)/body";
+}
+subgraph cluster85 {
+"src_main_java_net_minecraftforge_common_MinecraftForge.java/[CN]/MinecraftForge/[MT]/initialize()/body";
+}
+subgraph cluster147 {
+"fml_common_cpw_mods_fml_common_FMLDummyContainer.java/[CN]/FMLDummyContainer/[MT]/getDataForWriting(SaveHandler,WorldInfo)/body";
+}
+subgraph cluster114 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLIndexedMessageToMessageCodec.java/[CN]/FMLIndexedMessageToMessageCodec/[FE]/INBOUNDPACKETTRACKER";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLIndexedMessageToMessageCodec.java/[CN]/FMLIndexedMessageToMessageCodec/[MT]/decode(ChannelHandlerContext,FMLProxyPacket,List<Object>)/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLIndexedMessageToMessageCodec.java/[CN]/FMLIndexedMessageToMessageCodec/[MT]/handlerAdded(ChannelHandlerContext)/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLIndexedMessageToMessageCodec.java/[CN]/FMLIndexedMessageToMessageCodec/[MT]/encode(ChannelHandlerContext,A,List<Object>)/body";
+}
+subgraph cluster159 {
+"fml_src_main_java_cpw_mods_fml_client_GuiModItemsMissing.java/[CN]/GuiModItemsMissing/[MT]/func_73863_a(int,int,float)/body";
+"fml_src_main_java_cpw_mods_fml_client_GuiModItemsMissing.java/[CN]/GuiModItemsMissing/[MT]/func_73866_w_()/body";
+}
+subgraph cluster211 {
+"fml_common_cpw_mods_fml_common_FMLModContainer.java/[CN]/FMLModContainer/[MT]/setMetadata(ModMetadata)/body";
+"fml_common_cpw_mods_fml_common_FMLModContainer.java/[CN]/FMLModContainer/[MT]/getMetadata()/body";
+}
+subgraph cluster226 {
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/bind(ResourceLocation)/body";
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderHealthMount(int,int)/body";
+"client_net_minecraftforge_client_GuiIngameForge.java/[CN]/GuiIngameForge/[MT]/renderJumpBar(int,int)/body";
+}
+subgraph cluster8 {
+"fml_client_cpw_mods_fml_client_GuiSlotModList.java/[CN]/GuiSlotModList/[MT]/getContentHeight()/body";
+"fml_common_cpw_mods_fml_common_FMLCommonHandler.java/[CN]/FMLCommonHandler/[MT]/loadMetadataFor(ModContainer)/body";
+}
+subgraph cluster94 {
+"src_main_java_net_minecraftforge_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted3/body";
+}
+subgraph cluster37 {
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[FE]/explosion";
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[CN]/Detonate/[CS]/Detonate(World,Explosion,List<Entity>)/body";
+"src_main_java_net_minecraftforge_event_ForgeEventFactory.java/[CN]/ForgeEventFactory/[MT]/onExplosionStart(World,Explosion)/body";
+"src_main_java_net_minecraftforge_event_world_ExplosionEvent.java/[CN]/ExplosionEvent/[FE]/world";
+}
+subgraph cluster34 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted5/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/selectNetworks(Object,ChannelHandlerContext,FMLProxyPacket).conflicted2/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/write(ChannelHandlerContext,Object,ChannelPromise)/body";
+"fml_common_cpw_mods_fml_common_launcher_FMLTweaker.java/[CN]/FMLTweaker/[MT]/injectIntoClassLoader(LaunchClassLoader)/body";
+}
+}

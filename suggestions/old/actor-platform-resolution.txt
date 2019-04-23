@@ -1,0 +1,56 @@
+im.actor.sdk.ActorSDK.style;BaseActorSDKDelegate
+im.actor.sdk.ActorSDK.sharedActor();BaseActorSDKDelegate
+im.actor.sdk.ActorSDK.sdk;BaseActorSDKDelegate
+im.actor.sdk.view.emoji.stickers.StickersAdapter.setPacksAdapter(im.actor.sdk.view.emoji.stickers.PacksAdapter);StickersView
+im.actor.sdk.view.emoji.stickers.StickersAdapter.packsAdapter;StickersView
+im.actor.core.modules.sequence.Updates.applyRelatedData(java.util.List, java.util.List);SequenceHandlerActor
+im.actor.core.modules.sequence.Updates.applyRelatedData(java.util.List, im.actor.core.api.ApiGroup);SequenceHandlerActor
+im.actor.core.modules.sequence.Updates.applyRelatedData(java.util.List);SequenceHandlerActor
+im.actor.sdk.controllers.settings.EditAboutFragment.aboutEdit;InviteFragment
+im.actor.sdk.controllers.settings.EditAboutFragment.getArguments();InviteFragment
+im.actor.sdk.controllers.settings.EditAboutFragment.onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle);InviteFragment
+im.actor.sdk.controllers.settings.EditAboutFragment.onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle);InviteFragment
+im.actor.sdk.controllers.settings.EditAboutFragment.hintTv;InviteFragment
+im.actor.sdk.controllers.settings.EditAboutFragment.id;InviteFragment
+im.actor.sdk.util.Screen.dp(float);TypingDrawable
+im.actor.sdk.util.Screen.density;TypingDrawable
+im.actor.sdk.controllers.auth.SignUpFragment.firstNameEditText;BackgroundPreviewView
+im.actor.sdk.controllers.auth.SignUpFragment.onCreateView(android.view.LayoutInflater, android.view.ViewGroup, android.os.Bundle);BackgroundPreviewView
+im.actor.sdk.controllers.auth.SignUpFragment.style;BackgroundPreviewView
+im.actor.core.entity.Sex.toApi();ApiSex
+im.actor.core.entity.Sex.ordinal();ApiSex
+im.actor.sdk.util.Screen.getDensity();TypingDrawable
+im.actor.runtime.util.Hex.fromHex(java.lang.String);TrustedKey
+im.actor.runtime.util.Hex.fromHexShort(char);TrustedKey
+im.actor.core.modules.sequence.processor.UpdateValidator.isCausesInvalidation(im.actor.core.network.parser.Update);ApiPeerType
+im.actor.core.modules.sequence.processor.UpdateValidator.hasGroups(java.util.Collection);ApiPeerType
+im.actor.sdk.view.emoji.smiles.SmilesPack.upRecent(java.lang.Long);SmilesRecentsController
+im.actor.sdk.controllers.settings.WallpapersAdapter.getItemCount();BackgroundPreviewView
+im.actor.runtime.json.JSONArray.isNull(int);JSONObject
+im.actor.runtime.json.JSONTokener.readLiteral();JSONObject
+im.actor.sdk.controllers.pickers.file.search.IndexTask.execute(java.lang.Object[]);SearchFileFragment
+im.actor.core.utils.IOUtils.getFileExtension(java.lang.String);Intents
+im.actor.runtime.promise.Promises.traverseParallel(int, im.actor.runtime.function.Supplier, im.actor.runtime.function.Consumer);DownloadTask
+im.actor.core.modules.encryption.ratchet.KeyManager.getOwnPreKey(byte[]);EncryptedSessionActor
+im.actor.sdk.controllers.activity.base.Controller.onCreateOptionsMenu(android.view.Menu);Class:im.actor.sdk.controllers.activity.base.ControllerActivity
+im.actor.core.modules.groups.GroupsModule.joinGroupByToken(java.lang.String);BookImportActor
+im.actor.core.api.ApiEmailActivationType.ordinal();AuthMode
+im.actor.core.modules.messaging.actions.entity.DestructPendingStorage.fromBytes(byte[]);DestructorActor
+im.actor.core.modules.sequence.SequenceActor.CONSTRUCTOR(im.actor.core.modules.ModuleContext);Updates
+im.actor.core.modules.sequence.SequenceHandlerActor.CONSTRUCTOR(im.actor.core.modules.ModuleContext);Updates
+im.actor.sdk.controllers.ActorBinder.bindGlobalCounter(im.actor.runtime.mvvm.ValueChangedListener);IntValueModel
+im.actor.core.api.ApiCallMemberState.ordinal();CallMemberState
+im.actor.core.modules.calls.peers.CallBusInt.startOwn();CallActor
+im.actor.core.modules.calls.CallManagerActor.CONSTRUCTOR(im.actor.core.modules.ModuleContext);CallsModule
+im.actor.sdk.controllers.dialogs.DialogsDefaultFragment.onItemLongClick(im.actor.core.entity.Dialog);PresenceActor
+im.actor.core.entity.EntityConverter.convert(im.actor.core.api.ApiPeerType);DialogView
+im.actor.sdk.controllers.dialogs.DialogsDefaultFragment.getString(int);PresenceActor
+im.actor.sdk.controllers.dialogs.DialogsDefaultFragment.DialogsDefaultFragment();PresenceActor
+im.actor.core.modules.conductor.Conductor.onDialogsChanged(boolean);DialogsActor
+im.actor.core.network.mtp.actors.ReceiverActor.receiver(im.actor.core.network.mtp.MTProto);MTProto
+im.actor.core.network.mtp.actors.ManagerActor.manager(im.actor.core.network.mtp.MTProto);MTProto
+im.actor.core.network.mtp.actors.PusherActor.senderActor(im.actor.core.network.mtp.MTProto);MTProto
+im.actor.core.entity.EntityConverter.convert(im.actor.core.api.ApiPeer);DialogView
+im.actor.sdk.controllers.dialogs.DialogsDefaultFragment.getActivity();PresenceActor
+im.actor.sdk.controllers.dialogs.DialogsDefaultFragment.onItemClick(im.actor.core.entity.Dialog);PresenceActor
+im.actor.runtime.bser.Utils.byteArrayToString(byte[]);ApiEncryptionKeySignature

@@ -1,0 +1,1122 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digraph {
+subgraph cluster146 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntity.java/[CN]/JobEntity/[MT]/delete()/body";
+}
+subgraph cluster88 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_ProcessEngineImpl.java/[CN]/ProcessEngineImpl/[MT]/performSchemaOperationsClose()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_ProcessEngineImpl.java/[CN]/ProcessEngineImpl/[MT]/performSchemaOperationsCreate()/body";
+}
+subgraph cluster50 {
+"modules_activiti-webapp-kickstart_src_main_java_org_activiti_kickstart_ui_panel_SelectAdhocWorkflowPanel.java/[CN]/SelectAdhocWorkflowPanel/[MT]/initWorkflowTableContents()/body";
+}
+subgraph cluster247 {
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoTextPropertyConverter.java/[CN]/AlfrescoTextPropertyConverter/[MT]/convertProperty(M2Type,String,Form,FormPropertyDefinition,WorkflowDefinitionConversion)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoListPropertyConverter.java/[CN]/AlfrescoListPropertyConverter/[MT]/convertProperty(M2Type,String,Form,FormPropertyDefinition,WorkflowDefinitionConversion)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoDatePropertyConverter.java/[CN]/AlfrescoDatePropertyConverter/[MT]/convertProperty(M2Type,String,Form,FormPropertyDefinition,WorkflowDefinitionConversion)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoNumberPropertyConverter.java/[CN]/AlfrescoNumberPropertyConverter/[MT]/convertProperty(M2Type,String,Form,FormPropertyDefinition,WorkflowDefinitionConversion)/body";
+}
+subgraph cluster138 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/deleteArtifact(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/deleteFolder(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/createArtifactFromContentRepresentation(String,String,String,String,Content)/body";
+}
+subgraph cluster254 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_processsolution_listener_SpecificationDoneGenerateProjectListener.java/[CN]/SpecificationDoneGenerateProjectListener/[MT]/sendEmailCreated(ProcessSolution,Map<RepositoryArtifact,RepositoryArtifact>)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_processsolution_listener_ImplementationDoneUpdateOperationalProcessModels.java/[CN]/ImplementationDoneUpdateOperationalProcessModels/[MT]/sendEmailnotification(ProcessSolution,List<RepositoryArtifact>)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_processsolution_listener_SpecificationDoneGenerateProjectListener.java/[CN]/SpecificationDoneGenerateProjectListener/[MT]/sendEmailUpdated(ProcessSolution,Map<RepositoryArtifact,RepositoryArtifact>)/body";
+}
+subgraph cluster113 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfiguration.java/[CN]/ProcessEngineConfiguration/[MT]/configurationComplete()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_task_TaskEntity.java/[CN]/TaskEntity/[MT]/fireEvent(String)/body";
+}
+subgraph cluster34 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_simple_editor_table_TaskTable.java/[CN]/TaskTable/[CS]/TaskTable()/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_simple_editor_table_TaskTable.java/[CN]/TaskTable/[MT]/getSteps()/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_simple_editor_table_TaskTable.java/[CN]/TaskTable/[MT]/addTaskRow(Object,String,String,String,String,Boolean)/body";
+}
+subgraph cluster93 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_impl_event_CdiEventSupportBpmnParseHandler.java/[CN]/CdiEventSupportBpmnParseHandler/[MT]/addCreateListener(ActivityImpl)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_impl_event_CdiEventSupportBpmnParseHandler.java/[CN]/CdiEventSupportBpmnParseHandler/[MT]/addCompleteListener(ActivityImpl)/body";
+}
+subgraph cluster24 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_ActivitiOracleTypeConverter.java/[CN]/ActivitiOracleTypeConverter/[MT]/getDateTimeType()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_ActivitiOracleTypeConverter.java/[CN]/ActivitiOracleTypeConverter/[MT]/getPriority()/body";
+}
+subgraph cluster193 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_TimerDeclarationImpl.java/[CN]/TimerDeclarationImpl/[MT]/prepareTimerEntity(ExecutionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TimerEntity.java/[CN]/TimerEntity/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster38 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_CycleServiceDbXStreamImpl.java/[CN]/CycleServiceDbXStreamImpl/[MT]/selectById(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_CycleServiceDbXStreamImpl.java/[CN]/CycleServiceDbXStreamImpl/[MT]/updateById(CycleConfigEntity)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_CycleServiceDbXStreamImpl.java/[CN]/CycleServiceDbXStreamImpl/[MT]/createAndInsert(Object,String)/body";
+}
+subgraph cluster106 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskListQuery.java/[CN]/TaskListQuery/[MT]/loadBeans(int,int)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskInboxPage.java/[CN]/TaskInboxPage/[CS]/TaskInboxPage(String)/body";
+}
+subgraph cluster112 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/dueDate(Date)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/dueBefore(Date)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaUpgrade(String)/body";
+}
+subgraph cluster18 {
+"modules_activiti-cxf_src_main_java_org_activiti_engine_impl_webservice_CxfWSDLImporter.java/[CN]/CxfWSDLImporter/[MT]/importFrom(String)/body";
+"modules_activiti-cxf_src_main_java_org_activiti_engine_impl_webservice_CxfWSDLImporter.java/[CN]/CxfWSDLImporter/[MT]/compileModel(Types,SchemaCompiler,org.w3c.dom.Element)/body";
+}
+subgraph cluster120 {
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_BpmnJsonConverter.java/[CN]/BpmnJsonConverter/[MT]/convertToJson(BpmnModel)/body";
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_BpmnJsonConverter.java/[CN]/BpmnJsonConverter/[MT]/convertToBpmnModel(JsonNode)/body";
+}
+subgraph cluster150 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[FE]/ACTIVITY_INSTANCE_START_LISTENER";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[FE]/ACTIVITI_INSTANCE_END_LISTENER";
+}
+subgraph cluster159 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_SelectUsersPopupWindow.java/[CN]/SelectUsersPopupWindow/[MT]/searchPeople(String)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_SelectUsersPopupWindow.java/[CN]/SelectUsersPopupWindow/[MT]/selectUser(String,String)/body";
+}
+subgraph cluster208 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_UserEntity.java/[CN]/UserEntity/[MT]/setPicture(Picture)/body";
+}
+subgraph cluster203 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/setVariableLocal(String,Object,ExecutionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/updateVariableInstance(VariableInstanceEntity,Object,ExecutionEntity)/body";
+}
+subgraph cluster248 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/setVariable(String,Object)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/removeVariableLocal(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/removeVariable(String)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_repository_ProcessDefinitionResource.java/[CN]/ProcessDefinitionResource/[MT]/suspendProcessDefinition(ProcessDefinition,boolean,Date)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskCommentPanel.java/[CN]/TaskCommentPanel/[MT]/addTextArea()/body";
+}
+subgraph cluster95 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntityManager.java/[CN]/ExecutionEntityManager/[MT]/findProcessInstanceAndVariablesByQueryCriteria(ProcessInstanceQueryImpl)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildHtml(String)/body";
+}
+subgraph cluster6 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_fs_FileSystemPluginDefinition.java/[CN]/FileSystemPluginDefinition/[MT]/addArtifactTypes(List<ArtifactType>)/body";
+}
+subgraph cluster241 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/createVariableInstance(String,Object,ExecutionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/updateVariableInstance(VariableInstanceEntity,Object,ExecutionEntity)/body";
+}
+subgraph cluster160 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeploymentDetailPanel.java/[CN]/DeploymentDetailPanel/extend";
+}
+subgraph cluster67 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_ChartGenerator.java/[CN]/ChartGenerator/[MT]/createChart(JsonNode,String[],Number[])/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_ChartGenerator.java/[CN]/ChartGenerator/[MT]/generateChart(byte[])/body";
+}
+subgraph cluster222 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_runtime_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/setReplacedBy(ExecutionImpl)/body";
+}
+subgraph cluster174 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_util_ReflectUtil.java/[CN]/ReflectUtil/[MT]/getClassLoader()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_util_io_ResourceStreamSource.java/[CN]/ResourceStreamSource/[MT]/getInputStream()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[CS]/BpmnParse(BpmnParser)/body";
+}
+subgraph cluster109 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskEventsPanel.java/[CN]/TaskEventsPanel/[MT]/addTaskEvents()/body";
+}
+subgraph cluster10 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_SaveGroupCmd.java/[CN]/SaveGroupCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_SaveUserCmd.java/[CN]/SaveUserCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster191 {
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[MT]/getLdapConfigurator()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_DeleteMembershipCmd.java/[CN]/DeleteMembershipCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CreateMembershipCmd.java/[CN]/CreateMembershipCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster152 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_flow_ProcessDefinitionInfoComponent.java/[CN]/ProcessDefinitionInfoComponent/[MT]/initImage()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskDetailPanel.java/[CN]/TaskDetailPanel/[MT]/initTaskForm()/body";
+}
+subgraph cluster25 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_task_data_HistoricTaskWrapper.java/[CN]/HistoricTaskWrapper/[MT]/getProcessVariables()/body";
+}
+subgraph cluster133 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[MT]/convertXMLToElement(XMLStreamReader)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[MT]/writeAdditionalAttributes(BaseElement,XMLStreamWriter)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_util_BpmnXMLUtil.java/[CN]/BpmnXMLUtil/[MT]/addCustomAttributes(XMLStreamReader,BaseElement,List<ExtensionAttribute>)/body";
+}
+subgraph cluster220 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_UserDetailsComponent.java/[CN]/UserDetailsComponent/[MT]/addUserDetails()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_UserDetailsComponent.java/[CN]/UserDetailsComponent/[CS]/UserDetailsComponent(String,String)/body";
+}
+subgraph cluster15 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_BpmnPoolExtraction.java/[CN]/BpmnPoolExtraction/[MT]/deleteAllOutgoingReferencesNotContainedInShape(Shape,Shape)/body";
+}
+subgraph cluster4 {
+"modules_activiti-bpmn-layout_src_main_java_org_activiti_bpmn_BpmnAutoLayout.java/[CN]/BpmnAutoLayout/[MT]/handleSubProcess(FlowElement)/body";
+"modules_activiti-bpmn-layout_src_main_java_org_activiti_bpmn_BpmnAutoLayout.java/[CN]/BpmnAutoLayout/[MT]/generateActivityDiagramInterchangeElements()/body";
+}
+subgraph cluster17 {
+"modules_activiti-common-rest_src_main_java_org_activiti_rest_api_SecuredResource.java/[CN]/SecuredResource/[MT]/getQueryParameterAsDate(String,Form)/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_AtomicOperationProcessStartInitial.java/[CN]/AtomicOperationProcessStartInitial/[MT]/eventNotificationsCompleted(ExecutionImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricProcessInstanceEntity.java/[CN]/HistoricProcessInstanceEntity/[MT]/getPersistentState()/body";
+}
+subgraph cluster52 {
+"modules_activiti-spring-boot_src_main_java_org_activiti_spring_boot_ProcessEngineAutoConfiguration.java/[CN]/ProcessEngineAutoConfiguration/[CN]/DefaultActivitiConfiguration/[MT]/processDefinitionResources(List<Resource>)/body";
+"modules_activiti-spring-boot_src_main_java_org_activiti_spring_boot_ProcessEngineAutoConfiguration.java/[CN]/ProcessEngineAutoConfiguration/[CN]/DefaultActivitiConfiguration/[MT]/postProcessSpringProcessEngineConfiguration(SpringProcessEngineConfiguration)/body";
+}
+subgraph cluster180 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ClassDelegate.java/[CN]/ClassDelegate/[MT]/signal(ActivityExecution,String,Object)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ClassDelegate.java/[CN]/ClassDelegate/[MT]/notify(DelegateExecution)/body";
+}
+subgraph cluster75 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/createVariableInstance(String,Object,ExecutionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/updateVariableInstance(VariableInstanceEntity,Object,ExecutionEntity)/body";
+}
+subgraph cluster204 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/taskCandidateUser(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/getCandidateGroups()/body";
+}
+subgraph cluster79 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_TimerEventHandler.java/[CN]/TimerEventHandler/[MT]/createConfiguration(String,Expression,Expression)/body";
+}
+subgraph cluster209 {
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/package";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPConfigurator.java/[CN]/LDAPConfigurator/[MT]/setLdapMembershipManagerFactory(LDAPMembershipManagerFactory)/body";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[MT]/openSession()/body";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPConfigurator.java/[CN]/LDAPConfigurator/[FE]/ldapMembershipManagerFactory";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_MembershipEntityManagerFactory.java/[CN]/MembershipEntityManagerFactory/[MT]/openSession()/body";
+}
+subgraph cluster181 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseTaskListener(Element)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseExecutionListener(Element)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseTaskListeners(Element,TaskDefinition)/body";
+}
+subgraph cluster200 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/flushInserts()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/flushUpdates(List<PersistentObject>)/body";
+}
+subgraph cluster66 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/executeOriginalBehavior(ActivityExecution,int)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoFormCreator.java/[CN]/AlfrescoFormCreator/[CS]/AlfrescoFormCreator()/body";
+}
+subgraph cluster55 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/taskCandidateGroupIn(List<String>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/taskCandidateGroup(String)/body";
+}
+subgraph cluster178 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/getRepositoryFolder(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/updateContent(String,String,Content)/body";
+}
+subgraph cluster110 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobPaginateList.java/package";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobPaginateList.java/[CN]/JobPaginateList/[MT]/processList(List)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobCollectionResource.java/package";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/newExecution()/body";
+}
+subgraph cluster226 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskDueDate(Date)/body";
+}
+subgraph cluster78 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[CS]/SignavioConnectorConfiguration(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[CS]/SignavioConnectorConfiguration(String,String,String,String,String)/body";
+}
+subgraph cluster116 {
+"modules_activiti-webapp-kickstart_src_main_java_org_activiti_kickstart_ui_table_TaskTable.java/[CN]/TaskTable/[CS]/TaskTable(ViewManager)/body";
+"modules_activiti-webapp-kickstart_src_main_java_org_activiti_kickstart_ui_panel_SelectAdhocWorkflowPanel.java/[CN]/SelectAdhocWorkflowPanel/[CS]/SelectAdhocWorkflowPanel(ViewManager)/body";
+}
+subgraph cluster167 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/addIdentityLink(String,String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/getProcessInstance()/body";
+}
+subgraph cluster40 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/[CN]/CancelJobsCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_deployer_BpmnDeployer.java/[CN]/BpmnDeployer/[MT]/removeObsoleteTimers(ProcessDefinitionEntity)/body";
+}
+subgraph cluster170 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/parseUserTask(Element,ScopeImpl,ActivityImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/parseEndEvent(Element,ScopeImpl,ActivityImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[CS]/HistoryParseListener(int)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/addActivityHandlers(Element,ActivityImpl)/body";
+}
+subgraph cluster131 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_AbstractSetProcessDefinitionStateCmd.java/[CN]/AbstractSetProcessDefinitionStateCmd/[MT]/findProcessDefinition(CommandContext)/body";
+}
+subgraph cluster126 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntityManager.java/[CN]/JobEntityManager/[MT]/updateJobTenantIdForDeployment(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ProcessDefinitionEntityManager.java/[CN]/ProcessDefinitionEntityManager/[MT]/updateProcessDefinitionTenantIdForDeployment(String,String)/body";
+}
+subgraph cluster187 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/resolveNrOfInstances(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseMultiInstanceLoopCharacteristics(Element,ActivityImpl)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnector.java/[CN]/SignavioConnector/[MT]/getArtifactInfoFromFile(String,JSONObject)/body";
+}
+subgraph cluster156 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInitializingList.java/[CN]/HistoricVariableInitializingList/[MT]/initializeVariable(HistoricVariableInstanceEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricVariableInstanceQueryImpl.java/[CN]/HistoricVariableInstanceQueryImpl/[MT]/executeList(CommandContext,Page)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableInitializingList.java/[CN]/VariableInitializingList/[MT]/initializeVariable(VariableInstanceEntity)/body";
+}
+subgraph cluster122 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_UploadPopupWindow.java/[CN]/UploadPopupWindow/[MT]/addDropPanel()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_UploadPopupWindow.java/[CN]/UploadPopupWindow/[MT]/addUpload()/body";
+}
+subgraph cluster43 {
+"modules_activiti-spring_src_main_java_org_activiti_spring_ProcessEngineFactoryBean.java/[CN]/ProcessEngineFactoryBean/[MT]/getObject()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[CS]/DbSqlSession(DbSqlSessionFactory)/body";
+}
+subgraph cluster35 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfiguration.java/[CN]/ProcessEngineConfiguration/[CS]/ProcessEngineConfiguration()/body";
+}
+subgraph cluster196 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_BpmnXMLConverter.java/[CN]/BpmnXMLConverter/[MT]/validateModel(XMLStreamReader)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/execute()/body";
+}
+subgraph cluster42 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_AbstractDatabaseEventLoggerEventHandler.java/[CN]/AbstractDatabaseEventLoggerEventHandler/[MT]/createEventLogEntry(String,String,String,String,String,Map<String,Object>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_AbstractTaskEventHandler.java/[CN]/AbstractTaskEventHandler/[MT]/handleCommonTaskFields(TaskEntity)/body";
+}
+subgraph cluster89 {
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_AvailableConnectorConfigsGet.java/[CN]/AvailableConnectorConfigsGet/[MT]/execute(ActivitiRequest,Status,Cache,Map<String,Object>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/createSubProcessInstance(PvmProcessDefinition)/body";
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_UserConfigGet.java/[CN]/UserConfigGet/[MT]/execute(ActivitiRequest,Status,Cache,Map<String,Object>)/body";
+}
+subgraph cluster232 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_form_FormTypes.java/[CN]/FormTypes/[MT]/parseFormPropertyType(Element,BpmnParse)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseEventListenersOnScope(Element,ScopeImpl)/body";
+}
+subgraph cluster245 {
+"modules_activiti-diagram-rest_src_main_java_org_activiti_diagram_rest_services_ProcessInstanceHighlightsResource.java/[CN]/ProcessInstanceHighlightsResource/[MT]/getHighlightedFlows(List<PvmTransition>,LinkedList<HistoricActivityInstance>,boolean)/body";
+"modules_activiti-diagram-rest_src_main_java_org_activiti_diagram_rest_services_ProcessInstanceHighlightsResource.java/[CN]/ProcessInstanceHighlightsResource/[MT]/getHighlightedFlows(List<ActivityImpl>,LinkedList<HistoricActivityInstance>,List<String>)/body";
+}
+subgraph cluster168 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableInitializingList.java/[CN]/VariableInitializingList/[MT]/addAll(Collection<? extends VariableInstanceEntity>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInitializingList.java/[CN]/HistoricVariableInitializingList/[MT]/addAll(int,Collection<? extends HistoricVariableInstanceEntity>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableInitializingList.java/[CN]/VariableInitializingList/[MT]/addAll(int,Collection<? extends VariableInstanceEntity>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_DefaultJobExecutor.java/[CN]/DefaultJobExecutor/[MT]/stopExecutingJobs()/body";
+}
+subgraph cluster246 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/package";
+}
+subgraph cluster135 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_DetailPanel.java/[CN]/DetailPanel/[MT]/addComponent(Component,int)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parsePropertyCustomExtensions(ActivityImpl,Element,String,String)/body";
+}
+subgraph cluster105 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/initAsyncExecutor()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_asyncexecutor_DefaultAsyncJobExecutor.java/[CN]/DefaultAsyncJobExecutor/[MT]/executeAsyncJob(JobEntity)/body";
+}
+subgraph cluster58 {
+"modules_activiti-spring_src_main_java_org_activiti_spring_SpringProcessEngineConfiguration.java/[CN]/SpringProcessEngineConfiguration/[MT]/getDefaultCommandInterceptorsTxRequiresNew()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_StandaloneProcessEngineConfiguration.java/[CN]/StandaloneProcessEngineConfiguration/[MT]/getDefaultCommandInterceptorsTxRequired()/body";
+}
+subgraph cluster99 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TimerEntity.java/[CN]/TimerEntity/[MT]/isValidTime(Date)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_task_TaskVariableResource.java/[CN]/TaskVariableResource/[MT]/getVariable()/body";
+}
+subgraph cluster141 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[FE]/REPOSITORY_BACKEND_URL_SUFFIX";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_OryxConnectorConfiguration.java/[CN]/OryxConnectorConfiguration/[CS]/OryxConnectorConfiguration(String)/body";
+}
+subgraph cluster70 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_BpmnActivityBehavior.java/[CN]/BpmnActivityBehavior/[MT]/performOutgoingBehavior(ActivityExecution,boolean,boolean,List<ActivityExecution>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_InclusiveGatewayActivityBehavior.java/[CN]/InclusiveGatewayActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster140 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeleteDeploymentPopupWindow.java/[CN]/DeleteDeploymentPopupWindow/[MT]/addDeleteWarning()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeleteDeploymentPopupWindow.java/[CN]/DeleteDeploymentPopupWindow/[MT]/addButtons()/body";
+}
+subgraph cluster206 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_ProcessEngineImpl.java/[CN]/ProcessEngineImpl/[MT]/close()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_ProcessEngineImpl.java/[CN]/ProcessEngineImpl/[CS]/ProcessEngineImpl(ProcessEngineConfigurationImpl)/body";
+}
+subgraph cluster175 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_SubProcessExpansion.java/[CN]/SubProcessExpansion/[MT]/transform(Diagram)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_SubProcessExpansion.java/[CN]/SubProcessExpansion/[CS]/SubProcessExpansion(RepositoryConnector)/body";
+}
+subgraph cluster139 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/usesCollection()/body";
+}
+subgraph cluster216 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_variable_SerializableType.java/[CN]/SerializableType/[MT]/getValue(ValueFields)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_variable_SerializableType.java/[CN]/SerializableType/[MT]/serialize(Object,ValueFields)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_variable_SerializableType.java/[CN]/SerializableType/[MT]/setValue(Object,ValueFields)/body";
+}
+subgraph cluster127 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskDetailPanel.java/[CN]/TaskDetailPanel/[MT]/notifyOwnerChanged()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseEventListener(Element)/body";
+}
+subgraph cluster132 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/createFolder(String,String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/login(String,String)/body";
+}
+subgraph cluster54 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseSubProcess(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseExclusiveGateway(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/signal(ActivityExecution,String,Object)/body";
+}
+subgraph cluster166 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_UserEntityManager.java/[CN]/UserEntityManager/[MT]/insertUser(User)/body";
+}
+subgraph cluster9 {
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_TimerEventDefinition.java/[CN]/TimerEventDefinition/[MT]/setValues(TimerEventDefinition)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_handler_TimerEventDefinitionParseHandler.java/[CN]/TimerEventDefinitionParseHandler/[MT]/createTimer(BpmnParse,TimerEventDefinition,ScopeImpl,String)/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_AtomicOperationTransitionDestroyScope.java/[CN]/AtomicOperationTransitionDestroyScope/[MT]/execute(ExecutionImpl)/body";
+}
+subgraph cluster121 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnector.java/[CN]/SignavioConnector/[MT]/getContent(String,String)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_navigation_TaskNavigator.java/[CN]/TaskNavigator/[MT]/directToCategoryPage(String,UriFragment)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_navigation_TaskNavigator.java/[CN]/TaskNavigator/[MT]/handleNavigation(UriFragment)/body";
+}
+subgraph cluster114 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ViewManager.java/[CN]/ViewManager/[MT]/showTaskPage(String)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ViewManager.java/[CN]/ViewManager/[CS]/ViewManager()/body";
+}
+subgraph cluster16 {
+"modules_activiti-spring_src_main_java_org_activiti_spring_SpringProcessEngineConfiguration.java/[CN]/SpringProcessEngineConfiguration/[MT]/getDefaultCommandInterceptorsTxRequired()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_handler_UserTaskParseHandler.java/[CN]/UserTaskParseHandler/[MT]/parseTaskDefinition(BpmnParse,UserTask,String,ProcessDefinitionEntity)/body";
+}
+subgraph cluster117 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_TaskCompletedEventHandler.java/[CN]/TaskCompletedEventHandler/[MT]/generateEventLogEntry(CommandContext)/body";
+}
+subgraph cluster60 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessById(String,Map<String,Object>)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskCommentPopupWindow.java/[CN]/TaskCommentPopupWindow/[MT]/initUi()/body";
+}
+subgraph cluster92 {
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_Process.java/[CN]/Process/[MT]/removeFlowElement(String)/body";
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_Process.java/[CN]/Process/[MT]/addFlowElement(FlowElement)/body";
+}
+subgraph cluster65 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseEmailServiceTask(ActivityImpl,Element,List<FieldDeclaration>)/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_ExecutionImpl.java/[CN]/ExecutionImpl/[MT]/end()/body";
+}
+subgraph cluster255 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByName(String,Map<String,Object>)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessById(String,String)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessById(String,String,Map<String,Object>)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByKey(String,String,Map<String,Object>)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByKey(String,Map<String,Object>)/body";
+}
+subgraph cluster231 {
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_UserConfigPost.java/[CN]/UserConfigPost/[MT]/execute(ActivitiRequest,Status,Cache,Map<String,Object>)/body";
+}
+subgraph cluster14 {
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_ArtifactGet.java/[CN]/ArtifactGet/[MT]/executeWebScript(ActivitiRequest,Status,Cache,Map<String,Object>)/body";
+}
+subgraph cluster98 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByName(String)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByKey(String)/body";
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_ContentGet.java/[CN]/ContentGet/[MT]/executeStreamingWebScript(ActivitiRequest,WebScriptResponse)/body";
+}
+subgraph cluster173 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/createVariableInstance(String,Object,ExecutionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/deleteVariablesInstanceForLeavingScope()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/ensureVariableInstancesInitialized()/body";
+}
+subgraph cluster124 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobExceptionStacktraceResource.java/[CN]/JobExceptionStacktraceResource/extend";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobExceptionStacktraceResource.java/package";
+}
+subgraph cluster87 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/beginTransaction(String,String,boolean)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/buildId(String)/body";
+}
+subgraph cluster224 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntity.java/[CN]/JobEntity/[MT]/setExceptionStacktrace(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntity.java/[CN]/JobEntity/[MT]/getPersistentState()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntity.java/[CN]/JobEntity/[MT]/getExceptionStacktrace()/body";
+}
+subgraph cluster136 {
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[MT]/getSessionType()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_MembershipIdentityManager.java/package";
+}
+subgraph cluster230 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/[CN]/CancelJobsCmd/[CS]/CancelJobsCmd(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[CS]/SignavioConnectorConfiguration(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/executeMandatorySchemaResource(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/executeCount(CommandContext)/body";
+}
+subgraph cluster234 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[FE]/includeTaskLocalVariables";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/executeList(CommandContext,Page)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/getTaskLocalVariables()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/includeProcessVariables()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_DeleteIdentityLinkCmd.java/[CN]/DeleteIdentityLinkCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster179 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaDrop()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaUpdate()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_ExpressionTaskListener.java/[CN]/ExpressionTaskListener/[MT]/notify(DelegateTask)/body";
+}
+subgraph cluster242 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_profile_ProfilePanel.java/[CN]/ProfilePanel/[MT]/initSaveProfileButton()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_profile_ProfilePanel.java/[CN]/ProfilePanel/[MT]/initAboutSection()/body";
+}
+subgraph cluster48 {
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_ExecutionImpl.java/[CN]/ExecutionImpl/[MT]/takeAll(List<PvmTransition>,List<ActivityExecution>)/body";
+}
+subgraph cluster41 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_ProcessDefinitionImageStreamResourceBuilder.java/[CN]/ProcessDefinitionImageStreamResourceBuilder/[MT]/buildStreamResource(ProcessInstance,RepositoryService,RuntimeService,ProcessDiagramGenerator,ProcessEngineConfiguration)/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_ProcessDefinitionImageStreamResourceBuilder.java/[CN]/ProcessDefinitionImageStreamResourceBuilder/[MT]/buildStreamResource(String,String,RepositoryService,RuntimeService,ProcessDiagramGenerator,ProcessEngineConfiguration)/body";
+}
+subgraph cluster19 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_service_api_repository_ProcessDefinitionResponse.java/[CN]/ProcessDefinitionResponse/[FE]/tenantId";
+"modules_activiti-rest_src_main_java_org_activiti_rest_service_api_repository_ProcessDefinitionResponse.java/[CN]/ProcessDefinitionResponse/[MT]/setTenantId(String)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_service_api_repository_ProcessDefinitionResponse.java/[CN]/ProcessDefinitionResponse/[MT]/getTenantId()/body";
+}
+subgraph cluster184 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_RestUrls.java/[CN]/RestUrls/[FE]/URL_JOB_EXCEPTION_STRACKTRACE";
+}
+subgraph cluster2 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ErrorPropagation.java/[CN]/ErrorPropagation/[MT]/executeCatchInSameProcess(String,ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ErrorPropagation.java/[CN]/ErrorPropagation/[MT]/propagateError(BpmnError,ActivityExecution)/body";
+}
+subgraph cluster148 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_alfresco_AlfrescoViewManager.java/[CN]/AlfrescoViewManager/[MT]/showDefaultPage()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_alfresco_AlfrescoManagementMenuBar.java/[CN]/AlfrescoManagementMenuBar/[MT]/initToolbarEntries()/body";
+}
+subgraph cluster158 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_handler_SendTaskParseHandler.java/[CN]/SendTaskParseHandler/[MT]/executeParse(BpmnParse,SendTask)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_handler_ServiceTaskParseHandler.java/[CN]/ServiceTaskParseHandler/[MT]/executeParse(BpmnParse,ServiceTask)/body";
+}
+subgraph cluster101 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSessionFactory.java/[CN]/DbSqlSessionFactory/[MT]/createSessionFactory(DataSource,TransactionFactory)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_repository_DeploymentBuilderImpl.java/[CN]/DeploymentBuilderImpl/[MT]/addClasspathResource(String)/body";
+}
+subgraph cluster28 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_RemedyTemporarySignavioIncompatibilityTransformation.java/[CN]/RemedyTemporarySignavioIncompatibilityTransformation/[MT]/setAttributeText(String,String,String,String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_RemedyTemporarySignavioIncompatibilityTransformation.java/[CN]/RemedyTemporarySignavioIncompatibilityTransformation/[MT]/transformBpmn20Xml(String,String)/body";
+}
+subgraph cluster165 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseScriptTask(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseServiceTask(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseTask(Element,ScopeImpl)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskDetailPanel.java/[CN]/TaskDetailPanel/[MT]/notifyAssigneeChanged()/body";
+}
+subgraph cluster243 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_UnlockExclusiveJobCmd.java/[CN]/UnlockExclusiveJobCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_JobRetryCmd.java/[CN]/JobRetryCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster202 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByMessage(String,String,Map<String,Object>)/body";
+}
+subgraph cluster237 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_process_ProcessDefinitionDetailPanel.java/[CN]/ProcessDefinitionDetailPanel/[MT]/initHeader()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_process_ProcessInstanceDetailPanel.java/[CN]/ProcessInstanceDetailPanel/[MT]/addHeader()/body";
+}
+subgraph cluster80 {
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_Gateway.java/[CN]/Gateway/[MT]/setValues(Gateway)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_BaseBpmnXMLConverter.java/[CN]/BaseBpmnXMLConverter/[MT]/convertToXML(XMLStreamWriter,BaseElement,BpmnModel)/body";
+}
+subgraph cluster188 {
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_EndEventJsonConverter.java/[CN]/EndEventJsonConverter/[MT]/getStencilId(BaseElement)/body";
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_EndEventJsonConverter.java/[CN]/EndEventJsonConverter/[MT]/fillJsonTypes(Map<String,Class<? extends BaseBpmnJsonConverter>>)/body";
+}
+subgraph cluster103 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildHighlightning()/body";
+}
+subgraph cluster249 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/pruneDeletedEntities(List<T>)/body";
+}
+subgraph cluster8 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeploymentDetailPanel.java/[CN]/DeploymentDetailPanel/[MT]/addProcessDefinitionLinks()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeploymentDetailPanel.java/[CN]/DeploymentDetailPanel/[MT]/addResourceLinks()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_db_DatabaseDetailPanel.java/[CN]/DatabaseDetailPanel/[MT]/addTableData()/body";
+}
+subgraph cluster253 {
+"modules_activiti-simple-workflow_src_main_java_org_activiti_workflow_simple_definition_HumanStepDefinition.java/[CN]/HumanStepDefinition/[MT]/setValues(StepDefinition)/body";
+"modules_activiti-simple-workflow_src_main_java_org_activiti_workflow_simple_definition_FeedbackStepDefinition.java/[CN]/FeedbackStepDefinition/[MT]/setValues(StepDefinition)/body";
+"modules_activiti-simple-workflow_src_main_java_org_activiti_workflow_simple_definition_ParallelStepsDefinition.java/[CN]/ParallelStepsDefinition/[MT]/setValues(StepDefinition)/body";
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_UserTask.java/[CN]/UserTask/[MT]/setValues(UserTask)/body";
+}
+subgraph cluster221 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/refreshSubTasks()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/initSubTasksLayout()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/initSubTasks()/body";
+}
+subgraph cluster97 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_ReportDetailPanel.java/[CN]/ReportDetailPanel/[MT]/generateReport(ProcessInstance)/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_SaveReportPopupWindow.java/[CN]/SaveReportPopupWindow/[CS]/SaveReportPopupWindow()/body";
+}
+subgraph cluster207 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_listener_ScriptTaskListener.java/[CN]/ScriptTaskListener/[FE]/script";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ByteArrayRef.java/[CN]/ByteArrayRef/[MT]/delete()/body";
+}
+subgraph cluster23 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_repository_ProcessDefinitionResource.java/[CN]/ProcessDefinitionResource/[MT]/activateProcessDefinition(ProcessDefinition,boolean,Date)/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_simple_editor_SimpleTableEditor.java/[CN]/SimpleTableEditor/[MT]/showDiagram()/body";
+}
+subgraph cluster186 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_profile_ChangePasswordPopupWindow.java/[CN]/ChangePasswordPopupWindow/[CS]/ChangePasswordPopupWindow()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_profile_ChangePasswordPopupWindow.java/[CN]/ChangePasswordPopupWindow/[MT]/initPasswordFields()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_profile_ChangePasswordPopupWindow.java/[CN]/ChangePasswordPopupWindow/[MT]/initChangePasswordButton()/body";
+}
+subgraph cluster86 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_factory_DefaultActivityBehaviorFactory.java/[CN]/DefaultActivityBehaviorFactory/[MT]/createScriptTaskActivityBehavior(ScriptTask)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_ScriptTaskActivityBehavior.java/[CN]/ScriptTaskActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster142 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_AbstractQuery.java/[CN]/AbstractQuery/[MT]/addOrder(String,String,NullHandlingOnOrder)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_factory_DefaultActivityBehaviorFactory.java/[CN]/DefaultActivityBehaviorFactory/[MT]/createCallActivityBehavior(CallActivity)/body";
+}
+subgraph cluster128 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByMessage(String,Map<String,Object>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/createVariableLocal(String,Object)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/createJsonMessagesObject()/body";
+}
+subgraph cluster22 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInitializingList.java/[CN]/HistoricVariableInitializingList/[MT]/add(HistoricVariableInstanceEntity)/body";
+}
+subgraph cluster64 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_JtaProcessEngineConfiguration.java/[CN]/JtaProcessEngineConfiguration/[MT]/getDefaultCommandInterceptorsTxRequiresNew()/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_AtomicOperationProcessStart.java/[CN]/AtomicOperationProcessStart/[MT]/eventNotificationsCompleted(ExecutionImpl)/body";
+}
+subgraph cluster233 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_task_TaskCollectionResource.java/[CN]/TaskCollectionResource/[MT]/getTasks()/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_task_TaskResource.java/[CN]/TaskResource/[MT]/updateTask(TaskRequest)/body";
+}
+subgraph cluster83 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_DeleteJobCmd.java/[CN]/DeleteJobCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobCmd.java/[CN]/CancelJobCmd/extend";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobCmd.java/package";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/[CN]/CancelJobsCmd/[FE]/serialVersionUID";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobCmd.java/[CN]/CancelJobCmd/[MT]/sendCancelEvent(JobEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntityManager.java/[CN]/JobEntityManager/[MT]/cancelTimers(ExecutionEntity)/body";
+}
+subgraph cluster74 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_TaskCreatedEventHandler.java/[CN]/TaskCreatedEventHandler/[MT]/generateEventLogEntry(CommandContext)/body";
+}
+subgraph cluster151 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/createArtifact(String,String,String,Content)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/temporaryCheckout(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/cancelTransaction()/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/updateContent(String,Content)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/getRepositoryArtifact(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/commitPendingChanges(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_svn_SvnRepositoryConnector.java/[CN]/SvnRepositoryConnector/[MT]/getChildren(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_asyncexecutor_DefaultAsyncJobExecutor.java/[CN]/DefaultAsyncJobExecutor/[MT]/start()/body";
+}
+subgraph cluster71 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_StartProcessInstanceByMessageCmd.java/[CN]/StartProcessInstanceByMessageCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_deployer_BpmnDeployer.java/[CN]/BpmnDeployer/[MT]/addMessageEventSubscriptions(ProcessDefinitionEntity)/body";
+}
+subgraph cluster157 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CreateAttachmentCmd.java/[CN]/CreateAttachmentCmd/[CS]/CreateAttachmentCmd(String,String,String,String,String,InputStream,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CreateAttachmentCmd.java/[CN]/CreateAttachmentCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster205 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_RemedyTemporarySignavioIncompatibilityTransformation.java/[CN]/RemedyTemporarySignavioIncompatibilityTransformation/[MT]/transformBpmn20Xml(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_action_CreateMavenProjectAction.java/[CN]/CreateMavenProjectAction/[MT]/execute(RepositoryConnector,RepositoryArtifact,Map<String,Object>)/body";
+}
+subgraph cluster171 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobExceptionStacktraceResource.java/[CN]/JobExceptionStacktraceResource/[MT]/getJobFromResponse()/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobExceptionStacktraceResource.java/[CN]/JobExceptionStacktraceResource/[MT]/getJobStacktrace()/body";
+}
+subgraph cluster185 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/[CN]/CancelJobsCmd/[CS]/CancelJobsCmd(List<String>)/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_AtomicOperationProcessEnd.java/[CN]/AtomicOperationProcessEnd/[MT]/execute(ExecutionImpl)/body";
+}
+subgraph cluster214 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_BpmnPoolExtraction.java/[CN]/BpmnPoolExtraction/[MT]/deleteAllIncomingReferencesNotContainedInShape(Shape,Shape)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_transform_signavio_BpmnPoolExtraction.java/[CN]/BpmnPoolExtraction/[MT]/transform(Diagram)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_DeployCmd.java/[CN]/DeployCmd/[MT]/scheduleProcessDefinitionActivation(CommandContext,DeploymentEntity)/body";
+}
+subgraph cluster72 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_DetailPanel.java/[CN]/DetailPanel/[MT]/setFixedButtons(Component)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/getPersistentState()/body";
+}
+subgraph cluster68 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/registerMouseOverEvent()/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/createClickFunction()/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildScript()/body";
+}
+subgraph cluster123 {
+"modules_activiti-bpmn-layout_src_main_java_org_activiti_bpmn_BpmnAutoLayout.java/[CN]/BpmnAutoLayout/[MT]/generateSequenceFlowDiagramInterchangeElements()/body";
+}
+subgraph cluster130 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CompleteTaskCmd.java/[CN]/CompleteTaskCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_task_TaskEntity.java/[CN]/TaskEntity/[MT]/update(TaskEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_task_TaskEntity.java/[CN]/TaskEntity/[MT]/getPersistentState()/body";
+}
+subgraph cluster143 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_task_TaskVariableResource.java/[CN]/TaskVariableResource/extend";
+}
+subgraph cluster77 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseFieldDeclarations(Element)/body";
+}
+subgraph cluster49 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ExchangeUtils.java/[CN]/ExchangeUtils/[MT]/prepareInitiator(Exchange,ActivitiEndpoint)/body";
+"modules_activiti-camel_src_main_java_org_activiti_camel_ExchangeUtils.java/[CN]/ExchangeUtils/[MT]/prepareVariables(Exchange,ActivitiEndpoint)/body";
+}
+subgraph cluster63 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildHtml(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_GroupEntityManager.java/[CN]/GroupEntityManager/[MT]/insertGroup(Group)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_TerminateEndEventActivityBehavior.java/[CN]/TerminateEndEventActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster238 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/setJdbcPingQuery(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/setJdbcPingEnabled(boolean)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/setJdbcPingConnectionNotUsedFor(int)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/initDataSource()/body";
+}
+subgraph cluster37 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/setQueryVariables(List<VariableInstanceEntity>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntityManager.java/[CN]/TaskEntityManager/[MT]/findTasksAndVariablesByQueryCriteria(TaskQueryImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/includeTaskLocalVariables()/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_task_data_HistoricTaskWrapper.java/[CN]/HistoricTaskWrapper/[MT]/getTaskLocalVariables()/body";
+}
+subgraph cluster219 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskCandidateGroup(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskCandidateUser(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskCandidateGroupIn(List<String>)/body";
+}
+subgraph cluster104 {
+"modules_activiti-webapp-rest_src_main_java_org_activiti_rest_api_cycle_ContentRepresentationGet.java/[CN]/ContentRepresentationGet/[MT]/executeWebScript(ActivitiRequest,Status,Cache,Map<String,Object>)/body";
+}
+subgraph cluster236 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_action_CreateTechnicalBpmnXmlAction.java/[CN]/CreateTechnicalBpmnXmlAction/[MT]/createArtifact(RepositoryConnector,RepositoryArtifact,String,String,RepositoryConnector)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_action_ValidateActivitiDeployment.java/[CN]/ValidateActivitiDeployment/[MT]/execute(RepositoryConnector,RepositoryArtifact,Map<String,Object>)/body";
+}
+subgraph cluster215 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobPaginateList.java/[CN]/JobPaginateList/extend";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobPaginateList.java/[CN]/JobPaginateList/[FE]/resource";
+}
+subgraph cluster76 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_ParallelMultiInstanceBehavior.java/[CN]/ParallelMultiInstanceBehavior/[MT]/leave(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_form_LongFormType.java/[CN]/LongFormType/[MT]/convertFormValueToModelValue(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/initSessionFactories()/body";
+}
+subgraph cluster189 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaCreateEngine()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/addMissingComponent(String,String)/body";
+}
+subgraph cluster45 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[MT]/writeExtensionChildElements(BaseElement,boolean,XMLStreamWriter)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[MT]/writeCustomIdentities(BaseElement,boolean,XMLStreamWriter)/body";
+}
+subgraph cluster164 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_listener_ScriptTaskListener.java/[CN]/ScriptTaskListener/[FE]/resultVariable";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_pvm_runtime_ExecutionImpl.java/[CN]/ExecutionImpl/[MT]/getVariableLocal(String,Class<T>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_TerminateEndEventActivityBehavior.java/[CN]/TerminateEndEventActivityBehavior/[MT]/terminateProcessInstanceExecution(ActivityExecution,ActivityImpl,ActivityExecution)/body";
+}
+subgraph cluster197 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_listener_EditModelClickListener.java/[CN]/EditModelClickListener/[MT]/buttonClick(ClickEvent)/body";
+"modules_activiti-explorer_src_main_java_org_activiti_editor_ui_NewModelPopupWindow.java/[CN]/NewModelPopupWindow/[MT]/addButtons()/body";
+}
+subgraph cluster27 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_DefaultJobExecutor.java/[CN]/DefaultJobExecutor/[MT]/executeJobs(List<String>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_DefaultJobExecutor.java/[CN]/DefaultJobExecutor/[MT]/startExecutingJobs()/body";
+}
+subgraph cluster115 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_UserEntity.java/[CN]/UserEntity/[MT]/delete()/body";
+}
+subgraph cluster228 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_ClassDelegate.java/[CN]/ClassDelegate/[MT]/getActivityBehaviorInstance()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_ClassDelegate.java/[CN]/ClassDelegate/[MT]/getExecutionListenerInstance()/body";
+}
+subgraph cluster218 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskInboxPage.java/[CN]/TaskInboxPage/[MT]/addTaskList()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/callActivityEndListeners(ActivityExecution)/body";
+}
+subgraph cluster225 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildScript(Integer)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildHtml(String,String,int)/body";
+}
+subgraph cluster33 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_BoundaryEventActivityBehavior.java/[CN]/BoundaryEventActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster31 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/removeVariableLocal(String,ExecutionEntity)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_BpmnXMLConverter.java/[CN]/BpmnXMLConverter/[MT]/convertToBpmnModel(InputStreamProvider,boolean,boolean)/body";
+}
+subgraph cluster198 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/auditHistoryEnabled(ScopeImpl,int)/body";
+}
+subgraph cluster1 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/parseProcess(Element,ProcessDefinitionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_HistoryParseListener.java/[CN]/HistoryParseListener/[MT]/parseStartEvent(Element,ScopeImpl,ActivityImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_runtime_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/setVariableInstanceValue(Object,VariableInstanceEntity)/body";
+}
+subgraph cluster11 {
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_UserTaskJsonConverter.java/[CN]/UserTaskJsonConverter/[MT]/convertElementToJson(ObjectNode,FlowElement)/body";
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_UserTaskJsonConverter.java/[CN]/UserTaskJsonConverter/[MT]/convertJsonToElement(JsonNode,JsonNode,Map<String,JsonNode>)/body";
+}
+subgraph cluster82 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_util_BpmnXMLUtil.java/[CN]/BpmnXMLUtil/[MT]/isBlacklisted(ExtensionAttribute,List<ExtensionAttribute>)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_demo_DemoConnectorPluginDefinition.java/[CN]/DemoConnectorPluginDefinition/[MT]/addArtifactTypes(List<ArtifactType>)/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_process_simple_editor_SimpleTableEditor.java/[CN]/SimpleTableEditor/[MT]/save()/body";
+}
+subgraph cluster102 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_RuntimeServiceImpl.java/[CN]/RuntimeServiceImpl/[MT]/signalEventReceivedAsync(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_SignalEventReceivedCmd.java/[CN]/SignalEventReceivedCmd/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster13 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessByKey(String,String)/body";
+"modules_activiti-pvm_src_main_java_org_activiti_pvm_impl_runtime_OutgoingExecution.java/[CN]/OutgoingExecution/[MT]/take()/body";
+}
+subgraph cluster183 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntityManager.java/[CN]/TaskEntityManager/[MT]/updateTaskTenantIdForDeployment(String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntityManager.java/[CN]/ExecutionEntityManager/[MT]/updateExecutionTenantIdForDeployment(String,String)/body";
+}
+subgraph cluster81 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/getVariableLocal(String,Class<T>)/body";
+}
+subgraph cluster32 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_DelegateExpressionExecutionListener.java/[CN]/DelegateExpressionExecutionListener/[MT]/notify(ExecutionListenerExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_ServiceTaskDelegateExpressionActivityBehavior.java/[CN]/ServiceTaskDelegateExpressionActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster144 {
+"modules_activiti-simple-workflow_src_main_java_org_activiti_workflow_simple_definition_ScriptStepDefinition.java/[CN]/ScriptStepDefinition/[MT]/setValues(StepDefinition)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[MT]/getEditorBackendUrl()/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[MT]/getRepositoryBackendUrl()/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_OryxConnectorConfiguration.java/[CN]/OryxConnectorConfiguration/[CS]/OryxConnectorConfiguration(String,String)/body";
+}
+subgraph cluster194 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_form_LongFormType.java/[CN]/LongFormType/[MT]/getName()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_form_DoubleFormType.java/[CN]/DoubleFormType/[MT]/getName()/body";
+}
+subgraph cluster100 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseBoundaryEvents(Element,ScopeImpl)/body";
+}
+subgraph cluster250 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeleteDeploymentPopupWindow.java/[CN]/DeleteDeploymentPopupWindow/[MT]/initWindow()/body";
+}
+subgraph cluster69 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_MembershipEntityManagerFactory.java/[CN]/MembershipEntityManagerFactory/[MT]/getSessionType()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_interceptor_CommandContext.java/[CN]/CommandContext/[MT]/getMembershipIdentityManager()/body";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[FE]/ldapConfigurator";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_AbstractManager.java/[CN]/AbstractManager/[MT]/getMembershipIdentityManager()/body";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[MT]/setLdapConfigurator(LDAPConfigurator)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_MembershipEntityManagerFactory.java/package";
+}
+subgraph cluster176 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_CycleServiceDbXStreamImpl.java/[CN]/CycleServiceDbXStreamImpl/[MT]/deleteById(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_CycleServiceDbXStreamImpl.java/[CN]/CycleServiceDbXStreamImpl/[MT]/getProcessEngineConfiguration()/body";
+}
+subgraph cluster201 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/setVariableLocal(String,Object)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricTaskInstanceEntityManager.java/[CN]/HistoricTaskInstanceEntityManager/[MT]/findHistoricTaskInstancesAndVariablesByQueryCriteria(HistoricTaskInstanceQueryImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricProcessInstanceEntityManager.java/[CN]/HistoricProcessInstanceEntityManager/[MT]/findHistoricProcessInstancesAndVariablesByQueryCriteria(HistoricProcessInstanceQueryImpl)/body";
+}
+subgraph cluster107 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaCreate()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/dbSchemaCheckVersion()/body";
+}
+subgraph cluster61 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnector.java/[CN]/SignavioConnector/[MT]/getFolderInfo(JSONObject)/body";
+}
+subgraph cluster190 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[MT]/writeCustomIdentities(UserTask,String,Set<String>,Set<String>,XMLStreamWriter)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_UserTaskXMLConverter.java/[CN]/UserTaskXMLConverter/[CN]/PotentialOwnerParser/[MT]/parseChildElement(XMLStreamReader,BaseElement,BpmnModel)/body";
+}
+subgraph cluster210 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/startProcessById(String)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_BusinessProcess.java/[CN]/BusinessProcess/[MT]/signalExecution()/body";
+}
+subgraph cluster30 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskPage.java/[CN]/TaskPage/[MT]/getTaskEventPanel()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskEventsPanel.java/[CN]/TaskEventsPanel/[CS]/TaskEventsPanel()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskEventsPanel.java/[CN]/TaskEventsPanel/[MT]/addInputField()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_TaskEventsPanel.java/[CN]/TaskEventsPanel/[MT]/addNewComment(String)/body";
+}
+subgraph cluster213 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableInitializingList.java/[CN]/VariableInitializingList/[MT]/add(VariableInstanceEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInitializingList.java/[CN]/HistoricVariableInitializingList/[MT]/addAll(Collection<? extends HistoricVariableInstanceEntity>)/body";
+}
+subgraph cluster36 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_el_JuelExpression.java/[CN]/JuelExpression/[MT]/setValue(Object,VariableScope)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_el_JuelExpression.java/[CN]/JuelExpression/[MT]/getValue(VariableScope)/body";
+}
+subgraph cluster118 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_ProcessEngines.java/[CN]/ProcessEngines/[MT]/init()/body";
+}
+subgraph cluster53 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/isExtraScopeNeeded()/body";
+}
+subgraph cluster239 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobCmd.java/[CN]/CancelJobCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_DeleteJobCmd.java/[CN]/DeleteJobCmd/[MT]/getJobToDelete(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobCmd.java/[CN]/CancelJobCmd/[CS]/CancelJobCmd(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_BpmnActivityBehavior.java/[CN]/BpmnActivityBehavior/[MT]/performDefaultOutgoingBehavior(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_CancelJobsCmd.java/[CN]/CancelJobsCmd/[FE]/jobIds";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_DeploymentEntityManager.java/[CN]/DeploymentEntityManager/[MT]/deleteDeployment(String,boolean)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_BpmnActivityBehavior.java/[CN]/BpmnActivityBehavior/[MT]/dispatchJobCanceledEvents(ActivityExecution)/body";
+}
+subgraph cluster162 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/setAssignee(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/complete()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/setOwner(String)/body";
+"modules_activiti-bpmn-model_src_main_java_org_activiti_bpmn_model_Process.java/[CN]/Process/[MT]/getFlowElement(String)/body";
+}
+subgraph cluster251 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_DetailPanel.java/[CN]/DetailPanel/[CS]/DetailPanel()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_DetailPanel.java/[CN]/DetailPanel/[MT]/addComponentAsFirst(Component)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_flow_ProcessDefinitionDetailPanel.java/[CN]/ProcessDefinitionDetailPanel/[MT]/initUi()/body";
+}
+subgraph cluster12 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/collectVariables(HashMap<String,Object>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableScopeImpl.java/[CN]/VariableScopeImpl/[MT]/getVariableNames()/body";
+}
+subgraph cluster0 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_VariableInitializingList.java/[CN]/VariableInitializingList/[MT]/add(int,VariableInstanceEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInitializingList.java/[CN]/HistoricVariableInitializingList/[MT]/add(int,HistoricVariableInstanceEntity)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_conf_RepositoryConfigurationHandler.java/[CN]/RepositoryConfigurationHandler/[MT]/setConfigurationfields(Map<String,String>,Object)/body";
+}
+subgraph cluster155 {
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_BpmnJsonConverterUtil.java/[CN]/BpmnJsonConverterUtil/[MT]/convertJsonToMessages(JsonNode,BpmnModel)/body";
+"modules_activiti-json-converter_src_main_java_org_activiti_editor_language_json_converter_BpmnJsonConverterUtil.java/[CN]/BpmnJsonConverterUtil/[MT]/parseMessages(JsonNode,BpmnModel)/body";
+}
+subgraph cluster182 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_deployer_BpmnDeployer.java/[CN]/BpmnDeployer/[MT]/addSignalEventSubscriptions(ProcessDefinitionEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_deployer_BpmnDeployer.java/[CN]/BpmnDeployer/[MT]/deploy(DeploymentEntity,Map<String,Object>)/body";
+}
+subgraph cluster73 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_runtime_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/initializeActivityInstanceId(HistoricVariableUpdateEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_history_handler_ActivityInstanceEndHandler.java/[CN]/ActivityInstanceEndHandler/[MT]/findActivityInstance(ExecutionEntity)/body";
+}
+subgraph cluster111 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ExplorerApp.java/[CN]/ExplorerApp/[MT]/close()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ExplorerApp.java/[CN]/ExplorerApp/[MT]/onRequestEnd(HttpServletRequest,HttpServletResponse)/body";
+}
+subgraph cluster51 {
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_ReportDetailPanel.java/[CN]/ReportDetailPanel/[MT]/initActions()/body";
+"modules_activiti-explorer_src_main_java_org_activiti_explorer_ui_reports_ReportDetailPanel.java/[CN]/ReportDetailPanel/[MT]/initForm()/body";
+}
+subgraph cluster46 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_DeploymentDetailPanel.java/[CN]/DeploymentDetailPanel/[MT]/addDeploymentName()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_deployment_NewDeploymentListener.java/[CN]/NewDeploymentListener/[MT]/menuSelected(MenuItem)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_management_ManagementMenuBar.java/[CN]/ManagementMenuBar/[CS]/ManagementMenuBar()/body";
+}
+subgraph cluster223 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_ByteArrayRefTypeHandler.java/[CN]/ByteArrayRefTypeHandler/[MT]/getResult(ResultSet,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_ByteArrayRefTypeHandler.java/[CN]/ByteArrayRefTypeHandler/[MT]/getResult(ResultSet,int)/body";
+}
+subgraph cluster47 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_JobEntity.java/[CN]/JobEntity/[MT]/insert()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/insert(ExecutionEntity)/body";
+}
+subgraph cluster85 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ClassDelegate.java/[CN]/ClassDelegate/[MT]/notify(DelegateTask)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_helper_ClassDelegate.java/[CN]/ClassDelegate/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster137 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiEndpoint.java/[CN]/ActivitiEndpoint/[MT]/createProducer()/body";
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiComponent.java/[CN]/ActivitiComponent/[MT]/setCamelContext(CamelContext)/body";
+}
+subgraph cluster90 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_OryxConnectorConfiguration.java/[CN]/OryxConnectorConfiguration/[CS]/OryxConnectorConfiguration(String,String,String,String,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_RuntimeServiceImpl.java/[CN]/RuntimeServiceImpl/[MT]/signalEventReceivedAsync(String)/body";
+}
+subgraph cluster91 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/initFailedJobCommandFactory()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_jobexecutor_FailedJobListener.java/[CN]/FailedJobListener/[MT]/execute(CommandContext)/body";
+}
+subgraph cluster252 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_ProcessInstanceEndedEventHandler.java/[CN]/ProcessInstanceEndedEventHandler/[MT]/generateEventLogEntry(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_event_logger_handler_ProcessInstanceStartedEventHandler.java/[CN]/ProcessInstanceStartedEventHandler/[MT]/generateEventLogEntry(CommandContext)/body";
+}
+subgraph cluster147 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_cycle_TreeGet.java/[CN]/TreeGet/[MT]/executeWebScript(WebScriptRequest,Status,Cache,Map<String,Object>)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_cycle_ArtifactGet.java/[CN]/ArtifactGet/[MT]/executeWebScript(WebScriptRequest,Status,Cache,Map<String,Object>)/body";
+}
+subgraph cluster134 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseSendTask(Element,ScopeImpl)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_form_AlfrescoFormCreator.java/[CN]/AlfrescoFormCreator/[MT]/createForm(M2Type,Form,FormDefinition,WorkflowDefinitionConversion)/body";
+"modules_activiti-camel_src_main_java_org_activiti_camel_CamelBehaviour.java/[CN]/CamelBehaviour/[MT]/getEndpoint(CamelContext,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_deployer_BpmnDeployer.java/[CN]/BpmnDeployer/[MT]/removeObsoleteMessageEventSubscriptions(ProcessDefinitionEntity,ProcessDefinitionEntity)/body";
+}
+subgraph cluster94 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseReceiveTask(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ExecutionEntity.java/[CN]/ExecutionEntity/[MT]/scheduleAtomicOperationAsync(AtomicOperation)/body";
+}
+subgraph cluster56 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/flush()/body";
+}
+subgraph cluster29 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_rules_RulesDeployer.java/[CN]/RulesDeployer/[MT]/deploy(DeploymentEntity)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_rules_RulesHelper.java/[CN]/RulesHelper/[MT]/findKnowledgeBaseByDeploymentId(String)/body";
+}
+subgraph cluster125 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/populateSubTasks()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/initAddSubTaskPanelKeyboardActions()/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_task_SubTaskComponent.java/[CN]/SubTaskComponent/[MT]/initUi()/body";
+}
+subgraph cluster161 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_ByteArrayRef.java/[CN]/ByteArrayRef/[MT]/toString()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_CallActivityBehavior.java/[CN]/CallActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster172 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[FE]/queryVariables";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/getQueryVariables()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/getProcessVariables()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_IbatisVariableTypeHandler.java/[CN]/IbatisVariableTypeHandler/[MT]/getResult(ResultSet,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_HistoricVariableInstanceEntityManager.java/[CN]/HistoricVariableInstanceEntityManager/[MT]/deleteHistoricVariableInstanceByProcessInstanceId(String)/body";
+}
+subgraph cluster229 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskDueBefore(Date)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_TaskQueryImpl.java/[CN]/TaskQueryImpl/[MT]/dueAfter(Date)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_HistoricTaskInstanceQueryImpl.java/[CN]/HistoricTaskInstanceQueryImpl/[MT]/taskDueAfter(Date)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_util_SignavioSvgApiBuilder.java/[CN]/SignavioSvgApiBuilder/[MT]/buildTable(String,Map<String,List<String>>)/body";
+}
+subgraph cluster62 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cmd_AddIdentityLinkCmd.java/[CN]/AddIdentityLinkCmd/[MT]/execute(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_task_TaskEntity.java/[CN]/TaskEntity/[MT]/addCandidateUser(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_task_TaskEntity.java/[CN]/TaskEntity/[MT]/addCandidateGroup(String)/body";
+}
+subgraph cluster96 {
+"modules_activiti-jbpm-migration_src_main_java_org_activiti_migration_process_ProcessConversionServiceImpl.java/[CN]/ProcessConversionServiceImpl/[MT]/convertTask(Document,Task)/body";
+"modules_activiti-jbpm-migration_src_main_java_org_activiti_migration_process_ProcessConversionServiceImpl.java/[CN]/ProcessConversionServiceImpl/[MT]/convertTaskNode(Document,TaskNode)/body";
+}
+subgraph cluster192 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiEndpoint.java/[CN]/ActivitiEndpoint/[MT]/addConsumer(ActivitiConsumer)/body";
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiProducer.java/[CN]/ActivitiProducer/[MT]/setProcessInitiator(String)/body";
+}
+subgraph cluster153 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_cfg_ProcessEngineConfigurationImpl.java/[CN]/ProcessEngineConfigurationImpl/[MT]/getDefaultDatabaseTypeMappings()/body";
+}
+subgraph cluster44 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseStringFieldDeclaration(Element,Element,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseExpressionFieldDeclaration(Element,Element,String)/body";
+}
+subgraph cluster217 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiEndpoint.java/[CN]/ActivitiEndpoint/[MT]/process(Exchange)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_pvm_runtime_ExecutionImpl.java/[CN]/ExecutionImpl/[MT]/getVariable(String,Class<T>)/body";
+}
+subgraph cluster177 {
+"modules_activiti-rest_src_main_java_org_activiti_rest_application_RestServicesInit.java/[CN]/RestServicesInit/[MT]/attachResources(Router)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobPaginateList.java/[CN]/JobPaginateList/[CS]/JobPaginateList(SecuredResource)/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobCollectionResource.java/[CN]/JobCollectionResource/[MT]/getJobs()/body";
+"modules_activiti-rest_src_main_java_org_activiti_rest_api_management_JobCollectionResource.java/[CN]/JobCollectionResource/extend";
+}
+subgraph cluster235 {
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPMembershipManagerFactory.java/[CN]/LDAPMembershipManagerFactory/[CS]/LDAPMembershipManagerFactory(LDAPConfigurator)/body";
+"modules_activiti-ldap_src_main_java_org_activiti_ldap_LDAPConfigurator.java/[CN]/LDAPConfigurator/[MT]/getLdapMembershipManagerFactory()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/resolveLoopCardinality(ActivityExecution)/body";
+}
+subgraph cluster26 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_SequentialMultiInstanceBehavior.java/[CN]/SequentialMultiInstanceBehavior/[MT]/leave(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_ParallelMultiInstanceBehavior.java/[CN]/ParallelMultiInstanceBehavior/[MT]/createInstances(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_SequentialMultiInstanceBehavior.java/[CN]/SequentialMultiInstanceBehavior/[MT]/createInstances(ActivityExecution)/body";
+}
+subgraph cluster129 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_ExclusiveGatewayActivityBehavior.java/[CN]/ExclusiveGatewayActivityBehavior/[MT]/leave(ActivityExecution)/body";
+}
+subgraph cluster211 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiProducer.java/[CN]/ActivitiProducer/[MT]/findProcessInstanceId(Exchange)/body";
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiProducer.java/[CN]/ActivitiProducer/[MT]/signal(Exchange)/body";
+}
+subgraph cluster154 {
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_InitializeAlfrescoModelsConversionListener.java/[CN]/InitializeAlfrescoModelsConversionListener/[MT]/addContentModel(WorkflowDefinitionConversion,String)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_InitializeAlfrescoModelsConversionListener.java/[CN]/InitializeAlfrescoModelsConversionListener/[MT]/afterStepsConversion(WorkflowDefinitionConversion)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_export_ExportMain.java/[CN]/ExportMain/[MT]/main(String[])/body";
+}
+subgraph cluster20 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_custom_DetailPanel.java/[CN]/DetailPanel/[MT]/addComponent(Component)/body";
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_flow_ProcessInstanceDetailPanel.java/[CN]/ProcessInstanceDetailPanel/[CS]/ProcessInstanceDetailPanel(String,ProcessInstancePage)/body";
+}
+subgraph cluster163 {
+"modules_activiti-engine_src_main_java_org_activiti_impl_cmd_DeleteDeploymentCmd.java/[CN]/DeleteDeploymentCmd/[MT]/executeVoid(CommandContext)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_db_DbRepositorySession.java/[CN]/DbRepositorySession/[MT]/deployNew(DeploymentEntity)/body";
+}
+subgraph cluster195 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseUserTask(Element,ScopeImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseCallActivity(Element,ScopeImpl)/body";
+}
+subgraph cluster84 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSessionFactory.java/[CN]/DbSqlSessionFactory/[MT]/setDatabaseType(String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSessionFactory.java/[CN]/DbSqlSessionFactory/[MT]/isBulkInsertable(Class<? extends PersistentObject>)/body";
+}
+subgraph cluster145 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MailActivityBehavior.java/[CN]/MailActivityBehavior/[MT]/setMailServerProperties(Email,String)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MailActivityBehavior.java/[CN]/MailActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster5 {
+"modules_activiti-bpmn-layout_src_main_java_org_activiti_bpmn_BpmnAutoLayout.java/[CN]/BpmnAutoLayout/[MT]/handleSequenceFlow()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_persistence_entity_TaskEntity.java/[CN]/TaskEntity/[MT]/update()/body";
+"modules_activiti-bpmn-layout_src_main_java_org_activiti_bpmn_BpmnAutoLayout.java/[CN]/BpmnAutoLayout/[MT]/generateDiagramInterchangeElements()/body";
+}
+subgraph cluster212 {
+"modules_activiti-spring_src_main_java_org_activiti_spring_ProcessEngineFactoryBean.java/[CN]/ProcessEngineFactoryBean/[MT]/initializeExpressionManager()/body";
+}
+subgraph cluster39 {
+"modules_activiti-camel_src_main_java_org_activiti_camel_ActivitiComponent.java/[CN]/ActivitiComponent/[MT]/createEndpoint(String,String,Map<String,Object>)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_bpmn_behavior_MultiInstanceActivityBehavior.java/[CN]/MultiInstanceActivityBehavior/[MT]/execute(ActivityExecution)/body";
+}
+subgraph cluster108 {
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_export_ProcessExport.java/[CN]/ProcessExport/[MT]/writeProcess(Process,XMLStreamWriter)/body";
+"modules_activiti-bpmn-converter_src_main_java_org_activiti_bpmn_converter_parser_ProcessParser.java/[CN]/ProcessParser/[MT]/parse(XMLStreamReader,BpmnModel)/body";
+}
+subgraph cluster3 {
+"modules_activiti-engine_src_main_java_org_activiti_impl_bpmn_ParallelGatewayActivity.java/[CN]/ParallelGatewayActivity/[MT]/execute(ActivityExecution)/body";
+"modules_activiti-engine_src_main_java_org_activiti_impl_db_execution_DbExecutionImpl.java/[CN]/DbExecutionImpl/[MT]/createAndInsert(ExecutionImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_impl_bpmn_parser_BpmnParse.java/[CN]/BpmnParse/[MT]/parseActivities(Element,ScopeElementImpl)/body";
+"modules_activiti-engine_src_main_java_org_activiti_impl_bpmn_ParallelGatewayActivity.java/[CN]/ParallelGatewayActivity/[MT]/join(ActivityExecution,List<ActivityExecution>)/body";
+}
+subgraph cluster244 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnector.java/[CN]/SignavioConnector/[MT]/getChildNodes(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnector.java/[CN]/SignavioConnector/[MT]/getArtifactDetails(String)/body";
+}
+subgraph cluster199 {
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/removeUnnecessaryOperations()/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/delete(PersistentObject)/body";
+"modules_activiti-engine_src_main_java_org_activiti_engine_impl_db_DbSqlSession.java/[CN]/DbSqlSession/[MT]/isPersistentObjectDeleted(PersistentObject)/body";
+}
+subgraph cluster227 {
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_impl_event_CdiTaskListener.java/[CN]/CdiTaskListener/[MT]/getQualifiers(BusinessProcessEvent)/body";
+"modules_activiti-cdi_src_main_java_org_activiti_cdi_impl_event_CdiEventSupportBpmnParseHandler.java/[CN]/CdiEventSupportBpmnParseHandler/[MT]/parse(BpmnParse,BaseElement)/body";
+}
+subgraph cluster7 {
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[MT]/getDirectoryUrl(String)/body";
+"modules_activiti-cycle_src_main_java_org_activiti_cycle_impl_connector_signavio_SignavioConnectorConfiguration.java/[CN]/SignavioConnectorConfiguration/[MT]/getModelUrl(String)/body";
+}
+subgraph cluster57 {
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_InitializeAlfrescoModelsConversionListener.java/[CN]/InitializeAlfrescoModelsConversionListener/[MT]/beforeStepsConversion(WorkflowDefinitionConversion)/body";
+"modules_activiti-simple-workflow-alfresco_src_main_java_org_activiti_workflow_simple_alfresco_conversion_AlfrescoHumanStepDefinitionConverter.java/[CN]/AlfrescoHumanStepDefinitionConverter/[MT]/convertStepDefinition(StepDefinition,WorkflowDefinitionConversion)/body";
+}
+subgraph cluster119 {
+"modules_activiti-webapp-explorer2_src_main_java_org_activiti_explorer_ui_flow_ProcessDefinitionDetailPanel.java/[CN]/ProcessDefinitionDetailPanel/[MT]/initActions()/body";
+}
+}

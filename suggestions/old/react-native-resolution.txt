@@ -1,0 +1,62 @@
+com.facebook.react.views.view.ReactViewGroup.setFocusable(boolean);ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.setPressed(boolean);ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.drawableHotspotChanged(float, float);ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.setHitSlopRect(android.graphics.Rect);ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.mHitSlopRect;ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.setNeedsOffscreenAlphaCompositing(boolean);ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.mNeedsOffscreenAlphaCompositing;ReactViewManager
+com.facebook.react.views.view.ReactViewGroup.hasOverlappingRendering();ReactViewManager
+com.facebook.react.views.modal.ReactModalHostView.setOnRequestCloseListener(com.facebook.react.views.modal.ReactModalHostView$OnRequestCloseListener);ReactModalHostManager
+com.facebook.react.views.modal.ReactModalHostView.mOnRequestCloseListener;ReactModalHostManager
+com.facebook.react.views.toolbar.ReactToolbar.setLayoutDirection(int);ReactToolbarManager
+com.facebook.react.modules.websocket.WebSocketModule.connect(java.lang.String, com.facebook.react.bridge.ReadableArray, com.facebook.react.bridge.ReadableMap, int);ReadableType
+com.facebook.react.views.toolbar.ReactToolbar.setTitle(java.lang.CharSequence);ReactToolbarManager
+com.facebook.react.modules.websocket.WebSocketModule.setDefaultOrigin(java.lang.String);ReadableType
+com.facebook.react.views.toolbar.ReactToolbar.setSubtitle(java.lang.CharSequence);ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.setTitleTextColor(int);ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.setSubtitleTextColor(int);ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.getContentInsetStart();ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.setContentInsetsRelative(int, int);ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.getContentInsetEnd();ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.setOnMenuItemClickListener(android.support.v7.widget.Toolbar$OnMenuItemClickListener);ReactToolbarManager
+com.facebook.react.views.toolbar.ReactToolbar.setNavigationOnClickListener(android.view.View$OnClickListener);ReactToolbarManager
+com.facebook.react.views.progressbar.ProgressBarShadowNode.setMeasureFunction(com.facebook.csslayout.CSSNodeAPI$MeasureFunction);ReactProgressBarViewManager
+com.facebook.react.views.progressbar.ProgressBarShadowNode.mWidth;ReactProgressBarViewManager
+com.facebook.react.views.progressbar.ProgressBarShadowNode.measure(com.facebook.csslayout.CSSNodeAPI, float, com.facebook.csslayout.CSSMeasureMode, float, com.facebook.csslayout.CSSMeasureMode, com.facebook.csslayout.MeasureOutput);ReactProgressBarViewManager
+com.facebook.react.views.progressbar.ProgressBarShadowNode.mHeight;ReactProgressBarViewManager
+com.facebook.react.modules.dialog.SupportAlertFragment.getActivity();AlertFragment
+com.facebook.react.modules.dialog.SupportAlertFragment.onCreateDialog(android.os.Bundle);AlertFragment
+com.facebook.react.views.progressbar.ProgressBarShadowNode.mMeasured;ReactProgressBarViewManager
+com.facebook.react.modules.i18nmanager.I18nManagerModule.allowRTL(boolean);I18nUtil
+com.facebook.react.modules.dialog.SupportAlertFragment.getArguments();AlertFragment
+com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setProgressBackgroundColorSchemeColor(int);SwipeRefreshLayoutManager
+com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setSize(int);SwipeRefreshLayoutManager
+com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setColorSchemeColors(int[]);SwipeRefreshLayoutManager
+com.facebook.react.views.slider.ReactSliderManager.setMinimumValue(com.facebook.react.views.slider.ReactSlider, double);ReactSlider
+com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setEnabled(boolean);SwipeRefreshLayoutManager
+com.facebook.react.views.slider.ReactSliderManager.setStep(com.facebook.react.views.slider.ReactSlider, double);ReactSlider
+com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout.setOnRefreshListener(android.support.v4.widget.SwipeRefreshLayout$OnRefreshListener);SwipeRefreshLayoutManager
+com.facebook.react.modules.i18nmanager.I18nManagerModule.forceRTL(boolean);I18nUtil
+com.facebook.react.views.slider.ReactSliderManager.setMaximumValue(com.facebook.react.views.slider.ReactSlider, double);ReactSlider
+com.facebook.react.views.view.ReactViewManager.setBorderRadius(com.facebook.react.views.view.ReactViewGroup, int, float);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.setNativeBackground(com.facebook.react.views.view.ReactViewGroup, com.facebook.react.bridge.ReadableMap);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.removeAllViews(com.facebook.react.views.view.ReactViewGroup);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.setPointerEvents(com.facebook.react.views.view.ReactViewGroup, java.lang.String);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.setBorderStyle(com.facebook.react.views.view.ReactViewGroup, java.lang.String);ReactViewGroup
+com.facebook.react.devsupport.WebsocketJavaScriptExecutor.connectInternal(java.lang.String, com.facebook.react.devsupport.WebsocketJavaScriptExecutor$JSExecutorConnectCallback);JSDebuggerWebSocketClient
+com.facebook.react.views.view.ReactViewManager.getChildCount(com.facebook.react.views.view.ReactViewGroup);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.removeViewAt(com.facebook.react.views.view.ReactViewGroup, int);ReactViewGroup
+com.facebook.react.devsupport.WebsocketJavaScriptExecutor.connect(java.lang.String, com.facebook.react.devsupport.WebsocketJavaScriptExecutor$JSExecutorConnectCallback);JSDebuggerWebSocketClient
+com.facebook.react.views.view.ReactViewManager.getChildAt(com.facebook.react.views.view.ReactViewGroup, int);ReactViewGroup
+com.facebook.react.views.view.ReactViewManager.addView(com.facebook.react.views.view.ReactViewGroup, android.view.View, int);ReactViewGroup
+com.facebook.react.views.modal.ReactModalHostManager.setTransparent(com.facebook.react.views.modal.ReactModalHostView, boolean);ReactModalHostView
+com.facebook.react.views.modal.ReactModalHostManager.setAnimationType(com.facebook.react.views.modal.ReactModalHostView, java.lang.String);ReactModalHostView
+com.facebook.react.views.recyclerview.RecyclerViewBackedScrollViewManager.getExportedCustomDirectEventTypeConstants();ReactScrollViewHelper
+com.facebook.react.views.toolbar.ReactToolbarManager.setOverflowIcon(com.facebook.react.views.toolbar.ReactToolbar, com.facebook.react.bridge.ReadableMap);ReactToolbar
+com.facebook.react.views.toolbar.ReactToolbarManager.setNavIcon(com.facebook.react.views.toolbar.ReactToolbar, com.facebook.react.bridge.ReadableMap);ReactToolbar
+com.facebook.react.views.toolbar.ReactToolbarManager.setLogo(com.facebook.react.views.toolbar.ReactToolbar, com.facebook.react.bridge.ReadableMap);ReactToolbar
+com.facebook.react.views.slider.ReactSlider.setEnabled(boolean);ReactSliderManager
+com.facebook.react.views.toolbar.ReactToolbarManager.setActions(com.facebook.react.views.toolbar.ReactToolbar, com.facebook.react.bridge.ReadableArray);ReactToolbar
+com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setRefreshing(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, boolean);ReactSwipeRefreshLayout
+com.facebook.react.devsupport.RedBoxDialog.dismiss();DevSupportManagerImpl
+com.facebook.react.views.swiperefresh.SwipeRefreshLayoutManager.setProgressViewOffset(com.facebook.react.views.swiperefresh.ReactSwipeRefreshLayout, float);ReactSwipeRefreshLayout

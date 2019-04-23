@@ -1,0 +1,1974 @@
+digraph {
+subgraph cluster128 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Transfer.java/[CN]/Transfer/[CS]/Transfer(Vertex,Vertex,double,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[MT]/getPaths(TraverseOptions)/body";
+}
+subgraph cluster127 {
+"src_main_java_org_opentripplanner_api_resource_SimpleIsochrone.java/[CN]/SimpleIsochrone/[MT]/makePoints()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_ContractionPathServiceImpl.java/[CN]/ContractionPathServiceImpl/[MT]/getVertexForPlace(String,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_ContractionRoutingServiceImpl.java/[CN]/ContractionRoutingServiceImpl/[MT]/route(Vertex,Vertex,State,TraverseOptions)/body";
+"src_main_java_com_conveyal_gtfs_model_Calendar.java/[CN]/Calendar/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster159 {
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/handleModifiedTrip(TripUpdate)/body";
+}
+subgraph cluster224 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDDownloader.java/[CN]/NEDDownloader/[MT]/getDownloadURLs()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDDownloader.java/[CN]/NEDDownloader/[MT]/downloadReady(String)/body";
+}
+subgraph cluster271 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/equals(FindNearestEdgesRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/similarRouteSequence(State)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/buildGraph(HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster249 {
+"otp-core_src_main_java_org_opentripplanner_common_geometry_AccSamplingGridIsolineBuilder.java/[CN]/AccSamplingGridIsolineBuilder/[MT]/computeIsoline(TZ)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/toString()/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/nondominated(Ride,boolean)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_GtfsRealtimeAbstractUpdateStreamer.java/[CN]/GtfsRealtimeAbstractUpdateStreamer/[MT]/getUpdates()/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_common_RoutingResource.java/[CN]/RoutingResource/[MT]/buildRequest(int)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetEdge.java/[CN]/StreetEdge/[MT]/getSlopeSpeedEffectiveLength()/body";
+}
+subgraph cluster93 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/setMaxLongitude(double)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/setMinLongitude(double)/body";
+}
+subgraph cluster417 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/reverse()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/optimize()/body";
+}
+subgraph cluster443 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_gbannotation_GraphConnectivity.java/[CN]/GraphConnectivity/[MT]/getMessage()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_gbannotation_GraphConnectivity.java/[CN]/GraphConnectivity/[FE]/size";
+}
+subgraph cluster272 {
+"src_main_java_org_opentripplanner_routing_algorithm_strategies_InterleavedBidirectionalHeuristic.java/[CN]/InterleavedBidirectionalHeuristic/[MT]/estimateRemainingWeight(State)/body";
+"src_main_java_org_opentripplanner_routing_algorithm_strategies_InterleavedBidirectionalHeuristic.java/[CN]/InterleavedBidirectionalHeuristic/[MT]/initialize(RoutingRequest,long)/body";
+}
+subgraph cluster453 {
+"src_main_java_org_opentripplanner_api_resource_SIsochrone.java/[CN]/SIsochrone/[MT]/getIsochrone(double,String)/body";
+}
+subgraph cluster242 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_OnBoardDepartServiceImpl.java/[CN]/OnBoardDepartServiceImpl/[MT]/setupDepartOnBoard(RoutingContext)/body";
+}
+subgraph cluster405 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getName()/body";
+}
+subgraph cluster244 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[CS]/Street(Vertex,Vertex,double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[MT]/traverseBack(State,TraverseOptions)/body";
+"src_main_java_org_opentripplanner_profile_RepeatedRaptorProfileRouter.java/[CN]/RepeatedRaptorProfileRouter/[MT]/makeSurfaces()/body";
+}
+subgraph cluster18 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/slice(int,int)/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/setStyle(String,String,String)/body";
+}
+subgraph cluster319 {
+"src_main_java_org_opentripplanner_streets_Histogram.java/package";
+"src_main_java_org_opentripplanner_routing_vertextype_TransitStop.java/[CN]/TransitStop/[CS]/TransitStop(Graph,Stop)/body";
+}
+subgraph cluster160 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/findByThriftId(int)/body";
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/putGraphId(String,boolean)/body";
+}
+subgraph cluster163 {
+"openstreetmap_src_main_java_org_opentripplanner_openstreetmap_impl_BinaryOpenStreetMapParser.java/[CN]/BinaryOpenStreetMapParser/[MT]/parseNodes(List<Osmformat.Node>)/body";
+}
+subgraph cluster370 {
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/postGraphOverWire(String,boolean,LoadLevel,InputStream)/body";
+}
+subgraph cluster359 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_StreamedOpenStreetMapParser.java/[CN]/StreamedOpenStreetMapParser/[MT]/parseMap(File,OpenStreetMapContentHandler)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_StreamedFileBasedOpenStreetMapProviderImpl.java/[CN]/StreamedFileBasedOpenStreetMapProviderImpl/[MT]/readOSM(OpenStreetMapContentHandler)/body";
+}
+subgraph cluster110 {
+"src_main_java_org_opentripplanner_streets_TempVertexSet.java/[CN]/TempVertexSet/[MT]/addTempVertex(int,int)/body";
+}
+subgraph cluster144 {
+"opentripplanner-geocoder_src_main_java_org_opentripplanner_geocoder_yahoo_YahooGeocoder.java/[CN]/YahooGeocoder/[MT]/geocode(String,Envelope)/body";
+"opentripplanner-geocoder_src_main_java_org_opentripplanner_geocoder_nominatim_NominatimGeocoder.java/[CN]/NominatimGeocoder/[MT]/geocode(String,Envelope)/body";
+}
+subgraph cluster8 {
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[FE]/headwaySecs";
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[FE]/frequencyTrips";
+}
+subgraph cluster11 {
+"src_main_java_org_opentripplanner_osm_VanillaExtract.java/[CN]/VanillaExtract/[CN]/VexHttpHandler/[MT]/service(Request,Response)/body";
+"src_main_java_org_opentripplanner_osm_OSMMain.java/[CN]/OSMMain/[MT]/main(String[])/body";
+}
+subgraph cluster456 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_reach_ReachRemainingWeightHeuristic.java/[CN]/ReachRemainingWeightHeuristic/[MT]/getMaxSpeed(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/incrementWalkDistance(double)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/getMaxLongitude()/body";
+}
+subgraph cluster324 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/filter(boolean,boolean,boolean)/body";
+}
+subgraph cluster494 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[MT]/weightLowerBound(TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/[MT]/weightLowerBound(TraverseOptions)/body";
+}
+subgraph cluster314 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setHasBogusName(boolean)/body";
+}
+subgraph cluster507 {
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[FE]/endTimes";
+"src_main_java_org_opentripplanner_routing_bike__rental_TimeBasedBikeRentalFareServiceFactory.java/[CN]/TimeBasedBikeRentalFareServiceFactory/[MT]/makeFareService()/body";
+"src_main_java_org_opentripplanner_routing_impl_InputStreamGraphSource.java/[CN]/InputStreamGraphSource/[MT]/reload(boolean,boolean)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/trace()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetVertex.java/[CN]/StreetVertex/[MT]/setElevationProfile(PackedCoordinateSequence)/body";
+}
+subgraph cluster504 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_PlanGenerator.java/[CN]/PlanGenerator/[MT]/makePlace(State,String,boolean)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generateItinerary(GraphPath,boolean)/body";
+}
+subgraph cluster181 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[CS]/VerticalDatum(double,double,double,double,float[][])/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_OnBoardDepartServiceImpl.java/package";
+}
+subgraph cluster171 {
+"src_main_java_org_opentripplanner_routing_alertpatch_AlertPatch.java/[CN]/AlertPatch/[MT]/remove(Graph)/body";
+}
+subgraph cluster488 {
+"src_main_java_org_opentripplanner_profile_StreetSegment.java/[CN]/StreetSegment/[CS]/StreetSegment(State)/body";
+"src_main_java_org_opentripplanner_api_resource_GraphPathToTripPlanConverter.java/[CN]/GraphPathToTripPlanConverter/[MT]/generateWalkSteps(Graph,State[],WalkStep)/body";
+}
+subgraph cluster194 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/loadGraph(String)/body";
+"src_main_java_org_opentripplanner_api_resource_SurfaceResource.java/[CN]/SurfaceResource/[MT]/getTimeSurfaceList()/body";
+}
+subgraph cluster53 {
+"src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[CS]/State(Vertex,Edge,long,RoutingRequest)/body";
+}
+subgraph cluster221 {
+"src_main_java_org_opentripplanner_analyst_cluster_AnalystWorker.java/[CN]/AnalystWorker/[MT]/deleteRequest(AnalystClusterRequest)/body";
+"src_main_java_org_opentripplanner_analyst_cluster_AnalystWorker.java/[CN]/AnalystWorker/[MT]/finishPriorityTask(AnalystClusterRequest,Object)/body";
+}
+subgraph cluster508 {
+"src_main_java_org_opentripplanner_analyst_broker_Job.java/[CN]/Job/[MT]/addTask(AnalystClusterRequest)/body";
+"src_main_java_org_opentripplanner_streets_StreetLayer.java/[CN]/StreetLayer/[MT]/loadFromOsm(OSM)/body";
+}
+subgraph cluster389 {
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[FE]/request";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[FE]/graph";
+"src_main_java_org_opentripplanner_profile_Ride.java/[CN]/Ride/[CS]/Ride(Ride,StopCluster)/body";
+}
+subgraph cluster461 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/isSolution()/body";
+}
+subgraph cluster478 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_GraphBuilderAnnotation.java/[CN]/GraphBuilderAnnotation/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_GraphBuilderAnnotation.java/[CN]/GraphBuilderAnnotation/[MT]/register(Graph,Variety,Object)/body";
+}
+subgraph cluster280 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_reach_ReachRemainingWeightHeuristic.java/[CN]/ReachRemainingWeightHeuristic/[MT]/computeForwardWeight(State,Vertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorSearch.java/[CN]/RaptorSearch/[MT]/transitPhase(RoutingRequest,int)/body";
+}
+subgraph cluster490 {
+"src_main_java_org_opentripplanner_routing_spt_DominanceFunction.java/[CN]/DominanceFunction/[CN]/EarliestArrival/extend";
+"src_main_java_org_opentripplanner_routing_spt_DominanceFunction.java/[CN]/DominanceFunction/[CN]/MinimumWeight/extend";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[FE]/TIMEOUT";
+}
+subgraph cluster268 {
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketStoptimeUpdater.java/[CN]/WebsocketStoptimeUpdater/[MT]/setup()/body";
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketStoptimeUpdater.java/[CN]/WebsocketStoptimeUpdater/[MT]/run()/body";
+}
+subgraph cluster191 {
+"src_main_java_org_opentripplanner_routing_edgetype_RentABikeAbstractEdge.java/[CN]/RentABikeAbstractEdge/[MT]/traverseRent(State)/body";
+}
+subgraph cluster345 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/toString()/body";
+}
+subgraph cluster331 {
+"src_main_java_org_opentripplanner_routing_edgetype_ParkAndRideEdge.java/[CN]/ParkAndRideEdge/[MT]/traverse(State)/body";
+"src_main_java_org_opentripplanner_graph__builder_module_TransitToStreetNetworkModule.java/[CN]/TransitToStreetNetworkModule/[MT]/linkTransit()/body";
+}
+subgraph cluster82 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/geometry";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/stopId";
+}
+subgraph cluster383 {
+"otp-standalone_src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[CN]/ReadableFile/[MT]/validate(String,String)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_util_RoutingRequestBuilder.java/[CN]/RoutingRequestBuilder/[MT]/setDestination(LatLng)/body";
+}
+subgraph cluster170 {
+"otp-core_src_main_java_org_opentripplanner_util_LocalizedString.java/[CN]/LocalizedString/[MT]/getTagNames()/body";
+"otp-core_src_main_java_org_opentripplanner_util_LocalizedString.java/[CN]/LocalizedString/[MT]/toString(Locale)/body";
+}
+subgraph cluster189 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/getNextDepartTime(RoutingRequest,int,Vertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/dominates(State)/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/dominated(Ride,StopCluster)/body";
+}
+subgraph cluster85 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getPatternsForStop(String)/body";
+}
+subgraph cluster44 {
+"src_main_java_org_opentripplanner_graph__builder_module_osm_OpenStreetMapModule.java/[CN]/OpenStreetMapModule/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster340 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(RoutingRequest,double)/body";
+"otp-core_src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/route(double,double,double,double)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/getPatternForTripId(String)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/getTripForTripId(String)/body";
+}
+subgraph cluster363 {
+"src_main_java_org_opentripplanner_profile_RaptorWorkerData.java/[CN]/RaptorWorkerData/[CS]/RaptorWorkerData(Graph,TimeWindow,Scenario,SampleSet)/body";
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[MT]/forPattern(Graph,TripPattern,TimeWindow,Scenario)/body";
+}
+subgraph cluster9 {
+"otp-core_src_main_java_org_opentripplanner_api_ws_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generatePlan(List<GraphPath>,RoutingRequest)/body";
+"otp-core_src_main_java_org_opentripplanner_api_ws_PlanGenerator.java/[CN]/PlanGenerator/[MT]/localize(String)/body";
+}
+subgraph cluster415 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_GraphStats.java/[CN]/GraphStats/[CN]/CommandSpeedStats/[MT]/run()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_GraphStats.java/[CN]/GraphStats/[CS]/GraphStats(String[])/body";
+}
+subgraph cluster305 {
+"src_main_java_org_opentripplanner_routing_edgetype_PreBoardEdge.java/[CN]/PreBoardEdge/[MT]/traverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorSearch.java/[CN]/RaptorSearch/[MT]/walkPhase(RoutingRequest,RoutingRequest,int,List<RaptorState>)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/validateAndHandleAddedTrip(Graph,TripUpdate,String,ServiceDate)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_LBGRemainingWeightHeuristic.java/[CN]/LBGRemainingWeightHeuristic/[MT]/computeReverseWeight(State,Vertex)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_GtfsRealtimeAbstractUpdateStreamer.java/[CN]/GtfsRealtimeAbstractUpdateStreamer/[MT]/getUpdateForAddedTrip(AgencyAndId,GtfsRealtime.TripUpdate,long,ServiceDate)/body";
+}
+subgraph cluster269 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_OnboardDepartVertex.java/[CN]/OnboardDepartVertex/[CS]/OnboardDepartVertex(String,double,double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/serviceDay";
+"otp-core_src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[CN]/Stats/[MT]/add(Stats)/body";
+}
+subgraph cluster445 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Transfer.java/[CN]/Transfer/[MT]/traverseBack(State,TraverseOptions)/body";
+"src_main_java_org_opentripplanner_util_Properties.java/[CN]/Properties/[MT]/is(String,Locale)/body";
+}
+subgraph cluster125 {
+"src_main_java_org_opentripplanner_graph__builder_module_TransitToTaggedStopsModule.java/[CN]/TransitToTaggedStopsModule/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+"src_main_java_org_opentripplanner_graph__builder_module_StreetLinkerModule.java/[CN]/StreetLinkerModule/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster233 {
+"src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/interline(Collection<TripPattern>,Graph)/body";
+"src_main_java_org_opentripplanner_graph__builder_annotation_InterliningTeleport.java/[CN]/InterliningTeleport/[MT]/getMessage()/body";
+}
+subgraph cluster157 {
+"otp-core_src_main_java_org_opentripplanner_updater_alerts_AlertsUpdateHandler.java/[CN]/AlertsUpdateHandler/[MT]/handleAlert(String,GtfsRealtime.Alert)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/makeState()/body";
+}
+subgraph cluster227 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PreAlightEdge.java/[CN]/PreAlightEdge/[MT]/traverse(State)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PreAlightEdge.java/[CN]/PreAlightEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster39 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegment/[MT]/crossTrackError(Coordinate)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TripPatternCache.java/[CN]/TripPatternCache/[MT]/getOrCreateTripPattern(StopPattern,Route,Graph)/body";
+}
+subgraph cluster499 {
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/getVertexCount()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setModes(TraverseModeSet)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/createUsefulNames()/body";
+}
+subgraph cluster253 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/createShortestPathTree(TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[FE]/rctx";
+}
+subgraph cluster59 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_transit__index_RouteVariant.java/[CN]/RouteVariant/[CS]/RouteVariant(Route,ArrayList<Stop>)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_transit__index_TransitIndexBuilder.java/[CN]/TransitIndexBuilder/[MT]/createRouteVariants(Graph)/body";
+}
+subgraph cluster273 {
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[MT]/addAttribute(String,Integer)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_loader_NetworkLinkerLibrary.java/[CN]/NetworkLinkerLibrary/[MT]/split(LinkedList<P2<PlainStreetEdge>>,String,P2<PlainStreetEdge>,Coordinate)/body";
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/initVertexInfoSubpanel()/body";
+}
+subgraph cluster341 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/isBack()/body";
+}
+subgraph cluster362 {
+"otp-core_src_main_java_org_opentripplanner_common_geometry_SparseMatrix.java/[CN]/SparseMatrix/[MT]/put(int,int,T)/body";
+"otp-core_src_main_java_org_opentripplanner_common_geometry_SparseMatrix.java/[CN]/SparseMatrix/[CS]/SparseMatrix(int,int)/body";
+}
+subgraph cluster429 {
+"otp-core_src_main_java_org_opentripplanner_configuration_GraphUpdaterConfigurator.java/[CN]/GraphUpdaterConfigurator/[MT]/setupGraph(Graph,Preferences)/body";
+"otp-core_src_main_java_org_opentripplanner_configuration_GraphUpdaterConfigurator.java/[CN]/GraphUpdaterConfigurator/[MT]/shutdownGraph(Graph)/body";
+}
+subgraph cluster365 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[FE]/triangleSlopeFactor";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[FE]/triangleTimeFactor";
+}
+subgraph cluster489 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[MT]/setElevationProfile(PackedCoordinateSequence)/body";
+}
+subgraph cluster154 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TurnEdge.java/[CN]/TurnEdge/[MT]/weightLowerBound(TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/weightLowerBound(TraverseOptions)/body";
+}
+subgraph cluster176 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getDirection()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_FrequencyBoard.java/[CN]/FrequencyBoard/[MT]/traverse(State)/body";
+}
+subgraph cluster479 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_MultiObjectivePathServiceImpl.java/[CN]/MultiObjectivePathServiceImpl/[MT]/eDominates(State,State)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/getStopForStopId(String)/body";
+}
+subgraph cluster483 {
+"src_main_java_com_conveyal_gtfs_model_Route.java/[CN]/Route/[CN]/Loader/[MT]/loadOneRow()/body";
+"src_main_java_com_conveyal_gtfs_model_Stop.java/[CN]/Stop/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster0 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getStopsForPattern(String)/body";
+"src_main_java_org_opentripplanner_transit_TransportNetwork.java/[CN]/TransportNetwork/[MT]/main(String[])/body";
+}
+subgraph cluster470 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_GtfsGraphBuilderImpl.java/[CN]/GtfsGraphBuilderImpl/[CN]/StoreImpl/[MT]/getEntityForId(Class<T>,Serializable)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_GtfsGraphBuilderImpl.java/[CN]/GtfsGraphBuilderImpl/[CN]/StoreImpl/[MT]/saveEntity(Object)/body";
+}
+subgraph cluster325 {
+"jags_src_main_java_org_opentripplanner_jags_gtfs_StopTime.java/[CN]/StopTime/[MT]/getStop()/body";
+"jags_src_main_java_org_opentripplanner_jags_gtfs_StopTime.java/[CN]/StopTime/[MT]/getTrip()/body";
+}
+subgraph cluster98 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_UnifiedGridCoverage.java/[CN]/UnifiedGridCoverage/[MT]/evaluate(DirectPosition,double[])/body";
+"openstreetmap_src_main_java_org_opentripplanner_openstreetmap_impl_BinaryOpenStreetMapParser.java/[CN]/BinaryOpenStreetMapParser/[MT]/internalize(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TinyTurnEdge.java/[CN]/TinyTurnEdge/[CS]/TinyTurnEdge(Vertex,Vertex,TurnEdge)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/countEdges()/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/cancelScheduledTrip(String,ServiceDate)/body";
+}
+subgraph cluster131 {
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_PreBoardEdge.java/[CN]/PreBoardEdge/[MT]/traverse(State)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_PreAlightEdge.java/[CN]/PreAlightEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster441 {
+"src_main_java_org_opentripplanner_graph__builder_module_TransitToStreetNetworkModule.java/[CN]/TransitToStreetNetworkModule/[MT]/linkBikeRentalStations()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Hop.java/[CN]/Hop/[MT]/traverse(State)/body";
+"otp-standalone_src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[CN]/ReadableDirectory/[MT]/validate(String,String)/body";
+"opentripplanner-datastore_app_controllers_Calltaker.java/[CN]/Calltaker/[MT]/newQuery(TripQuery)/body";
+}
+subgraph cluster401 {
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[CS]/PointFeature(String,Geometry,HashMap<String,Integer>)/body";
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/deleteAll()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/getStateDepartAt(RaptorData,ArrayList<RaptorState>)/body";
+}
+subgraph cluster459 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/addBounder(State)/body";
+}
+subgraph cluster52 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_BasicTripPattern.java/[CN]/BasicTripPattern/[MT]/getNextTrip(int,int,boolean,boolean,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_BasicTripPattern.java/[CN]/BasicTripPattern/[MT]/getPreviousTrip(int,int,boolean,boolean,boolean)/body";
+}
+subgraph cluster298 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/isStairs()/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/isNoThruTraffic()/body";
+}
+subgraph cluster388 {
+"src_main_java_org_opentripplanner_analyst_broker_Job.java/[CN]/Job/[FE]/tasksAwaitingDelivery";
+}
+subgraph cluster339 {
+"src_main_java_org_opentripplanner_common_geometry_HashGridSpatialIndex.java/[CN]/HashGridSpatialIndex/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TripPattern.java/[CN]/TripPattern/[MT]/setWheelchairAccessible(int,int,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_services_OnBoardDepartService.java/package";
+}
+subgraph cluster174 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_patch_AlertPatch.java/[CN]/AlertPatch/[MT]/apply(Graph)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_patch_AlertPatch.java/[CN]/AlertPatch/[MT]/remove(Graph)/body";
+}
+subgraph cluster279 {
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[MT]/makeBar(int,int)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_StopsAlerts.java/[CN]/StopsAlerts/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/hashCode()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_shapefile_JoinedFeatureConverter.java/[CN]/JoinedFeatureConverter/[MT]/convert(SimpleFeature)/body";
+}
+subgraph cluster403 {
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/traverse(State)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_FrequencyHop.java/[CN]/FrequencyHop/[MT]/traverse(State)/body";
+}
+subgraph cluster146 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PreBoardEdge.java/[CN]/PreBoardEdge/[MT]/optimisticTraverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegment/[MT]/distance(Coordinate)/body";
+}
+subgraph cluster266 {
+"otp-standalone_src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[CN]/PositiveInteger/[MT]/validate(String,String)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/run()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_MultiTargetTerminationStrategy.java/[CN]/MultiTargetTerminationStrategy/[FE]/reachedTargets";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Alight.java/[CN]/Alight/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster150 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_StreetUtils.java/[CN]/StreetUtils/[MT]/WriteNodesInSubGraph(Subgraph,PrintWriter,boolean)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_Request.java/[CN]/Request/[MT]/setModes(TraverseModeSet)/body";
+}
+subgraph cluster502 {
+"src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/traverse(State)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/handleCanceledTrip(TripUpdate,String,ServiceDate)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setToll(boolean)/body";
+"otp-core_src_main_java_org_opentripplanner_api_ws_Debug.java/[CN]/Debug/[MT]/startedCalculating()/body";
+}
+subgraph cluster414 {
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/verticesSelected(List<Vertex>)/body";
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/showPathsInPanel(List<GraphPath>)/body";
+}
+subgraph cluster108 {
+"src_main_java_org_opentripplanner_routing_edgetype_StreetWithElevationEdge.java/[CN]/StreetWithElevationEdge/[MT]/isElevationFlattened()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorAlightEdge.java/[CN]/ElevatorAlightEdge/[MT]/getName()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TurnEdge.java/[CN]/TurnEdge/[MT]/isNoThruTraffic()/body";
+}
+subgraph cluster26 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorBoardEdge.java/[CN]/ElevatorBoardEdge/[MT]/getMode()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorHopEdge.java/[CN]/ElevatorHopEdge/[MT]/getMode()/body";
+}
+subgraph cluster379 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_analyst_IsoChrone.java/[CN]/IsoChrone/[MT]/getLinesAndSubEdgesWithinMaxTime(long,ArrayList<Edge>,ShortestPathTree,double,double,double,boolean,boolean)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetBikeParkLink.java/[CN]/StreetBikeParkLink/[MT]/traverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[CS]/StateEditor(State,Edge,EdgeNarrative)/body";
+}
+subgraph cluster204 {
+"otp-core_src_main_java_org_opentripplanner_decoration_PropertiesPreferences.java/[CN]/PropertiesPreferences/[CS]/PropertiesPreferences(InputStream)/body";
+"otp-core_src_main_java_org_opentripplanner_decoration_PropertiesPreferences.java/[CN]/PropertiesPreferences/[MT]/initFromProperties(Properties)/body";
+}
+subgraph cluster434 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/writeObject(ObjectOutputStream)/body";
+}
+subgraph cluster63 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/doTraverse(State,TraverseOptions,boolean)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/processRoad(OSMRelation)/body";
+}
+subgraph cluster286 {
+"otp-standalone_src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[CN]/RouterId/[MT]/validate(String,String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorState.java/[CN]/RaptorState/[MT]/eDominates(RaptorState)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/findUpdateStopIndex(TableTripPattern)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[CS]/TraverseOptions(TraverseModeSet,OptimizeType)/body";
+}
+subgraph cluster25 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_RentABikeOffEdge.java/[CN]/RentABikeOffEdge/[MT]/traverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_RentABikeOnEdge.java/[CN]/RentABikeOnEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster387 {
+"src_main_java_org_opentripplanner_standalone_OTPConfigurator.java/[CN]/OTPConfigurator/[FE]/ROUTER_CONFIG_FILENAME";
+"src_main_java_org_opentripplanner_standalone_OTPConfigurator.java/[CN]/OTPConfigurator/[MT]/builderFromParameters()/body";
+}
+subgraph cluster239 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ArrayTripPattern.java/[CN]/ArrayTripPattern/[MT]/getArrivalTime(int,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ArrayTripPattern.java/[CN]/ArrayTripPattern/[MT]/getDepartureTime(int,int)/body";
+}
+subgraph cluster473 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_reach_ReachComputerGraphBuilderImpl.java/[CN]/ReachComputerGraphBuilderImpl/[MT]/partialTreesPhase(OverlayGraph,Collection<Vertex>,TraverseOptions,boolean)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_reach_ReachComputerGraphBuilderImpl.java/[CN]/ReachComputerGraphBuilderImpl/[MT]/removeEdgeTrees(OverlayGraph,Set<Vertex>,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/calculateSpeed(RoutingRequest,TraverseMode)/body";
+}
+subgraph cluster505 {
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[FE]/startTimes";
+"src_main_java_org_opentripplanner_routing_impl_SFBayFareServiceImpl.java/[CN]/SFBayFareServiceImpl/[CS]/SFBayFareServiceImpl(Collection<FareRuleSet>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_LBGRemainingWeightHeuristic.java/[CN]/LBGRemainingWeightHeuristic/[MT]/computeInitialWeight(State,Vertex)/body";
+}
+subgraph cluster400 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/getPreviousArriveTime(RoutingRequest,int,Vertex)/body";
+}
+subgraph cluster80 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/searchWitnesses(Vertex,int,int,double,List<State>,State)/body";
+}
+subgraph cluster356 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_transit__index_RouteVariant.java/[CN]/RouteVariant/[MT]/getGeometry()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_transit__index_RouteVariant.java/[CN]/RouteVariant/[MT]/cleanup()/body";
+}
+subgraph cluster15 {
+"src_main_java_org_opentripplanner_routing_algorithm_Raptor.java/[CN]/Raptor/[MT]/finishSearch()/body";
+"src_main_java_org_opentripplanner_routing_algorithm_Raptor.java/[CN]/Raptor/[MT]/findInitialStops()/body";
+}
+subgraph cluster12 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/addNode(OSMNode)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/addWay(OSMWay)/body";
+}
+subgraph cluster367 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getTrip()/body";
+}
+subgraph cluster349 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_raptor_StopProfile.java/[CN]/StopProfile/[MT]/dominatePreviousDepartures(int,int)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_raptor_StopProfile.java/[CN]/StopProfile/[MT]/addIfNotDominated(CostsAtTime,int,int,int,double,int)/body";
+}
+subgraph cluster28 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_DefaultRemainingWeightHeuristic.java/[CN]/DefaultRemainingWeightHeuristic/[MT]/computeForwardWeight(State,Vertex)/body";
+}
+subgraph cluster485 {
+"opentripplanner-api-thrift_src_main_resources_scripts_tickle__server.py/other";
+"opentripplanner-api-thrift_src_main_resources_scripts_tickle__server.py/[MT]/Main/body";
+}
+subgraph cluster95 {
+"src_main_java_org_opentripplanner_routing_spt_GraphPath.java/[CN]/GraphPath/[CS]/GraphPath(State,boolean)/body";
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/makeLinkEdges(Vertex,StreetVertex)/body";
+}
+subgraph cluster65 {
+"otp-rest-api_src_main_java_org_opentripplanner_api_ws_analyst_SimpleIsochrone.java/[CN]/SimpleIsochrone/[MT]/geoJsonGet()/body";
+"otp-rest-api_src_main_java_org_opentripplanner_api_ws_analyst_SimpleIsochrone.java/[CN]/SimpleIsochrone/[MT]/zippedShapefileGet(boolean)/body";
+}
+subgraph cluster398 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/matchBlockFuzzy(TableTripPattern)/body";
+}
+subgraph cluster86 {
+"src_main_java_org_opentripplanner_routing_bike__rental_TimeBasedBikeRentalFareService.java/[CN]/TimeBasedBikeRentalFareService/[MT]/getCost(GraphPath)/body";
+}
+subgraph cluster262 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[MT]/setDefaultAccessPermissions(LinkedHashMap<String,StreetTraversalPermission>)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/getPermissionsForEntity(OSMWithTags)/body";
+}
+subgraph cluster402 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/package";
+"otp-core_src_main_java_org_opentripplanner_updater_GraphUpdaterManager.java/[CN]/GraphUpdaterManager/[MT]/stop()/body";
+}
+subgraph cluster312 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setNoThruTraffic(boolean)/body";
+}
+subgraph cluster413 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_MavenVersion.java/[CN]/MavenVersion/[MT]/toStringVerbose()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_MavenVersion.java/[CN]/MavenVersion/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_MavenVersion.java/[CN]/MavenVersion/[CS]/MavenVersion()/body";
+}
+subgraph cluster346 {
+"src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[MT]/getVerticesForEnvelope(Envelope)/body";
+"src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[MT]/postSetup()/body";
+}
+subgraph cluster24 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setStairs(boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/shouldSkipTraversalResult(Vertex,Vertex,State,State,ShortestPathTree,RoutingRequest)/body";
+}
+subgraph cluster357 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/makeState()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/toStringVerbose()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/isTag(String,String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_LowerBoundGraph.java/[CN]/LowerBoundGraph/[MT]/sssp(StreetLocation)/body";
+}
+subgraph cluster197 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TransitStop.java/[CN]/TransitStop/[FE]/wheelchairEntrance";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_loader_NetworkLinker.java/[CN]/NetworkLinker/[MT]/createLinkage()/body";
+}
+subgraph cluster96 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_GraphStats.java/[CN]/GraphStats/[MT]/run()/body";
+"jags_src_main_java_org_opentripplanner_jags_edgetype_loader_GTFSHopLoader.java/[CN]/GTFSHopLoader/[MT]/load(DrawHandler)/body";
+}
+subgraph cluster458 {
+"opentripplanner-datastore_app_controllers_FieldTrip.java/[CN]/FieldTrip/[MT]/getFieldTrips(Date,Integer)/body";
+"opentripplanner-datastore_app_controllers_FieldTrip.java/[CN]/FieldTrip/[MT]/deleteTrip(Long)/body";
+}
+subgraph cluster100 {
+"src_main_java_org_opentripplanner_profile_RepeatedRaptorProfileRouter.java/[CN]/RepeatedRaptorProfileRouter/[MT]/route()/body";
+}
+subgraph cluster240 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_TravelingSalesmanPathService.java/[CN]/TravelingSalesmanPathService/[FE]/tspSptService";
+}
+subgraph cluster166 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Turn.java/[CN]/Turn/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Turn.java/[CN]/Turn/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster79 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/clone()/body";
+}
+subgraph cluster72 {
+"src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/traverse(State)/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/writeStructured(int,JsonGenerator)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/handleModifiedTrip(Graph,Trip,TripUpdate,List<Stop>,String,ServiceDate)/body";
+}
+subgraph cluster496 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_GtfsBundle.java/[CN]/GtfsBundle/[MT]/getCsvInputSource()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_DownloadableGtfsInputSource.java/[CN]/DownloadableGtfsInputSource/[MT]/getPathForGtfsBundle()/body";
+}
+subgraph cluster178 {
+"opentripplanner-integration_src_main_java_org_opentripplanner_integration_benchmark_RunBenchmarkPlanMain.java/[CN]/RunBenchmarkPlanMain/[MT]/run()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/route(String,String)/body";
+}
+subgraph cluster386 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_TravelingSalesmanPathService.java/[CN]/TravelingSalesmanPathService/[FE]/graphService";
+}
+subgraph cluster354 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/getStateSet(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/getPaths(RoutingRequest)/body";
+}
+subgraph cluster180 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/timeLowerBound(RoutingRequest)/body";
+"src_main_java_org_opentripplanner_streets_StreetLayer.java/[CN]/StreetLayer/[MT]/makeEdge(OSM,Way,int,int)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGraphBuilderImpl.java/[CN]/NEDGraphBuilderImpl/[MT]/processEdge(Street)/body";
+}
+subgraph cluster87 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/getFieldValue(_Fields)/body";
+}
+subgraph cluster428 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/setFieldValue(_Fields,Object)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_Metadata.java/[CN]/Metadata/[MT]/getMetadata()/body";
+}
+subgraph cluster6 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[CS]/TargetBound(RoutingRequest)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/isStopSkipped(StopTimeUpdate)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_OnBoardDepartServiceImpl.java/[CN]/OnBoardDepartServiceImpl/[FE]/LOG";
+}
+subgraph cluster431 {
+"otp-core_src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/route(String,String)/body";
+"otp-core_src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/makePrefsPanel()/body";
+}
+subgraph cluster213 {
+"src_main_java_org_opentripplanner_analyst_ResultFeatureWithTimes.java/[CN]/ResultFeatureWithTimes/[CS]/ResultFeatureWithTimes()/body";
+"src_main_java_org_opentripplanner_analyst_ResultFeature.java/[CN]/ResultFeature/[MT]/writeJson(OutputStream)/body";
+}
+subgraph cluster19 {
+"otp-core_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/startSearch(RoutingRequest,SearchTerminationStrategy)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(RoutingRequest,double,SearchTerminationStrategy)/body";
+}
+subgraph cluster243 {
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketGTFSRealtimeUpdater.java/[CN]/WebsocketGTFSRealtimeUpdater/[CN]/Listener/[MT]/onMessage(byte[])/body";
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketGTFSRealtimeUpdater.java/[CN]/WebsocketGTFSRealtimeUpdater/[CN]/UpdateStreamer/[MT]/getFeedMessage()/body";
+}
+subgraph cluster126 {
+"src_main_java_org_opentripplanner_routing_vertextype_TransitStopStreetVertex.java/[CN]/TransitStopStreetVertex/[FE]/stopCode";
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/getVertexForOsmNode(OSMNode,OSMWithTags)/body";
+}
+subgraph cluster404 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getTripsForPattern(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster51 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/getMinLatitude()/body";
+"src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[MT]/getVertexForLocation(GenericLocation,RoutingRequest,boolean)/body";
+}
+subgraph cluster136 {
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/createParentStationTransfers()/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/createTransfersTxtTransfers()/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/getSnapshot()/body";
+}
+subgraph cluster147 {
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/setup()/body";
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[CS]/StoptimeUpdater(Graph)/body";
+}
+subgraph cluster482 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/getShortcuts(Vertex,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/countContractableEdges(OverlayGraph)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_ShowGraph.java/[CN]/ShowGraph/[MT]/draw()/body";
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[FE]/softPreTransitLimiting";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setArriveBy(boolean)/body";
+"src_main_java_org_opentripplanner_routing_spt_DominanceFunction.java/[CN]/DominanceFunction/[MT]/betterOrEqualAndComparable(State,State)/body";
+}
+subgraph cluster317 {
+"otp-core_src_main_java_org_opentripplanner_profile_Segment.java/[CN]/Segment/[CN]/SegmentPattern/[CS]/SegmentPattern(PatternRide)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetEdge.java/[CN]/StreetEdge/[MT]/canTraverse(RoutingRequest,TraverseMode)/body";
+}
+subgraph cluster368 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/loadPathways(Graph)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_DecayingDelayTripTimes.java/[CN]/DecayingDelayTripTimes/[MT]/getDepartureTime(int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_TurnVertex.java/[CN]/TurnVertex/[MT]/getElevationProfileSegment()/body";
+"src_main_java_org_opentripplanner_routing_impl_GraphScanner.java/[CN]/GraphScanner/[MT]/startup()/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetEdge.java/[CN]/StreetEdge/[MT]/doTraverse(State,RoutingRequest,TraverseMode)/body";
+}
+subgraph cluster297 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_impl_OTPServiceImpl.java/[CN]/OTPServiceImpl/[MT]/FindPaths(FindPathsRequest)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_impl_OTPServiceImpl.java/[CN]/OTPServiceImpl/[MT]/GetVertices(GraphVerticesRequest)/body";
+}
+subgraph cluster169 {
+"src_main_java_org_opentripplanner_inspector_EdgeVertexTileRenderer.java/[CN]/EdgeVertexTileRenderer/[MT]/renderTile(TileRenderContext)/body";
+"src_main_java_org_opentripplanner_inspector_TileRendererManager.java/[CN]/TileRendererManager/[MT]/renderTile(TileRequest,String)/body";
+}
+subgraph cluster133 {
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[MT]/linkIntoGraph(Population)/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[MT]/run()/body";
+}
+subgraph cluster296 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_PlanGenerator.java/[CN]/PlanGenerator/[MT]/makeLeg(Itinerary,State)/body";
+}
+subgraph cluster78 {
+"src_main_java_org_opentripplanner_profile_RoundBasedProfileRouter.java/[CN]/RoundBasedProfileRouter/[MT]/findInitialStops(boolean)/body";
+"src_main_java_org_opentripplanner_profile_RoundBasedProfileRouter.java/[CN]/RoundBasedProfileRouter/[MT]/route()/body";
+}
+subgraph cluster193 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegment/[MT]/bearing(Coordinate,Coordinate)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setRoutingContext(Graph)/body";
+}
+subgraph cluster451 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegment/[CS]/IndexedLineSegment(int,Coordinate,Coordinate)/body";
+}
+subgraph cluster446 {
+"src_main_java_org_opentripplanner_api_resource_SurfaceResource.java/[CN]/SurfaceResource/[MT]/getIndicator(Integer,String,String,boolean)/body";
+}
+subgraph cluster246 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getDistance()/body";
+"src_main_java_org_opentripplanner_routing_edgetype_TransitBoardAlight.java/[CN]/TransitBoardAlight/[MT]/timeLowerBound(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PartialPlainStreetEdge.java/[CN]/PartialPlainStreetEdge/[MT]/toString()/body";
+}
+subgraph cluster151 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/evictGraph(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_pqueue_IntBinHeap.java/[CN]/IntBinHeap/[MT]/p_extract_min()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_BidirectionalRemainingWeightHeuristic.java/[CN]/BidirectionalRemainingWeightHeuristic/[MT]/computeReverseWeight(State,Vertex)/body";
+}
+subgraph cluster55 {
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[FE]/bins";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/init()/body";
+}
+subgraph cluster486 {
+"src_main_java_org_opentripplanner_api_resource_SurfaceResource.java/[CN]/SurfaceResource/[MT]/tileGet(Integer,int,int,int)/body";
+"src_main_java_org_opentripplanner_api_resource_TileService.java/[CN]/TileService/[MT]/tileGet()/body";
+}
+subgraph cluster336 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/loadStops(Graph)/body";
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/initRightPanel(Container)/body";
+}
+subgraph cluster347 {
+"src_main_java_org_opentripplanner_standalone_OTPServer.java/[CN]/OTPServer/[CS]/OTPServer(CommandLineParameters,GraphService)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_geometry_Subgraph.java/[CN]/Subgraph/[MT]/addVertex(Vertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_ElevationUtils.java/[CN]/ElevationUtils/[FE]/walkParC";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/getShortestPath(Vertex,Vertex,long,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/getBannedAgenciesStr()/body";
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[MT]/setGeom(Geometry)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/processRestriction(OSMRelation)/body";
+}
+subgraph cluster164 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/tripTimes";
+"src_main_java_org_opentripplanner_routing_impl_LongDistancePathService.java/[CN]/LongDistancePathService/[MT]/getPaths(RoutingRequest)/body";
+}
+subgraph cluster241 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_MultiTargetTerminationStrategy.java/[CN]/MultiTargetTerminationStrategy/[MT]/shouldSearchContinue(Vertex,Vertex,State,ShortestPathTree,RoutingRequest)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/purgeExpiredData()/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/setMinLatitude(double)/body";
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getTripsForRoute(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingContext.java/[CN]/RoutingContext/[CS]/RoutingContext(TraverseOptions,Graph)/body";
+}
+subgraph cluster111 {
+"src_main_java_org_opentripplanner_streets_EdgeStore.java/[CN]/EdgeStore/[CN]/Edge/[MT]/nSegments()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_ServiceDay.java/[CN]/ServiceDay/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_reach_ReachRemainingWeightHeuristic.java/[CN]/ReachRemainingWeightHeuristic/[MT]/computeReverseWeight(State,Vertex)/body";
+}
+subgraph cluster203 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[FE]/lowerLeftLongitude";
+}
+subgraph cluster112 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_RegionBasedOpenStreetMapProviderImpl.java/[CN]/RegionBasedOpenStreetMapProviderImpl/[MT]/readOSM(OpenStreetMapContentHandler)/body";
+"opentripplanner-api-extended_src_main_java_org_opentripplanner_api_extended_ws_model_TransitServerDeparture.java/[CN]/TransitServerDeparture/[CS]/TransitServerDeparture(Route,String,Date)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OSMDownloader.java/[CN]/OSMDownloader/[MT]/setApiBaseUrl(String)/body";
+}
+subgraph cluster71 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/loadTransfers(Graph)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_util_RoutingRequestBuilder.java/[CN]/RoutingRequestBuilder/[MT]/setOrigin(Location)/body";
+}
+subgraph cluster449 {
+"src_main_java_org_opentripplanner_util_Properties.java/[CN]/Properties/[MT]/get(String,String,Locale)/body";
+"src_main_java_org_opentripplanner_util_DateUtils.java/[CN]/DateUtils/[MT]/trim(String)/body";
+}
+subgraph cluster238 {
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/applyWayProperties(PlainStreetEdge,PlainStreetEdge,WayProperties,OSMWithTags)/body";
+"src_main_java_org_opentripplanner_graph__builder_impl_shapefile_ShapefileStreetGraphBuilderImpl.java/[CN]/ShapefileStreetGraphBuilderImpl/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster307 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[CS]/PointSet(int)/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/writeJson(OutputStream,Boolean)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[MT]/interpolatedHeight(double,double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_DefaultRemainingWeightHeuristic.java/[CN]/DefaultRemainingWeightHeuristic/[MT]/computeReverseWeight(State,Vertex)/body";
+}
+subgraph cluster501 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Transfer.java/[CN]/Transfer/[CS]/Transfer(TransitStop,TransitStop,double)/body";
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[MT]/add(int)/body";
+}
+subgraph cluster104 {
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/makeBikeParkEdges(BikeParkVertex,StreetVertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_LowerBoundGraph.java/[CN]/LowerBoundGraph/[MT]/symmetricize()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_automata_NFA.java/[CN]/NFA/[FE]/acceptStates";
+}
+subgraph cluster92 {
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/toString(String)/body";
+"src_main_java_org_opentripplanner_routing_impl_DefaultFareServiceFactory.java/[CN]/DefaultFareServiceFactory/[MT]/makeFareService()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster358 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[MT]/depthFirst(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/[MT]/traverse(State)/body";
+}
+subgraph cluster313 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/tripIsBanned(Trip)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/preferencesPenaltyForTrip(Trip)/body";
+}
+subgraph cluster43 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGraphBuilderImpl.java/[CN]/NEDGraphBuilderImpl/[MT]/getPointAlongEdge(Coordinate[],double,double)/body";
+"src_main_java_org_opentripplanner_analyst_broker_BrokerMain.java/[CN]/BrokerMain/[FE]/config";
+}
+subgraph cluster3 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/getMaxLength()/body";
+}
+subgraph cluster432 {
+"src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/weHaveWalkedTooFar(RoutingRequest)/body";
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/getMaxWalkDistance()/body";
+}
+subgraph cluster374 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForTrip(String,String,String,String,long,String)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/makeTraverseOptions(long,String)/body";
+}
+subgraph cluster334 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_VertexMap.java/[CN]/VertexMap/[CS]/VertexMap()/body";
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/getState(Vertex)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/buildGraph(Graph)/body";
+}
+subgraph cluster407 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetBikeRentalLink.java/[CN]/StreetBikeRentalLink/[MT]/getDistance()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetBikeRentalLink.java/[CN]/StreetBikeRentalLink/[CS]/StreetBikeRentalLink(StreetVertex,BikeRentalStationVertex)/body";
+}
+subgraph cluster498 {
+"src_main_java_com_conveyal_gtfs_model_Entity.java/[CN]/Entity/[CN]/Loader/[MT]/getIntField(String,boolean,int,int)/body";
+"src_main_java_com_conveyal_gtfs_model_Entity.java/[CN]/Entity/[CN]/Loader/[MT]/getDoubleField(String,boolean,double,double)/body";
+}
+subgraph cluster251 {
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/findClosestStops(boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[MT]/traverse(State)/body";
+}
+subgraph cluster67 {
+"src_main_java_org_opentripplanner_visualizer_ShowGraph.java/[CN]/ShowGraph/[FE]/simpleSPT";
+"src_main_java_org_opentripplanner_visualizer_ShowGraph.java/[CN]/ShowGraph/[MT]/addNewSPTEdge(State)/body";
+}
+subgraph cluster214 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/setLabel(String,String)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_impl_OTPServiceImpl.java/[CN]/OTPServiceImpl/[MT]/FindNearestEdges(FindNearestEdgesRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_LowerBoundGraph.java/[CN]/LowerBoundGraph/[MT]/main(String[])/body";
+}
+subgraph cluster177 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[FE]/deltaLatitude";
+}
+subgraph cluster265 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getRouteData(String,String,Boolean,Boolean,String)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForStop(String,String,long,Long,Boolean,Boolean,String,String)/body";
+}
+subgraph cluster310 {
+"src_main_java_org_opentripplanner_routing_impl_InputStreamGraphSource.java/[CN]/InputStreamGraphSource/[CN]/FileFactory/[MT]/createGraphSource(String)/body";
+}
+subgraph cluster206 {
+"otp-core_src_main_java_org_opentripplanner_graph__builder_AnnotationsToHTML.java/[CN]/AnnotationsToHTML/[MT]/process(Graph,String)/body";
+}
+subgraph cluster173 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[CS]/FindNearestEdgesRequest(FindNearestEdgesRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[MT]/setTimeout(double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/arrive";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/status";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setElevationProfile(PackedCoordinateSequence)/body";
+}
+subgraph cluster113 {
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/deleteGraphId(String)/body";
+}
+subgraph cluster308 {
+"opentripplanner-utils_src_main_java_org_opentripplanner_util_DateUtils.java/[CN]/DateUtils/[MT]/parseDate(String,TimeZone)/body";
+"opentripplanner-utils_src_main_java_org_opentripplanner_util_DateUtils.java/[CN]/DateUtils/[MT]/toDate(String,String,TimeZone)/body";
+}
+subgraph cluster338 {
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VisualTraverseVisitor.java/[CN]/VisualTraverseVisitor/[MT]/visitVertex(State)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VisualTraverseVisitor.java/[CN]/VisualTraverseVisitor/[MT]/visitEnqueue(State)/body";
+}
+subgraph cluster447 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_util_RoutingRequestBuilder.java/[CN]/RoutingRequestBuilder/[MT]/addTripParameters(TripParameters)/body";
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[FE]/maxBin";
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/makeTransitLinkEdges(TransitStop,StreetVertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/isValid(Geometry,Stop,Stop)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForBoardEdge(long,long,RoutingRequest,Edge,Boolean)/body";
+}
+subgraph cluster411 {
+"src_main_java_org_opentripplanner_analyst_broker_Job.java/[CN]/Job/[MT]/markTasksDelivered(List<AnalystClusterRequest>)/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/findClosestPatterns(Multimap<StopCluster,StopAtDistance>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_StreetUtils.java/[CN]/StreetUtils/[MT]/pruneFloatingIslands(Graph,int,int,String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/preliminaryRaptorSearch(RaptorData,RoutingRequest,RoutingRequest,RaptorSearch)/body";
+}
+subgraph cluster302 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/loadAgencies(Graph)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/getAgencyIds()/body";
+}
+subgraph cluster480 {
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OSMDatabase.java/[CN]/OSMDatabase/[MT]/newArea(Area)/body";
+"src_main_java_com_conveyal_gtfs_model_FareAttribute.java/[CN]/FareAttribute/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster234 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_DefaultWayPropertySetSource.java/[CN]/DefaultWayPropertySetSource/[MT]/createNotes(WayPropertySet,String,String)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_DefaultWayPropertySetSource.java/[CN]/DefaultWayPropertySetSource/[MT]/getWayPropertySet()/body";
+}
+subgraph cluster292 {
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_request_SampleFactory.java/[CN]/SampleFactory/[CS]/SampleFactory()/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_request_SampleFactory.java/[CN]/SampleFactory/[MT]/findClosest(List<Edge>,Coordinate,double)/body";
+}
+subgraph cluster222 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_LowerBoundGraph.java/[CN]/LowerBoundGraph/[CS]/LowerBoundGraph(Graph,int)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_impl_LongDistancePathService.java/[CN]/LongDistancePathService/[CN]/Parser/[FE]/STREET";
+"src_main_java_org_opentripplanner_graph__builder_module_TransitToStreetNetworkModule.java/[CN]/TransitToStreetNetworkModule/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_WayPropertySet.java/[CN]/WayPropertySet/[CS]/WayPropertySet()/body";
+}
+subgraph cluster285 {
+"src_main_java_org_opentripplanner_routing_impl_MultiObjectivePathServiceImpl.java/[CN]/MultiObjectivePathServiceImpl/[MT]/getPaths(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(TraverseOptions,double)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetWithElevationEdge.java/[CN]/StreetWithElevationEdge/[MT]/getMaxSlope()/body";
+}
+subgraph cluster287 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[MT]/computeWeight(State,TraverseOptions,double)/body";
+}
+subgraph cluster475 {
+"src_main_java_org_opentripplanner_common_geometry_HashGridSpatialIndex.java/[CN]/HashGridSpatialIndex/[MT]/visit(Envelope,boolean,BinVisitor<T>)/body";
+}
+subgraph cluster439 {
+"otp-core_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForBoardEdge(long,long,RoutingRequest,Edge,Boolean)/body";
+"otp-core_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForAlightEdge(long,long,RoutingRequest,Edge,Boolean)/body";
+}
+subgraph cluster462 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraversalRequirements.java/[CN]/TraversalRequirements/[CS]/TraversalRequirements(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraversalRequirements.java/[CN]/TraversalRequirements/[MT]/canBeTraversed(StreetEdge)/body";
+"src_main_java_org_opentripplanner_standalone_OTPServer.java/[CN]/OTPServer/[MT]/createRouter(String,Graph)/body";
+}
+subgraph cluster36 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[FE]/graph";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[CS]/StreetVertexIndexServiceImpl(Graph)/body";
+}
+subgraph cluster299 {
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/saveGraphOverWire(String,InputStream)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CS]/LengthConstrainedPathFinder(Edge,Edge,double,double,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TinyTurnEdge.java/[CN]/TinyTurnEdge/[MT]/doTraverse(State,TraverseOptions)/body";
+}
+subgraph cluster267 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/traverse(Edge)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_GtfsRealtimeAbstractUpdateStreamer.java/[CN]/GtfsRealtimeAbstractUpdateStreamer/[MT]/getUpdateForScheduledTrip(AgencyAndId,GtfsRealtime.TripUpdate,long,ServiceDate)/body";
+}
+subgraph cluster318 {
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/determineTripScheduleRelationship(TripUpdate)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_NycFareServiceImpl.java/[CN]/NycFareServiceImpl/[MT]/getCost(GraphPath)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TransferEdge.java/[CN]/TransferEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster425 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getRoutesForStop(String)/body";
+"otp-core_src_main_java_org_opentripplanner_profile_ProfileData.java/[CN]/ProfileData/[CN]/Transfer/[MT]/toString()/body";
+}
+subgraph cluster2 {
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[MT]/display()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_ShowGraph.java/[CN]/ShowGraph/[MT]/setup()/body";
+}
+subgraph cluster384 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_automata_DFA.java/[CN]/DFA/[CS]/DFA(NFA)/body";
+"src_main_java_org_opentripplanner_routing_impl_InputStreamGraphSource.java/[CN]/InputStreamGraphSource/[MT]/loadGraph()/body";
+}
+subgraph cluster37 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_MultiTargetTerminationStrategy.java/[CN]/MultiTargetTerminationStrategy/[FE]/unreachedTargets";
+}
+subgraph cluster448 {
+"otp-core_src_main_java_org_opentripplanner_updater_bike__rental_BikeRentalUpdater.java/[CN]/BikeRentalUpdater/[MT]/setGraphUpdaterManager(GraphUpdaterManager)/body";
+"otp-core_src_main_java_org_opentripplanner_updater_bike__rental_BikeRentalUpdater.java/[CN]/BikeRentalUpdater/[MT]/setup()/body";
+}
+subgraph cluster40 {
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/link(Vertex)/body";
+"src_main_java_org_opentripplanner_api_resource_SurfaceResource.java/[CN]/SurfaceResource/[MT]/createSurface(int,String)/body";
+}
+subgraph cluster32 {
+"otp-rest-api_src_main_java_org_opentripplanner_api_common_RoutingResource.java/[CN]/RoutingResource/[FE]/startTransitTripId";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/equals(Object)/body";
+}
+subgraph cluster105 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_GenericVertex.java/[CN]/GenericVertex/[MT]/addIncoming(Edge)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_GenericVertex.java/[CN]/GenericVertex/[MT]/addOutgoing(Edge)/body";
+}
+subgraph cluster464 {
+"src_main_java_org_opentripplanner_routing_algorithm_strategies_InterleavedBidirectionalHeuristic.java/[CN]/InterleavedBidirectionalHeuristic/[MT]/doSomeWork()/body";
+"src_main_java_org_opentripplanner_routing_algorithm_strategies_InterleavedBidirectionalHeuristic.java/[CN]/InterleavedBidirectionalHeuristic/[MT]/streetSearch(RoutingRequest,boolean,long)/body";
+}
+subgraph cluster56 {
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/traceOld()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/checkGraph()/body";
+}
+subgraph cluster436 {
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[MT]/setAttributes(Map<String,Integer>)/body";
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[MT]/getProperty(String)/body";
+}
+subgraph cluster369 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TinyTurnEdge.java/[CN]/TinyTurnEdge/[MT]/getName()/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_Request.java/[CN]/Request/[MT]/addMode(TraverseMode)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_automata_NFA.java/[CN]/NFA/[FE]/startStates";
+}
+subgraph cluster419 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_ServiceDay.java/[CN]/ServiceDay/[MT]/secondsSinceMidnight(long)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_shapefile_JoinedFeatureConverter.java/[CN]/JoinedFeatureConverter/[MT]/ensureCached()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/makeTripPattern(Graph,Trip,List<StopTime>)/body";
+}
+subgraph cluster256 {
+"src_main_java_org_opentripplanner_graph__builder_AnnotationsToHTML.java/[CN]/AnnotationsToHTML/[MT]/addAnnotations(String,List<String>)/body";
+"src_main_java_org_opentripplanner_graph__builder_AnnotationsToHTML.java/[CN]/AnnotationsToHTML/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster326 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_EarliestArrivalSPTService.java/[CN]/EarliestArrivalSPTService/[MT]/getShortestPathTree(RoutingRequest,double,SearchTerminationStrategy)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_EarliestArrivalShortestPathTree.java/[CN]/EarliestArrivalShortestPathTree/[MT]/earlier(State,State)/body";
+}
+subgraph cluster295 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/addTag(String,String)/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[FE]/lastSnapshotTime";
+}
+subgraph cluster495 {
+"src_main_java_org_opentripplanner_streets_IntHashGrid.java/[CN]/IntHashGrid/[CS]/IntHashGrid(double)/body";
+"otp-core_src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[CN]/Ride/[CS]/Ride(QRide,Stop)/body";
+}
+subgraph cluster281 {
+"src_main_java_org_opentripplanner_analyst_request_IsoChroneSPTRendererAccSampling.java/[CN]/IsoChroneSPTRendererAccSampling/[MT]/getIsochrones(IsoChroneRequest,RoutingRequest)/body";
+"src_main_java_org_opentripplanner_analyst_request_IsoChroneSPTRendererRecursiveGrid.java/[CN]/IsoChroneSPTRendererRecursiveGrid/[MT]/getIsochrones(IsoChroneRequest,RoutingRequest)/body";
+}
+subgraph cluster107 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[CS]/ContractionHierarchy(Graph,TraverseOptions,double)/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/addFeature(PointFeature,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/createGeometry(Graph,Trip,List<StopTime>,List<T>)/body";
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getRoute(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_location_StreetLocation.java/[CN]/StreetLocation/extend";
+}
+subgraph cluster329 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[FE]/datum";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[MT]/setFirstPathTimeout(double)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/handleScheduledTrip(TripUpdate,String,ServiceDate)/body";
+}
+subgraph cluster35 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[CN]/FindNearestEdgesRequestTupleScheme/[MT]/read(org.apache.thrift.protocol.TProtocol,FindNearestEdgesRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_MavenVersion.java/[CN]/MavenVersion/[MT]/fromProperties()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_shapefile_ShapefileStreetGraphBuilderImpl.java/[CN]/ShapefileStreetGraphBuilderImpl/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster114 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/init()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternDwell.java/[CN]/PatternDwell/[MT]/traverse(State)/body";
+}
+subgraph cluster109 {
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/setup()/body";
+"otp-core_src_main_java_org_opentripplanner_graph__builder_AnnotationsToHTML.java/[CN]/AnnotationsToHTML/[CN]/HTMLWriter/[CS]/HTMLWriter(String)/body";
+"src_main_java_org_opentripplanner_routing_spt_GraphPath.java/[CN]/GraphPath/[MT]/dump()/body";
+}
+subgraph cluster274 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/endStop";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_OnboardDepartVertex.java/[CN]/OnboardDepartVertex/[MT]/removeTemporaryEdges()/body";
+}
+subgraph cluster316 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/optimisticTraverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/stopIndex";
+}
+subgraph cluster184 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[CN]/FindNearestEdgesRequestStandardScheme/[MT]/write(org.apache.thrift.protocol.TProtocol,FindNearestEdgesRequest)/body";
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getStop(String)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VertexList/extend";
+}
+subgraph cluster143 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/serialVersionUID";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_OnboardDepartVertex.java/package";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_TravelingSalesmanPathService.java/[CN]/TravelingSalesmanPathService/[MT]/getPaths(TraverseOptions)/body";
+}
+subgraph cluster476 {
+"src_main_java_org_opentripplanner_streets_TempVertexSet.java/[CN]/TempVertexSet/[MT]/getSize()/body";
+}
+subgraph cluster492 {
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/makeBikeRentalLinkEdges(BikeRentalStationVertex,StreetVertex)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OSMDownloader.java/[CN]/OSMDownloader/[MT]/getApiBaseUrl()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/shouldSearchContinue(Vertex,Vertex,State,ShortestPathTree,RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/registerGraph(String,boolean)/body";
+"otp-core_src_main_java_org_opentripplanner_profile_Segment.java/[CN]/Segment/[CS]/Segment(Ride)/body";
+}
+subgraph cluster58 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_AbstractVertex.java/[CN]/AbstractVertex/[MT]/addOutgoing(Edge)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_AbstractVertex.java/[CN]/AbstractVertex/[MT]/removeIncoming(Edge)/body";
+}
+subgraph cluster60 {
+"src_main_java_org_opentripplanner_profile_StreetSegment.java/[CN]/StreetSegment/[CS]/StreetSegment(StopAtDistance)/body";
+"src_main_java_org_opentripplanner_profile_StopAtDistance.java/[CN]/StopAtDistance/[CS]/StopAtDistance(State)/body";
+}
+subgraph cluster430 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/extend";
+}
+subgraph cluster103 {
+"src_main_java_org_opentripplanner_routing_impl_DefaultFareServiceImpl.java/[CN]/DefaultFareServiceImpl/[MT]/getCost(GraphPath)/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/findClosestStops(TraverseMode,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Board.java/[CN]/Board/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[MT]/canTraverse(TraverseOptions)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[CS]/VizGui(String)/body";
+}
+subgraph cluster41 {
+"src_main_java_org_opentripplanner_routing_edgetype_BikeParkEdge.java/[CN]/BikeParkEdge/[MT]/traverseUnpark(State)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_BikeParkEdge.java/[CN]/BikeParkEdge/[MT]/traversePark(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_DefaultFareServiceImpl.java/[CN]/DefaultFareServiceImpl/[MT]/getLowestCost(List<Ride>)/body";
+}
+subgraph cluster62 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/getShortestPath(Vertex,Vertex,State,TraverseOptions)/body";
+}
+subgraph cluster84 {
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[CN]/PathPrinter/[MT]/toString()/body";
+}
+subgraph cluster33 {
+"src_main_java_org_opentripplanner_routing_impl_SFBayFareServiceFactory.java/[CN]/SFBayFareServiceFactory/[MT]/makeFareService()/body";
+}
+subgraph cluster412 {
+"src_main_java_org_opentripplanner_analyst_broker_Job.java/[CN]/Job/[MT]/redeliver()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/processRelations()/body";
+}
+subgraph cluster472 {
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[FE]/preTransitPenalty";
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[FE]/preTransitOverageRate";
+}
+subgraph cluster140 {
+"src_main_java_org_opentripplanner_profile_Ride.java/[CN]/Ride/[CS]/Ride(StopCluster,Ride)/body";
+"src_main_java_org_opentripplanner_profile_Ride.java/[CN]/Ride/[MT]/calcStats(TimeWindow,double)/body";
+}
+subgraph cluster373 {
+"src_main_java_org_opentripplanner_analyst_PointFeature.java/[CN]/PointFeature/[MT]/fromJsonNode(JsonNode)/body";
+}
+subgraph cluster232 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_OnboardDepartVertex.java/[CN]/OnboardDepartVertex/[FE]/serialVersionUID";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/matchBlockSimple(TableTripPattern)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/addTag(OSMTag)/body";
+"opentripplanner-datastore_app_controllers_Calltaker.java/[CN]/Calltaker/[MT]/getQuery(Call,Integer)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_StopsAlerts.java/[CN]/StopsAlerts/[FE]/LOG";
+}
+subgraph cluster377 {
+"src_main_java_org_opentripplanner_updater_bike__park_BikeParkUpdater.java/[CN]/BikeParkUpdater/[CN]/BikeParkGraphWriterRunnable/[MT]/run(Graph)/body";
+"src_main_java_org_opentripplanner_updater_bike__park_BikeParkUpdater.java/[CN]/BikeParkUpdater/[MT]/setup()/body";
+}
+subgraph cluster491 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_analyst_IsoChrone.java/[CN]/IsoChrone/[MT]/treatAndAddUshapeWithinTimeLimits(long,double,ArrayList<LineString>,Edge,long,long,LineString,boolean)/body";
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OSMDatabase.java/[CN]/OSMDatabase/[MT]/addNode(OSMNode)/body";
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OSMDatabase.java/[CN]/OSMDatabase/[MT]/addWay(OSMWay)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster440 {
+"src_main_java_org_opentripplanner_util_TranslatedString.java/[CN]/TranslatedString/[MT]/toString()/body";
+"src_main_java_org_opentripplanner_util_TranslatedString.java/[CN]/TranslatedString/[MT]/toString(Locale)/body";
+}
+subgraph cluster321 {
+"otp-core_src_main_java_org_opentripplanner_routing_impl_PatchServiceImpl.java/[CN]/PatchServiceImpl/[MT]/apply(Patch)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_impl_PatchServiceImpl.java/[CN]/PatchServiceImpl/[MT]/expire(Patch)/body";
+}
+subgraph cluster49 {
+"src_main_java_org_opentripplanner_common_geometry_HashGridSpatialIndex.java/[CN]/HashGridSpatialIndex/[MT]/insert(Envelope,Object)/body";
+}
+subgraph cluster97 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Board.java/[CN]/Board/[MT]/traverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Alight.java/[CN]/Alight/[MT]/traverse(State)/body";
+}
+subgraph cluster175 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_TableRemainingWeightHeuristic.java/[CN]/TableRemainingWeightHeuristic/[MT]/computeForwardWeight(State,Vertex)/body";
+}
+subgraph cluster424 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[FE]/LOG";
+}
+subgraph cluster327 {
+"src_main_java_org_opentripplanner_routing_util_SlopeCosts.java/[CN]/SlopeCosts/[CS]/SlopeCosts(double,double,double,double,double,boolean)/body";
+"src_main_java_org_opentripplanner_routing_util_ElevationUtils.java/[CN]/ElevationUtils/[MT]/getSlopeCosts(CoordinateSequence,boolean)/body";
+}
+subgraph cluster315 {
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/getRouterInfo(String)/body";
+}
+subgraph cluster289 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/setRoutingContext(Graph)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingContext.java/[CN]/RoutingContext/[CS]/RoutingContext(RoutingRequest,Graph,Vertex,Vertex,boolean)/body";
+}
+subgraph cluster165 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Transfer.java/[CN]/Transfer/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_LowerBoundGraph.java/[CN]/LowerBoundGraph/[MT]/sssp(Iterable<Vertex>)/body";
+}
+subgraph cluster423 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/incrementWeight(double)/body";
+"src_main_java_org_opentripplanner_standalone_OTPConfigurator.java/[CN]/OTPConfigurator/[MT]/makeGraphService(Graph)/body";
+}
+subgraph cluster306 {
+"src_main_java_org_opentripplanner_analyst_broker_JobStatus.java/[CN]/JobStatus/[CS]/JobStatus(Job)/body";
+"otp-core_src_main_java_org_opentripplanner_updater_GraphUpdaterManager.java/[CN]/GraphUpdaterManager/[MT]/size()/body";
+}
+subgraph cluster277 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/save(File)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_ThreadedBidirectionalHeuristic.java/[CN]/ThreadedBidirectionalHeuristic/[CN]/Worker/[MT]/run()/body";
+}
+subgraph cluster291 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/clear()/body";
+}
+subgraph cluster77 {
+"src_main_java_org_opentripplanner_standalone_OTPApplication.java/[CN]/OTPApplication/[MT]/getProperties()/body";
+"src_main_java_org_opentripplanner_standalone_OTPApplication.java/[CN]/OTPApplication/[MT]/getClasses()/body";
+}
+subgraph cluster195 {
+"otp-core_src_main_java_org_opentripplanner_common_geometry_SparseMatrixZSampleGrid.java/[CN]/SparseMatrixZSampleGrid/[CS]/SparseMatrixZSampleGrid(int,int,double,double,Coordinate)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[CN]/State/[MT]/isCandidate()/body";
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/deliver(Job,Response)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesResponse.java/[CN]/FindNearestEdgesResponse/[MT]/validate()/body";
+}
+subgraph cluster4 {
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_GraphGeographicFilter.java/[CN]/GraphGeographicFilter/[MT]/filter(Individual)/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_GraphGeographicFilter.java/[CN]/GraphGeographicFilter/[MT]/findHull()/body";
+}
+subgraph cluster228 {
+"src_main_java_org_opentripplanner_updater_bike__rental_BikeRentalUpdater.java/[CN]/BikeRentalUpdater/[MT]/setup()/body";
+"src_main_java_org_opentripplanner_updater_bike__rental_BikeRentalUpdater.java/[CN]/BikeRentalUpdater/[CN]/BikeRentalGraphWriterRunnable/[MT]/run(Graph)/body";
+}
+subgraph cluster75 {
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/buildGraph(HashMap<Class<?>,Object>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[FE]/graphService";
+"src_main_java_org_opentripplanner_api_resource_LIsochrone.java/[CN]/LIsochrone/[MT]/computeIsochrone()/body";
+}
+subgraph cluster328 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_SimplifiedPathServiceImpl.java/[CN]/SimplifiedPathServiceImpl/[CN]/Parser/[MT]/terminalFor(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_SimplifiedPathServiceImpl.java/[CN]/SimplifiedPathServiceImpl/[MT]/getPaths(RoutingRequest)/body";
+}
+subgraph cluster13 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_model_WalkStep.java/[CN]/WalkStep/[MT]/toString()/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_Planner.java/[CN]/Planner/[MT]/getWalkSteps(List<SPTEdge>)/body";
+}
+subgraph cluster293 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/isRoundabout()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/makeFrequencyPattern(Graph,Trip,List<StopTime>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TransitBoardAlight.java/[CN]/TransitBoardAlight/[MT]/traverse(State,long)/body";
+}
+subgraph cluster438 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setDateTime(String,String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setDateTime(Date)/body";
+}
+subgraph cluster134 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getStopsForTrip(String)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster471 {
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/enqueuePriorityTask(AnalystClusterRequest,Response)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingContext.java/[CN]/RoutingContext/[FE]/intermediateVertices";
+"src_main_java_org_opentripplanner_routing_impl_InputStreamGraphSource.java/[CN]/InputStreamGraphSource/[MT]/evict()/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[CN]/Structured/[CS]/Structured(Structured)/body";
+}
+subgraph cluster210 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GraphLibrary.java/[CN]/GraphLibrary/[MT]/getOutgoingEdges(Graph,Vertex,Map<Vertex,List<Edge>>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GraphLibrary.java/[CN]/GraphLibrary/[MT]/getIncomingEdges(Graph,Vertex,Map<Vertex,List<Edge>>)/body";
+}
+subgraph cluster465 {
+"src_main_java_org_opentripplanner_profile_StreetSegment.java/[CN]/StreetSegment/[FE]/mode";
+}
+subgraph cluster300 {
+"otp-core_src_main_java_org_opentripplanner_common_geometry_AccSamplingGridIsolineBuilder.java/[CN]/AccSamplingGridIsolineBuilder/[MT]/addSample(Coordinate,double)/body";
+}
+subgraph cluster57 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/initPriorityQueue(OverlayGraph)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_impl_LongDistancePathService.java/[CN]/LongDistancePathService/[CN]/Parser/[FE]/TRANSFER";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TripPattern.java/[CN]/TripPattern/[MT]/removeHop(int,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/getExtent()/body";
+}
+subgraph cluster158 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[FE]/lowerLeftLatitude";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_ContractionPathServiceImpl.java/[CN]/ContractionPathServiceImpl/[MT]/plan(String,String,Date,TraverseOptions,int)/body";
+}
+subgraph cluster31 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_automata_NFA.java/[CN]/NFA/[CS]/NFA(Nonterminal,boolean)/body";
+}
+subgraph cluster139 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/addVertex(Vertex)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/getMinLongitude()/body";
+}
+subgraph cluster375 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/isToll()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/routerIdLegal(String)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_Request.java/[CN]/Request/[MT]/removeMode(TraverseMode)/body";
+}
+subgraph cluster263 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getGeometry()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_TripOvertakingException.java/[CN]/TripOvertakingException/[FE]/overtaken";
+"src_main_java_org_opentripplanner_profile_RaptorWorker.java/[CN]/RaptorWorker/[MT]/doPropagation(int[],int[],int)/body";
+}
+subgraph cluster29 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/getFeature(int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdatedTripTimes.java/[CN]/UpdatedTripTimes/[MT]/getArrivalTime(int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TripPattern.java/[CN]/TripPattern/[MT]/getPreviousPattern(int,int,boolean)/body";
+}
+subgraph cluster20 {
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/hashCode()/body";
+"src_main_java_org_opentripplanner_analyst_DiskBackedPointSetCache.java/[CN]/DiskBackedPointSetCache/[CS]/DiskBackedPointSetCache(Integer,File,GraphService)/body";
+}
+subgraph cluster352 {
+"src_main_java_org_opentripplanner_routing_core_RoutingContext.java/[CN]/RoutingContext/[CS]/RoutingContext(RoutingRequest,Graph,Vertex,Vertex,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setBannedRoutes(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setPreferredRoutes(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/setUnpreferredRoutes(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorRoute.java/[CN]/RaptorRoute/[MT]/getTripIndex(RoutingRequest,int,int)/body";
+}
+subgraph cluster332 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_DefaultFareServiceImpl.java/[CN]/DefaultFareServiceImpl/[MT]/getCost(GraphPath)/body";
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[CS]/SimpleStreetSplitter(Graph)/body";
+}
+subgraph cluster121 {
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/equals(Object)/body";
+"src_main_java_org_opentripplanner_routing_graph_GraphIndex.java/[CN]/GraphIndex/[MT]/stopTimesForStop(Stop)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_TransferGraphLinker.java/[CN]/TransferGraphLinker/[MT]/run()/body";
+}
+subgraph cluster237 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TinyTurnEdge.java/[CN]/TinyTurnEdge/[FE]/replaces";
+}
+subgraph cluster132 {
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/processBikeParkAndRideNodes()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_PruneFloatingIslands.java/[CN]/PruneFloatingIslands/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_pqueue_IntBinHeap.java/[CN]/IntBinHeap/[MT]/p_peek_min()/body";
+}
+subgraph cluster129 {
+"src_main_java_org_opentripplanner_transit_TransitRouter.java/[CN]/TransitRouter/[MT]/route()/body";
+"src_main_java_org_opentripplanner_transit_TripPattern.java/[CN]/TripPattern/[MT]/findNextDeparture(int,int)/body";
+}
+subgraph cluster348 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[MT]/traverse(State,TraverseOptions)/body";
+}
+subgraph cluster61 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/depart";
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/deletePriorityTask(int)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_shapefile_CaseBasedBicycleSafetyFeatureConverter.java/[CN]/CaseBasedBicycleSafetyFeatureConverter/[MT]/convert(SimpleFeature)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ScheduledStopPattern.java/[CN]/ScheduledStopPattern/[MT]/fromTrip(Trip,List<StopTime>)/body";
+}
+subgraph cluster255 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_ServiceDay.java/[CN]/ServiceDay/[MT]/time(int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PreBoardEdge.java/[CN]/PreBoardEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster427 {
+"src_main_java_org_opentripplanner_routing_trippattern_TripTimes.java/[CN]/TripTimes/[MT]/cancel()/body";
+"src_main_java_org_opentripplanner_routing_trippattern_TripTimes.java/[CN]/TripTimes/[MT]/isCanceled()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_ShowGraph.java/[CN]/ShowGraph/[MT]/handleNewHighlights()/body";
+}
+subgraph cluster410 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdatedTripTimes.java/[CN]/UpdatedTripTimes/[MT]/getDepartureTime(int)/body";
+}
+subgraph cluster343 {
+"src_main_java_org_opentripplanner_routing_core_TraverseModeSet.java/[CN]/TraverseModeSet/[MT]/getMaskForMode(TraverseMode)/body";
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/route(String,String)/body";
+}
+subgraph cluster216 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesResponse.java/[CN]/FindNearestEdgesResponse/[CN]/FindNearestEdgesResponseTupleScheme/[MT]/write(org.apache.thrift.protocol.TProtocol,FindNearestEdgesResponse)/body";
+"src_main_java_org_opentripplanner_routing_pathparser_InitialStopSearchPathParser.java/[CN]/InitialStopSearchPathParser/[FE]/OTHER";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/route()/body";
+"src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/run(Graph)/body";
+}
+subgraph cluster391 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_TransitToStreetNetworkGraphBuilderImpl.java/[CN]/TransitToStreetNetworkGraphBuilderImpl/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[MT]/buildGraph(Graph,HashMap<Class<?>,Object>)/body";
+}
+subgraph cluster218 {
+"src_main_java_org_opentripplanner_api_resource_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generate(RoutingRequest)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForAlightEdge(long,long,RoutingRequest,Edge,Boolean)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_TransitIndex.java/[CN]/TransitIndex/[MT]/getStopTimesForTrip(String,String,String,String,long,Boolean,String)/body";
+}
+subgraph cluster309 {
+"src_main_java_org_opentripplanner_api_resource_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generateLastTrip(RoutingRequest)/body";
+"src_main_java_org_opentripplanner_api_resource_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generateFirstTrip(RoutingRequest)/body";
+}
+subgraph cluster187 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_TripTimes.java/[CN]/TripTimes/[MT]/clone()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_TripTimes.java/[CN]/TripTimes/[MT]/dumpTimes()/body";
+}
+subgraph cluster199 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[MT]/findBounds()/body";
+}
+subgraph cluster106 {
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[MT]/getSnapshot(boolean)/body";
+}
+subgraph cluster21 {
+"src_main_java_org_opentripplanner_common_geometry_DlugoszVarLenIntPacker.java/package";
+"src_main_java_org_opentripplanner_common_geometry_DlugoszVarLenIntPacker.java/[CN]/DlugoszVarLenIntPacker/[MT]/unpack(byte[])/body";
+}
+subgraph cluster351 {
+"otp-core_src_main_java_org_opentripplanner_routing_vertextype_PatternArriveVertex.java/[CN]/PatternArriveVertex/[MT]/makeLabel(TableTripPattern,int)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_vertextype_PatternDepartVertex.java/[CN]/PatternDepartVertex/[MT]/makeLabel(TableTripPattern,int)/body";
+}
+subgraph cluster153 {
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/makeSurfaces()/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[CN]/StopFinderTraverseVisitor/[MT]/visitVertex(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/stopSeq";
+}
+subgraph cluster380 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGridCoverageFactoryImpl.java/[CN]/NEDGridCoverageFactoryImpl/[FE]/datums";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/findAnnotation()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/deleteUselessDwells(Graph)/body";
+}
+subgraph cluster469 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_UpdateBlock.java/[CN]/UpdateBlock/[MT]/splitByTrip(List<Update>)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setElevationProfile(PackedCoordinateSequence,boolean)/body";
+}
+subgraph cluster283 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/isSet(_Fields)/body";
+"src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/isFinal()/body";
+}
+subgraph cluster17 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Timetable.java/[CN]/Timetable/[MT]/getNextTrip(int,int,State,ServiceDay,boolean,boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_TripTimes.java/[CN]/TripTimes/[MT]/tripAcceptable(State,Stop,ServiceDay,boolean,int,boolean)/body";
+}
+subgraph cluster393 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/setTripId(AgencyAndId)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/[CS]/PatternAlight(Vertex,Vertex,TripPattern,int,TraverseMode)/body";
+"src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[MT]/getPaths(RoutingRequest)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_StreetTransitLink.java/[CN]/StreetTransitLink/[MT]/traverse(State)/body";
+}
+subgraph cluster278 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/isTagFalse(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_FrequencyAlight.java/[CN]/FrequencyAlight/[MT]/traverse(State)/body";
+}
+subgraph cluster422 {
+"src_main_java_org_opentripplanner_api_resource_Routers.java/[CN]/Routers/[MT]/getRouterIds()/body";
+}
+subgraph cluster219 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getStoptimesForTrip(String)/body";
+"src_main_java_org_opentripplanner_common_geometry_HashGridSpatialIndex.java/[CN]/HashGridSpatialIndex/[MT]/remove(Envelope,Object)/body";
+"src_main_java_org_opentripplanner_streets_TempVertexSet.java/[CN]/TempVertexSet/[MT]/buildStopTrees()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[FE]/bicycleSafetyEffectiveLength";
+}
+subgraph cluster230 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_analyst_IsoChrone.java/[CN]/IsoChrone/[MT]/testForUshape(Edge,long,long,long,double,double,double,boolean,boolean)/body";
+}
+subgraph cluster437 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegment/[MT]/fraction(Coordinate)/body";
+}
+subgraph cluster211 {
+"src_main_java_org_opentripplanner_updater_stoptime_TripUpdateGraphWriterRunnable.java/[CN]/TripUpdateGraphWriterRunnable/[MT]/run(Graph)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_WebsocketGtfsRealtimeUpdater.java/[CN]/WebsocketGtfsRealtimeUpdater/[CN]/Listener/[MT]/onMessage(byte[])/body";
+}
+subgraph cluster68 {
+"src_main_java_org_opentripplanner_routing_edgetype_RentABikeAbstractEdge.java/[CN]/RentABikeAbstractEdge/[MT]/traverseDropoff(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/load(ObjectInputStream,LoadLevel)/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[MT]/findStreetOption(TraverseMode)/body";
+"jags_src_main_java_org_opentripplanner_jags_gui_HelloP5.java/[CN]/HelloP5/[MT]/mousePressed()/body";
+}
+subgraph cluster282 {
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_stoptime_StoptimeUpdater.java/[CN]/StoptimeUpdater/[FE]/lastPurgeDate";
+"otp-core_src_main_java_org_opentripplanner_routing_impl_LongDistancePathService.java/[CN]/LongDistancePathService/[CN]/Parser/[FE]/ONBOARD";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGridCoverageFactoryImpl.java/[CN]/NEDGridCoverageFactoryImpl/[CS]/NEDGridCoverageFactoryImpl()/body";
+"src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/optimizeOrReverse(boolean,boolean)/body";
+}
+subgraph cluster259 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesResponse.java/[CN]/FindNearestEdgesResponse/[CN]/FindNearestEdgesResponseTupleScheme/[MT]/read(org.apache.thrift.protocol.TProtocol,FindNearestEdgesResponse)/body";
+}
+subgraph cluster66 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getStopIndex()/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesResponse.java/[CN]/FindNearestEdgesResponse/[FE]/optionals";
+}
+subgraph cluster182 {
+"src_main_java_org_opentripplanner_analyst_request_SampleGridRenderer.java/[CN]/SampleGridRenderer/[MT]/sampleSPT(ShortestPathTree,ZSampleGrid<WTWD>,double,double,double,double,int,double)/body";
+"src_main_java_org_opentripplanner_analyst_request_SampleGridRenderer.java/[CN]/SampleGridRenderer/[CN]/WTWDAccumulativeMetric/[MT]/cumulateSample(Coordinate,Coordinate,WTWD,WTWD,double)/body";
+}
+subgraph cluster372 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetVertex.java/[CN]/StreetVertex/[MT]/computeWeight(State,TraverseOptions,double)/body";
+}
+subgraph cluster248 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/getMode()/body";
+"src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/getEdgeForStreet(IntersectionVertex,IntersectionVertex,OSMWay,int,long,long,double,StreetTraversalPermission,LineString,boolean)/body";
+}
+subgraph cluster330 {
+"jags_src_main_java_org_opentripplanner_jags_gui_HelloP5.java/[CN]/HelloP5/[CN]/LoadDrawHandler/[MT]/handle(Drawable)/body";
+}
+subgraph cluster73 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/rebuildPriorityQueue(int,HashMap<Vertex,Integer>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/removeNonoptimalEdges(int)/body";
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/getAllStates()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PreBoardEdge.java/[CN]/PreBoardEdge/[MT]/traverse(State,TraverseOptions)/body";
+}
+subgraph cluster124 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/reloadGraphs(boolean)/body";
+}
+subgraph cluster168 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TurnEdge.java/[CN]/TurnEdge/[MT]/canTraverse(TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TurnEdge.java/[CN]/TurnEdge/[MT]/doTraverse(State,TraverseOptions)/body";
+}
+subgraph cluster463 {
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/getPaths(Vertex,boolean)/body";
+}
+subgraph cluster142 {
+"otp-core_src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[CN]/PatternRide/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_MultiShortestPathTree.java/[CN]/MultiShortestPathTree/[MT]/addVertex(Vertex,State,double,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_OnBoardDepartServiceImpl.java/[CN]/OnBoardDepartServiceImpl/[FE]/serialVersionUID";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_automata_NFA.java/[CN]/NFA/[MT]/findStates()/body";
+}
+subgraph cluster261 {
+"src_main_java_org_opentripplanner_servlet_ReflectiveQueryScraper.java/[CN]/ReflectiveQueryScraper/[CN]/Target/[MT]/apply(Map<String,String>,Object)/body";
+"src_main_java_org_opentripplanner_servlet_ReflectiveQueryScraper.java/[CN]/ReflectiveQueryScraper/[CS]/ReflectiveQueryScraper(Class<T>)/body";
+}
+subgraph cluster172 {
+"src_main_java_org_opentripplanner_routing_graph_GraphIndex.java/[CN]/GraphIndex/[MT]/findNearbyStopClusters(StopCluster,double)/body";
+"src_main_java_org_opentripplanner_routing_graph_GraphIndex.java/[CN]/GraphIndex/[FE]/stopClusterSpatialIndex";
+}
+subgraph cluster27 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_loader_NetworkLinkerLibrary.java/[CN]/NetworkLinkerLibrary/[MT]/replace(Collection<StreetEdge>)/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[MT]/projectRunTime(int,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_loader_NetworkLinkerLibrary.java/[CN]/NetworkLinkerLibrary/[MT]/getSplitterVertices(String,Collection<StreetEdge>,Coordinate)/body";
+}
+subgraph cluster115 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getRoutes(List<String>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TinyTurnEdge.java/[CN]/TinyTurnEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster152 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/getPreferredAgenciesStr()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/getUnpreferredAgenciesStr()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/TripPatternListModel/extend";
+}
+subgraph cluster290 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/equals(Object)/body";
+"src_main_java_org_opentripplanner_routing_algorithm_PathDiscardingRaptorStateStore.java/[CN]/PathDiscardingRaptorStateStore/[MT]/put(TransitStop,int,boolean)/body";
+}
+subgraph cluster186 {
+"src_main_java_org_opentripplanner_profile_ProfileTransfer.java/[CN]/ProfileTransfer/[MT]/toString()/body";
+"src_main_java_org_opentripplanner_routing_graph_GraphIndex.java/[CN]/GraphIndex/[CS]/GraphIndex(Graph)/body";
+}
+subgraph cluster406 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[FE]/sptService";
+}
+subgraph cluster226 {
+"src_main_java_org_opentripplanner_routing_bike__rental_TimeBasedBikeRentalFareServiceFactory.java/[CN]/TimeBasedBikeRentalFareServiceFactory/[MT]/configure(JsonNode)/body";
+}
+subgraph cluster236 {
+"src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[FE]/bindAddress";
+"src_main_java_org_opentripplanner_standalone_CommandLineParameters.java/[CN]/CommandLineParameters/[FE]/securePort";
+}
+subgraph cluster493 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OutEdge.java/[CN]/OutEdge/[MT]/getElevationProfileSegment()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_shapefile_JoinedFeatureConverter.java/[CN]/JoinedFeatureConverter/[MT]/toHashableString(Object)/body";
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/redeliver()/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/applyTripUpdates(Graph,boolean,List<TripUpdate>,String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/setPath(String)/body";
+}
+subgraph cluster90 {
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[MT]/buildRequest(double,double)/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[FE]/sptService";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_batch_BatchProcessor.java/[CN]/BatchProcessor/[FE]/graphService";
+}
+subgraph cluster14 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/hasBogusName()/body";
+"openstreetmap_src_main_java_org_opentripplanner_openstreetmap_impl_BinaryOpenStreetMapParser.java/[CN]/BinaryOpenStreetMapParser/[MT]/parseWays(List<Osmformat.Way>)/body";
+}
+subgraph cluster34 {
+"src_main_java_org_opentripplanner_routing_trippattern_FrequencyEntry.java/[CN]/FrequencyEntry/[MT]/prevArrivalTime(int,int)/body";
+"src_main_java_org_opentripplanner_routing_trippattern_FrequencyEntry.java/[CN]/FrequencyEntry/[MT]/nextDepartureTime(int,int)/body";
+}
+subgraph cluster481 {
+"src_main_java_org_opentripplanner_routing_alertpatch_AlertPatch.java/[CN]/AlertPatch/[MT]/hashCode()/body";
+"opentripplanner-datastore_app_controllers_Calltaker.java/[CN]/Calltaker/[MT]/newCall(Call)/body";
+}
+subgraph cluster209 {
+"src_main_java_com_conveyal_gtfs_model_Trip.java/[CN]/Trip/[CN]/Loader/[MT]/loadOneRow()/body";
+"src_main_java_com_conveyal_gtfs_model_Shape.java/[CN]/Shape/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster46 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_vertextype_OnboardDepartVertex.java/[CN]/OnboardDepartVertex/extend";
+}
+subgraph cluster509 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/positionInHop";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_DefaultRemainingWeightHeuristic.java/[CN]/DefaultRemainingWeightHeuristic/[MT]/getMaxSpeed(RoutingRequest)/body";
+"opentripplanner-datastore_app_controllers_Calltaker.java/[CN]/Calltaker/[MT]/deleteQuery(Long)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setRoundabout(boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/doTraverse(State,RoutingRequest,TraverseMode)/body";
+}
+subgraph cluster205 {
+"src_main_java_org_opentripplanner_routing_vertextype_SampleVertex.java/[CN]/SampleVertex/[MT]/addIncoming(Edge)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_SampleEdge.java/[CN]/SampleEdge/[MT]/dispose()/body";
+}
+subgraph cluster47 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_SimplifiedLowerBoundGraph.java/[CN]/SimplifiedLowerBoundGraph/[MT]/sssp(StreetLocation,RoutingRequest)/body";
+}
+subgraph cluster22 {
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_FrequencyAlight.java/[CN]/FrequencyAlight/[MT]/traverse(State)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_edgetype_FrequencyBoard.java/[CN]/FrequencyBoard/[MT]/traverse(State)/body";
+}
+subgraph cluster433 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_SearchResource.java/[CN]/SearchResource/[FE]/MAX_TRANSFERS";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_SearchResource.java/[CN]/SearchResource/[MT]/buildRequestFromQueryParamFields()/body";
+}
+subgraph cluster382 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[CN]/AttributeData/[FE]/category";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[CN]/AttributeData/[FE]/attribute";
+}
+subgraph cluster45 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Alight.java/[CN]/Alight/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-datastore_app_controllers_Calltaker.java/[CN]/Calltaker/[MT]/index()/body";
+"src_main_java_org_opentripplanner_routing_services_GraphService.java/[CN]/GraphService/[MT]/registerGraph(String,GraphSource)/body";
+"src_main_java_org_opentripplanner_routing_impl_OnBoardDepartServiceImpl.java/[CN]/OnBoardDepartServiceImpl/[MT]/setupDepartOnBoard(RoutingContext)/body";
+}
+subgraph cluster320 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_TargetBound.java/[CN]/TargetBound/[MT]/reset(RoutingRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[MT]/compareTo(Update)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_Update.java/[CN]/Update/[FE]/tripId";
+}
+subgraph cluster275 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/makeTripPattern(Graph,Trip,List<StopTime>,FareContext)/body";
+"jags_src_main_java_org_opentripplanner_jags_gui_HelloP5.java/[CN]/HelloP5/[MT]/keyPressed()/body";
+"src_main_java_org_opentripplanner_profile_RaptorWorker.java/[CN]/RaptorWorker/[MT]/doOneRound(int[],int[],int[],boolean)/body";
+"src_main_java_org_opentripplanner_profile_RaptorWorkerTimetable.java/[CN]/RaptorWorkerTimetable/[MT]/getFrequencyDeparture(int,int,int,int,FrequencyRandomOffsets)/body";
+}
+subgraph cluster284 {
+"src_main_java_org_opentripplanner_updater_bike__park_KmlBikeParkDataSource.java/[CN]/KmlBikeParkDataSource/[MT]/configure(Graph,Preferences)/body";
+"src_main_java_org_opentripplanner_updater_bike__park_KmlBikeParkDataSource.java/[CN]/KmlBikeParkDataSource/[CS]/KmlBikeParkDataSource()/body";
+}
+subgraph cluster149 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGridCoverageFactoryImpl.java/[CN]/NEDGridCoverageFactoryImpl/[MT]/getGridCoverage()/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[MT]/compareTo(FindNearestEdgesRequest)/body";
+}
+subgraph cluster122 {
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_request_SampleFactory.java/[CN]/SampleFactory/[MT]/getSample(double,double)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_impl_LongDistancePathService.java/[CN]/LongDistancePathService/[CN]/Parser/[FE]/STATION";
+}
+subgraph cluster450 {
+"src_main_java_org_opentripplanner_analyst_scenario_SkipStop.java/[CN]/SkipStop/[MT]/apply(TripPattern)/body";
+"src_main_java_org_opentripplanner_analyst_scenario_SkipStop.java/[CN]/SkipStop/[MT]/omitStops(TripTimes,int)/body";
+"src_main_java_org_opentripplanner_profile_Stats.java/[CN]/Stats/[MT]/create(TripPattern,int,int,TimeWindow)/body";
+}
+subgraph cluster304 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_UnifiedGridCoverage.java/[CN]/UnifiedGridCoverage/[FE]/datums";
+"src_main_java_org_opentripplanner_streets_Split.java/[CN]/Split/[MT]/setFrom(Split)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_GraphPath.java/[CN]/GraphPath/[MT]/optimize()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_AStar.java/[CN]/AStar/[MT]/getShortestPathTreeBack(Graph,Vertex,Vertex,State,TraverseOptions)/body";
+"jags_src_main_java_org_opentripplanner_jags_gui_HelloP5.java/[CN]/HelloP5/[MT]/draw()/body";
+}
+subgraph cluster394 {
+"src_main_java_org_opentripplanner_routing_impl_ParetoPathService.java/[CN]/ParetoPathService/[MT]/getPaths(RoutingRequest)/body";
+}
+subgraph cluster390 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_patch_AbstractPatch.java/[CN]/AbstractPatch/[MT]/equals(Object)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_patch_AlertPatch.java/[CN]/AlertPatch/[MT]/equals(Object)/body";
+}
+subgraph cluster511 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/reversedClone()/body";
+}
+subgraph cluster48 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/hasTag(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_geometry_Subgraph.java/[CN]/Subgraph/[CS]/Subgraph()/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_NEDGraphBuilderImpl.java/[CN]/NEDGraphBuilderImpl/[MT]/getElevation(double,double)/body";
+}
+subgraph cluster70 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_DecayingDelayTripTimes.java/[CN]/DecayingDelayTripTimes/[MT]/decayedDelay(int)/body";
+}
+subgraph cluster474 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setGeometry(LineString)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/getGeometry()/body";
+}
+subgraph cluster288 {
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/getMaxLatitude()/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/validateAndHandleModifiedTrip(Graph,TripUpdate,String,ServiceDate)/body";
+}
+subgraph cluster376 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateData.java/[CN]/StateData/[FE]/routeSequence";
+"src_main_java_org_opentripplanner_streets_VertexStore.java/[CN]/VertexStore/[MT]/addVertex(double,double)/body";
+"src_main_java_org_opentripplanner_profile_RepeatedRaptorProfileRouter.java/[CN]/RepeatedRaptorProfileRouter/[FE]/mins";
+}
+subgraph cluster81 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/setGeometry(LineString)/body";
+"src_main_java_org_opentripplanner_routing_pathparser_InitialStopSearchPathParser.java/[CN]/InitialStopSearchPathParser/[FE]/STREET";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/isTagTrue(String)/body";
+}
+subgraph cluster355 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[MT]/hashCode()/body";
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/visit(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/GTFSPatternHopFactory/[MT]/run(Graph)/body";
+}
+subgraph cluster94 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_MultiTargetTerminationStrategy.java/[CN]/MultiTargetTerminationStrategy/[CS]/MultiTargetTerminationStrategy(Set<Vertex>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorHopEdge.java/[CN]/ElevatorHopEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster503 {
+"src_main_java_org_opentripplanner_graph__builder_module_osm_OpenStreetMapModule.java/[CN]/OpenStreetMapModule/[CN]/Handler/[MT]/processBikeRentalNodes()/body";
+"src_main_java_org_opentripplanner_graph__builder_module_osm_OpenStreetMapModule.java/[CN]/OpenStreetMapModule/[CN]/Handler/[MT]/processBikeParkAndRideNodes()/body";
+}
+subgraph cluster7 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_RentABikeAbstractEdge.java/[CN]/RentABikeAbstractEdge/[MT]/traverseRent(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_RentABikeAbstractEdge.java/[CN]/RentABikeAbstractEdge/[MT]/traverseDropoff(State)/body";
+"src_main_java_org_opentripplanner_routing_graph_GraphIndex.java/[CN]/GraphIndex/[MT]/initializeProfileTransfers()/body";
+}
+subgraph cluster408 {
+"src_main_java_org_opentripplanner_streets_StreetLayer.java/[CN]/StreetLayer/[MT]/linkNearestIntersection(int,double,double,double)/body";
+"src_main_java_org_opentripplanner_streets_StreetLayer.java/[CN]/StreetLayer/[MT]/main(String[])/body";
+}
+subgraph cluster301 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorBoardEdge.java/[CN]/ElevatorBoardEdge/[MT]/traverse(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_ElevatorAlightEdge.java/[CN]/ElevatorAlightEdge/[MT]/traverse(State)/body";
+}
+subgraph cluster260 {
+"src_main_java_org_opentripplanner_analyst_request_SampleGridRenderer.java/[CN]/SampleGridRenderer/[MT]/getSampleGrid(SampleGridRequest,RoutingRequest)/body";
+}
+subgraph cluster192 {
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketGTFSRealtimeUpdater.java/[CN]/WebsocketGTFSRealtimeUpdater/[CN]/DecoderTask/[MT]/run()/body";
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketGTFSRealtimeUpdater.java/[CN]/WebsocketGTFSRealtimeUpdater/[MT]/main(String[])/body";
+}
+subgraph cluster455 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetTransitLink.java/[CN]/StreetTransitLink/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster418 {
+"src_main_java_org_opentripplanner_routing_bike__rental_TimeBasedBikeRentalFareServiceFactory.java/[CN]/TimeBasedBikeRentalFareServiceFactory/[MT]/processGtfs(GtfsRelationalDao)/body";
+"src_main_java_org_opentripplanner_routing_algorithm_EarliestArrivalSearch.java/[CN]/EarliestArrivalSearch/[MT]/getShortestPathTree(RoutingRequest,double,SearchTerminationStrategy)/body";
+"src_main_java_org_opentripplanner_routing_impl_GraphPathFinder.java/[CN]/GraphPathFinder/[MT]/getPaths(RoutingRequest)/body";
+"src_main_java_org_opentripplanner_routing_vertextype_BarrierVertex.java/[CN]/BarrierVertex/[CS]/BarrierVertex(Graph,String,double,double)/body";
+}
+subgraph cluster69 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/parsePath(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[CS]/State(Vertex,long,RoutingRequest)/body";
+}
+subgraph cluster223 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Hop.java/[CN]/Hop/[MT]/getGeometry()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/getGeometry()/body";
+}
+subgraph cluster452 {
+"otp-core_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(RoutingRequest)/body";
+"otp-core_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(RoutingRequest,double)/body";
+}
+subgraph cluster460 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/package";
+"openstreetmap_src_main_java_org_opentripplanner_openstreetmap_impl_BinaryOpenStreetMapParser.java/[CN]/BinaryOpenStreetMapParser/[MT]/parseDense(Osmformat.DenseNodes)/body";
+}
+subgraph cluster353 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_util_RoutingRequestBuilder.java/[CN]/RoutingRequestBuilder/[MT]/setDestination(Location)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/applyPatches()/body";
+}
+subgraph cluster167 {
+"src_main_java_org_opentripplanner_analyst_broker_BrokerMain.java/[CN]/BrokerMain/[MT]/main(String[])/body";
+}
+subgraph cluster162 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetVertex.java/[CN]/StreetVertex/[CS]/StreetVertex(String,LineString,String,double,boolean,Set<String>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetVertex.java/[CN]/StreetVertex/[MT]/computeSlopeCost(PackedCoordinateSequence,String)/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_analyst_IsoChrone.java/[CN]/IsoChrone/[MT]/getIsochrone(double,String)/body";
+}
+subgraph cluster311 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[MT]/toString()/body";
+}
+subgraph cluster198 {
+"src_main_java_org_opentripplanner_routing_algorithm_GenericDijkstra.java/[CN]/GenericDijkstra/[MT]/getShortestPathTree(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[FE]/trip";
+"opentripplanner-api-extended_src_main_java_org_opentripplanner_api_extended_ws_model_TransitServerDetailedStop.java/[CN]/TransitServerDetailedStop/[CS]/TransitServerDetailedStop(TransitServerGtfs,String,int)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternBoard.java/[CN]/PatternBoard/[CS]/PatternBoard(Vertex,Vertex,TripPattern,int,TraverseMode)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/getRouteForRouteId(String)/body";
+}
+subgraph cluster350 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesResponse.java/[CN]/FindNearestEdgesResponse/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_WeightTable.java/[CN]/WeightTable/[CN]/SPTComputer/[MT]/call()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_TripOvertakingException.java/[CN]/TripOvertakingException/[FE]/overtaker";
+}
+subgraph cluster270 {
+"src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/toStringVerbose()/body";
+"opentripplanner-api-webapp_src_main_java_org_opentripplanner_api_ws_GraphMetadata.java/[CN]/GraphMetadata/[MT]/setMaxLatitude(double)/body";
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_util_RoutingRequestBuilder.java/[CN]/RoutingRequestBuilder/[MT]/setOrigin(LatLng)/body";
+}
+subgraph cluster119 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/traverse(State)/body";
+"src_main_java_org_opentripplanner_profile_StopAtDistance.java/[CN]/StopAtDistance/[MT]/toString()/body";
+"otp-core_src_main_java_org_opentripplanner_updater_stoptime_WebsocketStoptimeUpdater.java/[CN]/WebsocketStoptimeUpdater/[CN]/Listener/[MT]/onMessage(byte[])/body";
+"src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[CS]/StreetVertexIndexServiceImpl(Graph,boolean)/body";
+}
+subgraph cluster101 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_WeightTable.java/[CN]/WeightTable/[MT]/buildTable()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_WeightTable.java/[CN]/WeightTable/[CS]/WeightTable(Graph)/body";
+}
+subgraph cluster250 {
+"src_main_java_org_opentripplanner_common_geometry_HashGridSpatialIndex.java/[CN]/HashGridSpatialIndex/[MT]/query(Envelope)/body";
+}
+subgraph cluster254 {
+"src_main_java_org_opentripplanner_profile_Ride.java/[CN]/Ride/[MT]/getSortedStoptimes(TimeWindow,boolean)/body";
+}
+subgraph cluster190 {
+"opentripplanner-datastore_app_controllers_FieldTrip.java/[CN]/FieldTrip/[MT]/addItinerary(long,GroupItinerary,GTFSTrip[])/body";
+"opentripplanner-datastore_app_controllers_FieldTrip.java/[CN]/FieldTrip/[MT]/getRequests(Integer)/body";
+}
+subgraph cluster117 {
+"src_main_java_org_opentripplanner_api_resource_PlanGenerator.java/[CN]/PlanGenerator/[MT]/generatePlan(List<GraphPath>,RoutingRequest)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetEdge.java/[CN]/StreetEdge/[MT]/isElevationFlattened()/body";
+"src_main_java_org_opentripplanner_profile_RoundBasedProfileRouter.java/[CN]/RoundBasedProfileRouter/[MT]/makeSurfaces()/body";
+}
+subgraph cluster497 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/calculateOverageWeight(double,double,double,double,double)/body";
+"src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[MT]/getClosestEdges(GenericLocation,TraversalRequirements,List<Edge>,Collection<Edge>,boolean)/body";
+"opentripplanner-analyst_src_main_java_org_opentripplanner_analyst_request_SampleFactory.java/[CN]/SampleFactory/[MT]/setSearchRadiusM(double)/body";
+}
+subgraph cluster420 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/isContractable(Vertex)/body";
+"src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/startSearch(RoutingRequest,SearchTerminationStrategy,long)/body";
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/setBack(boolean)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/startup()/body";
+}
+subgraph cluster444 {
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/add(State)/body";
+}
+subgraph cluster123 {
+"src_main_java_org_opentripplanner_routing_pathparser_InitialStopSearchPathParser.java/[CN]/InitialStopSearchPathParser/[FE]/TRANSITSTOP";
+}
+subgraph cluster229 {
+"src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/iterate()/body";
+"src_main_java_org_opentripplanner_streets_Histogram.java/[CN]/Histogram/[FE]/title";
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getPattern(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PreAlightEdge.java/[CN]/PreAlightEdge/[MT]/traverseBack(State,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/getState(RoutingRequest,RaptorData,ArrayList<RaptorState>)/body";
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/deliverHighPriorityTasks(String)/body";
+}
+subgraph cluster333 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_ElevationProfileSegment.java/[CN]/ElevationProfileSegment/[MT]/toString()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TurnEdge.java/[CN]/TurnEdge/[MT]/getElevationProfileSegment()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TransferTable.java/[CN]/TransferTable/[MT]/addTransferTime(Stop,Stop,Route,Route,Trip,Trip,int)/body";
+"otp-core_src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/initRoutingSubpanel()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_TripPattern.java/[CN]/TripPattern/[MT]/getArrivalTime(int,int)/body";
+}
+subgraph cluster399 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_LocalStopFinder.java/[CN]/LocalStopFinder/[MT]/getNearbyPatterns(Stop)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_LocalStopFinder.java/[CN]/LocalStopFinder/[MT]/markLocalStops()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_LocalStopFinder.java/[CN]/LocalStopFinder/[MT]/getBestDistanceForPatterns(Graph,Vertex,TraverseOptions,Set<TripPattern>)/body";
+}
+subgraph cluster361 {
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/split(StreetEdge,LinearLocation,boolean,boolean)/body";
+}
+subgraph cluster64 {
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/logQueueStatus()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_ElevationUtils.java/[CN]/ElevationUtils/[MT]/getWalkCostsForSlope(double,double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_ElevationUtils.java/[CN]/ElevationUtils/[FE]/walkParA";
+}
+subgraph cluster10 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Timetable.java/[CN]/Timetable/[MT]/index()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Timetable.java/[CN]/Timetable/[MT]/finish()/body";
+}
+subgraph cluster342 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/incrementTimeInSeconds(int)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_model_osm_OSMWithTags.java/[CN]/OSMWithTags/[MT]/getTag(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_pqueue_IntBinHeap.java/[CN]/IntBinHeap/[MT]/rekey(int,double)/body";
+}
+subgraph cluster396 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[MT]/getClosestVertex(Coordinate,String,TraverseOptions,List<Edge>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_StreetVertexIndexServiceImpl.java/[CN]/StreetVertexIndexServiceImpl/[CN]/CandidateEdgeBundle/[MT]/add(CandidateEdge)/body";
+}
+subgraph cluster207 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_BasicShortestPathTree.java/[CN]/BasicShortestPathTree/[MT]/add(State)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_BasicShortestPathTree.java/[CN]/BasicShortestPathTree/[MT]/visit(State)/body";
+}
+subgraph cluster322 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_TripOvertakingException.java/[CN]/TripOvertakingException/[FE]/stopIndex";
+}
+subgraph cluster212 {
+"src_main_java_org_opentripplanner_routing_edgetype_StreetWithElevationEdge.java/[CN]/StreetWithElevationEdge/[MT]/getElevationProfile()/body";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VizGui.java/[CN]/VizGui/[MT]/verticesSelected(List<Vertex>)/body";
+"src_main_java_org_opentripplanner_profile_Ride.java/[CN]/Ride/[MT]/recomputeBounds()/body";
+}
+subgraph cluster118 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternHop.java/[CN]/PatternHop/[MT]/weightLowerBound(TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Hop.java/[CN]/Hop/[MT]/weightLowerBound(TraverseOptions)/body";
+}
+subgraph cluster252 {
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/addFeature(JsonNode,int)/body";
+"src_main_java_org_opentripplanner_analyst_PointSet.java/[CN]/PointSet/[MT]/fromValidatedGeoJson(InputStream,int)/body";
+}
+subgraph cluster426 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_FreeEdge.java/[CN]/FreeEdge/[MT]/traverse(State,TraverseOptions)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_FreeEdge.java/[CN]/FreeEdge/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster145 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorState.java/[CN]/RaptorState/[CS]/RaptorState(RaptorState)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/handleAddedTrip(Graph,TripUpdate,List<Stop>,String,ServiceDate)/body";
+}
+subgraph cluster487 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/[MT]/traverse(State,TraverseOptions)/body";
+}
+subgraph cluster364 {
+"src_main_java_org_opentripplanner_routing_core_RoutingRequest.java/[CN]/RoutingRequest/[MT]/setModes(TraverseModeSet)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_RetryingPathServiceImpl.java/[CN]/RetryingPathServiceImpl/[MT]/setMultiPathTimeout(double)/body";
+}
+subgraph cluster91 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Board.java/[CN]/Board/[MT]/traverseBack(State,TraverseOptions)/body";
+}
+subgraph cluster457 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_ThreadedBidirectionalHeuristic.java/[CN]/ThreadedBidirectionalHeuristic/[MT]/computeReverseWeight(State,Vertex)/body";
+}
+subgraph cluster54 {
+"otp-standalone_src_main_java_org_opentripplanner_standalone_OTPConfigurator.java/[CN]/OTPConfigurator/[MT]/serverFromParameters()/body";
+"otp-standalone_src_main_java_org_opentripplanner_standalone_OTPMain.java/[CN]/OTPMain/[MT]/main(String[])/body";
+}
+subgraph cluster99 {
+"src_main_java_org_opentripplanner_analyst_broker_Broker.java/[CN]/Broker/[MT]/enqueueTasks(List<AnalystClusterRequest>)/body";
+}
+subgraph cluster102 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_factory_GTFSPatternHopFactory.java/[CN]/IndexedLineSegmentComparator/[MT]/compare(IndexedLineSegment,IndexedLineSegment)/body";
+}
+subgraph cluster185 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_osm_OpenStreetMapGraphBuilderImpl.java/[CN]/OpenStreetMapGraphBuilderImpl/[CN]/Handler/[MT]/getEdgeForStreet(IntersectionVertex,IntersectionVertex,OSMWithTags,int,long,long,double,StreetTraversalPermission,LineString,boolean)/body";
+"src_main_java_org_opentripplanner_updater_stoptime_TimetableSnapshotSource.java/[CN]/TimetableSnapshotSource/[MT]/checkNewStopTimeUpdatesAndFindStops(TripUpdate)/body";
+}
+subgraph cluster344 {
+"src_main_java_com_conveyal_gtfs_model_Frequency.java/[CN]/Frequency/[CN]/Loader/[MT]/loadOneRow()/body";
+"src_main_java_com_conveyal_gtfs_model_StopTime.java/[CN]/StopTime/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster435 {
+"src_main_java_org_opentripplanner_graph__builder_module_TransitToStreetNetworkModule.java/[CN]/TransitToStreetNetworkModule/[MT]/linkParkRideStations()/body";
+}
+subgraph cluster264 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_common_geometry_Subgraph.java/[CN]/Subgraph/[MT]/getConvexHull()/body";
+"src_main_java_org_opentripplanner_streets_StreetLayer.java/[CN]/StreetLayer/[MT]/buildEdgeLists()/body";
+}
+subgraph cluster74 {
+"src_main_java_org_opentripplanner_routing_edgetype_StreetWithElevationEdge.java/[CN]/StreetWithElevationEdge/[MT]/getSlopeWorkCostEffectiveLength()/body";
+"src_main_java_org_opentripplanner_routing_edgetype_StreetWithElevationEdge.java/[CN]/StreetWithElevationEdge/[MT]/getSlopeSpeedEffectiveLength()/body";
+}
+subgraph cluster208 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/clone()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[CS]/State(long,int,AgencyAndId,double)/body";
+}
+subgraph cluster183 {
+"opentripplanner-api-thrift_src_main_java_org_opentripplanner_api_thrift_definition_FindNearestEdgesRequest.java/[CN]/FindNearestEdgesRequest/[CN]/FindNearestEdgesRequestTupleScheme/[MT]/write(org.apache.thrift.protocol.TProtocol,FindNearestEdgesRequest)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_RaptorRoute.java/[CN]/RaptorRoute/[MT]/getTripIndexReverse(RoutingRequest,int,int)/body";
+"src_main_java_org_opentripplanner_profile_RaptorWorker.java/[CN]/RaptorWorker/[MT]/runRaptor(Graph,TIntIntMap,int[],TaskStatistics)/body";
+}
+subgraph cluster138 {
+"src_main_java_org_opentripplanner_updater_alerts_AlertsUpdateHandler.java/[CN]/AlertsUpdateHandler/[MT]/handleAlert(String,GtfsRealtime.Alert)/body";
+"otp-rest-api_src_main_java_org_opentripplanner_api_common_RoutingResource.java/[CN]/RoutingResource/[MT]/buildRequest(int)/body";
+"src_main_java_org_opentripplanner_routing_alertpatch_AlertPatch.java/[CN]/AlertPatch/[MT]/equals(Object)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_TraverseOptions.java/[CN]/TraverseOptions/[CS]/TraverseOptions()/body";
+}
+subgraph cluster202 {
+"jags_src_main_java_org_opentripplanner_jags_gui_HelloP5.java/[CN]/HelloP5/[MT]/setup()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_GenericAStar.java/[CN]/GenericAStar/[MT]/getShortestPathTree(RoutingRequest,double,SearchTerminationStrategy)/body";
+}
+subgraph cluster421 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[CN]/WitnessSearch/[MT]/call()/body";
+}
+subgraph cluster5 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_GraphServiceImpl.java/[CN]/GraphServiceImpl/[MT]/getGraph(String)/body";
+"otp-core_src_main_java_org_opentripplanner_common_geometry_AccSamplingGridIsolineBuilder.java/[CN]/AccSamplingGridIsolineBuilder/[MT]/closeSamples()/body";
+}
+subgraph cluster385 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getTrip(String)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_Street.java/[CN]/Street/[FE]/permission";
+}
+subgraph cluster276 {
+"src_main_java_org_opentripplanner_index_IndexAPI.java/[CN]/IndexAPI/[MT]/getStopsForRoute(String)/body";
+"src_main_java_com_conveyal_gtfs_model_CalendarDate.java/[CN]/CalendarDate/[CN]/Loader/[MT]/loadOneRow()/body";
+}
+subgraph cluster188 {
+"src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/doTraverse(State,RoutingRequest,TraverseMode)/body";
+}
+subgraph cluster215 {
+"src_main_java_org_opentripplanner_routing_edgetype_TransitBoardAlight.java/[CN]/TransitBoardAlight/[MT]/traverse(State,long)/body";
+"src_main_java_org_opentripplanner_profile_ProfileRouter.java/[CN]/ProfileRouter/[FE]/MAX_DURATION";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_spt_GraphPath.java/[CN]/GraphPath/[MT]/equals(Object)/body";
+}
+subgraph cluster231 {
+"src_main_java_org_opentripplanner_routing_spt_ShortestPathTree.java/[CN]/ShortestPathTree/[MT]/getStates(Vertex)/body";
+"src_main_java_org_opentripplanner_routing_impl_SeattleFareServiceFactory.java/[CN]/SeattleFareServiceFactory/[MT]/makeFareService()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_StateEditor.java/[CN]/StateEditor/[MT]/setRoute(AgencyAndId)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_trippattern_DecayingDelayTripTimes.java/[CN]/DecayingDelayTripTimes/[MT]/getArrivalTime(int)/body";
+}
+subgraph cluster454 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/removeVertex(Vertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_StreetTransitLink.java/[CN]/StreetTransitLink/[MT]/traverse(State,TraverseOptions)/body";
+"src_main_java_org_opentripplanner_graph__builder_linking_SimpleStreetSplitter.java/[CN]/SimpleStreetSplitter/[MT]/link()/body";
+}
+subgraph cluster225 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PatternAlight.java/[CN]/PatternAlight/extend";
+"src_main_java_org_opentripplanner_visualizer_GraphVisualizer.java/[CN]/GraphVisualizer/[MT]/makeMainTab()/body";
+}
+subgraph cluster179 {
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_Updater.java/[CN]/Updater/[MT]/run()/body";
+"opentripplanner-updater_src_main_java_org_opentripplanner_updater_UpdateHandler.java/[CN]/UpdateHandler/[MT]/handleAlert(String,GtfsRealtime.Alert)/body";
+}
+subgraph cluster16 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_OnBoardDepartPatternHop.java/[CN]/OnBoardDepartPatternHop/[MT]/traverse(State)/body";
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[MT]/covers(double,double)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_MultiTargetTerminationStrategy.java/package";
+"src_main_java_org_opentripplanner_routing_impl_GraphScanner.java/[CN]/GraphScanner/[MT]/autoScan()/body";
+}
+subgraph cluster371 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_util_LengthConstrainedPathFinder.java/[CN]/LengthConstrainedPathFinder/[MT]/solveDepthFirst()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_raptor_Raptor.java/[CN]/Raptor/[MT]/getStateArriveBy(RaptorData,ArrayList<RaptorState>)/body";
+}
+subgraph cluster360 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_edgetype_PlainStreetEdge.java/[CN]/PlainStreetEdge/[MT]/getElevationProfileSegment()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_contraction_ContractionHierarchy.java/[CN]/ContractionHierarchy/[MT]/getImportance(Vertex,WitnessSearchResult,int)/body";
+}
+subgraph cluster484 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_algorithm_strategies_ThreadedBidirectionalHeuristic.java/[CN]/ThreadedBidirectionalHeuristic/[MT]/computeInitialWeight(State,Vertex)/body";
+}
+subgraph cluster477 {
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/getOptions()/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_core_State.java/[CN]/State/[MT]/getContext()/body";
+}
+subgraph cluster156 {
+"src_main_java_org_opentripplanner_visualizer_ShowGraph.java/[CN]/ShowGraph/[MT]/drawNewEdges()/body";
+"src_main_java_org_opentripplanner_visualizer_ShowGraph.java/[CN]/ShowGraph/[MT]/draw()/body";
+}
+subgraph cluster201 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_VerticalDatum.java/[CN]/VerticalDatum/[FE]/deltaLongitude";
+"opentripplanner-gui_src_main_java_org_opentripplanner_gui_VisualTraverseVisitor.java/[CN]/VisualTraverseVisitor/[MT]/visitEdge(Edge,State)/body";
+}
+subgraph cluster89 {
+"opentripplanner-graph-builder_src_main_java_org_opentripplanner_graph__builder_impl_ned_UnifiedGridCoverage.java/[CN]/UnifiedGridCoverage/[CS]/UnifiedGridCoverage(CharSequence,Coverage,List<VerticalDatum>)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_Graph.java/[CN]/Graph/[MT]/removeVertexAndEdges(Vertex)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_graph_AbstractVertex.java/[CN]/AbstractVertex/[MT]/removeOutgoing(Edge)/body";
+"opentripplanner-routing_src_main_java_org_opentripplanner_routing_impl_TravelingSalesmanPathService.java/[CN]/TravelingSalesmanPathService/[FE]/chainedPathService";
+}
+}

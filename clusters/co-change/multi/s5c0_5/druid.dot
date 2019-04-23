@@ -1,0 +1,72 @@
+digraph {
+subgraph cluster6 {
+"processing_src_main_java_io_druid_query_metadata_metadata_SegmentAnalysis.java/[CN]/SegmentAnalysis/[MT]/hashCode()/body";
+"processing_src_main_java_io_druid_query_metadata_metadata_SegmentAnalysis.java/[CN]/SegmentAnalysis/[MT]/equals(Object)/body";
+}
+subgraph cluster2 {
+"indexing-hadoop_src_main_java_io_druid_indexer_HadoopTuningConfig.java/[CN]/HadoopTuningConfig/[MT]/withShardSpecs(Map<DateTime,List<HadoopyShardSpec>>)/body";
+"indexing-hadoop_src_main_java_io_druid_indexer_HadoopTuningConfig.java/[CN]/HadoopTuningConfig/[MT]/makeDefaultTuningConfig()/body";
+"indexing-hadoop_src_main_java_io_druid_indexer_HadoopTuningConfig.java/[CN]/HadoopTuningConfig/[MT]/withVersion(String)/body";
+"indexing-hadoop_src_main_java_io_druid_indexer_HadoopTuningConfig.java/[CN]/HadoopTuningConfig/[MT]/withWorkingPath(String)/body";
+}
+subgraph cluster11 {
+"processing_src_main_java_io_druid_query_aggregation_FilteredAggregatorFactory.java/[CN]/FilteredAggregatorFactory/[MT]/factorizeBuffered(ColumnSelectorFactory)/body";
+"processing_src_main_java_io_druid_query_aggregation_FilteredAggregatorFactory.java/[CN]/FilteredAggregatorFactory/[MT]/factorize(ColumnSelectorFactory)/body";
+}
+subgraph cluster5 {
+"common_src_main_java_com_metamx_druid_aggregation_post_ArithmeticPostAggregator.java/[CN]/ArithmeticPostAggregator/[MT]/compute(double,double).conflicted2/body";
+"common_src_main_java_com_metamx_druid_aggregation_post_ArithmeticPostAggregator.java/[CN]/ArithmeticPostAggregator/[MT]/compute(double,double).conflicted1/body";
+"common_src_main_java_com_metamx_druid_aggregation_post_ArithmeticPostAggregator.java/[CN]/ArithmeticPostAggregator/[MT]/compute(double,double).conflicted3/body";
+}
+subgraph cluster14 {
+"examples_src_main_java_druid_examples_webStream_UpdateStream.java/[CN]/UpdateStream/[MT]/run()/body";
+"examples_src_main_java_druid_examples_webStream_WebFirehoseFactory.java/[CN]/WebFirehoseFactory/[MT]/connect()/body";
+}
+subgraph cluster9 {
+"indexing-hadoop_src_main_java_io_druid_indexer_DeterminePartitionsJob.java/[CN]/DeterminePartitionsJob/[MT]/run()/body";
+"indexing-hadoop_src_main_java_io_druid_indexer_IndexGeneratorJob.java/[CN]/IndexGeneratorJob/[MT]/run()/body";
+}
+subgraph cluster3 {
+"server_src_main_java_io_druid_segment_indexing_RealtimeTuningConfig.java/[CN]/RealtimeTuningConfig/[MT]/withVersioningPolicy(VersioningPolicy)/body";
+"server_src_main_java_io_druid_segment_indexing_RealtimeTuningConfig.java/[CN]/RealtimeTuningConfig/[MT]/withBasePersistDirectory(File)/body";
+}
+subgraph cluster4 {
+"server_src_main_java_com_metamx_druid_master_rules_LoadRule.java/[CN]/LoadRule/[MT]/assign(ReplicationThrottler,int,int,BalancerCostAnalyzer,List<ServerHolder>,DataSegment)/body";
+"server_src_main_java_com_metamx_druid_master_DruidMasterBalancer.java/[CN]/DruidMasterBalancer/[MT]/run(DruidMasterRuntimeParams)/body";
+}
+subgraph cluster15 {
+"services_src_main_java_io_druid_cli_CliMiddleManager.java/[CN]/CliMiddleManager/[MT]/getModules()/body";
+"services_src_main_java_io_druid_cli_CliOverlord.java/[CN]/CliOverlord/[MT]/getModules()/body";
+}
+subgraph cluster10 {
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/CompressedObjectStrategy/[MT]/getCompressor().conflicted2/body";
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/CompressedObjectStrategy/[MT]/getDecompressor().conflicted2/body";
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/CompressedObjectStrategy/[MT]/getDecompressor().conflicted0/body";
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/CompressedObjectStrategy/[MT]/getDecompressor().conflicted1/body";
+}
+subgraph cluster12 {
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/CompressedObjectStrategy/[MT]/getCompressor().conflicted1/body";
+"processing_src_main_java_io_druid_segment_data_CompressedObjectStrategy.java/[CN]/LZ4Decompressor/[MT]/decompress(ByteBuffer,int,ByteBuffer)/body";
+}
+subgraph cluster0 {
+"services_src_main_java_io_druid_cli_CliOverlord.java/[CN]/CliOverlord/[CN]/OverlordJettyServerInitializer/[MT]/initialize(Server,Injector)/body";
+"services_src_main_java_io_druid_cli_CoordinatorJettyServerInitializer.java/[CN]/CoordinatorJettyServerInitializer/[MT]/initialize(Server,Injector)/body";
+}
+subgraph cluster1 {
+"services_src_main_java_io_druid_cli_CliHistorical.java/[CN]/CliHistorical/[MT]/getModules()/body";
+"services_src_main_java_io_druid_cli_CliBroker.java/[CN]/CliBroker/[MT]/getModules()/body";
+}
+subgraph cluster13 {
+"processing_src_main_java_io_druid_query_select_SelectQueryQueryToolChest.java/[CN]/SelectQueryQueryToolChest/[MT]/makeMetricBuilder(SelectQuery)/body";
+"processing_src_main_java_io_druid_query_metadata_SegmentMetadataQueryQueryToolChest.java/[CN]/SegmentMetadataQueryQueryToolChest/[MT]/makeMetricBuilder(SegmentMetadataQuery)/body";
+"processing_src_main_java_io_druid_query_groupby_GroupByQueryQueryToolChest.java/[CN]/GroupByQueryQueryToolChest/[MT]/makeMetricBuilder(GroupByQuery)/body";
+"processing_src_main_java_io_druid_query_topn_TopNQueryQueryToolChest.java/[CN]/TopNQueryQueryToolChest/[MT]/makeMetricBuilder(TopNQuery)/body";
+"processing_src_main_java_io_druid_query_timeseries_TimeseriesQueryQueryToolChest.java/[CN]/TimeseriesQueryQueryToolChest/[MT]/makeMetricBuilder(TimeseriesQuery)/body";
+"processing_src_main_java_io_druid_query_search_SearchQueryQueryToolChest.java/[CN]/SearchQueryQueryToolChest/[MT]/makeMetricBuilder(SearchQuery)/body";
+"processing_src_main_java_io_druid_query_timeboundary_TimeBoundaryQueryQueryToolChest.java/[CN]/TimeBoundaryQueryQueryToolChest/[MT]/makeMetricBuilder(TimeBoundaryQuery)/body";
+}
+subgraph cluster8 {
+"services_src_main_java_io_druid_cli_CliRealtimeExample.java/[CN]/CliRealtimeExample/[MT]/getModules()/body";
+"services_src_main_java_io_druid_cli_CliPeon.java/[CN]/CliPeon/[MT]/getModules()/body";
+}
+}

@@ -1,0 +1,91 @@
+co-change-clusters/multi/s2c0_5/actor-platform.dot
+library_actor-common_src_main_java_im_actor_model_entity_ContentDescription.java/[CN]/ContentDescription/[MT]/fromContent(AbsContent)/body AbsContent 4
+actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_help_HelpFragment.java/[CN]/HelpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body MembersAdapter 4
+
+co-change-clusters/multi/s2c0_5/bigbluebutton.dot
+bbb-common-message_src_main_java_org_bigbluebutton_common_messages_Util.java/[CN]/Util/[MT]/extractCaptionHistory(JsonObject)/body CaptionService 8
+
+co-change-clusters/multi/s2c0_5/buck.dot
+src_com_facebook_buck_cxx_Omnibus.java/[CN]/Omnibus/[MT]/createUndefinedSymbolsArgs(BuildRuleParams,BuildRuleResolver,SourcePathResolver,CxxPlatform,Iterable<? extends SourcePath>)/body GoTestDescription 8
+
+co-change-clusters/multi/s2c0_5/cas.dot
+cas-server-webapp-support_src_main_java_org_jasig_cas_web_ServiceValidateController.java/[CN]/ServiceValidateController/[MT]/handleRequestInternal(HttpServletRequest,HttpServletResponse)/body GenerateServiceTicketAction 2
+
+co-change-clusters/multi/s2c0_5/cassandra.dot
+src_java_org_apache_cassandra_thrift_CustomTNonBlockingServer.java/[CN]/CustomTNonBlockingServer/[CN]/Factory/[MT]/buildTServer(Args)/body EncryptionOptions 16
+
+co-change-clusters/multi/s2c0_5/drools.dot
+drools-persistence-jpa_src_main_java_org_drools_persistence_TransactionSynchronizationRegistryHelper.java/[CN]/TransactionSynchronizationRegistryHelper/[MT]/registerTransactionSynchronization(Object,TransactionSynchronization)/body JtaTransactionSynchronizationAdapter 56
+
+co-change-clusters/multi/s2c0_5/gradle.dot
+subprojects_base-services_src_main_java_org_gradle_internal_classloader_ClassLoaderUtils.java/[CN]/ClassLoaderUtils/[MT]/tryClose(ClassLoader)/body MultiParentClassLoader 8
+subprojects_core_src_main_groovy_org_gradle_execution_TaskSelectionException.java/[CN]/TaskSelectionException/[MT]/appendResolution(StyledTextOutput,BuildClientMetaData)/body TaskConfigurationException 4
+subprojects_tooling-api_src_main_java_org_gradle_tooling_model_internal_Exceptions.java/[CN]/Exceptions/[MT]/unsupportedModel(Class<?>,String)/body ModelMapping 6
+subprojects_diagnostics_src_main_groovy_org_gradle_api_reporting_components_internal_DiagnosticsServices.java/[CN]/DiagnosticsServices/[MT]/registerGlobalServices(ServiceRegistration)/body AbstractJvmBinaryRenderer 4
+
+co-change-clusters/multi/s2c0_5/h2o-3.dot
+h2o-core_src_main_java_water_util_OSUtils.java/[CN]/OSUtils/[MT]/getTotalPhysicalMemory()/body  8
+h2o-core_src_main_java_water_api_FramesHandler.java/[CN]/FramesHandler/[MT]/columnSummary(int,FramesV3)/body FrameV3 6
+
+co-change-clusters/multi/s2c0_5/hazelcast.dot
+hazelcast-client-new_src_main_java_com_hazelcast_client_cache_impl_ClientCacheProxy.java/[CN]/ClientCacheProxy/[MT]/deregisterCacheEntryListener(CacheEntryListenerConfiguration<K,V>)/body ClientProxy 8
+hazelcast_src_main_java_com_hazelcast_partition_strategy_StringAndPartitionAwarePartitioningStrategy.java/[CN]/StringAndPartitionAwarePartitioningStrategy/[MT]/getPartitionKey(Object)/body StringPartitioningStrategy 6
+hazelcast_src_main_java_com_hazelcast_partition_impl_HasOngoingMigration.java/[CN]/HasOngoingMigration/[MT]/onInvocationException(Throwable)/body MigrationRequestOperation 16
+hazelcast_src_main_java_com_hazelcast_partition_impl_MigrationRequestOperation.java/[CN]/MigrationRequestOperation/[MT]/onInvocationException(Throwable)/body HasOngoingMigration 16
+
+co-change-clusters/multi/s2c0_5/jitsi.dot
+src_net_java_sip_communicator_impl_gui_main_contactlist_TreeContactList.java/[CN]/TreeContactList/[MT]/startSelectedContactChat()/body ContactListPane 4
+src_net_java_sip_communicator_impl_gui_main_contactlist_DefaultContactList.java/[CN]/DefaultContactList/[MT]/createToolTip()/body ShowMoreContact 2
+src_net_java_sip_communicator_impl_gui_main_chat_ChatWindow.java/[CN]/ChatWindow/[MT]/pluginComponentRemoved(PluginComponentEvent)/body MainFrame 6
+
+co-change-clusters/multi/s2c0_5/killbill.dot
+overdue_src_main_java_org_killbill_billing_overdue_notification_OverdueCheckPoster.java/[CN]/OverdueCheckPoster/[MT]/cleanupFutureNotificationsFormTransaction(EntitySqlDaoWrapperFactory<EntitySqlDao>,Collection<NotificationEventWithMetadata<T>>,DateTime,NotificationQueue)/body DefaultOverduePosterBase 12
+invoice_src_main_java_com_ning_billing_invoice_model_ExternalChargeInvoiceItem.java/[CN]/ExternalChargeInvoiceItem/[CS]/ExternalChargeInvoiceItem(UUID,UUID,UUID,String,LocalDate,BigDecimal,Currency)/body DefaultInvoiceUserApi 8
+
+co-change-clusters/multi/s2c0_5/languagetool.dot
+languagetool-language-modules_fr_src_main_java_org_languagetool_language_French.java/[CN]/French/[MT]/getMaintainers()/body Romanian 4
+
+co-change-clusters/multi/s2c0_5/liquibase.dot
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_UnexpectedColumnChangeGenerator.java/[CN]/UnexpectedColumnChangeGenerator/[MT]/fixUnexpected(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body MissingColumnChangeGenerator 2
+liquibase-core_src_main_java_liquibase_datatype_core_UUIDType.java/[CN]/UUIDType/[MT]/toDatabaseDataType(Database)/body CurrencyType 4
+liquibase-core_src_main_java_liquibase_datatype_core_TimestampType.java/[CN]/TimestampType/[MT]/toDatabaseDataType(Database)/body MSSQLDatabase 2
+liquibase-core_src_main_java_liquibase_snapshot_jvm_ForeignKeySnapshotGenerator.java/[CN]/ForeignKeySnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body IndexSnapshotGenerator 4
+liquibase-core_src_main_java_liquibase_snapshot_jvm_IndexSnapshotGenerator.java/[CN]/IndexSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body TableSnapshotGenerator 2
+liquibase-core_src_main_java_liquibase_snapshot_jvm_TableSnapshotGenerator.java/[CN]/TableSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body ForeignKeySnapshotGenerator 4
+liquibase-core_src_main_java_liquibase_lockservice_LockService.java/[CN]/LockService/[MT]/listLocks()/body AbstractDatabase 2
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_MissingForeignKeyChangeGenerator.java/[CN]/MissingForeignKeyChangeGenerator/[MT]/fixMissing(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body UnexpectedUniqueConstraintChangeGenerator 2
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_UnexpectedUniqueConstraintChangeGenerator.java/[CN]/UnexpectedUniqueConstraintChangeGenerator/[MT]/fixUnexpected(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body MissingForeignKeyChangeGenerator 2
+liquibase-core_src_main_java_liquibase_changelog_RanChangeSet.java/[CN]/RanChangeSet/[CS]/RanChangeSet(ChangeSet,ChangeSet.ExecType,ContextExpression,Labels)/body StandardChangeLogHistoryService 4
+liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateProcedureGenerator.java/[CN]/CreateProcedureGenerator/[MT]/addSchemaToText(String,String,String,Database)/body Liquibase 1
+liquibase-core_src_main_java_liquibase_datatype_core_VarcharType.java/[CN]/VarcharType/[MT]/toDatabaseDataType(Database)/body DecimalType 2
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_UnexpectedSequenceChangeGenerator.java/[CN]/UnexpectedSequenceChangeGenerator/[MT]/fixUnexpected(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body DropSequenceChange 10
+liquibase-core_src_main_java_liquibase_snapshot_jvm_ViewSnapshotGenerator.java/[CN]/ViewSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body PrimaryKeyGenerator 4
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_MissingUniqueConstraintChangeGenerator.java/[CN]/MissingUniqueConstraintChangeGenerator/[MT]/fixMissing(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body AddUniqueConstraintGenerator 6
+liquibase-core_src_main_java_liquibase_diff_output_changelog_core_UnexpectedForeignKeyChangeGenerator.java/[CN]/UnexpectedForeignKeyChangeGenerator/[MT]/fixUnexpected(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body MissingUniqueConstraintChangeGenerator 2
+liquibase-core_src_main_java_liquibase_snapshot_jvm_ForeignKeySnapshotGenerator.java/[CN]/ForeignKeySnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body DatabaseObjectComparatorFactory 3
+
+co-change-clusters/multi/s2c0_5/openhab.dot
+bundles_binding_org.openhab.binding.samsungac_src_main_java_org_binding_openhab_samsungac_communicator_ResponseParser.java/[CN]/ResponseParser/[MT]/isFirstLine(String)/body SamsungAcBinding 2
+
+co-change-clusters/multi/s2c0_5/pinpoint.dot
+plugins_httpclient4_src_main_java_com_navercorp_pinpoint_plugin_httpclient4_HttpClient4TypeProvider.java/[CN]/HttpClient4TypeProvider/[MT]/setup(TraceMetadataSetupContext)/body HttpClient3TypeProvider 4
+plugins_httpclient3_src_main_java_com_navercorp_pinpoint_plugin_httpclient3_HttpClient3TypeProvider.java/[CN]/HttpClient3TypeProvider/[MT]/setup(TraceMetadataSetupContext)/body HttpClient4TypeProvider 4
+
+co-change-clusters/multi/s2c0_5/presto.dot
+presto-main_src_main_java_com_facebook_presto_sql_planner_plan_ChildReplacer.java/[CN]/ChildReplacer/[MT]/visitWindow(WindowNode,List<PlanNode>)/body UnaliasSymbolReferences 4
+presto-main_src_main_java_com_facebook_presto_type_TimestampOperators.java/[CN]/TimestampOperators/[MT]/castFromSlice(ConnectorSession,Slice)/body TimestampWithTimeZoneOperators 4
+presto-main_src_main_java_com_facebook_presto_type_TimestampWithTimeZoneOperators.java/[CN]/TimestampWithTimeZoneOperators/[MT]/castFromSlice(ConnectorSession,Slice)/body TimestampOperators 4
+presto-verifier_src_main_java_com_facebook_presto_verifier_PrestoVerifierModule.java/[CN]/PrestoVerifierModule/[MT]/setup(Binder)/body PrestoVerifier 4
+presto-main_src_main_java_com_facebook_presto_sql_planner_plan_ChildReplacer.java/[CN]/ChildReplacer/[MT]/visitAggregation(AggregationNode,List<PlanNode>)/body CountConstantOptimizer 4
+presto-main_src_main_java_com_facebook_presto_sql_planner_optimizations_PruneUnreferencedOutputs.java/[CN]/PruneUnreferencedOutputs/[CN]/Rewriter/[MT]/visitAggregation(AggregationNode,RewriteContext<Set<Symbol>>)/body SetFlatteningOptimizer 4
+
+co-change-clusters/multi/s2c0_5/react-native.dot
+ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostManager.java/[CN]/ReactModalHostManager/[MT]/addEventEmitters(ThemedReactContext,ReactModalHostView)/body ReactViewPager 12
+ReactAndroid_src_main_java_com_facebook_react_CoreModulesPackage.java/[CN]/CoreModulesPackage/[MT]/createJSModules()/body JSCHeapCapture 2
+
+co-change-clusters/multi/s2c0_5/spring-framework.dot
+org.springframework.web.servlet_src_main_java_org_springframework_web_servlet_mvc_method_annotation_support_ViewMethodReturnValueHandler.java/[CN]/ViewMethodReturnValueHandler/[MT]/handleReturnValue(Object,MethodParameter,ModelAndViewContainer,NativeWebRequest)/body ModelAndViewContainer 10
+spring-web_src_main_java_org_springframework_http_converter_json_MappingJackson2HttpMessageConverter.java/[CN]/MappingJackson2HttpMessageConverter/[CS]/MappingJackson2HttpMessageConverter(ObjectMapper)/body GsonHttpMessageConverter 4
+spring-web_src_main_java_org_springframework_web_method_annotation_RequestHeaderMethodArgumentResolver.java/[CN]/RequestHeaderMethodArgumentResolver/[MT]/handleMissingValue(String,MethodParameter)/body MatrixVariableMethodArgumentResolver 4
+spring-webmvc_src_main_java_org_springframework_web_servlet_mvc_method_annotation_MatrixVariableMethodArgumentResolver.java/[CN]/MatrixVariableMethodArgumentResolver/[MT]/handleMissingValue(String,MethodParameter)/body RequestHeaderMethodArgumentResolver 4
+spring-web_src_main_java_org_springframework_web_context_request_async_TimeoutDeferredResultProcessingInterceptor.java/[CN]/TimeoutDeferredResultProcessingInterceptor/[MT]/handleTimeout(NativeWebRequest,DeferredResult<T>)/body TimeoutCallableProcessingInterceptor 8

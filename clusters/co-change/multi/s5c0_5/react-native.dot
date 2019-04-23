@@ -1,0 +1,13 @@
+digraph {
+subgraph cluster1 {
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputShadowNode.java/[CN]/ReactTextInputShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextView.java/[CN]/ReactTextView/[MT]/setText(ReactTextUpdate)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextShadowNode.java/[CN]/ReactTextShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+}
+subgraph cluster2 {
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onReceivedError(WebView,int,String,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onPageStarted(WebView,String,Bitmap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/doUpdateVisitedHistory(WebView,String,boolean)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/emitFinishEvent(WebView,String)/body";
+}
+}

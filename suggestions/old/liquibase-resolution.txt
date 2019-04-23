@@ -1,0 +1,52 @@
+liquibase.util.StringClauses.get(java.lang.String);StringUtils
+liquibase.util.StringClauses.get(java.lang.Enum);StringUtils
+liquibase.changelog.DatabaseChangeLog.validate(liquibase.database.Database, liquibase.Contexts, liquibase.LabelExpression);ValidatingVisitor
+liquibase.changelog.DatabaseChangeLog.validate(liquibase.database.Database, liquibase.Contexts);ValidatingVisitor
+liquibase.changelog.DatabaseChangeLog.validate(liquibase.database.Database, java.lang.String[]);ValidatingVisitor
+liquibase.snapshot.JdbcDatabaseSnapshot.getMetaData();TableSnapshotGenerator
+liquibase.snapshot.JdbcDatabaseSnapshot.cachingDatabaseMetaData;TableSnapshotGenerator
+liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator.generateSql(liquibase.statement.core.AddForeignKeyConstraintStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);AddForeignKeyConstraintStatement
+liquibase.dbdoc.TableWriter.writeTableIndexes(java.io.Writer, liquibase.structure.core.Table, liquibase.database.Database);PrimaryKey
+liquibase.dbdoc.TableWriter.writeTableRemarks(java.io.Writer, liquibase.structure.core.Table, liquibase.database.Database);PrimaryKey
+liquibase.structure.core.Table.getIndexes();PrimaryKey
+liquibase.structure.core.Table.getUniqueConstraints();PrimaryKey
+liquibase.structure.core.Table.getOutgoingForeignKeys();PrimaryKey
+liquibase.dbdoc.TableWriter.writeTableForeignKeys(java.io.Writer, liquibase.structure.core.Table, liquibase.database.Database);PrimaryKey
+liquibase.structure.core.Table.equals(java.lang.Object);ForeignKey
+liquibase.structure.core.Table.hashCode();ForeignKey
+liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator.getAffectedForeignKey(liquibase.statement.core.AddForeignKeyConstraintStatement);AddForeignKeyConstraintStatement
+liquibase.diff.output.changelog.core.ChangedColumnChangeGenerator.handleTypeDifferences(liquibase.structure.core.Column, liquibase.diff.ObjectDifferences, liquibase.diff.output.DiffOutputControl, java.util.List, liquibase.database.Database, liquibase.database.Database);DataType
+liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogGenerator.generateSql(liquibase.statement.core.SelectFromDatabaseChangeLogStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);SelectFromDatabaseChangeLogStatement
+liquibase.diff.output.changelog.core.ChangedColumnChangeGenerator.handleDefaultValueDifferences(liquibase.structure.core.Column, liquibase.diff.ObjectDifferences, liquibase.diff.output.DiffOutputControl, java.util.List, liquibase.database.Database, liquibase.database.Database);DataType
+liquibase.diff.output.changelog.core.ChangedColumnChangeGenerator.handleNullableDifferences(liquibase.structure.core.Column, liquibase.diff.ObjectDifferences, liquibase.diff.output.DiffOutputControl, java.util.List, liquibase.database.Database, liquibase.database.Database);DataType
+liquibase.sqlgenerator.core.DropUniqueConstraintGenerator.getAffectedUniqueConstraint(liquibase.statement.core.DropUniqueConstraintStatement);DropUniqueConstraintStatement
+liquibase.sqlgenerator.core.DropUniqueConstraintGenerator.generateSql(liquibase.statement.core.DropUniqueConstraintStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);DropUniqueConstraintStatement
+liquibase.sqlgenerator.core.InsertSetGenerator.getAffectedTable(liquibase.statement.core.InsertSetStatement);InsertSetStatement
+liquibase.sqlgenerator.core.AddForeignKeyConstraintGenerator.validate(liquibase.statement.core.AddForeignKeyConstraintStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);AddForeignKeyConstraintStatement
+liquibase.structure.core.Catalog.hashCode();Schema
+liquibase.sqlgenerator.core.StoredProcedureGenerator.generateSql(liquibase.statement.StoredProcedureStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);StoredProcedureStatement
+liquibase.sqlgenerator.core.InsertSetGenerator.completeStatement(liquibase.statement.core.InsertSetStatement, java.lang.StringBuffer);InsertSetStatement
+liquibase.sqlgenerator.core.TableRowCountGenerator.generateCountSql(liquibase.statement.core.TableRowCountStatement, liquibase.database.Database);TableRowCountStatement
+liquibase.util.JdbcUtils.closeStatement(java.sql.Statement);HsqlConnection
+liquibase.structure.core.Catalog.equals(java.lang.Object);Schema
+liquibase.changelog.ChangeSet.getInheritableContexts();DatabaseChangeLog
+liquibase.diff.core.StandardDiffGenerator.compareObjectType(java.lang.Class, liquibase.snapshot.DatabaseSnapshot, liquibase.snapshot.DatabaseSnapshot, liquibase.diff.DiffResult);DatabaseObjectComparatorFactory
+liquibase.sqlgenerator.core.UpdateDataChangeGenerator.UpdateDataChangeGenerator();UpdateExecutablePreparedStatement
+liquibase.diff.output.DiffOutputControl.setDataDir(java.lang.String);ChangeGeneratorFactory
+liquibase.sqlgenerator.core.UpdateDataChangeGenerator.validate(liquibase.statement.UpdateExecutablePreparedStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);UpdateExecutablePreparedStatement
+liquibase.sqlgenerator.core.InsertSetGenerator.generateSql(liquibase.statement.core.InsertSetStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);InsertSetStatement
+liquibase.sqlgenerator.core.TableRowCountGenerator.generateSql(liquibase.statement.core.TableRowCountStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);TableRowCountStatement
+liquibase.sqlgenerator.core.DropUniqueConstraintGenerator.validate(liquibase.statement.core.DropUniqueConstraintStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);DropUniqueConstraintStatement
+liquibase.sqlgenerator.core.ReindexGeneratorSQLite.generateSql(liquibase.statement.core.ReindexStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);ReindexStatement
+liquibase.sqlgenerator.core.UpdateDataChangeGenerator.validate(liquibase.statement.SqlStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);UpdateExecutablePreparedStatement
+liquibase.util.JdbcUtils.close(java.sql.ResultSet, java.sql.Statement);HsqlConnection
+liquibase.sqlgenerator.core.UpdateDataChangeGenerator.generateSql(liquibase.statement.UpdateExecutablePreparedStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);UpdateExecutablePreparedStatement
+liquibase.sqlgenerator.core.SelectFromDatabaseChangeLogLockGenerator.validate(liquibase.statement.core.SelectFromDatabaseChangeLogLockStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);SelectFromDatabaseChangeLogLockStatement
+liquibase.sqlgenerator.core.InsertSetGenerator.generateHeader(java.lang.StringBuffer, liquibase.statement.core.InsertSetStatement, liquibase.database.Database);InsertSetStatement
+liquibase.sqlgenerator.core.InsertSetGenerator.getInsertGenerator(liquibase.database.Database);InsertSetStatement
+liquibase.sqlgenerator.core.TableRowCountGenerator.validate(liquibase.statement.core.TableRowCountStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);TableRowCountStatement
+liquibase.sqlgenerator.core.ReindexGeneratorSQLite.validate(liquibase.statement.core.ReindexStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);ReindexStatement
+liquibase.database.core.SQLiteDatabase.getAlterTableStatements(liquibase.database.core.SQLiteDatabase$AlterTableVisitor, liquibase.database.Database, java.lang.String, java.lang.String, java.lang.String);DropColumnChange
+liquibase.util.StringUtils.stripComments(java.lang.String);StringClauses
+liquibase.util.JdbcUtils.closeResultSet(java.sql.ResultSet);HsqlConnection
+liquibase.sqlgenerator.core.UpdateDataChangeGenerator.generateSql(liquibase.statement.SqlStatement, liquibase.database.Database, liquibase.sqlgenerator.SqlGeneratorChain);UpdateExecutablePreparedStatement

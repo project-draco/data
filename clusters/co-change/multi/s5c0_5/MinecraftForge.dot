@@ -1,0 +1,31 @@
+digraph {
+subgraph cluster4 {
+"fml_install_fml.py/other";
+"fml_install_fml.py/[MT]/setup_fml/body";
+}
+subgraph cluster6 {
+"forge_forge__client_src_net_minecraft_src_forge_ForgeHooksClient.java/[CN]/ForgeHooksClient/[MT]/afterRenderPass(int)/body";
+"forge_forge__client_src_net_minecraft_src_forge_ForgeHooksClient.java/[CN]/ForgeHooksClient/[MT]/beforeRenderPass(int)/body";
+}
+subgraph cluster5 {
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/validateWorldSave(Set<ItemData>)/body";
+"fml_common_cpw_mods_fml_common_registry_GameData.java/[CN]/GameData/[MT]/newItemAdded(Item)/body";
+}
+subgraph cluster7 {
+"fml_install_install.py/other";
+"fml_install_install.py/[MT]/fml_main/body";
+}
+subgraph cluster1 {
+"release.py/other";
+"release.py/[MT]/main/body";
+}
+subgraph cluster0 {
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted5/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted4/body";
+"fml_src_main_java_cpw_mods_fml_common_network_FMLOutboundHandler.java/[CN]/FMLOutboundHandler/[MT]/validateArgs(Object).conflicted2/body";
+}
+subgraph cluster2 {
+"fml_client_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/finishMinecraftLoading()/body";
+"fml_client_cpw_mods_fml_client_FMLClientHandler.java/[CN]/FMLClientHandler/[MT]/onInitializationComplete()/body";
+}
+}

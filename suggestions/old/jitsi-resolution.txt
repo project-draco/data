@@ -1,0 +1,130 @@
+net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl.getKnownEventsList();ClientCapabilities
+net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl.registeredEvents;ClientCapabilities
+net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl.registerEvent(java.lang.String);ClientCapabilities
+net.java.sip.communicator.impl.gui.main.presence.SimpleStatusMenu.actionPerformed(java.awt.event.ActionEvent);GlobalStatusEnum
+net.java.sip.communicator.impl.gui.main.presence.SimpleStatusMenu.getToolTipText();GlobalStatusEnum
+net.java.sip.communicator.impl.gui.main.presence.SimpleStatusMenu.protocolProvider;GlobalStatusEnum
+net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox.hasSelectedMenus();AccountStatusPanel
+net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox.getComponents();AccountStatusPanel
+net.java.sip.communicator.impl.gui.main.account.AccountList.getSelectedAccount();AccountsConfigurationPanel
+net.java.sip.communicator.impl.gui.main.account.AccountList.getSelectedValue();AccountsConfigurationPanel
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.acceptInvitation(net.java.sip.communicator.service.protocol.AdHocChatRoomInvitation, net.java.sip.communicator.service.protocol.OperationSetAdHocMultiUserChat);InvitationReceivedDialog
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.rejectInvitation(net.java.sip.communicator.service.protocol.OperationSetAdHocMultiUserChat, net.java.sip.communicator.service.protocol.AdHocChatRoomInvitation, java.lang.String);InvitationReceivedDialog
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.removeChatRoom(net.java.sip.communicator.service.muc.ChatRoomWrapper);InvitationReceivedDialog
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.leaveChatRoom(net.java.sip.communicator.service.muc.ChatRoomWrapper);InvitationReceivedDialog
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.static {};InvitationReceivedDialog
+net.java.sip.communicator.impl.gui.main.call.ChooseCallAccountPopupMenu.itemSelected(java.lang.Class, net.java.sip.communicator.service.protocol.ProtocolProviderService, java.lang.String);CallManager
+net.java.sip.communicator.impl.gui.main.call.ChooseCallAccountPopupMenu.itemSelected(java.lang.Class, net.java.sip.communicator.service.protocol.ProtocolProviderService, java.lang.String, net.java.sip.communicator.impl.gui.main.contactlist.UIContactImpl);CallManager
+net.java.sip.communicator.plugin.msofficecomm.Messenger.isSelf(net.java.sip.communicator.plugin.msofficecomm.MessengerContact);MessengerContact
+net.java.sip.communicator.plugin.addrbook.macosx.MacOSXAddrBookSourceContact.updated();MacOSXAddrBookContactQuery
+net.java.sip.communicator.plugin.addrbook.macosx.MacOSXAddrBookSourceContact.waitUnlock();MacOSXAddrBookContactQuery
+net.java.sip.communicator.plugin.msofficecomm.Messenger.getPhoneNumber(net.java.sip.communicator.plugin.msofficecomm.MessengerContact, int);MessengerContact
+net.java.sip.communicator.plugin.msofficecomm.Messenger.getMPHONE_TYPE(net.java.sip.communicator.service.protocol.ServerStoredDetails$PhoneNumberDetail);MessengerContact
+net.java.sip.communicator.plugin.addrbook.macosx.MacOSXAddrBookSourceContact.getValues(net.java.sip.communicator.service.contactsource.ContactDetail, int, java.lang.String, boolean);MacOSXAddrBookContactQuery
+net.java.sip.communicator.impl.protocol.gibberish.ContactGibberishImpl.getParentPresenceOperationSet();OperationSetPersistentPresenceGibberishImpl
+net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationGroup.groupName;NotificationContact
+net.java.sip.communicator.impl.protocol.gibberish.ContactGibberishImpl.parentProvider;OperationSetPersistentPresenceGibberishImpl
+net.java.sip.communicator.plugin.addrbook.macosx.MacOSXAddrBookSourceContact.logger;MacOSXAddrBookContactQuery
+net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationGroup.addNotificationContact(net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationContact, boolean);NotificationContact
+net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationGroup.uiNotificationGroup;NotificationContact
+net.java.sip.communicator.impl.gui.main.chat.menus.ChatRightButtonMenu.setLocation(int, int);ChatConversationPanel
+net.java.sip.communicator.impl.gui.main.chat.menus.ChatRightButtonMenu.remove(java.awt.Component);ChatConversationPanel
+net.java.sip.communicator.plugin.securityconfig.masterpassword.SavedPasswordsDialog.getInstance();SavedPasswordsPanel
+net.java.sip.communicator.impl.gui.main.chat.menus.ChatRightButtonMenu.setInvoker(java.awt.Component);ChatConversationPanel
+net.java.sip.communicator.plugin.securityconfig.masterpassword.SavedPasswordsDialog.dialog;SavedPasswordsPanel
+net.java.sip.communicator.plugin.simpleaccreg.InitialAccountRegistrationFrame.getConfigurationService();SimpleAccountRegistrationActivator
+net.java.sip.communicator.impl.googlecontacts.GoogleContactsServiceImpl.downloadPhoto(com.google.gdata.data.ILink, com.google.gdata.client.contacts.ContactsService);GoogleContactsQuery
+net.java.sip.communicator.impl.googlecontacts.GoogleContactsServiceImpl.getGoogleContactsEntry(com.google.gdata.data.contacts.ContactEntry);GoogleContactsEntryImpl
+net.java.sip.communicator.impl.googlecontacts.GoogleContactsServiceImpl.filter(com.google.gdata.data.contacts.ContactEntry, java.util.regex.Pattern);GoogleContactsEntryImpl
+net.java.sip.communicator.plugin.simpleaccreg.InitialAccountRegistrationFrame.configurationService;SimpleAccountRegistrationActivator
+net.java.sip.communicator.plugin.simpleaccreg.InitialAccountRegistrationFrame.saveAccountWizard(net.java.sip.communicator.service.protocol.ProtocolProviderService, net.java.sip.communicator.service.gui.AccountRegistrationWizard);SimpleAccountRegistrationActivator
+net.java.sip.communicator.impl.googlecontacts.GoogleContactsServiceImpl.static {};GoogleContactsQuery
+net.java.sip.communicator.plugin.spellcheck.SpellCheckActivator.faService;SpellChecker
+net.java.sip.communicator.plugin.spellcheck.SpellCheckActivator.getFileAccessService();SpellChecker
+net.java.sip.communicator.plugin.spellcheck.SpellCheckActivator.getUIService();SpellChecker
+net.java.sip.communicator.plugin.spellcheck.SpellCheckActivator.uiService;SpellChecker
+net.java.sip.communicator.impl.protocol.icq.InfoRetreiver.readWorkUserInfo(net.kano.joscar.snaccmd.icq.MetaWorkInfoCmd);OperationSetServerStoredAccountInfoIcqImpl
+net.java.sip.communicator.impl.gui.main.contactlist.ContactListTreeModel.nodesWereInserted(javax.swing.tree.TreeNode, int[]);GroupNode
+net.java.sip.communicator.impl.gui.main.contactlist.ContactListTreeModel.nodesChanged(javax.swing.tree.TreeNode, int[]);GroupNode
+net.java.sip.communicator.plugin.whiteboard.gui.WhiteboardPanel.getBackground();WhiteboardFrame
+net.java.sip.communicator.plugin.whiteboard.gui.WhiteboardPanel.getGraphics();WhiteboardFrame
+net.java.sip.communicator.impl.protocol.icq.InfoRetreiver.readMoreUserInfo(net.kano.joscar.snaccmd.icq.MetaMoreInfoCmd);OperationSetServerStoredAccountInfoIcqImpl
+net.java.sip.communicator.impl.protocol.icq.InfoRetreiver.readInterestsUserInfo(net.kano.joscar.snaccmd.icq.MetaInterestsInfoCmd);OperationSetServerStoredAccountInfoIcqImpl
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.getResources();GibberishActivator
+net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog.setCallback(net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog$MasterPasswordExecutable);MasterPasswordPanel
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.resourcesService;GibberishActivator
+net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog.callback;MasterPasswordPanel
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.iconPathsTable;GibberishActivator
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.static {};GibberishActivator
+net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog.actionPerformed(java.awt.event.ActionEvent);MasterPasswordPanel
+net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog.getInstance();MasterPasswordPanel
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.getImageInBytes(java.lang.String);GibberishActivator
+net.java.sip.communicator.impl.protocol.gibberish.ProtocolIconGibberishImpl.logger;GibberishActivator
+net.java.sip.communicator.impl.protocol.jabber.ContactResourceJabberImpl.setMobile(boolean);MobileIndicator
+net.java.sip.communicator.plugin.securityconfig.masterpassword.MasterPasswordChangeDialog.dialog;MasterPasswordPanel
+net.java.sip.communicator.impl.protocol.jabber.ContactResourceJabberImpl.mobile;MobileIndicator
+net.java.sip.communicator.impl.protocol.irc.ProtocolIconIrcImpl.ICONPATHS_TABLE;IrcStatusEnum
+net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1.app_indicator_set_title(net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1$AppIndicator, java.lang.String);AppIndicatorTrayIcon
+net.java.sip.communicator.impl.protocol.irc.ProtocolIconIrcImpl.static {};IrcStatusEnum
+net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1.app_indicator_set_icon_full(net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1$AppIndicator, java.lang.String, java.lang.String);AppIndicatorTrayIcon
+net.java.sip.communicator.impl.protocol.irc.ProtocolIconIrcImpl.getImageInBytes(java.lang.String);IrcStatusEnum
+net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1.app_indicator_set_status(net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1$AppIndicator, int);AppIndicatorTrayIcon
+net.java.sip.communicator.impl.protocol.irc.ProtocolIconIrcImpl.LOGGER;IrcStatusEnum
+net.java.sip.communicator.plugin.whiteboard.WhiteboardActivator.getUiService();WhiteboardSessionManager
+net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1.app_indicator_new_with_path(java.lang.String, java.lang.String, int, java.lang.String);AppIndicatorTrayIcon
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.AWAY;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.OCCUPIED;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.FREE_FOR_CHAT;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.DO_NOT_DISTURB;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1.app_indicator_set_menu(net.java.sip.communicator.impl.osdependent.systemtray.appindicator.AppIndicator1$AppIndicator, com.sun.jna.Pointer);AppIndicatorTrayIcon
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.ONLINE;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.INVISIBLE;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.NOT_AVAILABLE;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.plugin.whiteboard.WhiteboardActivator.uiService;WhiteboardSessionManager
+net.java.sip.communicator.service.protocol.icqconstants.IcqStatusEnum.OFFLINE;OperationSetPersistentPresenceIcqImpl
+net.java.sip.communicator.impl.callhistory.CallHistoryServiceImpl.getProtocolProvider(java.lang.String);CallHistoryActivator
+net.java.sip.communicator.impl.gui.main.contactlist.ContactNode.getContactDescriptor();ChatTransferHandler
+net.java.sip.communicator.impl.gui.main.contactlist.ContactNode.getUserObject();ChatTransferHandler
+net.java.sip.communicator.plugin.securityconfig.SecurityConfigurationPanel.init();SecurityConfigActivator
+net.java.sip.communicator.plugin.securityconfig.SecurityConfigurationPanel.addTab(java.lang.String, java.awt.Component);SecurityConfigActivator
+net.java.sip.communicator.plugin.securityconfig.SecurityConfigurationPanel.addConfigForm(net.java.sip.communicator.service.gui.ConfigurationForm);SecurityConfigActivator
+net.java.sip.communicator.impl.protocol.jabber.OperationSetBasicTelephonyJabberImpl.convertReasonCodeToSIPCode(int);Reason
+net.java.sip.communicator.plugin.desktoputil.ComponentUtils.getStringWidth(java.awt.Component, java.lang.String);StatusPanel
+net.java.sip.communicator.plugin.desktoputil.ComponentUtils.getStringSize(java.awt.Component, java.lang.String);StatusPanel
+net.java.sip.communicator.impl.globaldisplaydetails.GlobalStatusServiceImpl.handleProviderRemoved(net.java.sip.communicator.service.protocol.ProtocolProviderService);GlobalDisplayDetailsActivator
+net.java.sip.communicator.impl.protocol.jabber.CallPeerJabberImpl.transfer(java.lang.String, java.lang.String);Reason
+net.java.sip.communicator.impl.gui.main.chat.OutgoingMessageStyle.createDateStyle();ChatHtmlUtils
+net.java.sip.communicator.impl.protocol.jabber.JingleNodesCandidate.getTransportAddress();JingleNodesCandidateDatagramSocket
+net.java.sip.communicator.impl.gui.main.account.AccountRegSummaryPage.setPreferredSize(java.awt.Dimension);AccountRegWizardContainerImpl
+net.java.sip.communicator.impl.gui.main.contactlist.MetaContactListManager.removeMetaContactGroup(net.java.sip.communicator.service.contactlist.MetaContactGroup);GroupRightButtonMenu
+net.java.sip.communicator.impl.gui.main.call.VolumeControlSlider.getPopupMenu();OutputVolumeControlButton
+net.java.sip.communicator.impl.gui.main.chat.ChatConversationPanel.getChatConfigForm();ShowPreviewDialog
+net.java.sip.communicator.plugin.loggingutils.LoggingConfigForm.collectLogs();LogsCollector
+net.java.sip.communicator.impl.gui.main.contactlist.GroupNode.getFirstChild();ContactListTreeModel
+net.java.sip.communicator.impl.resources.ResourceManagementServiceImpl.prepareSkinBundleFromZip(java.io.File);SkinJarBuilder
+net.java.sip.communicator.impl.protocol.gibberish.OperationSetPersistentPresenceGibberishImpl.getSupportedStatusSet();GibberishStatusEnum
+net.java.sip.communicator.impl.sysactivity.NetworkManagerListenerImpl.handle(org.freedesktop.dbus.DBusSignal);SysActivityActivator
+net.java.sip.communicator.plugin.notificationconfiguration.NotificationsTable.getColumnIconValue(int);StringTableRenderer
+net.java.sip.communicator.impl.hid.NativeKeyboard.symbolPress(java.lang.String);HIDServiceImpl
+net.java.sip.communicator.impl.gui.main.UINotificationManager.removeAllNotifications(net.java.sip.communicator.impl.gui.main.UINotificationGroup);UINotificationGroup
+net.java.sip.communicator.impl.growlnotification.GrowlNotificationServiceImpl.stop(org.osgi.framework.BundleContext);GrowlNotificationActivator
+net.java.sip.communicator.plugin.otr.ScSessionStatus.ordinal();OtrContactMenu
+net.java.sip.communicator.service.protocol.AccountInfoUtils.getImage(net.java.sip.communicator.service.protocol.OperationSetServerStoredAccountInfo);VideoConferenceCallPanel
+net.java.sip.communicator.plugin.sipaccregwizz.ConnectionPanel.getParent();SIPAccountRegistrationForm
+net.java.sip.communicator.impl.protocol.sip.ContactSipImpl.toString();ContactGroupSipImpl
+net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager.leaveChatRoom(net.java.sip.communicator.impl.gui.main.chat.conference.AdHocChatRoomWrapper);ChatWindowManager
+net.java.sip.communicator.util.NetworkUtils.isValidPortNumber(int);PortTracker
+net.java.sip.communicator.impl.hid.NativeKeyboard.symbolRelease(java.lang.String);HIDServiceImpl
+net.java.sip.communicator.impl.gui.main.call.conference.ConferenceMemberPanel.propertyChange(java.beans.PropertyChangeEvent);ConferenceMemberState
+net.java.sip.communicator.impl.hid.NativeKeyboard.doSymbolAction(java.lang.String, boolean);HIDServiceImpl
+net.java.sip.communicator.impl.contactlist.MetaContactImpl.fireMetaContactModified(java.lang.String, java.lang.Object, java.lang.Object);MetaContactGroupImpl
+net.java.sip.communicator.impl.protocol.sip.SipMessageFactory.createAck(javax.sip.ClientTransaction);ProtocolProviderServiceSipImpl
+net.java.sip.communicator.impl.gui.lookandfeel.SIPCommLookAndFeel.getControlDarkShadow();SIPCommCheckBoxMenuItemUI
+net.java.sip.communicator.impl.protocol.jabber.UriHandlerJabberImpl.promptForRegistration(java.lang.String, net.java.sip.communicator.service.protocol.ProtocolProviderService);JabberActivator
+net.java.sip.communicator.impl.gui.main.chat.ChatTransportSelectorBox.setVisible(boolean);ChatWritePanel
+net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.CandidateType.valueOf(java.lang.String);IceUdpTransportManager
+net.java.sip.communicator.impl.protocol.jabber.ServerStoredContactListJabberImpl.isPrivateMessagingContact(java.lang.String);OperationSetPersistentPresenceJabberImpl
+net.java.sip.communicator.impl.protocol.gibberish.OperationSetPersistentPresenceGibberishImpl.addGibberishGroupAndFireEvent(net.java.sip.communicator.impl.protocol.gibberish.ContactGroupGibberishImpl, net.java.sip.communicator.impl.protocol.gibberish.ContactGroupGibberishImpl);ContactGroupGibberishImpl
+net.java.sip.communicator.plugin.provisioning.ProvisioningServiceImpl.setProvisioningUri(java.lang.String);ProvisioningActivator
+net.java.sip.communicator.impl.contactlist.MetaContactGroupImpl.findMetaContactByContact(java.lang.String, java.lang.String);MetaContactListServiceImpl
+net.java.sip.communicator.impl.googlecontacts.configform.GoogleContactsTableModel.getColumnName(int);AccountSettingsForm

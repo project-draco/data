@@ -1,0 +1,71 @@
+com.facebook.presto.operator.scalar.MathFunctions.round(double);DoubleOperators
+com.facebook.presto.operator.scalar.MathFunctions.round(double, long);DoubleOperators
+com.facebook.presto.sql.planner.SystemPartitioningHandle.FIXED_BROADCAST_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.SINGLE_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.FIXED_HASH_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.FIXED_RANDOM_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.static {};OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.COORDINATOR_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.SOURCE_DISTRIBUTION;OutputBuffers
+com.facebook.presto.sql.planner.SystemPartitioningHandle.createSystemPartitioning(com.facebook.presto.sql.planner.SystemPartitioningHandle$SystemPartitioning, com.facebook.presto.sql.planner.SystemPartitioningHandle$SystemPartitionFunction);OutputBuffers
+com.facebook.presto.execution.scheduler.NetworkLocation.NetworkLocation(java.lang.String[]);NetworkLocationCache
+com.facebook.presto.execution.scheduler.NetworkLocation.ROOT_LOCATION;NetworkLocationCache
+com.facebook.presto.execution.scheduler.NetworkLocation.static {};NetworkLocationCache
+com.facebook.presto.execution.scheduler.NodeScheduler.selectExactNodes(com.facebook.presto.execution.scheduler.NodeMap, java.util.List, boolean);NodeMap
+com.facebook.presto.execution.scheduler.NodeScheduler.randomizedNodes(com.facebook.presto.execution.scheduler.NodeMap, boolean);NodeMap
+com.facebook.presto.execution.scheduler.NodeScheduler.selectNodes(int, java.util.Iterator, boolean);NodeMap
+com.facebook.presto.sql.planner.EffectivePredicateExtractor.visitFilter(com.facebook.presto.sql.planner.plan.FilterNode, java.lang.Void);ExpressionUtils
+com.facebook.presto.sql.planner.EffectivePredicateExtractor.pullNullableConjunctsThroughOuterJoin(java.util.List, java.util.function.Predicate[]);ExpressionUtils
+com.facebook.presto.sql.planner.EffectivePredicateExtractor.visitJoin(com.facebook.presto.sql.planner.plan.JoinNode, java.lang.Void);ExpressionUtils
+com.facebook.presto.operator.aggregation.state.MinMaxByNStateSerializer.serialize(com.facebook.presto.operator.aggregation.state.MinMaxByNState, com.facebook.presto.spi.block.BlockBuilder);TypedKeyValueHeap
+com.facebook.presto.operator.aggregation.state.MinMaxNStateSerializer.serialize(com.facebook.presto.operator.aggregation.state.MinMaxNState, com.facebook.presto.spi.block.BlockBuilder);TypedHeap
+com.facebook.presto.operator.aggregation.state.MinMaxByNStateSerializer.serialize(java.lang.Object, com.facebook.presto.spi.block.BlockBuilder);TypedKeyValueHeap
+com.facebook.presto.operator.aggregation.state.MinMaxNStateSerializer.serialize(java.lang.Object, com.facebook.presto.spi.block.BlockBuilder);TypedHeap
+com.facebook.presto.operator.aggregation.Histogram.combine(com.facebook.presto.operator.aggregation.state.HistogramState, com.facebook.presto.operator.aggregation.state.HistogramState);TypedHistogram
+com.facebook.presto.operator.aggregation.Histogram.input(com.facebook.presto.spi.type.Type, com.facebook.presto.operator.aggregation.state.HistogramState, com.facebook.presto.spi.block.Block, int);TypedHistogram
+com.facebook.presto.operator.aggregation.Histogram.output(com.facebook.presto.spi.type.Type, com.facebook.presto.operator.aggregation.state.HistogramState, com.facebook.presto.spi.block.BlockBuilder);TypedHistogram
+com.facebook.presto.operator.aggregation.MapAggregationFunction.combine(com.facebook.presto.operator.aggregation.state.KeyValuePairsState, com.facebook.presto.operator.aggregation.state.KeyValuePairsState);KeyValuePairs
+com.facebook.presto.operator.aggregation.MapAggregationFunction.output(com.facebook.presto.operator.aggregation.state.KeyValuePairsState, com.facebook.presto.spi.block.BlockBuilder);KeyValuePairs
+com.facebook.presto.operator.aggregation.MapAggregationFunction.input(com.facebook.presto.spi.type.Type, com.facebook.presto.spi.type.Type, com.facebook.presto.operator.aggregation.state.KeyValuePairsState, com.facebook.presto.spi.block.Block, com.facebook.presto.spi.block.Block, int);KeyValuePairs
+com.facebook.presto.operator.aggregation.AggregationCompiler.isParameterBlock(java.lang.annotation.Annotation[]);BindableAggregationFunction
+com.facebook.presto.type.BooleanOperators.castToInteger(boolean);JsonOperators
+com.facebook.presto.operator.aggregation.AggregationCompiler.isParameterNullable(java.lang.annotation.Annotation[]);BindableAggregationFunction
+com.facebook.presto.type.BooleanOperators.castToBigint(boolean);JsonOperators
+com.facebook.presto.type.BooleanOperators.castToDouble(boolean);JsonOperators
+com.facebook.presto.sql.planner.optimizations.ApplyNodeRewriter.mapAssignmentSymbolsToExpression(java.util.Map);ExpressionNodeInliner
+com.facebook.presto.sql.planner.optimizations.ApplyNodeRewriter.visitProject(com.facebook.presto.sql.planner.plan.ProjectNode, com.facebook.presto.sql.planner.plan.SimplePlanRewriter$RewriteContext);ExpressionNodeInliner
+com.facebook.presto.operator.aggregation.MultimapAggregationFunction.combine(com.facebook.presto.operator.aggregation.state.KeyValuePairsState, com.facebook.presto.operator.aggregation.state.KeyValuePairsState);ExceededMemoryLimitException
+com.facebook.presto.operator.aggregation.MultimapAggregationFunction.input(com.facebook.presto.operator.aggregation.state.KeyValuePairsState, com.facebook.presto.spi.block.Block, com.facebook.presto.spi.block.Block, int);ExceededMemoryLimitException
+com.facebook.presto.sql.planner.optimizations.ApplyNodeRewriter.reference;ExpressionNodeInliner
+com.facebook.presto.metadata.MetadataUtil.findColumnMetadata(com.facebook.presto.spi.ConnectorTableMetadata, java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.createQualifiedObjectName(com.facebook.presto.Session, com.facebook.presto.sql.tree.Node, com.facebook.presto.sql.tree.QualifiedName);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.MetadataUtil();SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.tableExists(com.facebook.presto.metadata.Metadata, com.facebook.presto.Session, java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.createCatalogSchemaName(com.facebook.presto.Session, com.facebook.presto.sql.tree.Node, java.util.Optional);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.checkTableName(java.lang.String, java.util.Optional, java.util.Optional);SemanticErrorCode
+com.facebook.presto.execution.TaskInfo.createInitialTask(com.facebook.presto.execution.TaskId, java.net.URI, java.util.List, com.facebook.presto.operator.TaskStats);BufferState
+com.facebook.presto.metadata.MetadataUtil.checkObjectName(java.lang.String, java.lang.String, java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.checkCatalogName(java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.checkLowerCase(java.lang.String, java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.checkSchemaName(java.lang.String);SemanticErrorCode
+com.facebook.presto.metadata.MetadataUtil.checkTableName(java.lang.String);SemanticErrorCode
+com.facebook.presto.operator.scalar.StringFunctions.upper(io.airlift.slice.Slice);ColorFunctions
+com.facebook.presto.operator.aggregation.AggregationUtils.getRegressionSlope(com.facebook.presto.operator.aggregation.state.RegressionState);RealRegressionAggregation
+com.facebook.presto.operator.aggregation.AggregationUtils.getRegressionIntercept(com.facebook.presto.operator.aggregation.state.RegressionState);RealRegressionAggregation
+com.facebook.presto.sql.planner.optimizations.AddExchanges.meetsPartitioningRequirements(com.facebook.presto.sql.planner.optimizations.PreferredProperties, com.facebook.presto.sql.planner.optimizations.ActualProperties);ActualProperties
+com.facebook.presto.type.TypeUtils.checkElementNotNull(boolean, java.lang.String);MapType
+com.facebook.presto.type.TimeOperators.castToSlice(com.facebook.presto.spi.ConnectorSession, long);DateTimeUtils
+com.facebook.presto.type.TypeUtils.hashPosition(com.facebook.presto.spi.type.Type, com.facebook.presto.spi.block.Block, int);MapType
+com.facebook.presto.execution.scheduler.NodeScheduler.selectDistributionNodes(com.facebook.presto.execution.scheduler.NodeMap, com.facebook.presto.execution.NodeTaskMap, int, int, java.util.Set, java.util.List, com.facebook.presto.sql.planner.NodePartitionMap);NodeAssignmentStats
+com.facebook.presto.type.TypeUtils.positionEqualsPosition(com.facebook.presto.spi.type.Type, com.facebook.presto.spi.block.Block, int, com.facebook.presto.spi.block.Block, int);MapType
+com.facebook.presto.type.TimeOperators.castFromSlice(com.facebook.presto.spi.ConnectorSession, io.airlift.slice.Slice);DateTimeUtils
+com.facebook.presto.execution.SqlQueryManager.addCompletionCallback(com.facebook.presto.execution.QueryExecution, java.lang.Runnable);QueuedExecution
+com.facebook.presto.type.TimestampOperators.castToTimeWithTimeZone(com.facebook.presto.spi.ConnectorSession, long);DateTimeOperators
+com.facebook.presto.type.TimestampWithTimeZoneOperators.castToTime(long);DateTimeOperators
+com.facebook.presto.metadata.MetadataUtil.createQualifiedName(com.facebook.presto.metadata.QualifiedObjectName);QualifiedObjectName
+com.facebook.presto.type.TimestampOperators.castToTime(com.facebook.presto.spi.ConnectorSession, long);DateTimeOperators
+com.facebook.presto.type.TimestampWithTimeZoneOperators.castToTimeWithTimeZone(long);DateTimeOperators
+com.facebook.presto.operator.aggregation.AggregationUtils.generateAggregationName(java.lang.String, com.facebook.presto.spi.type.TypeSignature, java.util.List);MapUnionAggregation
+com.facebook.presto.type.DateOperators.castToTimestamp(com.facebook.presto.spi.ConnectorSession, long);DateTimeZoneIndex
+com.facebook.presto.type.DateOperators.castToTimestampWithTimeZone(com.facebook.presto.spi.ConnectorSession, long);DateTimeZoneIndex
+com.facebook.presto.util.Failures.checkCondition(boolean, com.facebook.presto.spi.ErrorCodeSupplier, java.lang.String, java.lang.Object[]);ApproximateCountDistinctAggregations

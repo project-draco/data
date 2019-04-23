@@ -1,0 +1,21 @@
+digraph {
+subgraph cluster3 {
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/userJoined(UserJoined)/body";
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/userLeft(UserLeft)/body";
+}
+subgraph cluster0 {
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/captureScreen()/body";
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/stop()/body";
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/go(String,int,int,int,int)/body";
+}
+subgraph cluster1 {
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/processMessage(IMessage)/body";
+"bigbluebutton-web_src_java_org_bigbluebutton_api_messaging_MeetingMessageHandler.java/[CN]/MeetingMessageHandler/[MT]/handleMessage(String,String,String)/body";
+}
+subgraph cluster2 {
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/start()/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/connect()/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_FlashToSipAudioStream.java/[CN]/FlashToSipAudioStream/[MT]/processAudioData()/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_SipToFlashAudioStream.java/[CN]/SipToFlashAudioStream/[MT]/processAudioData()/body";
+}
+}

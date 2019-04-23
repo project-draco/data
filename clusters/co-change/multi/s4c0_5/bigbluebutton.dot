@@ -1,0 +1,71 @@
+digraph {
+subgraph cluster7 {
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_sip_GlobalCall.java/[CN]/GlobalCall/[MT]/removeRoom(String)/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_sip_GlobalCall.java/[CN]/GlobalCall/[MT]/removeUser(String)/body";
+}
+subgraph cluster0 {
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/processMessage(IMessage)/body";
+"bigbluebutton-web_src_java_org_bigbluebutton_api_messaging_MeetingMessageHandler.java/[CN]/MeetingMessageHandler/[MT]/handleMessage(String,String,String)/body";
+}
+subgraph cluster13 {
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/userJoined(UserJoined)/body";
+"bigbluebutton-web_src_java_org_bigbluebutton_api_MeetingService.java/[CN]/MeetingService/[MT]/userLeft(UserLeft)/body";
+}
+subgraph cluster2 {
+"bigbluebutton-web_src_java_org_bigbluebutton_web_services_KeepAliveService.java/[CN]/KeepAliveService/[MT]/processPong(KeepAlivePong)/body";
+"bigbluebutton-web_src_java_org_bigbluebutton_web_services_KeepAliveService.java/[CN]/KeepAliveService/[MT]/processPing(KeepAlivePing)/body";
+}
+subgraph cluster12 {
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/captureScreen()/body";
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/stop()/body";
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_javacv_FfmpegScreenshare.java/[CN]/FfmpegScreenshare/[MT]/go(String,int,int,int,int)/body";
+}
+subgraph cluster3 {
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_SipToFlashAudioStream.java/[CN]/SipToFlashAudioStream/[MT]/stop()/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_FlashToSipAudioStream.java/[CN]/FlashToSipAudioStream/[MT]/start(IBroadcastStream,IScope)/body";
+}
+subgraph cluster1 {
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_SipToFlashAudioStream.java/[CN]/SipToFlashAudioStream/[MT]/processAudioData()/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_FlashToSipAudioStream.java/[CN]/FlashToSipAudioStream/[MT]/processAudioData()/body";
+"bbb-voice_src_main_java_org_bigbluebutton_voiceconf_red5_media_FlashToSipAudioStream.java/[CN]/FlashToSipAudioStream/[MT]/stop(IBroadcastStream,IScope)/body";
+}
+subgraph cluster5 {
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkHttpStreamSender.java/[CN]/NetworkHttpStreamSender/[MT]/disconnect()/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkHttpStreamSender.java/[CN]/NetworkHttpStreamSender/[MT]/sendStartStreamMessage()/body";
+}
+subgraph cluster8 {
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_ScreenRegionSharer.java/[CN]/ScreenRegionSharer/[MT]/pause()/body";
+"bbb-screenshare_jws_webstart_src_main_java_org_bigbluebutton_screenshare_client_net_NetworkHttpStreamSender.java/[CN]/NetworkHttpStreamSender/[MT]/sendUpdateMessage(ShareUpdateMessage)/body";
+}
+subgraph cluster4 {
+"record-and-playback_process-audio.py/[MT]/main/body";
+"record-and-playback_process-audio.py/other";
+"record-and-playback_process-audio.py/[MT]/usage/body";
+}
+subgraph cluster9 {
+"bigbluebutton-apps_src_main_java_org_bigbluebutton_conference_service_voice_VoiceHandler.java/[CN]/VoiceHandler/[MT]/roomStop(IScope)/body";
+"bigbluebutton-apps_src_main_java_org_bigbluebutton_conference_service_voice_VoiceHandler.java/[CN]/VoiceHandler/[MT]/roomConnect(IConnection,Object[])/body";
+}
+subgraph cluster10 {
+"bigbluebutton-apps_src_main_java_org_bigbluebutton_conference_service_presentation_PresentationApplication.java/[CN]/PresentationApplication/[MT]/getSlideInfo(String,String)/body";
+"bigbluebutton-apps_src_main_java_org_bigbluebutton_conference_service_presentation_PresentationApplication.java/[CN]/PresentationApplication/[MT]/getPresentationInfo(String,String)/body";
+}
+subgraph cluster15 {
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_DeskShareApplet.java/[CN]/DeskShareApplet/[MT]/stop()/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_DeskShareApplet.java/[CN]/DeskShareApplet/[MT]/start()/body";
+}
+subgraph cluster14 {
+"deskshare_app_src_main_java_org_bigbluebutton_deskshare_server_socket_BlockStreamProtocolDecoder.java/[CN]/BlockStreamProtocolDecoder/[MT]/decodeCaptureEndEvent(IoSession,IoBuffer,ProtocolDecoderOutput)/body";
+"deskshare_app_src_main_java_org_bigbluebutton_deskshare_server_socket_BlockStreamProtocolDecoder.java/[CN]/BlockStreamProtocolDecoder/[MT]/decodeCaptureStartEvent(IoSession,IoBuffer,ProtocolDecoderOutput)/body";
+}
+subgraph cluster11 {
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/stop()/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/start()/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/createHttpSender(int)/body";
+"deskshare_applet_src_main_java_org_bigbluebutton_deskshare_client_net_NetworkStreamSender.java/[CN]/NetworkStreamSender/[MT]/connect()/body";
+}
+subgraph cluster6 {
+"bbb-video_src_main_java_org_bigbluebutton_app_video_VideoStreamListener.java/[CN]/VideoStreamListener/[CN]/TimeoutJob/[MT]/execute(ISchedulingService)/body";
+"bbb-video_src_main_java_org_bigbluebutton_app_video_VideoStreamListener.java/[CN]/VideoStreamListener/[MT]/packetReceived(IBroadcastStream,IStreamPacket)/body";
+}
+}

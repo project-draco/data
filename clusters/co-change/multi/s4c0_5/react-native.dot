@@ -1,0 +1,29 @@
+digraph {
+subgraph cluster3 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[CS]/ReactImageManager(AbstractDraweeControllerBuilder,Object)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[CS]/ReactImageManager()/body";
+}
+subgraph cluster0 {
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/draw(Canvas)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_view_ReactViewBackgroundDrawable.java/[CN]/ReactViewBackgroundDrawable/[MT]/updatePath()/body";
+}
+subgraph cluster1 {
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageManager.java/[CN]/ReactImageManager/[MT]/createViewInstance(ThemedReactContext)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_image_ReactImageView.java/[CN]/ReactImageView/[MT]/setLoadingIndicatorSource(String)/body";
+}
+subgraph cluster6 {
+"ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputShadowNode.java/[CN]/ReactTextInputShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextView.java/[CN]/ReactTextView/[MT]/setText(ReactTextUpdate)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_text_ReactTextShadowNode.java/[CN]/ReactTextShadowNode/[MT]/onCollectExtraUpdates(UIViewOperationQueue)/body";
+}
+subgraph cluster5 {
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onReceivedError(WebView,int,String,String)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/onPageStarted(WebView,String,Bitmap)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/doUpdateVisitedHistory(WebView,String,boolean)/body";
+"ReactAndroid_src_main_java_com_facebook_react_views_webview_ReactWebViewManager.java/[CN]/ReactWebViewManager/[CN]/ReactWebViewClient/[MT]/emitFinishEvent(WebView,String)/body";
+}
+subgraph cluster4 {
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_JSTouchDispatcher.java/[CN]/JSTouchDispatcher/[MT]/dispatchCancelEvent(MotionEvent,EventDispatcher)/body";
+"ReactAndroid_src_main_java_com_facebook_react_uimanager_JSTouchDispatcher.java/[CN]/JSTouchDispatcher/[MT]/handleTouchEvent(MotionEvent,EventDispatcher)/body";
+}
+}

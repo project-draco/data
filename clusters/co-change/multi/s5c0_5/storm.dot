@@ -1,0 +1,27 @@
+digraph {
+subgraph cluster1 {
+"bin_storm.py/[MT]/ui/body";
+"bin_storm.py/[MT]/nimbus/body";
+"bin_storm.py/[MT]/supervisor/body";
+"bin_storm.py/[MT]/logviewer/body";
+}
+subgraph cluster5 {
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/_consumer";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/INTERRUPT";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/_cache";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/FLUSH_CACHE";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/_barrier";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[FE]/_buffer";
+"storm-core_src_jvm_backtype_storm_utils_DisruptorQueue.java/[CN]/DisruptorQueue/[MT]/consumeBatchWhenAvailable(EventHandler<Object>)/body";
+}
+subgraph cluster6 {
+"storm-core_src_jvm_backtype_storm_messaging_netty_Context.java/[CN]/Context/[MT]/term()/body";
+"storm-core_src_jvm_backtype_storm_messaging_netty_Context.java/[CN]/Context/[MT]/prepare(Map)/body";
+"storm-core_src_jvm_backtype_storm_messaging_netty_Context.java/[CN]/Context/[MT]/connect(String,String,int)/body";
+}
+subgraph cluster2 {
+"storm-core_src_jvm_backtype_storm_task_ShellBolt.java/[CN]/ShellBolt/[MT]/execute(Tuple)/body";
+"storm-core_src_jvm_backtype_storm_task_ShellBolt.java/[CN]/ShellBolt/[MT]/prepare(Map,TopologyContext,OutputCollector)/body";
+"storm-core_src_jvm_backtype_storm_spout_ShellSpout.java/[CN]/ShellSpout/[MT]/open(Map,TopologyContext,SpoutOutputCollector)/body";
+}
+}

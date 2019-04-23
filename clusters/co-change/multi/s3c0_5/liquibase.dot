@@ -1,0 +1,333 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+digraph {
+subgraph cluster20 {
+"core_src_java_liquibase_parser_xml_XMLChangeLogHandler.java/[CN]/XMLChangeLogHandler/[MT]/endElement(String,String,String)/body";
+"core_src_java_liquibase_parser_xml_XMLChangeLogHandler.java/[CN]/XMLChangeLogHandler/[MT]/startElement(String,String,String,Attributes)/body";
+}
+subgraph cluster34 {
+"liquibase-core_src_main_java_liquibase_database_structure_type_TimeType.java/[CN]/TimeType/[MT]/convertObjectToString(Object,Database)/body";
+"liquibase-core_src_main_java_liquibase_database_structure_type_DateType.java/[CN]/DateType/[MT]/convertObjectToString(Object,Database)/body";
+}
+subgraph cluster47 {
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(Date,Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/markNextChangeSetRan(Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/listUnrunChangeSets(Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/futureRollbackSQL(Integer,Contexts,Writer)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/update(int,Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/update(Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/dropAll(CatalogAndSchema)/body";
+}
+subgraph cluster12 {
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/listLocks()/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/tag(String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/forceReleaseLocks()/body";
+}
+subgraph cluster44 {
+"liquibase-core_src_main_java_liquibase_changelog_visitor_ValidatingVisitor.java/[CN]/ValidatingVisitor/[MT]/visit(ChangeSet,DatabaseChangeLog,Database)/body";
+"liquibase-core_src_main_java_liquibase_parser_core_xml_XMLChangeLogSAXHandler.java/[CN]/XMLChangeLogSAXHandler/[MT]/startElement(String,String,String,Attributes)/body";
+"liquibase-core_src_main_java_liquibase_change_core_SQLFileChange.java/[CN]/SQLFileChange/[MT]/setSql(String)/body";
+"liquibase-core_src_main_java_liquibase_parser_core_xml_XMLChangeLogSAXHandler.java/[CN]/XMLChangeLogSAXHandler/[MT]/endElement(String,String,String)/body";
+}
+subgraph cluster2 {
+"liquibase-core_src_main_java_liquibase_datatype_core_BooleanType.java/[CN]/BooleanType/[MT]/getTrueBooleanValue(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_BooleanType.java/[CN]/BooleanType/[MT]/getFalseBooleanValue(Database)/body";
+}
+subgraph cluster23 {
+"core_src_java_liquibase_database_sql_DropDefaultValueStatement.java/[CN]/DropDefaultValueStatement/[MT]/getSqlStatement(Database)/body";
+"core_src_java_liquibase_database_sql_AddColumnStatement.java/[CN]/AddColumnStatement/[MT]/getSqlStatement(Database)/body";
+"core_src_java_liquibase_database_sql_AddDefaultValueStatement.java/[CN]/AddDefaultValueStatement/[MT]/getSqlStatement(Database)/body";
+}
+subgraph cluster24 {
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ColumnSnapshotGenerator.java/[CN]/ColumnSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ColumnSnapshotGenerator.java/[CN]/ColumnSnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster51 {
+"liquibase-core_src_main_java_liquibase_util_NetUtil.java/[CN]/NetUtil/[MT]/getLocalHostName()/body";
+"liquibase-core_src_main_java_liquibase_util_NetUtil.java/[CN]/NetUtil/[MT]/getLocalHostAddress()/body";
+}
+subgraph cluster9 {
+"liquibase-core_src_main_java_liquibase_sdk_vagrant_VagrantControl.java/[CN]/VagrantControl/[MT]/init(VagrantInfo,CommandLine)/body";
+"liquibase-core_src_main_java_liquibase_sdk_vagrant_VagrantControl.java/[CN]/VagrantControl/[MT]/writeVagrantFile(VagrantInfo)/body";
+}
+subgraph cluster30 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_SetColumnRemarksGenerator.java/[CN]/SetColumnRemarksGenerator/[MT]/supports(SetColumnRemarksStatement,Database)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_SetTableRemarksGenerator.java/[CN]/SetTableRemarksGenerator/[MT]/generateSql(SetTableRemarksStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_SetTableRemarksGenerator.java/[CN]/SetTableRemarksGenerator/[MT]/supports(SetTableRemarksStatement,Database)/body";
+}
+subgraph cluster11 {
+"liquibase-core_src_main_java_liquibase_integration_ant_ChangeLogSyncTask.java/[CN]/ChangeLogSyncTask/[MT]/executeWithLiquibaseClassloader()/body";
+"liquibase-core_src_main_java_liquibase_integration_ant_DatabaseUpdateTestingRollbackTask.java/[CN]/DatabaseUpdateTestingRollbackTask/[MT]/executeWithLiquibaseClassloader()/body";
+"liquibase-core_src_main_java_liquibase_integration_ant_DatabaseRollbackFutureTask.java/[CN]/DatabaseRollbackFutureTask/[MT]/executeWithLiquibaseClassloader()/body";
+"liquibase-core_src_main_java_liquibase_integration_ant_MarkNextChangeSetRanTask.java/[CN]/MarkNextChangeSetRanTask/[MT]/executeWithLiquibaseClassloader()/body";
+}
+subgraph cluster21 {
+"core_src_java_liquibase_database_structure_ForeignKey.java/[CN]/ForeignKey/[MT]/equals(Object)/body";
+"core_src_java_liquibase_database_structure_ForeignKey.java/[CN]/ForeignKey/[MT]/hashCode()/body";
+}
+subgraph cluster22 {
+"liquibase-core_src_main_java_liquibase_datatype_core_DecimalType.java/[CN]/DecimalType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_FloatType.java/[CN]/FloatType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster10 {
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/markNextChangeSetRan(String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/generateDocumentation(String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(int,String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(Date,String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/update(String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/update(int,String)/body";
+}
+subgraph cluster49 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_InsertSetGenerator.java/[CN]/InsertSetGenerator/[MT]/generateSql(InsertSetStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_InsertSetGenerator.java/[CN]/InsertSetGenerator/[MT]/generateHeader(StringBuffer,InsertSetStatement,Database)/body";
+}
+subgraph cluster8 {
+"liquibase-core_src_main_java_liquibase_datatype_core_BigIntType.java/[CN]/BigIntType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_DoubleType.java/[CN]/DoubleType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster29 {
+"src_java_liquibase_migrator_Migrator.java/[CN]/Migrator/[MT]/migrate()/body";
+"src_java_liquibase_migrator_ant_DatabaseMigratorTask.java/[CN]/DatabaseMigratorTask/[MT]/execute()/body";
+"src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/checkDatabaseChangeLogTable(Migrator)/body";
+"src_java_liquibase_migrator_maven_LiquibaseMojo.java/[CN]/LiquibaseMojo/[MT]/execute()/body";
+}
+subgraph cluster31 {
+"maven_src_main_java_org_liquibase_maven_plugins_AbstractLiquibaseMojo.java/[CN]/AbstractLiquibaseMojo/[MT]/getArtifactClassloader()/body";
+"maven_src_main_java_org_liquibase_maven_plugins_AbstractLiquibaseMojo.java/[CN]/AbstractLiquibaseMojo/[MT]/execute()/body";
+}
+subgraph cluster14 {
+"liquibase-core_src_main_java_liquibase_serializer_core_xml_XMLChangeLogSerializer.java/[CN]/XMLChangeLogSerializer/[MT]/createNode(SqlVisitor)/body";
+"liquibase-core_src_main_java_liquibase_serializer_core_string_StringChangeLogSerializer.java/[CN]/StringChangeLogSerializer/[MT]/serializeObject(Object,int)/body";
+"liquibase-core_src_main_java_liquibase_serializer_core_xml_XMLChangeLogSerializer.java/[CN]/XMLChangeLogSerializer/[MT]/createNode(Change)/body";
+}
+subgraph cluster54 {
+"liquibase-core_src_main_java_liquibase_datatype_core_TinyIntType.java/[CN]/TinyIntType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_MediumIntType.java/[CN]/MediumIntType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_IntType.java/[CN]/IntType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_SmallIntType.java/[CN]/SmallIntType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster7 {
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ForeignKeySnapshotGenerator.java/[CN]/ForeignKeySnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ForeignKeySnapshotGenerator.java/[CN]/ForeignKeySnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster60 {
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/listUnrunChangeSets(String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(String,String)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/validate()/body";
+}
+subgraph cluster32 {
+"liquibase-core_src_main_java_liquibase_change_core_CreateProcedureChange.java/[CN]/CreateProcedureChange/[MT]/generateStatements(Database)/body";
+"liquibase-core_src_main_java_liquibase_change_core_CreateProcedureChange.java/[CN]/CreateProcedureChange/[MT]/generateCheckSum()/body";
+}
+subgraph cluster52 {
+"liquibase-core_src_main_java_liquibase_command_SnapshotCommand.java/[CN]/SnapshotCommand/[MT]/setSchemas(String)/body";
+"liquibase-core_src_main_java_liquibase_CatalogAndSchema.java/[CN]/CatalogAndSchema/[MT]/equals(CatalogAndSchema,Database)/body";
+}
+subgraph cluster39 {
+"liquibase-core_src_main_java_liquibase_datatype_core_ClobType.java/[CN]/ClobType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_NCharType.java/[CN]/NCharType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_CharType.java/[CN]/CharType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_NVarcharType.java/[CN]/NVarcharType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_VarcharType.java/[CN]/VarcharType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster4 {
+"liquibase-core_src_main_java_liquibase_datatype_core_DateType.java/[CN]/DateType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_DateTimeType.java/[CN]/DateTimeType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_TimeType.java/[CN]/TimeType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster46 {
+"liquibase-core_src_main_java_liquibase_logging_core_DefaultLogger.java/[CN]/DefaultLogger/[MT]/severe(String,Throwable)/body";
+"liquibase-core_src_main_java_liquibase_logging_core_DefaultLogger.java/[CN]/DefaultLogger/[MT]/warning(String,Throwable)/body";
+"liquibase-core_src_main_java_liquibase_logging_core_DefaultLogger.java/[CN]/DefaultLogger/[MT]/debug(String,Throwable)/body";
+"liquibase-core_src_main_java_liquibase_logging_core_DefaultLogger.java/[CN]/DefaultLogger/[MT]/info(String,Throwable)/body";
+"liquibase-core_src_main_java_liquibase_logging_core_DefaultLogger.java/[CN]/DefaultLogger/[MT]/print(LogLevel,String)/body";
+}
+subgraph cluster3 {
+"liquibase-core_src_main_java_liquibase_sql_visitor_AbstractSqlVisitor.java/[CN]/AbstractSqlVisitor/[MT]/load(ParsedNode,ResourceAccessor)/body";
+"liquibase-core_src_main_java_liquibase_changelog_ChangeSet.java/[CN]/ChangeSet/[MT]/handleRollbackNode(ParsedNode,ResourceAccessor)/body";
+"liquibase-core_src_main_java_liquibase_changelog_ChangeSet.java/[CN]/ChangeSet/[MT]/handleChildNode(ParsedNode,ResourceAccessor)/body";
+}
+subgraph cluster40 {
+"liquibase-core_src_main_java_liquibase_integration_ant_DBDocTask.java/[CN]/DBDocTask/[MT]/executeWithLiquibaseClassloader()/body";
+"liquibase-core_src_main_java_liquibase_integration_ant_GenerateChangeLogTask.java/[CN]/GenerateChangeLogTask/[MT]/executeWithLiquibaseClassloader()/body";
+}
+subgraph cluster62 {
+"core_src_java_liquibase_change_DropNotNullConstraintChange.java/[CN]/DropNotNullConstraintChange/[MT]/generateStatements(Database)/body";
+"core_src_java_liquibase_change_AddNotNullConstraintChange.java/[CN]/AddNotNullConstraintChange/[MT]/generateStatements(Database)/body";
+"core_src_java_liquibase_change_RenameColumnChange.java/[CN]/RenameColumnChange/[MT]/generateStatements(Database)/body";
+"core_src_java_liquibase_change_DropColumnChange.java/[CN]/DropColumnChange/[MT]/generateStatements(Database)/body";
+}
+subgraph cluster56 {
+"liquibase-core_src_main_java_liquibase_integration_commandline_Main.java/[CN]/Main/[MT]/isCommand(String)/body";
+"liquibase-core_src_main_java_liquibase_integration_commandline_Main.java/[CN]/Main/[MT]/printHelp(PrintStream)/body";
+}
+subgraph cluster18 {
+"liquibase-maven-plugin_src_main_java_org_liquibase_maven_plugins_LiquibaseDatabaseDiff.java/[CN]/LiquibaseDatabaseDiff/[MT]/performLiquibaseTask(Liquibase)/body";
+"liquibase-maven-plugin_src_main_java_org_liquibase_maven_plugins_AbstractLiquibaseMojo.java/[CN]/AbstractLiquibaseMojo/[MT]/execute()/body";
+}
+subgraph cluster38 {
+"liquibase-core_src_main_java_liquibase_snapshot_JdbcDatabaseSnapshot.java/[CN]/JdbcDatabaseSnapshot/[CN]/CachingDatabaseMetaData/[MT]/getPrimaryKeys(String,String,String)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_JdbcDatabaseSnapshot.java/[CN]/JdbcDatabaseSnapshot/[CN]/CachingDatabaseMetaData/[MT]/getUniqueConstraints(String,String,String)/body";
+}
+subgraph cluster50 {
+"liquibase-core_src_main_java_liquibase_parser_core_formattedsql_FormattedSqlChangeLogParser.java/[CN]/FormattedSqlChangeLogParser/[MT]/supports(String,ResourceAccessor)/body";
+"liquibase-core_src_main_java_liquibase_parser_core_formattedsql_FormattedSqlChangeLogParser.java/[CN]/FormattedSqlChangeLogParser/[MT]/parse(String,ChangeLogParameters,ResourceAccessor)/body";
+"liquibase-core_src_main_java_liquibase_parser_core_sql_SqlChangeLogParser.java/[CN]/SqlChangeLogParser/[MT]/parse(String,ChangeLogParameters,ResourceAccessor)/body";
+}
+subgraph cluster28 {
+"liquibase-core_src_main_java_liquibase_change_core_SQLFileChange.java/[CN]/SQLFileChange/[MT]/finishInitialization()/body";
+"liquibase-core_src_main_java_liquibase_change_core_SQLFileChange.java/[CN]/SQLFileChange/[MT]/getSql()/body";
+"liquibase-core_src_main_java_liquibase_change_AbstractSQLChange.java/[CN]/AbstractSQLChange/[MT]/generateCheckSum()/body";
+}
+subgraph cluster35 {
+"liquibase-core_src_main_java_liquibase_parser_core_xml_LiquibaseEntityResolver.java/[CN]/LiquibaseEntityResolver/[MT]/tryResolveFromResourceAccessor(String)/body";
+"liquibase-core_src_main_java_liquibase_parser_core_xml_LiquibaseEntityResolver.java/[CN]/LiquibaseEntityResolver/[MT]/tryResolveLiquibaseSchema(String,String)/body";
+}
+subgraph cluster42 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateDatabaseChangeLogLockTableGenerator.java/[CN]/CreateDatabaseChangeLogLockTableGenerator/[MT]/generateSql(CreateDatabaseChangeLogLockTableStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateDatabaseChangeLogTableGenerator.java/[CN]/CreateDatabaseChangeLogTableGenerator/[MT]/generateSql(CreateDatabaseChangeLogTableStatement,Database,SqlGeneratorChain)/body";
+}
+subgraph cluster58 {
+"liquibase-core_src_main_java_liquibase_statement_ExecutablePreparedStatementBase.java/[CN]/ExecutablePreparedStatementBase/[MT]/toBinaryStream(String)/body";
+"liquibase-core_src_main_java_liquibase_statement_ExecutablePreparedStatementBase.java/[CN]/ExecutablePreparedStatementBase/[MT]/toCharacterStream(String,String)/body";
+}
+subgraph cluster53 {
+"liquibase-core_src_main_java_liquibase_servicelocator_ServiceLocator.java/[CN]/ServiceLocator/[CS]/ServiceLocator()/body";
+"liquibase-core_src_main_java_liquibase_servicelocator_ServiceLocator.java/[CN]/ServiceLocator/[MT]/setResourceAccessor(ResourceAccessor)/body";
+"liquibase-core_src_main_java_liquibase_servicelocator_ServiceLocator.java/[CN]/ServiceLocator/[CS]/ServiceLocator(ResourceAccessor)/body";
+}
+subgraph cluster33 {
+"core_src_java_liquibase_parser_ChangeLogParserFactory.java/[CN]/ChangeLogParserFactory/[CS]/ChangeLogParserFactory()/body";
+"core_src_java_liquibase_sqlgenerator_SqlGeneratorFactory.java/[CN]/SqlGeneratorFactory/[CS]/SqlGeneratorFactory()/body";
+}
+subgraph cluster63 {
+"core_src_java_liquibase_serializer_ChangeLogSerializerFactory.java/[CN]/ChangeLogSerializerFactory/[CS]/ChangeLogSerializerFactory()/body";
+"core_src_java_liquibase_precondition_PreconditionFactory.java/[CN]/PreconditionFactory/[CS]/PreconditionFactory()/body";
+"core_src_java_liquibase_database_DatabaseFactory.java/[CN]/DatabaseFactory/[CS]/DatabaseFactory()/body";
+}
+subgraph cluster13 {
+"liquibase-core_src_main_java_liquibase_serializer_core_yaml_YamlSnapshotSerializer.java/[CN]/YamlSnapshotSerializer/[CN]/SnapshotLiquibaseRepresenter/[MT]/init()/body";
+"liquibase-core_src_main_java_liquibase_structure_core_Column.java/[CN]/Column/[MT]/load(ParsedNode,ResourceAccessor)/body";
+}
+subgraph cluster27 {
+"liquibase-core_src_main_java_liquibase_snapshot_JdbcDatabaseSnapshot.java/[CN]/JdbcDatabaseSnapshot/[CN]/CachingDatabaseMetaData/[MT]/getIndexInfo(String,String,String,String)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_ResultSetCache.java/[CN]/ResultSetCache/[CN]/ResultSetExtractor/[MT]/extract(ResultSet)/body";
+}
+subgraph cluster5 {
+"liquibase-core_src_main_java_liquibase_database_core_H2Database.java/[CN]/H2Database/[CS]/H2Database()/body";
+"liquibase-core_src_main_java_liquibase_database_core_OracleDatabase.java/[CN]/OracleDatabase/[CS]/OracleDatabase()/body";
+}
+subgraph cluster1 {
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/generateDocumentation(String,Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/clearCheckSums()/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(String,Contexts)/body";
+"liquibase-core_src_main_java_liquibase_Liquibase.java/[CN]/Liquibase/[MT]/rollback(int,Contexts)/body";
+}
+subgraph cluster43 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateDatabaseChangeLogTableGenerator.java/[CN]/CreateDatabaseChangeLogTableGenerator/[MT]/getAuthorColumnSize()/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateDatabaseChangeLogTableGenerator.java/[CN]/CreateDatabaseChangeLogTableGenerator/[MT]/getIdColumnSize()/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateDatabaseChangeLogTableGenerator.java/[CN]/CreateDatabaseChangeLogTableGenerator/[MT]/getFilenameColumnSize()/body";
+}
+subgraph cluster59 {
+"liquibase-core_src_main_java_liquibase_lockservice_LockService.java/[CN]/LockService/[MT]/listLocks()/body";
+"liquibase-core_src_main_java_liquibase_lockservice_LockService.java/[CN]/LockService/[MT]/releaseLock()/body";
+}
+subgraph cluster41 {
+"liquibase-core_src_main_java_liquibase_snapshot_DatabaseSnapshot.java/[CN]/DatabaseSnapshot/[MT]/get(Class<DatabaseObjectType>)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_DatabaseSnapshot.java/[CN]/DatabaseSnapshot/[MT]/include(T)/body";
+}
+subgraph cluster61 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_AddUniqueConstraintGenerator.java/[CN]/AddUniqueConstraintGenerator/[MT]/generateSql(AddUniqueConstraintStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_AddUniqueConstraintGeneratorTDS.java/[CN]/AddUniqueConstraintGeneratorTDS/[MT]/supports(AddUniqueConstraintStatement,Database)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_UniqueConstraintSnapshotGenerator.java/[CN]/UniqueConstraintSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster16 {
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/dropDatabaseObjects(String)/body";
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/checkDatabaseChangeLogTable()/body";
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/checkDatabaseChangeLogLockTable()/body";
+}
+subgraph cluster0 {
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRunStatus(ChangeSet)/body";
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getRanChangeSetList()/body";
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/getCreateChangeLogSQL()/body";
+"core_src_java_liquibase_database_AbstractDatabase.java/[CN]/AbstractDatabase/[MT]/tag(String)/body";
+}
+subgraph cluster25 {
+"liquibase-core_src_main_java_liquibase_change_AbstractChange.java/[CN]/AbstractChange/[MT]/generateStatementsVolatile(Database)/body";
+"liquibase-core_src_main_java_liquibase_change_AbstractChange.java/[CN]/AbstractChange/[MT]/generateRollbackStatementsVolatile(Database)/body";
+"liquibase-core_src_main_java_liquibase_change_AbstractChange.java/[CN]/AbstractChange/[MT]/warn(Database)/body";
+"liquibase-core_src_main_java_liquibase_change_AbstractChange.java/[CN]/AbstractChange/[MT]/getAffectedDatabaseObjects(Database)/body";
+"liquibase-core_src_main_java_liquibase_change_AbstractChange.java/[CN]/AbstractChange/[MT]/validate(Database)/body";
+}
+subgraph cluster36 {
+"liquibase-core_src_main_java_liquibase_diff_output_changelog_core_UnexpectedUniqueConstraintChangeGenerator.java/[CN]/UnexpectedUniqueConstraintChangeGenerator/[MT]/fixUnexpected(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_diff_output_changelog_core_MissingUniqueConstraintChangeGenerator.java/[CN]/MissingUniqueConstraintChangeGenerator/[MT]/fixMissing(DatabaseObject,DiffOutputControl,Database,Database,ChangeGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_AddUniqueConstraintGenerator.java/[CN]/AddUniqueConstraintGenerator/[MT]/supports(AddUniqueConstraintStatement,Database)/body";
+"liquibase-core_src_main_java_liquibase_change_core_AddUniqueConstraintChange.java/[CN]/AddUniqueConstraintChange/[MT]/generateStatements(Database)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_AddUniqueConstraintGenerator.java/[CN]/AddUniqueConstraintGenerator/[MT]/validate(AddUniqueConstraintStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_UniqueConstraintSnapshotGenerator.java/[CN]/UniqueConstraintSnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster26 {
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ViewSnapshotGenerator.java/[CN]/ViewSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_TableSnapshotGenerator.java/[CN]/TableSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_ViewSnapshotGenerator.java/[CN]/ViewSnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster55 {
+"liquibase-core_src_main_java_liquibase_datatype_core_CurrencyType.java/[CN]/CurrencyType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_BooleanType.java/[CN]/BooleanType/[MT]/toDatabaseDataType(Database)/body";
+"liquibase-core_src_main_java_liquibase_datatype_core_BlobType.java/[CN]/BlobType/[MT]/toDatabaseDataType(Database)/body";
+}
+subgraph cluster48 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_UpdateChangeSetChecksumGenerator.java/[CN]/UpdateChangeSetChecksumGenerator/[MT]/generateSql(UpdateChangeSetChecksumStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_TagDatabaseGenerator.java/[CN]/TagDatabaseGenerator/[MT]/generateSql(TagDatabaseStatement,Database,SqlGeneratorChain)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_MarkChangeSetRanGenerator.java/[CN]/MarkChangeSetRanGenerator/[MT]/generateSql(MarkChangeSetRanStatement,Database,SqlGeneratorChain)/body";
+}
+subgraph cluster45 {
+"liquibase-core_src_main_java_liquibase_integration_ant_DatabaseUpdateTask.java/[CN]/DatabaseUpdateTask/[MT]/executeWithLiquibaseClassloader()/body";
+"liquibase-core_src_main_java_liquibase_integration_ant_DatabaseRollbackTask.java/[CN]/DatabaseRollbackTask/[MT]/executeWithLiquibaseClassloader()/body";
+}
+subgraph cluster15 {
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_IndexSnapshotGenerator.java/[CN]/IndexSnapshotGenerator/[MT]/addTo(DatabaseObject,DatabaseSnapshot)/body";
+"liquibase-core_src_main_java_liquibase_snapshot_jvm_IndexSnapshotGenerator.java/[CN]/IndexSnapshotGenerator/[MT]/snapshotObject(DatabaseObject,DatabaseSnapshot)/body";
+}
+subgraph cluster17 {
+"src_java_liquibase_migrator_commandline_CommandLineMigrator.java/[CN]/CommandLineMigrator/[MT]/printHelp(PrintStream)/body";
+"src_java_liquibase_migrator_commandline_CommandLineMigrator.java/[CN]/CommandLineMigrator/[MT]/doMigration()/body";
+"src_java_liquibase_migrator_commandline_CommandLineMigrator.java/[CN]/CommandLineMigrator/[MT]/isCommand(String)/body";
+}
+subgraph cluster37 {
+"liquibase-core_src_main_java_liquibase_command_DiffCommand.java/[CN]/DiffCommand/[MT]/createReferenceSnapshot()/body";
+"liquibase-core_src_main_java_liquibase_command_DiffCommand.java/[CN]/DiffCommand/[MT]/createTargetSnapshot()/body";
+}
+subgraph cluster19 {
+"liquibase-core_src_main_java_liquibase_integration_commandline_Main.java/[CN]/Main/[MT]/doMigration()/body";
+"liquibase-core_src_main_java_liquibase_diff_output_DiffOutputControl.java/[CN]/DiffOutputControl/[MT]/shouldOutput(DatabaseObject,Database)/body";
+"liquibase-core_src_main_java_liquibase_integration_commandline_Main.java/[CN]/Main/[MT]/checkForUnexpectedCommandParameter(List<String>)/body";
+}
+subgraph cluster57 {
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateProcedureGenerator.java/[CN]/CreateProcedureGenerator/[MT]/addSchemaToText(String,String,String,Database)/body";
+"liquibase-core_src_main_java_liquibase_sqlgenerator_core_CreateProcedureGenerator.java/[CN]/CreateProcedureGenerator/[MT]/generateSql(CreateProcedureStatement,Database,SqlGeneratorChain)/body";
+}
+}

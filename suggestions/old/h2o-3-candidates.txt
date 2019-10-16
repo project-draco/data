@@ -1,0 +1,10 @@
+h2o-core_src_main_java_water_JettyHTTPD.java/[CN]/JettyHTTPD/[MT]/sendErrorResponse(HttpServletResponse,Exception,String)/body GainsLift _JettyHTTPD.java/[CN]/JettyHTTPD/[MT]/sendErrorResponse(HttpServletResponse,Exception,String) 0
+h2o-core_src_main_java_water_api_FramesHandler.java/[CN]/FramesHandler/[MT]/columnSummary(int,FramesV3)/body FrameV3 _FramesHandler.java/[CN]/FramesHandler/[MT]/columnSummary(int,FramesV3) 6
+h2o-core_src_main_java_water_api_MetadataHandler.java/[CN]/MetadataHandler/[MT]/fetchSchemaMetadata(int,MetadataV3)/body RadixOrder _MetadataHandler.java/[CN]/MetadataHandler/[MT]/fetchSchemaMetadata(int,MetadataV3) 0
+h2o-core_src_main_java_water_api_MetadataHandler.java/[CN]/MetadataHandler/[MT]/listSchemas(int,MetadataV3)/body  _MetadataHandler.java/[CN]/MetadataHandler/[MT]/listSchemas(int,MetadataV3) 0
+h2o-core_src_main_java_water_fvec_Frame.java/[CN]/Frame/[MT]/toCSV(boolean,boolean)/body JettyHTTPD _Frame.java/[CN]/Frame/[MT]/toCSV(boolean,boolean) 0
+h2o-core_src_main_java_water_persist_PersistNFS.java/[CN]/PersistNFS/[MT]/uriToKey(URI)/body IcedWrapper _PersistNFS.java/[CN]/PersistNFS/[MT]/uriToKey(URI) 0
+h2o-core_src_main_java_water_rapids_Env.java/[CN]/Env/[MT]/write_impl(AutoBuffer)/body FrameTask _Env.java/[CN]/Env/[MT]/write_impl(AutoBuffer) 0
+h2o-core_src_main_java_water_util_FileUtils.java/[CN]/FileUtils/[MT]/copyStream(InputStream,OutputStream,int)/body Distributions _FileUtils.java/[CN]/FileUtils/[MT]/copyStream(InputStream,OutputStream,int) 0
+h2o-core_src_main_java_water_util_MathUtils.java/[CN]/MathUtils/[MT]/equalsWithinOneSmallUlp(float,float)/body ASTOp _MathUtils.java/[CN]/MathUtils/[MT]/equalsWithinOneSmallUlp(float,float) 0
+h2o-core_src_main_java_water_util_OSUtils.java/[CN]/OSUtils/[MT]/getTotalPhysicalMemory()/body  _OSUtils.java/[CN]/OSUtils/[MT]/getTotalPhysicalMemory() 8

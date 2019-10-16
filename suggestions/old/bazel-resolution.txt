@@ -1,0 +1,905 @@
+1 Move Method: com.google.devtools.build.lib.analysis.RuleContext.getSingleSource(java.lang.String)
+Method:com.google.devtools.build.lib.analysis.RuleContext.getSingleSource(java.lang.String)
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.PrerequisiteArtifacts
+Modularity increment of system by this refactoring operation:0.1047
+
+2 Move Method: com.google.devtools.build.lib.analysis.RuleContext.getSingleSource()
+Method:com.google.devtools.build.lib.analysis.RuleContext.getSingleSource()
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.PrerequisiteArtifacts
+Modularity increment of system by this refactoring operation:0.1043
+
+3 Move Method: com.google.devtools.build.lib.rules.cpp.CppCompilationContext.EMPTY
+Method:com.google.devtools.build.lib.rules.cpp.CppCompilationContext.EMPTY
+Source Class:com.google.devtools.build.lib.rules.cpp.CppCompilationContext
+Target Class:com.google.devtools.build.lib.rules.cpp.CcToolchainProvider
+Modularity increment of system by this refactoring operation:0.1039
+
+4 Move Method: com.google.devtools.build.lib.graph.Digraph.getFwdReachable(java.util.Collection)
+Method:com.google.devtools.build.lib.graph.Digraph.getFwdReachable(java.util.Collection)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1039
+
+5 Move Method: com.google.devtools.build.lib.graph.Digraph.getFwdReachable(com.google.devtools.build.lib.graph.Node)
+Method:com.google.devtools.build.lib.graph.Digraph.getFwdReachable(com.google.devtools.build.lib.graph.Node)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1038
+
+6 Move Method: com.google.devtools.build.lib.graph.Digraph.getBackReachable(java.util.Collection)
+Method:com.google.devtools.build.lib.graph.Digraph.getBackReachable(java.util.Collection)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1038
+
+7 Move Method: com.google.devtools.build.lib.graph.Digraph.getBackReachable(com.google.devtools.build.lib.graph.Node)
+Method:com.google.devtools.build.lib.graph.Digraph.getBackReachable(com.google.devtools.build.lib.graph.Node)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1037
+
+8 Move Method: com.google.devtools.build.lib.graph.Digraph.visitPreorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable)
+Method:com.google.devtools.build.lib.graph.Digraph.visitPreorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1037
+
+9 Move Method: com.google.devtools.build.lib.graph.Digraph.visitDepthFirst(com.google.devtools.build.lib.graph.GraphVisitor, com.google.devtools.build.lib.graph.DFS$Order, boolean, java.lang.Iterable)
+Method:com.google.devtools.build.lib.graph.Digraph.visitDepthFirst(com.google.devtools.build.lib.graph.GraphVisitor, com.google.devtools.build.lib.graph.DFS$Order, boolean, java.lang.Iterable)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1036
+
+10 Move Method: com.google.devtools.build.lib.graph.Digraph.visitPostorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable)
+Method:com.google.devtools.build.lib.graph.Digraph.visitPostorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable)
+Source Class:com.google.devtools.build.lib.graph.Digraph
+Target Class:com.google.devtools.build.lib.graph.DFS
+Modularity increment of system by this refactoring operation:0.1036
+
+11 Move Method: com.google.devtools.build.lib.analysis.RuleContext.getCompiler(boolean)
+Method:com.google.devtools.build.lib.analysis.RuleContext.getCompiler(boolean)
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.LocationExpander
+Modularity increment of system by this refactoring operation:0.1035
+
+12 Move Method: com.google.devtools.build.lib.analysis.RuleContext.getAttributeMode(java.lang.String)
+Method:com.google.devtools.build.lib.analysis.RuleContext.getAttributeMode(java.lang.String)
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.LocationExpander
+Modularity increment of system by this refactoring operation:0.1033
+
+13 Move Method: com.google.devtools.build.lib.rules.cpp.CppCompilationContext.static {}
+Method:com.google.devtools.build.lib.analysis.RuleContext.checkAttribute(java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.LocationExpander
+Modularity increment of system by this refactoring operation:0.1005
+
+14 Move Method: com.google.devtools.build.lib.analysis.RuleContext.checkAttribute(java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Method:com.google.devtools.build.lib.analysis.RuleContext.checkAttribute(java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Source Class:com.google.devtools.build.lib.analysis.RuleContext
+Target Class:com.google.devtools.build.lib.analysis.LocationExpander
+Modularity increment of system by this refactoring operation:0.1005
+
+15 Move Method: com.google.devtools.common.options.OptionsParser.parse(com.google.devtools.common.options.OptionPriority, java.lang.String, java.util.List)
+Method:com.google.devtools.common.options.OptionsParser.parse(com.google.devtools.common.options.OptionPriority, java.lang.String, java.util.List)
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.0932
+
+16 Move Method: com.google.devtools.common.options.OptionsParser.newOptionsParser(java.lang.Class)
+Method:com.google.devtools.common.options.OptionsParser.newOptionsParser(java.lang.Class)
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.0924
+
+17 Move Method: com.google.devtools.common.options.OptionsParser.parseAndExitUponError(com.google.devtools.common.options.OptionPriority, java.lang.String, java.lang.String[])
+Method:com.google.devtools.common.options.OptionsParser.parseAndExitUponError(com.google.devtools.common.options.OptionPriority, java.lang.String, java.lang.String[])
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.0921
+
+18 Move Method: com.google.devtools.common.options.OptionsParser.parseAndExitUponError(java.lang.String[])
+Method:com.google.devtools.common.options.OptionsParser.parseAndExitUponError(java.lang.String[])
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.092
+
+19 Move Method: com.google.devtools.common.options.OptionsParser.parse(java.lang.String[])
+Method:com.google.devtools.common.options.OptionsParser.parse(java.lang.String[])
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.0915
+
+20 Move Method: com.google.devtools.common.options.OptionsParser.parse(java.util.List)
+Method:com.google.devtools.common.options.OptionsParser.parse(java.util.List)
+Source Class:com.google.devtools.common.options.OptionsParser
+Target Class:com.google.devtools.common.options.OptionPriority_new_1
+Modularity increment of system by this refactoring operation:0.0869
+
+21 Move Method: com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.static {}
+Method:com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.static {}
+Source Class:com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport
+Target Class:com.google.devtools.build.lib.rules.objc.ObjcRuleClasses_new_2
+Modularity increment of system by this refactoring operation:0.0845
+
+22 Move Method: com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.IPA
+Method:com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.IPA
+Source Class:com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport
+Target Class:com.google.devtools.build.lib.rules.objc.ObjcRuleClasses_new_2
+Modularity increment of system by this refactoring operation:0.0835
+
+23 Move Method: com.google.devtools.build.lib.rules.android.AndroidCommon.ANDROID_COLLECTION_SPEC
+Method:com.google.devtools.build.lib.rules.android.AndroidCommon.ANDROID_COLLECTION_SPEC
+Source Class:com.google.devtools.build.lib.rules.android.AndroidCommon
+Target Class:com.google.devtools.build.lib.rules.android.ResourceDependencies_new_2
+Modularity increment of system by this refactoring operation:0.0831
+
+24 Move Method: com.google.devtools.build.lib.rules.android.AndroidCommon.static {}
+Method:com.google.devtools.build.lib.rules.android.AndroidCommon.static {}
+Source Class:com.google.devtools.build.lib.rules.android.AndroidCommon
+Target Class:com.google.devtools.build.lib.rules.android.ResourceDependencies_new_2
+Modularity increment of system by this refactoring operation:0.0827
+
+25 Move Method: com.google.devtools.build.lib.rules.android.AndroidCommon.TRANSITIVE_ATTRIBUTES
+Method:com.google.devtools.build.lib.rules.android.AndroidCommon.TRANSITIVE_ATTRIBUTES
+Source Class:com.google.devtools.build.lib.rules.android.AndroidCommon
+Target Class:com.google.devtools.build.lib.rules.android.ResourceDependencies_new_2
+Modularity increment of system by this refactoring operation:0.0823
+
+26 Move Method: com.google.devtools.build.lib.rules.android.AndroidCommon.collectTransitiveInfo(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Method:com.google.devtools.build.lib.rules.android.AndroidCommon.collectTransitiveInfo(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Source Class:com.google.devtools.build.lib.rules.android.AndroidCommon
+Target Class:com.google.devtools.build.lib.rules.android.ResourceDependencies_new_2
+Modularity increment of system by this refactoring operation:0.0792
+
+27 Move Method: com.google.devtools.build.lib.cmdline.RepositoryName.getSourceRoot()
+Method:com.google.devtools.build.lib.cmdline.RepositoryName.getSourceRoot()
+Source Class:com.google.devtools.build.lib.cmdline.RepositoryName
+Target Class:com.google.devtools.build.lib.cmdline.Label_new_2
+Modularity increment of system by this refactoring operation:0.0757
+
+28 Move Method: com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root)
+Method:com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root)
+Source Class:com.google.devtools.build.lib.actions.Artifact
+Target Class:com.google.devtools.build.lib.actions.ArtifactFactory_new_2
+Modularity increment of system by this refactoring operation:0.0748
+
+29 Move Method: com.google.devtools.build.lib.cmdline.RepositoryName.getPathUnderExecRoot()
+Method:com.google.devtools.build.lib.cmdline.RepositoryName.getPathUnderExecRoot()
+Source Class:com.google.devtools.build.lib.cmdline.RepositoryName
+Target Class:com.google.devtools.build.lib.cmdline.Label_new_2
+Modularity increment of system by this refactoring operation:0.0739
+
+30 Move Method: com.google.devtools.build.lib.cmdline.RepositoryName.getRunfilesPath()
+Method:com.google.devtools.build.lib.cmdline.RepositoryName.getRunfilesPath()
+Source Class:com.google.devtools.build.lib.cmdline.RepositoryName
+Target Class:com.google.devtools.build.lib.cmdline.Label_new_2
+Modularity increment of system by this refactoring operation:0.073
+
+31 Move Method: com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root, com.google.devtools.build.lib.vfs.PathFragment)
+Method:com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root, com.google.devtools.build.lib.vfs.PathFragment)
+Source Class:com.google.devtools.build.lib.actions.Artifact
+Target Class:com.google.devtools.build.lib.actions.ArtifactFactory_new_2
+Modularity increment of system by this refactoring operation:0.0713
+
+32 Move Method: com.google.devtools.build.lib.rules.android.AndroidCommon.getTransitivePrerequisites(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode, java.lang.Class)
+Method:com.google.devtools.build.lib.rules.android.AndroidCommon.getTransitivePrerequisites(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode, java.lang.Class)
+Source Class:com.google.devtools.build.lib.rules.android.AndroidCommon
+Target Class:com.google.devtools.build.lib.rules.android.ResourceDependencies_new_2
+Modularity increment of system by this refactoring operation:0.0711
+
+33 Move Method: com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.PathFragment, com.google.devtools.build.lib.actions.Root)
+Method:com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.PathFragment, com.google.devtools.build.lib.actions.Root)
+Source Class:com.google.devtools.build.lib.actions.Artifact
+Target Class:com.google.devtools.build.lib.actions.ArtifactFactory_new_2
+Modularity increment of system by this refactoring operation:0.0639
+
+34 Move Method: com.google.devtools.build.lib.runtime.ServerBuilder.getAttributeContainerFactory()
+Method:com.google.devtools.build.lib.runtime.ServerBuilder.getAttributeContainerFactory()
+Source Class:com.google.devtools.build.lib.runtime.ServerBuilder
+Target Class:com.google.devtools.build.lib.packages.AttributeContainer_new_2
+Modularity increment of system by this refactoring operation:0.0496
+
+35 Move Method: com.google.devtools.build.lib.events.Reporter.finishTask(com.google.devtools.build.lib.events.Location, java.lang.String)
+Method:com.google.devtools.build.lib.events.Reporter.finishTask(com.google.devtools.build.lib.events.Location, java.lang.String)
+Source Class:com.google.devtools.build.lib.events.Reporter
+Target Class:com.google.devtools.build.lib.events.Event_new_1
+Modularity increment of system by this refactoring operation:0.0487
+
+36 Move Method: com.google.devtools.build.lib.events.Reporter.startTask(com.google.devtools.build.lib.events.Location, java.lang.String)
+Method:com.google.devtools.build.lib.events.Reporter.startTask(com.google.devtools.build.lib.events.Location, java.lang.String)
+Source Class:com.google.devtools.build.lib.events.Reporter
+Target Class:com.google.devtools.build.lib.events.Event_new_1
+Modularity increment of system by this refactoring operation:0.0486
+
+37 Move Method: com.google.devtools.build.lib.runtime.ServerBuilder.attributeContainerFactory
+Method:com.google.devtools.build.lib.runtime.ServerBuilder.attributeContainerFactory
+Source Class:com.google.devtools.build.lib.runtime.ServerBuilder
+Target Class:com.google.devtools.build.lib.packages.AttributeContainer_new_2
+Modularity increment of system by this refactoring operation:0.0479
+
+38 Move Method: com.google.devtools.build.lib.runtime.ServerBuilder.setAttributeContainerFactory(com.google.common.base.Function)
+Method:com.google.devtools.build.lib.runtime.ServerBuilder.setAttributeContainerFactory(com.google.common.base.Function)
+Source Class:com.google.devtools.build.lib.runtime.ServerBuilder
+Target Class:com.google.devtools.build.lib.packages.AttributeContainer_new_2
+Modularity increment of system by this refactoring operation:0.0473
+
+39 Move Method: com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile)
+Method:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile)
+Source Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue
+Target Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalFunction_new_1
+Modularity increment of system by this refactoring operation:0.0346
+
+40 Move Method: com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.static {}
+Method:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.static {}
+Source Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue
+Target Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalFunction_new_1
+Modularity increment of system by this refactoring operation:0.0342
+
+41 Move Method: com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Method:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Source Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue
+Target Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalFunction_new_1
+Modularity increment of system by this refactoring operation:0.0329
+
+42 Move Method: com.google.devtools.build.lib.query2.engine.Lexer.BINARY_OPERATORS
+Method:com.google.devtools.build.lib.query2.engine.Lexer.BINARY_OPERATORS
+Source Class:com.google.devtools.build.lib.query2.engine.Lexer
+Target Class:com.google.devtools.build.lib.query2.engine.QueryParser
+Modularity increment of system by this refactoring operation:0.0325
+
+43 Move Method: com.google.devtools.build.lib.query2.engine.LetExpression.NAME_PATTERN
+Method:com.google.devtools.build.lib.query2.engine.LetExpression.NAME_PATTERN
+Source Class:com.google.devtools.build.lib.query2.engine.LetExpression
+Target Class:com.google.devtools.build.lib.query2.engine.TargetLiteral
+Modularity increment of system by this refactoring operation:0.0321
+
+44 Move Method: com.google.devtools.build.lib.query2.engine.Lexer.static {}
+Method:com.google.devtools.build.lib.query2.engine.Lexer.static {}
+Source Class:com.google.devtools.build.lib.query2.engine.Lexer
+Target Class:com.google.devtools.build.lib.query2.engine.QueryParser
+Modularity increment of system by this refactoring operation:0.0318
+
+45 Move Method: com.google.devtools.build.lib.query2.engine.LetExpression.static {}
+Method:com.google.devtools.build.lib.query2.engine.LetExpression.static {}
+Source Class:com.google.devtools.build.lib.query2.engine.LetExpression
+Target Class:com.google.devtools.build.lib.query2.engine.TargetLiteral
+Modularity increment of system by this refactoring operation:0.031
+
+46 Move Method: com.google.devtools.build.lib.query2.engine.LetExpression.isValidVarReference(java.lang.String)
+Method:com.google.devtools.build.lib.query2.engine.LetExpression.isValidVarReference(java.lang.String)
+Source Class:com.google.devtools.build.lib.query2.engine.LetExpression
+Target Class:com.google.devtools.build.lib.query2.engine.TargetLiteral
+Modularity increment of system by this refactoring operation:0.0297
+
+47 Move Method: com.google.devtools.build.lib.query2.engine.Lexer.keywordMap
+Method:com.google.devtools.build.lib.query2.engine.Lexer.keywordMap
+Source Class:com.google.devtools.build.lib.query2.engine.Lexer
+Target Class:com.google.devtools.build.lib.query2.engine.QueryParser
+Modularity increment of system by this refactoring operation:0.0296
+
+48 Move Method: com.google.devtools.build.lib.query2.engine.LetExpression.REF_PATTERN
+Method:com.google.devtools.build.lib.query2.engine.LetExpression.REF_PATTERN
+Source Class:com.google.devtools.build.lib.query2.engine.LetExpression
+Target Class:com.google.devtools.build.lib.query2.engine.TargetLiteral
+Modularity increment of system by this refactoring operation:0.0291
+
+49 Move Method: com.google.devtools.build.lib.profiler.output.CriticalPathHtml.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Method:com.google.devtools.build.lib.profiler.output.CriticalPathHtml.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Source Class:com.google.devtools.build.lib.profiler.output.CriticalPathHtml
+Target Class:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics
+Modularity increment of system by this refactoring operation:0.0287
+
+50 Move Method: com.google.devtools.build.lib.query2.engine.Lexer.isReservedWord(java.lang.String)
+Method:com.google.devtools.build.lib.query2.engine.Lexer.isReservedWord(java.lang.String)
+Source Class:com.google.devtools.build.lib.query2.engine.Lexer
+Target Class:com.google.devtools.build.lib.query2.engine.QueryParser
+Modularity increment of system by this refactoring operation:0.0283
+
+51 Move Method: com.google.devtools.build.lib.profiler.output.CriticalPathHtml.executionTime
+Method:com.google.devtools.build.lib.profiler.output.CriticalPathHtml.executionTime
+Source Class:com.google.devtools.build.lib.profiler.output.CriticalPathHtml
+Target Class:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics
+Modularity increment of system by this refactoring operation:0.0281
+
+52 Move Method: com.google.devtools.build.lib.query2.engine.Lexer.getTokenKindForWord(java.lang.String)
+Method:com.google.devtools.build.lib.query2.engine.Lexer.getTokenKindForWord(java.lang.String)
+Source Class:com.google.devtools.build.lib.query2.engine.Lexer
+Target Class:com.google.devtools.build.lib.query2.engine.QueryParser
+Modularity increment of system by this refactoring operation:0.0279
+
+53 Move Method: com.google.devtools.build.lib.profiler.output.CriticalPathText.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Method:com.google.devtools.build.lib.profiler.output.CriticalPathText.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Source Class:com.google.devtools.build.lib.profiler.output.CriticalPathText
+Target Class:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics
+Modularity increment of system by this refactoring operation:0.0258
+
+54 Move Method: com.google.devtools.build.lib.profiler.output.CriticalPathText.executionTime
+Method:com.google.devtools.build.lib.profiler.output.CriticalPathText.executionTime
+Source Class:com.google.devtools.build.lib.profiler.output.CriticalPathText
+Target Class:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics
+Modularity increment of system by this refactoring operation:0.0253
+
+55 Move Method: com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.EMPTY
+Method:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.EMPTY
+Source Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue
+Target Class:com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalFunction_new_1
+Modularity increment of system by this refactoring operation:0.0246
+
+56 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.useInterfaceSharedObjects
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.useInterfaceSharedObjects
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0229
+
+57 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.forceIgnoreDashStatic
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.forceIgnoreDashStatic
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0228
+
+58 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.processHeadersInDependencies
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.processHeadersInDependencies
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0227
+
+59 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.skipStaticOutputs
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.skipStaticOutputs
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0226
+
+60 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.legacyWholeArchive
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.legacyWholeArchive
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0225
+
+61 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.symbolCounts
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.symbolCounts
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0224
+
+62 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.shareNativeDeps
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.shareNativeDeps
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0223
+
+63 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.forcePic
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.forcePic
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0222
+
+64 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.saveTemps
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.saveTemps
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.0221
+
+65 Move Method: com.google.devtools.build.lib.rules.cpp.CppOptions.stripoptList
+Method:com.google.devtools.build.lib.rules.cpp.CppOptions.stripoptList
+Source Class:com.google.devtools.build.lib.rules.cpp.CppOptions
+Target Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration_new_1
+Modularity increment of system by this refactoring operation:0.022
+
+66 Move Method: com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(com.google.devtools.build.lib.packages.Rule)
+Method:com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(com.google.devtools.build.lib.packages.Rule)
+Source Class:com.google.devtools.build.lib.packages.TestTimeout
+Target Class:com.google.devtools.build.lib.packages.RuleClass_new_2
+Modularity increment of system by this refactoring operation:0.0209
+
+67 Move Method: com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(java.lang.String)
+Method:com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(java.lang.String)
+Source Class:com.google.devtools.build.lib.packages.TestTimeout
+Target Class:com.google.devtools.build.lib.packages.RuleClass_new_2
+Modularity increment of system by this refactoring operation:0.0209
+
+68 Move Method: com.google.devtools.build.lib.packages.TestTimeout.valueOf(java.lang.String)
+Method:com.google.devtools.build.lib.packages.TestTimeout.valueOf(java.lang.String)
+Source Class:com.google.devtools.build.lib.packages.TestTimeout
+Target Class:com.google.devtools.build.lib.packages.RuleClass_new_2
+Modularity increment of system by this refactoring operation:0.0207
+
+69 Move Method: com.google.devtools.common.options.OptionsData.of(java.util.Collection)
+Method:com.google.devtools.common.options.OptionsData.of(java.util.Collection)
+Source Class:com.google.devtools.common.options.OptionsData
+Target Class:com.google.devtools.common.options.OptionsParserImpl_new_2
+Modularity increment of system by this refactoring operation:0.0195
+
+70 Move Method: com.google.devtools.common.options.OptionsData.retrieveDefaultFromAnnotation(java.lang.reflect.Field)
+Method:com.google.devtools.common.options.OptionsData.retrieveDefaultFromAnnotation(java.lang.reflect.Field)
+Source Class:com.google.devtools.common.options.OptionsData
+Target Class:com.google.devtools.common.options.OptionsParserImpl_new_2
+Modularity increment of system by this refactoring operation:0.0193
+
+71 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.getStatements()
+Method:com.google.devtools.build.lib.syntax.FunctionDefStatement.getStatements()
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.019
+
+72 Move Method: com.google.devtools.common.options.OptionsData.getAllAnnotatedFields(java.lang.Class)
+Method:com.google.devtools.common.options.OptionsData.getAllAnnotatedFields(java.lang.Class)
+Source Class:com.google.devtools.common.options.OptionsData
+Target Class:com.google.devtools.common.options.OptionsParserImpl_new_2
+Modularity increment of system by this refactoring operation:0.019
+
+73 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.statements
+Method:com.google.devtools.build.lib.syntax.FunctionDefStatement.statements
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.0189
+
+74 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.getParameters()
+Method:com.google.devtools.build.lib.syntax.FunctionDefStatement.parameters
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.0176
+
+75 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.parameters
+ethod:com.google.devtools.build.lib.syntax.FunctionDefStatement.parameters
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.0176
+
+76 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.getIdent()
+Method:com.google.devtools.build.lib.syntax.FunctionDefStatement.getIdent()
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.0173
+
+77 Move Method: com.google.devtools.build.lib.syntax.FunctionDefStatement.ident
+Method:com.google.devtools.build.lib.syntax.FunctionDefStatement.ident
+Source Class:com.google.devtools.build.lib.syntax.FunctionDefStatement
+Target Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Modularity increment of system by this refactoring operation:0.0171
+
+78 Move Method: com.google.devtools.build.lib.skyframe.GlobValue.internalKey(com.google.devtools.build.lib.skyframe.GlobDescriptor, java.lang.String)
+Method:com.google.devtools.build.lib.skyframe.GlobValue.internalKey(com.google.devtools.build.lib.skyframe.GlobDescriptor, java.lang.String)
+Source Class:com.google.devtools.build.lib.skyframe.GlobValue
+Target Class:com.google.devtools.build.lib.skyframe.GlobDescriptor
+Modularity increment of system by this refactoring operation:0.013
+
+79 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromOptions(com.google.devtools.build.lib.analysis.config.BuildOptions)
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromOptions(com.google.devtools.build.lib.analysis.config.BuildOptions)
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0129
+
+80 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.isCandidateToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain)
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.isCandidateToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain)
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0124
+
+81 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.describeFlags()
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.describeFlags()
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0117
+
+82 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.toString()
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.toString()
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0117
+
+83 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain)
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain)
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0117
+
+84 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.CrosstoolConfigurationIdentifier(java.lang.String, java.lang.String, java.lang.String)
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.CrosstoolConfigurationIdentifier(java.lang.String, java.lang.String, java.lang.String)
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0117
+
+85 Move Method: com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.hashCode()
+Method:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.hashCode()
+Source Class:com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0116
+
+86 Move Method: com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createLegacy(java.lang.String)
+Method:com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createLegacy(java.lang.String)
+Source Class:com.google.devtools.build.lib.rules.java.JvmConfigurationLoader
+Target Class:com.google.devtools.build.lib.rules.test.InstrumentedFilesProviderImpl
+Modularity increment of system by this refactoring operation:0.0073
+
+87 Move Method: com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createDefault(com.google.devtools.build.lib.analysis.config.ConfigurationEnvironment, java.lang.String, java.lang.String)
+Method:com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createDefault(com.google.devtools.build.lib.analysis.config.ConfigurationEnvironment, java.lang.String, java.lang.String)
+Source Class:com.google.devtools.build.lib.rules.java.JvmConfigurationLoader
+Target Class:com.google.devtools.build.lib.rules.test.InstrumentedFilesProviderImpl
+Modularity increment of system by this refactoring operation:0.0072
+
+88 Move Method: com.google.devtools.build.lib.syntax.FunctionSignature.valueListOrNull(java.util.List)
+Method:com.google.devtools.build.lib.syntax.FunctionSignature.valueListOrNull(java.util.List)
+Source Class:com.google.devtools.build.lib.syntax.FunctionSignature
+Target Class:com.google.devtools.build.lib.syntax.SkylarkCallbackFunction
+Modularity increment of system by this refactoring operation:0.004
+
+89 Move Method: com.google.devtools.build.lib.syntax.FunctionSignature.getNames()
+Method:com.google.devtools.build.lib.syntax.FunctionSignature.getNames()
+Source Class:com.google.devtools.build.lib.syntax.FunctionSignature
+Target Class:com.google.devtools.build.lib.syntax.SkylarkCallbackFunction
+Modularity increment of system by this refactoring operation:0.004
+
+90 Move Method: com.google.devtools.build.lib.syntax.FunctionSignature.getShape()
+Method:com.google.devtools.build.lib.syntax.FunctionSignature.getShape()
+Source Class:com.google.devtools.build.lib.syntax.FunctionSignature
+Target Class:com.google.devtools.build.lib.syntax.SkylarkCallbackFunction
+Modularity increment of system by this refactoring operation:0.0039
+
+91 Move Method: com.google.devtools.build.lib.skyframe.FileStateValue.NONEXISTENT_FILE_STATE_NODE
+Method:com.google.devtools.build.lib.skyframe.FileStateValue.NONEXISTENT_FILE_STATE_NODE
+Source Class:com.google.devtools.build.lib.skyframe.FileStateValue
+Target Class:com.google.devtools.build.lib.skyframe.FileFunction
+Modularity increment of system by this refactoring operation:0.0037
+
+92 Move Method: com.google.devtools.build.lib.vfs.UnixGlob.forPath(com.google.devtools.build.lib.vfs.Path)
+Method:com.google.devtools.build.lib.vfs.UnixGlob.forPath(com.google.devtools.build.lib.vfs.Path)
+Source Class:com.google.devtools.build.lib.vfs.UnixGlob
+Target Class:com.google.devtools.build.lib.packages.GlobCache
+Modularity increment of system by this refactoring operation:0.0037
+
+93 Move Method: com.google.devtools.build.lib.vfs.UnixGlob.checkPatternForError(java.lang.String)
+Method:com.google.devtools.build.lib.vfs.UnixGlob.checkPatternForError(java.lang.String)
+Source Class:com.google.devtools.build.lib.vfs.UnixGlob
+Target Class:com.google.devtools.build.lib.packages.GlobCache
+Modularity increment of system by this refactoring operation:0.0036
+
+94 Move Method: com.google.devtools.build.lib.vfs.UnixGlob.checkAndSplitPatterns(java.util.Collection)
+Method:com.google.devtools.build.lib.vfs.UnixGlob.checkAndSplitPatterns(java.util.Collection)
+Source Class:com.google.devtools.build.lib.vfs.UnixGlob
+Target Class:com.google.devtools.build.lib.packages.GlobCache
+Modularity increment of system by this refactoring operation:0.0035
+
+95 Move Method: com.google.devtools.build.lib.skyframe.FileStateValue.create(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor)
+Method:com.google.devtools.build.lib.skyframe.FileStateValue.create(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor)
+Source Class:com.google.devtools.build.lib.skyframe.FileStateValue
+Target Class:com.google.devtools.build.lib.skyframe.FileFunction
+Modularity increment of system by this refactoring operation:0.0034
+
+96 Move Method: com.google.devtools.build.lib.syntax.Lexer.static {}
+Method:com.google.devtools.build.lib.syntax.Lexer.static {}
+Source Class:com.google.devtools.build.lib.syntax.Lexer
+Target Class:com.google.devtools.build.lib.syntax.TokenKind
+Modularity increment of system by this refactoring operation:0.0027
+
+97 Move Method: com.google.devtools.build.lib.windows.WindowsProcesses.nativeTerminate(long)
+Method:com.google.devtools.build.lib.windows.WindowsProcesses.nativeTerminate(long)
+Source Class:com.google.devtools.build.lib.windows.WindowsProcesses
+Target Class:com.google.devtools.build.lib.windows.WindowsSubprocess_new_2
+Modularity increment of system by this refactoring operation:0.0026
+
+98 Move Method: com.google.devtools.build.lib.rules.android.AndroidIdlHelper.getIdlImportRoot(com.google.devtools.build.lib.analysis.RuleContext)
+Method:com.google.devtools.build.lib.rules.android.AndroidIdlHelper.getIdlImportRoot(com.google.devtools.build.lib.analysis.RuleContext)
+Source Class:com.google.devtools.build.lib.rules.android.AndroidIdlHelper
+Target Class:com.google.devtools.build.lib.rules.android.AndroidCommon_new_2
+Modularity increment of system by this refactoring operation:0.0024
+
+99 Move Method: com.google.devtools.build.lib.windows.WindowsProcesses.nativeWaitFor(long, long)
+Method:com.google.devtools.build.lib.windows.WindowsProcesses.nativeWaitFor(long, long)
+Source Class:com.google.devtools.build.lib.windows.WindowsProcesses
+Target Class:com.google.devtools.build.lib.windows.WindowsSubprocess_new_2
+Modularity increment of system by this refactoring operation:0.0024
+
+100 Move Method: com.google.devtools.build.lib.rules.cpp.CppConfiguration.reportInvalidOptions(com.google.devtools.build.lib.events.EventHandler, com.google.devtools.build.lib.analysis.config.BuildOptions)
+Method:com.google.devtools.build.lib.rules.cpp.CppConfiguration.reportInvalidOptions(com.google.devtools.build.lib.events.EventHandler, com.google.devtools.build.lib.analysis.config.BuildOptions)
+Source Class:com.google.devtools.build.lib.rules.cpp.CppConfiguration
+Target Class:com.google.devtools.build.lib.rules.cpp.CppOptions_new_2
+Modularity increment of system by this refactoring operation:0.0023
+
+101 Move Method: com.google.devtools.build.lib.rules.java.JavaHelper.getJavaResourcePath(com.google.devtools.build.lib.rules.java.JavaSemantics, com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.actions.Artifact)
+Method:com.google.devtools.build.lib.rules.java.JavaHelper.getJavaResourcePath(com.google.devtools.build.lib.rules.java.JavaSemantics, com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.actions.Artifact)
+Source Class:com.google.devtools.build.lib.rules.java.JavaHelper
+Target Class:com.google.devtools.build.lib.rules.android.AndroidResourceContainerBuilder
+Modularity increment of system by this refactoring operation:0.0022
+
+102 Move Method: com.google.devtools.build.lib.skyframe.FileStateValue.static {}
+Method:com.google.devtools.build.lib.skyframe.FileStateValue.static {}
+Source Class:com.google.devtools.build.lib.skyframe.FileStateValue
+Target Class:com.google.devtools.build.lib.skyframe.FileFunction
+Modularity increment of system by this refactoring operation:0.0022
+
+103 Move Method: com.google.devtools.build.lib.skyframe.FileStateValue.createWithStatNoFollow(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.vfs.FileStatusWithDigest, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor)
+Method:com.google.devtools.build.lib.skyframe.FileStateValue.createWithStatNoFollow(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.vfs.FileStatusWithDigest, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor)
+Source Class:com.google.devtools.build.lib.skyframe.FileStateValue
+Target Class:com.google.devtools.build.lib.skyframe.FileFunction
+Modularity increment of system by this refactoring operation:0.0021
+
+104 Move Method: com.google.devtools.build.lib.vfs.FileSystemUtils.dump(com.google.devtools.build.lib.vfs.FileSystem, java.io.PrintStream)
+Method:com.google.devtools.build.lib.vfs.FileSystemUtils.dump(com.google.devtools.build.lib.vfs.FileSystem, java.io.PrintStream)
+Source Class:com.google.devtools.build.lib.vfs.FileSystemUtils
+Target Class:com.google.devtools.build.lib.vfs.Path_new_2
+Modularity increment of system by this refactoring operation:0.002
+
+105 Move Method: com.google.devtools.build.lib.vfs.FileSystemUtils.checkBaseName(java.lang.String)
+Method:com.google.devtools.build.lib.vfs.FileSystemUtils.checkBaseName(java.lang.String)
+Source Class:com.google.devtools.build.lib.vfs.FileSystemUtils
+Target Class:com.google.devtools.build.lib.vfs.Path_new_2
+Modularity increment of system by this refactoring operation:0.002
+
+106 Move Method: com.google.devtools.build.lib.vfs.FileSystemUtils.startsWithAny(com.google.devtools.build.lib.vfs.Path, java.lang.Iterable)
+Method:com.google.devtools.build.lib.vfs.FileSystemUtils.startsWithAny(com.google.devtools.build.lib.vfs.Path, java.lang.Iterable)
+Source Class:com.google.devtools.build.lib.vfs.FileSystemUtils
+Target Class:com.google.devtools.build.lib.vfs.Path_new_2
+Modularity increment of system by this refactoring operation:0.002
+
+107 Move Method: com.google.devtools.build.lib.vfs.FileSystemUtils.commonAncestor(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.vfs.Path)
+Method:com.google.devtools.build.lib.vfs.FileSystemUtils.commonAncestor(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.vfs.Path)
+Source Class:com.google.devtools.build.lib.vfs.FileSystemUtils
+Target Class:com.google.devtools.build.lib.vfs.Path_new_2
+Modularity increment of system by this refactoring operation:0.002
+
+108 Move Method: com.google.devtools.build.skyframe.ValueOrExceptionUtils.downconvert(com.google.devtools.build.skyframe.ValueOrException2, java.lang.Class)
+Method:com.google.devtools.build.skyframe.ValueOrExceptionUtils.downconvert(com.google.devtools.build.skyframe.ValueOrException2, java.lang.Class)
+Source Class:com.google.devtools.build.skyframe.ValueOrExceptionUtils
+Target Class:com.google.devtools.build.skyframe.ValueOrException2
+Modularity increment of system by this refactoring operation:0.002
+
+109 Move Method: com.google.devtools.build.lib.shell.JavaSubprocessFactory.create(com.google.devtools.build.lib.shell.SubprocessBuilder)
+Method:com.google.devtools.build.lib.shell.JavaSubprocessFactory.create(com.google.devtools.build.lib.shell.SubprocessBuilder)
+Source Class:com.google.devtools.build.lib.shell.JavaSubprocessFactory
+Target Class:com.google.devtools.build.lib.shell.SubprocessBuilder_new_1
+Modularity increment of system by this refactoring operation:0.0018
+
+110 Move Method: com.google.devtools.build.lib.skyframe.FileStateValue.DIRECTORY_FILE_STATE_NODE
+Method:com.google.devtools.build.lib.skyframe.FileStateValue.DIRECTORY_FILE_STATE_NODE
+Source Class:com.google.devtools.build.lib.skyframe.FileStateValue
+Target Class:com.google.devtools.build.lib.skyframe.FileFunction
+Modularity increment of system by this refactoring operation:0.0016
+
+111 Move Method: com.google.devtools.build.lib.windows.WindowsProcesses.nativeGetProcessPid(long)
+Method:com.google.devtools.build.lib.windows.WindowsProcesses.nativeGetProcessPid(long)
+Source Class:com.google.devtools.build.lib.windows.WindowsProcesses
+Target Class:com.google.devtools.build.lib.windows.WindowsSubprocess_new_2
+Modularity increment of system by this refactoring operation:0.0016
+
+112 Move Method: com.google.devtools.build.lib.bazel.repository.MavenJarFunction.getServer(com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.skyframe.SkyFunction$Environment)
+Method:com.google.devtools.build.lib.bazel.repository.MavenJarFunction.getServer(com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.skyframe.SkyFunction$Environment)
+Source Class:com.google.devtools.build.lib.bazel.repository.MavenJarFunction
+Target Class:com.google.devtools.build.lib.bazel.repository.downloader.HttpDownloader
+Modularity increment of system by this refactoring operation:0.0015
+
+113 Move Method: com.google.devtools.build.lib.bazel.repository.MavenJarFunction.createMavenDownloader(com.google.devtools.build.lib.analysis.BlazeDirectories, com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.lib.bazel.repository.MavenServerValue)
+Method:com.google.devtools.build.lib.bazel.repository.MavenJarFunction.createMavenDownloader(com.google.devtools.build.lib.analysis.BlazeDirectories, com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.lib.bazel.repository.MavenServerValue)
+Source Class:com.google.devtools.build.lib.bazel.repository.MavenJarFunction
+Target Class:com.google.devtools.build.lib.bazel.repository.downloader.HttpDownloader
+Modularity increment of system by this refactoring operation:0.0015
+
+114 Move Method: com.google.devtools.build.lib.shell.JavaSubprocessFactory.getRedirect(com.google.devtools.build.lib.shell.SubprocessBuilder$StreamAction, java.io.File)
+Method:com.google.devtools.build.lib.shell.JavaSubprocessFactory.getRedirect(com.google.devtools.build.lib.shell.SubprocessBuilder$StreamAction, java.io.File)
+Source Class:com.google.devtools.build.lib.shell.JavaSubprocessFactory
+Target Class:com.google.devtools.build.lib.shell.SubprocessBuilder_new_1
+Modularity increment of system by this refactoring operation:0.0014
+
+115 Move Method: com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.excludedDirectoriesBeneath(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, int, java.util.List)
+Method:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.excludedDirectoriesBeneath(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, int, java.util.List)
+Source Class:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue
+Target Class:com.google.devtools.build.lib.cmdline.TargetPattern_new_1
+Modularity increment of system by this refactoring operation:0.0012
+
+116 Move Method: com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.keys(java.util.List, java.lang.String)
+Method:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.keys(java.util.List, java.lang.String)
+Source Class:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue
+Target Class:com.google.devtools.build.lib.cmdline.TargetPattern_new_1
+Modularity increment of system by this refactoring operation:0.0011
+
+117 Move Method: com.google.devtools.build.lib.packages.Package.newExternalPackageBuilder(com.google.devtools.build.lib.packages.Package$Builder$Helper, com.google.devtools.build.lib.vfs.Path, java.lang.String)
+Method:com.google.devtools.build.lib.packages.Package.newExternalPackageBuilder(com.google.devtools.build.lib.packages.Package$Builder$Helper, com.google.devtools.build.lib.vfs.Path, java.lang.String)
+Source Class:com.google.devtools.build.lib.packages.Package
+Target Class:com.google.devtools.build.lib.pkgcache.LegacyLoadingPhaseRunner_new_2
+Modularity increment of system by this refactoring operation:0.0011
+
+118 Move Method: com.google.devtools.build.lib.shell.JavaSubprocessFactory.JavaSubprocessFactory()
+Method:com.google.devtools.build.lib.shell.JavaSubprocessFactory.JavaSubprocessFactory()
+Source Class:com.google.devtools.build.lib.shell.JavaSubprocessFactory
+Target Class:com.google.devtools.build.lib.shell.SubprocessBuilder_new_3
+Modularity increment of system by this refactoring operation:0.001
+
+119 Move Method: com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.setExcludedDirectories(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, com.google.common.collect.ImmutableSet)
+Method:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.setExcludedDirectories(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, com.google.common.collect.ImmutableSet)
+Source Class:com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue
+Target Class:com.google.devtools.build.lib.cmdline.TargetPattern_new_1
+Modularity increment of system by this refactoring operation:9.0E-4
+
+120 Move Method: com.google.devtools.build.lib.shell.JavaSubprocessFactory.static {}
+Method:com.google.devtools.build.lib.shell.JavaSubprocessFactory.static {}
+Source Class:com.google.devtools.build.lib.shell.JavaSubprocessFactory
+Target Class:com.google.devtools.build.lib.shell.SubprocessBuilder_new_3
+Modularity increment of system by this refactoring operation:7.0E-4
+
+121 Move Method: com.google.devtools.build.skyframe.CycleInfo.prepareCycles(com.google.devtools.build.skyframe.SkyKey, java.lang.Iterable)
+Method:com.google.devtools.build.skyframe.CycleInfo.prepareCycles(com.google.devtools.build.skyframe.SkyKey, java.lang.Iterable)
+Source Class:com.google.devtools.build.skyframe.CycleInfo
+Target Class:com.google.devtools.build.skyframe.ErrorInfo
+Modularity increment of system by this refactoring operation:6.0E-4
+
+122 Move Method: com.google.devtools.build.lib.syntax.Runtime.registerModuleGlobals(com.google.devtools.build.lib.syntax.Environment, java.lang.Class)
+Method:com.google.devtools.build.lib.syntax.Runtime.registerModuleGlobals(com.google.devtools.build.lib.syntax.Environment, java.lang.Class)
+Source Class:com.google.devtools.build.lib.syntax.Runtime
+Target Class:com.google.devtools.build.lib.rules.SkylarkModules
+Modularity increment of system by this refactoring operation:5.0E-4
+
+123 Move Method: com.google.devtools.build.lib.syntax.compiler.ByteCodeUtils.getField(java.lang.Class, java.lang.String)
+Method:com.google.devtools.build.lib.syntax.compiler.ByteCodeUtils.getField(java.lang.Class, java.lang.String)
+Source Class:com.google.devtools.build.lib.syntax.compiler.ByteCodeUtils
+Target Class:com.google.devtools.build.lib.syntax.Runtime
+Modularity increment of system by this refactoring operation:5.0E-4
+
+124 Move Method: com.google.devtools.build.lib.rules.test.InstrumentedFileManifestAction.getInstrumentedFileManifest(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Method:com.google.devtools.build.lib.rules.test.InstrumentedFileManifestAction.getInstrumentedFileManifest(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Source Class:com.google.devtools.build.lib.rules.test.InstrumentedFileManifestAction
+Target Class:com.google.devtools.build.lib.rules.test.TestActionBuilder
+Modularity increment of system by this refactoring operation:4.0E-4
+
+125 Move Method: com.google.devtools.build.lib.packages.TestSize.getTestSize(com.google.devtools.build.lib.packages.Rule)
+Method:com.google.devtools.build.lib.packages.TestSize.getTestSize(com.google.devtools.build.lib.packages.Rule)
+Source Class:com.google.devtools.build.lib.packages.TestSize
+Target Class:com.google.devtools.build.lib.packages.RuleClass_new_2
+Modularity increment of system by this refactoring operation:4.0E-4
+
+126 Move Method: com.google.devtools.build.lib.profiler.chart.ChartBar.accept(com.google.devtools.build.lib.profiler.chart.ChartVisitor)
+Method:com.google.devtools.build.lib.profiler.chart.ChartBar.accept(com.google.devtools.build.lib.profiler.chart.ChartVisitor)
+Source Class:com.google.devtools.build.lib.profiler.chart.ChartBar
+Target Class:com.google.devtools.build.lib.profiler.chart.ChartRow
+Modularity increment of system by this refactoring operation:4.0E-4
+
+127 Move Method: com.google.devtools.build.lib.vfs.Path.statNullable()
+Method:com.google.devtools.build.lib.vfs.Path.statNullable()
+Source Class:com.google.devtools.build.lib.vfs.Path
+Target Class:com.google.devtools.build.lib.vfs.FileSystemUtils_new_1
+Modularity increment of system by this refactoring operation:3.0E-4
+
+128 Move Method: com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.IntegerLiteral)
+Method:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.IntegerLiteral)
+Source Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Target Class:com.google.devtools.build.lib.syntax.IntegerLiteral
+Modularity increment of system by this refactoring operation:3.0E-4
+
+129 Move Method: com.google.devtools.build.lib.skyframe.TargetPatternPhaseFunction.getTargetsToBuild(com.google.devtools.build.skyframe.SkyFunction$Environment, java.util.List, java.lang.String, boolean)
+Method:com.google.devtools.build.lib.skyframe.TargetPatternPhaseFunction.getTargetsToBuild(com.google.devtools.build.skyframe.SkyFunction$Environment, java.util.List, java.lang.String, boolean)
+Source Class:com.google.devtools.build.lib.skyframe.TargetPatternPhaseFunction
+Target Class:com.google.devtools.build.lib.pkgcache.CompileOneDependencyTransformer
+Modularity increment of system by this refactoring operation:3.0E-4
+
+130 Move Method: com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.StringLiteral)
+Method:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.StringLiteral)
+Source Class:com.google.devtools.build.lib.syntax.SyntaxTreeVisitor
+Target Class:com.google.devtools.build.lib.syntax.StringLiteral
+Modularity increment of system by this refactoring operation:3.0E-4
+
+131 Move Method: com.google.devtools.build.lib.bazel.rules.BazelConfigurationCollection.getHostConfigurationFromRequest(com.google.devtools.build.lib.analysis.config.ConfigurationFactory, com.google.devtools.build.lib.analysis.config.PackageProviderForConfigurations, com.google.devtools.build.lib.analysis.config.BuildConfiguration, com.google.devtools.build.lib.analysis.config.BuildOptions, com.google.common.cache.Cache)
+Method:com.google.devtools.build.lib.bazel.rules.BazelConfigurationCollection.getHostConfigurationFromRequest(com.google.devtools.build.lib.analysis.config.ConfigurationFactory, com.google.devtools.build.lib.analysis.config.PackageProviderForConfigurations, com.google.devtools.build.lib.analysis.config.BuildConfiguration, com.google.devtools.build.lib.analysis.config.BuildOptions, com.google.common.cache.Cache)
+Source Class:com.google.devtools.build.lib.bazel.rules.BazelConfigurationCollection
+Target Class:com.google.devtools.build.lib.analysis.config.ConfigurationFactory
+Modularity increment of system by this refactoring operation:3.0E-4
+
+132 Move Method: com.google.devtools.build.lib.shell.JavaSubprocessFactory.INSTANCE
+Method:com.google.devtools.build.lib.shell.JavaSubprocessFactory.INSTANCE
+Source Class:com.google.devtools.build.lib.shell.JavaSubprocessFactory
+Target Class:com.google.devtools.build.lib.shell.SubprocessBuilder_new_3
+Modularity increment of system by this refactoring operation:3.0E-4
+
+133 Move Method: com.google.devtools.build.lib.analysis.SourceManifestAction.forRunfiles(com.google.devtools.build.lib.analysis.SourceManifestAction$ManifestType, com.google.devtools.build.lib.actions.ActionOwner, com.google.devtools.build.lib.actions.Artifact, com.google.devtools.build.lib.analysis.Runfiles)
+Method:com.google.devtools.build.lib.analysis.SourceManifestAction.forRunfiles(com.google.devtools.build.lib.analysis.SourceManifestAction$ManifestType, com.google.devtools.build.lib.actions.ActionOwner, com.google.devtools.build.lib.actions.Artifact, com.google.devtools.build.lib.analysis.Runfiles)
+Source Class:com.google.devtools.build.lib.analysis.SourceManifestAction
+Target Class:com.google.devtools.build.lib.analysis.RunfilesSupport_new_1
+Modularity increment of system by this refactoring operation:2.0E-4
+
+134 Move Method: com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics.getMiddlemanFilteredPath(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Method:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics.getMiddlemanFilteredPath(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry)
+Source Class:com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics
+Target Class:com.google.devtools.build.lib.profiler.output.CriticalPathText
+Modularity increment of system by this refactoring operation:2.0E-4
+
+135 Move Method: com.google.devtools.build.lib.rules.cpp.CcLinkingOutputs.libraryIdentifierOf(com.google.devtools.build.lib.actions.Artifact)
+Method:com.google.devtools.build.lib.rules.cpp.CcLinkingOutputs.libraryIdentifierOf(com.google.devtools.build.lib.actions.Artifact)
+Source Class:com.google.devtools.build.lib.rules.cpp.CcLinkingOutputs
+Target Class:com.google.devtools.build.lib.rules.cpp.LinkerInputs
+Modularity increment of system by this refactoring operation:2.0E-4
+
+136 Move Method: com.google.devtools.build.lib.actions.BaseSpawn.asShellCommand(java.util.Collection, com.google.devtools.build.lib.vfs.Path, java.util.Map)
+Method:com.google.devtools.build.lib.actions.BaseSpawn.asShellCommand(java.util.Collection, com.google.devtools.build.lib.vfs.Path, java.util.Map)
+Source Class:com.google.devtools.build.lib.actions.BaseSpawn
+Target Class:com.google.devtools.build.lib.worker.WorkerKey
+Modularity increment of system by this refactoring operation:1.0E-4
+
+137 Move Method: com.google.devtools.build.lib.packages.Attribute.isTaggable()
+Method:com.google.devtools.build.lib.packages.Attribute.isTaggable()
+Source Class:com.google.devtools.build.lib.packages.Attribute
+Target Class:com.google.devtools.build.lib.packages.Rule_new_2
+Modularity increment of system by this refactoring operation:1.0E-4
+
+138 Move Method: com.google.devtools.build.lib.skyframe.ConfiguredTargetValue.key(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.analysis.config.BuildConfiguration)
+Method:com.google.devtools.build.lib.skyframe.ConfiguredTargetValue.key(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.analysis.config.BuildConfiguration)
+Source Class:com.google.devtools.build.lib.skyframe.ConfiguredTargetValue
+Target Class:com.google.devtools.build.lib.skyframe.PostConfiguredTargetFunction
+Modularity increment of system by this refactoring operation:1.0E-4
+
+139 Move Method: com.google.devtools.build.lib.analysis.AnalysisUtils.filterByProvider(java.lang.Iterable, java.lang.Class)
+Method:com.google.devtools.build.lib.analysis.AnalysisUtils.filterByProvider(java.lang.Iterable, java.lang.Class)
+Source Class:com.google.devtools.build.lib.analysis.AnalysisUtils
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_3
+Modularity increment of system by this refactoring operation:1.0E-4
+
+140 Move Method: com.google.devtools.build.skyframe.ValueOrException2.get()
+Method:com.google.devtools.build.skyframe.ValueOrException2.get()
+Source Class:com.google.devtools.build.skyframe.ValueOrException2
+Target Class:com.google.devtools.build.lib.skyframe.TransitiveTargetFunction
+Modularity increment of system by this refactoring operation:1.0E-4
+
+141 Move Method: com.google.devtools.build.lib.analysis.AnalysisUtils.getUniqueDirectory(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.vfs.PathFragment)
+Method:com.google.devtools.build.lib.analysis.AnalysisUtils.getUniqueDirectory(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.vfs.PathFragment)
+Source Class:com.google.devtools.build.lib.analysis.AnalysisUtils
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_2
+Modularity increment of system by this refactoring operation:1.0E-4
+
+142 Move Method: com.google.devtools.build.lib.rules.test.BaselineCoverageAction.create(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Method:com.google.devtools.build.lib.rules.test.BaselineCoverageAction.create(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet)
+Source Class:com.google.devtools.build.lib.rules.test.BaselineCoverageAction
+Target Class:com.google.devtools.build.lib.analysis.RuleConfiguredTargetBuilder
+Modularity increment of system by this refactoring operation:1.0E-4
+
+143 Move Method: com.google.devtools.build.lib.analysis.AnalysisUtils.checkProvider(java.lang.Class)
+Method:com.google.devtools.build.lib.analysis.AnalysisUtils.checkProvider(java.lang.Class)
+Source Class:com.google.devtools.build.lib.analysis.AnalysisUtils
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_3
+Modularity increment of system by this refactoring operation:1.0E-4
+
+144 Move Method: com.google.devtools.build.lib.analysis.AnalysisUtils.getProviders(java.lang.Iterable, java.lang.Class)
+Method:com.google.devtools.build.lib.analysis.AnalysisUtils.getProviders(java.lang.Iterable, java.lang.Class)
+Source Class:com.google.devtools.build.lib.analysis.AnalysisUtils
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_3
+Modularity increment of system by this refactoring operation:1.0E-4
+
+145 Move Method: com.google.devtools.build.lib.profiler.ProfilerTask.name()
+Method:com.google.devtools.build.lib.profiler.ProfilerTask.name()
+Source Class:com.google.devtools.build.lib.profiler.ProfilerTask
+Target Class:com.google.devtools.build.lib.profiler.output.MultiProfilePhaseHtml
+Modularity increment of system by this refactoring operation:1.0E-4
+
+146 Move Method: com.google.devtools.build.lib.rules.objc.ReleaseBundling.releaseBundling(com.google.devtools.build.lib.analysis.RuleContext)
+Method:com.google.devtools.build.lib.rules.objc.ReleaseBundling.releaseBundling(com.google.devtools.build.lib.analysis.RuleContext)
+Source Class:com.google.devtools.build.lib.rules.objc.ReleaseBundling
+Target Class:com.google.devtools.build.lib.rules.objc.ObjcRuleClasses_new_2
+Modularity increment of system by this refactoring operation:0.0
+
+147 Move Method: com.google.devtools.build.lib.packages.PackageSpecification.fromString(com.google.devtools.build.lib.cmdline.RepositoryName, java.lang.String)
+Method:com.google.devtools.build.lib.packages.PackageSpecification.fromString(com.google.devtools.build.lib.cmdline.RepositoryName, java.lang.String)
+Source Class:com.google.devtools.build.lib.packages.PackageSpecification
+Target Class:com.google.devtools.build.lib.cmdline.RepositoryName_new_1
+Modularity increment of system by this refactoring operation:0.0
+
+148 Move Method: com.google.devtools.build.lib.rules.objc.ObjcRuleClasses.artifactByAppendingToBaseName(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String)
+Method:com.google.devtools.build.lib.rules.objc.ObjcRuleClasses.artifactByAppendingToBaseName(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String)
+Source Class:com.google.devtools.build.lib.rules.objc.ObjcRuleClasses
+Target Class:com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport
+Modularity increment of system by this refactoring operation:0.0
+
+149 Move Method: com.google.devtools.build.lib.packages.PackageSpecification.fromLabel(com.google.devtools.build.lib.cmdline.Label)
+Method:com.google.devtools.build.lib.packages.PackageSpecification.fromLabel(com.google.devtools.build.lib.cmdline.Label)
+Source Class:com.google.devtools.build.lib.packages.PackageSpecification
+Target Class:com.google.devtools.build.lib.cmdline.Label_new_1
+Modularity increment of system by this refactoring operation:0.0
+
+150 Move Method: com.google.devtools.build.lib.analysis.PrerequisiteArtifacts.nestedSet(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Method:com.google.devtools.build.lib.analysis.PrerequisiteArtifacts.nestedSet(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode)
+Source Class:com.google.devtools.build.lib.analysis.PrerequisiteArtifacts
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_4
+Modularity increment of system by this refactoring operation:0.0
+
+151 Move Method: com.google.devtools.build.lib.analysis.AnalysisUtils.getMiddlemanFor(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String)
+Method:com.google.devtools.build.lib.analysis.AnalysisUtils.getMiddlemanFor(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String)
+Source Class:com.google.devtools.build.lib.analysis.AnalysisUtils
+Target Class:com.google.devtools.build.lib.analysis.RuleContext_new_5
+Modularity increment of system by this refactoring operation:0.0

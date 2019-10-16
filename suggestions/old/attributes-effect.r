@@ -1,0 +1,18 @@
+d<-read.csv('/data.csv',sep=';')
+d$nsdc<-d$sdc/(2*d$ec*(d$ec-1))
+d$nccdc<-d$ccdc/(2*d$ec*(d$ec-1))
+fit_cbo<-lm(cboo~sc+cd+ec+nsdc+nccdc,data=d)
+fit_mpc<-lm(mpco~sc+cd+ec+nsdc+nccdc,data=d)
+fit_pc<-lm(pco~sc+cd+ec+nsdc+nccdc,data=d
+fit_r<-lm(ro~sc+cd+ec+nsdc+nccdc,data=d)
+fit_f<-lm(fo~sc+cd+ec+nsdc+nccdc,data=d)
+fit_u<-lm(uo~sc+cd+ec+nsdc+nccdc,data=d)
+fit_sc<-lm(sc~cd+ec+nsdc+nccdc,data=d)
+wilcox.test(d$cboo,d$cbow,paired=TRUE,alternative="greater")
+wilcox.test(d$mpco,d$mpcw,paired=TRUE,alternative="greater")
+wilcox.test(d$pco,d$pcw,paired=TRUE,alternative="greater")
+wilcox.test(d$ro,d$rw,paired=TRUE,alternative="greater")
+wilcox.test(d$fo,d$fw,paired=TRUE,alternative="greater")
+wilcox.test(d$uo,d$uw,paired=TRUE,alternative="greater")
+
+texreg(list(fit_cbo,fit_mpc,fit_pc,fit_r,fit_f,fit_u), digits=6,custom.model.names = c("\\emph{CBO}","\\emph{MPC}","\\emph{PC}","\\emph{Reusability}","\\emph{Flexibility}","\\emph{Understandability}"),custom.coef.names=c("Intercept","Refactoring suggestions count","Co-change clusters mean density","Entities count","Static graph density","Co-change graph density"), dcolumn = TRUE, caption='Effect of attributes on metrics improvement', label='tab:attributes-effect')

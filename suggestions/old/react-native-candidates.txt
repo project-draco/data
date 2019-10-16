@@ -1,0 +1,2 @@
+ReactAndroid_src_main_java_com_facebook_react_CoreModulesPackage.java/[CN]/CoreModulesPackage/[MT]/createJSModules()/body JSCHeapCapture _CoreModulesPackage.java/[CN]/CoreModulesPackage/[MT]/createJSModules() 2
+ReactAndroid_src_main_java_com_facebook_react_views_modal_ReactModalHostManager.java/[CN]/ReactModalHostManager/[MT]/addEventEmitters(ThemedReactContext,ReactModalHostView)/body ReactViewPager _ReactModalHostManager.java/[CN]/ReactModalHostManager/[MT]/addEventEmitters(ThemedReactContext,ReactModalHostView) 12

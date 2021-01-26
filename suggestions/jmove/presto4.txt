@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.kafka.TestKafkaDistributed::destroy():void	com.facebook.presto.kafka.util.EmbeddedKafka
+Move Method	com.facebook.presto.kafka.TestKafkaIntegrationSmokeTest::destroy():void	com.facebook.presto.kafka.util.EmbeddedKafka

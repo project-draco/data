@@ -1,0 +1,15 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.payment.core.sm.payments.PaymentOperation::convertToUnknownTransactionStatusAndErroredPaymentState(Exception):OperationException	org.killbill.billing.payment.core.sm.PaymentStateContext
+Move Method	org.killbill.billing.payment.core.janitor.IncompletePaymentTransactionTask::processNotification(JanitorNotificationKey, UUID, Long, long):void	org.killbill.billing.payment.core.janitor.JanitorNotificationKey
+Move Method	org.killbill.billing.payment.core.janitor.IncompletePaymentTransactionTask::getPaymentPluginApi(PaymentModelDao, String):PaymentPluginApi	org.killbill.billing.payment.dao.PaymentModelDao
+Move Method	org.killbill.billing.payment.invoice.InvoicePaymentControlPluginApi::insert_AUTO_PAY_OFF_ifRequired(PaymentControlContext, BigDecimal):boolean	org.killbill.billing.payment.invoice.dao.InvoicePaymentControlDao
+Move Method	org.killbill.billing.payment.core.sm.PaymentAutomatonRunner::runStateMachineOperation(String, TransactionType, LeavingStateCallback, OperationCallback, EnteringStateCallback, Boolean, PaymentStateContext, PaymentAutomatonDAOHelper):void	org.killbill.billing.payment.core.sm.PaymentStateMachineHelper
+Move Method	org.killbill.billing.payment.core.sm.payments.PaymentOperation::getOnLeavingStateExistingTransactionsForType(TransactionType):Iterable<PaymentTransactionModelDao>	org.killbill.billing.payment.core.sm.PaymentStateContext
+Move Method	org.killbill.billing.payment.TestJanitor::getPendingNotificationCnt(InternalCallContext):int	org.killbill.billing.payment.core.janitor.Janitor
+Move Method	org.killbill.billing.payment.core.sm.control.OperationControlCallback::adjustStateContextPluginProperties(PaymentStateContext, Iterable<PluginProperty>):void	org.killbill.billing.payment.core.sm.PaymentStateContext
+Move Method	org.killbill.billing.payment.bus.PaymentBusEventHandler::processInvoiceEvent(InvoiceCreationInternalEvent):void	org.killbill.billing.payment.core.PluginControlPaymentProcessor
+Move Method	org.killbill.billing.payment.TestRetryService::getPaymentForExternalKey(String):Payment	org.killbill.billing.payment.core.PaymentProcessor
+Move Method	org.killbill.billing.payment.core.PaymentProcessor::buildPluginProperties(PaymentAttemptModelDao):List<PluginProperty>	org.killbill.billing.payment.dao.PaymentAttemptModelDao
+Move Method	org.killbill.billing.payment.api.DefaultPaymentApi::findPaymentTransaction(Payment, String):PaymentTransaction	org.killbill.billing.payment.core.PluginControlPaymentProcessor
+Move Method	org.killbill.billing.payment.core.PaymentProcessor::findPaymentTransactionInfoPlugin(PaymentTransactionModelDao, Iterable<PaymentTransactionInfoPlugin>):PaymentTransactionInfoPlugin	org.killbill.billing.payment.core.janitor.IncompletePaymentTransactionTask
+Move Method	org.killbill.billing.payment.dao.TestDefaultPaymentDao::verifyPaymentTransaction(PaymentTransactionModelDao, PaymentTransactionModelDao):void	org.killbill.billing.payment.dao.PaymentTransactionModelDao

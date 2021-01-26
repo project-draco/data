@@ -1,0 +1,8 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.rpc.client.ClientMessageListenerTest::assertAvaiableWritableSocket(PinpointServerAcceptor, int):void	com.navercorp.pinpoint.rpc.TestAwaitUtils
+Move Method	com.navercorp.pinpoint.rpc.stream.StreamChannelManager::handleStreamClose(ClientStreamChannelContext, StreamClosePacket):void	com.navercorp.pinpoint.rpc.stream.ClientStreamChannelContext
+Move Method	com.navercorp.pinpoint.rpc.stream.StreamChannelManager::registerStreamChannel(ServerStreamChannelContext):StreamCode	com.navercorp.pinpoint.rpc.stream.ServerStreamChannelContext
+Move Method	com.navercorp.pinpoint.rpc.stream.StreamChannelManager::handlePing(StreamChannelContext, StreamPingPacket):void	com.navercorp.pinpoint.rpc.stream.StreamChannelContext
+Move Method	com.navercorp.pinpoint.rpc.client.DefaultPinpointClientHandler::ensureOpen():void	com.navercorp.pinpoint.rpc.client.PinpointClientHandlerState
+Move Method	com.navercorp.pinpoint.rpc.codec.PacketDecoder::sendPong(Channel):void	com.navercorp.pinpoint.rpc.client.WriteFailFutureListener
+Move Method	com.navercorp.pinpoint.rpc.client.DefaultPinpointClientHandler::writePing():void	com.navercorp.pinpoint.rpc.client.PinpointClientHandlerState

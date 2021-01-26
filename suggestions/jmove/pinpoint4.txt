@@ -1,0 +1,7 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.common.server.bo.codec.stat.v1.TransactionCodecV1Test::runTest():void	com.navercorp.pinpoint.common.server.bo.codec.stat.v1.TransactionCodecV1
+Move Method	com.navercorp.pinpoint.common.server.bo.codec.stat.v1.ActiveTraceCodecV1::encodeDataPoints(Buffer, StrategyAnalyzer<Short>, StrategyAnalyzer<Integer>, StrategyAnalyzer<Integer>, StrategyAnalyzer<Integer>, StrategyAnalyzer<Integer>, StrategyAnalyzer<Integer>):void	com.navercorp.pinpoint.common.server.bo.codec.stat.AgentStatDataPointCodec
+Move Method	com.navercorp.pinpoint.common.server.bo.codec.stat.v1.JvmGcCodecV1Test::runTest():void	com.navercorp.pinpoint.common.server.bo.codec.stat.v1.JvmGcCodecV1
+Move Method	com.navercorp.pinpoint.common.server.util.AgentEventMessageSerializer::serialize(AgentEventType, Object):byte[]	com.navercorp.pinpoint.common.server.util.AgentEventType
+Move Method	com.navercorp.pinpoint.common.server.bo.serializer.trace.v1.SpanEventBoTest::testSerialize():void	com.navercorp.pinpoint.common.server.bo.serializer.trace.v1.SpanDecoder
+Move Method	com.navercorp.pinpoint.common.server.util.AgentEventMessageDeserializer::deserialize(AgentEventType, byte[]):Object	com.navercorp.pinpoint.common.server.util.AgentEventType

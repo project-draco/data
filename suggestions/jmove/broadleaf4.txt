@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.broadleafcommerce.core.search.service.solr.SolrIndexServiceImpl::getCacheSizeInMemoryApproximation(CatalogStructure):int	org.broadleafcommerce.core.search.dao.CatalogStructure
+Move Method	org.broadleafcommerce.core.offer.service.OfferDataItemProvider::createItemBasedOffer(String, String, OfferDiscountType):List<Offer>	org.broadleafcommerce.core.offer.service.type.OfferDiscountType
+Move Method	org.broadleafcommerce.core.order.service.OrderServiceImpl::itemMatches(Sku, Product, Map<String,OrderItemAttribute>, OrderItemRequestDTO):boolean	org.broadleafcommerce.core.order.service.call.OrderItemRequestDTO
+Move Method	org.broadleafcommerce.core.pricing.service.workflow.FulfillmentItemPricingActivityTest::sumProratedOfferAdjustments(Order):Money	org.broadleafcommerce.core.pricing.service.workflow.FulfillmentItemPricingActivity

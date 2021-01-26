@@ -1,0 +1,13 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.raptor.metadata.DatabaseMetadataModule.MySqlDataSourceModule::createDataSource(JdbcDatabaseConfig, MySqlDataSourceConfig):DataSource	com.facebook.presto.raptor.metadata.JdbcDatabaseConfig
+Move Method	com.facebook.presto.raptor.storage.organization.ShardCompactor::compact(StoragePageSink, OptionalInt, Set<UUID>, List<Long>, List<Type>):List<ShardInfo>	com.facebook.presto.raptor.storage.StorageManager
+Move Method	com.facebook.presto.raptor.RaptorPageSourceProvider::createPageSource(UUID, OptionalInt, List<ColumnHandle>, TupleDomain<RaptorColumnHandle>, ReaderAttributes, OptionalLong):ConnectorPageSource	com.facebook.presto.raptor.storage.StorageManager
+Move Method	com.facebook.presto.raptor.storage.ShardRecoveryManager::getStats():ShardRecoveryStats	com.facebook.presto.raptor.storage.ShardRecoveryStats
+Move Method	com.facebook.presto.raptor.storage.ShardRecoveryManager::restoreFromBackup(UUID, OptionalLong):void	com.facebook.presto.raptor.storage.ShardRecoveryStats
+Move Method	com.facebook.presto.raptor.storage.ShardRecoveryManager::recoverShard(UUID):Future<?>	com.facebook.presto.raptor.storage.ShardRecoveryStats
+Move Method	com.facebook.presto.raptor.metadata.TestDatabaseShardManager.ShardAssertion::between(RaptorColumnHandle, Type, Object, Object):ShardAssertion	com.facebook.presto.raptor.RaptorColumnHandle
+Move Method	com.facebook.presto.raptor.metadata.TestDatabaseShardManager.ShardAssertion::equal(RaptorColumnHandle, Type, Object):ShardAssertion	com.facebook.presto.raptor.RaptorColumnHandle
+Move Method	com.facebook.presto.raptor.storage.organization.ShardCompactionManager::filterAndCreateCompactionSets(long, Collection<ShardMetadata>):Collection<OrganizationSet>	com.facebook.presto.raptor.storage.organization.CompactionSetCreator
+Move Method	com.facebook.presto.raptor.metadata.DatabaseShardManager::loadBucketAssignments(long):Map<Integer,String>	com.facebook.presto.raptor.metadata.AssignmentLimiter
+Move Method	com.facebook.presto.raptor.backup.TestFileBackupStore::testFilePaths():void	com.facebook.presto.raptor.backup.FileBackupStore
+Move Method	com.facebook.presto.raptor.backup.BackupManager::getStats():BackupStats	com.facebook.presto.raptor.storage.BackupStats

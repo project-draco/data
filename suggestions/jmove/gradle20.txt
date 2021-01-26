@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.internal.resource.transport.http.HttpClientConfigurer::configureSslSocketConnectionFactory(HttpClientBuilder, SslContextFactory):void	org.gradle.internal.resource.transport.http.HttpSettings

@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.cache.jcache.interceptor.AnnotationCacheOperationSourceTests::assertDefaults(AbstractJCacheKeyOperation<?>):void	org.springframework.cache.jcache.interceptor.AbstractJCacheKeyOperation
+Move Method	org.springframework.cache.ehcache.EhCacheCacheTests::testExpiredElements():void	org.springframework.cache.ehcache.EhCacheCache
+Move Method	org.springframework.cache.jcache.interceptor.KeyGeneratorAdapter::createCacheKeyInvocationContext(Object, JCacheOperation<?>, Object[]):CacheKeyInvocationContext<?>	org.springframework.cache.jcache.interceptor.JCacheOperationSource
+Move Method	org.springframework.cache.jcache.interceptor.JCacheAspectSupport::execute(CacheOperationInvoker, Object, Method, Object[]):Object	org.springframework.cache.jcache.interceptor.JCacheOperationSource

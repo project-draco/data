@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.plugins.signing.SigningExtension::addSignatureSpecConventions(SignatureSpec):void	org.gradle.plugins.signing.SignatureSpec
+Move Method	org.gradle.plugins.signing.SigningExtension::addSignaturesToConfiguration(Sign, Configuration):Object	org.gradle.plugins.signing.Sign

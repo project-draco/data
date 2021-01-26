@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.internal.resource.transport.sftp.SftpClientFactory.SftpClientCreator::createNewClient(SftpHost):LockableSftpClient	org.gradle.internal.resource.transport.sftp.SftpHost

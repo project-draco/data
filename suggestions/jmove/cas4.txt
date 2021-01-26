@@ -1,0 +1,7 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.support.oauth.web.OAuth20AccessTokenControllerTests::addCode(Principal, RegisteredService):OAuthCode	org.apereo.cas.ticket.code.OAuthCodeFactory
+Move Method	org.apereo.cas.support.oauth.web.OAuth20AccessTokenControllerTests::addRefreshToken(Principal, RegisteredService):RefreshToken	org.apereo.cas.ticket.refreshtoken.RefreshTokenFactory
+Move Method	org.apereo.cas.support.oauth.web.endpoints.OAuth20AuthorizeEndpointController::buildAuthorizationForRequest(OAuthRegisteredService, J2EContext, String, Service, Authentication):View	org.apereo.cas.ticket.code.OAuthCodeFactory
+Move Method	org.apereo.cas.support.oauth.web.endpoints.OAuth20CallbackAuthorizeEndpointController::handleRequest(HttpServletRequest, HttpServletResponse):ModelAndView	org.apereo.cas.support.oauth.web.views.OAuth20CallbackAuthorizeViewResolver
+Move Method	org.apereo.cas.support.oauth.web.endpoints.OAuth20AccessTokenEndpointController::generateAccessTokenResponse(HttpServletRequest, HttpServletResponse, AccessTokenRequestDataHolder, J2EContext, AccessToken, RefreshToken):void	org.apereo.cas.support.oauth.web.response.accesstoken.AccessTokenResponseGenerator
+Move Method	org.apereo.cas.support.oauth.web.endpoints.OAuth20AuthorizeEndpointController::handleRequest(HttpServletRequest, HttpServletResponse):ModelAndView	org.apereo.cas.support.oauth.web.views.ConsentApprovalViewResolver

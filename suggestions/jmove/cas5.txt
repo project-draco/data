@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.oidc.web.controllers.OidcDynamicClientRegistrationEndpointController::getClientRegistrationResponse(OidcClientRegistrationRequest, OidcRegisteredService):OidcClientRegistrationResponse	org.apereo.cas.oidc.dynareg.OidcClientRegistrationRequest

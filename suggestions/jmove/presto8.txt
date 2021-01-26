@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.redis.TestMinimalFunctionality::populateData(int):void	com.facebook.presto.redis.util.EmbeddedRedis
+Move Method	com.facebook.presto.redis.TestRedisDistributed::destroy():void	com.facebook.presto.redis.util.EmbeddedRedis
+Move Method	com.facebook.presto.redis.TestRedisIntegrationSmokeTest::destroy():void	com.facebook.presto.redis.util.EmbeddedRedis
+Move Method	com.facebook.presto.redis.RedisRecordCursor::setScanParms():ScanParams	com.facebook.presto.redis.RedisJedisManager
+Move Method	com.facebook.presto.redis.TestRedisDistributedHash::destroy():void	com.facebook.presto.redis.util.EmbeddedRedis

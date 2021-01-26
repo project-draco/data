@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.verifier.QueryRewriter::trySetConnectionProperties(Query, Connection):void	com.facebook.presto.verifier.Query
+Move Method	com.facebook.presto.verifier.Validator::trySetConnectionProperties(Query, Connection):void	com.facebook.presto.verifier.QueryPair
+Move Method	com.facebook.presto.verifier.Verifier::isCheckCorrectness(QueryPair):boolean	com.facebook.presto.verifier.QueryPair

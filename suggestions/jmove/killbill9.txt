@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.server.log.obfuscators.TestObfuscatorConverter::verify(String, String):void	org.killbill.billing.server.log.obfuscators.ObfuscatorConverter

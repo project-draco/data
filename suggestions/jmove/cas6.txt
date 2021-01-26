@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.support.openid.authentication.principal.OpenIdServiceResponseBuilder::determineIdentity(OpenIdService, Assertion):String	org.apereo.cas.support.openid.authentication.principal.OpenIdService

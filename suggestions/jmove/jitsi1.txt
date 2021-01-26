@@ -1,0 +1,216 @@
+Refactoring Type	Source Method	Target Class
+Move Method	net.java.sip.communicator.service.protocol.ProtocolProviderFactory::getProviderForAccount(AccountID):ServiceReference<ProtocolProviderService>	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::registerUsingNextAddress():boolean	net.java.sip.communicator.impl.protocol.sip.SipRegistrarConnection
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::getOurJID():String	net.java.sip.communicator.impl.protocol.jabber.extensions.keepalive.KeepAliveManager
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.contactsource.SourceUIContact::addDetailsToToolTip(List<ContactDetail>, String, ExtendedTooltip):void	net.java.sip.communicator.plugin.desktoputil.ExtendedTooltip
+Move Method	net.java.sip.communicator.slick.protocol.yahoo.TestOperationSetAdHocMultiUserChatYahooImpl::testRegisterAccount3():void	net.java.sip.communicator.slick.protocol.generic.AdHocMultiUserChatSlickFixture
+Move Method	net.java.sip.communicator.slick.protocol.gibberish.TestProtocolProviderServiceGibberishImpl::testOperationSetTypes():void	net.java.sip.communicator.slick.protocol.gibberish.GibberishSlickFixture
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetDesktopSharingClientSipImpl::notifySubscriptions(CallPeer):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.call.DialPanel::createDialButton(Image, ImageID, String):JButton	net.java.sip.communicator.service.resources.ImageID
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::getNextHop():InetAddress	net.java.sip.communicator.impl.protocol.jabber.extensions.keepalive.KeepAliveManager
+Move Method	net.java.sip.communicator.impl.protocol.sip.CallPeerMediaHandlerSipImpl::getUserName():String	net.java.sip.communicator.impl.protocol.sip.QualityControlWrapper
+Move Method	net.java.sip.communicator.plugin.aimaccregwizz.FirstWizardPage::loadAccount(ProtocolProviderService):void	net.java.sip.communicator.plugin.aimaccregwizz.AimAccountRegistrationWizard
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatConversationComponent::openFile(File):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.plugin.notificationwiring.NotificationManager::stopSound(NotificationData):void	net.java.sip.communicator.service.notification.NotificationData
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetDesktopStreamingSipImpl::addDesktopShareHeader(javax.sip.message.Message):void	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::getSSLSocket():SSLSocket	net.java.sip.communicator.impl.protocol.jabber.extensions.version.VersionManager
+Move Method	net.java.sip.communicator.impl.protocol.sip.security.SipSecurityManager::createCcEntryWithNewCredentials(String, int):CredentialsCacheEntry	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatConversationPanel::processReplacers(String, Replacer[]):String	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.MetaContactChatSession::initChatTransports(Contact, ContactResource):void	net.java.sip.communicator.service.protocol.ContactResource
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ServerStoredContactListJabberImpl::searchForCustomAvatar(String):byte[]	net.java.sip.communicator.impl.protocol.jabber.InfoRetreiver
+Move Method	net.java.sip.communicator.slick.protocol.yahoo.TestAccountUninstallation::testInstallationPersistency():void	net.java.sip.communicator.slick.protocol.yahoo.YahooSlickFixture
+Move Method	net.java.sip.communicator.service.protocol.media.MediaHandler::getEncryptionMethod(CallPeerMediaHandler<?>, MediaType):SrtpControl	net.java.sip.communicator.service.protocol.media.SrtpControls
+Move Method	net.java.sip.communicator.plugin.chatalerter.ChatAlerterActivator::alertWindow(WindowID):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetTelephonyConferencingJabberImpl::getConferenceInfo(CallPeerJabberImpl, ConferenceInfoDocument):IQ	net.java.sip.communicator.impl.protocol.jabber.CallPeerJabberImpl
+Move Method	net.java.sip.communicator.service.protocol.media.MediaHandler::setOutputVolumeControl(AudioMediaStream, MediaAwareCall<?,?,?>):void	net.java.sip.communicator.service.protocol.media.MediaAwareCall
+Move Method	net.java.sip.communicator.service.protocol.media.MediaHandler::initStream(CallPeerMediaHandler<?>, StreamConnector, MediaDevice, MediaFormat, MediaStreamTarget, MediaDirection, List<RTPExtension>, boolean):MediaStream	net.java.sip.communicator.service.protocol.media.SrtpControls
+Move Method	net.java.sip.communicator.impl.protocol.icq.OperationSetPersistentPresenceIcqImpl::fireProviderPresenceStatusChangeEvent(long, long):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.irc.ChatRoomIrcImpl::fireMemberPresenceEvent(ChatRoomMember, ChatRoomMember, String, String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.plugin.otr.ScOtrEngineImpl::isHistoryLoggingEnabled(Contact):boolean	net.java.sip.communicator.plugin.otr.OtrConfigurator
+Move Method	net.java.sip.communicator.impl.msghistory.MessageHistoryServiceImpl::stopMessageHistoryService():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox::changeTooltip(String):void	net.java.sip.communicator.impl.gui.main.presence.AccountStatusPanel
+Move Method	net.java.sip.communicator.impl.gui.main.chat.filetransfer.FileTransferConversationComponent::setCompletedDownloadFile(File):void	net.java.sip.communicator.impl.gui.utils.FileImageLabel
+Move Method	net.java.sip.communicator.impl.history.InteractiveHistoryReaderImpl::find(Date, Date, String[], String, boolean, int, HistoryQueryImpl):void	net.java.sip.communicator.impl.history.HistoryQueryImpl
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetBasicInstantMessagingJabberImpl::createMailboxDescription(MailboxIQ):String	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetBasicTelephonySipImpl::sendReferNotifyRequest(Dialog, String, String, Object, SipProvider):void	net.java.sip.communicator.impl.protocol.sip.SipMessageFactory
+Move Method	net.java.sip.communicator.impl.gui.customcontrols.wizard.Wizard::setCurrentPage(Object):void	net.java.sip.communicator.impl.gui.customcontrols.wizard.WizardController
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetTelephonyConferencing::notifyAll(Call):void	net.java.sip.communicator.service.protocol.Call
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallManager.IncomingCallHandler::incomingCallReceivedInEventDispatchThread(CallEvent):void	net.java.sip.communicator.service.protocol.event.CallEvent
+Move Method	net.java.sip.communicator.plugin.desktoputil.presence.avatar.imagepicker.ImagePickerDialog::showDialog(Image):byte[]	net.java.sip.communicator.plugin.desktoputil.presence.avatar.imagepicker.EditPanel
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetPersistentPresenceJabberImpl::updateContactStatus(ContactJabberImpl, PresenceStatus):void	net.java.sip.communicator.impl.protocol.jabber.MobileIndicator
+Move Method	net.java.sip.communicator.service.protocol.media.MediaHandler::registerDynamicPTsWithStream(CallPeerMediaHandler<?>, MediaStream):void	net.java.sip.communicator.service.protocol.media.CallPeerMediaHandler
+Move Method	net.java.sip.communicator.slick.msghistory.TestMsgHistoryService::writeRecords():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetJitsiMeetToolsSipImpl::notifyJoinJitsiMeetRoom(Call, String, String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList::startSelectedContactChat():void	net.java.sip.communicator.impl.gui.main.contactlist.CallHistoryFilter
+Move Method	net.java.sip.communicator.impl.protocol.sip.security.SipSecurityManager::cacheCredentials(String, UserCredentials):void	net.java.sip.communicator.impl.protocol.sip.security.CredentialsCache
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::getRegistrarTransport():String	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.callhistory.CallHistoryServiceImpl::start(BundleContext):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.plugin.jabberaccregwizz.JabberAccountRegistrationForm::getSimpleForm():Component	net.java.sip.communicator.plugin.jabberaccregwizz.AccountPanel
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetMessageWaitingSipImpl::getSubscribeAddress():Address	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl
+Move Method	net.java.sip.communicator.plugin.whiteboard.gui.WhiteboardFrame::sendShape(WhiteboardShape):void	net.java.sip.communicator.plugin.whiteboard.WhiteboardSessionManager
+Move Method	net.java.sip.communicator.plugin.whiteboard.gui.WhiteboardFrame::createWhiteboardShape(WhiteboardObject):WhiteboardShape	net.java.sip.communicator.plugin.whiteboard.WhiteboardSessionManager
+Move Method	net.java.sip.communicator.impl.protocol.jabber.InfoRetreiver::retrieveDetails(String):List<GenericDetail>	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::notifyConnectionFailed():void	net.java.sip.communicator.impl.protocol.sip.SipRegistrarConnection
+Move Method	net.java.sip.communicator.slick.protocol.icq.TestOperationSetBasicInstantMessaging::testSendFunMessages():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.dns.ConfigurableDnssecResolver::getExceptionMessage(SecureMessage):String	net.java.sip.communicator.impl.dns.SecureMessage
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList::initContactSources():void	net.java.sip.communicator.impl.gui.main.contactlist.CallHistoryFilter
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetTelephonyConferencing::getRemoteSourceID(MediaAwareCallPeer<?,?,?>, MediaType):long	net.java.sip.communicator.service.protocol.media.MediaAwareCallPeer
+Move Method	net.java.sip.communicator.impl.protocol.jabber.CallPeerJabberImpl::processSessionTerminate(JingleIQ):void	net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.JingleIQ
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatPanel::isGreyHistoryStyleDisabled(ProtocolProviderService):boolean	net.java.sip.communicator.impl.gui.main.chat.conference.ChatRoomSubjectPanel
+Move Method	net.java.sip.communicator.service.protocol.Call::fireCallChangeEvent(String, Object, Object, CallPeerChangeEvent):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.slick.msghistory.TestMsgHistoryServiceMultiChat::writeRecordsToMultiChat():void	net.java.sip.communicator.impl.protocol.mock.MockMultiUserChat
+Move Method	net.java.sip.communicator.impl.gui.UIServiceImpl::setDefaultThemePack():void	net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager
+Move Method	net.java.sip.communicator.impl.protocol.irc.IrcStack::disconnect():void	net.java.sip.communicator.impl.protocol.irc.ProtocolProviderServiceIrcImpl
+Move Method	net.java.sip.communicator.slick.protocol.jabber.TestOperationSetMultiUserChat2::prepareContactList():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl::unsubscribeToAllEventSubscribers():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.gibberish.CallGibberishImpl::removeCallPeer(CallPeerGibberishImpl):void	net.java.sip.communicator.impl.protocol.gibberish.CallPeerGibberishImpl
+Move Method	net.java.sip.communicator.impl.gui.main.MainFrame::initBounds():void	net.java.sip.communicator.impl.gui.main.contactlist.UnknownContactPanel
+Move Method	net.java.sip.communicator.impl.protocol.sip.xcap.BaseHttpXCapClient::getResourceURI(XCapResourceId):URI	net.java.sip.communicator.impl.protocol.sip.xcap.XCapResourceId
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetTypingNotificationsSipImpl::sendResponse(RequestEvent, int):void	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatConversationPanel::processMeCommand(ChatMessage):String	net.java.sip.communicator.impl.gui.main.chat.ChatMessage
+Move Method	net.java.sip.communicator.impl.callhistory.CallHistoryServiceImpl::setHistoryService(HistoryService):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.plugin.msofficecomm.Messenger::startConversation(int, String[], String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.service.protocol.media.MediaAwareCallPeer::logAndFail(String, Throwable):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::initButtonIndexes():void	net.java.sip.communicator.impl.gui.main.call.FullScreenButton
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationGroup::removeNotificationContact(NotificationContact):void	net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationContact
+Move Method	net.java.sip.communicator.plugin.demuxcontactsource.DemuxContactSource::isPreferredContactDetail(ContactDetail):boolean	net.java.sip.communicator.service.contactsource.ContactDetail
+Move Method	net.java.sip.communicator.impl.protocol.sip.security.SipSecurityManager::createCcEntryWithStoredPassword(String):CredentialsCacheEntry	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.slick.protocol.sip.TestProtocolProviderServiceSipImpl::testRegister():void	net.java.sip.communicator.slick.protocol.sip.SipSlickFixture
+Move Method	net.java.sip.communicator.impl.protocol.jabber.MobileIndicator::resourcesUpdated(ContactJabberImpl):void	net.java.sip.communicator.impl.protocol.jabber.ContactJabberImpl
+Move Method	net.java.sip.communicator.impl.protocol.irc.OperationSetMultiUserChatIrcImpl::openChatRoomWindow(ChatRoomIrcImpl):void	net.java.sip.communicator.impl.protocol.irc.ChatRoomIrcImpl
+Move Method	net.java.sip.communicator.impl.protocol.irc.ProtocolProviderServiceIrcImpl::loadProxy():Proxy	net.java.sip.communicator.impl.protocol.irc.OperationSetPersistentPresenceIrcImpl
+Move Method	net.java.sip.communicator.slick.protocol.sip.TestAccountUninstallation::testInstallationPersistency():void	net.java.sip.communicator.slick.protocol.sip.SipSlickFixture
+Move Method	net.java.sip.communicator.slick.protocol.gibberish.TestAccountUninstallation::testInstallationPersistency():void	net.java.sip.communicator.slick.protocol.gibberish.GibberishSlickFixture
+Move Method	net.java.sip.communicator.impl.protocol.irc.ChatRoomIrcImpl::fireMemberRoleEvent(ChatRoomMember, ChatRoomMemberRole):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.call.conference.VideoConferenceCallPanel::isConferenceMemberLocalUser(ConferenceMember):boolean	net.java.sip.communicator.service.protocol.CallConference
+Move Method	net.java.sip.communicator.impl.gui.main.chat.conference.ChatRoomConfigurationWindow::computeLabelWidth(ChatRoomConfigurationForm):int	net.java.sip.communicator.impl.gui.customcontrols.TitlePanel
+Move Method	net.java.sip.communicator.plugin.otr.authdialog.OtrConfigurationPanel.PrivateKeysPanel::openAccount(AccountID):void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.sip.CallPeerMediaHandlerSipImpl::selectSdesCryptoSuite(boolean, SDesControl, MediaDescription):SrtpCryptoAttribute	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetTelephonyConferencingJabberImpl::handleCoin(CallPeerJabberImpl, CoinIQ):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.MetaContactRightButtonMenu::getContactFromMetaContact(String):Contact	net.java.sip.communicator.util.call.MetaContactPhoneUtil
+Move Method	net.java.sip.communicator.impl.callhistory.CallHistoryServiceImpl::handleProviderAdded(ProtocolProviderService):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ChatRoomJabberImpl::publishPresenceStatus(String):void	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::getJitsiVideobridge():String	net.java.sip.communicator.impl.protocol.jabber.extensions.keepalive.KeepAliveManager
+Move Method	net.java.sip.communicator.impl.gui.main.chat.MetaContactChatTransport::getFileThumbnail(File):byte[]	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.history.HistoryWindow::appendMessageToDocument(HTMLDocument, String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.mock.MockOperationSetBasicTelephony::createCall(Contact, ContactResource, CallConference):Call	net.java.sip.communicator.service.protocol.CallConference
+Move Method	net.java.sip.communicator.plugin.spellcheck.LanguageMenuBar::createEnableCheckBox():JCheckBox	net.java.sip.communicator.plugin.spellcheck.SpellChecker
+Move Method	net.java.sip.communicator.impl.protocol.sip.security.SipSecurityManager::removeBranchID(Request):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::getDefaultTransport():String	net.java.sip.communicator.impl.protocol.sip.SipRegistrarConnection
+Move Method	net.java.sip.communicator.plugin.keybindingchooser.chooser.BindingChooser.IndentStyle::apply(BindingEntry, int):void	net.java.sip.communicator.plugin.keybindingchooser.chooser.BindingEntry
+Move Method	net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager::fireAdHocChatRoomListChangedEvent(AdHocChatRoomWrapper, int):void	net.java.sip.communicator.impl.gui.main.chat.conference.AdHocChatRoomWrapper
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl::createVolatileContact(String, String):ContactSipImpl	net.java.sip.communicator.impl.protocol.sip.ServerStoredContactList
+Move Method	net.java.sip.communicator.slick.metahistory.TestMetaHistoryService::generateCall(String):void	net.java.sip.communicator.impl.protocol.mock.MockOperationSetBasicTelephony
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList::initKeyActions():void	net.java.sip.communicator.impl.gui.main.contactlist.CallHistoryFilter
+Move Method	net.java.sip.communicator.impl.protocol.jabber.AbstractCallPeerMediaHandlerJabberGTalkImpl::selectSdesCryptoSuite(boolean, SDesControl, EncryptionPacketExtension):SrtpCryptoAttribute	net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.EncryptionPacketExtension
+Move Method	net.java.sip.communicator.impl.protocol.yahoo.ContactYahooImpl::getImage(boolean):byte[]	net.java.sip.communicator.impl.protocol.yahoo.ServerStoredContactListYahooImpl
+Move Method	net.java.sip.communicator.impl.protocol.gibberish.CallGibberishImpl::addCallPeer(CallPeerGibberishImpl):void	net.java.sip.communicator.impl.protocol.gibberish.CallPeerGibberishImpl
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::getContactHeader(SipURI):ContactHeader	net.java.sip.communicator.impl.protocol.sip.SipStackSharing
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl::processAuthenticationChallenge(ClientTransaction, Response, SipProvider):void	net.java.sip.communicator.impl.protocol.sip.EventPackageNotifier
+Move Method	net.java.sip.communicator.plugin.desktoputil.presence.avatar.imagepicker.WebcamDialog::grabSnapshot():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.ServerStoredContactListXivoImpl::phonesRecieved(JSONObject):void	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl
+Move Method	net.java.sip.communicator.plugin.addrbook.msoutlook.calendar.CalendarServiceImpl::addCalendarItem(Object[], String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager::joinChatRoom(AdHocChatRoom):void	net.java.sip.communicator.impl.gui.main.chatroomslist.AdHocChatRoomList
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.MetaContactRightButtonMenu::moveContact(MetaContact):void	net.java.sip.communicator.impl.gui.main.contactlist.MoveSubcontactMessageDialog
+Move Method	net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox::setSystrayIcon(PresenceStatus):void	net.java.sip.communicator.service.protocol.PresenceStatus
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::sayError(ServerTransaction, int, Header):void	net.java.sip.communicator.impl.protocol.sip.SipMessageFactory
+Move Method	net.java.sip.communicator.plugin.otr.authdialog.OtrConfigurationPanel.DefaultOtrPolicyPanel::loadPolicy():void	net.java.sip.communicator.plugin.desktoputil.SIPCommCheckBox
+Move Method	net.java.sip.communicator.impl.gui.main.MainFrame::initTitleFont():void	net.java.sip.communicator.impl.gui.main.contactlist.UnknownContactPanel
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::onCallConferenceEventObject(EventObject):void	net.java.sip.communicator.service.protocol.CallConference
+Move Method	net.java.sip.communicator.service.protocol.media.MediaHandler::registerRTPExtensionsWithStream(CallPeerMediaHandler<?>, List<RTPExtension>, MediaStream):void	net.java.sip.communicator.service.protocol.media.CallPeerMediaHandler
+Move Method	net.java.sip.communicator.impl.msghistory.MessageHistoryServiceImpl::getCurrentlyAvailableProviders():List<ProtocolProviderService>	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatWritePanel::setTransportSelectorBoxVisible(boolean):void	net.java.sip.communicator.impl.gui.main.chat.ChatPanel
+Move Method	net.java.sip.communicator.impl.protocol.sip.xcap.BaseHttpXCapClient::getXCapErrorMessage(XCapHttpResponse):String	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::sendAck(ClientTransaction):void	net.java.sip.communicator.impl.protocol.sip.SipMessageFactory
+Move Method	net.java.sip.communicator.slick.protocol.icq.TestOperationSetFileTransferImpl::prepareContactList():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetPersistentPresenceJabberImpl::initializePriorities():void	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatWindowManager::removeNonReadChatState(ChatPanel):void	net.java.sip.communicator.impl.gui.main.chat.ChatPanel
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::setCallTitle(long):void	net.java.sip.communicator.impl.gui.main.call.FullScreenButton
+Move Method	net.java.sip.communicator.impl.gui.main.GeneralDialPanel::createDialButton(ImageID, ImageID, ImageID, String):JButton	net.java.sip.communicator.service.resources.ImageID
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetPersistentPresenceJabberImpl::createContactPhotoPresenceListener():void	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.slick.protocol.gibberish.TestAccountUninstallation::testUninstallAccount():void	net.java.sip.communicator.slick.protocol.gibberish.GibberishSlickFixture
+Move Method	net.java.sip.communicator.service.protocol.AbstractProtocolProviderService::fireRegistrationStateChanged(RegistrationState, RegistrationState, int, String, boolean):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.filehistory.FileHistoryServiceImpl::start(BundleContext):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.UIServiceImpl::forwardNotificationCount():void	net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager
+Move Method	net.java.sip.communicator.impl.protocol.mock.MockCall::addCallPeer(MockCallPeer):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.irc.ChatRoomIrcImpl::fireMessageDeliveryFailedEvent(int, String, Date, Message):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.neomedia.MediaConfigurationImpl.AudioLevelListenerThread::setDeviceSession(AudioMediaDeviceSession):void	net.java.sip.communicator.plugin.desktoputil.SoundLevelIndicator
+Move Method	net.java.sip.communicator.impl.msghistory.MessageHistoryServiceImpl::setHistoryService(HistoryService):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.toolBars.MainToolBar::setCallButtonsIcons():void	net.java.sip.communicator.impl.gui.customcontrols.ChatToolbarButton
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetDesktopSharingClientSipImpl.RemoteControlNotifierSubscription::findCallPeerByDSSID(ActiveCallsRepositorySipImpl):CallPeerSipImpl	net.java.sip.communicator.impl.protocol.sip.ActiveCallsRepositorySipImpl
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::updateMergeButtonState():void	net.java.sip.communicator.impl.gui.main.call.LocalVideoButton
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.notifsource.NotificationGroup::messageWaitingNotify(MessageWaitingEvent):void	net.java.sip.communicator.service.protocol.event.MessageWaitingEvent
+Move Method	net.java.sip.communicator.impl.gui.main.MainFrame::createTopComponent():JComponent	net.java.sip.communicator.impl.gui.main.contactlist.UnknownContactPanel
+Move Method	net.java.sip.communicator.impl.gui.main.call.conference.BasicConferenceParticipantPanel::securityOn(CallPeerSecurityOnEvent):void	net.java.sip.communicator.service.protocol.event.CallPeerSecurityOnEvent
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::createLoginStrategy():JabberLoginStrategy	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.slick.protocol.sip.TestAccountUninstallation::testUninstallAccount():void	net.java.sip.communicator.slick.protocol.sip.SipSlickFixture
+Move Method	net.java.sip.communicator.impl.neomedia.MediaConfigurationImpl.AudioLevelListenerThread::init(AudioSystem, JComboBox, SoundLevelIndicator):void	net.java.sip.communicator.plugin.desktoputil.SoundLevelIndicator
+Move Method	net.java.sip.communicator.impl.gui.UIServiceImpl::initCustomFonts():void	net.java.sip.communicator.impl.gui.main.MainFrame
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetTelephonyConferencingSipImpl::notifyAll(String, String, Call):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::initRegistrarConnection():void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.sip.EventPackageNotifier::createNotify(Dialog, byte[], String, String):ClientTransaction	net.java.sip.communicator.impl.protocol.sip.SipMessageFactory
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::getLocalViaHeaders(SipURI):ArrayList<ViaHeader>	net.java.sip.communicator.impl.protocol.sip.SipStackSharing
+Move Method	net.java.sip.communicator.impl.protocol.jabber.InfoRetreiver::load(VCard, Connection, String, long):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetTelephonyConferencing::callBegun(CallEvent):void	net.java.sip.communicator.service.protocol.event.CallEvent
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::callWindowPropertyChange(PropertyChangeEvent):void	net.java.sip.communicator.impl.gui.main.call.FullScreenButton
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatPanel::cancelActiveFileTransfers():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.slick.protocol.icq.TestOperationSetBasicInstantMessaging::testReceiveOfflineMessages():void	net.java.sip.communicator.slick.protocol.icq.IcqSlickFixture
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatConversationPanel::openContextMenu(Point):void	net.java.sip.communicator.impl.gui.main.chat.menus.ChatRightButtonMenu
+Move Method	net.java.sip.communicator.plugin.sip2sipaccregwizz.CreateSip2SipAccountForm::parseHttpResponse(String):NewAccount	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox::getItemFromStatus(PresenceStatus):JCheckBoxMenuItem	net.java.sip.communicator.service.protocol.PresenceStatus
+Move Method	net.java.sip.communicator.impl.gui.main.MainFrame::registerKeyActions():void	net.java.sip.communicator.impl.gui.main.contactlist.SearchField
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetFileTransferJabberImpl::assertConnected():void	net.java.sip.communicator.impl.protocol.jabber.OperationSetPersistentPresenceJabberImpl
+Move Method	net.java.sip.communicator.impl.gui.main.menus.AutoAnswerMenu.AutoAnswerOptionsDialog::loadValues():void	net.java.sip.communicator.plugin.desktoputil.SIPCommCheckBox
+Move Method	net.java.sip.communicator.slick.protocol.yahoo.TestProtocolProviderServiceYahooImpl::testRegister():void	net.java.sip.communicator.slick.protocol.yahoo.YahooSlickFixture
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::uiVideoHandlerUpdate(Object):void	net.java.sip.communicator.impl.gui.main.call.ShowHideVideoButton
+Move Method	net.java.sip.communicator.plugin.otr.OtrActivator::handleProviderAdded(ProtocolProviderService):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl::getTextContent(Element):String	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.irc.IrcStack::getCustomSSLContext(String):SSLContext	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.MetaContactRightButtonMenu::initPluginComponents():void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.jabber.CallPeerMediaHandlerJabberImpl::addSourceExtension(RtpDescriptionPacketExtension, long):void	net.java.sip.communicator.impl.protocol.jabber.extensions.jingle.RtpDescriptionPacketExtension
+Move Method	net.java.sip.communicator.impl.ldap.LdapDirectoryImpl::disconnect(InitialDirContext):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.slick.protocol.yahoo.TestAccountUninstallation::testUninstallAccount():void	net.java.sip.communicator.slick.protocol.yahoo.YahooSlickFixture
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl::createPublish(int, boolean):Request	net.java.sip.communicator.impl.protocol.sip.EventPackageSubscriber
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatWritePanel::appendText(String):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.customcontrols.wizard.Wizard::close(int):void	net.java.sip.communicator.impl.gui.customcontrols.wizard.WizardController
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetBasicInstantMessagingJabberImpl::isCarbonSupported():boolean	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList::fireContactListEvent(java.util.List<ContactListListener>, ContactListEvent):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.service.protocol.ProtocolProviderFactory::storeAccount(AccountID, boolean):void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.jabber.UriHandlerJabberImpl::showErrorMessage(String, Exception):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.service.protocol.ProtocolProviderFactory::storePassword(AccountID, String):void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::addJingleFeatures():void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.gui.main.contactlist.TreeContactList::setActiveContact(MetaContact, boolean):void	net.java.sip.communicator.impl.gui.main.contactlist.contactsource.MetaContactListSource
+Move Method	net.java.sip.communicator.impl.protocol.sip.ServerStoredContactList::fireGroupEvent(ContactGroup, int):void	net.java.sip.communicator.impl.protocol.sip.OperationSetPresenceSipImpl
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetBasicTelephony::fireCallEvent(CallEvent):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderFactorySipImpl::storeXCapPassword(AccountID):void	net.java.sip.communicator.service.protocol.AccountID
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::getFullJid(String):String	net.java.sip.communicator.impl.protocol.jabber.extensions.version.VersionManager
+Move Method	net.java.sip.communicator.impl.gui.main.chatroomslist.ChatRoomTableDialog::createProvidersCombobox():JComboBox	net.java.sip.communicator.impl.gui.main.chatroomslist.ServerChatRoomsChoiceDialog
+Move Method	net.java.sip.communicator.service.protocol.Call::fireCallPeerEvent(CallPeer, int, boolean):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatWritePanel::isIMAllowed():boolean	net.java.sip.communicator.impl.gui.main.chat.ChatPanel
+Move Method	net.java.sip.communicator.impl.protocol.sip.ProtocolProviderServiceSipImpl::getListeningPoint(String):ListeningPoint	net.java.sip.communicator.impl.protocol.sip.SipStackSharing
+Move Method	net.java.sip.communicator.plugin.keybindingchooser.chooser.BindingChooser::doInput(KeyStroke):void	net.java.sip.communicator.plugin.keybindingchooser.chooser.BindingEntry
+Move Method	net.java.sip.communicator.slick.protocol.jabber.TestOperationSetMultiUserChat2::getRole(String, List<ChatRoomMember>, String, boolean):ChatRoomMemberRole	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.OperationSetAutoAnswerSipImpl::doesRequestContainsActiveVideoMediaType(Call):boolean	net.java.sip.communicator.service.protocol.Call
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetTelephonyConferencing::getConferenceInfoDiff(ConferenceInfoDocument, ConferenceInfoDocument):ConferenceInfoDocument	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.service.protocol.media.AbstractOperationSetTelephonyConferencing::conferenceInfoDocumentsMatch(ConferenceInfoDocument, ConferenceInfoDocument):boolean	net.java.sip.communicator.service.protocol.media.ConferenceInfoDocument
+Move Method	net.java.sip.communicator.impl.filehistory.FileHistoryServiceImpl::handleProviderAdded(ProtocolProviderService):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.googlecontacts.configform.GoogleContactsConfigForm::initComponents():void	net.java.sip.communicator.impl.googlecontacts.configform.AccountSettingsForm
+Move Method	net.java.sip.communicator.impl.gui.main.call.CallPanel::getIMCapableCallPeers(int):List<Contact>	net.java.sip.communicator.impl.gui.main.call.TransferCallButton
+Move Method	net.java.sip.communicator.impl.gui.UIServiceImpl::firePluginEvent(PluginComponentFactory, int):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.presence.AccountStatusPanel::updateImage(ImageIcon):void	net.java.sip.communicator.plugin.desktoputil.FramedImage
+Move Method	net.java.sip.communicator.plugin.desktoputil.wizard.SecurityPanel::loadStates():void	net.java.sip.communicator.plugin.desktoputil.PriorityTable
+Move Method	net.java.sip.communicator.impl.gui.main.presence.GlobalStatusSelectorBox::createMenuItem(GlobalStatusEnum, int):JCheckBoxMenuItem	net.java.sip.communicator.service.protocol.globalstatus.GlobalStatusEnum
+Move Method	net.java.sip.communicator.impl.gui.main.authorization.AuthorizationHandlerImpl::addRenameListener(ProtocolProviderService, String, String):void	net.java.sip.communicator.impl.gui.main.MainFrame
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatWindow::setChatContactPhoto(ChatSession):void	net.java.sip.communicator.impl.gui.main.chat.ContactPhotoPanel
+Move Method	net.java.sip.communicator.impl.gui.main.call.AbstractCallToggleButton::callPanelPropertyChange(PropertyChangeEvent):void	net.java.sip.communicator.impl.gui.main.call.CallPanel
+Move Method	net.java.sip.communicator.impl.protocol.sip.CallPeerSipImpl::reflectConferenceFocus(javax.sip.message.Message):void	net.java.sip.communicator.impl.protocol.sip.SipMessageFactory
+Move Method	net.java.sip.communicator.impl.gui.main.chat.conference.ConferenceChatManager::createAdHocChatRoom(ProtocolProviderService, Collection<String>, String):AdHocChatRoomWrapper	net.java.sip.communicator.impl.gui.main.chatroomslist.AdHocChatRoomList
+Move Method	net.java.sip.communicator.slick.protocol.gibberish.TestProtocolProviderServiceGibberishImpl::testRegister():void	net.java.sip.communicator.slick.protocol.gibberish.GibberishSlickFixture
+Move Method	net.java.sip.communicator.impl.gui.main.chat.ChatPanel::fireChatFocusEvent(int):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.protocol.sip.SipStackSharing::logApplicationException(Class<DialogTerminatedEvent>, Throwable):void	net.java.sip.communicator.util.Logger
+Move Method	net.java.sip.communicator.impl.gui.main.chat.toolBars.MainToolBar::getOperationSetForCapabilities(List<ChatTransport>, Class<? extends OperationSet>):List<ChatTransport>	net.java.sip.communicator.util.call.MetaContactPhoneUtil
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::setTrafficClass():void	net.java.sip.communicator.impl.protocol.jabber.extensions.version.VersionManager
+Move Method	net.java.sip.communicator.impl.protocol.jabber.OperationSetPersistentPresenceJabberImpl::createAccountPhotoPresenceInterceptor():void	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl
+Move Method	net.java.sip.communicator.impl.protocol.jabber.ProtocolProviderServiceJabberImpl::isFeatureListSupported(String, String[]):boolean	net.java.sip.communicator.impl.protocol.jabber.ScServiceDiscoveryManager
+Move Method	net.java.sip.communicator.impl.gui.main.MainFrame::createButtonPanel():Component	net.java.sip.communicator.impl.gui.main.contactlist.UnknownContactPanel
+Move Method	net.java.sip.communicator.slick.protocol.sip.TestProtocolProviderServiceSipImpl::testOperationSetTypes():void	net.java.sip.communicator.slick.protocol.sip.SipSlickFixture

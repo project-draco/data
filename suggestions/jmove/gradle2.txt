@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.plugins.antlr.internal.antlr2.GenerationPlanBuilder::locateOrBuildGenerationPlan(GrammarFileMetadata):GenerationPlan	org.gradle.api.plugins.antlr.internal.antlr2.GrammarFileMetadata

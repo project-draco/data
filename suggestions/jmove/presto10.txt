@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.tests.tpch.TpchIndexedData.IndexedTable::lookupKey(MaterializedTuple):RecordSet	com.facebook.presto.tests.tpch.MaterializedTuple

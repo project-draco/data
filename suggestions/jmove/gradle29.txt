@@ -1,0 +1,7 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.wrapper.Install::createDist(WrapperConfiguration):File	org.gradle.wrapper.IDownload
+Move Method	org.gradle.wrapper.Install::calculateSha256Sum(File):String	org.gradle.wrapper.IDownload
+Move Method	org.gradle.wrapper.Download::downloadInternal(URI, File):void	org.gradle.wrapper.Logger
+Move Method	org.gradle.wrapper.Install::getAndVerifyDistributionRoot(File, String):File	org.gradle.wrapper.IDownload
+Move Method	org.gradle.wrapper.WrapperExecutor::execute(String[], Install, BootstrapMainStarter):void	org.gradle.wrapper.Install
+Move Method	org.gradle.wrapper.Install::verifyDownloadChecksum(String, File, String):void	org.gradle.wrapper.IDownload

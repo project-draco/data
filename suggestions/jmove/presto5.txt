@@ -1,0 +1,98 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.sql.planner.sanity.TypeValidator.Visitor::verifyTypeSignature(Symbol, TypeSignature, TypeSignature):void	com.facebook.presto.sql.planner.Symbol
+Move Method	com.facebook.presto.sql.analyzer.Scope::asResolvedField(Field, boolean):ResolvedField	com.facebook.presto.sql.analyzer.RelationType
+Move Method	com.facebook.presto.sql.planner.plan.TestWindowNode::testSerializationRoundtrip():void	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.sql.planner.LocalExecutionPlanner.Visitor::mapIndexSourceLookupSymbolToProbeKeyInput(IndexJoinNode, Map<Symbol,Integer>):SetMultimap<Symbol,Integer>	com.facebook.presto.sql.planner.plan.IndexJoinNode
+Move Method	com.facebook.presto.sql.planner.optimizations.ImplementIntersectAndExceptAsUnion.Rewriter::appendMarkers(PlanNode, int, List<Symbol>, Map<Symbol,SymbolReference>):PlanNode	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.sql.planner.SystemPartitioningHandle::getNodePartitionMap(Session, NodeScheduler):NodePartitionMap	com.facebook.presto.execution.scheduler.NodeScheduler
+Move Method	com.facebook.presto.sql.gen.ExpressionCompiler::compileProcessorextends T> (RowExpression, List<RowExpression>, BodyCompiler<T>, Class<? extends T>):Class<?	com.facebook.presto.sql.gen.BodyCompiler
+Move Method	com.facebook.presto.sql.planner.DomainTranslator.Visitor::getSaturatedFloorCastOperator(Type, Type):Optional<Signature>	com.facebook.presto.sql.FunctionInvoker
+Move Method	com.facebook.presto.sql.gen.InCodeGenerator::buildInCase(BytecodeGeneratorContext, Scope, Type, LabelNode, LabelNode, LabelNode, Collection<BytecodeNode>, boolean):BytecodeBlock	com.facebook.presto.sql.gen.BytecodeGeneratorContext
+Move Method	com.facebook.presto.testing.LocalQueryRunner::createCatalog(String, ConnectorFactory, Map<String,String>):void	com.facebook.presto.connector.ConnectorManager
+Move Method	com.facebook.presto.execution.scheduler.AllAtOnceExecutionSchedule.Visitor::processFragment(PlanFragmentId):void	com.facebook.presto.sql.planner.plan.PlanFragmentId
+Move Method	com.facebook.presto.event.query.QueryMonitor::splitFailedEvent(TaskId, DriverStats, Throwable):void	com.facebook.presto.execution.TaskId
+Move Method	com.facebook.presto.testing.LocalQueryRunner::createTableScanOperator(Session, int, PlanNodeId, String, String[]):OperatorFactory	com.facebook.presto.metadata.MetadataManager
+Move Method	com.facebook.presto.sql.planner.InputExtractor::createInput(TableMetadata, Optional<TableLayoutHandle>, Set<Column>):Input	com.facebook.presto.metadata.TableMetadata
+Move Method	com.facebook.presto.execution.scheduler.TopologyAwareNodeSelector::bestNodeSplitCount(Iterator<Node>, int, int, NodeAssignmentStats):Node	com.facebook.presto.execution.scheduler.NodeAssignmentStats
+Move Method	com.facebook.presto.operator.TestDriver::createSinkOperator(Operator):PageConsumerOperator	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.execution.SqlQueryQueueManager::selectQueues(Session, Executor):List<QueryQueue>	com.facebook.presto.Session
+Move Method	com.facebook.presto.execution.scheduler.PhasedExecutionSchedule.Visitor::processFragment(PlanFragment):Set<PlanFragmentId>	com.facebook.presto.sql.planner.PlanFragment
+Move Method	com.facebook.presto.sql.planner.PlanPrinter::printStats(int, PlanNodeId):void	com.facebook.presto.sql.planner.plan.PlanNodeId
+Move Method	com.facebook.presto.sql.analyzer.Analyzer::analyze(Statement):Analysis	com.facebook.presto.Session
+Move Method	com.facebook.presto.event.query.QueryMonitor::splitCompletedEvent(TaskId, DriverStats, String, String):void	com.facebook.presto.operator.DriverStats
+Move Method	com.facebook.presto.execution.SqlTaskExecution.DriverSplitRunnerFactory::createDriverRunner(ScheduledSplit, boolean):DriverSplitRunner	com.facebook.presto.operator.PipelineContext
+Move Method	com.facebook.presto.operator.TableWriterOperator.TableWriterOperatorFactory::createPageSink():ConnectorPageSink	com.facebook.presto.split.PageSinkManager
+Move Method	com.facebook.presto.operator.index.IndexLoader::getIndexedDataForKeys(Block[]):IndexedData	com.facebook.presto.operator.index.IndexJoinLookupStats
+Move Method	com.facebook.presto.operator.index.IndexLoader.IndexSnapshotLoader::clearCachedData():void	com.facebook.presto.operator.index.IndexSnapshotBuilder
+Move Method	com.facebook.presto.sql.planner.optimizations.TransformUncorrelatedInPredicateSubqueryToSemiJoin.InPredicateRewriter::replaceInPredicateInAssignments(ProjectNode):Map<Symbol,Expression>	com.facebook.presto.sql.planner.plan.ProjectNode
+Move Method	com.facebook.presto.operator.TestFilterAndProjectOperator::test():void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.metadata.FunctionRegistry::parameterIsNullable(Signature, int):boolean	com.facebook.presto.metadata.Signature
+Move Method	com.facebook.presto.operator.TestGroupIdOperator::testGroupId():void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.sql.planner.optimizations.TransformCorrelatedScalarAggregationToJoin.Rewriter::updateFilterNode(PlanNodeSearcher, List<Expression>):PlanNode	com.facebook.presto.sql.planner.optimizations.PlanNodeSearcher
+Move Method	com.facebook.presto.operator.OperatorContext::transferMemoryToTaskContext(long):void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.execution.SqlQueryManager::getExecutor():ThreadPoolExecutorMBean	com.facebook.presto.execution.SqlQueryManagerStats
+Move Method	com.facebook.presto.sql.planner.optimizations.PredicatePushDown.Rewriter::extractType(Expression):Type	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.execution.SqlTaskManager::getIoStats():SqlTaskIoStats	com.facebook.presto.execution.SqlTaskIoStats
+Move Method	com.facebook.presto.sql.planner.optimizations.PartialAggregationPushDown.Rewriter::buildExchangeMap(List<Symbol>, List<Symbol>):Map<Symbol,Symbol>	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.sql.planner.LogicalPlanner::createTableMetadata(QualifiedObjectName, List<ColumnMetadata>, Map<String,Expression>, boolean, List<Expression>):ConnectorTableMetadata	com.facebook.presto.metadata.QualifiedObjectName
+Move Method	com.facebook.presto.operator.scalar.FunctionAssertions::selectSingleValue(SourceOperatorFactory, Split, Session):Object	com.facebook.presto.split.PageSourceProvider
+Move Method	com.facebook.presto.operator.BenchmarkHashBuildAndJoinOperators.BuildContext::createTaskContext():TaskContext	com.facebook.presto.operator.LookupSourceSupplier
+Move Method	com.facebook.presto.type.TestTypeRegistry::createType(String):Type	com.facebook.presto.type.TypeRegistry
+Move Method	com.facebook.presto.sql.planner.optimizations.PropertyDerivations.Visitor::deriveGlobalProperties(TableLayout, Map<ColumnHandle,Symbol>, Map<ColumnHandle,NullableValue>):Global	com.facebook.presto.metadata.TableLayout
+Move Method	com.facebook.presto.sql.planner.optimizations.PredicatePushDown.Rewriter::nullInputEvaluator(Collection<Symbol>, Expression):Object	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.sql.planner.RelationPlanner::distinct(PlanNode):PlanNode	com.facebook.presto.sql.planner.PlanNodeIdAllocator
+Move Method	com.facebook.presto.operator.MultiChannelGroupByHash::getGroupId(HashGenerator, Page, int):int	com.facebook.presto.operator.HashGenerator
+Move Method	com.facebook.presto.operator.HashAggregationOperator.GroupByHashAggregationBuilder::processPage(Page):void	com.facebook.presto.operator.GroupByHash
+Move Method	com.facebook.presto.operator.aggregation.AbstractTestAggregationFunction::getFunction():InternalAggregationFunction	com.facebook.presto.metadata.FunctionRegistry
+Move Method	com.facebook.presto.sql.planner.PlanFragmenter::createSubPlans(Session, Metadata, Plan):SubPlan	com.facebook.presto.sql.planner.Plan
+Move Method	com.facebook.presto.sql.planner.optimizations.ImplementIntersectAndExceptAsUnion.Rewriter::allocateSymbols(int, String, Type):List<Symbol>	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.metadata.TestFunctionRegistry.ResolveFunctionAssertion::returns(SignatureBuilder):ResolveFunctionAssertion	com.facebook.presto.metadata.SignatureBuilder
+Move Method	com.facebook.presto.execution.scheduler.SqlQueryScheduler.StageLinkage::processScheduleResults(StageState, Set<RemoteTask>):void	com.facebook.presto.execution.StageState
+Move Method	com.facebook.presto.operator.aggregation.BindableAggregationFunction::specialize(BoundVariables, int, TypeManager):InternalAggregationFunction	com.facebook.presto.metadata.BoundVariables
+Move Method	com.facebook.presto.sql.planner.QueryPlanner::computeOutputs(PlanBuilder, List<Expression>):List<Symbol>	com.facebook.presto.sql.planner.PlanBuilder
+Move Method	com.facebook.presto.sql.planner.optimizations.TransformCorrelatedScalarAggregationToJoin.Rewriter::createAggregationNode(AggregationNode, JoinNode, Symbol):Optional<AggregationNode>	com.facebook.presto.sql.planner.SymbolAllocator
+Move Method	com.facebook.presto.operator.TestMarkDistinctOperator::testMarkDistinct(boolean):void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.execution.SqlQueryManager::getManagementExecutor():ThreadPoolExecutorMBean	com.facebook.presto.execution.SqlQueryManagerStats
+Move Method	com.facebook.presto.operator.TestAggregationOperator::testAggregation():void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.server.QueryExecutionResource::getTaskInfo(String):Response	com.facebook.presto.execution.TaskId
+Move Method	com.facebook.presto.sql.gen.BytecodeGeneratorContext::generateCall(String, ScalarFunctionImplementation, List<BytecodeNode>):BytecodeNode	com.facebook.presto.sql.gen.BytecodeExpressionVisitor
+Move Method	com.facebook.presto.sql.planner.optimizations.TransformUncorrelatedInPredicateSubqueryToSemiJoin.InsertSemiJoinRewriter::appendIdentityProjection(ProjectNode, Symbol):ProjectNode	com.facebook.presto.sql.planner.plan.ProjectNode
+Move Method	com.facebook.presto.sql.planner.DomainTranslator.Visitor::coerce(NullableValue, Type):Optional<NullableValue>	com.facebook.presto.sql.FunctionInvoker
+Move Method	com.facebook.presto.operator.aggregation.TestMinMaxByAggregation::getTypes():List<Type>	com.facebook.presto.metadata.MetadataManager
+Move Method	com.facebook.presto.sql.gen.TestJoinProbeCompiler::testSingleChannel(boolean):void	com.facebook.presto.operator.TaskContext
+Move Method	com.facebook.presto.sql.gen.JoinFilterFunctionCompiler::generateTryMethods(ClassDefinition, CallSiteBinder, CachedInstanceBinder, int, RowExpression):Map<CallExpression,MethodDefinition>	com.facebook.presto.sql.gen.CachedInstanceBinder
+Move Method	com.facebook.presto.sql.planner.DomainTranslator.Visitor::compareOriginalValueToCoerced(Type, Object, Type, Object):int	com.facebook.presto.sql.FunctionInvoker
+Move Method	com.facebook.presto.testing.LocalQueryRunner::createDrivers(Session, String, OutputFactory, TaskContext):List<Driver>	com.facebook.presto.split.SplitManager
+Move Method	com.facebook.presto.server.ExecuteResource::createQuery(String, HttpServletRequest):Response	com.facebook.presto.execution.QueryIdGenerator
+Move Method	com.facebook.presto.testing.LocalQueryRunner::createHashProjectOperator(int, PlanNodeId, List<Type>):OperatorFactory	com.facebook.presto.sql.planner.plan.PlanNodeId
+Move Method	com.facebook.presto.operator.aggregation.TestTypedHeap::test(IntStream, BlockComparator, PrimitiveIterator.OfInt):void	com.facebook.presto.operator.aggregation.BlockComparator
+Move Method	com.facebook.presto.metadata.TestSignatureBinder::type(String):Type	com.facebook.presto.type.TypeRegistry
+Move Method	com.facebook.presto.sql.gen.JoinProbeCompiler::compileJoinOperatorFactory(int, PlanNodeId, LookupSourceSupplier, List<? extends Type>, List<Integer>, Optional<Integer>, JoinType, boolean):OperatorFactory	com.facebook.presto.sql.planner.plan.PlanNodeId
+Move Method	com.facebook.presto.operator.aggregation.TestMinMaxByAggregation::setup():void	com.facebook.presto.metadata.MetadataManager
+Move Method	com.facebook.presto.operator.NestedLoopJoinPagesSupplier::setPages(NestedLoopJoinPages):void	com.facebook.presto.operator.NestedLoopJoinPages
+Move Method	com.facebook.presto.execution.BenchmarkNodeScheduler.BenchmarkData::getNetworkTopology():NetworkTopology	com.facebook.presto.util.FinalizerService
+Move Method	com.facebook.presto.execution.QueryQueue::enqueue(QueuedExecution):void	com.facebook.presto.execution.QueuedExecution
+Move Method	com.facebook.presto.sql.planner.optimizations.WindowFilterPushDown.Rewriter::convertToTopNRowNumber(WindowNode, int):TopNRowNumberNode	com.facebook.presto.sql.planner.PlanNodeIdAllocator
+Move Method	com.facebook.presto.testing.LocalQueryRunner::getNodeManager():NodeManager	com.facebook.presto.split.SplitManager
+Move Method	com.facebook.presto.sql.planner.SubqueryPlanner::appendInPredicateApplyNode(PlanBuilder, InPredicate, boolean):PlanBuilder	com.facebook.presto.sql.planner.PlanBuilder
+Move Method	com.facebook.presto.sql.rewrite.ShowQueriesRewrite.Visitor::parseView(String, QualifiedObjectName, Node):Query	com.facebook.presto.metadata.QualifiedObjectName
+Move Method	com.facebook.presto.sql.gen.CachedInstanceBinder::generateInitializations(Variable, BytecodeBlock):void	com.facebook.presto.sql.gen.CallSiteBinder
+Move Method	com.facebook.presto.operator.aggregation.AbstractTestAggregationFunction::createAlternatingNullsBlock(List<Type>, Block[]):Block[]	com.facebook.presto.type.TypeRegistry
+Move Method	com.facebook.presto.sql.planner.SubqueryPlanner::appendExistSubqueryApplyNode(PlanBuilder, ExistsPredicate, boolean):PlanBuilder	com.facebook.presto.sql.planner.PlanBuilder
+Move Method	com.facebook.presto.execution.TestSqlTaskManager::createSqlTaskManager(TaskManagerConfig):SqlTaskManager	com.facebook.presto.execution.TaskManagerConfig
+Move Method	com.facebook.presto.execution.scheduler.SqlQueryScheduler::schedule():void	com.facebook.presto.execution.scheduler.ExecutionPolicy
+Move Method	com.facebook.presto.server.ClusterStatsResource::getClusterStats():ClusterStats	com.facebook.presto.execution.QueryManager
+Move Method	com.facebook.presto.operator.index.IndexLoader::streamIndexDataForSingleKey(UpdateRequest):IndexedData	com.facebook.presto.operator.index.IndexBuildDriverFactoryProvider
+Move Method	com.facebook.presto.sql.gen.TestExpressionCompiler::formatExpression(String, List<Object>, List<String>):List<String>	com.facebook.presto.operator.scalar.FunctionAssertions
+Move Method	com.facebook.presto.operator.aggregation.AccumulatorCompiler::generateAccumulatorFactoryBinder(AggregationMetadata, DynamicClassLoader):GenericAccumulatorFactoryBinder	com.facebook.presto.operator.aggregation.AggregationMetadata
+Move Method	com.facebook.presto.testing.LocalQueryRunner::getLocalQuerySplit(Session, TableLayoutHandle):Split	com.facebook.presto.split.SplitManager
+Move Method	com.facebook.presto.sql.gen.JoinProbeCompiler.HashJoinOperatorFactoryFactory::createHashJoinOperatorFactory(int, PlanNodeId, LookupSourceSupplier, List<? extends Type>, List<Integer>, JoinType):OperatorFactory	com.facebook.presto.sql.planner.plan.PlanNodeId
+Move Method	com.facebook.presto.sql.planner.LocalExecutionPlanner::plan(Session, PlanNode, Map<Symbol,Type>, PartitioningScheme, OutputBuffer):LocalExecutionPlan	com.facebook.presto.sql.planner.NodePartitioningManager
+Move Method	com.facebook.presto.connector.system.KillQueryProcedure::killQuery(String):void	com.facebook.presto.execution.QueryManager
+Move Method	com.facebook.presto.execution.SqlTask::updateTask(Session, Optional<PlanFragment>, List<TaskSource>, OutputBuffers):TaskInfo	com.facebook.presto.execution.SqlTaskExecutionFactory
+Move Method	com.facebook.presto.sql.gen.InCodeGeneratorBenchmark::benchmark():Page	com.facebook.presto.operator.PageProcessor
+Move Method	com.facebook.presto.operator.aggregation.TestTypedKeyValueHeap::test(IntStream, Stream<String>, BlockComparator, Iterator<String>):void	com.facebook.presto.operator.aggregation.BlockComparator
+Move Method	com.facebook.presto.operator.PipelineContext::driverFinished(DriverContext):void	com.facebook.presto.operator.DriverContext
+Move Method	com.facebook.presto.metadata.DiscoveryNodeManager::getNodeState(PrestoNode):NodeState	com.facebook.presto.metadata.PrestoNode
+Move Method	com.facebook.presto.operator.PartitionedOutputOperator.PagePartitioner::flush(boolean):ListenableFuture<?>	com.facebook.presto.execution.buffer.OutputBuffer
+Move Method	com.facebook.presto.sql.planner.NodePartitioningManager::addPartitioningProvider(ConnectorId, ConnectorNodePartitioningProvider):void	com.facebook.presto.connector.ConnectorId

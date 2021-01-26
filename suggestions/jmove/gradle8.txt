@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.internal.tasks.scala.ZincScalaCompilerArgumentsGenerator::generate(ScalaCompileSpec):List<String>	org.gradle.api.internal.tasks.scala.ScalaCompileSpec
+Move Method	org.gradle.language.scala.plugins.ScalaLanguagePlugin.::addSourceSetClasspath(PlatformScalaCompile, ScalaLanguageSourceSet):void	org.gradle.language.scala.ScalaLanguageSourceSet
+Move Method	org.gradle.language.scala.plugins.ScalaLanguagePlugin.::configureScalaTask(PlatformScalaCompile, JvmAssembly, String):void	org.gradle.language.scala.tasks.PlatformScalaCompile

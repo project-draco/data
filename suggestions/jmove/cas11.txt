@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.adaptors.x509.authentication.handler.support.X509CredentialsAuthenticationHandler::validate(X509Certificate):void	org.apereo.cas.adaptors.x509.authentication.revocation.checker.RevocationChecker

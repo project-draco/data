@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.dev.eval.RealWordCorpusEvaluator::getCorpus(File):ErrorCorpus	org.languagetool.dev.eval.Evaluator

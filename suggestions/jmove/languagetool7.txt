@@ -1,0 +1,7 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.gui.LanguageToolSupport::fireEvent(LanguageToolEvent):void	org.languagetool.gui.LanguageToolEvent
+Move Method	org.languagetool.gui.Main::setLookAndFeel():void	org.languagetool.gui.LocalStorage
+Move Method	org.languagetool.gui.Main::getImageIcon(String):ImageIcon	org.languagetool.gui.UndoRedoSupport
+Move Method	org.languagetool.gui.Main::getClipboardText():String	org.languagetool.gui.UndoRedoSupport
+Move Method	org.languagetool.gui.Main::addLookAndFeelMenuItem(JMenu, UIManager.LookAndFeelInfo, ButtonGroup):void	org.languagetool.gui.LocalStorage
+Move Method	org.languagetool.gui.Main::loadRecentFiles():void	org.languagetool.gui.LocalStorage

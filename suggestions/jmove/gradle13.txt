@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.model.dsl.internal.transform.RulesVisitor::extractModelPathFromMethodTarget(MethodCallExpression):String	org.gradle.model.dsl.internal.transform.RuleVisitor

@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.bootstrap.plugin.jdbc.interceptor.DriverConnectInterceptor::createDatabaseInfo(String):DatabaseInfo	com.navercorp.pinpoint.bootstrap.plugin.jdbc.JdbcUrlParser

@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.kie.dmn.feel.marshaller.FEELCodeMarshallerUnmarshallTest::assertResult(Type, String, Object):void	org.kie.dmn.feel.lang.Type
+Move Method	org.kie.dmn.feel.parser.feel11.FEEL_1_1Parser::getOriginalText(ParserRuleContext):String	org.kie.dmn.feel.parser.feel11.ParserHelper
+Move Method	org.kie.dmn.feel.lang.ast.RangeNode::convertToComparable(EvaluationContext, Object):Comparable	org.kie.dmn.feel.lang.ast.BaseNode
+Move Method	org.kie.dmn.feel.marshaller.FEELStringMarshallerUnmarshallTest::assertResult(Type, String, Object):void	org.kie.dmn.feel.lang.Type
+Move Method	org.kie.dmn.feel.parser.feel11.FEEL_1_1Parser::nameRefOtherToken_sempred(NameRefOtherTokenContext, int):boolean	org.kie.dmn.feel.parser.feel11.ParserHelper

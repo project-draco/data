@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.overdue.notification.DefaultOverdueNotifierBase::createCallContext(UUID, Long, Long):InternalCallContext	org.killbill.billing.overdue.listener.OverdueDispatcher
+Move Method	org.killbill.billing.overdue.applicator.TestOverdueStateApplicator::testApplicator():void	org.killbill.billing.overdue.applicator.OverdueStateApplicator
+Move Method	org.killbill.billing.overdue.config.DefaultOverdueCondition::getTimeOffset():Duration	org.killbill.billing.overdue.config.DefaultDuration
+Move Method	org.killbill.billing.overdue.applicator.OverdueStateApplicator::sendEmailIfRequired(UUID, BillingState, OverdueState, InternalTenantContext):void	org.killbill.billing.overdue.applicator.OverdueEmailGenerator

@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.context.index.processor.CandidateComponentsIndexer::writeMetaData():void	org.springframework.context.index.processor.MetadataCollector
+Move Method	org.springframework.context.index.processor.CandidateComponentsIndexer::addMetadataFor(Element):void	org.springframework.context.index.processor.MetadataCollector
+Move Method	org.springframework.context.index.processor.CandidateComponentsIndexer::getStereotypesProviders(ProcessingEnvironment):List<StereotypesProvider>	org.springframework.context.index.processor.MetadataCollector
+Move Method	org.springframework.context.index.processor.CandidateComponentsIndexerTests::readGeneratedMetadata(File):CandidateComponentsMetadata	org.springframework.context.index.test.TestCompiler

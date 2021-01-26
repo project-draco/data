@@ -1,0 +1,13 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::getTags(UUID, UUID, AuditMode, boolean, TenantContext):Response	org.killbill.billing.jaxrs.resources.AuditMode
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::createTags(UUID, String, UriInfo, CallContext):Response	org.killbill.billing.jaxrs.util.JaxrsUriBuilder
+Move Method	org.killbill.billing.jaxrs.resources.TestResource::waitForNotificationToComplete(ServletRequest, Long):boolean	org.killbill.billing.jaxrs.util.Context
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::createCustomFields(UUID, List<CustomFieldJson>, CallContext, UriInfo):Response	org.killbill.billing.jaxrs.util.JaxrsUriBuilder
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::getPaymentLocation(UriInfo, Payment):URI	org.killbill.billing.jaxrs.util.JaxrsUriBuilder
+Move Method	org.killbill.billing.jaxrs.resources.ComboPaymentResource::getOrCreateAccount(AccountJson, CallContext):Account	org.killbill.billing.jaxrs.json.AccountJson
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::buildStreamingPaginationResponse(Pagination<E>, Function<E,J>, URI):Response	org.killbill.billing.jaxrs.util.JaxrsUriBuilder
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::addBlockingState(BlockingStateJson, String, BlockingStateType, String, List<String>, String, String, String, HttpServletRequest):Response	org.killbill.billing.jaxrs.json.BlockingStateJson
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::getCustomFields(UUID, AuditMode, TenantContext):Response	org.killbill.billing.jaxrs.resources.AuditMode
+Move Method	org.killbill.billing.jaxrs.resources.NodesInfoResource::toNodeCommandMetadata(NodeCommandJson):NodeCommandMetadata	org.killbill.billing.jaxrs.json.NodeCommandJson
+Move Method	org.killbill.billing.jaxrs.resources.ExportResource::exportDataForAccount(String, String, String, String, HttpServletRequest):StreamingOutput	org.killbill.billing.jaxrs.util.Context
+Move Method	org.killbill.billing.jaxrs.resources.JaxRsResourceBase::addExceptionToResponse(ResponseBuilder, BillingExceptionJson):void	org.killbill.billing.jaxrs.json.BillingExceptionJson

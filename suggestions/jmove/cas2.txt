@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.web.flow.resolver.impl.InitialAuthenticationAttemptWebflowEventResolver::resolveCandidateAuthenticationEvents(RequestContext, Service, RegisteredService):Set<Event>	org.apereo.cas.web.flow.resolver.CasWebflowEventResolver

@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.web.flow.FrontChannelLogoutActionTests::verifyLogoutNoIndex():void	org.apereo.cas.web.flow.FrontChannelLogoutAction

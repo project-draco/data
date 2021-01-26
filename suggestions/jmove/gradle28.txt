@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.process.internal.WorkersServices.BuildSessionScopeServices::createWorkerDaemonService(WorkerDaemonManager, FileResolver):WorkerDaemonService	org.gradle.process.internal.daemon.WorkerDaemonManager
+Move Method	org.gradle.process.internal.daemon.AbstractWorkerDaemonExecutor::toDaemonOptions(Class<?>, Iterable<Class<?>>, JavaForkOptions, Iterable<File>):DaemonForkOptions	org.gradle.process.internal.daemon.WorkerDaemonFactory
+Move Method	org.gradle.process.internal.daemon.AbstractWorkerDaemonExecutor::getDaemonForkOptions():DaemonForkOptions	org.gradle.process.internal.daemon.WorkerDaemonFactory

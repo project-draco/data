@@ -1,0 +1,12 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.plugins.ide.idea.IdeaPlugin::setupScopes(GenerateIdeaModule):void	org.gradle.plugins.ide.idea.GenerateIdeaModule
+Move Method	org.gradle.plugins.ide.idea.model.IdeaModel::pathVariables(Map<String,File>):void	org.gradle.plugins.ide.idea.model.IdeaModule
+Move Method	org.gradle.plugins.ide.eclipse.model.internal.WtpClasspathAttributeSupport::createDeploymentAttribute(AbstractLibrary):Map<String,Object>	org.gradle.plugins.ide.eclipse.model.AbstractLibrary
+Move Method	org.gradle.plugins.ide.internal.tooling.IdeaModelBuilder::buildDependencies(Map<String,DefaultIdeaModule>, IdeaModule):void	org.gradle.plugins.ide.idea.model.IdeaModule
+Move Method	org.gradle.plugins.ide.idea.model.IdeaModule::mergeXmlModule(Module):void	org.gradle.plugins.ide.idea.model.Module
+Move Method	org.gradle.plugins.ide.idea.model.IdeaModule::pathsOf(Set<File>):Set<Path>	org.gradle.plugins.ide.idea.model.IdeaModuleIml
+Move Method	org.gradle.plugins.ide.internal.tooling.EclipseModelBuilder::applyEclipsePlugin(Project):void	org.gradle.plugins.ide.internal.tooling.TasksFactory
+Move Method	org.gradle.plugins.ide.idea.model.IdeaProject::ipr(Closure<XmlFileContentMerger>):void	org.gradle.plugins.ide.api.XmlFileContentMerger
+Move Method	org.gradle.plugins.ide.idea.model.internal.IdeaDependenciesProvider::toPath(IdeaModule, File):FilePath	org.gradle.plugins.ide.idea.model.IdeaModule
+Move Method	org.gradle.plugins.ide.eclipse.model.internal.WtpComponentFactory::createWbDependentModuleEntry(File, FileReferenceFactory, String):WbDependentModule	org.gradle.plugins.ide.eclipse.model.internal.FileReferenceFactory
+Move Method	org.gradle.plugins.ide.idea.model.ProjectLibrary::addToNode(Node, PathFactory):void	org.gradle.plugins.ide.idea.model.PathFactory

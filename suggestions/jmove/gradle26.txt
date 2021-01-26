@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.tooling.internal.consumer.loader.DefaultToolingImplementationLoader::createImplementationClassLoader(Distribution, ProgressLoggerFactory, File, BuildCancellationToken):ClassLoader	org.gradle.tooling.internal.consumer.Distribution

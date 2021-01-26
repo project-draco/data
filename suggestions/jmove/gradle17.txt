@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.internal.plugins.StartScriptGenerator::createStartScriptGenerationDetails():JavaAppStartScriptGenerationDetails	org.gradle.jvm.application.scripts.ScriptGenerator
+Move Method	org.gradle.api.plugins.JavaBasePlugin::configureSourceSetDefaults(JavaPluginConvention):BridgedBinaries	org.gradle.api.plugins.JavaPluginConvention

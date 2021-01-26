@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.services.AbstractRegisteredServiceTests::prepareService():void	org.apereo.cas.services.AbstractRegisteredService

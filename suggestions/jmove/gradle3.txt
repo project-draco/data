@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.composite.internal.CompositeBuildServices.CompositeBuildBuildScopeServices::createProjectArtifactBuilder(IncludedBuildArtifactBuilder, BuildIdentity):ProjectArtifactBuilder	org.gradle.composite.internal.IncludedBuildArtifactBuilder
+Move Method	org.gradle.composite.internal.CompositeBuildServices.CompositeBuildSessionScopeServices::createCompositeContextBuilder(DefaultIncludedBuilds, CompositeBuildContext):CompositeContextBuilder	org.gradle.composite.internal.DefaultIncludedBuilds

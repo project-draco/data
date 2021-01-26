@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.plugins.announce.internal.Snarl::formatMessage(String, String):String	org.gradle.api.plugins.announce.internal.IconProvider

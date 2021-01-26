@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.jdbc.core.JdbcTemplate::processResultSet(ResultSet, ResultSetSupportingSqlParameter):Map<String,Object>	org.springframework.jdbc.core.ResultSetSupportingSqlParameter
+Move Method	org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate::getPreparedStatementCreatorFactory(ParsedSql, SqlParameterSource):PreparedStatementCreatorFactory	org.springframework.jdbc.core.namedparam.ParsedSql
+Move Method	org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource::determineTargetDataSource():DataSource	org.springframework.jdbc.datasource.lookup.DataSourceLookup
+Move Method	org.springframework.jdbc.core.simple.AbstractJdbcInsert::setParameterValues(PreparedStatement, List<?>, int[]):void	org.springframework.jdbc.core.JdbcTemplate
+Move Method	org.springframework.jdbc.datasource.init.H2DatabasePopulatorTests::scriptWithH2Alias():void	org.springframework.jdbc.core.JdbcTemplate

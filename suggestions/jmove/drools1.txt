@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.cdi.kproject.AbstractKnowledgeTest::testEntry(KProjectTestClass, String):void	org.drools.cdi.kproject.KProjectTestClass

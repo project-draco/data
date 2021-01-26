@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.plugin.thrift.interceptor.tprotocol.server.TProtocolReadMessageEndInterceptor::recordParentInfo(SpanRecorder, ThriftRequestProperty):void	com.navercorp.pinpoint.plugin.thrift.ThriftRequestProperty

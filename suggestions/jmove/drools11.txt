@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.workbench.models.datamodel.rule.RuleModel::findBoundVariableNames(BaseSingleFieldConstraint, List<String>, FactPattern):boolean	org.drools.workbench.models.datamodel.rule.FactPattern
+Move Method	org.drools.workbench.models.datamodel.rule.visitors.RuleModelVisitor::visitSingleFieldConstraint(SingleFieldConstraintEBLeftSide):void	org.drools.workbench.models.datamodel.rule.SingleFieldConstraintEBLeftSide
+Move Method	org.drools.workbench.models.datamodel.rule.visitors.RuleModelVisitor::visitFromCompositeFactPattern(FromCompositeFactPattern):void	org.drools.workbench.models.datamodel.rule.FromCompositeFactPattern

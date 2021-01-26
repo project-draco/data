@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.gradleplugin.foundation.GradlePluginLord::addExecutionRequestToQueue(TaskView, boolean, String[]):Request	org.gradle.foundation.TaskView
+Move Method	org.gradle.gradleplugin.foundation.GradlePluginLord::addExecutionRequestToQueue(List<FavoriteTask>):Request	org.gradle.gradleplugin.foundation.favorites.FavoritesEditor
+Move Method	org.gradle.gradleplugin.foundation.favorites.FavoritesEditor::addFavorites(List<TaskView>, boolean):void	org.gradle.foundation.common.ObserverLord
+Move Method	org.gradle.integtests.FavoritesIntegrationTest::editFavorite(FavoritesEditor, FavoriteTask, String, boolean):void	org.gradle.gradleplugin.foundation.favorites.FavoritesEditor
+Move Method	org.gradle.gradleplugin.userinterface.swing.generic.tabs.TaskTreeTab::executeDefaultTasksInProject(ProjectView):void	org.gradle.foundation.ProjectView

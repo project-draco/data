@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.plugin.jdbc.TestJdbcQueryBuilder::teardown():void	com.facebook.presto.plugin.jdbc.TestingDatabase
+Move Method	com.facebook.presto.plugin.jdbc.TestingH2JdbcModule::provideJdbcClient(JdbcConnectorId, BaseJdbcConfig):JdbcClient	com.facebook.presto.plugin.jdbc.BaseJdbcConfig

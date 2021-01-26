@@ -1,0 +1,10 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.tasks.testing.Test::getBinResultsDir():File	org.gradle.api.internal.tasks.testing.detection.TestExecuter
+Move Method	org.gradle.api.tasks.testing.Test::getFilter():TestFilter	org.gradle.api.internal.tasks.testing.detection.TestExecuter
+Move Method	org.gradle.api.internal.tasks.testing.junit.report.DefaultTestReport::generateFiles(AllTestResults, TestResultsProvider, File):void	org.gradle.api.internal.tasks.testing.junit.report.AllTestResults
+Move Method	org.gradle.jvm.plugins.JvmTestSuiteBasePlugin.::configureReports(JvmTestSuiteBinarySpecInternal, Test):void	org.gradle.api.tasks.testing.Test
+Move Method	org.gradle.api.internal.tasks.testing.junit.result.TestResultSerializer::write(TestMethodResult, Encoder):void	org.gradle.api.internal.tasks.testing.junit.result.TestMethodResult
+Move Method	org.gradle.api.tasks.testing.Test::getOptions():TestFrameworkOptions	org.gradle.api.internal.tasks.testing.detection.TestExecuter
+Move Method	org.gradle.api.tasks.testing.Test::setTestNameIncludePatterns(List<String>):Test	org.gradle.api.internal.tasks.testing.detection.TestExecuter
+Move Method	org.gradle.api.internal.tasks.testing.testng.TestNGTestFramework::createTestNg():Class<?>	org.gradle.api.internal.tasks.testing.TestClassLoaderFactory
+Move Method	org.gradle.api.tasks.testing.Test::getCandidateClassFiles():FileTree	org.gradle.api.internal.tasks.testing.detection.TestExecuter

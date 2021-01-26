@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.aop.aspectj.AbstractAspectJAdvice::getAspectClassLoader():ClassLoader	org.springframework.aop.aspectj.AspectInstanceFactory
+Move Method	org.springframework.aop.interceptor.CustomizableTraceInterceptor::appendArgumentTypes(MethodInvocation, Matcher, StringBuffer):void	org.aopalliance.intercept.MethodInvocation
+Move Method	org.springframework.aop.framework.ProxyProcessorSupport::evaluateProxyInterfaces(Class<?>, ProxyFactory):void	org.springframework.aop.framework.ProxyFactory
+Move Method	org.springframework.aop.interceptor.AbstractMonitoringInterceptor::createInvocationTraceName(MethodInvocation):String	org.aopalliance.intercept.MethodInvocation

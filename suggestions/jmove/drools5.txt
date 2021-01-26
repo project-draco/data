@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.template.parser.ExternalSheetListenerTest::testRowHandlingBlankRows():void	org.drools.template.parser.TemplateDataListener
+Move Method	org.drools.template.parser.ExternalSheetListenerTest::testRenderDrl():void	org.drools.template.parser.TemplateDataListener
+Move Method	org.drools.template.parser.ExternalSheetListenerTest::testRowHandling():void	org.drools.template.parser.TemplateDataListener

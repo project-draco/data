@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.oxm.xstream.XStreamUnmarshallerTests::testFlight(Object):void	org.springframework.oxm.xstream.XStreamMarshaller

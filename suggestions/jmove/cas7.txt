@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.authentication.handler.support.AbstractPac4jAuthenticationHandler::createResult(ClientCredential, UserProfile):HandlerResult	org.apereo.cas.authentication.principal.ClientCredential

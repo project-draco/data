@@ -1,0 +1,73 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::preCompileAddFunction(FunctionDescr, PackageRegistry):void	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.lang.descr.RuleDescr::lookAheadFieldsOfIdentifier(PatternDescr):Collection<String>	org.drools.compiler.lang.descr.AndDescr
+Move Method	org.drools.compiler.rule.builder.QueryElementBuilder::getParserContext(RuleBuildContext):ParserContext	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.lang.DRL5Parser::speculateFullAnnotation():boolean	org.drools.compiler.lang.DRL5Expressions
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::addFunction(FunctionDescr, PackageRegistry):void	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::buildRuleBuilderContext(PackageRegistry, RuleDescr):RuleBuildContext	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::buildQueryElement(RuleBuildContext, BaseDescr, QueryImpl):RuleConditionElement	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::loadAccumulateFunction(PackageRegistry, String, String):AccumulateFunction	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.lang.DRL5Parser::speculatePositionalConstraints():boolean	org.drools.compiler.lang.DRL5Expressions
+Move Method	org.drools.compiler.lang.DRL6StrictParser::failMismatchedTokenException():void	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.rule.builder.dialect.mvel.MVELDialect::analyzeExpression(PackageBuildContext, BaseDescr, Object, BoundIdentifiers, Map<String,Class<?>>):AnalysisResult	org.drools.compiler.rule.builder.dialect.mvel.MVELReturnValueBuilder
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::manageUnresolvedExtension(RuleDescr, Collection<RuleDescr>):void	org.drools.compiler.lang.descr.RuleDescr
+Move Method	org.drools.compiler.lang.DRL6Parser::failMismatchedTokenException():void	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::addPackageForExternalType(Resource, ResourceType, ResourceConfiguration):void	org.drools.compiler.compiler.ProcessBuilder
+Move Method	org.drools.compiler.integrationtests.incrementalcompilation.TestContext::executeTestOperation(TestOperation):void	org.drools.compiler.integrationtests.incrementalcompilation.TestOperation
+Move Method	org.drools.compiler.compiler.ProjectJavaCompiler::compileAll(ProjectClassLoader, List<String>, MemoryResourceReader):List<KnowledgeBuilderResult>	org.drools.compiler.commons.jci.readers.MemoryResourceReader
+Move Method	org.drools.compiler.kie.builder.impl.KieBuilderSetImpl::addResource(CompositeKnowledgeBuilder, KieBaseModel, InternalKieModule, String):boolean	org.drools.compiler.kie.builder.impl.KieBuilderImpl
+Move Method	org.drools.compiler.rule.builder.dialect.mvel.MVELDialect::getMVELCompilationUnit(String, AnalysisResult, Declaration[], Declaration[], Map<String,Class<?>>, PackageBuildContext, String, Class, boolean, MVELCompilationUnit.Scope):MVELCompilationUnit	org.drools.compiler.rule.builder.dialect.mvel.MVELReturnValueBuilder
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::getTypeDeclaration(RuleBuildContext, Class<?>):TypeDeclaration	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::getAndRegisterTypeDeclaration(Class<?>, String):TypeDeclaration	org.drools.compiler.builder.impl.TypeDeclarationBuilder
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::setInputs(RuleBuildContext, ExprBindings, Class<?>, String):void	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.lang.DRL5Parser::failMismatchedTokenException():void	org.drools.compiler.lang.DRL5Expressions
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::validateRule(PackageDescr, RuleDescr):void	org.drools.compiler.lang.descr.PackageDescr
+Move Method	org.drools.compiler.builder.impl.ClassHierarchyManager::buildInheritedFieldDescrFromDefinition(org.kie.api.definition.type.FactField, TypeDeclarationDescr):TypeFieldDescr	org.drools.compiler.lang.descr.TypeDeclarationDescr
+Move Method	org.drools.compiler.lang.DRL6StrictParser::setAnnotationsOn(BaseDescr):void	org.drools.compiler.lang.descr.BaseDescr
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::createWindow(BehaviorDescr):Behavior	org.drools.compiler.lang.descr.BehaviorDescr
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::postCompileAddFunction(FunctionDescr, PackageRegistry):void	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.kie.builder.impl.KieBuilderImpl::compileJavaClasses(ClassLoader, Predicate<String>):void	org.drools.compiler.kie.builder.impl.ResultsImpl
+Move Method	org.drools.compiler.lang.DRL6StrictParser::setAnnotationsOn(AnnotatedDescrBuilder):void	org.drools.compiler.lang.api.AnnotatedDescrBuilder
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::addRuleextends KnowledgeBuilderResult> (RuleBuildContext):List<?	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.kie.builder.impl.KieBuilderImpl::createCompiler(JavaDialectConfiguration, String):JavaCompiler	org.drools.compiler.rule.builder.dialect.java.JavaDialectConfiguration
+Move Method	org.drools.compiler.lang.DRL6StrictParser::speculateFullAnnotation():boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::getFieldValue(RuleBuildContext, ValueType, String):FieldValue	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::addDsl(Resource):void	org.drools.compiler.compiler.ProcessBuilder
+Move Method	org.drools.compiler.lang.descr.CompositePackageDescr::internalAdd(Resource, PackageDescr):void	org.drools.compiler.lang.descr.PackageDescr
+Move Method	org.drools.compiler.lang.DRL5Parser::speculateParameters(boolean):boolean	org.drools.compiler.lang.DRL5Expressions
+Move Method	org.drools.compiler.lang.DRL6StrictParser::speculatePositionalConstraints():boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.kie.builder.impl.AbstractKieProject::getBuilderConfiguration(KieBaseModelImpl, AbstractKieModule):KnowledgeBuilderConfigurationImpl	org.drools.compiler.kproject.models.KieBaseModelImpl
+Move Method	org.drools.compiler.compiler.DrlParser::getExpandedDRL(String, DefaultExpanderResolver):String	org.drools.compiler.lang.dsl.DefaultExpanderResolver
+Move Method	org.drools.compiler.kie.builder.impl.AbstractKieModule::getKnowledgeBaseConfiguration(KieBaseModelImpl, ClassLoader):KieBaseConfiguration	org.drools.compiler.kproject.models.KieBaseModelImpl
+Move Method	org.drools.compiler.compiler.PackageBuilderConfigurationTest.MockDialect::analyzeExpression(PackageBuildContext, BaseDescr, Object, BoundIdentifiers, Map<String,Class<?>>):AnalysisResult	org.drools.compiler.compiler.BoundIdentifiers
+Move Method	org.drools.compiler.builder.impl.TypeDeclarationBuilder::processTypeDeclarations(PackageDescr, PackageRegistry, Collection<AbstractClassTypeDeclarationDescr>, List<TypeDefinition>, Map<String,AbstractClassTypeDeclarationDescr>):void	org.drools.compiler.builder.impl.TypeDeclarationNameResolver
+Move Method	org.drools.compiler.rule.builder.ConditionalBranchBuilder::getLastPattern(RuleBuildContext):Pattern	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.kie.builder.impl.MemoryKieModule.FolderMembersInputStream::folderMembersToInputStream(Folder):InputStream	org.drools.compiler.compiler.io.Folder
+Move Method	org.drools.compiler.compiler.DescrResourceSetTest::drlFilesTest():void	org.drools.compiler.compiler.PackageDescrResourceVisitor
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::normalizeStrictAnnotation(TypeResolver, AnnotationDescr):void	org.drools.compiler.lang.descr.AnnotationDescr
+Move Method	org.drools.compiler.lang.api.impl.PackageDescrBuilderImpl::initDescr(DescrBuilder<PackageDescrBuilder,T>):T	org.drools.compiler.lang.api.DescrBuilder
+Move Method	org.drools.compiler.rule.builder.QueryElementBuilder::analyzeExpression(RuleBuildContext, BaseDescr, String):AnalysisResult	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::buildLiteralRestrictionDescr(RuleBuildContext, RelationalExprDescr, String, String, boolean):LiteralRestrictionDescr	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.builder.impl.CompositeKnowledgeBuilderImpl::registerPackageDescr(ResourceDescr, Map<String,CompositePackageDescr>, Resource, PackageDescr):void	org.drools.compiler.lang.descr.PackageDescr
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::processGlobals(PackageRegistry, PackageDescr):void	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.kie.builder.impl.KieBuilderImpl::compileJavaClasses(JavaDialectConfiguration, ClassLoader, List<String>, String):void	org.drools.compiler.rule.builder.dialect.java.JavaDialectConfiguration
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::addPackageFromXSD(Resource, JaxbConfigurationImpl):void	org.drools.compiler.compiler.ProcessBuilder
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::processEntryPointDeclarations(PackageRegistry, PackageDescr):void	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::buildRuleBuilderContexts(List<RuleDescr>, PackageRegistry):Map<String,RuleBuildContext>	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.rule.builder.PackageBuildContext::init(KnowledgeBuilderImpl, InternalKnowledgePackage, BaseDescr, DialectCompiletimeRegistry, Dialect, Dialectable):void	org.drools.compiler.compiler.DialectCompiletimeRegistry
+Move Method	org.drools.compiler.lang.DRL6Parser::speculateParameters(boolean):boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.builder.impl.TypeDeclarationBuilder::updateTraitInformation(AbstractClassTypeDeclarationDescr, TypeDeclaration, ClassDefinition, PackageRegistry):void	org.drools.compiler.builder.impl.DeclaredClassBuilder
+Move Method	org.drools.compiler.lang.DRL6Parser::speculatePositionalConstraints():boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.rule.builder.dialect.java.JavaDialect::addClassCompileTask(String, BaseDescr, String, MemoryResourceReader, ErrorHandler):void	org.drools.compiler.commons.jci.readers.MemoryResourceReader
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::normalizeAnnotations(AnnotatedBaseDescr, TypeResolver, boolean):void	org.drools.compiler.lang.descr.AnnotatedBaseDescr
+Move Method	org.drools.compiler.kie.builder.impl.KieContainerImpl::registerLoggers(KieSessionModelImpl, KieRuntimeEventManager):void	org.drools.compiler.kproject.models.KieSessionModelImpl
+Move Method	org.drools.compiler.builder.impl.TypeDeclarationConfigurator::finalize(TypeDeclaration, AbstractClassTypeDeclarationDescr, PackageRegistry, Map<String,PackageRegistry>, ClassHierarchyManager):void	org.drools.compiler.builder.impl.ClassHierarchyManager
+Move Method	org.drools.compiler.lang.DRL6StrictParser::speculateParameters(boolean):boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderTest::createEvalRule(PackageDescr, String):void	org.drools.compiler.lang.descr.PackageDescr
+Move Method	org.drools.compiler.lang.DRL6Parser::speculateFullAnnotation():boolean	org.drools.compiler.lang.DRL6Expressions
+Move Method	org.drools.compiler.rule.builder.dialect.mvel.MVELDialect::analyzeBlock(PackageBuildContext, String, BoundIdentifiers, Map<String,Class<?>>, String, Class):AnalysisResult	org.drools.compiler.compiler.BoundIdentifiers
+Move Method	org.drools.compiler.rule.builder.PatternBuilder::findObjectType(RuleBuildContext, XpathPart, String):String	org.drools.compiler.rule.builder.RuleBuildContext
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderImpl::mergePackage(PackageRegistry, PackageDescr):void	org.drools.compiler.builder.impl.TypeDeclarationBuilder
+Move Method	org.drools.compiler.builder.impl.TypeDeclarationFactory::reportDeclarationDiff(ClassFieldInspector, AbstractClassTypeDeclarationDescr):TypeDeclarationError	org.drools.compiler.lang.descr.AbstractClassTypeDeclarationDescr
+Move Method	org.drools.compiler.builder.impl.KnowledgeBuilderConfigurationImpl::buildDialectRegistry(ClassLoader, KnowledgeBuilderConfigurationImpl, PackageRegistry, InternalKnowledgePackage):DialectCompiletimeRegistry	org.drools.compiler.compiler.PackageRegistry
+Move Method	org.drools.compiler.rule.builder.dialect.java.JavaDialect::analyzeExpression(PackageBuildContext, BaseDescr, Object, BoundIdentifiers, Map<String,Class<?>>):AnalysisResult	org.drools.compiler.rule.builder.dialect.java.JavaExprAnalyzer

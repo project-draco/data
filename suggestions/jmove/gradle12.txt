@@ -1,0 +1,32 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::getSchema(Class<T>, RuleSourceValidationProblemCollector):StructSchema<T>	org.gradle.model.internal.manage.schema.ModelSchemaStore
+Move Method	org.gradle.model.internal.inspect.ManagedModelCreationRuleExtractor::getModelSchema(ModelType<T>, MethodRuleDefinition<?,?>):ModelSchema<T>	org.gradle.model.internal.manage.schema.ModelSchemaStore
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::validateNonRuleMethod(Method, RuleSourceValidationProblemCollector):void	org.gradle.model.internal.inspect.RuleSourceValidationProblemCollector
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::toType(ModelType<T>, ModelNodeInternal, String):T	org.gradle.model.internal.type.ModelType
+Move Method	org.gradle.model.internal.manage.schema.extract.StructSchemaExtractionStrategySupport::getNonPropertyMethods(CandidateMethods, List<ModelPropertyExtractionResult<?>>):Set<WeaklyTypeReferencingMethod<?,?>>	org.gradle.model.internal.manage.schema.extract.CandidateMethods
+Move Method	org.gradle.model.internal.manage.binding.DefaultStructBindingsStore::collectManagedProperties(StructBindingExtractionContext<T>, Map<String,Multimap<PropertyAccessorType,StructMethodBinding>>):ImmutableSortedMap<String,ManagedProperty<?>>	org.gradle.model.internal.manage.schema.ModelSchemaStore
+Move Method	org.gradle.model.internal.manage.schema.extract.ModelSchemaAspectExtractor::extract(ModelSchemaExtractionContext<T>, List<ModelPropertyExtractionResult<?>>):List<ModelSchemaAspect>	org.gradle.model.internal.manage.schema.extract.ModelSchemaExtractionContext
+Move Method	org.gradle.model.internal.typeregistration.BaseInstanceFactory.TypeRegistration::validateManagedInternalView(InternalViewRegistration<V>, ModelType<?>):void	org.gradle.model.internal.type.ModelType
+Move Method	org.gradle.model.internal.core.ModelRegistrations.Builder::actions(Multimap<ModelActionRole,? extends ModelAction>):Builder	org.gradle.model.internal.core.NodeInitializer
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::toViews(List<ModelBinding>, ModelRuleDescriptor):List<ModelView<?>>	org.gradle.model.internal.core.rule.describe.ModelRuleDescriptor
+Move Method	org.gradle.model.internal.core.NodeBackedModelMap::withType(ModelType<S>):ModelMap<S>	org.gradle.model.internal.core.ChildNodeInitializerStrategy
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry.GoalGraph::nodeAtState(NodeAtState):ModelGoal	org.gradle.model.internal.registry.NodeAtState
+Move Method	org.gradle.model.internal.core.ModelRegistrations.Builder::action(ModelActionRole, Action<? super MutableModelNode>):Builder	org.gradle.model.internal.core.ModelActionRole
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::extract(Class<T>):ExtractedRuleSource<T>	org.gradle.model.internal.manage.schema.ModelSchemaStore
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::getMethodHandler(MethodRuleDefinition<?,?>, Method, MethodModelRuleExtractionContext):ExtractedModelRule	org.gradle.model.internal.inspect.MethodModelRuleExtractionContext
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::node(ModelPath):MutableModelNode	org.gradle.model.internal.registry.ModelGraph
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::atStateOrMaybeLater(ModelPath, ModelNode.State, boolean):ModelNodeInternal	org.gradle.model.internal.registry.ModelGraph
+Move Method	org.gradle.model.internal.manage.schema.extract.DefaultModelSchemaExtractor::extractSchema(DefaultModelSchemaExtractionContext<T>, ModelSchemaCache):void	org.gradle.model.internal.manage.schema.cache.ModelSchemaCache
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry.TryBindInputs::maybeBind(ModelBinding, Collection<ModelGoal>):void	org.gradle.model.internal.registry.ModelBinding
+Move Method	org.gradle.model.internal.manage.schema.extract.StructSchemaExtractionStrategySupport::selectProperties(ModelSchemaExtractionContext<?>, CandidateMethods):Iterable<ModelPropertyExtractionContext>	org.gradle.model.internal.manage.schema.extract.CandidateMethods
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::validateClass(Class<?>, RuleSourceValidationProblemCollector):void	org.gradle.model.internal.manage.instance.ManagedProxyFactory
+Move Method	org.gradle.model.internal.core.ModelRegistrations.Builder::action(ModelActionRole, ModelAction):Builder	org.gradle.model.internal.core.ModelActionRole
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::get(ModelPath):ModelNodeInternal	org.gradle.model.internal.registry.ModelGraph
+Move Method	org.gradle.model.internal.manage.binding.DefaultStructBindingsStore::getStructSchema(ModelType<T>):StructSchema<T>	org.gradle.model.internal.manage.schema.ModelSchemaStore
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::bindInternal(ModelReference<T>, ModelActionRole, ModelAction):RuleBinder	org.gradle.model.internal.core.ModelReference
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::doExtract(Class<T>):CachedRuleSource	org.gradle.model.internal.manage.binding.StructBindingsStore
+Move Method	org.gradle.model.internal.inspect.ModelRuleExtractor::validateRuleMethod(MethodRuleDefinition<?,?>, Method, RuleSourceValidationProblemCollector):void	org.gradle.model.internal.inspect.RuleSourceValidationProblemCollector
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::unbound(Iterable<? extends RuleBinder>):UnboundModelRulesException	org.gradle.model.internal.registry.ModelGraph
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::addRuleBindings(ModelNodeInternal, Multimap<ModelActionRole,? extends ModelAction>):void	org.gradle.model.internal.registry.ModelNodeInternal
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::mapSubject(ModelReference<?>, ModelActionRole):BindingPredicate	org.gradle.model.internal.core.ModelReference
+Move Method	org.gradle.model.internal.registry.DefaultModelRegistry::fireAction(RuleBinder):void	org.gradle.model.internal.registry.RuleBinder

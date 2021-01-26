@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.ws.idp.web.BaseWSFederationRequestController::shouldRenewAuthentication(WSFederationRequest, HttpServletRequest):boolean	org.apereo.cas.ws.idp.web.WSFederationRequest
+Move Method	org.apereo.cas.ws.idp.web.WSFederationValidateRequestCallbackController::produceRelyingPartyToken(HttpServletResponse, HttpServletRequest, WSFederationRequest, SecurityToken, Assertion):String	org.apereo.cas.ws.idp.services.WSFederationRelyingPartyTokenProducer

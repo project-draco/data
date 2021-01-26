@@ -1,0 +1,8 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.catalog.caching.EhCacheCatalogCache::initializeCacheLoaderArgument(boolean):CacheLoaderArgument	org.killbill.billing.catalog.plugin.VersionedCatalogMapper
+Move Method	org.killbill.billing.catalog.StandaloneCatalog::findCurrentPriceList(String):DefaultPriceList	org.killbill.billing.catalog.DefaultPriceListSet
+Move Method	org.killbill.billing.catalog.DefaultPlan::findPriceListForPlan(StandaloneCatalog):String	org.killbill.billing.catalog.StandaloneCatalog
+Move Method	org.killbill.billing.catalog.CatalogUpdater::getSaneDefaultPlanRules(DefaultPriceList):DefaultPlanRules	org.killbill.billing.catalog.DefaultPriceList
+Move Method	org.killbill.billing.catalog.CatalogUpdater::validateExistingPlan(DefaultPlan, SimplePlanDescriptor):void	org.killbill.billing.catalog.DefaultPlan
+Move Method	org.killbill.billing.catalog.io.TestXMLReader::getUsages(StandaloneCatalog, String):Usage[]	org.killbill.billing.catalog.StandaloneCatalog
+Move Method	org.killbill.billing.catalog.TestCatalogUpdater::addBadSimplePlanDescriptor(CatalogUpdater, SimplePlanDescriptor):void	org.killbill.billing.catalog.CatalogUpdater

@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.jvm.plugins.JvmComponentPlugin.Rules::configureApiJarInputs(ApiJar, JvmAssembly):void	org.gradle.jvm.tasks.api.ApiJar
+Move Method	org.gradle.jvm.plugins.JvmComponentPlugin.Rules::configureJvmBinaries(JvmBinarySpecInternal, ProjectLayout):void	org.gradle.jvm.internal.JvmBinarySpecInternal

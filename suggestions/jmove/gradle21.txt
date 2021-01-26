@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.internal.resource.transport.aws.s3.S3Client::createConnectionProperties():ClientConfiguration	org.gradle.internal.resource.transport.aws.s3.S3ConnectionProperties

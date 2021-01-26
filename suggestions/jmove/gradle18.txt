@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.plugin.use.internal.DefaultPluginRequestApplicator::resolveToFoundResult(PluginResolver, PluginRequest):Result	org.gradle.plugin.use.resolve.internal.PluginResolver
+Move Method	org.gradle.plugin.use.internal.PluginUsePluginServiceRegistry.BuildScopeServices::createPluginResolverFactory(PluginRegistry, DocumentationRegistry, PluginResolutionServiceResolver, DefaultPluginRepositoryRegistry, InjectedClasspathPluginResolver, FileLookup):PluginResolverFactory	org.gradle.plugin.repository.internal.DefaultPluginRepositoryRegistry
+Move Method	org.gradle.plugin.use.internal.PluginUsePluginServiceRegistry.BuildScopeServices::createPluginRequestApplicator(PluginRegistry, PluginResolverFactory, DefaultPluginRepositoryRegistry, CachedClasspathTransformer):PluginRequestApplicator	org.gradle.plugin.repository.internal.DefaultPluginRepositoryRegistry
+Move Method	org.gradle.plugin.use.internal.DefaultPluginRequestApplicator::wrapInNotInClasspathCheck(ClassLoaderScope):PluginResolver	org.gradle.plugin.use.internal.PluginResolverFactory
+Move Method	org.gradle.plugin.use.resolve.service.internal.PluginResolutionServiceResolver::handleLegacy(PluginUseMetaData, PluginResolutionResult):void	org.gradle.plugin.use.resolve.service.internal.PluginUseMetaData

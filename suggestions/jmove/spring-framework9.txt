@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.orm.jpa.AbstractEntityManagerFactoryBeanTests::checkInvariants(AbstractEntityManagerFactoryBean):void	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean

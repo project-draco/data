@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.internal.tasks.compile.incremental.jar.JarClasspathSnapshotFactory::createSnapshot(Iterable<JarArchive>):JarClasspathSnapshot	org.gradle.api.internal.tasks.compile.incremental.jar.JarSnapshotter
+Move Method	org.gradle.api.tasks.javadoc.Javadoc::getOutputDirectory():File	org.gradle.external.javadoc.StandardJavadocDocletOptions
+Move Method	org.gradle.api.internal.tasks.compile.incremental.jar.JarChangeDependentsFinder::getActualDependents(InputFileDetails, JarArchive):DependentsSet	org.gradle.api.internal.tasks.compile.incremental.jar.JarClasspathSnapshot
+Move Method	org.gradle.api.internal.tasks.compile.incremental.jar.DefaultJarSnapshotter::createSnapshot(HashCode, JarArchive):JarSnapshot	org.gradle.api.internal.tasks.compile.incremental.jar.JarArchive
+Move Method	org.gradle.api.tasks.javadoc.Javadoc::executeExternalJavadoc(StandardJavadocDocletOptions):void	org.gradle.external.javadoc.StandardJavadocDocletOptions

@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.internal.resolve.LocalLibraryDependencyResolver::doResolve(String, String):LibraryResolutionResult	org.gradle.api.internal.resolve.LocalLibraryResolver
+Move Method	org.gradle.api.internal.resolve.LocalLibraryDependencyResolver::resolveLibraryAndChooseBinary(BuildableComponentIdResolveResult, LibraryComponentSelector):void	org.gradle.api.internal.resolve.LocalLibraryMetaDataAdapter
+Move Method	org.gradle.language.base.plugins.ComponentModelBasePlugin.PluginRules::applyFallbackSourceConventions(LanguageSourceSet, ProjectIdentifier):void	org.gradle.language.base.LanguageSourceSet
+Move Method	org.gradle.platform.base.internal.registry.ComponentBinariesModelRuleExtractor::visitAndVerifyMethodSignature(RuleMethodDataCollector, MethodRuleDefinition<?,?>, RuleSourceValidationProblemCollector):void	org.gradle.platform.base.internal.registry.AbstractAnnotationDrivenComponentModelRuleExtractor
+Move Method	org.gradle.language.base.plugins.ComponentModelBasePlugin.PluginRules::addComponentSourcesSetsToProjectSourceSet(SourceComponentSpec, ProjectSourceSet):void	org.gradle.platform.base.SourceComponentSpec

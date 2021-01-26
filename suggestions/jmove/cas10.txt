@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.apereo.cas.authentication.SecurityTokenServiceAuthenticationMetaDataPopulator::invokeSecurityTokenServiceForToken(AuthenticationTransaction, AuthenticationBuilder, WSFederationRegisteredService, SecurityTokenServiceClient):void	org.apereo.cas.authentication.SecurityTokenServiceClientBuilder

@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.testkit.runner.internal.ToolingApiGradleExecutor::buildConnector(File, File, boolean, GradleProvider):GradleConnector	org.gradle.testkit.runner.internal.GradleProvider
+Move Method	org.gradle.testkit.runner.internal.DefaultGradleRunner::createDiagnosticsMessage(String, GradleExecutionResult):String	org.gradle.testkit.runner.internal.TestKitDirProvider
+Move Method	org.gradle.testkit.runner.internal.DefaultGradleRunner::run(Action<GradleExecutionResult>):BuildResult	org.gradle.testkit.runner.internal.GradleExecutor

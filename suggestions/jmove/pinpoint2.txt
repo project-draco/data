@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.collector.cluster.zookeeper.ZookeeperJobWorkerTest::waitZookeeperServerData(int, MockZookeeperClient):void	com.navercorp.pinpoint.collector.TestAwaitUtils
+Move Method	com.navercorp.pinpoint.collector.receiver.tcp.TCPReceiver::recordPing(PingPacket, PinpointServer):void	com.navercorp.pinpoint.collector.rpc.handler.AgentEventHandler
+Move Method	com.navercorp.pinpoint.collector.receiver.udp.SpanStreamUDPSenderTest::waitMessageReceived(int, int):void	com.navercorp.pinpoint.collector.TestAwaitUtils
+Move Method	com.navercorp.pinpoint.collector.cluster.route.StreamRouteHandler::createStreamChannel(PinpointServerClusterPoint, byte[], ClientStreamChannelMessageListener):ClientStreamChannelContext	com.navercorp.pinpoint.collector.cluster.PinpointServerClusterPoint

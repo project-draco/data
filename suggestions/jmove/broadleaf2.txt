@@ -1,0 +1,13 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.broadleafcommerce.common.site.domain.SiteImpl::checkCloneable(Site):void	org.broadleafcommerce.common.persistence.ArchiveStatus
+Move Method	org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer::buildClassLevelAnnotations(ClassFile, ClassFile, ConstPool):void	org.broadleafcommerce.common.logging.SupportLogger
+Move Method	org.broadleafcommerce.common.copy.MultiTenantCopier::persistCopyObjectTree(CopyOperation<T,G>, Class<T>, T, MultiTenantCopyContext):void	org.broadleafcommerce.common.copy.MultiTenantCopyContext
+Move Method	org.broadleafcommerce.common.copy.MultiTenantCopier::save(MultiTenantCopyContext, T):T	org.broadleafcommerce.common.copy.MultiTenantCopyContext
+Move Method	org.broadleafcommerce.common.sitemap.service.SiteMapBuilder::persistXMLDocument(String, Object):void	org.broadleafcommerce.common.file.domain.FileWorkArea
+Move Method	org.broadleafcommerce.common.web.resource.BroadleafContextUtil::establishThinRequestContextInternal(boolean, boolean):void	org.broadleafcommerce.common.util.DeployBehaviorUtil
+Move Method	org.broadleafcommerce.common.sitemap.service.SiteMapServiceImpl::gzipAndDeleteFiles(FileWorkArea, List<String>):void	org.broadleafcommerce.common.file.domain.FileWorkArea
+Move Method	org.broadleafcommerce.common.site.domain.CatalogImpl::checkCloneable(Catalog):void	org.broadleafcommerce.common.persistence.ArchiveStatus
+Move Method	org.broadleafcommerce.common.sitemap.service.SiteMapGeneratorTest::setup():void	org.broadleafcommerce.common.file.service.BroadleafFileServiceImpl
+Move Method	org.broadleafcommerce.common.extensibility.jpa.copy.DirectCopyClassTransformer::getEntityListeners(ConstPool, Annotation, Annotation):Annotation	org.broadleafcommerce.common.logging.SupportLogger
+Move Method	org.broadleafcommerce.common.extensibility.context.merge.MergeManager::merge(ResourceInputStream, ResourceInputStream):ResourceInputStream	org.broadleafcommerce.common.extensibility.context.ResourceInputStream
+Move Method	org.broadleafcommerce.common.web.controller.BroadleafAbstractController::addDeepLink(ModelAndView, DeepLinkService<T>, T):void	org.broadleafcommerce.common.web.deeplink.DeepLinkService

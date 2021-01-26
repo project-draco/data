@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.internal.nativeintegration.jansi.JansiBootPathConfigurer::configure(File):void	org.gradle.internal.nativeintegration.jansi.JansiStorageLocator
+Move Method	org.gradle.internal.nativeintegration.services.NativeServices::notAvailable(Class<T>):T	org.gradle.internal.nativeintegration.jansi.JansiBootPathConfigurer

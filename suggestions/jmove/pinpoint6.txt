@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.plugin.jdbc.oracle.OracleJdbcUrlParser::createOracleDatabaseInfo(KeyValue, String):DatabaseInfo	com.navercorp.pinpoint.plugin.jdbc.oracle.parser.KeyValue

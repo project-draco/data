@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.server.ApiV2::handleRequest(String, HttpExchange, Map<String,String>):void	org.languagetool.server.TextChecker
+Move Method	org.languagetool.server.ApiV2::getLanguages():String	org.languagetool.server.TextChecker
+Move Method	org.languagetool.server.HTTPSServerTesting::runTests(int):void	org.languagetool.server.ExampleSentenceProvider

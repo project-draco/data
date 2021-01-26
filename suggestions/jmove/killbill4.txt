@@ -1,0 +1,16 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.invoice.api.user.DefaultInvoiceUserApi::fromInvoiceModelDao(Collection<InvoiceModelDao>):List<Invoice>	org.killbill.billing.invoice.api.InvoiceApiHelper
+Move Method	org.killbill.billing.invoice.generator.UsageInvoiceItemGenerator::updatePerSubscriptionNextNotificationUsageDate(UUID, Map<String,LocalDate>, BillingMode, Map<UUID,SubscriptionFutureNotificationDates>):void	org.killbill.billing.invoice.usage.RawUsageOptimizer
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::notifyOfParentInvoiceCreation(EntitySqlDaoWrapperFactory, InvoiceModelDao, FutureAccountNotifications, InternalCallContext):void	org.killbill.billing.invoice.dao.CBADao
+Move Method	org.killbill.billing.invoice.InvoiceTestSuiteNoDB::beforeClass():void	org.killbill.billing.invoice.TestInvoiceHelper
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::notifyBusOfInvoiceCreation(EntitySqlDaoWrapperFactory, InvoiceModelDao, InternalCallContext):void	org.killbill.billing.invoice.dao.CBADao
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::validateInvoiceItemToBeAdjusted(InvoiceItemSqlDao, InvoiceItemModelDao, InternalCallContext):void	org.killbill.billing.invoice.dao.CBADao
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::getAllNonMigratedInvoicesByAccountAfterDate(InvoiceSqlDao, LocalDate, InternalTenantContext):List<InvoiceModelDao>	org.killbill.billing.invoice.dao.InvoiceDaoHelper
+Move Method	org.killbill.billing.invoice.api.InvoiceApiHelper::dispatchToInvoicePluginsAndInsertItems(UUID, boolean, WithAccountLock, CallContext):List<InvoiceItem>	org.killbill.billing.invoice.InvoicePluginDispatcher
+Move Method	org.killbill.billing.invoice.model.TestRecurringInAdvance::verifyInvoiceItems(LocalDate, LocalDate, LocalDate, int, BillingPeriod, LinkedHashMap<LocalDate,LocalDate>):void	org.killbill.billing.invoice.generator.FixedAndRecurringInvoiceItemGenerator
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::notifyOfFutureBillingEvents(EntitySqlDaoWrapperFactory, UUID, FutureAccountNotifications, InternalCallContext):void	org.killbill.billing.invoice.dao.CBADao
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::notifyBusOfInvoiceAdjustment(EntitySqlDaoWrapperFactory, UUID, UUID, UUID, InternalCallContext):void	org.killbill.billing.invoice.notification.ParentInvoiceCommitmentPoster
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::notifyBusOfInvoicePayment(EntitySqlDaoWrapperFactory, InvoicePaymentModelDao, UUID, UUID, InternalCallContext):void	org.killbill.billing.invoice.notification.ParentInvoiceCommitmentPoster
+Move Method	org.killbill.billing.invoice.model.TestRecurringInArrear::verifyInvoiceItems(LocalDate, LocalDate, LocalDate, int, BillingPeriod, LinkedHashMap<LocalDate,LocalDate>):void	org.killbill.billing.invoice.generator.FixedAndRecurringInvoiceItemGenerator
+Move Method	org.killbill.billing.invoice.generator.UsageInvoiceItemGenerator::getMinBillingEventDate(BillingEventSet, InternalCallContext):LocalDate	org.killbill.billing.invoice.usage.RawUsageOptimizer
+Move Method	org.killbill.billing.invoice.dao.DefaultInvoiceDao::createInvoiceItemFromTransaction(InvoiceItemSqlDao, InvoiceItemModelDao, InternalCallContext):void	org.killbill.billing.invoice.dao.CBADao

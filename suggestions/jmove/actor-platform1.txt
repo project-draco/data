@@ -1,0 +1,61 @@
+Refactoring Type	Source Method	Target Class
+Move Method	im.actor.core.modules.profile.avatar.GroupAvatarChangeActor::uploadCompleted(long, FileReference):void	im.actor.core.entity.FileReference
+Move Method	im.actor.core.modules.calls.peers.PeerNodeInt::replaceOwnStream(CountedReference<WebRTCMediaStream>):Promise<Void>	im.actor.runtime.function.CountedReference
+Move Method	im.actor.core.modules.messaging.MessagesModule::loadDraft(Peer):String	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.notifications.NotificationsActor::setLastReadDate(Peer, long):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.encryption.EncryptedMsgActor::onDecrypt(int, ApiEncryptedMessage):void	im.actor.core.api.ApiEncryptedMessage
+Move Method	im.actor.core.modules.calls.peers.CallBusActor::sendSignal(long, ApiWebRTCSignaling):void	im.actor.core.api.ApiWebRTCSignaling
+Move Method	im.actor.core.modules.encryption.KeyManagerActor::fetchPreKey():Promise<PrivateKey>	im.actor.core.modules.encryption.entity.PrivateKeyStorage
+Move Method	im.actor.core.network.mtp.actors.ReceiverActor::onReceive(ProtoMessage):void	im.actor.core.network.mtp.MTProto
+Move Method	im.actor.core.modules.encryption.KeyManagerActor::fetchOwnIdentity():Promise<OwnIdentity>	im.actor.core.modules.encryption.entity.PrivateKeyStorage
+Move Method	im.actor.core.modules.profile.avatar.OwnAvatarChangeActor::uploadCompleted(long, FileReference):void	im.actor.core.entity.FileReference
+Move Method	im.actor.core.modules.messaging.dialogs.DialogsActor::buildPeerDesc(Peer):PeerDesc	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.messaging.MessagesModule::updateMessage(Peer, String, long):Promise<Void>	im.actor.core.modules.messaging.dialogs.DialogsInt
+Move Method	im.actor.core.modules.messaging.actions.SenderActor::performSendApiContent(Peer, long, ApiMessage, WakeLock):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.messaging.actions.CursorActor::onCompleted(Peer, long):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.settings.SettingsSyncActor::saveState():void	im.actor.core.modules.settings.entity.SettingsSyncState
+Move Method	im.actor.core.i18n.I18nEngine::formatDialogText(Dialog):String	im.actor.core.entity.Dialog
+Move Method	im.actor.core.modules.messaging.actions.SenderActor::savePending():void	im.actor.core.modules.messaging.actions.entity.PendingMessagesStorage
+Move Method	im.actor.core.i18n.I18nEngine::getUser(int):User	im.actor.core.modules.Modules
+Move Method	im.actor.core.modules.file.UploadTask::uploadPart(int, byte[], int):void	im.actor.runtime.files.InputFile
+Move Method	im.actor.core.viewmodel.UserVM::buildPhones(List<ContactRecord>):ArrayListUserPhone	im.actor.core.viewmodel.generics.ValueModelUserPhone
+Move Method	im.actor.core.modules.presence.PresenceActor::subscribe(Peer):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.i18n.I18nEngine::formatNotificationText(Notification):String	im.actor.core.entity.Notification
+Move Method	im.actor.core.viewmodel.UserVM::buildEmails(List<ContactRecord>):ArrayListUserEmail	im.actor.core.viewmodel.generics.ValueModelUserEmail
+Move Method	im.actor.core.modules.conductor.ConductorActor::updateDeviceInfoIfNeeded():void	im.actor.core.viewmodel.AppStateVM
+Move Method	im.actor.core.modules.sequence.Updates::executeAfter(int, Runnable):void	im.actor.runtime.actors.ActorRef
+Move Method	im.actor.core.modules.search.SearchModule::onDialogsChanged(List<Dialog>):void	im.actor.runtime.actors.ActorRef
+Move Method	im.actor.core.modules.sequence.Updates::applyUpdate(int, byte[], Update, List<ApiUser>, List<ApiGroup>):Promise<Void>	im.actor.core.modules.sequence.SequenceHandlerInt
+Move Method	im.actor.core.modules.groups.GroupsModule::run():void	im.actor.core.modules.groups.router.GroupRouterInt
+Move Method	im.actor.core.modules.messaging.MessagesModule::saveDraft(Peer, String):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.messaging.actions.SenderActor::onSent(Peer, long):void	im.actor.core.modules.messaging.actions.entity.PendingMessagesStorage
+Move Method	im.actor.core.modules.encryption.EncryptedMsgActor::doEncrypt(int, ApiMessage):Promise	im.actor.core.api.ApiMessage
+Move Method	im.actor.core.modules.encryption.EncryptedPeerActor::doDecrypt(EncryptedBox):Promise<DecryptBoxResponse>	im.actor.core.modules.encryption.entity.EncryptedBox
+Move Method	im.actor.core.modules.file.UploadTask::loadPart(int):void	im.actor.runtime.files.InputFile
+Move Method	im.actor.core.modules.ModuleActor::buidOutPeer(Peer):ApiOutPeer	im.actor.core.entity.Peer
+Move Method	im.actor.core.network.mtp.actors.ManagerActor::onNetworkChanged(NetworkState):void	im.actor.runtime.util.ExponentialBackoff
+Move Method	im.actor.core.modules.messaging.actions.MessageDeleteActor::performDelete(Peer, List<Long>):void	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.sequence.SequenceActor::onUpdateReceived(int, byte[], int, byte[], List<ApiUser>, List<ApiGroup>):void	im.actor.core.modules.sequence.SequenceHandlerInt
+Move Method	im.actor.core.network.api.ApiBroker::processUpdate(long, byte[]):void	im.actor.core.network.parser.ApiParserConfig
+Move Method	im.actor.core.network.api.ApiBroker::processResponse(long, long, byte[]):void	im.actor.core.network.parser.ApiParserConfig
+Move Method	im.actor.core.modules.auth.Authentication::request(Request<T>, RpcCallback<T>, long):void	im.actor.core.modules.Modules
+Move Method	im.actor.core.modules.api.ApiModule::performPersistRequest(Request):void	im.actor.runtime.actors.ActorRef
+Move Method	im.actor.core.modules.encryption.EncryptionModule::getEncryptedChatManager(int):ActorRef	im.actor.runtime.actors.ActorRef
+Move Method	im.actor.core.modules.sequence.Updates::loadRequiredPeers(List<ApiUserOutPeer>, List<ApiGroupOutPeer>):Promise<Void>	im.actor.core.modules.sequence.SequenceHandlerInt
+Move Method	im.actor.core.modules.settings.SettingsSyncActor::performSync(SettingsSyncAction):void	im.actor.core.modules.settings.entity.SettingsSyncAction
+Move Method	im.actor.core.modules.messaging.dialogs.DialogsActor::updateSearch(Dialog):void	im.actor.core.entity.Dialog
+Move Method	im.actor.core.modules.encryption.KeyManagerActor::validateUserKeysGroup(int, ApiEncryptionKeyGroup):UserKeysGroup	im.actor.core.api.ApiEncryptionKeyGroup
+Move Method	im.actor.core.network.api.ApiBroker::cancelRequest(long):void	im.actor.core.network.mtp.MTProto
+Move Method	im.actor.core.modules.messaging.actions.MessageDeleteActor::onDeleteMessage(Peer, List<Long>):void	im.actor.core.modules.messaging.actions.entity.DeleteStorage
+Move Method	im.actor.core.modules.messaging.actions.SenderActor::performSendContent(Peer, long, AbsContent):void	im.actor.core.entity.content.AbsContent
+Move Method	im.actor.core.network.mtp.actors.PusherActor::performSend(ProtoMessage):void	im.actor.runtime.actors.ActorRef
+Move Method	im.actor.core.modules.encryption.EncryptedSessionActor::onEncrypt(byte[]):Promise<EncryptedPackageRes>	im.actor.core.modules.encryption.KeyManagerInt
+Move Method	im.actor.core.modules.messaging.router.RouterActor::onPeersChanged(List<User>, List<Group>):Promise<Void>	im.actor.core.modules.messaging.router.entity.ActiveDialogStorage
+Move Method	im.actor.core.modules.notifications.NotificationsActor::isNotificationsEnabled(Peer, boolean):boolean	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.AbsModule::getApiOutPeer(Peer):ApiOutPeer	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.messaging.router.RouterActor::isValidPeer(Peer):boolean	im.actor.core.entity.Peer
+Move Method	im.actor.core.modules.notifications.NotificationsActor::getLastReadDate(Peer):long	im.actor.core.entity.Peer
+Move Method	im.actor.core.viewmodel.UserVM::buildLinks(List<ContactRecord>):ArrayListUserLink	im.actor.core.viewmodel.generics.ValueModelUserLink
+Move Method	im.actor.core.modules.encryption.KeyManagerActor::fetchPreKey(long):Promise<PrivateKey>	im.actor.core.modules.encryption.entity.PrivateKeyStorage
+Move Method	im.actor.core.modules.auth.Authentication::request(Request<T>, RpcCallback<T>):void	im.actor.core.modules.Modules
+Move Method	im.actor.core.modules.api.ApiModule::performPersistCursorRequest(String, long, Request):void	im.actor.runtime.actors.ActorRef

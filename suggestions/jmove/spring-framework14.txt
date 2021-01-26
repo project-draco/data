@@ -1,0 +1,17 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::createDisconnectMessage(WebSocketSession):Message<byte[]>	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.sockjs.client.RestTemplateXhrTransport.XhrReceiveExtractor::handleFrame(ByteArrayOutputStream):void	org.springframework.web.socket.sockjs.client.XhrClientSockJsSession
+Move Method	org.springframework.web.socket.config.annotation.WebSocketMessageBrokerConfigurationSupport::decorateWebSocketHandler(WebSocketHandler):WebSocketHandler	org.springframework.web.socket.config.annotation.WebSocketTransportRegistration
+Move Method	org.springframework.web.socket.sockjs.transport.TransportHandlingSockJsService::createSockJsSession(String, SockJsSessionFactory, WebSocketHandler, Map<String,Object>):SockJsSession	org.springframework.web.socket.sockjs.transport.SockJsSessionFactory
+Move Method	org.springframework.web.socket.messaging.WebSocketStompClient::connect(URI, WebSocketHttpHeaders, StompHeaders, StompSessionHandler):ListenableFuture<StompSession>	org.springframework.web.socket.client.WebSocketClient
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::handleError(WebSocketSession, Throwable, Message<byte[]>):void	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.server.support.AbstractHandshakeHandler::determineUser(ServerHttpRequest, WebSocketHandler, Map<String,Object>):Principal	org.springframework.web.socket.server.RequestUpgradeStrategy
+Move Method	org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistration::getMappings():MultiValueMap<HttpRequestHandler,String>	org.springframework.web.socket.config.annotation.SockJsServiceRegistration
+Move Method	org.springframework.web.socket.sockjs.client.SockJsClient::createRequest(SockJsUrlInfo, HttpHeaders, ServerInfo):DefaultTransportRequest	org.springframework.web.socket.sockjs.client.SockJsUrlInfo
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::convertConnectAcktoStompConnected(StompHeaderAccessor):StompHeaderAccessor	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::getStompHeaderAccessor(Message<?>):StompHeaderAccessor	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.sockjs.client.UndertowXhrTransport.SockJsResponseListener::handleFrame():void	org.springframework.web.socket.sockjs.client.XhrClientSockJsSession
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::getDisconnectReceipt(SimpMessageHeaderAccessor):String	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::afterStompSessionConnected(Message<?>, StompHeaderAccessor, WebSocketSession):StompHeaderAccessor	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.messaging.StompSubProtocolHandler::sendErrorMessage(WebSocketSession, Throwable):void	org.springframework.web.socket.messaging.StompSubProtocolErrorHandler
+Move Method	org.springframework.web.socket.sockjs.client.SockJsClient::getServerInfo(SockJsUrlInfo, HttpHeaders):ServerInfo	org.springframework.web.socket.sockjs.client.InfoReceiver

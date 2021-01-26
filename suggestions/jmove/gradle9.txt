@@ -1,0 +1,9 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.tooling.internal.provider.ProviderConnection::createExecuter(ProviderOperationParameters, Parameters):BuildActionExecuter<ProviderOperationParameters>	org.gradle.launcher.daemon.client.DaemonClientFactory
+Move Method	org.gradle.tooling.internal.provider.ConnectionScopeServices::createProviderConnection(BuildExecuter, DaemonClientFactory, ServiceRegistry, JvmVersionDetector, ShutdownCoordinator):ProviderConnection	org.gradle.tooling.internal.provider.ShutdownCoordinator
+Move Method	org.gradle.launcher.cli.BuildActionsFactory::createBuildActionParamters(StartParameter, DaemonParameters):BuildActionParameters	org.gradle.launcher.daemon.configuration.DaemonParameters
+Move Method	org.gradle.launcher.daemon.server.DaemonServices::createMasterExpirationStrategy(Daemon, HealthExpirationStrategy, ListenerManager):MasterExpirationStrategy	org.gradle.launcher.daemon.server.Daemon
+Move Method	org.gradle.launcher.daemon.server.exec.DaemonCommandExecuter::executeCommand(DaemonConnection, Command, DaemonContext, DaemonStateControl):void	org.gradle.launcher.daemon.protocol.Command
+Move Method	org.gradle.tooling.internal.provider.ConnectionScopeServices::createShutdownCoordinator(ListenerManager, DaemonClientFactory, OutputEventListener):ShutdownCoordinator	org.gradle.launcher.daemon.client.DaemonClientFactory
+Move Method	org.gradle.launcher.daemon.client.DaemonClientServices::createDaemonStarter(DaemonDir, DaemonParameters, DaemonGreeter, JvmVersionValidator):DaemonStarter	org.gradle.launcher.daemon.registry.DaemonDir
+Move Method	org.gradle.tooling.internal.provider.LauncherServices.ToolingBuildSessionScopeServices::createPayloadSerializer(ClassLoaderCache, PayloadClassLoaderFactory):PayloadSerializer	org.gradle.tooling.internal.provider.serialization.ClassLoaderCache

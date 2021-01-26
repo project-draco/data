@@ -1,0 +1,3 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.broadleafcommerce.core.web.controller.checkout.BroadleafBillingInfoController::copyShippingAddressToBillingAddress(Order, BillingInfoForm):void	org.broadleafcommerce.core.web.checkout.model.BillingInfoForm
+Move Method	org.broadleafcommerce.core.web.controller.account.BroadleafManageCustomerAddressesController::removeUnusedPhones(CustomerAddressForm):void	org.broadleafcommerce.core.web.controller.account.CustomerAddressForm

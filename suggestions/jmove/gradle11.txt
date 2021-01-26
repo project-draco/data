@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.internal.remote.internal.hub.InterHubMessageSerializer.MessageWriter::writeChannelId(ChannelMessage):void	org.gradle.internal.remote.internal.hub.protocol.ChannelMessage
+Move Method	org.gradle.internal.remote.internal.hub.MessageHub::addConnection(RemoteConnection<InterHubMessage>):void	org.gradle.internal.remote.internal.hub.ConnectionSet
+Move Method	org.gradle.internal.remote.internal.hub.MethodInvocationSerializer.MethodInvocationReader::readType():Class<?>	org.gradle.internal.serialize.Decoder
+Move Method	org.gradle.internal.serialize.BaseSerializerFactory::getSerializerFor(Class<T>):Serializer<T>	org.gradle.internal.serialize.Serializer
+Move Method	org.gradle.internal.event.AbstractBroadcastDispatch::dispatch(MethodInvocation, Iterator<? extends Dispatch<MethodInvocation>>):void	org.gradle.internal.dispatch.MethodInvocation

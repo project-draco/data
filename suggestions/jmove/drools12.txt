@@ -1,0 +1,10 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.workbench.models.guided.dtable.backend.GuidedDTDRLPersistence::makeSingleFieldConstraint(ConditionCol52, List<BaseColumn>, List<List<DTCellValue52>>):FieldConstraint	org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52
+Move Method	org.drools.workbench.models.guided.dtable.backend.GuidedDTDRLPersistence::doAction(List<LabelledAction>, ActionWorkItemCol52, String):void	org.drools.workbench.models.guided.dtable.shared.model.ActionWorkItemCol52
+Move Method	org.drools.workbench.models.guided.dtable.backend.GuidedDTDRLPersistence::doFindByFactPattern(List<IPattern>, Pattern52):IPattern	org.drools.workbench.models.guided.dtable.shared.model.Pattern52
+Move Method	org.drools.workbench.models.guided.dtable.shared.auditlog.InsertColumnAuditLogEntry::getDetails(BaseColumn):ColumnDetails	org.drools.workbench.models.guided.dtable.shared.auditlog.ColumnDetails
+Move Method	org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52::getBRLColumn(BRLActionVariableColumn):BRLActionColumn	org.drools.workbench.models.guided.dtable.shared.model.BRLActionVariableColumn
+Move Method	org.drools.workbench.models.guided.dtable.backend.GuidedDTDRLPersistence::makeSingleFieldConstraint(ConditionCol52, String):FieldConstraint	org.drools.workbench.models.guided.dtable.shared.model.ConditionCol52
+Move Method	org.drools.workbench.models.guided.dtable.shared.model.GuidedDecisionTable52::getBRLColumn(BRLConditionVariableColumn):BRLConditionColumn	org.drools.workbench.models.guided.dtable.shared.model.BRLConditionVariableColumn
+Move Method	org.drools.workbench.models.guided.dtable.shared.hitpolicy.RowPriorityResolverTest::assertSalience(Integer, RowNumber):void	org.drools.workbench.models.guided.dtable.shared.hitpolicy.RowPriorities
+Move Method	org.drools.workbench.models.guided.dtable.shared.model.BaseColumnFieldDiffImplTest::check():void	org.drools.workbench.models.guided.dtable.shared.model.DTCellValue52

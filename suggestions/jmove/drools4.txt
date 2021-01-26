@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.drools.persistence.marshalling.util.MarshalledData::storeAssociatedKnowledgeBase(SessionInfo):void	org.drools.persistence.info.SessionInfo

@@ -1,0 +1,4 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.thrift.io.ChunkHeaderBufferedTBaseSerializer::writeHeader(TProtocol, Header):void	com.navercorp.pinpoint.thrift.io.Header
+Move Method	com.navercorp.pinpoint.thrift.io.ReplaceListCompactProtocolTest::replace():void	com.navercorp.pinpoint.thrift.dto.TSpan
+Move Method	com.navercorp.pinpoint.thrift.io.ReplaceListCompactProtocolTest::before():void	com.navercorp.pinpoint.thrift.dto.TSpan

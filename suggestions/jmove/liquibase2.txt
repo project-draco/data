@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.liquibase.maven.plugins.AbstractLiquibaseMojoTest::loadPropertiesFileIfPresent(AbstractLiquibaseMojo):void	org.liquibase.maven.plugins.AbstractLiquibaseMojo

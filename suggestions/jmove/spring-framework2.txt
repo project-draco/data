@@ -1,0 +1,43 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.jmx.export.assembler.MetadataMBeanInfoAssembler::populateMetricDescriptor(Descriptor, ManagedMetric):void	org.springframework.jmx.export.metadata.ManagedMetric
+Move Method	org.springframework.cache.interceptor.ExpressionEvaluatorTests::getOps(String):Collection<CacheOperation>	org.springframework.cache.annotation.AnnotationCacheOperationSource
+Move Method	org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor::createRunnable(Object, Method):Runnable	org.springframework.scheduling.config.ScheduledTaskRegistrar
+Move Method	org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptorTests::configuredProxy(SimpleRemoteSlsbInvokerInterceptor, Class<?>):Object	org.springframework.ejb.access.SimpleRemoteSlsbInvokerInterceptor
+Move Method	org.springframework.scheduling.config.ScheduledTaskRegistrar::addTriggerTask(Runnable, Trigger):void	org.springframework.scheduling.TaskScheduler
+Move Method	org.springframework.context.event.SimpleApplicationEventMulticaster::doInvokeListener(ApplicationListener, ApplicationEvent):void	org.springframework.context.ApplicationEvent
+Move Method	org.springframework.context.annotation.configuration.ScopingTests::createContext(Class<?>):GenericApplicationContext	org.springframework.context.support.GenericApplicationContext
+Move Method	org.springframework.cache.interceptor.CacheAspectSupport::getCachesextends Cache> (CacheOperationInvocationContext<CacheOperation>, CacheResolver):Collection<?	org.springframework.cache.interceptor.CacheResolver
+Move Method	org.springframework.format.support.FormattingConversionServiceTests::registerDefaultValue(Class<T>, T):void	org.springframework.format.support.FormattingConversionService
+Move Method	org.springframework.context.annotation.AnnotationProcessorPerformanceTests::assertFastEnough(GenericApplicationContext):void	org.springframework.context.support.GenericApplicationContext
+Move Method	org.springframework.context.annotation.LoadTimeWeavingConfiguration::loadTimeWeaver():LoadTimeWeaver	org.springframework.context.annotation.LoadTimeWeavingConfigurer
+Move Method	org.springframework.jmx.export.MBeanExporter::getObjectName(Object, String):ObjectName	org.springframework.jmx.export.naming.ObjectNamingStrategy
+Move Method	org.springframework.remoting.rmi.JndiRmiClientInterceptor::refreshAndRetry(MethodInvocation):Object	org.springframework.remoting.support.RemoteInvocationFactory
+Move Method	org.springframework.context.support.Assembler::output():void	org.springframework.context.support.Logic
+Move Method	org.springframework.remoting.rmi.JndiRmiClientInterceptor::doInvoke(MethodInvocation, RmiInvocationHandler):Object	org.springframework.remoting.rmi.RmiInvocationHandler
+Move Method	org.springframework.context.event.ApplicationListenerMethodAdapterTests::invokeListener(Method, ApplicationEvent):void	org.springframework.context.ApplicationEvent
+Move Method	org.springframework.jmx.export.MBeanExporter::getMBeanInfo(Object, String):ModelMBeanInfo	org.springframework.jmx.export.assembler.MBeanInfoAssembler
+Move Method	org.springframework.jmx.export.MBeanExporter::injectNotificationPublisherIfNecessary(Object, ModelMBean, ObjectName):void	org.springframework.jmx.export.naming.ObjectNamingStrategy
+Move Method	org.springframework.context.annotation.ConfigurationClassParser::processPropertySource(AnnotationAttributes):void	org.springframework.context.annotation.ComponentScanAnnotationParser
+Move Method	org.springframework.jmx.export.MBeanExporter::adaptMBeanIfPossible(Object):DynamicMBean	org.springframework.jmx.export.assembler.MBeanInfoAssembler
+Move Method	org.springframework.scheduling.annotation.AsyncAnnotationBeanPostProcessorTests::assertFutureWithException(Future<Object>, TestableAsyncUncaughtExceptionHandler):void	org.springframework.scheduling.annotation.TestableAsyncUncaughtExceptionHandler
+Move Method	org.springframework.remoting.support.RemoteInvocationBasedAccessor::createRemoteInvocation(MethodInvocation):RemoteInvocation	org.springframework.remoting.support.RemoteInvocationFactory
+Move Method	org.springframework.jmx.access.MBeanClientInterceptor::prepare():void	org.springframework.jmx.access.ConnectorDelegate
+Move Method	org.springframework.jmx.access.NotificationListenerRegistrar::prepare():void	org.springframework.jmx.access.ConnectorDelegate
+Move Method	org.springframework.context.annotation.ConfigurationClassParser::isChainedImportOnStack(ConfigurationClass):boolean	org.springframework.context.annotation.ConfigurationClass
+Move Method	org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader::loadBeanDefinitionsForConfigurationClass(ConfigurationClass, TrackedConditionEvaluator):void	org.springframework.context.annotation.ConfigurationClass
+Move Method	org.springframework.context.event.ApplicationContextEventTests::multicastEvent(boolean, Class<?>, ApplicationEvent, ResolvableType):void	org.springframework.context.ApplicationEvent
+Move Method	org.springframework.cache.interceptor.CacheAspectSupport::getBean(String, Class<T>):T	org.springframework.cache.interceptor.CacheOperationSource
+Move Method	org.springframework.cache.interceptor.CacheAspectSupport::getCacheOperationMetadata(CacheOperation, Method, Class<?>):CacheOperationMetadata	org.springframework.cache.interceptor.CacheOperationSource
+Move Method	org.springframework.cache.annotation.SpringCacheAnnotationParser::validateCacheOperation(AnnotatedElement, CacheOperation):void	org.springframework.cache.interceptor.CacheOperation
+Move Method	org.springframework.jmx.export.MBeanExporter::registerBeanNameOrInstance(Object, String):ObjectName	org.springframework.jmx.export.naming.ObjectNamingStrategy
+Move Method	org.springframework.scheduling.annotation.ScheduledAnnotationBeanPostProcessor::processScheduled(Scheduled, Method, Object):void	org.springframework.scheduling.config.ScheduledTaskRegistrar
+Move Method	org.springframework.scheduling.concurrent.ScheduledExecutorFactoryBean::getRunnableToSchedule(ScheduledExecutorTask):Runnable	org.springframework.scheduling.concurrent.ScheduledExecutorTask
+Move Method	org.springframework.context.annotation.ClassPathBeanDefinitionScanner::doScan(String[]):Set<BeanDefinitionHolder>	org.springframework.context.annotation.ScopeMetadataResolver
+Move Method	org.springframework.cache.annotation.AnnotationCacheOperationSourceTests::getOps(Class<?>, String):Collection<CacheOperation>	org.springframework.cache.annotation.AnnotationCacheOperationSource
+Move Method	org.springframework.ui.context.support.ResourceBundleThemeSource::initParent(Theme):void	org.springframework.ui.context.ThemeSource
+Move Method	org.springframework.remoting.rmi.RmiClientInterceptor::doInvoke(MethodInvocation, RmiInvocationHandler):Object	org.springframework.remoting.rmi.RmiInvocationHandler
+Move Method	org.springframework.context.annotation.ConfigurationClassPostProcessor::processConfigBeanDefinitions(BeanDefinitionRegistry):void	org.springframework.context.annotation.AnnotationBeanNameGenerator
+Move Method	org.springframework.remoting.rmi.JndiRmiClientInterceptor::createRemoteInvocation(MethodInvocation):RemoteInvocation	org.springframework.remoting.support.RemoteInvocationFactory
+Move Method	org.springframework.context.annotation.ConfigurationClassParser.DeferredImportSelectorHandler::handle(ConfigurationClass, DeferredImportSelector):void	org.springframework.context.annotation.ConfigurationClass
+Move Method	org.springframework.validation.beanvalidation.SpringValidatorAdapterTests::testUnwrap():void	org.springframework.validation.beanvalidation.SpringValidatorAdapter
+Move Method	org.springframework.context.annotation.ClassPathBeanDefinitionScanner::checkCandidate(String, BeanDefinition):boolean	org.springframework.context.annotation.ScopeMetadataResolver

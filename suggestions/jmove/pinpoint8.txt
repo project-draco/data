@@ -1,0 +1,25 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.navercorp.pinpoint.profiler.sender.TcpDataSender::retryRequest(byte[], int, String):void	com.navercorp.pinpoint.profiler.sender.RetryQueue
+Move Method	com.navercorp.pinpoint.profiler.AgentInfoSender::createTAgentInfo():TAgentInfo	com.navercorp.pinpoint.profiler.AgentInformation
+Move Method	com.navercorp.pinpoint.profiler.interceptor.bci.JavassistClassTest::getInterceptor(TestClassLoader, int):Interceptor	com.navercorp.pinpoint.test.TestClassLoader
+Move Method	com.navercorp.pinpoint.profiler.sender.planer.SpanStreamSendDataPlanerTest::createSpanEventList(int):List<SpanEvent>	com.navercorp.pinpoint.profiler.context.SpanChunkFactory
+Move Method	com.navercorp.pinpoint.profiler.receiver.CommandDispatcher::registerCommandService(ProfilerCommandServiceGroup):void	com.navercorp.pinpoint.profiler.receiver.ProfilerCommandServiceRegistry
+Move Method	com.navercorp.pinpoint.profiler.plugin.AnnotatedInterceptorFactoryTest::setUp():void	com.navercorp.pinpoint.profiler.plugin.DefaultProfilerPluginContext
+Move Method	com.navercorp.pinpoint.profiler.DefaultAgent::bindPLoggerFactory(PLoggerBinder):void	com.navercorp.pinpoint.profiler.DynamicTransformService
+Move Method	com.navercorp.pinpoint.test.TestClassLoader::runTest(String, String):void	com.navercorp.pinpoint.profiler.plugin.DefaultProfilerPluginContext
+Move Method	com.navercorp.pinpoint.test.TestClassLoader::addTranslator():void	com.navercorp.pinpoint.test.InstrumentTranslator
+Move Method	com.navercorp.pinpoint.profiler.instrument.ASMClassTest::setUp():void	com.navercorp.pinpoint.profiler.plugin.DefaultProfilerPluginContext
+Move Method	com.navercorp.pinpoint.profiler.receiver.CommandDispatcher::registerCommandService(ProfilerCommandService):boolean	com.navercorp.pinpoint.profiler.receiver.ProfilerCommandServiceRegistry
+Move Method	com.navercorp.pinpoint.test.junit4.BasePinpointTest::setup(TestContext):void	com.navercorp.pinpoint.test.junit4.TestContext
+Move Method	com.navercorp.pinpoint.profiler.sender.planer.SpanChunkStreamSendDataPlanerTest::getSpanEventList(PartitionedByteBufferLocator, SpanStreamSendDataFactory):List<TSpanEvent>	com.navercorp.pinpoint.profiler.sender.SpanStreamSendDataFactory
+Move Method	com.navercorp.pinpoint.profiler.instrument.ASMMethod::addInterceptor0(Interceptor, int):void	com.navercorp.pinpoint.profiler.instrument.interceptor.InterceptorDefinitionFactory
+Move Method	com.navercorp.pinpoint.test.junit4.PinpointJUnit4ClassRunner::setupBaseTest(Object):void	com.navercorp.pinpoint.test.junit4.TestContext
+Move Method	com.navercorp.pinpoint.profiler.plugin.xml.interceptor.TargetAnnotatedInterceptorInjector::createConstructorEditor(TargetConstructor, AnnotatedInterceptorInjector):MethodTransformer	com.navercorp.pinpoint.profiler.plugin.xml.interceptor.AnnotatedInterceptorInjector
+Move Method	com.navercorp.pinpoint.profiler.instrument.ASMMethod::createInterceptor(String, ScopeInfo, Object[]):Interceptor	com.navercorp.pinpoint.profiler.instrument.ASMClass
+Move Method	com.navercorp.pinpoint.profiler.sender.planer.SpanStreamSendDataPlanerTest::getSpanEventList(PartitionedByteBufferLocator, SpanStreamSendDataFactory):List<TSpanEvent>	com.navercorp.pinpoint.profiler.sender.SpanStreamSendDataFactory
+Move Method	com.navercorp.pinpoint.profiler.sender.planer.SpanChunkStreamSendDataPlanerTest::createSpanEventList(int):List<SpanEvent>	com.navercorp.pinpoint.profiler.context.SpanChunkFactory
+Move Method	com.navercorp.pinpoint.test.OrderedSpanRecorderTest::tearDown():void	com.navercorp.pinpoint.test.OrderedSpanRecorder
+Move Method	com.navercorp.pinpoint.profiler.AgentInfoSenderTest::waitExpectedRequestCount(AtomicInteger, int):void	com.navercorp.pinpoint.profiler.TestAwaitUtils
+Move Method	com.navercorp.pinpoint.profiler.AgentInfoSender::createTJvmInfo():TJvmInfo	com.navercorp.pinpoint.profiler.JvmInformation
+Move Method	com.navercorp.pinpoint.profiler.receiver.service.ActiveThreadCountService::getActiveThreadCountResponse():TCmdActiveThreadCountRes	com.navercorp.pinpoint.profiler.context.active.ActiveTraceHistogramFactory
+Move Method	com.navercorp.pinpoint.profiler.DefaultAgent::addCommandService(CommandDispatcher, TraceContext):void	com.navercorp.pinpoint.profiler.receiver.CommandDispatcher

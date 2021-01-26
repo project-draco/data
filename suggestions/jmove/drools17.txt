@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.kie.dmn.core.compiler.DMNCompilerImpl::linkRequirements(DMNModelImpl, DMNBaseNode):void	org.kie.dmn.core.compiler.DMNEvaluatorCompiler
+Move Method	org.kie.dmn.core.compiler.DMNCompilerImpl::processDrgElements(DMNCompilerContext, DMNFEELHelper, DMNModelImpl, Definitions):void	org.kie.dmn.core.compiler.DMNEvaluatorCompiler
+Move Method	org.kie.dmn.core.impl.DMNRuntimeImpl::checkDependencyValueIsValid(DMNNode, DMNResultImpl):boolean	org.kie.dmn.core.impl.DMNResultImpl
+Move Method	org.kie.dmn.core.ast.DMNInvocationEvaluator::hasErrors(List<FEELEvent>, DMNRuntimeEventManager, DMNResultImpl):boolean	org.kie.dmn.core.impl.DMNResultImpl
+Move Method	org.kie.dmn.core.compiler.DMNEvaluatorCompiler::textToUnaryTestList(DMNCompilerContext, String, DMNModelImpl, DMNElement, Msg.Message, Object[]):List<UnaryTest>	org.kie.dmn.core.compiler.DMNFEELHelper

@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.remote.RemoteLanguageToolTest::runAsserts(RemoteResult):void	org.languagetool.remote.RemoteResult

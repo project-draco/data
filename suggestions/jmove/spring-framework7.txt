@@ -1,0 +1,43 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::resolveQueueName(Session, String):Queue	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.core.JmsTemplate::createProducer(Session, Destination):MessageProducer	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.remoting.JmsInvokerServiceExporter::writeRemoteInvocationResult(Message, Session, RemoteInvocationResult):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.core.JmsMessagingTemplateTests::createTextMessage(MessageCreator):TextMessage	org.springframework.jms.core.MessageCreator
+Move Method	org.springframework.jms.core.JmsTemplate::doCreateProducer(Session, Destination):MessageProducer	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.config.JmsListenerEndpointRegistry::createListenerContainer(JmsListenerEndpoint, JmsListenerContainerFactory<?>):MessageListenerContainer	org.springframework.jms.config.JmsListenerContainerFactory
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::sendResponse(Session, Destination, Message):void	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.support.converter.MessagingMessageConverter::createMessageForPayload(Object, Session, Object):javax.jms.Message	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.core.JmsMessagingTemplateTests::assertPayloadConverter(JmsMessagingTemplate, MessageConverter):void	org.springframework.jms.core.JmsMessagingTemplate
+Move Method	org.springframework.jms.support.destination.JmsDestinationAccessor::receiveFromConsumer(MessageConsumer, long):Message	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.core.JmsTemplate::doReceive(Session, MessageConsumer):Message	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.support.converter.MessagingMessageConverter::extractPayload(javax.jms.Message):Object	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::getResponseDestination(Message, Message, Session):Destination	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::doExecuteListener(Session, Message):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::doExecuteRequest(Session, Queue, Message):Message	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::rollbackOnExceptionIfNecessary(Session, Throwable):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::createConsumer(Session, Destination):MessageConsumer	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::rollbackIfNecessary(Session):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::doInvokeListener(SessionAwareMessageListener, Session, Message):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.annotation.JmsListenerAnnotationBeanPostProcessor::processJmsListener(JmsListener, Method, Object):void	org.springframework.jms.config.JmsListenerEndpointRegistrar
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::resolveDefaultResponseDestination(Session):Destination	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::onInvalidResponse(Message):RemoteInvocationResult	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::getResponseDestination(Message, Message, Session, Object):Destination	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.core.JmsMessagingTemplate::convertJmsException(JmsException):MessagingException	org.springframework.jms.core.JmsTemplate
+Move Method	org.springframework.jms.core.JmsTemplate::executeLocal(SessionCallback<T>, boolean):T	org.springframework.jms.core.SessionCallback
+Move Method	org.springframework.jms.core.JmsTemplate::createBrowser(Session, Queue, String):QueueBrowser	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.config.JmsListenerEndpointRegistrarTests::setup():void	org.springframework.jms.config.JmsListenerEndpointRegistrar
+Move Method	org.springframework.jms.core.JmsTemplate::doReceive(Session, Destination, String):Message	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::invokeListener(Session, Message):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::buildMessage(Session, Object):Message	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.config.JmsListenerEndpointRegistry::registerListenerContainer(JmsListenerEndpoint, JmsListenerContainerFactory<?>, boolean):void	org.springframework.jms.config.JmsListenerContainerFactory
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::createRequestMessage(Session, RemoteInvocation):Message	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.core.JmsTemplate::doSend(Session, Destination, MessageCreator):void	org.springframework.jms.core.MessageCreator
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::resolveQueue(Session):Queue	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.listener.endpoint.DefaultJmsActivationSpecFactoryTests::activeMQResourceAdapterSetup():void	org.springframework.jms.listener.endpoint.JmsActivationSpecConfig
+Move Method	org.springframework.jms.listener.AbstractMessageListenerContainer::commitIfNecessary(Session, Message):void	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener::handleResult(Object, Message, Session):void	org.springframework.jms.support.destination.DestinationResolver
+Move Method	org.springframework.jms.core.JmsTemplate::doSendAndReceive(Session, Destination, MessageCreator):Message	org.springframework.jms.core.MessageCreator
+Move Method	org.springframework.jms.core.JmsTemplate::createConsumer(Session, Destination, String):MessageConsumer	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::extractInvocationResult(Message):RemoteInvocationResult	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.remoting.JmsInvokerClientInterceptor::executeRequest(RemoteInvocation):RemoteInvocationResult	org.springframework.jms.support.converter.MessageConverter
+Move Method	org.springframework.jms.core.JmsTemplate::doSend(MessageProducer, Message):void	org.springframework.jms.support.converter.MessageConverter

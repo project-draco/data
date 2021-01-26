@@ -1,0 +1,5 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.dev.wikipedia.atom.AtomFeedChecker::toWikipediaRuleMatches(String, PlainTextMapping, List<RuleMatch>, AtomFeedItem):List<WikipediaRuleMatch>	org.languagetool.dev.wikipedia.PlainTextMapping
+Move Method	org.languagetool.dev.wikipedia.WikipediaTextFilterTest::assertExtract(String, String):void	org.languagetool.dev.wikipedia.SwebleWikipediaTextFilter
+Move Method	org.languagetool.dev.wikipedia.SuggestionReplacerTest::applySuggestion(JLanguageTool, SwebleWikipediaTextFilter, String, String):void	org.languagetool.dev.wikipedia.SwebleWikipediaTextFilter
+Move Method	org.languagetool.dev.wikipedia.SuggestionReplacer::applySuggestionsToOriginalText(RuleMatch):List<RuleMatchApplication>	org.languagetool.dev.wikipedia.PlainTextMapping

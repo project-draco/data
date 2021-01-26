@@ -1,0 +1,42 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.atmosphere.annotation.cache.ManagedAtmosphereHandlerTest::testBroadcasterCache():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.WriteTimeoutTest::unSetUp():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.config.managed.ManagedServiceInterceptor::proxyHandler():AnnotatedProxy	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.DefaultAsyncSupportResolverTest::unSet():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.interceptor.SimpleRestInterceptor::createResponse(AtmosphereResponse, byte[]):byte[]	org.atmosphere.cpr.AsyncIOInterceptor
+Move Method	org.atmosphere.websocket.DefaultWebSocketProcessor::dispatchReader(WebSocket, Reader):void	org.atmosphere.websocket.WebSocket
+Move Method	org.atmosphere.cpr.AtmosphereFramework::newClassInstance(Class<T>, Class<U>):T	org.atmosphere.util.EndpointMapper
+Move Method	org.atmosphere.cpr.DefaultBroadcaster::initialize(String, AtmosphereConfig):Broadcaster	org.atmosphere.lifecycle.LifecycleHandler
+Move Method	org.atmosphere.handler.ReflectorServletProcessor::loadFilterInstances(ServletConfig):void	org.atmosphere.util.AtmosphereFilterChain
+Move Method	org.atmosphere.cpr.AtmosphereFramework::configureQueryStringAsRequest(AtmosphereRequest):Map<String,String>	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.websocket.DefaultWebSocketProcessor::dispatchStream(WebSocket, InputStream):void	org.atmosphere.websocket.WebSocket
+Move Method	org.atmosphere.container.EmbeddedWebSocketHandler::serve(InputStream):EmbeddedWebSocketHandler	org.atmosphere.cpr.AtmosphereHandler
+Move Method	org.atmosphere.cpr.AtmosphereFramework::closeAtmosphereResource():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.interceptor.SimpleRestInterceptor::createAtmosphereRequest(AtmosphereRequest, String):AtmosphereRequest	org.atmosphere.util.ChunkConcatReaderPool
+Move Method	org.atmosphere.websocket.DefaultWebSocketProcessor::invokeInterceptors(WebSocketHandlerProxy, WebSocket, Object):void	org.atmosphere.websocket.WebSocket
+Move Method	org.atmosphere.util.annotation.ClassFileIterator::isZipFile(File):boolean	org.atmosphere.util.annotation.FileIterator
+Move Method	org.atmosphere.cpr.ConcurrentBroadcasterTest::unSetUp():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.AtmosphereResourceStateRecoveryTest::destroy():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.CookieTest::unSet():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.AtmosphereFramework::broadcasterFilters(BroadcastFilter):AtmosphereFramework	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.interceptor.SimpleRestInterceptor::attachWriter(AtmosphereResource):void	org.atmosphere.cpr.AsyncIOInterceptor
+Move Method	org.atmosphere.cpr.AtmosphereFramework::configureRequestResponse(AtmosphereRequest, AtmosphereResponse):AtmosphereFramework	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.TrackMessageSizeInterceptorTest::testTrackMessageSize(boolean, AtmosphereInterceptor, String):void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.BroadcasterListenerTest::after():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.UrlMappingTest::unSet():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.AtmosphereFramework::info():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.DefaultAtmosphereResourceFactory::setDefaultSerializer(AtmosphereConfig, AtmosphereResource):void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.AsynchronousProcessor::endRequest(AtmosphereResourceImpl, boolean):void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.websocket.DefaultWebSocketProcessor::dispatch(WebSocket, List<AtmosphereRequest>):void	org.atmosphere.websocket.WebSocketProtocol
+Move Method	org.atmosphere.util.AtmosphereConfigReader::parse(AtmosphereConfig, Document):AtmosphereConfig	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.DefaultBroadcaster::createBroadcasterConfig(AtmosphereConfig):BroadcasterConfig	org.atmosphere.cpr.BroadcasterConfig
+Move Method	org.atmosphere.handler.ReflectorServletProcessor::loadFilter(URLClassLoader, String):Filter	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.AtmosphereFramework::analytics():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.WebSocketFactoryTest::testAnnotation():void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.util.annotation.AnnotationDetector::detect(ClassFileIterator):void	org.atmosphere.util.annotation.ClassFileBuffer
+Move Method	org.atmosphere.container.JBossAsyncSupportWithWebSocket::newWebSocketHandler(AtmosphereConfig):HttpEventServlet	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.ConcurrentBroadcasterTest::newAR(AtmosphereHandler):AtmosphereResource	org.atmosphere.cpr.DefaultBroadcaster
+Move Method	org.atmosphere.cpr.WebSocketStreamingHandlerTest::registerWebSocketHandler(String, WebSocketStreamingHandler):void	org.atmosphere.cpr.AtmosphereFramework
+Move Method	org.atmosphere.cpr.AtmosphereFramework::configureAnnotationPackages():void	org.atmosphere.cpr.AtmosphereConfig
+Move Method	org.atmosphere.cpr.AtmosphereResourceImpl::dirtyClose():void	org.atmosphere.cpr.AtmosphereResourceEventImpl
+Move Method	org.atmosphere.cpr.AtmosphereFramework::configureObjectFactory():void	org.atmosphere.cpr.AtmosphereConfig

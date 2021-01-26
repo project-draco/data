@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.api.publication.maven.internal.deployer.AbstractMavenResolver::collectArtifact(Artifact, File):void	org.gradle.api.publication.maven.internal.ArtifactPomContainer
+Move Method	org.gradle.api.publish.maven.internal.publisher.AbstractMavenPublisher::addPomAndArtifacts(MavenPublishAction, MavenNormalizedPublication):void	org.gradle.api.publish.maven.internal.publisher.MavenNormalizedPublication
+Move Method	org.gradle.api.publication.maven.internal.action.MavenDeployAction::createRepository(RemoteRepository):org.sonatype.aether.repository.RemoteRepository	org.apache.maven.artifact.ant.RemoteRepository
+Move Method	org.gradle.api.publication.maven.internal.DefaultArtifactPom::assignArtifactValuesToPom(Artifact, MavenPom, boolean):void	org.gradle.api.artifacts.maven.MavenPom
+Move Method	org.gradle.api.publish.maven.internal.publisher.ValidatingMavenPublisher::checkNotDuplicate(MavenNormalizedPublication, Set<MavenArtifact>, String, String):void	org.gradle.api.publish.maven.internal.publisher.MavenNormalizedPublication

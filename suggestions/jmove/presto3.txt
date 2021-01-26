@@ -1,0 +1,26 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.hive.AbstractTestHiveClient::newSession():ConnectorSession	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.AbstractTestHiveClientS3::newSession():ConnectorSession	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.TestHiveIntegrationSmokeTest::canonicalizeType(Type):Type	com.facebook.presto.hive.TypeTranslator
+Move Method	com.facebook.presto.hive.TestHiveFileFormats::testPageSourceFactory(HivePageSourceFactory, FileSplit, InputFormat<?,?>, SerDe, List<TestColumn>, ConnectorSession, int):void	com.facebook.presto.hive.HivePageSourceFactory
+Move Method	com.facebook.presto.hive.util.HiveFileIterator::getLocatedFileStatusRemoteIterator(Path):RemoteIterator<LocatedFileStatus>	com.facebook.presto.hive.DirectoryLister
+Move Method	com.facebook.presto.hive.AbstractTestHiveClientS3::getTableHandle(ConnectorMetadata, SchemaTableName):ConnectorTableHandle	com.facebook.presto.hive.HiveTransactionManager
+Move Method	com.facebook.presto.hive.AbstractTestHiveClient::listDirectory(String, Path):List<String>	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.authentication.AuthenticationModules.::createHadoopAuthentication(HiveClientConfig):HadoopAuthentication	com.facebook.presto.hive.HiveClientConfig
+Move Method	com.facebook.presto.hive.parquet.reader.ParquetColumnReader::buildLevelRLEReader(int, Slice):ParquetLevelReader	com.facebook.presto.hive.parquet.reader.ParquetPageReader
+Move Method	com.facebook.presto.hive.BackgroundHiveSplitLoader::loadPartition(HivePartitionMetadata):void	com.facebook.presto.hive.DirectoryLister
+Move Method	com.facebook.presto.hive.metastore.SemiTransactionalHiveMetastore.PartitionAndMore::jsonCreator(Partition, Path):PartitionAndMore	com.facebook.presto.hive.metastore.Partition
+Move Method	com.facebook.presto.hive.TestHiveTypeTranslator::assertTypeTranslation(String, HiveType):void	com.facebook.presto.hive.HiveType
+Move Method	com.facebook.presto.hive.HiveMetadata::createEmptyFile(Path, Table, Optional<Partition>, List<String>):void	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.TestHiveIntegrationSmokeTest::canonicalizeTypeName(String):String	com.facebook.presto.hive.TypeTranslator
+Move Method	com.facebook.presto.hive.AbstractTestHiveClient.HiveTransaction::getMetastore():SemiTransactionalHiveMetastore	com.facebook.presto.hive.HiveTransactionManager
+Move Method	com.facebook.presto.hive.HiveMetadata::computeFileNamesForMissingBuckets(HiveStorageFormat, Path, String, int, PartitionUpdate):List<String>	com.facebook.presto.hive.PartitionUpdate
+Move Method	com.facebook.presto.hive.authentication.CachingKerberosHadoopAuthentication::calculateNextRefreshTime(UserGroupInformation):long	com.facebook.presto.hive.authentication.KerberosHadoopAuthentication
+Move Method	com.facebook.presto.hive.AbstractTestHiveClientS3::testRename():void	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.TestHiveFileFormats::testCursorProvider(HiveRecordCursorProvider, FileSplit, InputFormat<?,?>, SerDe, List<TestColumn>, int):void	com.facebook.presto.hive.HiveRecordCursorProvider
+Move Method	com.facebook.presto.hive.HiveMetadata::computePartitionUpdatesForMissingBuckets(HiveWritableTableHandle, Table, List<PartitionUpdate>):ImmutableList<PartitionUpdate>	com.facebook.presto.hive.HiveWritableTableHandle
+Move Method	com.facebook.presto.hive.metastore.ThriftHiveMetastore::getStats():ThriftHiveMetastoreStats	com.facebook.presto.hive.metastore.ThriftHiveMetastoreStats
+Move Method	com.facebook.presto.hive.parquet.ParquetHiveRecordCursor::createParquetRecordReader(HdfsEnvironment, String, Configuration, Path, long, long, List<HiveColumnHandle>, boolean, TypeManager, boolean, TupleDomain<HiveColumnHandle>):ParquetRecordReader<FakeParquetRecord>	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.AbstractTestHiveClient::getTableHandle(ConnectorMetadata, SchemaTableName):ConnectorTableHandle	com.facebook.presto.hive.HiveTransactionManager
+Move Method	com.facebook.presto.hive.AbstractTestHiveClientS3::testGetFileStatus():void	com.facebook.presto.hive.HdfsEnvironment
+Move Method	com.facebook.presto.hive.HiveMetadata::buildPartitionObject(String, Table, PartitionUpdate):Partition	com.facebook.presto.hive.PartitionUpdate

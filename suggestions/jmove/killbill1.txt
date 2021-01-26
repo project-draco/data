@@ -1,0 +1,11 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.killbill.billing.beatrix.integration.TestIntegrationBase::createAccountWithOsgiPaymentMethod(AccountData):Account	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.util.RefundChecker::getInvoicePaymentEntry(UUID, InvoicePaymentType, CallContext):InvoicePayment	org.killbill.billing.beatrix.util.AuditChecker
+Move Method	org.killbill.billing.beatrix.integration.TestWithTaxItems::testBasicTaxItems():void	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestInvoiceNotifications::testInvoiceNotificationBasic():void	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestWithEntilementPlugin::testCreateSubscriptionWithEntitlementPlugin():void	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestWithCatalogPlugin::testCreateSubscriptionWithCatalogPlugin():void	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestIntegrationBase::verifyTestResult(UUID, UUID, DateTime, DateTime, BigDecimal, DateTime, int):void	org.killbill.billing.beatrix.util.InvoiceChecker
+Move Method	org.killbill.billing.beatrix.integration.TestIntegrationBase::beforeClass():void	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestIntegrationBase::createAccountWithNonOsgiPaymentMethod(AccountData):Account	org.killbill.billing.beatrix.util.AccountChecker
+Move Method	org.killbill.billing.beatrix.integration.TestIntegrationBase::createAccountWithPaymentMethod(AccountData, String):Account	org.killbill.billing.beatrix.util.AccountChecker

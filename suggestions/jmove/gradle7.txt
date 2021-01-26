@@ -1,0 +1,6 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.language.nativeplatform.internal.incremental.IncrementalCompileProcessor.IncrementalCompileFiles::processSource(File):void	org.gradle.language.nativeplatform.internal.incremental.BuildableCompilationState
+Move Method	org.gradle.language.assembler.plugins.internal.AssembleTaskConfig::configureAssembleTask(Assemble, NativeBinarySpecInternal, LanguageSourceSetInternal):void	org.gradle.language.assembler.tasks.Assemble
+Move Method	org.gradle.language.nativeplatform.internal.incremental.IncrementalCompilerBuilder::createIncrementalCompiler(TaskInternal, Compiler<T>, NativeToolChain):Compiler<T>	org.gradle.language.nativeplatform.internal.incremental.CompilationStateCacheFactory
+Move Method	org.gradle.language.rc.plugins.internal.WindowsResourcesCompileTaskConfig::configureResourceCompileTask(WindowsResourceCompile, NativeBinarySpecInternal, WindowsResourceSet):void	org.gradle.language.rc.tasks.WindowsResourceCompile
+Move Method	org.gradle.language.nativeplatform.internal.incremental.IncrementalNativeCompiler::mapIncludes(Collection<File>, CompilationState):Map<File,IncludeDirectives>	org.gradle.language.nativeplatform.internal.incremental.CompilationState

@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.gradle.testing.jacoco.plugins.JacocoPlugin::configureJacocoReportDefaults(JacocoPluginExtension, JacocoReport):void	org.gradle.testing.jacoco.tasks.JacocoReport

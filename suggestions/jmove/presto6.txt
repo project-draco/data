@@ -1,0 +1,2 @@
+Refactoring Type	Source Method	Target Class
+Move Method	com.facebook.presto.orc.StripeReader::selectRowGroups(StripeInformation, Map<Integer,List<RowGroupIndex>>):Set<Integer>	com.facebook.presto.orc.metadata.StripeInformation

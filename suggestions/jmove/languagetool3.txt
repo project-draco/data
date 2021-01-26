@@ -1,0 +1,19 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.languagetool.rules.UppercaseSentenceStartRule::dutchSpecialCase(String, String, AnalyzedTokenReadings[]):String	org.languagetool.Language
+Move Method	org.languagetool.rules.AbstractSimpleReplaceRule::createRuleMatch(AnalyzedTokenReadings, List<String>):RuleMatch	org.languagetool.AnalyzedTokenReadings
+Move Method	org.languagetool.rules.patterns.PatternRuleTest::assertSuggestions(String, Language, List<String>, AbstractPatternRule, List<RuleMatch>):void	org.languagetool.rules.patterns.AbstractPatternRule
+Move Method	org.languagetool.rules.Rule::supportsLanguage(Language):boolean	org.languagetool.Language
+Move Method	org.languagetool.rules.AbstractSimpleReplaceRule2::loadWords(InputStream):List<Map<String,String>>	org.languagetool.Language
+Move Method	org.languagetool.rules.bitext.BitextPatternRuleTest::match(BitextPatternRule, String, String, JLanguageTool, JLanguageTool):boolean	org.languagetool.rules.patterns.bitext.BitextPatternRule
+Move Method	org.languagetool.rules.patterns.PatternRuleTest::match(Rule, String, JLanguageTool):boolean	org.languagetool.JLanguageTool
+Move Method	org.languagetool.Language::getLanguageModel(File):LanguageModel	org.languagetool.tagging.disambiguation.Disambiguator
+Move Method	org.languagetool.rules.patterns.MatchTest::getAnalyzedTokenReadings(String):AnalyzedTokenReadings[]	org.languagetool.JLanguageTool
+Move Method	org.languagetool.JLanguageTool::performCheck(List<AnalyzedSentence>, List<String>, List<Rule>, ParagraphHandling, AnnotatedText):List<RuleMatch>	org.languagetool.markup.AnnotatedText
+Move Method	org.languagetool.rules.bitext.BitextPatternRuleTest::getMatches(Rule, String, JLanguageTool):RuleMatch[]	org.languagetool.JLanguageTool
+Move Method	org.languagetool.rules.spelling.morfologik.MorfologikSpellerRule::canBeIgnored(AnalyzedTokenReadings[], int, AnalyzedTokenReadings):boolean	org.languagetool.AnalyzedTokenReadings
+Move Method	org.languagetool.rules.spelling.hunspell.HunspellRule::getSentenceTextWithoutUrlsAndImmunizedTokens(AnalyzedSentence):String	org.languagetool.AnalyzedSentence
+Move Method	org.languagetool.JLanguageTool.TextCheckCallable::getLineColumnRange(RuleMatch):LineColumnRange	org.languagetool.rules.RuleMatch
+Move Method	org.languagetool.rules.patterns.FalseFriendRuleLoader::getRules(File, Language, Language):List<AbstractPatternRule>	org.languagetool.Language
+Move Method	org.languagetool.rules.patterns.RuleFilterEvaluator::runFilter(String, RuleMatch, AnalyzedTokenReadings[], List<Integer>):RuleMatch	org.languagetool.rules.patterns.RuleFilter
+Move Method	org.languagetool.rules.patterns.PatternRuleTest::assertIdUniqueness(Set<String>, Set<Class>, Language, Rule):void	org.languagetool.Language
+Move Method	org.languagetool.MultiThreadedJLanguageToolTest::getRuleMatchIds(JLanguageTool):List<String>	org.languagetool.JLanguageTool

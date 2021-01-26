@@ -1,0 +1,20 @@
+Refactoring Type	Source Method	Target Class
+Move Method	org.springframework.expression.spel.ast.ConstructorReference::findExecutorForConstructor(String, List<TypeDescriptor>, ExpressionState):ConstructorExecutor	org.springframework.expression.spel.ExpressionState
+Move Method	org.springframework.expression.spel.ParsingTests::parseCheck(String, String):void	org.springframework.expression.spel.standard.SpelExpressionParser
+Move Method	org.springframework.expression.spel.ast.Indexer::convertValue(TypeConverter, Object, Class<T>):T	org.springframework.expression.TypeConverter
+Move Method	org.springframework.expression.spel.ast.OpOr::getBooleanValue(ExpressionState, SpelNodeImpl):boolean	org.springframework.expression.spel.ast.SpelNodeImpl
+Move Method	org.springframework.expression.spel.ast.Indexer.CollectionIndexingValueRef::growCollectionIfNecessary():void	org.springframework.expression.TypeConverter
+Move Method	org.springframework.expression.spel.ast.OpAnd::getBooleanValue(ExpressionState, SpelNodeImpl):boolean	org.springframework.expression.spel.ast.SpelNodeImpl
+Move Method	org.springframework.expression.spel.support.StandardEvaluationContext::registerMethodFilter(Class<?>, MethodFilter):void	org.springframework.expression.TypeLocator
+Move Method	org.springframework.expression.spel.OperatorOverloaderTests::testSimpleOperations():void	org.springframework.expression.ExpressionParser
+Move Method	org.springframework.expression.spel.SpelCompilationCoverageTests::verifyCompilationAndBehaviourWithNull(String, SpelExpressionParser, StandardEvaluationContext):void	org.springframework.expression.spel.standard.SpelExpressionParser
+Move Method	org.springframework.expression.spel.standard.SpelCompiler::compile(SpelNodeImpl):CompiledExpression	org.springframework.expression.spel.ast.SpelNodeImpl
+Move Method	org.springframework.expression.spel.CachedMethodExecutorTests::assertMethodExecution(Expression, Object, String):void	org.springframework.expression.ExpressionParser
+Move Method	org.springframework.expression.spel.OperatorTests::getOperatorNode(SpelExpression):Operator	org.springframework.expression.spel.standard.SpelExpression
+Move Method	org.springframework.expression.spel.SpelCompilationCoverageTests::verifyCompilationAndBehaviourWithNull2(String, SpelExpressionParser, StandardEvaluationContext):void	org.springframework.expression.spel.standard.SpelExpressionParser
+Move Method	org.springframework.expression.spel.SpelCompilationCoverageTests::getAst():SpelNodeImpl	org.springframework.expression.spel.ast.SpelNodeImpl
+Move Method	org.springframework.expression.spel.ast.InlineMap::getConstantValue():Map<Object,Object>	org.springframework.expression.TypedValue
+Move Method	org.springframework.expression.spel.ast.InlineList::getConstantValue():List<Object>	org.springframework.expression.TypedValue
+Move Method	org.springframework.expression.spel.support.ReflectionHelperTests::testUtilities():void	org.springframework.expression.ExpressionParser
+Move Method	org.springframework.expression.spel.standard.SpelCompiler::createExpressionClassextends CompiledExpression> (SpelNodeImpl):Class<?	org.springframework.expression.spel.ast.SpelNodeImpl
+Move Method	org.springframework.expression.spel.ast.SpelNodeImpl::generateCode(MethodVisitor, CodeFlow):void	org.springframework.expression.spel.CodeFlow

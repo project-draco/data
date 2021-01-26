@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.gradle.tooling.internal.consumer.DefaultGradleConnector::daemonMaxIdleTime(int, java.util.concurrent.TimeUnit):org.gradle.tooling.GradleConnector	org.gradle.tooling.internal.consumer.DefaultConnectionParameters.Builder	1/2	

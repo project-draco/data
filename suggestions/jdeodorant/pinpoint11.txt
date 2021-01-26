@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.jdbc.oracle.OraclePlugin::addConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.oracle.OracleConfig):void	com.navercorp.pinpoint.plugin.jdbc.oracle.OracleConfig	1/3	
+Move Method	com.navercorp.pinpoint.plugin.jdbc.oracle.parser.OracleNetConnectionDescriptorParser::parseKeyValue():com.navercorp.pinpoint.plugin.jdbc.oracle.parser.KeyValue	com.navercorp.pinpoint.plugin.jdbc.oracle.parser.OracleNetConnectionDescriptorTokenizer	2/6	

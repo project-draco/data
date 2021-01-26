@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.gradle.launcher.cli.BuildActionsFactory::createBuildActionParamters(org.gradle.StartParameter, org.gradle.launcher.daemon.configuration.DaemonParameters):org.gradle.launcher.exec.BuildActionParameters	org.gradle.launcher.daemon.configuration.DaemonParameters	0/3	
+Move Method	org.gradle.launcher.daemon.configuration.DaemonParameters::getEffectiveSystemProperties():java.util.Map<java.lang.String,java.lang.String>	org.gradle.launcher.daemon.configuration.DaemonJvmOptions	1/2	
+Move Method	org.gradle.launcher.daemon.configuration.BuildProcess::configureForBuild(org.gradle.launcher.daemon.configuration.DaemonParameters):boolean	org.gradle.launcher.daemon.configuration.DaemonParameters	2/3	

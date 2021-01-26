@@ -1,0 +1,5 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.druid.indexer.IndexGeneratorJob.IndexGeneratorReducer::mergeQueryableIndex(java.util.List<io.druid.segment.QueryableIndex>, io.druid.query.aggregation.AggregatorFactory[], java.io.File, io.druid.segment.ProgressIndicator):java.io.File	io.druid.indexer.HadoopDruidIndexerConfig	1/3	
+Move Method	io.druid.indexer.HadoopDruidIndexerConfig::getShardSpec(io.druid.indexer.Bucket):io.druid.indexer.HadoopyShardSpec	io.druid.indexer.Bucket	1/2	
+Move Method	io.druid.indexer.IndexGeneratorJob.IndexGeneratorReducer::persist(io.druid.segment.incremental.IncrementalIndex, org.joda.time.Interval, java.io.File, io.druid.segment.ProgressIndicator):java.io.File	io.druid.indexer.HadoopDruidIndexerConfig	1/2	
+Move Method	io.druid.indexer.HadoopDruidIndexerConfig::makeIntermediatePath():org.apache.hadoop.fs.Path	io.druid.indexer.HadoopIngestionSpec	2/3	

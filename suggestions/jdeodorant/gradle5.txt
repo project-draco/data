@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.gradle.plugins.ear.EarPlugin::wireEarTaskConventions(org.gradle.api.Project, org.gradle.plugins.ear.EarPluginConvention):void	org.gradle.plugins.ear.EarPluginConvention	0/2	
+Move Method	org.gradle.plugins.ear.EarPlugin::configureWithNoJavaPluginApplied(org.gradle.api.Project, org.gradle.plugins.ear.EarPluginConvention):void	org.gradle.plugins.ear.EarPluginConvention	0/1	
+Move Method	org.gradle.plugins.ear.EarPlugin::configureWithJavaPluginApplied(org.gradle.api.Project, org.gradle.plugins.ear.EarPluginConvention, org.gradle.api.plugins.PluginContainer):void	org.gradle.plugins.ear.EarPluginConvention	0/1	

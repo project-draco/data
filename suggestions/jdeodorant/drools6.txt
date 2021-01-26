@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.kie.api.builder.helper.KieModuleDeploymentHelperImpl::createKieFileSystemWithKProject(java.lang.String, java.lang.String):org.kie.api.builder.KieFileSystem	org.kie.api.builder.helper.KieModuleDeploymentConfig	1/2	

@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.collector.cluster.route.StreamRouteHandler::createStreamChannel(com.navercorp.pinpoint.collector.cluster.PinpointServerClusterPoint, byte[], com.navercorp.pinpoint.rpc.stream.ClientStreamChannelMessageListener):com.navercorp.pinpoint.rpc.stream.ClientStreamChannelContext	com.navercorp.pinpoint.collector.cluster.PinpointServerClusterPoint	0/1	
+Move Method	com.navercorp.pinpoint.collector.receiver.udp.UDPReceiver::createWorker(com.navercorp.pinpoint.collector.receiver.WorkerOption, java.lang.String):java.util.concurrent.ExecutorService	com.navercorp.pinpoint.collector.receiver.WorkerOption	1/4	
+Move Method	com.navercorp.pinpoint.collector.receiver.udp.UDPReceiver::adaptQueueSize(com.navercorp.pinpoint.collector.receiver.WorkerOption):int	com.navercorp.pinpoint.collector.receiver.WorkerOption	1/2	

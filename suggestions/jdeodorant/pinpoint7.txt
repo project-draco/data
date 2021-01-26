@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.httpclient3.interceptor.HttpMethodBaseExecuteMethodInterceptor::recordIo(com.navercorp.pinpoint.bootstrap.context.SpanEventRecorder, com.navercorp.pinpoint.plugin.httpclient3.HttpClient3CallContext):void	com.navercorp.pinpoint.plugin.httpclient3.HttpClient3CallContext	1/4	

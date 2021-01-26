@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.druid.storage.azure.AzureStorageDruidModule::getCloudBlobClient(io.druid.storage.azure.AzureAccountConfig):com.microsoft.azure.storage.blob.CloudBlobClient	io.druid.storage.azure.AzureAccountConfig	1/3	

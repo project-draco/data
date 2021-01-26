@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.facebook.presto.client.StatementClient::buildQueryRequest(com.facebook.presto.client.ClientSession, java.lang.String):io.airlift.http.client.Request	com.facebook.presto.client.ClientSession	2/9	

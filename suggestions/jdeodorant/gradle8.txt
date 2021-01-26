@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.gradle.testing.jacoco.plugins.JacocoPlugin::configureJacocoReportDefaults(org.gradle.testing.jacoco.plugins.JacocoPluginExtension, org.gradle.testing.jacoco.tasks.JacocoReport):void	org.gradle.testing.jacoco.plugins.JacocoPluginExtension	0/1	

@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.facebook.presto.tests.QueryTemplate::resolve(java.lang.String, com.facebook.presto.tests.QueryTemplate.Parameter):java.lang.String	com.facebook.presto.tests.QueryTemplate.Parameter	0/1	

@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.springframework.web.socket.sockjs.client.AbstractClientSockJsSession::isUserSetStatus(org.springframework.web.socket.CloseStatus):boolean	org.springframework.web.socket.CloseStatus	0/1	
+Move Method	org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSessionTests::assertState(boolean, boolean, boolean):void	org.springframework.web.socket.sockjs.transport.session.AbstractSockJsSession	1/3	
+Move Method	org.springframework.web.socket.client.WebSocketConnectionManager::setHeaders(org.springframework.http.HttpHeaders):void	org.springframework.web.socket.WebSocketHttpHeaders	1/2	

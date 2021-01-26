@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.bootstrap.PinpointStarter::resolveLib(com.navercorp.pinpoint.bootstrap.ClassPathResolver):java.util.List<java.net.URL>	com.navercorp.pinpoint.bootstrap.BootLogger	1/2	

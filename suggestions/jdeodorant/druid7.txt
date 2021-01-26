@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.druid.server.lookup.namespace.cache.NamespaceExtractionCacheManager::cancelFuture(io.druid.server.lookup.namespace.cache.NamespaceExtractionCacheManager.NamespaceImplData):void	io.druid.server.lookup.namespace.cache.NamespaceExtractionCacheManager.NamespaceImplData	1/3	
+Move Method	io.druid.server.lookup.namespace.JDBCExtractionNamespaceCacheFactory::lastUpdates(java.lang.String, io.druid.query.lookup.namespace.JDBCExtractionNamespace):java.lang.Long	io.druid.query.lookup.namespace.JDBCExtractionNamespace	1/2	

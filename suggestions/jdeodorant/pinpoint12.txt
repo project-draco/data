@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.jdbc.postgresql.PostgreSqlPlugin::addConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.postgresql.PostgreSqlConfig):void	com.navercorp.pinpoint.plugin.jdbc.postgresql.PostgreSqlConfig	1/3	

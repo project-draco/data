@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.druid.indexing.overlord.RemoteTaskRunner::makeWorkerURL(io.druid.indexing.worker.Worker, java.lang.String):java.net.URL	io.druid.indexing.worker.Worker	0/1	

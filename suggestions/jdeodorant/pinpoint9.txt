@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.jdbc.mariadb.MariaDBPlugin::addConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.mariadb.MariaDBConfig):void	com.navercorp.pinpoint.plugin.jdbc.mariadb.MariaDBConfig	1/3	

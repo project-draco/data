@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.druid.emitter.graphite.GraphiteEmitterModule::getEmitter(io.druid.emitter.graphite.GraphiteEmitterConfig, com.fasterxml.jackson.databind.ObjectMapper, com.google.inject.Injector):com.metamx.emitter.core.Emitter	io.druid.emitter.graphite.GraphiteEmitterConfig	0/1	

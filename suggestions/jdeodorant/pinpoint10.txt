@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.jdbc.mysql.MySqlPlugin::addConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.mysql.MySqlConfig):void	com.navercorp.pinpoint.plugin.jdbc.mysql.MySqlConfig	1/3	

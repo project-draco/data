@@ -1,0 +1,28 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	hex.coxph.CoxPH.CoxPHDriver::calcCounts(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask):void	hex.coxph.CoxPH.CoxPHTask	0/9	
+Move Method	hex.api.MakeGLMModelHandler::getDataInfoFrame(int, hex.schemas.DataInfoFrameV3):hex.schemas.DataInfoFrameV3	hex.schemas.DataInfoFrameV3	0/6	
+Move Method	hex.api.MakeGLMModelHandler::make_model(int, hex.schemas.MakeGLMModelV3):hex.schemas.GLMModelV3	hex.schemas.MakeGLMModelV3	0/4	
+Move Method	hex.glrm.GLRM.GLRMDriver::createModelSummaryTable(hex.glrm.GLRMModel.GLRMOutput):water.util.TwoDimTable	hex.glrm.GLRMModel.GLRMOutput	0/3	
+Move Method	hex.glrm.GLRM.GLRMDriver::regularizedCholesky(hex.gram.Gram, int):hex.gram.Gram.Cholesky	hex.gram.Gram	0/2	
+Move Method	hex.tree.DTree.DecidedNode::bestCol(hex.tree.DTree.UndecidedNode, hex.tree.DHistogram[], long):hex.tree.DTree.Split	hex.tree.DTree.UndecidedNode	0/2	
+Move Method	hex.tree.SharedTree::createModelSummaryTable(hex.tree.SharedTreeModel.SharedTreeOutput):water.util.TwoDimTable	hex.tree.SharedTreeModel.SharedTreeOutput	0/2	
+Move Method	hex.api.MakeGLMModelHandler::extractRegularizationPath(int, hex.schemas.GLMRegularizationPathV3):hex.schemas.GLMRegularizationPathV3	hex.schemas.GLMRegularizationPathV3	0/1	
+Move Method	hex.naivebayes.NaiveBayes::createModelSummaryTable(hex.naivebayes.NaiveBayesModel.NaiveBayesOutput):water.util.TwoDimTable	hex.naivebayes.NaiveBayesModel.NaiveBayesOutput	0/1	
+Move Method	hex.glrm.GLRM.GLRMDriver::createScoringHistoryTable(hex.glrm.GLRMModel.GLRMOutput):water.util.TwoDimTable	hex.glrm.GLRMModel.GLRMOutput	1/3	
+Move Method	hex.kmeans.KMeans.KMeansDriver::createScoringHistoryTable(hex.kmeans.KMeansModel.KMeansOutput):water.util.TwoDimTable	hex.kmeans.KMeansModel.KMeansOutput	1/3	
+Move Method	hex.deeplearning.Neurons::rate(double):float	hex.deeplearning.DeepLearningModel.DeepLearningParameters	1/2	
+Move Method	hex.tree.DTree.DecidedNode::pred(int):double	hex.tree.DTree.Split	1/2	
+Move Method	hex.coxph.CoxPH.CoxPHDriver::calcLoglik(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask):double	hex.coxph.CoxPH.CoxPHTask	2/10	
+Move Method	hex.coxph.CoxPH.CoxPHDriver::calcCumhaz_0(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask):void	hex.coxph.CoxPH.CoxPHTask	2/7	
+Move Method	hex.deeplearning.Neurons.Input::setInput(long, double[], int):void	hex.DataInfo	2/7	
+Move Method	hex.pca.PCA.PCADriver::computeStatsFillModel(hex.pca.PCAModel, hex.DataInfo, Jama.SingularValueDecomposition, hex.gram.Gram, long):void	hex.DataInfo	2/7	
+Move Method	hex.glm.GLMTask.GLMGradientTask::computeNumericEtas(water.fvec.Chunk[], double[], double[], int[]):void	hex.DataInfo	2/6	
+Move Method	hex.glm.GLMTask.GLMMultinomialGradientTask::computeNumericEtas(water.fvec.Chunk[], double[][], double[], int[]):void	hex.DataInfo	2/6	
+Move Method	hex.glm.GLMTask.GLMMultinomialGradientTask::computeNumericGrads(water.fvec.Chunk[], double[][], double[], int[]):void	hex.DataInfo	2/6	
+Move Method	hex.kmeans.KMeans.KMeansDriver::createModelSummaryTable(hex.kmeans.KMeansModel.KMeansOutput):water.util.TwoDimTable	hex.kmeans.KMeansModel.KMeansOutput	2/6	
+Move Method	hex.deeplearning.Neurons::momentum(double):float	hex.deeplearning.DeepLearningModel.DeepLearningParameters	2/3	
+Move Method	hex.glm.GLM::COD_solve(hex.glm.GLMTask.GLMIterationTask, double, double):double[]	hex.glm.GLMTask.GLMIterationTask	2/3	
+Move Method	hex.glm.GLM::COD_solve(hex.glm.GLMTask.GLMIterationTask, double, double):double[]	hex.glm.ComputationState	2/3	
+Move Method	hex.glm.GLMTask.GLMGradientTask::computeCategoricalEtas(water.fvec.Chunk[], double[], double[], int[]):void	hex.DataInfo	2/3	
+Move Method	hex.glm.GLMTask.GLMMultinomialGradientTask::computeCategoricalEtas(water.fvec.Chunk[], double[][], double[], int[]):void	hex.DataInfo	2/3	
+Move Method	hex.glm.GLMTask.GLMMultinomialGradientTask::computeCategoricalGrads(water.fvec.Chunk[], double[][], double[], int[]):void	hex.DataInfo	2/3	

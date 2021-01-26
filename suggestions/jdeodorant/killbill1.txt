@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.killbill.billing.account.api.user.DefaultAccountChangeEvent::calculateChangedFields(org.killbill.billing.account.dao.AccountModelDao, org.killbill.billing.account.dao.AccountModelDao, org.joda.time.DateTime):java.util.List<org.killbill.billing.events.ChangedField>	org.killbill.billing.account.dao.AccountModelDao	1/15	

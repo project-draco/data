@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	water.TestCase::makeBetaConstraints(double, double):water.Key<water.fvec.Frame>	water.DataSet	1/2	

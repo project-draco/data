@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apereo.cas.oidc.web.controllers.OidcDynamicClientRegistrationEndpointController::getClientRegistrationResponse(org.apereo.cas.oidc.dynareg.OidcClientRegistrationRequest, org.apereo.cas.services.OidcRegisteredService):org.apereo.cas.oidc.dynareg.OidcClientRegistrationResponse	org.apereo.cas.oidc.dynareg.OidcClientRegistrationRequest	0/1	

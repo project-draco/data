@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.drools.template.parser.DefaultTemplateRuleBase::createConsequence(org.drools.template.parser.RuleTemplate):org.drools.template.model.Consequence	org.drools.template.parser.RuleTemplate	0/1	

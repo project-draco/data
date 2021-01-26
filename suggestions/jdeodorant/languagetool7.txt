@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.languagetool.dev.wikipedia.atom.MatchDatabase::add(org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch):void	org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch	1/7	
+Move Method	org.languagetool.dev.wikipedia.atom.MatchDatabase::markedFixed(org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch):int	org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch	1/6	
+Move Method	org.languagetool.dev.index.Indexer::indexSentence(org.languagetool.dev.dumpcheck.Sentence, int):void	org.languagetool.dev.dumpcheck.Sentence	1/3	

@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.languagetool.gui.ConfigurationDialog::getEnabledState(org.languagetool.rules.Rule):boolean	org.languagetool.gui.Configuration	1/3	
+Move Method	org.languagetool.gui.ConfigurationDialog::getTreeModel(javax.swing.tree.DefaultMutableTreeNode):javax.swing.tree.DefaultTreeModel	org.languagetool.gui.Configuration	1/3	

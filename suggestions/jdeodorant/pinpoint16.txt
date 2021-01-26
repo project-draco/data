@@ -1,0 +1,7 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.thrift.io.ChunkHeaderBufferedTBaseSerializer::toSpanChunk(com.navercorp.pinpoint.thrift.dto.TSpan):com.navercorp.pinpoint.thrift.dto.TSpanChunk	com.navercorp.pinpoint.thrift.dto.TSpan	0/8	
+Move Method	com.navercorp.pinpoint.thrift.io.ChunkHeaderBufferedTBaseSerializer::writeHeader(org.apache.thrift.protocol.TProtocol, com.navercorp.pinpoint.thrift.io.Header):void	com.navercorp.pinpoint.thrift.io.Header	0/3	
+Move Method	com.navercorp.pinpoint.thrift.io.ChunkHeaderTBaseDeserializer::validate(com.navercorp.pinpoint.thrift.io.Header):int	com.navercorp.pinpoint.thrift.io.Header	0/1	
+Move Method	com.navercorp.pinpoint.thrift.io.HeaderTBaseDeserializer::validate(com.navercorp.pinpoint.thrift.io.Header):int	com.navercorp.pinpoint.thrift.io.Header	0/1	
+Move Method	com.navercorp.pinpoint.thrift.io.HeaderTBaseSerializer::writeHeader(com.navercorp.pinpoint.thrift.io.Header):void	com.navercorp.pinpoint.thrift.io.Header	1/3	
+Move Method	com.navercorp.pinpoint.thrift.io.HeaderTBaseSerializer2::writeHeader(com.navercorp.pinpoint.thrift.io.Header):void	com.navercorp.pinpoint.thrift.io.Header	1/3	

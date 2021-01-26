@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.languagetool.chunking.EnglishChunkFilter::hasNounWithPluralReading(org.languagetool.chunking.ChunkTaggedToken):boolean	org.languagetool.chunking.ChunkTaggedToken	0/1	

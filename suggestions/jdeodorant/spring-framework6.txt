@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.springframework.jms.core.JmsMessagingTemplate::convertJmsException(org.springframework.jms.JmsException):org.springframework.messaging.MessagingException	org.springframework.jms.JmsException	0/1	
+Move Method	org.springframework.jms.config.MethodJmsListenerEndpointTests.JmsEndpointSampleBean::resolveJmsMessageHeaderAccessor(org.springframework.jms.support.JmsMessageHeaderAccessor):void	org.springframework.jms.support.JmsMessageHeaderAccessor	1/2	
+Move Method	org.springframework.jms.listener.endpoint.StandardJmsActivationSpecFactory::populateActivationSpecProperties(org.springframework.beans.BeanWrapper, org.springframework.jms.listener.endpoint.JmsActivationSpecConfig):void	org.springframework.jms.listener.endpoint.JmsActivationSpecConfig	2/8	

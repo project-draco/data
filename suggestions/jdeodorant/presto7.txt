@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.facebook.presto.redis.RedisRecordCursor::setScanParms():redis.clients.jedis.ScanParams	com.facebook.presto.redis.RedisSplit	2/3	

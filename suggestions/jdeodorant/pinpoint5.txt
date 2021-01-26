@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.navercorp.pinpoint.plugin.jdbc.cubrid.CubridPlugin::addCUBRIDConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.cubrid.CubridConfig):void	com.navercorp.pinpoint.plugin.jdbc.cubrid.CubridConfig	1/3	

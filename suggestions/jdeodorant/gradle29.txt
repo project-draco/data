@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.gradle.process.internal.daemon.WorkerDaemonExpiration.SimpleMemoryExpirationSelector::getMemoryUsage(org.gradle.process.internal.daemon.WorkerDaemonClient):long	org.gradle.process.internal.daemon.WorkerDaemonClient	1/2	

@@ -1,0 +1,3 @@
+data/clusters/co-change/paretto/jitsi.mdg
+src_net_java_sip_communicator_impl_protocol_jabber_extensions_jingle_JingleIQProvider.java/[CN]/JingleIQProvider/[MT]/parseIQ(XmlPullParser)/body -> DefaultPacketExtensionProvider (depcount: 10, candidates: [{CallPeerSipImpl 0} {DefaultPacketExtensionProvider 0} {JingleIQProvider 0} {ReasonProvider 0} {DefaultPacketExtensionProvider 10}])
+src_net_java_sip_communicator_impl_gui_main_contactlist_TreeContactList.java/[CN]/TreeContactList/[MT]/createAddContactMenu(SourceContact)/body -> ContactListTreeCellRenderer (depcount: 4, candidates: [{ContactListTreeCellRenderer 0} {TreeContactList 0} {ContactListTreeCellRenderer 4}])

@@ -1,0 +1,2 @@
+data/clusters/co-change/paretto/hibernate-orm.mdg
+hibernate-java8_src_main_java_org_hibernate_type_OffsetTimeType.java/[CN]/OffsetTimeType/[CS]/OffsetTimeType()/body -> OffsetTimeJavaDescriptor (depcount: 10, candidates: [{OffsetTimeType 0} {OffsetTimeJavaDescriptor 0} {OffsetTimeJavaDescriptor 10}])

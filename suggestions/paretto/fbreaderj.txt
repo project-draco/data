@@ -1,0 +1,3 @@
+data/clusters/co-change/paretto/fbreaderj.mdg
+src_org_geometerplus_android_fbreader_libraryService_SQLiteBooksDatabase.java/[CN]/SQLiteBooksDatabase/[MT]/saveStyle(HighlightingStyle)/body -> XMLSerializer (depcount: 6, candidates: [{SQLiteBooksDatabase 0} {XMLSerializer 0} {XMLSerializer 6}])
+src_org_geometerplus_android_fbreader_network_AuthenticationActivity.java/[CN]/AuthenticationActivity/[MT]/finishOk(String,String)/body -> ZLNetworkManager (depcount: 6, candidates: [{FBReader 0} {AuthenticationActivity 0} {SeriesTree 0} {ZLNetworkManager 0} {ZLNetworkManager 6}])

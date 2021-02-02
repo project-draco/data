@@ -1,0 +1,13 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	processing.app.Base::saveModeSettings(java.io.File, processing.app.Mode):void	processing.app.Mode	0/2	
+Move Method	processing.app.contrib.ContributionListing::matches(processing.app.contrib.Contribution, java.lang.String):boolean	processing.app.contrib.Contribution	1/5	
+Move Method	processing.app.syntax.JEditTextArea::setText(java.lang.String):void	processing.app.syntax.SyntaxDocument	1/4	
+Move Method	processing.app.contrib.ContributionListing::getAvailableContribution(processing.app.contrib.Contribution):processing.app.contrib.AvailableContribution	processing.app.contrib.Contribution	1/2	
+Move Method	processing.app.contrib.ContributionListing::hasProperty(processing.app.contrib.Contribution, java.lang.String):boolean	processing.app.contrib.Contribution	1/2	
+Move Method	processing.app.contrib.ContributionTab::setFilterText(java.lang.String):void	processing.app.contrib.ContributionTab.FilterField	1/2	
+Move Method	processing.app.contrib.ContributionTab::updateAll():void	processing.app.contrib.ListPanel	1/2	
+Move Method	processing.app.ui.Editor::rebuildToolbar():void	processing.app.ui.EditorToolbar	1/2	
+Move Method	processing.app.ui.Editor::setSelection(int, int):void	processing.app.syntax.JEditTextArea	1/2	
+Move Method	processing.app.syntax.im.CompositionTextManager::getCaretLocation():java.awt.Point	processing.app.syntax.JEditTextArea	2/5	
+Move Method	processing.app.syntax.im.CompositionTextPainter::getCaretLocation():java.awt.Point	processing.app.syntax.JEditTextArea	2/4	
+Move Method	processing.app.ui.EditorConsole::flush():void	processing.app.ui.BufferedStyledDocument	2/3	

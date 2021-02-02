@@ -1,0 +1,43 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.hive.beeline.ClientCommandHookFactory::getHook(org.apache.hive.beeline.BeeLine, java.lang.String):org.apache.hive.beeline.ClientHook	org.apache.hive.beeline.BeeLine	0/2	
+Move Method	org.apache.hive.beeline.Commands::addConf(org.apache.hive.beeline.Rows.Row, org.apache.hadoop.hive.conf.HiveConf):void	org.apache.hive.beeline.Rows.Row	0/2	
+Move Method	org.apache.hive.beeline.Commands::scan(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/9	
+Move Method	org.apache.hive.beeline.Commands::metadata(java.lang.String, java.lang.String[]):boolean	org.apache.hive.beeline.BeeLine	1/8	
+Move Method	org.apache.hive.beeline.Commands::help(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/8	
+Move Method	org.apache.hive.beeline.Commands::commit(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/7	
+Move Method	org.apache.hive.beeline.Commands::rollback(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/7	
+Move Method	org.apache.hive.beeline.Commands::dropall(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.Commands::dbinfo(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.Commands::batch(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.Commands::list(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.Commands::startScript(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.Commands::startRecording(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/6	
+Move Method	org.apache.hive.beeline.TableOutputFormat::getOutputString(org.apache.hive.beeline.Rows, org.apache.hive.beeline.Rows.Row, java.lang.String):org.apache.hive.beeline.ColorBuffer	org.apache.hive.beeline.Rows.Row	1/6	
+Move Method	org.apache.hive.beeline.Commands::isolation(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/5	
+Move Method	org.apache.hive.beeline.Commands::close(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/5	
+Move Method	org.apache.hive.beeline.Commands::manual(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/5	
+Move Method	org.apache.hive.beeline.Commands::autocommit(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/4	
+Move Method	org.apache.hive.beeline.Commands::stopScript(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/4	
+Move Method	org.apache.hive.beeline.Commands::run(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/4	
+Move Method	org.apache.hive.beeline.Commands::stopRecording(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/4	
+Move Method	org.apache.hive.beeline.Commands::describe(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/4	
+Move Method	org.apache.hive.beeline.Commands::history(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.Commands::save(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.Commands::load(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.Commands::config(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.DatabaseConnection::getConnectionFromLocalDriver(java.lang.String, java.util.Properties):java.sql.Connection	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.VerticalOutputFormat::printRow(org.apache.hive.beeline.Rows, org.apache.hive.beeline.Rows.Row, org.apache.hive.beeline.Rows.Row):void	org.apache.hive.beeline.BeeLine	1/3	
+Move Method	org.apache.hive.beeline.BeeLine::output(org.apache.hive.beeline.ColorBuffer, boolean, java.io.PrintStream):void	org.apache.hive.beeline.ColorBuffer	1/2	
+Move Method	org.apache.hive.beeline.Commands::arg1(java.lang.String, java.lang.String, java.lang.String):java.lang.String	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.Commands::nativesql(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.Commands::getConfInternal(boolean):org.apache.hive.beeline.BufferedRows	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.Commands::showRemainingLogsIfAny(java.sql.Statement):void	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.Commands::rehash(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.TableOutputFormat::printRow(org.apache.hive.beeline.ColorBuffer, boolean):void	org.apache.hive.beeline.BeeLine	1/2	
+Move Method	org.apache.hive.beeline.Commands::connect(java.util.Properties):boolean	org.apache.hive.beeline.BeeLine	2/12	
+Move Method	org.apache.hive.beeline.Commands::reconnect(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	2/6	
+Move Method	org.apache.hive.beeline.Commands::addlocaldrivername(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	2/5	
+Move Method	org.apache.hive.beeline.Commands::addlocaldriverjar(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	2/4	
+Move Method	org.apache.hive.beeline.Commands::handleMultiLineCmd(java.lang.String):java.lang.String	org.apache.hive.beeline.BeeLine	2/4	
+Move Method	org.apache.hive.beeline.Commands::all(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	2/4	
+Move Method	org.apache.hive.beeline.Commands::go(java.lang.String):boolean	org.apache.hive.beeline.BeeLine	2/4	

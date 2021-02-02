@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.hive.hcatalog.mapreduce.Security::getTokenSignature(org.apache.hive.hcatalog.mapreduce.OutputJobInfo):java.lang.String	org.apache.hive.hcatalog.mapreduce.OutputJobInfo	0/3	
+Move Method	org.apache.hive.hcatalog.mapreduce.HCatRecordReader::createBaseRecordReader(org.apache.hive.hcatalog.mapreduce.HCatSplit, org.apache.hadoop.hive.ql.metadata.HiveStorageHandler, org.apache.hadoop.mapreduce.TaskAttemptContext):org.apache.hadoop.mapred.RecordReader	org.apache.hive.hcatalog.mapreduce.HCatSplit	0/2	
+Move Method	org.apache.hive.hcatalog.mapreduce.FileOutputCommitterContainer::getStorerParameterMap(org.apache.hive.hcatalog.mapreduce.StorerInfo):java.util.Map<java.lang.String,java.lang.String>	org.apache.hive.hcatalog.mapreduce.StorerInfo	0/1	

@@ -1,0 +1,12 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFExampleAvgEvaluator::iterate(java.lang.Double):boolean	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFAvgState	1/2	
+Move Method	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFExampleAvgEvaluator::merge(org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFAvgState):boolean	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFAvgState	1/2	
+Move Method	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFExampleAvgEvaluator::terminate():java.lang.Double	org.apache.hadoop.hive.contrib.udaf.example.UDAFExampleAvg.UDAFAvgState	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readBool(java.lang.String):boolean	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readByte(java.lang.String):byte	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readDouble(java.lang.String):double	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readFloat(java.lang.String):float	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readInt(java.lang.String):int	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readLong(java.lang.String):long	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesRecordInput::readString(java.lang.String):java.lang.String	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	
+Move Method	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesWritableInput::readArray(org.apache.hadoop.io.ArrayWritable):org.apache.hadoop.io.ArrayWritable	org.apache.hadoop.hive.contrib.util.typedbytes.TypedBytesInput	1/2	

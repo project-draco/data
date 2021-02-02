@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.hibernate.cache.jcache.access.AbstractReadWriteRegionAccessStrategy::unlockItem(org.hibernate.engine.spi.SharedSessionContractImplementor, java.lang.Object, org.hibernate.cache.spi.access.SoftLock):void	org.hibernate.cache.jcache.JCacheTransactionalDataRegion	2/3	

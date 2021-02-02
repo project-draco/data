@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.hibernate.osgi.OsgiPersistenceProvider::generateSettings(java.util.Map):java.util.Map	org.hibernate.osgi.OsgiServiceUtil	2/3	

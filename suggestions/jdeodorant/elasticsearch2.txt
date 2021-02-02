@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.elasticsearch.client.CustomRestHighLevelClientTests::testCustomEndpoint():void	org.elasticsearch.client.RestHighLevelClient	1/2	
+Move Method	org.elasticsearch.client.CustomRestHighLevelClientTests::testCustomEndpointAsync():void	org.elasticsearch.client.RestHighLevelClient	1/2	

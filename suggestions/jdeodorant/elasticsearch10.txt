@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.elasticsearch.backwards.IndexingIT::buildShards(java.lang.String, org.elasticsearch.backwards.IndexingIT.Nodes, org.elasticsearch.client.RestClient):java.util.List<org.elasticsearch.backwards.IndexingIT.Shard>	org.elasticsearch.backwards.IndexingIT.Nodes	0/1	

@@ -1,0 +1,7 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.badlogic.gdx.jnigen.AntScriptGenerator::getLibsDirectory(com.badlogic.gdx.jnigen.BuildConfig, com.badlogic.gdx.jnigen.BuildTarget):java.lang.String	com.badlogic.gdx.jnigen.BuildTarget	0/3	
+Move Method	com.badlogic.gdx.jnigen.NativeCodeGenerator::findCMethod(com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod, java.util.ArrayList<com.badlogic.gdx.jnigen.parsing.CMethodParser.CMethod>):com.badlogic.gdx.jnigen.parsing.CMethodParser.CMethod	com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod	0/3	
+Move Method	com.badlogic.gdx.jnigen.AndroidNdkScriptGenerator::generate(com.badlogic.gdx.jnigen.BuildConfig, com.badlogic.gdx.jnigen.BuildTarget):void	com.badlogic.gdx.jnigen.BuildTarget	1/9	
+Move Method	com.badlogic.gdx.jnigen.NativeCodeGenerator::emitJniSection(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JniSection):void	com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JniSection	1/2	
+Move Method	com.badlogic.gdx.jnigen.NativeCodeGenerator::emitMethodBody(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod):void	com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod	1/2	
+Move Method	com.badlogic.gdx.jnigen.NativeCodeGenerator::emitJniSetupCode(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod, java.lang.StringBuffer, java.lang.StringBuffer):void	com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod	1/2	

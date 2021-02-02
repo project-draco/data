@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.jooq.SchemaMapping::matches(org.jooq.conf.MappedSchema, java.lang.String):boolean	org.jooq.conf.MappedSchema	0/2	
+Move Method	org.jooq.SchemaMapping::matches(org.jooq.conf.MappedTable, java.lang.String):boolean	org.jooq.conf.MappedTable	0/2	
+Move Method	org.jooq.tools.LoggerListener::logMultiline(java.lang.String, java.lang.String, java.util.logging.Level):void	org.jooq.tools.JooqLogger	1/2	

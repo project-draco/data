@@ -1,0 +1,18 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.badlogic.gdx.tools.hiero.BMFontUtil::writeGlyph(java.io.PrintStream, int, int, int, com.badlogic.gdx.tools.hiero.unicodefont.Glyph):void	com.badlogic.gdx.tools.hiero.unicodefont.Glyph	0/8	
+Move Method	com.badlogic.gdx.tools.texturepacker.MaxRectsPacker.MaxRects::isContainedIn(com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect):boolean	com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect	0/4	
+Move Method	com.badlogic.gdx.tools.texturepacker.TexturePacker::writeRect(java.io.Writer, com.badlogic.gdx.tools.texturepacker.TexturePacker.Page, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, java.lang.String):void	com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect	1/13	
+Move Method	com.badlogic.gdx.tools.texturepacker.GridPacker::packPage(com.badlogic.gdx.utils.Array<com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect>, int, int):com.badlogic.gdx.tools.texturepacker.TexturePacker.Page	com.badlogic.gdx.tools.texturepacker.TexturePacker.Settings	1/5	
+Move Method	com.badlogic.gdx.tools.hiero.Kerning::readCoverageTable():int[]	com.badlogic.gdx.tools.hiero.Kerning.TTFInputStream	1/3	
+Move Method	com.badlogic.gdx.tools.flame.EffectPanel::createDefaultModelInstanceController():com.badlogic.gdx.graphics.g3d.particles.ParticleController	com.badlogic.gdx.tools.flame.FlameMain	1/2	
+Move Method	com.badlogic.gdx.tools.flame.EffectPanel::createDefaultBillboardController():com.badlogic.gdx.graphics.g3d.particles.ParticleController	com.badlogic.gdx.tools.flame.FlameMain	1/2	
+Move Method	com.badlogic.gdx.tools.flame.EffectPanel::createDefaultPointController():com.badlogic.gdx.graphics.g3d.particles.ParticleController	com.badlogic.gdx.tools.flame.FlameMain	1/2	
+Move Method	com.badlogic.gdx.tools.flame.EffectPanel::createDefaultTemplateController():com.badlogic.gdx.graphics.g3d.particles.ParticleController	com.badlogic.gdx.tools.flame.FlameMain	1/2	
+Move Method	com.badlogic.gdx.tools.flame.FlameMain::setTexture(com.badlogic.gdx.graphics.Texture):void	com.badlogic.gdx.tools.flame.FlameMain.AppRenderer	1/2	
+Move Method	com.badlogic.gdx.tools.hiero.BMFontUtil::getGlyph(char):com.badlogic.gdx.tools.hiero.unicodefont.Glyph	com.badlogic.gdx.tools.hiero.unicodefont.UnicodeFont	1/2	
+Move Method	com.badlogic.gdx.tools.hiero.Kerning::readClassDefinitionFormat1(com.badlogic.gdx.utils.IntArray[]):void	com.badlogic.gdx.tools.hiero.Kerning.TTFInputStream	1/2	
+Move Method	com.badlogic.gdx.tools.particleeditor.EffectPanel::emitterChecked(int, boolean):void	com.badlogic.gdx.tools.particleeditor.ParticleEditor	1/2	
+Move Method	com.badlogic.gdx.tools.texturepacker.TexturePacker::getRepeatValue():java.lang.String	com.badlogic.gdx.tools.texturepacker.TexturePacker.Settings	1/2	
+Move Method	com.badlogic.gdx.tools.texturepacker.ImageProcessor::stripWhitespace(java.awt.image.BufferedImage):com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect	com.badlogic.gdx.tools.texturepacker.TexturePacker.Settings	2/5	
+Move Method	com.badlogic.gdx.tools.flame.EffectPanel::saveEffect():void	com.badlogic.gdx.tools.flame.FlameMain	2/3	
+Move Method	com.badlogic.gdx.tools.hiero.Kerning::readSubtables(int, int):void	com.badlogic.gdx.tools.hiero.Kerning.TTFInputStream	2/3	

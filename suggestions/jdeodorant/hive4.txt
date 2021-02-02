@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.hive.http.HttpServer::createChannelConnector(int, org.apache.hive.http.HttpServer.Builder):org.eclipse.jetty.server.Connector	org.apache.hive.http.HttpServer.Builder	0/4	
+Move Method	org.apache.hive.http.HttpServer::setupSpnegoFilter(org.apache.hive.http.HttpServer.Builder):void	org.apache.hive.http.HttpServer.Builder	1/3	

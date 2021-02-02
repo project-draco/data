@@ -1,0 +1,5 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.badlogic.gdx.tests.g3d.shadows.system.BaseShadowSystem::interceptCamera(com.badlogic.gdx.tests.g3d.shadows.system.BaseShadowSystem.LightProperties):com.badlogic.gdx.graphics.Camera	com.badlogic.gdx.tests.g3d.shadows.system.BaseShadowSystem.LightProperties	0/1	
+Move Method	com.badlogic.gdx.tests.ReflectionCorrectnessTest::doTest(java.lang.Class, com.badlogic.gdx.tests.ReflectionCorrectnessTest.Expectation):void	com.badlogic.gdx.tests.ReflectionCorrectnessTest.Expectation	2/8	
+Move Method	com.badlogic.gdx.tests.g3d.ShaderCollectionTest::setShader(java.lang.String):void	com.badlogic.gdx.tests.g3d.ShaderCollectionTest.TestShaderProvider	2/4	
+Move Method	com.badlogic.gdx.tests.bullet.BaseBulletTest::toggleDebugMode():void	com.badlogic.gdx.tests.bullet.BulletWorld	2/3	

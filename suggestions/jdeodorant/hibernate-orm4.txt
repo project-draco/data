@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.hibernate.spatial.dialect.mysql.MySQL56SpatialDialect::overrideObjectShapeFunctions(org.hibernate.spatial.dialect.mysql.MySQLSpatialFunctions):org.hibernate.spatial.dialect.mysql.MySQLSpatialFunctions	org.hibernate.spatial.dialect.mysql.MySQLSpatialFunctions	0/1	

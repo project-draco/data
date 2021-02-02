@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.orc.impl.WriterImpl.TreeWriter::writeStripeStatistics(org.apache.orc.OrcProto.StripeStatistics.Builder, org.apache.orc.impl.WriterImpl.TreeWriter):void	org.apache.orc.impl.ColumnStatisticsImpl	1/3	
+Move Method	org.apache.orc.OrcProto.BinaryStatistics.Builder::mergeFrom(org.apache.orc.OrcProto.BinaryStatistics):org.apache.orc.OrcProto.BinaryStatistics.Builder	org.apache.orc.OrcProto.BinaryStatistics	2/3	

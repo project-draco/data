@@ -1,0 +1,3 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.elasticsearch.repositories.s3.S3BlobContainer::executeSingleUpload(org.elasticsearch.repositories.s3.S3BlobStore, java.lang.String, java.io.InputStream, long):void	org.elasticsearch.repositories.s3.S3BlobStore	1/6	
+Move Method	org.elasticsearch.repositories.s3.S3BlobContainer::executeMultipartUpload(org.elasticsearch.repositories.s3.S3BlobStore, java.lang.String, java.io.InputStream, long):void	org.elasticsearch.repositories.s3.S3BlobStore	2/6	

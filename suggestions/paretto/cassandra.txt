@@ -1,0 +1,3 @@
+data/clusters/co-change/paretto/cassandra.mdg
+src_java_org_apache_cassandra_net_MessagingService.java/[CN]/MessagingService/[FE]/FAILURE_RESPONSE_PARAM -> MessageIn (depcount: 10, candidates: [{CallbackInfo 0} { 0} {MessageIn 0} {MessagingService 0} {MessageIn 10}])
+src_java_org_apache_cassandra_thrift_CustomTNonBlockingServer.java/[CN]/CustomTNonBlockingServer/[CN]/Factory/[MT]/buildTServer(Args)/body -> EncryptionOptions (depcount: 16, candidates: [{EncryptionOptions 0} {CustomTNonBlockingServer 0} {EncryptionOptions 16}])

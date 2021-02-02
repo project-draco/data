@@ -1,0 +1,2 @@
+data/clusters/co-change/paretto/jooq.mdg
+jOOQ_src_main_java_org_jooq_impl_CurrentTimestamp.java/[CN]/CurrentTimestamp/[MT]/getFunction0(Configuration)/body -> CurrentUser (depcount: 2, candidates: [{CurrentTimestamp 0} {CurrentUser 0} {CurrentUser 2}])

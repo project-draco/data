@@ -1,0 +1,3 @@
+data/clusters/co-change/paretto/openfire.mdg
+src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCTransport.java/[CN]/IRCTransport/[MT]/convertJabStatusToIRC(PresenceType,String)/body -> IRCListener (depcount: 8, candidates: [{IRCListener 0} {IRCTransport 0} {MSNListener 0} {IRCListener 8} {MSNListener 0}])
+src_java_org_jivesoftware_messenger_net_SocketSendingTracker.java/[CN]/SocketSendingTracker/[MT]/checkHealth()/body -> SocketConnection (depcount: 12, candidates: [{SocketConnection 0} {SocketSendingTracker 0} {SocketConnection 12}])

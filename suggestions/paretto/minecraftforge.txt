@@ -1,0 +1,6 @@
+data/clusters/co-change/paretto/minecraftforge.mdg
+fml_common_cpw_mods_fml_server_FMLServerHandler.java/[CN]/FMLServerHandler/[MT]/finishServerLoading()/body -> GameData (depcount: 76, candidates: [{GameData 0} {FMLServerHandler 0} {GameData 76}])
+src_main_java_net_minecraftforge_fml_client_config_GuiConfigEntries.java/[CN]/GuiConfigEntries/[CN]/ListEntryBase/[CS]/ListEntryBase(GuiConfig,GuiConfigEntries,IConfigElement)/body -> GuiEditArray (depcount: 8, candidates: [{GuiConfigEntries 0} {GuiEditArray 0} {GuiSelectString 0} {GuiEditArray 8} {GuiSelectString 8}])
+src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/startVersionCheck()/body -> ForgeModContainer (depcount: 6, candidates: [{ForgeModContainer 0} {ForgeVersion 0} {ForgeModContainer 6}])
+src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/getStatus()/body -> ForgeHooksClient (depcount: 2, candidates: [{ForgeVersion 0} {ForgeHooksClient 0} {ForgeHooksClient 2}])
+src_main_java_net_minecraftforge_common_ForgeVersion.java/[CN]/ForgeVersion/[MT]/getTarget()/body -> ForgeHooksClient (depcount: 2, candidates: [{ForgeHooksClient 0} {ForgeVersion 0} {ForgeHooksClient 2}])

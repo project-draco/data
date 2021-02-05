@@ -1,0 +1,4 @@
+data/clusters/co-change/paretto/broadleafcommerce.mdg
+common_src_main_java_org_broadleafcommerce_common_rule_MvelHelper.java/[CN]/MvelHelper/[MT]/convertField(String,String)/body -> FormatUtil (depcount: 6, candidates: [{MvelHelper 0} {FormatUtil 0} {FormatUtil 6}])
+admin_broadleaf-open-admin-platform_src_main_java_org_broadleafcommerce_openadmin_server_service_artifact_image_effects_chain_filter_GaussianBlur.java/[CN]/GaussianBlur/[MT]/buildOperation(Map<String,String>,InputStream,String)/body -> UnsharpMask (depcount: 4, candidates: [{GaussianBlur 0} {UnsharpMask 0} {UnsharpMask 4}])
+admin_broadleaf-open-admin-platform_src_main_java_org_broadleafcommerce_openadmin_server_service_artifact_image_effects_chain_filter_UnsharpMask.java/[CN]/UnsharpMask/[MT]/buildOperation(Map<String,String>,InputStream,String)/body -> GaussianBlur (depcount: 4, candidates: [{GaussianBlur 0} {UnsharpMask 0} {GaussianBlur 4}])

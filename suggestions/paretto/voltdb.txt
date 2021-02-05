@@ -1,0 +1,2 @@
+data/clusters/co-change/paretto/voltdb.mdg
+src_frontend_org_voltdb_TableHelper.java/[CN]/TableHelper/[MT]/migrateTable(VoltTable,VoltTable)/body -> VoltTable (depcount: 46, candidates: [{TableHelper 0} {VoltTable 0} {VoltTable 46}])

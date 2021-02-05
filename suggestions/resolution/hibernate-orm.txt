@@ -1,0 +1,95 @@
+org.hibernate.mapping.RootClass.checkCompositeIdentifier();Component
+org.hibernate.mapping.RootClass.LOG;Component
+org.hibernate.boot.model.source.internal.hbm.ColumnSourceImpl.interpretNotNullToNullability(java.lang.Boolean);Helper
+org.hibernate.boot.model.source.internal.hbm.ColumnSourceImpl.ColumnSourceImpl(org.hibernate.boot.model.source.internal.hbm.MappingDocument, java.lang.String, org.hibernate.boot.jaxb.hbm.spi.JaxbHbmColumnType, java.util.Set, java.util.Set);Helper
+org.hibernate.type.MetaType.entityNameToDiscriminatorValueMap;StandardAnyTypeDefinition
+org.hibernate.type.MetaType.getDiscriminatorValuesToEntityNameMap();StandardAnyTypeDefinition
+org.hibernate.type.MetaType.discriminatorValuesToEntityNameMap;StandardAnyTypeDefinition
+org.hibernate.metamodel.internal.Helper.resolveAttributeSource(org.hibernate.engine.spi.SessionFactoryImplementor, javax.persistence.metamodel.ManagedType);EmbeddableTypeImpl
+org.hibernate.metamodel.internal.Helper.log;EmbeddableTypeImpl
+org.hibernate.hql.spi.id.persistent.PersistentTableBulkIdStrategy.PersistentTableBulkIdStrategy();IdTableSupportStandardImpl
+org.hibernate.metamodel.internal.Helper.static {};EmbeddableTypeImpl
+org.hibernate.type.descriptor.java.LocalDateJavaDescriptor.unwrap(java.time.LocalDate, java.lang.Class, org.hibernate.type.descriptor.WrapperOptions);DateTypeDescriptor
+org.hibernate.type.descriptor.java.LocalDateTimeJavaDescriptor.INSTANCE;LocalDateTimeType
+org.hibernate.tool.hbm2ddl.SchemaValidatorTask.setNamingStrategy(java.lang.String);DeprecationLogger
+org.hibernate.type.descriptor.java.LocalDateJavaDescriptor.INSTANCE;DateTypeDescriptor
+org.hibernate.type.descriptor.java.LocalDateJavaDescriptor.static {};DateTypeDescriptor
+org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl.buildCallbacksForEntity(java.lang.String, org.hibernate.jpa.event.spi.jpa.CallbackBuilder$CallbackRegistrar);CallbackType
+org.hibernate.jpa.event.internal.jpa.CallbackBuilderLegacyImpl.release();CallbackType
+org.hibernate.type.descriptor.java.CalendarTypeDescriptor.extractHashCode(java.util.Calendar);DateTypeDescriptor
+org.hibernate.type.descriptor.java.CalendarTypeDescriptor.INSTANCE;DateTypeDescriptor
+org.hibernate.type.descriptor.sql.BooleanTypeDescriptor.BooleanTypeDescriptor();BooleanType
+org.hibernate.type.descriptor.java.LocalDateTimeJavaDescriptor.static {};LocalDateTimeType
+org.hibernate.type.descriptor.sql.BooleanTypeDescriptor.static {};BooleanType
+org.hibernate.type.TimeZoneType.objectToSQLString(java.util.TimeZone, org.hibernate.dialect.Dialect);DateType
+org.hibernate.cache.internal.DefaultCacheKeysFactory.getEntityId(java.lang.Object);OldCacheKeyImplementation
+org.hibernate.cache.internal.DefaultCacheKeysFactory.getCollectionId(java.lang.Object);OldCacheKeyImplementation
+org.hibernate.id.enhanced.TableStructure.prepareStatement(java.sql.Connection, java.lang.String, org.hibernate.engine.jdbc.spi.SqlStatementLogger, org.hibernate.engine.spi.SessionEventListenerManager);MultipleHiLoPerTableGenerator
+org.hibernate.criterion.MatchMode.EXACT;Example
+org.hibernate.type.descriptor.java.OffsetDateTimeJavaDescriptor.INSTANCE;OffsetDateTimeType
+org.hibernate.type.descriptor.sql.BooleanTypeDescriptor.INSTANCE;BooleanType
+org.hibernate.criterion.MatchMode.toMatchString(java.lang.String);Example
+org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor.SmallIntTypeDescriptor();SqlTypeDescriptorRegistry
+org.hibernate.type.descriptor.sql.TimestampTypeDescriptor.TimestampTypeDescriptor();SqlTypeDescriptorRegistry
+org.hibernate.loader.plan.exec.query.internal.SelectStatementBuilder.appendFromClauseFragment(java.lang.String, java.lang.String);BasicCollectionLoadQueryDetails
+org.hibernate.criterion.MatchMode.ANYWHERE;Example
+org.hibernate.boot.model.source.internal.hbm.PluralAttributeSourceArrayImpl.getSourceType();XmlElementMetadata
+org.hibernate.boot.model.source.internal.hbm.CompositeIdentifierSingularAttributeSourceManyToOneImpl.getSourceType();XmlElementMetadata
+org.hibernate.type.descriptor.java.CalendarTypeDescriptor.static {};DateTypeDescriptor
+org.hibernate.boot.model.source.internal.hbm.SingularAttributeSourceManyToOneImpl.getSingularAttributeNature();CompositeIdentifierSingularAttributeSourceManyToOneImpl
+org.hibernate.boot.model.source.internal.hbm.SingularAttributeSourceManyToOneImpl.getSourceType();XmlElementMetadata
+org.hibernate.boot.model.source.internal.hbm.BasicAttributeColumnsAndFormulasSource.getSourceType();XmlElementMetadata
+org.hibernate.type.descriptor.java.OffsetDateTimeJavaDescriptor.static {};OffsetDateTimeType
+org.hibernate.boot.model.source.internal.hbm.PluralAttributeMapKeyManyToAnySourceImpl.getNature();PluralAttributeMapKeySourceEmbeddedImpl
+org.hibernate.boot.model.source.internal.hbm.PluralAttributeMapKeyManyToManySourceImpl.getNature();PluralAttributeMapKeySourceEmbeddedImpl
+org.hibernate.metamodel.internal.AttributeFactory.getSignatureType(java.lang.reflect.Member);MapMember
+org.hibernate.loader.plan.exec.process.internal.ResultSetProcessorHelper.buildNamedParameterLocMap(org.hibernate.engine.spi.QueryParameters, org.hibernate.loader.plan.exec.query.spi.NamedParameterContext);ResultSetProcessingContextImpl
+org.hibernate.type.descriptor.java.BigIntegerTypeDescriptor.toString(java.math.BigInteger);BigIntegerType
+org.hibernate.proxy.pojo.javassist.SerializableProxy.readResolve();JavassistProxyFactory
+org.hibernate.criterion.MatchMode.static {};Example
+org.hibernate.metamodel.internal.PluralAttributeImpl.getCollectionType();AttributeNodeImpl
+org.hibernate.internal.util.collections.ArrayHelper.fillArray(java.lang.String, int);ConditionFragment
+org.hibernate.criterion.MatchMode.START;Example
+org.hibernate.criterion.MatchMode.END;Example
+org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor.static {};SqlTypeDescriptorRegistry
+org.hibernate.type.descriptor.sql.TimestampTypeDescriptor.static {};SqlTypeDescriptorRegistry
+org.hibernate.type.descriptor.java.UrlTypeDescriptor.toString(java.net.URL);UrlType
+org.hibernate.id.EntityIdentifierNature.ordinal();ModelBinder
+org.hibernate.jpa.internal.util.ConfigurationHelper.overrideProperties(java.util.Properties, java.util.Map);PersistenceXmlParser
+org.hibernate.type.descriptor.java.DateTypeDescriptor.toString(java.util.Date);CalendarTypeDescriptor
+org.hibernate.event.internal.DefaultLockEventListener.cascadeOnLock(org.hibernate.event.spi.LockEvent, org.hibernate.persister.entity.EntityPersister, java.lang.Object);LockEvent
+org.hibernate.Hibernate.isPropertyInitialized(java.lang.Object, java.lang.String);HibernateTraversableResolver
+org.hibernate.type.descriptor.sql.TimestampTypeDescriptor.INSTANCE;SqlTypeDescriptorRegistry
+org.hibernate.type.StringType.objectToSQLString(java.lang.String, org.hibernate.dialect.Dialect);UUIDCharType
+org.hibernate.type.descriptor.sql.SmallIntTypeDescriptor.INSTANCE;SqlTypeDescriptorRegistry
+org.hibernate.Hibernate.isInitialized(java.lang.Object);HibernateTraversableResolver
+org.hibernate.query.criteria.internal.expression.LiteralExpression.renderProjection(org.hibernate.query.criteria.internal.compile.RenderingContext);ValueHandlerFactory
+org.hibernate.type.YesNoType.objectToSQLString(java.lang.Boolean, org.hibernate.dialect.Dialect);BasicTypeRegistry
+org.hibernate.type.ShortType.INSTANCE;BasicTypeRegistry
+org.hibernate.type.FloatType.INSTANCE;BasicTypeRegistry
+org.hibernate.type.DoubleType.INSTANCE;BasicTypeRegistry
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.NullHibernateStats();EhcacheHibernate
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.static {};EhcacheHibernate
+org.hibernate.cache.ehcache.management.impl.HibernateStatsImpl.getCacheRegionStats();CacheRegionStats
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.INSTANCE;EhcacheHibernate
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.NullHibernateStats();EhcacheHibernate
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.static {};EhcacheHibernate
+org.hibernate.cache.ehcache.management.impl.HibernateStatsImpl.getCacheRegionStats();CacheRegionStats
+org.hibernate.cache.ehcache.management.impl.NullHibernateStats.INSTANCE;EhcacheHibernate
+org.hibernate.cache.infinispan.util.Tombstone.EXCLUDE_TOMBSTONES;TombstoneCallInterceptor
+org.hibernate.cache.infinispan.util.Tombstone.static {};TombstoneCallInterceptor
+org.hibernate.cache.infinispan.util.BeginInvalidationCommand.init(org.infinispan.notifications.cachelistener.CacheNotifier, org.infinispan.configuration.cache.Configuration);CacheCommandInitializer
+org.hibernate.cache.infinispan.access.PutFromLoadValidator.removeFromCache(org.infinispan.AdvancedCache);CacheCommandInitializer
+org.hibernate.cache.infinispan.util.CacheCommandInitializer.buildEndInvalidationCommand(java.lang.String, java.lang.Object[], java.lang.Object);NonTxPutFromLoadInterceptor
+org.hibernate.spatial.dialect.postgis.PGGeometryTypeDescriptor.PGGeometryTypeDescriptor();PostgisNoSQLMM
+org.hibernate.spatial.dialect.oracle.criterion.RelationshipMask.booleanCombination(org.hibernate.spatial.dialect.oracle.criterion.RelationshipMask[]);OracleSpatialRestrictions
+org.hibernate.spatial.dialect.oracle.criterion.RelationshipMask.toString();OracleSpatialRestrictions
+org.hibernate.spatial.dialect.postgis.PGGeometryTypeDescriptor.static {};PostgisNoSQLMM
+org.hibernate.spatial.dialect.mysql.MySQLGeometryTypeDescriptor.getSqlType();MySQL5InnoDBSpatialDialect
+org.hibernate.spatial.dialect.postgis.PGGeometryTypeDescriptor.INSTANCE;PostgisNoSQLMM
+org.hibernate.spatial.dialect.mysql.MySQLGeometryTypeDescriptor.MySQLGeometryTypeDescriptor();MySQL5InnoDBSpatialDialect
+org.hibernate.spatial.dialect.mysql.MySQLGeometryTypeDescriptor.static {};MySQL5InnoDBSpatialDialect
+org.hibernate.spatial.dialect.mysql.MySQLGeometryTypeDescriptor.INSTANCE;MySQL5InnoDBSpatialDialect
+org.hibernate.jpamodelgen.xml.XmlMetaEntity.defaultPackageName;StringUtil
+org.hibernate.jpamodelgen.xml.XmlMetaEntity.determineExplicitTargetEntity(java.lang.String);StringUtil
+org.hibernate.jpamodelgen.xml.XmlMetaEntity.determineExplicitMapKeyClass(org.hibernate.jpamodelgen.xml.jaxb.MapKeyClass);StringUtil

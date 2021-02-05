@@ -1,0 +1,81 @@
+com.badlogic.gdx.backends.android.AndroidApplication.getBaseContext();AndroidFiles
+com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics.setCursor(com.badlogic.gdx.graphics.Cursor);Lwjgl3Cursor
+com.badlogic.gdx.backends.lwjgl3.Lwjgl3Graphics.setSystemCursor(com.badlogic.gdx.graphics.Cursor$SystemCursor);Lwjgl3Cursorcom.badlogic.gdx.backends.iosmoe.IOSUIViewController.setPaused(boolean);IOSGraphics
+com.badlogic.gdx.backends.iosmoe.IOSUIViewController.viewWillAppear(boolean);IOSGraphics
+com.badlogic.gdx.backends.iosmoe.objectal.OALAudioSession.forceEndInterruption();IOSApplication
+com.badlogic.gdx.backends.iosmoe.objectal.OALAudioSession.sharedInstance();IOSApplication
+com.badlogic.gwtref.client.Type.getField(java.lang.String);Field
+com.badlogic.gwtref.client.Type.getDeclaredField(java.lang.String);Field
+com.badlogic.gdx.backends.gwt.widgets.PlaceholderTextBox.getText();TextInputDialogBox
+com.badlogic.gdx.backends.gwt.widgets.ProgressBar.onUnload();ResizableWidgetCollection
+org.jbox2d.callbacks.DebugDraw.drawString(org.jbox2d.common.Vec2, java.lang.String, org.jbox2d.common.Color3f);ConstantVolumeJoint
+org.jbox2d.callbacks.DebugDraw.drawString(float, float, java.lang.String, org.jbox2d.common.Color3f);ConstantVolumeJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.localAxisA;WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.localAnchorA;WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.localAnchorB;WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.getLocalAxisA();WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.getLocalAnchorA();WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PrismaticJoint.getLocalAnchorB();WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PulleyJoint.groundAnchorB;WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PulleyJoint.getGroundAnchorB();WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PulleyJoint.getGroundAnchorA();WeldJoint
+com.badlogic.gdx.physics.box2d.joints.PulleyJoint.groundAnchorA;WeldJoint
+org.jbox2d.particle.ParticleSystem.destroyParticlesInGroup(org.jbox2d.particle.ParticleGroup, boolean);ParticleGroup
+com.badlogic.gdx.tools.hiero.Kerning.scale;BMFontUtil
+com.badlogic.gdx.tools.hiero.Kerning.storeKerningOffset(int, int, int);BMFontUtil
+com.badlogic.gdx.tools.hiero.Kerning.getKernings();BMFontUtil
+com.badlogic.gdx.tools.hiero.Kerning.kernings;BMFontUtil
+com.badlogic.gdx.tools.flame.FlameMain.getParticleEffects(com.badlogic.gdx.utils.Array, com.badlogic.gdx.utils.Array);ParticleControllerInfluencerPanel
+com.badlogic.gdx.tools.flame.FlameMain.assetManager;ParticleControllerInfluencerPanel
+com.badlogic.gdx.tools.flame.FlameMain.getAtlas(com.badlogic.gdx.graphics.Texture);ParticleControllerInfluencerPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.worldCamera;EffectPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.effectFile;EffectPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.reloadRows();EffectPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.effect;EffectPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.getEmitter();EffectPanel
+com.badlogic.gdx.tools.flame.FlameMain.load(java.lang.String, java.lang.Class, com.badlogic.gdx.assets.loaders.AssetLoader, com.badlogic.gdx.assets.AssetLoaderParameters);ParticleControllerInfluencerPanel
+com.badlogic.gdx.tools.particleeditor.ParticleEditor.effectPanel;EffectPanel
+com.badlogic.gdx.tools.flame.CustomCardLayout.first(java.awt.Container);TextureAtlasPanel
+com.badlogic.gdx.tools.flame.CustomCardLayout.getCurrentCard(java.awt.Container);TextureAtlasPanel
+com.badlogic.gdx.tools.flame.CustomCardLayout.preferredLayoutSize(java.awt.Container);TextureAtlasPanel
+com.badlogic.gdx.tools.particleeditor.Chart.setPreferredSize(java.awt.Dimension);PercentagePanel
+com.badlogic.gdx.graphics.g2d.Sprite.draw(com.badlogic.gdx.graphics.g2d.Batch, float);PolygonSprite
+com.badlogic.gdx.graphics.g2d.Sprite.draw(com.badlogic.gdx.graphics.g2d.Batch);PolygonSprite
+com.badlogic.gdx.math.Quaternion.setFromAxes(float, float, float, float, float, float, float, float, float);Decal
+com.badlogic.gdx.math.Quaternion.setEulerAngles(float, float, float);Decal
+com.badlogic.gdx.scenes.scene2d.actions.AlphaAction.setAlpha(float);Actions
+com.badlogic.gdx.scenes.scene2d.actions.AlphaAction.end;Actions
+com.badlogic.gdx.scenes.scene2d.actions.AlphaAction.getAlpha();Actions
+com.badlogic.gdx.graphics.g3d.attributes.IntAttribute.CullFace;ParticleShader
+com.badlogic.gdx.graphics.g3d.attributes.IntAttribute.createCullFace(int);ParticleShader
+com.badlogic.gdx.graphics.g3d.particles.batches.PointSpriteParticleBatch.getTexture();TextureAttribute
+com.badlogic.gdx.graphics.g3d.particles.batches.PointSpriteParticleBatch.setTexture(com.badlogic.gdx.graphics.Texture);TextureAttribute
+com.badlogic.gdx.graphics.g3d.particles.batches.PointSpriteParticleBatch.allocRenderable();TextureAttribute
+com.badlogic.gdx.graphics.g3d.attributes.DirectionalLightsAttribute.lights;Environment
+com.badlogic.gdx.graphics.g3d.attributes.DirectionalLightsAttribute.Type;Environment
+com.badlogic.gdx.utils.SortedIntList.iterator();DecalBatch
+com.badlogic.gdx.graphics.g3d.environment.SphericalHarmonics.set(com.badlogic.gdx.graphics.g3d.environment.AmbientCubemap);AmbientCubemap
+com.badlogic.gdx.utils.SortedIntList.iterator;DecalBatch
+com.badlogic.gdx.graphics.g3d.attributes.DirectionalLightsAttribute.is(long);Environment
+com.badlogic.gdx.scenes.scene2d.ui.Value.get(com.badlogic.gdx.scenes.scene2d.Actor);Container
+com.badlogic.gdx.scenes.scene2d.ui.Value.zero;Container
+com.badlogic.gdx.scenes.scene2d.ui.Value.minWidth;Container
+com.badlogic.gdx.scenes.scene2d.ui.Value.prefWidth;Container
+com.badlogic.gdx.scenes.scene2d.ui.Value.prefHeight;Container
+com.badlogic.gdx.scenes.scene2d.ui.Value.minHeight;Container
+com.badlogic.gdx.graphics.g2d.CpuSpriteBatch.checkEqual(com.badlogic.gdx.math.Matrix4, com.badlogic.gdx.math.Affine2);Affine2
+com.badlogic.gdx.utils.UBJsonWriter.value(com.badlogic.gdx.utils.JsonValue);JsonValue
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.ArrowShapeBuilder();MeshBuilder
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.obtainM4();MeshBuilder
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.freeAll();MeshBuilder
+com.badlogic.gdx.scenes.scene2d.ui.Value.maxWidth;Container
+com.badlogic.gdx.scenes.scene2d.ui.Label.textEquals(java.lang.CharSequence);StringBuilder
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.build(com.badlogic.gdx.graphics.g3d.utils.MeshPartBuilder,
+float, float, float, float, float, float, float, float, int);MeshBuilder
+com.badlogic.gdx.math.Rectangle.merge(com.badlogic.gdx.math.Vector2);Ellipse
+com.badlogic.gdx.scenes.scene2d.ui.Value.static {};Container
+com.badlogic.gdx.utils.TimeUtils.millis();AnimatedTiledMapTile
+com.badlogic.gdx.utils.ReflectionPool.findConstructor(java.lang.Class);Constructor
+com.badlogic.gdx.scenes.scene2d.ui.Value.maxHeight;Container
+com.badlogic.gdx.utils.TimeUtils.timeSinceMillis(long);AnimatedTiledMapTile
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.obtainV3();MeshBuilder

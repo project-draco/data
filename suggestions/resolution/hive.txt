@@ -1,0 +1,146 @@
+org.apache.hadoop.hive.conf.HiveConf.getLongVar(org.apache.hadoop.hive.conf.HiveConf$ConfVars);FileUtils
+org.apache.hadoop.hive.conf.HiveConf.getLongVar(org.apache.hadoop.conf.Configuration, org.apache.hadoop.hive.conf.HiveConf$ConfVars);FileUtils
+org.apache.hadoop.hive.conf.HiveConf.getHiveSiteLocation();HiveConfUtil
+org.apache.hadoop.hive.conf.HiveConf.setHiveSiteLocation(java.net.URL);HiveConfUtil
+org.apache.hadoop.hive.conf.HiveConf.hiveSiteURL;HiveConfUtil
+org.apache.hadoop.hive.common.FileUtils.createTempFile(java.lang.String, java.lang.String, java.lang.String);ShutdownHookManager
+org.apache.hadoop.hive.common.FileUtils.deleteTmpFile(java.io.File);ShutdownHookManager
+org.apache.hadoop.hive.common.jsonexplain.tez.Vertex.edgeType;TezJsonParserUtils
+org.apache.hadoop.hive.common.jsonexplain.tez.Vertex.setType(java.lang.String);TezJsonParserUtils
+org.apache.hadoop.hive.common.jsonexplain.tez.TezJsonParserUtils.attrsToString(java.util.Map);Op
+org.apache.hadoop.hive.common.metrics.metrics2.MetricsReporting.ordinal();CodahaleMetrics
+org.apache.hadoop.hive.hbase.HBaseCompositeKey.getParts();HBaseSerDeHelper
+org.apache.hadoop.hive.hbase.HiveHBaseInputFormatUtil.getScan(org.apache.hadoop.mapred.JobConf);ColumnMappings
+org.apache.hive.hcatalog.common.HCatUtil.extractThriftToken(java.lang.String, java.lang.String);Security
+org.apache.hive.hcatalog.common.HCatUtil.getJobTrackerDelegationToken(org.apache.hadoop.conf.Configuration, java.lang.String);Security
+org.apache.hive.hcatalog.mapreduce.InternalUtil.extractStorerInfo(org.apache.hadoop.hive.metastore.api.StorageDescriptor, java.util.Map);HCatTableInfo
+org.apache.hive.hcatalog.mapreduce.InternalUtil.createPtnKeyValueMap(org.apache.hadoop.hive.ql.metadata.Table, org.apache.hadoop.hive.metastore.api.Partition);HCatTableInfo
+org.apache.hive.hcatalog.data.schema.HCatSchemaUtils.getFieldSchema(org.apache.hive.hcatalog.data.schema.HCatFieldSchema);HCatFieldSchema
+org.apache.hive.hcatalog.data.schema.HCatSchemaUtils.getFieldSchemas(java.util.List);HCatFieldSchema
+org.apache.hive.hcatalog.messaging.json.JSONCreateDatabaseMessage.toString();JSONAddPartitionMessage
+org.apache.hive.hcatalog.messaging.json.JSONDropPartitionMessage.toString();JSONAddPartitionMessage
+org.apache.hive.hcatalog.messaging.json.JSONDropDatabaseMessage.toString();JSONAddPartitionMessage
+org.apache.hive.hcatalog.messaging.json.JSONMessageDeserializer.static {};JSONAddPartitionMessage
+org.apache.hive.hcatalog.messaging.json.JSONCreateTableMessage.toString();JSONAddPartitionMessage
+org.apache.hive.hcatalog.streaming.mutate.client.MutatorClientBuilder.addSourceTable(java.lang.String, java.lang.String);TableType
+org.apache.hive.hcatalog.templeton.TableDesc.permissions;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.group;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.ifNotExists;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.tableProperties;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.format;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.location;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.partitionedBy;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.comment;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.clusteredBy;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.table;HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.toString();HcatDelegator
+org.apache.hive.hcatalog.templeton.TableDesc.columns;HcatDelegator
+org.apache.hive.hcatalog.templeton.AppConfig.iterator();ProxyUserSupport
+org.apache.hive.hcatalog.templeton.AppConfig.startCleanup();Main
+org.apache.hive.hcatalog.templeton.tool.JobStateTracker.getTrackingJobs(org.apache.hadoop.conf.Configuration, org.apache.curator.framework.CuratorFramework);ZooKeeperCleanup
+org.apache.hive.hplsql.functions.FunctionMisc.current(org.apache.hive.hplsql.HplsqlParser$Expr_spec_funcContext);FunctionDatetime
+org.apache.hive.hplsql.functions.FunctionMisc.currentUser();FunctionDatetime
+org.apache.hive.hplsql.functions.FunctionMisc.currentUser(org.apache.hive.hplsql.HplsqlParser$Expr_spec_funcContext);FunctionDatetime
+org.apache.hadoop.hive.llap.security.SecretManager.decodeTokenIdentifier(org.apache.hadoop.security.token.Token);LlapTokenIdentifier
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.isEmpty();EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.peek();EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.take();EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.remove(java.lang.Object);EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.offer(java.lang.Object);EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.daemon.impl.PriorityBlockingDeque.removeLast();EvictingPriorityBlockingQueue
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.createUnallocated();LlapDataBuffer
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.deallocate(org.apache.hadoop.hive.common.io.encoded.MemoryBuffer);LlapDataBuffer
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.cleanerField;LlapDataBuffer
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.static {};LlapDataBuffer
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.SimpleAllocator(org.apache.hadoop.conf.Configuration);LlapDataBuffer
+org.apache.hadoop.hive.llap.cache.SimpleAllocator.allocateMultiple(org.apache.hadoop.hive.common.io.encoded.MemoryBuffer[], int);LlapDataBuffer
+org.apache.hadoop.hive.llap.shufflehandler.DirWatcher.unregisterDagDir(java.lang.String, java.lang.String, int);ShuffleHandler
+org.apache.hadoop.hive.metastore.MetaStoreUtils.getClass(java.lang.String);TxnUtils
+org.apache.hadoop.hive.metastore.MetaStoreUtils.newInstance(java.lang.Class, java.lang.Class[], java.lang.Object[]);TxnUtils
+org.apache.hadoop.hive.metastore.MetaStoreDirectSql.isViewTable(org.apache.hadoop.hive.metastore.api.Table);TableType
+org.apache.hadoop.hive.metastore.MetaStoreDirectSql.getPartitionsViaSqlFilter(org.apache.hadoop.hive.metastore.MetaStoreDirectSql$SqlFilterForPushdown, java.lang.Integer);TableType
+org.apache.hadoop.hive.metastore.txn.CompactionTxnHandler.checkForDeletion(java.util.List, org.apache.hadoop.hive.metastore.txn.CompactionInfo, org.apache.hadoop.hive.metastore.txn.CompactionTxnHandler$RetentionCounters);CompactionInfo
+org.apache.hadoop.hive.metastore.txn.CompactionTxnHandler.conf;CompactionInfo
+org.apache.hadoop.hive.metastore.txn.CompactionTxnHandler.getFailedCompactionRetention();CompactionInfo
+org.apache.hadoop.hive.metastore.MetaStoreUtils.encodeTableName(java.lang.String);Warehouse
+org.apache.hadoop.hive.metastore.MetaStoreDirectSql.extractSqlDouble(java.lang.Object);StatObjectConverter
+org.apache.hadoop.hive.metastore.parser.ExpressionTree.makeFilterForEquals(java.lang.String, java.lang.String, java.lang.String, java.util.Map, int, int, boolean, org.apache.hadoop.hive.metastore.parser.ExpressionTree$FilterBuilder);Warehouse
+org.apache.orc.impl.ConvertTreeReaderFactory.canConvert(org.apache.orc.TypeDescription, org.apache.orc.TypeDescription);SchemaEvolution
+org.apache.orc.impl.InStream.close();RecordReaderImpl
+org.apache.hadoop.hive.ql.exec.vector.VectorHashKeyWrapperBatch.getWritableKeyValue(org.apache.hadoop.hive.ql.exec.vector.VectorHashKeyWrapper, int, org.apache.hadoop.hive.ql.exec.vector.expressions.VectorExpressionWriter);VectorHashKeyWrapper
+org.apache.hadoop.hive.ql.exec.vector.VectorHashKeyWrapperBatch.indexLookup;VectorHashKeyWrapper
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.registerTemporaryUDF(java.lang.String, java.lang.Class, org.apache.hadoop.hive.ql.exec.FunctionInfo$FunctionResource[]);Registry
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.isStateful(org.apache.hadoop.hive.ql.udf.generic.GenericUDF);GenericUDFMacro
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.registerTemporaryMacro(java.lang.String, org.apache.hadoop.hive.ql.plan.ExprNodeDesc, java.util.List, java.util.List);Registry
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.isPermanentFunction(org.apache.hadoop.hive.ql.plan.ExprNodeGenericFuncDesc);Registry
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.isDeterministic(org.apache.hadoop.hive.ql.udf.generic.GenericUDF);GenericUDFMacro
+org.apache.hadoop.hive.ql.exec.FunctionRegistry.getNormalizedFunctionName(java.lang.String);GenericUDFMacro
+org.apache.hadoop.hive.ql.io.orc.OrcRecordUpdater.getRow(org.apache.hadoop.hive.ql.io.orc.OrcStruct);OrcStruct
+org.apache.hadoop.hive.ql.io.orc.OrcRecordUpdater.ROW;OrcStruct
+org.apache.hadoop.hive.ql.io.orc.OrcInputFormat.createVectorizedReader(org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.Reporter);VectorizedOrcInputFormat
+org.apache.hadoop.hive.ql.io.orc.OrcInputFormat.getRecordReader(org.apache.hadoop.mapred.InputSplit, org.apache.hadoop.mapred.JobConf, org.apache.hadoop.mapred.Reporter);VectorizedOrcInputFormat
+org.apache.hadoop.hive.ql.io.orc.OrcInputFormat.isAcidRead(org.apache.hadoop.conf.Configuration, org.apache.hadoop.mapred.InputSplit);VectorizedOrcInputFormat
+org.apache.hadoop.hive.ql.optimizer.ppr.PartitionPruner.PartitionPruner();ParseContext
+org.apache.hadoop.hive.ql.optimizer.ppr.PartitionPruner.transform(org.apache.hadoop.hive.ql.parse.ParseContext);ParseContext
+org.apache.hadoop.hive.ql.metadata.Hive.createFunction(org.apache.hadoop.hive.metastore.api.Function);FunctionTask
+org.apache.hadoop.hive.ql.metadata.Hive.dropFunction(java.lang.String, java.lang.String);FunctionTask
+org.apache.hadoop.hive.ql.plan.ShowIndexesDesc.getSchema();MetaDataFormatUtils
+org.apache.hadoop.hive.ql.plan.ShowIndexesDesc.schema;MetaDataFormatUtils
+org.apache.hadoop.hive.ql.plan.PlanUtils.getExprListString(java.util.Collection);FilterDesc
+org.apache.hadoop.hive.ql.plan.PlanUtils.getExprListString(java.util.Collection, boolean);FilterDesc
+org.apache.hadoop.hive.ql.plan.PlanUtils.addExprToStringBuffer(org.apache.hadoop.hive.ql.plan.ExprNodeDesc, java.lang.Appendable, boolean);FilterDesc
+org.apache.hadoop.hive.ql.plan.ExprNodeDescUtils.getColumnExpr(org.apache.hadoop.hive.ql.plan.ExprNodeDesc);ConstantPropagateProcFactory
+org.apache.hadoop.hive.ql.plan.ExprNodeDescUtils.findConstantExprOrigin(java.lang.String, org.apache.hadoop.hive.ql.exec.Operator);ConstantPropagateProcFactory
+org.apache.hadoop.hive.ql.udf.xml.GenericUDFXPath.converterArg1;UDFXPathUtil
+org.apache.hadoop.hive.ql.udf.xml.GenericUDFXPath.emptyResult;UDFXPathUtil
+org.apache.hadoop.hive.ql.udf.xml.GenericUDFXPath.eval(java.lang.String, java.lang.String);UDFXPathUtil
+org.apache.hadoop.hive.ql.udf.xml.GenericUDFXPath.xpath;UDFXPathUtil
+org.apache.hadoop.hive.ql.udf.xml.GenericUDFXPath.result;UDFXPathUtil
+org.apache.hadoop.hive.ql.parse.GenTezWorkWalker.setRoot(org.apache.hadoop.hive.ql.lib.Node);GenTezUtils
+org.apache.hadoop.hive.ql.parse.GenTezWorkWalker.toWalk;GenTezUtils
+org.apache.hadoop.hive.ql.parse.GenTezWorkWalker.retMap;GenTezUtils
+org.apache.hadoop.hive.ql.exec.vector.VectorizedBatchUtil.columnNamesFromStructObjectInspector(org.apache.hadoop.hive.serde2.objectinspector.StructObjectInspector);VectorizedRowBatchCtx
+org.apache.hadoop.hive.ql.exec.vector.VectorizedBatchUtil.typeInfosFromStructObjectInspector(org.apache.hadoop.hive.serde2.objectinspector.StructObjectInspector);VectorizedRowBatchCtx
+org.apache.hadoop.hive.ql.exec.vector.VectorizedBatchUtil.createColumnVector(java.lang.String);VectorizedRowBatchCtx
+org.apache.hadoop.hive.ql.exec.vector.VectorizedBatchUtil.createColumnVector(org.apache.hadoop.hive.serde2.typeinfo.TypeInfo);VectorizedRowBatchCtx
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortUnionReduceRule.onMatch(org.apache.calcite.plan.RelOptRuleCall);HiveSortJoinReduceRule
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveProjectSortTransposeRule.onMatch(org.apache.calcite.plan.RelOptRuleCall);HiveSortJoinReduceRule
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortProjectTransposeRule.onMatch(org.apache.calcite.plan.RelOptRuleCall);HiveSortJoinReduceRule
+org.apache.hadoop.hive.ql.plan.RoleDDLDesc.getRoleShowGrantSchema();DDLSemanticAnalyzer
+org.apache.hadoop.hive.ql.plan.RoleDDLDesc.roleShowGrantSchema;DDLSemanticAnalyzer
+org.apache.hadoop.hive.ql.plan.RoleDDLDesc.getShowRolePrincipalsSchema();DDLSemanticAnalyzer
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterSortTransposeRule.onMatch(org.apache.calcite.plan.RelOptRuleCall);HiveSortJoinReduceRule
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveSortUnionReduceRule.matches(org.apache.calcite.plan.RelOptRuleCall);HiveSortJoinReduceRule
+org.apache.hadoop.hive.ql.io.HdfsUtils.listLocatedStatus(org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.Path, org.apache.hadoop.fs.PathFilter);AcidUtils
+org.apache.hadoop.hive.ql.exec.tez.InPlaceUpdates.reprintLine(java.io.PrintStream, java.lang.String);TezJobMonitor
+org.apache.hadoop.hive.ql.security.authorization.AuthorizationUtils.getPrivObjectType(org.apache.hadoop.hive.ql.plan.PrivilegeObjectDesc);PrivilegeObjectDesc
+org.apache.hadoop.hive.ql.optimizer.calcite.rules.HiveFilterProjectTSTransposeRule.matches(org.apache.calcite.plan.RelOptRuleCall);HiveProject
+org.apache.hadoop.hive.ql.exec.tez.TezSessionState.makeSessionId();TezSessionPoolManager
+org.apache.hadoop.hive.ql.exec.OperatorUtils.sameRowSchema(org.apache.hadoop.hive.ql.exec.Operator, org.apache.hadoop.hive.ql.exec.Operator);RowSchema
+org.apache.hadoop.hive.ql.udf.generic.GenericUDAFAverage.deriveSumFieldTypeInfo(int, int);VectorUDAFAvgDecimal
+org.apache.hadoop.hive.ql.optimizer.calcite.stats.HiveRelMdSelectivity.getSelectivity(org.apache.hadoop.hive.ql.optimizer.calcite.reloperators.HiveTableScan, org.apache.calcite.rel.metadata.RelMetadataQuery, org.apache.calcite.rex.RexNode);FilterSelectivityEstimator
+org.apache.hadoop.hive.ql.exec.vector.VectorizedBatchUtil.getPrimitiveWritable(org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector$PrimitiveCategory);VectorExtractRow
+org.apache.hadoop.hive.ql.debug.Utils.toStringBinary(byte[], int, int);BytesBytesMultiHashMap
+org.apache.hadoop.hive.ql.exec.spark.KryoSerializer.deserialize(byte[], java.lang.Class);SerializationUtilities
+org.apache.hadoop.hive.ql.optimizer.physical.Vectorizer.isVectorizedGroupByThatOutputsRows(org.apache.hadoop.hive.ql.exec.Operator);VectorGroupByDesc
+org.apache.hadoop.hive.ql.exec.DDLTask.dumpLockInfo(java.io.DataOutputStream, org.apache.hadoop.hive.metastore.api.ShowLocksResponse);DbLockManager
+org.apache.hadoop.hive.ql.parse.ParseUtils.validateColumnNameUniqueness(java.util.List);CreateTableDesc
+org.apache.hadoop.hive.ql.io.HiveFileFormatUtils.getOutputFormatSubstitute(java.lang.Class);PartitionDesc
+org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorUtils.getBinary(java.lang.Object, org.apache.hadoop.hive.serde2.objectinspector.PrimitiveObjectInspector);HiveCharWritable
+org.apache.hadoop.hive.serde2.objectinspector.primitive.PrimitiveObjectInspectorUtils.getBinaryFromText(org.apache.hadoop.io.Text);HiveCharWritable
+org.apache.hadoop.hive.serde2.lazy.LazyTimestamp.writeUTF8(java.io.OutputStream, org.apache.hadoop.hive.serde2.io.TimestampWritable);LazyUtils
+org.apache.hadoop.hive.serde2.lazy.LazyDate.writeUTF8(java.io.OutputStream, org.apache.hadoop.hive.serde2.io.DateWritable);LazyUtils
+org.apache.hadoop.hive.serde2.lazy.LazyUtils.createByteArray(org.apache.hadoop.io.BytesWritable);LazyBinaryObjectInspector
+org.apache.hive.service.auth.ldap.QueryFactory.findDnByPattern(java.lang.String);LdapSearch
+org.apache.hive.service.auth.HttpAuthUtils.createCookieToken(java.lang.String);ThriftHttpServlet
+org.apache.hive.service.auth.KerberosSaslHelper.getKerberosProcessorFactory(org.apache.hadoop.hive.thrift.HadoopThriftAuthBridge$Server, org.apache.hive.service.cli.thrift.ThriftCLIService);HiveAuthFactory
+org.apache.hive.service.cli.operation.OperationManager.getOperationLogByThread();LogDivertAppender
+org.apache.hive.service.cli.SessionHandle.getSessionId();HandleIdentifier
+org.apache.hadoop.fs.DefaultFileAccess.checkFileAccess(org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.FileStatus, org.apache.hadoop.fs.permission.FsAction);HadoopShimsSecure
+org.apache.hadoop.hive.shims.Utils.getUGI();HadoopShimsSecure
+org.apache.hadoop.hive.ql.exec.vector.IntervalDayTimeColumnVector.getDouble(int);HiveIntervalDayTime
+org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.rightTrimAndTruncate(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int, int);BytesColumnVector
+org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.truncate(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector,
+int, byte[], int, int, int);BytesColumnVector
+org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.assign(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int);BytesColumnVector
+org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.rightTrim(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int);BytesColumnVector

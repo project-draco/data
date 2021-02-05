@@ -1,0 +1,125 @@
+edu.stanford.nlp.ie.machinereading.structure.Span.fromPairOneIndexed(edu.stanford.nlp.util.Pair);RelationExtractorResultsPrinter
+edu.stanford.nlp.ie.machinereading.structure.Span.fromPair(edu.stanford.nlp.util.Pair);RelationExtractorResultsPrinter
+edu.stanford.nlp.ie.crf.FactorTable.unnormalizedLogProbEnd(int);CRFCliqueTree
+edu.stanford.nlp.ie.crf.FactorTable.logProbEnd(int);CRFCliqueTree
+edu.stanford.nlp.parser.lexparser.GrammarCompactionTester.equalsBinary(java.util.List, java.util.List);GrammarCoverageChecker
+edu.stanford.nlp.parser.lexparser.GrammarCompactionTester.translateAndSort(edu.stanford.nlp.util.Pair, edu.stanford.nlp.util.Index, edu.stanford.nlp.util.Index);GrammarCoverageChecker
+edu.stanford.nlp.parser.lexparser.GrammarCompactionTester.translate(int, edu.stanford.nlp.util.Index, edu.stanford.nlp.util.Index);GrammarCoverageChecker
+edu.stanford.nlp.trees.international.pennchinese.UniversalChineseGrammaticalRelations.main(java.lang.String[]);UniversalChineseGrammaticalStructure
+edu.stanford.nlp.trees.international.pennchinese.UniversalChineseGrammaticalRelations.valueOf(java.lang.String);UniversalChineseGrammaticalStructure
+edu.stanford.nlp.util.IntervalTree.getNonOverlappingMaxScore(java.util.List, java.util.function.Function, java.util.function.Function);MultiPatternMatcher
+edu.stanford.nlp.util.IntervalTree.getNonOverlappingMaxScore(java.util.List, java.util.function.Function);MultiPatternMatcher
+edu.stanford.nlp.parser.shiftreduce.ShiftReduceParser.initialStateFromGoldTagTree(edu.stanford.nlp.trees.Tree);PerceptronModel
+edu.stanford.nlp.parser.shiftreduce.ShiftReduceParser.initialStateFromTaggedSentence(java.util.List);PerceptronModel
+edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention.addRelationMention(edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceRelationMention);AceDomReader
+edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention.mRelationMentions;AceDomReader
+edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention.getRelationMentions();AceDomReader
+edu.stanford.nlp.ling.DocumentReader.getReader(java.io.File);BasicDocument
+edu.stanford.nlp.ling.DocumentReader.getReader(java.net.URL);BasicDocument
+edu.stanford.nlp.ling.DocumentReader.getReader(java.io.InputStream);BasicDocument
+edu.stanford.nlp.pipeline.CustomAnnotationSerializer.main(java.lang.String[]);CleanXmlAnnotator
+edu.stanford.nlp.parser.lexparser.ParentAnnotationStats.getEnglishSplitCategories(java.lang.String);GrammarCoverageChecker
+edu.stanford.nlp.parser.lexparser.ParentAnnotationStats.getSplitCategories(edu.stanford.nlp.trees.Treebank, double, edu.stanford.nlp.trees.TreebankLanguagePack);GrammarCoverageChecker
+edu.stanford.nlp.pipeline.CustomAnnotationSerializer.log;CleanXmlAnnotator
+edu.stanford.nlp.pipeline.CustomAnnotationSerializer.static {};CleanXmlAnnotator
+edu.stanford.nlp.util.Generics.newSynchronizedInterner(edu.stanford.nlp.util.Interner, java.lang.Object);SynchronizedInterner
+edu.stanford.nlp.util.Generics.newSynchronizedInterner(edu.stanford.nlp.util.Interner);SynchronizedInterner
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep.nullShield(java.lang.String);AddNode
+edu.stanford.nlp.patterns.ConstantsAndVariables.backgroundSymbol;SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.usePatternEvalFirstCapital;SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.usePhraseEvalFirstCapital;SurfacePatternFactory
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep.cheapWordToString(edu.stanford.nlp.ling.IndexedWord);AddNode
+edu.stanford.nlp.patterns.ConstantsAndVariables.getEditDistanceScoresThisClass(java.lang.String, java.lang.String);SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.getEditDistanceScoresOtherClass(java.lang.String, java.lang.String);SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.extremedebug;SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.getEditDistanceScoresThisClassThreshold(java.lang.String, java.lang.String);SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.getEditDistanceScoresOtherClassThreshold(java.lang.String, java.lang.String);SurfacePatternFactory
+edu.stanford.nlp.patterns.ConstantsAndVariables.containsFuzzy(java.util.Set, edu.stanford.nlp.patterns.CandidatePhrase, int);SurfacePatternFactory
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep.relation;AddNode
+edu.stanford.nlp.patterns.ConstantsAndVariables.isFuzzyMatch(java.lang.String, java.lang.String, int);SurfacePatternFactory
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep.govNodeName;AddNode
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.AddDep.newNodePrototype;AddNode
+edu.stanford.nlp.stats.Gamma.drawSample(java.util.Random, double);Dirichlet
+edu.stanford.nlp.ling.LabeledWord.toString(java.lang.String);SentenceUtils
+edu.stanford.nlp.stats.Gamma.drawSample(java.util.Random, double, double);Dirichlet
+edu.stanford.nlp.ling.LabeledWord.tag();SentenceUtils
+edu.stanford.nlp.parser.dvparser.CacheParseHypotheses.convertToTrees(java.util.Collection, java.util.IdentityHashMap, int);DVParser
+edu.stanford.nlp.parser.dvparser.CacheParseHypotheses.convertToTrees(java.util.IdentityHashMap, int);DVParser
+edu.stanford.nlp.semgraph.SemanticGraph.hasChildren(edu.stanford.nlp.ling.IndexedWord);SemanticGraphFormatter
+edu.stanford.nlp.semgraph.SemanticGraph.prettyPrint(edu.stanford.nlp.semgraph.SemanticGraphFormatter);SemanticGraphFormatter
+edu.stanford.nlp.semgraph.SemanticGraph.toFormattedString(edu.stanford.nlp.semgraph.SemanticGraphFormatter);SemanticGraphFormatter
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.getMultiPatternMatcher(java.util.Collection);Expressions
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.getNewEnv();Expressions
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.ANY_NODE_PATTERN_EXPR;Expressions
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.ANY_NODE_PATTERN;Expressions
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.addObsoleteCoreferenceAnnotations(edu.stanford.nlp.pipeline.Annotation, java.util.List, java.util.Map);Mention
+edu.stanford.nlp.ling.tokensregex.TokenSequenceMatcher.start(java.lang.String);ApplyPatterns
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.mentionExtractor;Mention
+edu.stanford.nlp.ling.tokensregex.TokenSequenceMatcher.end(java.lang.String);ApplyPatterns
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.corefSystem;Mention
+edu.stanford.nlp.patterns.InvertedIndexByTokens.getFileSentIdsFromPats(java.util.Collection);SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.transformCoreLabeltoString;SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.numAllSentences;SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.combineKeyValue(java.lang.String, java.lang.String);SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.stopWords;SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.getFileSentIds(edu.stanford.nlp.util.CollectionValuedMap);SurfacePatternFactory
+edu.stanford.nlp.patterns.InvertedIndexByTokens.index;SurfacePatternFactory
+edu.stanford.nlp.sentiment.Evaluate.main(java.lang.String[]);SentimentCostAndGradient
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.allowReparsing;Mention
+edu.stanford.nlp.sentiment.Evaluate.log;SentimentCostAndGradient
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.OLD_FORMAT;Mention
+edu.stanford.nlp.util.MapFactory.newMap();DirectedMultiGraph
+edu.stanford.nlp.util.MapFactory.newSet();DirectedMultiGraph
+edu.stanford.nlp.ling.tokensregex.EnvLookup.getDefaultTokensAggregators(edu.stanford.nlp.ling.tokensregex.Env);CoreMapAttributeAggregator
+edu.stanford.nlp.sequences.IOBUtils.entitySubclassify(java.util.List, java.lang.Class, java.lang.String, java.lang.String, boolean);CoNLLDocumentReaderAndWriter
+edu.stanford.nlp.sequences.IOBUtils.isSameEntityBoundary(java.lang.String, char, java.lang.String, char);CoNLLDocumentReaderAndWriter
+edu.stanford.nlp.pipeline.DeterministicCorefAnnotator.DeterministicCorefAnnotator(java.util.Properties);Mention
+edu.stanford.nlp.sequences.IOBUtils.isDifferentEntityBoundary(java.lang.String, java.lang.String);CoNLLDocumentReaderAndWriter
+edu.stanford.nlp.ie.pascal.PascalTemplate.mergeCliqueTemplates(edu.stanford.nlp.ie.pascal.DateTemplate, java.lang.String, edu.stanford.nlp.ie.pascal.InfoTemplate);InfoTemplate
+edu.stanford.nlp.ling.tokensregex.Env.initDefaultBindings();Expressions
+edu.stanford.nlp.parser.shiftreduce.ShiftTransition.isLegal(edu.stanford.nlp.parser.shiftreduce.State, java.util.List);BasicFeatureFactory
+edu.stanford.nlp.parser.shiftreduce.ShiftTransition.apply(edu.stanford.nlp.parser.shiftreduce.State, double);BasicFeatureFactory
+edu.stanford.nlp.semgraph.SemanticGraphUtils.mapTreeToSg(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.semgraph.SemanticGraph);MapList
+edu.stanford.nlp.parser.lexparser.EvaluateTreebank.EvaluateTreebank(edu.stanford.nlp.parser.lexparser.LexicalizedParser);LexicalizedParser
+edu.stanford.nlp.parser.metrics.TsarfatyEval.main(java.lang.String[]);UnlabeledAttachmentEval
+edu.stanford.nlp.ie.pascal.ISODateInstance.foundMiscYearPattern(java.lang.String);QuantifiableEntityNormalizer
+edu.stanford.nlp.trees.EnglishGrammaticalRelations.main(java.lang.String[]);GrammaticalRelation
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.compile(edu.stanford.nlp.ling.tokensregex.Env, java.lang.String[]);Env
+edu.stanford.nlp.parser.shiftreduce.ShiftTransition.apply(edu.stanford.nlp.parser.shiftreduce.State);BasicFeatureFactory
+edu.stanford.nlp.trees.ud.UniversalDependenciesFeatureAnnotator.hasTo(edu.stanford.nlp.semgraph.SemanticGraph, edu.stanford.nlp.ling.IndexedWord);UniversalEnglishGrammaticalRelations
+edu.stanford.nlp.stats.Counters.addInPlace(edu.stanford.nlp.stats.Counter, java.util.Collection);CandidatePhrase
+edu.stanford.nlp.pipeline.StanfordCoreNLP.jsonPrint(edu.stanford.nlp.pipeline.Annotation, java.io.Writer);JSONOutputter
+edu.stanford.nlp.pipeline.StanfordCoreNLP.conllPrint(edu.stanford.nlp.pipeline.Annotation, java.io.Writer);CoNLLOutputter
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.SsurgeonPattern.main(java.lang.String[]);Ssurgeon
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.normalizeSoftMaxMinMaxScores(edu.stanford.nlp.stats.Counter, boolean, boolean, boolean);ScorePatternsRatioModifiedFreq
+edu.stanford.nlp.simple.SentimentClass.values();SimpleSentiment
+edu.stanford.nlp.fsm.QuasiDeterminizer.main(java.lang.String[]);TransducerGraph
+edu.stanford.nlp.pipeline.XMLOutputter.annotationToDoc(edu.stanford.nlp.pipeline.Annotation, edu.stanford.nlp.pipeline.StanfordCoreNLP);CoreNLPServlet
+edu.stanford.nlp.util.CacheMap.clear();MultiWordStringMatcher
+edu.stanford.nlp.fsm.QuasiDeterminizer.QuasiDeterminizer();TransducerGraph
+edu.stanford.nlp.fsm.QuasiDeterminizer.pushLambdas(edu.stanford.nlp.fsm.TransducerGraph, edu.stanford.nlp.stats.ClassicCounter);TransducerGraph
+edu.stanford.nlp.process.StripTagsProcessor.main(java.lang.String[]);WordToSentenceProcessor
+edu.stanford.nlp.util.Sets.intersection(java.util.Set, java.util.Set);EquivalenceClassEval
+edu.stanford.nlp.coref.statistical.StatisticalCorefAlgorithm.runCoref(edu.stanford.nlp.coref.data.Document);CoNLLDocumentReader
+edu.stanford.nlp.ling.tokensregex.CoreMapNodePattern.valueOf(edu.stanford.nlp.ling.tokensregex.Env, java.lang.String);Env
+edu.stanford.nlp.util.Characters.asCharacterArray(java.lang.String);EditDistance
+edu.stanford.nlp.util.Sets.union(java.util.Set, java.util.Set);EquivalenceClassEval
+edu.stanford.nlp.fsm.QuasiDeterminizer.processGraph(edu.stanford.nlp.fsm.TransducerGraph);TransducerGraph
+edu.stanford.nlp.pipeline.StanfordCoreNLP.usesBinaryTrees(java.util.Properties);ParserAnnotator
+edu.stanford.nlp.parser.lexparser.LexicalizedParser.lexicalizedParserQuery();HTKLatticeReader
+edu.stanford.nlp.trees.international.pennchinese.ChineseGrammaticalRelations.valueOf(java.lang.String);ChineseGrammaticalStructure
+edu.stanford.nlp.parser.shiftreduce.IdleTransition.isLegal(edu.stanford.nlp.parser.shiftreduce.State, java.util.List);TreeShapedStack
+edu.stanford.nlp.trees.international.pennchinese.ChineseUtils.isNumber(char);ChineseStringUtils
+edu.stanford.nlp.util.UnorderedPair.first;DFSAMinimizer
+edu.stanford.nlp.util.Comparators.chain(java.util.Comparator, java.util.Comparator);PhraseTable
+edu.stanford.nlp.trees.international.negra.NegraHeadFinder.findMarkedHead(edu.stanford.nlp.trees.Tree[]);NegraLabel
+edu.stanford.nlp.parser.shiftreduce.IdleTransition.apply(edu.stanford.nlp.parser.shiftreduce.State, double);TreeShapedStack
+edu.stanford.nlp.process.PTBTokenizer.factory(edu.stanford.nlp.process.LexedTokenFactory, java.lang.String);DocumentPreprocessor
+edu.stanford.nlp.util.Characters.getCharacter(char);EditDistance
+edu.stanford.nlp.ling.tokensregex.CoreMapNodePattern.valueOf(java.lang.String);Env
+edu.stanford.nlp.patterns.surface.SurfacePattern.getContextToken(edu.stanford.nlp.ling.CoreLabel);Token
+edu.stanford.nlp.fsm.QuasiDeterminizer.computeLambda(edu.stanford.nlp.fsm.TransducerGraph);TransducerGraph
+edu.stanford.nlp.math.SloppyMath.segmentDouble(double);Triple
+edu.stanford.nlp.ling.tokensregex.TokenSequencePattern.matcher(java.util.List);QuestionToStatementTranslator
+edu.stanford.nlp.trees.GrammaticalRelation.valueOf(java.lang.String, java.util.Collection, java.util.concurrent.locks.Lock);EnglishGrammaticalRelations
+edu.stanford.nlp.parser.shiftreduce.IdleTransition.apply(edu.stanford.nlp.parser.shiftreduce.State);TreeShapedStack

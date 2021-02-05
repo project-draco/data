@@ -1,0 +1,217 @@
+org.elasticsearch.painless.GenericElasticsearchScript.execute(java.util.Map, double, java.util.Map, java.lang.Object, java.util.Map);ScriptImpl
+org.elasticsearch.index.translog.Translog.createEmptyTranslog(java.nio.file.Path, long, org.elasticsearch.index.shard.ShardId,
+org.elasticsearch.index.translog.ChannelFactory);TranslogWriter
+org.elasticsearch.index.translog.Translog.createEmptyTranslog(java.nio.file.Path, long, org.elasticsearch.index.shard.ShardId);TranslogWriter
+org.elasticsearch.index.translog.Translog.readOperations(org.elasticsearch.common.io.stream.StreamInput);TranslogWriter
+org.elasticsearch.index.translog.Translog.readOperation(org.elasticsearch.index.translog.BufferedChecksumStreamInput);TranslogWriter
+org.elasticsearch.index.translog.Translog.verifyChecksum(org.elasticsearch.index.translog.BufferedChecksumStreamInput);TranslogWriter
+org.elasticsearch.Version.main(java.lang.String[]);Build
+org.elasticsearch.Version.fromString(java.lang.String);Build
+org.elasticsearch.index.mapper.MapperService.parseMapping(org.elasticsearch.common.xcontent.NamedXContentRegistry, java.lang.String);DocumentMapperParser
+org.elasticsearch.index.mapper.MapperService.merge(java.util.Map, org.elasticsearch.index.mapper.MapperService$MergeReason);DocumentMapperParser
+org.elasticsearch.Version.CURRENT;Build
+org.elasticsearch.common.geo.GeoPoint.fromGeohash(long);GeoHashUtils
+org.elasticsearch.common.geo.GeoPoint.resetFromGeoHash(long);GeoHashUtils
+org.elasticsearch.common.settings.Settings.getAsVersion(java.lang.String, org.elasticsearch.Version);Version
+org.elasticsearch.common.settings.Settings.getAsLong(java.lang.String, java.lang.Long);Version
+org.elasticsearch.common.util.BigArrays.newFloatArray(long);BigFloatArray
+org.elasticsearch.common.util.BigArrays.newFloatArray(long, boolean);BigFloatArray
+org.elasticsearch.action.termvectors.TermVectorsResponse.setFields(org.apache.lucene.index.Fields, java.util.Set, java.util.EnumSet, org.apache.lucene.index.Fields, org.elasticsearch.search.dfs.AggregatedDfs, org.elasticsearch.action.termvectors.TermVectorsFilter);TermVectorsWriter
+org.elasticsearch.action.termvectors.TermVectorsResponse.setFields(org.apache.lucene.index.Fields, java.util.Set, java.util.EnumSet, org.apache.lucene.index.Fields);TermVectorsWriter
+org.elasticsearch.common.unit.SizeValue.SizeValue(long);SizeUnit
+org.elasticsearch.common.unit.SizeValue.parseSizeValue(java.lang.String, org.elasticsearch.common.unit.SizeValue);SizeUnit
+org.elasticsearch.common.unit.SizeValue.parseSizeValue(java.lang.String);SizeUnit
+org.elasticsearch.index.mapper.DocumentMapper.root();DocumentParser
+org.elasticsearch.search.aggregations.metrics.stats.extended.ExtendedStatsAggregator.SIGMA_FIELD;ExtendedStatsAggregationBuilder
+org.elasticsearch.index.mapper.DocumentMapper.meta();DocumentParser
+org.elasticsearch.index.mapper.DocumentMapper.mapping();DocumentParser
+org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequest.source(byte[], org.elasticsearch.common.xcontent.XContentType);PutIndexTemplateRequestBuilder
+org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequest.source(byte[], int, int, org.elasticsearch.common.xcontent.XContentType);PutIndexTemplateRequestBuilder
+org.elasticsearch.search.aggregations.metrics.stats.extended.ExtendedStatsAggregator.static {};ExtendedStatsAggregationBuilder
+org.elasticsearch.action.ingest.SimulatePipelineRequest.parseDocs(java.util.Map);ConfigurationUtils
+org.elasticsearch.action.ingest.SimulatePipelineRequest.parse(java.util.Map, boolean, org.elasticsearch.ingest.PipelineStore);ConfigurationUtils
+org.elasticsearch.common.xcontent.json.JsonXContent.JsonXContent();Strings
+org.elasticsearch.indices.breaker.HierarchyCircuitBreakerService.validateSettings(org.elasticsearch.indices.breaker.BreakerSettings[]);BreakerSettings
+org.elasticsearch.indices.breaker.HierarchyCircuitBreakerService.validateTotalCircuitBreakerLimit(org.elasticsearch.common.unit.ByteSizeValue);BreakerSettings
+org.elasticsearch.common.xcontent.json.JsonXContent.contentBuilder();Strings
+org.elasticsearch.common.xcontent.json.JsonXContent.jsonXContent;Strings
+org.elasticsearch.search.aggregations.bucket.composite.HistogramValuesSourceBuilder.static {};DateHistogramValuesSourceBuilder
+org.elasticsearch.action.ingest.SimulatePipelineRequest.PIPELINE_FACTORY;ConfigurationUtils
+org.elasticsearch.action.ingest.SimulatePipelineRequest.static {};ConfigurationUtils
+org.elasticsearch.search.aggregations.bucket.composite.HistogramValuesSourceBuilder.PARSER;DateHistogramValuesSourceBuilder
+org.elasticsearch.common.xcontent.ConstructingObjectParser.apply(java.lang.Object, java.lang.Object);CloseIndexResponse
+org.elasticsearch.search.aggregations.bucket.composite.HistogramValuesSourceBuilder.parse(java.lang.String, org.elasticsearch.common.xcontent.XContentParser);DateHistogramValuesSourceBuilder
+org.elasticsearch.common.xcontent.ConstructingObjectParser.apply(org.elasticsearch.common.xcontent.XContentParser, java.lang.Object);CloseIndexResponse
+org.elasticsearch.indices.recovery.RecoverySettings.logger;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.DEFAULT_CHUNK_SIZE;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_INTERNAL_ACTION_TIMEOUT_SETTING;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_INTERNAL_LONG_ACTION_TIMEOUT_SETTING;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_RETRY_DELAY_STATE_SYNC_SETTING;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.static {};ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_MAX_BYTES_PER_SEC_SETTING;ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_RETRY_DELAY_NETWORK_SETTING;ClusterSettings
+org.elasticsearch.discovery.zen.NodeJoinController.static {};UnicastZenPing
+org.elasticsearch.indices.recovery.RecoverySettings.INDICES_RECOVERY_ACTIVITY_TIMEOUT_SETTING;ClusterSettings
+org.elasticsearch.discovery.zen.NodeJoinController.FINISH_ELECTION_TASK;UnicastZenPing
+org.elasticsearch.indices.recovery.RecoverySettings.chunkSize;ClusterSettings
+org.elasticsearch.discovery.zen.NodeJoinController.BECOME_MASTER_TASK;UnicastZenPing
+org.elasticsearch.indices.recovery.RecoverySettings.getChunkSize();ClusterSettings
+org.elasticsearch.indices.recovery.RecoverySettings.setChunkSize(org.elasticsearch.common.unit.ByteSizeValue);ClusterSettings
+org.elasticsearch.common.inject.spi.Message.getSource();Errors
+org.elasticsearch.common.inject.spi.Message.acceptVisitor(org.elasticsearch.common.inject.spi.ElementVisitor);Errors
+org.elasticsearch.common.inject.spi.Message.applyTo(org.elasticsearch.common.inject.Binder);Errors
+org.elasticsearch.common.lucene.search.function.WeightFactorFunction.static {};FunctionScoreQuery
+org.elasticsearch.common.lucene.search.function.WeightFactorFunction.SCORE_ONE;FunctionScoreQuery
+org.elasticsearch.common.inject.ConstructorBindingImpl.initialize(org.elasticsearch.common.inject.InjectorImpl, org.elasticsearch.common.inject.internal.Errors);InjectorImpl
+org.elasticsearch.common.inject.ConstructorBindingImpl.create(org.elasticsearch.common.inject.InjectorImpl, org.elasticsearch.common.inject.Key, java.lang.Object, org.elasticsearch.common.inject.internal.Scoping);InjectorImpl
+org.elasticsearch.index.reindex.UpdateByQueryRequest.indices(java.lang.String[]);SearchRequest
+org.elasticsearch.index.reindex.UpdateByQueryRequest.indicesOptions();SearchRequest
+org.elasticsearch.index.reindex.UpdateByQueryRequest.indices();SearchRequest
+org.elasticsearch.plugins.MetaPluginInfo.isPropertiesFile(java.nio.file.Path);PluginsService
+org.elasticsearch.plugins.MetaPluginInfo.isMetaPlugin(java.nio.file.Path);PluginsService
+org.elasticsearch.action.get.MultiGetShardResponse.failures;TransportShardMultiGetAction
+org.elasticsearch.action.get.MultiGetShardResponse.add(int, org.elasticsearch.action.get.MultiGetResponse$Failure);TransportShardMultiGetAction
+org.elasticsearch.action.get.MultiGetShardResponse.responses;TransportShardMultiGetAction
+org.elasticsearch.action.get.MultiGetShardResponse.locations;TransportShardMultiGetAction
+org.elasticsearch.common.inject.spi.StaticInjectionRequest.getInjectionPoints();InjectionPoint
+org.elasticsearch.common.inject.spi.StaticInjectionRequest.StaticInjectionRequest(java.lang.Object, java.lang.Class);InjectionPoint
+org.elasticsearch.action.termvectors.MultiTermVectorsShardResponse.responses;TransportShardMultiTermsVectorAction
+org.elasticsearch.action.termvectors.MultiTermVectorsShardResponse.add(int, org.elasticsearch.action.termvectors.TermVectorsResponse);TransportShardMultiTermsVectorAction
+org.elasticsearch.action.termvectors.MultiTermVectorsShardResponse.locations;TransportShardMultiTermsVectorAction
+org.elasticsearch.action.termvectors.MultiTermVectorsShardResponse.failures;TransportShardMultiTermsVectorAction
+org.elasticsearch.common.Numbers.toShortExact(java.lang.Number);XContentMapValues
+org.elasticsearch.common.Numbers.toByteExact(java.lang.Number);XContentMapValues
+org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequest.verbose();TransportIndicesSegmentsAction
+org.elasticsearch.common.Numbers.toIntExact(java.lang.Number);XContentMapValues
+org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequest.verbose;TransportIndicesSegmentsAction
+org.elasticsearch.common.Numbers.toLongExact(java.lang.Number);XContentMapValues
+org.elasticsearch.common.collect.CopyOnWriteHashMap.values();FieldTypeLookup
+org.elasticsearch.common.collect.CopyOnWriteHashMap.isEmpty();FieldTypeLookup
+org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestBuilder.setIndicesOptions(org.elasticsearch.action.support.IndicesOptions);ClusterSearchShardsRequest
+org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestBuilder.request();ClusterSearchShardsRequest
+org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.CLUSTER_TOTAL_SHARDS_PER_NODE_SETTING;SameShardAllocationDecider
+org.elasticsearch.gateway.ReplicaShardAllocator.canBeAllocatedToAtLeastOneNode(org.elasticsearch.cluster.routing.ShardRouting,
+org.elasticsearch.cluster.routing.allocation.RoutingAllocation);MoveDecision
+org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.doDecide(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.cluster.routing.RoutingNode, org.elasticsearch.cluster.routing.allocation.RoutingAllocation, java.util.function.BiPredicate);SameShardAllocationDecider
+org.elasticsearch.gateway.ReplicaShardAllocator.augmentExplanationsWithStoreInfo(java.util.Map, java.util.Map);MoveDecision
+org.elasticsearch.gateway.ReplicaShardAllocator.hasInitiatedFetching(org.elasticsearch.cluster.routing.ShardRouting);MoveDecision
+org.elasticsearch.gateway.ReplicaShardAllocator.findStore(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.cluster.routing.allocation.RoutingAllocation, org.elasticsearch.gateway.AsyncShardFetch$FetchResult);MoveDecision
+org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.settings;SameShardAllocationDecider
+org.elasticsearch.gateway.ReplicaShardAllocator.fetchData(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.cluster.routing.allocation.RoutingAllocation);MoveDecision
+org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.INDEX_TOTAL_SHARDS_PER_NODE_SETTING;SameShardAllocationDecider
+org.elasticsearch.action.explain.ExplainRequestBuilder.setParent(java.lang.String);ExplainRequest
+org.elasticsearch.action.explain.ExplainRequestBuilder.setType(java.lang.String);ExplainRequest
+org.elasticsearch.action.explain.ExplainRequestBuilder.setRouting(java.lang.String);ExplainRequest
+org.elasticsearch.action.explain.ExplainRequestBuilder.setId(java.lang.String);ExplainRequest
+org.elasticsearch.transport.EmptyTransportResponseHandler.EmptyTransportResponseHandler(java.lang.String);SnapshotShardsService
+org.elasticsearch.transport.EmptyTransportResponseHandler.static {};SnapshotShardsService
+org.elasticsearch.transport.EmptyTransportResponseHandler.INSTANCE_SAME;SnapshotShardsService
+org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.deleteIndexService;DeleteIndexClusterStateUpdateRequest
+org.elasticsearch.index.query.GeoExecType.fromString(java.lang.String);GeoBoundingBoxQueryBuilder
+org.elasticsearch.index.query.GeoExecType.values();GeoBoundingBoxQueryBuilder
+org.elasticsearch.index.query.GeoExecType.name();GeoBoundingBoxQueryBuilder
+org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.masterOperation(org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest, org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.ActionListener);DeleteIndexClusterStateUpdateRequest
+org.elasticsearch.common.inject.InjectorShell.bindLogger(org.elasticsearch.common.inject.InjectorImpl);SourceProvider
+org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.indexNameExpressionResolver;DeleteIndexClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.mapping.get.TransportGetMappingsAction.checkBlock(org.elasticsearch.action.support.master.MasterNodeRequest, org.elasticsearch.cluster.ClusterState);TransportIndicesExistsAction
+org.elasticsearch.action.admin.indices.mapping.get.TransportGetMappingsAction.checkBlock(org.elasticsearch.action.admin.indices.mapping.get.GetMappingsRequest, org.elasticsearch.cluster.ClusterState);TransportIndicesExistsAction
+org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.checkGlobalBlock(org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest);TransportGetIndexAction
+org.elasticsearch.action.admin.indices.mapping.put.TransportPutMappingAction.masterOperation(org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest, org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.ActionListener);PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.mapping.put.TransportPutMappingAction.logger;PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.delete.TransportDeleteIndexAction.checkBlock(org.elasticsearch.action.admin.indices.delete.DeleteIndexRequest, org.elasticsearch.cluster.ClusterState);DeleteIndexClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.mapping.get.TransportGetMappingsAction.indexNameExpressionResolver;TransportIndicesExistsAction
+org.elasticsearch.action.admin.indices.segments.TransportIndicesSegmentsAction.checkGlobalBlock(org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequest);TransportCreateSnapshotAction
+org.elasticsearch.common.unit.SizeUnit.toPeta(long);SizeValue
+org.elasticsearch.client.Requests.INDEX_CONTENT_TYPE;IndexRequest
+org.elasticsearch.action.admin.indices.mapping.put.TransportPutMappingAction.indexNameExpressionResolver;PutMappingClusterStateUpdateRequest
+org.elasticsearch.common.inject.InjectorShell.bindInjector(org.elasticsearch.common.inject.InjectorImpl);SourceProvider
+org.elasticsearch.common.unit.SizeUnit.toKilo(long);SizeValue
+org.elasticsearch.client.Requests.static {};IndexRequest
+org.elasticsearch.common.unit.SizeUnit.toMega(long);SizeValue
+org.elasticsearch.bootstrap.BootstrapInfo.isNativesAvailable();Natives
+org.elasticsearch.common.unit.SizeUnit.toSingles(long);SizeValue
+org.elasticsearch.rest.action.cat.RestIndicesAction.buildTable(org.elasticsearch.rest.RestRequest, org.elasticsearch.index.Index[], org.elasticsearch.action.admin.cluster.health.ClusterHealthResponse, org.elasticsearch.action.admin.indices.stats.IndicesStatsResponse, org.elasticsearch.cluster.metadata.MetaData);ClusterHealthStatus
+org.elasticsearch.bootstrap.BootstrapInfo.isMemoryLocked();Natives
+org.elasticsearch.search.suggest.term.TermSuggester.innerExecute(java.lang.String, org.elasticsearch.search.suggest.term.TermSuggestionContext, org.apache.lucene.search.IndexSearcher, org.apache.lucene.util.CharsRefBuilder);TermSuggestion
+org.elasticsearch.action.admin.indices.stats.TransportIndicesStatsAction.checkRequestBlock(org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.admin.indices.stats.IndicesStatsRequest, java.lang.String[]);TransportGetIndexAction
+org.elasticsearch.common.unit.SizeUnit.toGiga(long);SizeValue
+org.elasticsearch.bootstrap.BootstrapInfo.isSystemCallFilterInstalled();Natives
+org.elasticsearch.common.unit.SizeUnit.toTera(long);SizeValue
+org.elasticsearch.action.admin.indices.mapping.put.TransportPutMappingAction.checkBlock(org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest, org.elasticsearch.cluster.ClusterState);PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.segments.TransportIndicesSegmentsAction.checkRequestBlock(org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.admin.indices.segments.IndicesSegmentsRequest, java.lang.String[]);TransportCreateSnapshotAction
+org.elasticsearch.search.suggest.term.TermSuggester.queryTerms(org.elasticsearch.search.suggest.SuggestionSearchContext$SuggestionContext, org.apache.lucene.util.CharsRefBuilder);TermSuggestion
+org.elasticsearch.action.admin.indices.create.TransportCreateIndexAction.masterOperation(org.elasticsearch.action.admin.indices.create.CreateIndexRequest, org.elasticsearch.cluster.ClusterState, org.elasticsearch.action.ActionListener);CreateIndexClusterStateUpdateRequest
+org.elasticsearch.index.query.RangeQueryBuilder.isRelationAllowed(org.elasticsearch.common.geo.ShapeRelation);ShapeRelation
+org.elasticsearch.search.suggest.term.TermSuggester.innerExecute(java.lang.String, org.elasticsearch.search.suggest.SuggestionSearchContext$SuggestionContext, org.apache.lucene.search.IndexSearcher, org.apache.lucene.util.CharsRefBuilder);TermSuggestionContext
+org.elasticsearch.search.aggregations.bucket.nested.NestedAggregator.PATH_FIELD;NestedAggregationBuilder
+org.elasticsearch.search.profile.query.QueryTimingType.CREATE_WEIGHT;ContextIndexSearcher
+org.elasticsearch.action.admin.indices.create.TransportCreateIndexAction.indexNameExpressionResolver;CreateIndexClusterStateUpdateRequest
+org.elasticsearch.search.profile.query.QueryTimingType.QueryTimingType(java.lang.String, int);ContextIndexSearcher
+org.elasticsearch.search.profile.query.QueryTimingType.BUILD_SCORER;ContextIndexSearcher
+org.elasticsearch.search.profile.query.QueryTimingType.static {};ContextIndexSearcher
+org.elasticsearch.rest.action.cat.RestSnapshotAction.buildTable(org.elasticsearch.rest.RestRequest, org.elasticsearch.action.admin.cluster.snapshots.get.GetSnapshotsResponse);SnapshotState
+org.elasticsearch.action.admin.cluster.repositories.delete.TransportDeleteRepositoryAction.checkBlock(org.elasticsearch.action.admin.cluster.repositories.delete.DeleteRepositoryRequest, org.elasticsearch.cluster.ClusterState);TransportPutRepositoryAction
+org.elasticsearch.action.admin.cluster.tasks.TransportPendingClusterTasksAction.checkBlock(org.elasticsearch.action.admin.cluster.tasks.PendingClusterTasksRequest, org.elasticsearch.cluster.ClusterState);TransportClusterAllocationExplainAction
+org.elasticsearch.common.xcontent.XContentHelper.writeRawField(java.lang.String, org.elasticsearch.common.bytes.BytesReference, org.elasticsearch.common.xcontent.XContentType, org.elasticsearch.common.xcontent.XContentBuilder, org.elasticsearch.common.xcontent.ToXContent$Params);XContentBuilder
+org.elasticsearch.cluster.routing.ShardRouting.newUnassigned(org.elasticsearch.index.shard.ShardId, boolean, org.elasticsearch.cluster.routing.RecoverySource, org.elasticsearch.cluster.routing.UnassignedInfo);UnassignedInfo
+org.elasticsearch.common.xcontent.XContentHelper.writeRawField(java.lang.String, org.elasticsearch.common.bytes.BytesReference, org.elasticsearch.common.xcontent.XContentBuilder, org.elasticsearch.common.xcontent.ToXContent$Params);XContentBuilder
+org.elasticsearch.common.xcontent.XContentHelper.toXContent(org.elasticsearch.common.xcontent.ToXContent, org.elasticsearch.common.xcontent.XContentType, boolean);XContentBuilder
+org.elasticsearch.common.xcontent.XContentHelper.toXContent(org.elasticsearch.common.xcontent.ToXContent, org.elasticsearch.common.xcontent.XContentType, org.elasticsearch.common.xcontent.ToXContent$Params, boolean);XContentBuilder
+org.elasticsearch.search.suggest.term.TermSuggester.TermSuggester();TermSuggestionContext
+org.elasticsearch.action.admin.cluster.storedscripts.TransportDeleteStoredScriptAction.checkBlock(org.elasticsearch.action.admin.cluster.storedscripts.DeleteStoredScriptRequest, org.elasticsearch.cluster.ClusterState);TransportPutStoredScriptAction
+org.elasticsearch.action.admin.cluster.repositories.verify.TransportVerifyRepositoryAction.checkBlock(org.elasticsearch.action.admin.cluster.repositories.verify.VerifyRepositoryRequest, org.elasticsearch.cluster.ClusterState);TransportGetStoredScriptAction
+org.elasticsearch.client.Requests.CONTENT_TYPE;IndexRequest
+org.elasticsearch.search.profile.query.QueryTimingType.ADVANCE;ContextIndexSearcher
+org.elasticsearch.search.suggest.term.TermSuggester.static {};TermSuggestionContext
+org.elasticsearch.search.profile.query.QueryTimingType.SCORE;ContextIndexSearcher
+org.elasticsearch.index.query.TermsQueryBuilder.fetch(org.elasticsearch.indices.TermsLookup, org.elasticsearch.client.Client, org.elasticsearch.action.ActionListener);TermsLookup
+org.elasticsearch.action.admin.cluster.reroute.TransportClusterRerouteAction.checkBlock(org.elasticsearch.action.admin.cluster.reroute.ClusterRerouteRequest, org.elasticsearch.cluster.ClusterState);TransportCreateIndexAction
+org.elasticsearch.search.suggest.term.TermSuggester.INSTANCE;TermSuggestionContext
+org.elasticsearch.action.admin.indices.rollover.MaxSizeCondition.name;RolloverRequest
+org.elasticsearch.action.admin.indices.rollover.MaxDocsCondition.name;RolloverRequest
+org.elasticsearch.search.suggest.Suggest.COMPARATOR;CompletionSuggestion
+org.elasticsearch.cluster.metadata.IndexGraveyard.context();MetaData
+org.elasticsearch.action.search.SearchTransportService.registerRequestHandler(org.elasticsearch.transport.TransportService, org.elasticsearch.search.SearchService);TransportActionProxy
+org.elasticsearch.action.admin.indices.template.get.TransportGetIndexTemplatesAction.checkBlock(org.elasticsearch.action.admin.indices.template.get.GetIndexTemplatesRequest, org.elasticsearch.cluster.ClusterState);TransportIndicesExistsAction
+org.elasticsearch.index.fielddata.plain.SortedSetDVOrdinalsIndexFieldData.sortField(java.lang.Object, org.elasticsearch.search.MultiValueMode, org.elasticsearch.index.fielddata.IndexFieldData$XFieldComparatorSource$Nested, boolean);BinaryDVIndexFieldData
+org.elasticsearch.action.admin.indices.recovery.TransportRecoveryAction.newResponse(org.elasticsearch.action.admin.indices.recovery.RecoveryRequest, int, int, int, java.util.List, java.util.List, org.elasticsearch.cluster.ClusterState);RecoveryRequest
+org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.indices();TransportCloseIndexAction
+org.elasticsearch.rest.action.admin.cluster.RestListTasksAction.generateListTasksRequest(org.elasticsearch.rest.RestRequest);ListTasksRequest
+org.elasticsearch.rest.action.admin.cluster.RestListTasksAction.listTasksResponseListener(java.util.function.Supplier, java.lang.String, org.elasticsearch.rest.RestChannel);ListTasksRequest
+org.elasticsearch.common.util.concurrent.PrioritizedCallable.wrap(java.util.concurrent.Callable, org.elasticsearch.common.Priority);PrioritizedEsThreadPoolExecutor
+org.elasticsearch.rest.action.cat.RestNodesAction.buildTable(boolean, org.elasticsearch.rest.RestRequest, org.elasticsearch.action.admin.cluster.state.ClusterStateResponse, org.elasticsearch.action.admin.cluster.node.info.NodesInfoResponse, org.elasticsearch.action.admin.cluster.node.stats.NodesStatsResponse);NodeStats
+org.elasticsearch.action.admin.cluster.settings.TransportClusterUpdateSettingsAction.checkBlock(org.elasticsearch.action.admin.cluster.settings.ClusterUpdateSettingsRequest, org.elasticsearch.cluster.ClusterState);ClusterUpdateSettingsRequest
+org.elasticsearch.search.profile.query.QueryTimingType.NEXT_DOC;ContextIndexSearcher
+org.elasticsearch.snapshots.RestoreInfo.status();RestoreSnapshotResponse
+org.elasticsearch.common.inject.internal.Errors.misplacedBindingAnnotation(java.lang.reflect.Member, java.lang.annotation.Annotation);InjectionPoint
+org.elasticsearch.index.fielddata.SingletonSortedBinaryDocValues.getBinaryDocValues();FieldData
+org.elasticsearch.action.admin.cluster.snapshots.delete.TransportDeleteSnapshotAction.checkBlock(org.elasticsearch.action.admin.cluster.snapshots.delete.DeleteSnapshotRequest, org.elasticsearch.cluster.ClusterState);TransportCreateSnapshotAction
+org.elasticsearch.cluster.block.ClusterBlockException.buildMessage(java.util.Set);ClusterBlock
+org.elasticsearch.common.io.FileSystemUtils.openFileURLStream(java.net.URL);Build
+org.elasticsearch.index.fielddata.SortableLongBitsToSortedNumericDoubleValues.getLongValues();FieldData
+org.elasticsearch.search.aggregations.metrics.cardinality.HyperLogLogPlusPlus.precisionFromThreshold(long);CardinalityAggregatorFactory
+org.elasticsearch.index.mapper.MapperUtils.collect(org.elasticsearch.index.mapper.Mapper, java.util.Collection, java.util.Collection);MapperService
+org.elasticsearch.action.bulk.BulkProcessor.builder(java.util.function.BiConsumer, org.elasticsearch.action.bulk.BulkProcessor$Listener);BulkRequestHandler
+org.elasticsearch.common.settings.SecureSetting.secureString(java.lang.String, org.elasticsearch.common.settings.Setting, org.elasticsearch.common.settings.Setting$Property[]);KeyStoreWrapper
+org.elasticsearch.common.geo.ShapeRelation.ordinal();GeoShapeQueryBuilder
+org.elasticsearch.common.unit.MemorySizeValue.parseBytesSizeValueOrHeapRatio(java.lang.String, java.lang.String);Settings
+org.elasticsearch.index.fielddata.ordinals.MultiOrdinals.significantlySmallerThanSinglePackedOrdinals(int, int, long, float);OrdinalsBuilder
+org.elasticsearch.action.admin.indices.template.put.TransportPutIndexTemplateAction.checkBlock(org.elasticsearch.action.admin.indices.template.put.PutIndexTemplateRequest, org.elasticsearch.cluster.ClusterState);PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.template.delete.TransportDeleteIndexTemplateAction.checkBlock(org.elasticsearch.action.admin.indices.template.delete.DeleteIndexTemplateRequest, org.elasticsearch.cluster.ClusterState);PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.upgrade.post.TransportUpgradeSettingsAction.checkBlock(org.elasticsearch.action.admin.indices.upgrade.post.UpgradeSettingsRequest, org.elasticsearch.cluster.ClusterState);PutMappingClusterStateUpdateRequest
+org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.ackTimeout(org.elasticsearch.common.unit.TimeValue);TransportCloseIndexAction
+org.elasticsearch.rest.action.cat.RestNodesAction.calculatePercentage(long, long);NodeStats
+org.elasticsearch.snapshots.RestoreService.isRepositoryInUse(org.elasticsearch.cluster.ClusterState, java.lang.String);SnapshotsService
+org.elasticsearch.common.util.CollectionUtils.arrayAsArrayList(java.lang.Object[]);Operator
+org.elasticsearch.search.profile.query.QueryTimingType.MATCH;ContextIndexSearcher
+org.elasticsearch.action.admin.indices.mapping.put.PutMappingRequest.source(java.util.Map);PutMappingRequestBuilder
+org.elasticsearch.rest.action.cat.RestAllocationAction.buildTable(org.elasticsearch.rest.RestRequest, org.elasticsearch.action.admin.cluster.state.ClusterStateResponse, org.elasticsearch.action.admin.cluster.node.stats.NodesStatsResponse);StoreStats
+org.elasticsearch.search.SearchHit.parseInnerHits(org.elasticsearch.common.xcontent.XContentParser);SearchHits
+org.elasticsearch.repositories.RepositoriesService.ensureRepositoryNotInUse(org.elasticsearch.cluster.ClusterState, java.lang.String);SnapshotsService
+org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.masterNodeTimeout(org.elasticsearch.common.unit.TimeValue);TransportCloseIndexAction
+org.elasticsearch.search.SearchSortValues.EMPTY;SearchHit
+org.elasticsearch.search.fetch.ScrollQueryFetchSearchResult.result();SearchScrollQueryAndFetchAsyncAction
+org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.indices(org.elasticsearch.index.Index[]);TransportCloseIndexAction
+org.elasticsearch.index.mapper.StringFieldType.fuzzyQuery(java.lang.Object, org.elasticsearch.common.unit.Fuzziness, int, int,
+boolean);Fuzziness
+org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.CloseIndexClusterStateUpdateRequest();TransportCloseIndexAction

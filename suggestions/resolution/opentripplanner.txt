@@ -1,0 +1,32 @@
+org.opentripplanner.visibility.LineSegment.intersection(org.opentripplanner.visibility.Ray);Ray
+org.opentripplanner.visibility.LineSegment.intersection(org.opentripplanner.visibility.Ray, double);Ray
+org.opentripplanner.api.model.Leg.addAlert(org.opentripplanner.routing.alertpatch.Alert, java.util.Locale);WalkStep
+org.opentripplanner.api.model.Leg.alerts;WalkStep
+org.opentripplanner.profile.MultiProfileStateStore.mergeStates();ProfileState
+org.opentripplanner.profile.MultiProfileStateStore.minUpperBounds;ProfileState
+org.opentripplanner.profile.MultiProfileStateStore.MultiProfileStateStore();ProfileState
+org.opentripplanner.profile.MultiProfileStateStore.MultiProfileStateStore(org.opentripplanner.profile.MultiProfileStateStore);ProfileState
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.determineRequiredWalkDistance(org.opentripplanner.routing.core.RoutingRequest);GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.transit;GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.lon;GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.walkReluctance;GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.maxStreetSpeed;GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.maxTransitSpeed;GenericDijkstra
+org.opentripplanner.routing.algorithm.strategies.EuclideanRemainingWeightHeuristic.lat;GenericDijkstra
+org.opentripplanner.openstreetmap.model.OSMNode.lon;OpenStreetMapParser
+org.opentripplanner.visibility.Environment.one_to_two(int);pair
+org.opentripplanner.openstreetmap.model.OSMNode.lat;OpenStreetMapParser
+org.opentripplanner.openstreetmap.model.OSMNode.isStop();OpenStreetMapParser
+org.opentripplanner.openstreetmap.model.OSMNode.isBikeRental();OpenStreetMapParser
+org.opentripplanner.common.model.GenericLocation.GenericLocation(org.opentripplanner.common.model.NamedPlace);NamedPlace
+org.opentripplanner.common.model.P2.second;WayPropertySet
+org.opentripplanner.gtfs.BikeAccess.BikeAccess(java.lang.String, int);TripTimes
+org.opentripplanner.gtfs.BikeAccess.ALLOWED;TripTimes
+org.opentripplanner.api.model.RelativeDirection.toString();WalkStep
+org.opentripplanner.routing.edgetype.PreBoardEdge.getMode();ParkAndRideEdge
+org.opentripplanner.routing.edgetype.PreAlightEdge.getMode();ParkAndRideEdge
+org.opentripplanner.gtfs.BikeAccess.NOT_ALLOWED;TripTimes
+org.opentripplanner.gtfs.BikeAccess.fromTrip(org.onebusaway.gtfs.model.Trip);TripTimes
+org.opentripplanner.gtfs.BikeAccess.static {};TripTimes
+org.opentripplanner.gtfs.GtfsLibrary.convertIdFromString(java.lang.String);StopMatcher
+org.opentripplanner.gtfs.BikeAccess.UNKNOWN;TripTimes

@@ -1,0 +1,30 @@
+io.druid.data.input.impl.JSONPathFieldSpec.createNestedField(java.lang.String, java.lang.String);JSONPathFieldType
+io.druid.data.input.impl.JSONPathFieldSpec.createRootField(java.lang.String);JSONPathFieldType
+io.druid.data.input.impl.JSONPathFieldSpec.fromString(java.lang.String);JSONPathFieldType
+io.druid.indexer.Utils.exists(org.apache.hadoop.mapreduce.JobContext, org.apache.hadoop.fs.FileSystem, org.apache.hadoop.fs.Path);DeterminePartitionsJob
+io.druid.indexer.Utils.openInputStream(org.apache.hadoop.mapreduce.JobContext, org.apache.hadoop.fs.Path);DeterminePartitionsJob
+io.druid.indexer.Utils.openInputStream(org.apache.hadoop.mapreduce.JobContext, org.apache.hadoop.fs.Path, org.apache.hadoop.fs.FileSystem);DeterminePartitionsJob
+io.druid.indexer.updater.HadoopConverterJob.converterConfigIntoConfiguration(io.druid.indexer.updater.HadoopDruidConverterConfig, java.util.List, org.apache.hadoop.conf.Configuration);HadoopDruidConverterConfig
+io.druid.indexer.updater.HadoopConverterJob.converterConfigFromConfiguration(org.apache.hadoop.conf.Configuration);HadoopDruidConverterConfig
+io.druid.indexer.HadoopIngestionSpec.updateSegmentListIfDatasourcePathSpecIsUsed(io.druid.indexer.HadoopIngestionSpec, com.fasterxml.jackson.databind.ObjectMapper, io.druid.indexer.path.UsedSegmentLister);DatasourceIngestionSpec
+io.druid.indexer.IndexGeneratorJob.makeIncrementalIndex(io.druid.indexer.Bucket, io.druid.query.aggregation.AggregatorFactory[], io.druid.indexer.HadoopDruidIndexerConfig, java.lang.Iterable, java.util.Map);HadoopTuningConfig
+io.druid.query.aggregation.DoubleSumAggregator.COMPARATOR;DoubleMaxAggregator
+io.druid.query.aggregation.DoubleSumAggregator.static {};DoubleMaxAggregator
+io.druid.query.aggregation.LongSumAggregator.COMPARATOR;CountAggregator
+io.druid.query.aggregation.LongMinAggregator.static {};CountAggregator
+io.druid.query.aggregation.LongMaxAggregator.static {};CountAggregator
+io.druid.query.aggregation.LongSumAggregator.static {};CountAggregator
+io.druid.query.aggregation.LongMaxAggregator.COMPARATOR;CountAggregator
+io.druid.query.aggregation.LongMinAggregator.COMPARATOR;CountAggregator
+io.druid.query.select.PagingOffset.of(int, int);PagingSpec
+io.druid.query.select.PagingOffset.toOffset(int, boolean);PagingSpec
+io.druid.segment.data.VSizeLongSerde.getSerializedSize(int, int);TableLongEncodingReader
+io.druid.segment.data.VSizeLongSerde.getNumValuesPerBlock(int, int);TableLongEncodingReader
+io.druid.segment.data.EmptyIndexedInts.EmptyIndexedInts();QueryableIndexIndexableAdapter
+io.druid.segment.column.ComplexColumnImpl.static {};ValueType
+io.druid.segment.column.FloatColumn.static {};ValueType
+io.druid.segment.column.LongColumn.static {};ValueType
+io.druid.segment.data.CompressedIntsIndexedWriter.create(io.druid.segment.data.IOPeon, java.lang.String, io.druid.segment.data.CompressedObjectStrategy$CompressionStrategy);CompressedVSizeIndexedV3Writer
+io.druid.segment.data.EmptyIndexedInts.static {};QueryableIndexIndexableAdapter
+io.druid.segment.data.EmptyIndexedInts.EMPTY_INDEXED_INTS;QueryableIndexIndexableAdapter
+io.druid.query.metadata.SegmentMetadataQueryQueryToolChest.mergeAnalyses(io.druid.query.metadata.metadata.SegmentAnalysis, io.druid.query.metadata.metadata.SegmentAnalysis, boolean);ColumnAnalysis

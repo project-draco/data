@@ -1,0 +1,75 @@
+org.voltcore.network.VoltPort.isDead();VoltNetwork
+org.voltcore.network.VoltPort.die();VoltNetwork
+org.voltcore.network.VoltPort.m_isDead;VoltNetwork
+org.voltdb.ClientInterface.getPartitionForProcedure(org.voltdb.catalog.Procedure, org.voltdb.StoredProcedureInvocation);InvocationDispatcher
+org.voltdb.ClientInterface.getProcedureFromName(java.lang.String, org.voltdb.CatalogContext);InvocationDispatcher
+org.voltdb.JdbcDatabaseMetaDataGenerator.getIndexType(org.voltdb.catalog.Index);IndexType
+org.voltdb.JdbcDatabaseMetaDataGenerator.getSortOrder(org.voltdb.catalog.Index);IndexType
+org.voltdb.plannodes.InsertPlanNode.m_targetTableName;QueryPlanner
+org.voltdb.compiler.deploymentfile.ObjectFactory.createResourceMonitorType();VoltProjectBuilder
+org.voltdb.compiler.deploymentfile.ObjectFactory.createDiskLimitType();VoltProjectBuilder
+org.voltdb.compiler.deploymentfile.ObjectFactory.createDiskLimitTypeFeature();VoltProjectBuilder
+org.voltdb.plannodes.InsertPlanNode.m_nondeterminismDetail;QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.m_children;QueryPlanner
+org.voltdb.utils.InMemoryJarfile.getCRC();VoltCompiler
+org.voltdb.utils.InMemoryJarfile.getSha1Hash();VoltCompiler
+org.voltdb.plannodes.InsertPlanNode.setUpsert(boolean);QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.isUpsert();QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.getFieldMap();QueryPlanner
+org.voltdb.VoltTable.toFormattedString(boolean);ParameterSet
+org.voltdb.VoltTable.toFormattedString();ParameterSet
+org.voltdb.plannodes.InsertPlanNode.m_fieldMap;QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.setFieldMap(int[]);QueryPlanner
+org.voltdb.utils.CatalogUtil.addExportConfigToDRConflictsTable(org.voltdb.catalog.Catalog, org.voltdb.compiler.deploymentfile.ExportType);PropertyType
+org.voltdb.utils.CatalogUtil.getExportTarget(org.voltdb.compiler.deploymentfile.ExportConfigurationType);PropertyType
+org.voltdb.plannodes.InsertPlanNode.getMultiPartition();QueryPlanner
+org.voltdb.ParameterSet.paramFromPossibleJSON(java.lang.Object);VoltTable
+org.voltdb.ParameterSet.fromJSONArray(org.json_voltpatches.JSONArray);VoltTable
+org.voltdb.ParameterSet.fromJSONString(java.lang.String);VoltTable
+org.voltdb.plannodes.InsertPlanNode.m_multiPartition;QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.setMultiPartition(boolean);QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.setSourceIsPartitioned(boolean);QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.m_sourceIsPartitioned;QueryPlanner
+org.voltdb.plannodes.InsertPlanNode.getSourceIsPartitioned();QueryPlanner
+org.voltdb.rejoin.RejoinDataMessage.m_sourceHSId;StreamSnapshotDataReceiver
+org.voltdb.rejoin.RejoinDataMessage.getData();StreamSnapshotDataReceiver
+org.voltdb.rejoin.RejoinDataMessage.m_subject;StreamSnapshotDataReceiver
+org.voltdb.rejoin.RejoinDataMessage.getTargetId();StreamSnapshotDataReceiver
+org.voltdb.rejoin.RejoinDataMessage.m_targetId;StreamSnapshotDataReceiver
+org.voltcore.messaging.SiteFailureForwardMessage.m_sourceHSId;MeshArbiter
+org.voltcore.messaging.SiteFailureForwardMessage.m_survivors;MeshArbiter
+org.voltcore.messaging.SiteFailureForwardMessage.m_safeTxnIds;MeshArbiter
+org.voltcore.messaging.SiteFailureForwardMessage.m_failed;MeshArbiter
+org.voltdb.sysprocs.ValidatePartitioning.constructHashinatorMatchesTable();StatsAgent
+org.voltdb.sysprocs.ValidatePartitioning.CTYPE_ID;StatsAgent
+org.voltdb.sysprocs.ValidatePartitioning.constructPartitioningResultsTable();StatsAgent
+org.voltdb.SnapshotDeleteAgent.hostLog;StatsAgent
+org.voltdb.sysprocs.saverestore.SnapshotUtil.getRealPath(org.voltdb.sysprocs.saverestore.SnapshotPathType, java.lang.String);SnapshotDaemon
+org.voltdb.sysprocs.saverestore.SnapshotUtil.isSnapshotQueued(org.voltdb.VoltTable[]);SnapshotDaemon
+org.voltdb.sysprocs.saverestore.SnapshotUtil.transformRestoreParamsToJSON(org.voltdb.StoredProcedureInvocation);SnapshotDaemon
+org.voltdb.SnapshotDeleteAgent.dispatchSnapshotDelete(org.json_voltpatches.JSONObject);StatsAgent
+org.voltdb.SnapshotDeleteAgent.constructFragmentResultsTable();StatsAgent
+org.voltdb.SystemInformationAgent.collectSystemInformation(org.json_voltpatches.JSONObject);SystemInformation
+org.voltdb.SystemInformationAgent.parseParamsForSystemInformation(org.voltdb.ParameterSet, org.json_voltpatches.JSONObject);SystemInformation
+org.voltdb.messaging.DummyTransactionTaskMessage.m_sourceHSId;Iv2Trace
+org.voltdb.SystemInformationAgent.collectSystemInformationDeployment(org.voltdb.OpsAgent$PendingOpsRequest);SystemInformation
+org.voltdb.SystemInformationAgent.getCatalogContext();SystemInformation
+org.voltdb.messaging.DummyTransactionTaskMessage.toString();Iv2Trace
+org.voltdb.messaging.DummyTransactionTaskMessage.m_txnId;Iv2Trace
+org.voltdb.sysprocs.saverestore.ClusterSaveFileState.constructEmptySaveFileStateVoltTable();TableStats
+org.voltdb.iv2.DummyTransactionTask.generateDummyResponse();DummyTransactionResponseMessage
+org.voltdb.plannodes.IndexCountPlanNode.createOrNull(org.voltdb.plannodes.IndexScanPlanNode, org.voltdb.plannodes.AggregatePlanNode);IndexScanPlanNode
+org.voltdb.PartitionDRGateway.onSuccessfulMPCall(long, long, long, int, org.voltdb.StoredProcedureInvocation, org.voltdb.ClientResponseImpl);CompleteTransactionTask
+org.voltdb.common.NodeState.hashCode();HostCriteria
+org.voltcore.agreement.ArbitrationStrategy.accept(org.voltcore.agreement.ArbitrationStrategy$Visitor, java.lang.Object);AgreementSeeker
+org.voltdb.types.GeographyPointValue.getLengthInBytes();VoltType
+org.voltdb.CLIConfig.readPasswordIfNeeded(java.lang.String, java.lang.String, java.lang.String);SQLCommand
+org.voltcore.logging.VoltLog4jLogger.static {};ShutdownHooks
+org.voltdb.InvocationDispatcher.asynchronouslyDetermineLocalReplicas();ClientInterface
+org.voltdb.utils.MiscUtils.isBindable(int);PortGenerator
+org.voltdb.groovy.GroovyScriptProcedureDelegate.buildTable(java.util.Map, groovy.lang.Closure);TableBuilder
+org.voltdb.SnapshotDeleteAgent.parseParams(org.voltdb.ParameterSet, org.json_voltpatches.JSONObject);SnapshotScanAgent
+org.voltdb.export.ExportDataSource.closeAndDelete();StandaloneExportGeneration
+org.voltdb.planner.ParsedUpdateStmt.m_sql;PlanAssembler
+org.voltdb.utils.VoltFile.moveSubRootContents(java.io.File, java.io.File);DBBPool
+org.voltdb.iv2.SpScheduler.processDurabilityChecks(org.voltdb.CommandLog$CompletionChecks);SpDurabilityListener

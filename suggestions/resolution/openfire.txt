@@ -1,0 +1,30 @@
+org.jivesoftware.openfire.container.PluginManager.getDescription(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getAuthor(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getMinServerVersion(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getLicense(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getVersion(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getName(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getDatabaseVersion(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.container.PluginManager.getDatabaseKey(org.jivesoftware.openfire.container.Plugin);PluginMetadataHelper
+org.jivesoftware.openfire.http.HttpBindManager.getJavaScriptUrl();HttpBindStatus
+org.jivesoftware.openfire.http.HttpBindManager.getHttpBindUnsecureAddress();HttpBindStatus
+org.jivesoftware.openfire.http.HttpBindManager.bindPort;HttpBindStatus
+org.jivesoftware.openfire.http.HttpBindManager.setUnsecureHttpBindPort(int);HttpBindStatus
+org.jivesoftware.openfire.session.LocalIncomingServerSession.verifyReceivedKey(org.dom4j.Element);ServerDialback
+org.jivesoftware.openfire.session.LocalIncomingServerSession.validateSubsequentDomain(org.dom4j.Element);ServerDialback
+org.jivesoftware.openfire.session.LocalIncomingServerSession.createSession(java.lang.String, org.dom4j.io.XMPPPacketReader, org.jivesoftware.openfire.net.SocketConnection);ConnectionType
+org.jivesoftware.openfire.session.LocalIncomingServerSession.Log;ConnectionType
+org.jivesoftware.openfire.session.LocalIncomingServerSession.conn;ConnectionType
+org.jivesoftware.openfire.entitycaps.EntityCapabilities.getHashAttribute();EntityCapabilitiesManager
+org.jivesoftware.openfire.entitycaps.EntityCapabilities.setHashAttribute(java.lang.String);EntityCapabilitiesManager
+org.jivesoftware.openfire.entitycaps.EntityCapabilities.hashAttribute;EntityCapabilitiesManager
+org.jivesoftware.openfire.SessionManager.getSessions(org.jivesoftware.openfire.SessionResultFilter);SessionResultFilter
+org.jivesoftware.openfire.user.UserNotFoundException.toString();AuthorizationManager
+org.jivesoftware.database.DbConnectionManager.getTestSQL(java.lang.String);DefaultConnectionProvider
+org.jivesoftware.openfire.http.HttpBindServlet.getIntAttribute(java.lang.String, int);HttpSession
+org.jivesoftware.openfire.group.GroupManager.getGroup(org.xmpp.packet.JID);GroupJID
+org.jivesoftware.openfire.container.PluginClassLoader.getURLs();PluginServlet
+org.jivesoftware.util.WebManager.getSecurityAuditManager();SecurityAuditManager
+org.jivesoftware.util.XMLProperties.setProperties(java.util.Map);JiveGlobals
+org.jivesoftware.util.JiveProperties.putAll(java.util.Map);JiveGlobals
+org.jivesoftware.openfire.pubsub.cluster.FlushTask.run();PubSubPersistenceManager

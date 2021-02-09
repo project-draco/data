@@ -1,4 +1,3 @@
-data/clusters/co-change/paretto/cgeo.mdg
 main_src_cgeo_geocaching_connector_oc_OCApiLiveConnector.java/[CN]/OCApiLiveConnector/[MT]/searchByViewport(Viewport,MapTokens)/body -> GCMap (depcount: 4, candidates: [{GCMap 0} {OCApiLiveConnector 0} {GCMap 4}])
 main_src_cgeo_geocaching_maps_mapsforge_MapsforgeMapView.java/[CN]/MapsforgeMapView/[MT]/repaintRequired(GeneralOverlay)/body -> CGeoMap (depcount: 4, candidates: [{CGeoMap 0} {MapsforgeMapView 0} {CompassActivity 0} {CompassApp 0} {CGeoMap 4} {CompassActivity 0} {CompassApp 0}])
 main_src_cgeo_geocaching_SearchActivity.java/[CN]/SearchActivity/[MT]/updateCoordinates()/body -> CoordinatesInputDialog (depcount: 18, candidates: [{SearchActivity 0} {cgeopoint 0} {CoordinatesInputDialog 0} {cgeopoint 0} {CoordinatesInputDialog 18}])

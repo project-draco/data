@@ -1,4 +1,3 @@
-data/clusters/co-change/paretto/corenlp.mdg
 src_edu_stanford_nlp_parser_shiftreduce_ShiftReduceTestOptions.java/[CN]/ShiftReduceTestOptions/[FE]/beamSize -> ShiftReduceTrainOptions (depcount: 24, candidates: [{Options 0} {ShiftReduceTestOptions 0} {ShiftReduceTrainOptions 0} {Morpha 0} {Options 16} {ShiftReduceTrainOptions 24}])
 src_edu_stanford_nlp_hcoref_md_HybridCorefMentionFinder.java/[CN]/HybridCorefMentionFinder/[MT]/extractNamedEntityMentions(CoreMap,List<Mention>,Set<IntPair>,Set<IntPair>)/body -> Preprocessor (depcount: 10, candidates: [{Preprocessor 0} {HybridCorefMentionFinder 0} {CoreMapExpressionExtractor 0} {CollapseUnaryTransformer 0} {EnglishGrammaticalStructure 0} {Preprocessor 10}])
 src_edu_stanford_nlp_pipeline_EntityMentionsAnnotator.java/[CN]/EntityMentionsAnnotator/[MT]/addAcronyms(Annotation,List<CoreMap>)/body -> AcronymMatcher (depcount: 4, candidates: [{EntityMentionsAnnotator 0} {AcronymMatcher 0} {AcronymMatcher 4}])

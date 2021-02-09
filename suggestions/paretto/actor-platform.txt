@@ -1,2 +1,1 @@
-data/clusters/co-change/paretto/actor-platform.mdg
 actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_help_HelpFragment.java/[CN]/HelpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body -> SignPhoneFragment (depcount: 4, candidates: [{SignPhoneFragment 0} {SignUpFragment 0} {GroupUsersFragment 0} {HelpFragment 0} {SignPhoneFragment 4} {SignUpFragment 4} {GroupUsersFragment 4}])

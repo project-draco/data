@@ -1,2 +1,1 @@
-data/clusters/co-change/paretto/processing.mdg
 app_src_processing_mode_java_JavaEditor.java/[CN]/JavaEditor/[MT]/buildHelpMenu()/body -> Editor (depcount: 2, candidates: [{Editor 0} {JavaEditor 0} {Editor 2}])

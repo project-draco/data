@@ -1,2 +1,1 @@
-data/clusters/co-change/paretto/libgdx.mdg
 gdx_src_com_badlogic_gdx_graphics_Color.java/[CN]/Color/[MT]/toFloatBits(int,int,int,int)/body -> Sprite (depcount: 8, candidates: [{Color 0} {ParticleEmitter 0} {Sprite 0} {Sprite 8}])

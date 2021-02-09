@@ -1,4 +1,3 @@
-data/clusters/co-change/paretto/hive.mdg
 ql_src_java_org_apache_hadoop_hive_ql_exec_mr_MapRedTask.java/[CN]/MapRedTask/[MT]/updateTaskMetrics(Metrics)/body -> TezTask (depcount: 4, candidates: [{MapRedTask 0} {TezTask 0} {TezTask 4}])
 ql_src_java_org_apache_hadoop_hive_ql_exec_tez_TezTask.java/[CN]/TezTask/[MT]/updateTaskMetrics(Metrics)/body -> MapRedTask (depcount: 4, candidates: [{MapRedTask 0} {TezTask 0} {MapRedTask 4}])
 ql_src_java_org_apache_hadoop_hive_ql_exec_spark_SparkUtilities.java/[CN]/SparkUtilities/[MT]/rddGraphToString(JavaPairRDD)/parameters -> ReduceTran (depcount: 56, candidates: [{SparkUtilities 0} {ReduceTran 0} {ReduceTran 56}])

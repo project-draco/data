@@ -1,4 +1,3 @@
-data/clusters/co-change/paretto/presto.mdg
 presto-verifier_src_main_java_com_facebook_presto_verifier_PrestoVerifierModule.java/[CN]/PrestoVerifierModule/[MT]/setup(Binder)/body -> PrestoVerifier (depcount: 4, candidates: [{PrestoVerifier 0} {PrestoVerifierModule 0} {PrestoVerifier 4}])
 presto-main_src_main_java_com_facebook_presto_sql_planner_plan_ChildReplacer.java/[CN]/ChildReplacer/[MT]/visitAggregation(AggregationNode,List<PlanNode>)/body -> SingleDistinctOptimizer (depcount: 4, candidates: [{SingleDistinctOptimizer 0} {ChildReplacer 0} {SingleDistinctOptimizer 4}])
 presto-main_src_main_java_com_facebook_presto_type_TimestampOperators.java/[CN]/TimestampOperators/[MT]/castFromSlice(ConnectorSession,Slice)/body -> TimestampWithTimeZoneOperators (depcount: 4, candidates: [{TimestampOperators 0} {TimestampWithTimeZoneOperators 0} {TimestampWithTimeZoneOperators 4}])

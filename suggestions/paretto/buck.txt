@@ -1,2 +1,1 @@
-data/clusters/co-change/paretto/buck.mdg
 src_com_facebook_buck_cxx_Omnibus.java/[CN]/Omnibus/[MT]/createUndefinedSymbolsArgs(BuildRuleParams,BuildRuleResolver,SourcePathResolver,CxxPlatform,Iterable<? extends SourcePath>)/body -> AppleBundleDescription (depcount: 2, candidates: [{Omnibus 0} {AppleBundleDescription 0} {AppleBundleDescription 2}])

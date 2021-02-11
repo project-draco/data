@@ -1,2 +1,1 @@
-data/clusters/co-change/paretto/android.mdg
 src_com_owncloud_android_utils_FileStorageUtils.java/[CN]/FileStorageUtils/[MT]/fillRemoteFile(OCFile)/body -> OCFile (depcount: 20, candidates: [{OCFile 0} {FileContentProvider 0} {FileStorageUtils 0} {OCFile 20}])

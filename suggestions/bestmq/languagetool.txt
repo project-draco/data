@@ -1,0 +1,1 @@
+languagetool-language-modules_fr_src_main_java_org_languagetool_language_French.java/[CN]/French/[MT]/getMaintainers()/body -> Russian (depcount: 4, candidates: [{Russian 0} {French 0} {Romanian 0} {Russian 4} {Romanian 4}])

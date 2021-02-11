@@ -1,0 +1,1 @@
+components_fabric8-arquillian_src_main_java_io_fabric8_arquillian_kubernetes_await_SessionPodsAreReady.java/[CN]/SessionPodsAreReady/[MT]/findLogFiles(File,String)/body -> PodWatcher (depcount: 4, candidates: [{SessionPodsAreReady 0} {PodWatcher 0} {PodWatcher 4}])

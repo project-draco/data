@@ -1,0 +1,1 @@
+src_plugins_gateway_src_java_org_jivesoftware_wildfire_gateway_protocols_irc_IRCTransport.java/[CN]/IRCTransport/[MT]/convertJabStatusToIRC(PresenceType,String)/body -> IRCListener (depcount: 8, candidates: [{BaseTransport 0} {IRCListener 0} {IRCTransport 0} {YahooSessionListener 0} {BaseTransport 2} {IRCListener 8} {YahooSessionListener 0}])

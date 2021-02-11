@@ -1,0 +1,1 @@
+src_org_geometerplus_android_fbreader_libraryService_SQLiteBooksDatabase.java/[CN]/SQLiteBooksDatabase/[MT]/saveStyle(HighlightingStyle)/body -> XMLSerializer (depcount: 6, candidates: [{SQLiteBooksDatabase 0} {XMLSerializer 0} {XMLSerializer 6}])

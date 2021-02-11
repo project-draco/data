@@ -1,0 +1,1 @@
+bbb-common-message_src_main_java_org_bigbluebutton_common_messages_Util.java/[CN]/Util/[MT]/extractCaptionHistory(JsonObject)/body -> CaptionService (depcount: 8, candidates: [{Util 0} {CaptionService 0} {EditCaptionHistoryMessage 0} {UpdateCaptionOwnerMessage 0} {CaptionService 8} {EditCaptionHistoryMessage 8} {UpdateCaptionOwnerMessage 8}])

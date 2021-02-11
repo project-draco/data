@@ -1,0 +1,2 @@
+actor-sdk_sdk-core-android_android-app_src_main_java_im_actor_Application.java/[CN]/Application/[MT]/onConfigureActorSDK()/body -> MessagesAdapter (depcount: 2, candidates: [{Application 0} {MessagesAdapter 0} {MessagesAdapter 2}])
+actor-sdk_sdk-core-android_android-sdk_src_main_java_im_actor_sdk_controllers_fragment_help_HelpFragment.java/[CN]/HelpFragment/[MT]/onCreateView(LayoutInflater,ViewGroup,Bundle)/body -> MembersAdapter (depcount: 4, candidates: [{MembersAdapter 0} {HelpFragment 0} {EditAboutFragment 0} {MembersAdapter 4} {EditAboutFragment 4}])

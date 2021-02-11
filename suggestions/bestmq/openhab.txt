@@ -1,0 +1,2 @@
+bundles_binding_org.openhab.binding.samsungac_src_main_java_org_binding_openhab_samsungac_communicator_ResponseParser.java/[CN]/ResponseParser/[MT]/isFirstLine(String)/body -> AirConditioner (depcount: 2, candidates: [{XMPPConnect 0} {AirConditioner 0} {ResponseParser 0} {SamsungAcBinding 0} {AirConditioner 2}])
+bundles_binding_org.openhab.binding.s300th_src_main_java_org_openhab_binding_s300th_internal_ParseUtils.java/[CN]/ParseUtils/[MT]/parseS300THAddress(String)/body -> S300THBinding (depcount: 8, candidates: [{ParseUtils 0} {S300THBinding 0} {S300THBinding 8}])

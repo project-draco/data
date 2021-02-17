@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	io.fabric8.selenium.forge.ProjectsPage::untilNextWizardPage(io.fabric8.selenium.WebDriverFacade, org.openqa.selenium.By):void	io.fabric8.selenium.WebDriverFacade	0/2	

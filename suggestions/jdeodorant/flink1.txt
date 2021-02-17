@@ -1,0 +1,8 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	org.apache.flink.api.common.io.BinaryInputFormat::createStatistics(java.util.List<org.apache.flink.core.fs.FileStatus>, org.apache.flink.api.common.io.FileInputFormat.FileBaseStatistics):org.apache.flink.api.common.io.BinaryInputFormat.SequentialStatistics	org.apache.flink.api.common.io.FileInputFormat.FileBaseStatistics	0/2	
+Move Method	org.apache.flink.api.common.io.FileInputFormat::getInflaterInputStreamFactory(org.apache.flink.core.fs.Path):org.apache.flink.api.common.io.compression.InflaterInputStreamFactory<?>	org.apache.flink.core.fs.Path	0/1	
+Move Method	org.apache.flink.types.Record::serializeHeader(org.apache.flink.types.Record.InternalDeSerializer, int[], int):void	org.apache.flink.types.Record.InternalDeSerializer	1/3	
+Move Method	org.apache.flink.api.common.Plan::registerCachedFile(java.lang.String, org.apache.flink.api.common.cache.DistributedCache.DistributedCacheEntry):void	org.apache.flink.api.common.cache.DistributedCache.DistributedCacheEntry	1/2	
+Move Method	org.apache.flink.api.common.operators.Ordering::getFieldNumber(int):java.lang.Integer	org.apache.flink.api.common.operators.util.FieldList	1/2	
+Move Method	org.apache.flink.api.common.operators.Ordering::getFieldPositions():int[]	org.apache.flink.api.common.operators.util.FieldList	1/2	
+Move Method	org.apache.flink.api.common.operators.Ordering::groupsFields(org.apache.flink.api.common.operators.util.FieldSet):boolean	org.apache.flink.api.common.operators.util.FieldList	1/2	

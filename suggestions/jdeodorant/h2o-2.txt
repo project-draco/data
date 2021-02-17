@@ -1,0 +1,53 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	hex.FrameSplitter::makeTemplates(water.fvec.Frame, float[]):water.fvec.Vec[][]	water.fvec.Frame	0/5	
+Move Method	hex.gbm.DTree.TreeJCodeGen::closure(water.util.SB):void	water.util.SB	0/3	
+Move Method	water.H2ONode::record_task_answer(water.RPC.RPCCall):void	water.RPC.RPCCall	0/3	
+Move Method	water.api.TutorialWorkflow::decorateActiveStep(water.api.TutorialWorkflow.TutorStep, java.lang.StringBuilder):void	water.api.TutorialWorkflow.TutorStep	0/2	
+Move Method	hex.gbm.DTree.TreeJCodeGen::preamble(water.util.SB, int):void	water.util.SB	0/1	
+Move Method	hex.glm.LSMSolver::grad(hex.gram.Gram, double[], double[]):double[]	hex.gram.Gram	0/1	
+Move Method	hex.singlenoderf.DABuilder::getRowCount(water.fvec.Frame):int	water.fvec.Frame	0/1	
+Move Method	hex.singlenoderf.DABuilder::getChunkId(water.fvec.Frame):long	water.fvec.Frame	0/1	
+Move Method	hex.singlenoderf.SpeeDRF.DRFTask::howManyRPC(water.fvec.Frame):int[]	water.fvec.Frame	0/1	
+Move Method	water.api.Inspect2::infoLink(water.Key):java.lang.String	water.Key	0/1	
+Move Method	water.ga.GoogleAnalytics::getDefaultMaxPerRoute(water.ga.GoogleAnalyticsConfig):int	water.ga.GoogleAnalyticsConfig	0/1	
+Move Method	water.ga.GoogleAnalytics::gatherStats(water.ga.GoogleAnalyticsRequest):void	water.ga.GoogleAnalyticsStats	1/7	
+Move Method	water.ga.GoogleAnalytics::createHttpClient(water.ga.GoogleAnalyticsConfig):org.apache.http.client.HttpClient	water.ga.GoogleAnalyticsConfig	1/5	
+Move Method	hex.glm.GLM2::computeIntercept(hex.FrameTask.DataInfo, double, water.fvec.Vec, water.fvec.Vec):double	hex.FrameTask.DataInfo	1/4	
+Move Method	hex.la.Matrix::mult(water.fvec.Frame):water.fvec.Frame	water.fvec.Frame	1/4	
+Move Method	hex.singlenoderf.Data::filterVal3(int[], hex.singlenoderf.Statistic, int, int):void	hex.singlenoderf.Statistic	1/4	
+Move Method	hex.singlenoderf.Statistic::isColumnUsable(hex.singlenoderf.Data, int):boolean	hex.singlenoderf.Data	1/4	
+Move Method	water.Model::score(water.fvec.Frame, boolean, int):float[]	water.fvec.Frame	1/4	
+Move Method	hex.Layer::momentum(long):float	hex.NeuralNet	1/3	
+Move Method	hex.Summary2::add(water.fvec.Chunk):hex.Summary2	water.fvec.Chunk	1/3	
+Move Method	hex.la.Matrix::outerProd():water.fvec.Frame	water.fvec.Frame	1/3	
+Move Method	hex.la.Matrix::trans():water.fvec.Frame	water.fvec.Frame	1/3	
+Move Method	jsr166y.ForkJoinPool::runWorker(jsr166y.ForkJoinPool.WorkQueue):void	jsr166y.ForkJoinPool.WorkQueue	1/3	
+Move Method	hex.Layer::rate(long):float	hex.NeuralNet	1/2	
+Move Method	hex.Quantiles::add(water.fvec.Chunk):hex.Quantiles	water.fvec.Chunk	1/2	
+Move Method	hex.deeplearning.Neurons::rate(long):float	hex.deeplearning.DeepLearning	1/2	
+Move Method	hex.gbm.DTree.DecidedNode::pred(int):double	hex.gbm.DTree.Split	1/2	
+Move Method	hex.singlenoderf.SpeeDRFModel::colMap(water.fvec.Frame):int[]	water.fvec.Frame	1/2	
+Move Method	jsr166y.ForkJoinPool::helpJoinOnce(jsr166y.ForkJoinPool.WorkQueue, jsr166y.ForkJoinTask<?>):int	jsr166y.ForkJoinPool.WorkQueue	1/2	
+Move Method	water.Job.ColumnsJob::selectFrame(water.fvec.Frame):water.fvec.Frame	water.fvec.Frame	1/2	
+Move Method	water.fvec.FrameCreator.FrameRandomizer::setSeed(java.util.Random, int, long):void	hex.CreateFrame	1/2	
+Move Method	water.fvec.ParseDataset2.MultiFileParseTask::streamParse(java.io.InputStream, water.parser.CustomParser.ParserSetup, water.fvec.ParseDataset2.FVecDataOut, water.fvec.ParseDataset2.ParseProgressMonitor):water.fvec.ParseDataset2.FVecDataOut	water.parser.CustomParser.ParserSetup	1/2	
+Move Method	water.fvec.Vec.Writer::close():void	water.fvec.Vec	1/2	
+Move Method	water.nbhm.NonBlockingSetInt::writeObject(java.io.ObjectOutputStream):void	water.nbhm.NonBlockingSetInt.NBSI	1/2	
+Move Method	water.serial.BinarySerializer::saveHeader(T, water.AutoBuffer):water.AutoBuffer	water.AutoBuffer	1/2	
+Move Method	water.serial.BinarySerializer::loadHeader(water.AutoBuffer):T	water.AutoBuffer	1/2	
+Move Method	hex.deeplearning.Neurons.Input::setInput(long, double[]):void	hex.FrameTask.DataInfo	2/8	
+Move Method	water.Model::calcError(water.fvec.Frame, water.fvec.Vec, water.fvec.Frame, water.fvec.Frame, java.lang.String, boolean, int, water.api.ConfusionMatrix, water.api.AUC, water.api.HitRatio):double	water.api.ConfusionMatrix	2/8	
+Move Method	hex.gbm.DTree.TreeModel::generateHTMLTreeStats(java.lang.StringBuilder):void	hex.gbm.DTree.TreeModel.TreeStats	2/7	
+Move Method	hex.glm.GLMModelView::val2HTML(hex.glm.GLMModel.Submodel, hex.glm.GLMValidation, java.lang.StringBuilder):void	hex.glm.GLMValidation	2/7	
+Move Method	water.fvec.NewChunk.Value::add2Chunk(water.fvec.NewChunk):void	water.fvec.NewChunk	2/7	
+Move Method	water.Model::toJavaDOMAINS(water.util.SB, water.util.SB):water.util.SB	water.util.SB	2/6	
+Move Method	hex.FrameExtractor::makeTemplates():water.fvec.Vec[][]	water.fvec.Frame	2/5	
+Move Method	hex.singlenoderf.SpeeDRF.DRFTask::canLoadAll(water.fvec.Frame, hex.singlenoderf.SpeeDRF.DRFTask.ChunkAllocInfo):boolean	water.fvec.Frame	2/4	
+Move Method	water.exec.Env::addRef(water.fvec.Vec):water.fvec.Vec	water.fvec.Vec	2/4	
+Move Method	hex.deeplearning.DeepLearning::reBalance(water.fvec.Frame, boolean):water.fvec.Frame	water.fvec.Frame	2/3	
+Move Method	hex.deeplearning.Neurons::compute_sparsity():void	hex.deeplearning.Neurons.DenseVector	2/3	
+Move Method	hex.deeplearning.Neurons::momentum(long):float	hex.deeplearning.DeepLearning	2/3	
+Move Method	hex.gbm.DTree.DecidedNode::bin(water.fvec.Chunk[], int):int	hex.gbm.DTree.Split	2/3	
+Move Method	hex.gbm.SharedTreeModelBuilder.ScoreBuildHistogram::score_decide(water.fvec.Chunk[], water.fvec.Chunk, water.fvec.Chunk, water.fvec.Chunk, int[]):void	water.fvec.Chunk	2/3	
+Move Method	water.Model::toJavaSuper(water.util.SB):water.util.SB	water.util.SB	2/3	
+Move Method	water.api.TutorialWorkflow::decorateWorkflow(water.api.TutorialWorkflow.TutorWorkflow, java.lang.StringBuilder, int):void	water.api.TutorialWorkflow.TutorWorkflow	2/3	

@@ -1,0 +1,54 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.jme3.scene.instancing.InstancedGeometry::updateInstance(com.jme3.math.Matrix4f, float[], int, com.jme3.math.Matrix3f, com.jme3.math.Quaternion):void	com.jme3.math.Matrix4f	0/13	
+Move Method	com.jme3.math.Eigen3f::scaleMatrix(com.jme3.math.Matrix3f):float	com.jme3.math.Matrix3f	0/7	
+Move Method	com.jme3.renderer.queue.RenderQueue::renderGeometryList(com.jme3.renderer.queue.GeometryList, com.jme3.renderer.RenderManager, com.jme3.renderer.Camera, boolean):void	com.jme3.renderer.queue.GeometryList	0/5	
+Move Method	com.jme3.material.plugins.ShaderNodeLoaderDelegate::checkTypes(com.jme3.shader.VariableMapping, com.jme3.util.blockparser.Statement):void	com.jme3.shader.VariableMapping	0/4	
+Move Method	com.jme3.bounding.BoundingSphere::getMaxAxis(com.jme3.math.Vector3f):float	com.jme3.math.Vector3f	0/3	
+Move Method	com.jme3.collision.bih.BIHTree::setMinMax(com.jme3.bounding.BoundingBox, boolean, int, float):void	com.jme3.bounding.BoundingBox	0/3	
+Move Method	com.jme3.material.plugins.ShaderNodeLoaderDelegate::updateRightTypeFromLeftType(com.jme3.shader.VariableMapping):void	com.jme3.shader.VariableMapping	0/3	
+Move Method	com.jme3.animation.SkeletonControl::applySkinning(com.jme3.scene.Mesh, com.jme3.math.Matrix4f[]):void	com.jme3.scene.Mesh	0/2	
+Move Method	com.jme3.animation.SkeletonControl::applySkinningTangents(com.jme3.scene.Mesh, com.jme3.math.Matrix4f[], com.jme3.scene.VertexBuffer):void	com.jme3.scene.Mesh	0/2	
+Move Method	com.jme3.collision.bih.BIHTree::getMinMax(com.jme3.bounding.BoundingBox, boolean, int):float	com.jme3.bounding.BoundingBox	0/2	
+Move Method	com.jme3.math.Eigen3f::positiveRank(com.jme3.math.Matrix3f, float[], com.jme3.math.Vector3f):boolean	com.jme3.math.Matrix3f	0/2	
+Move Method	com.jme3.shader.Glsl100ShaderGenerator::fixInPositionType(com.jme3.shader.ShaderNodeVariable):void	com.jme3.shader.ShaderNodeVariable	0/2	
+Move Method	com.jme3.material.MatParam::getWrapMode(com.jme3.texture.Texture, com.jme3.texture.Texture.WrapAxis):java.lang.String	com.jme3.texture.Texture	0/1	
+Move Method	com.jme3.shader.Glsl100ShaderGenerator::getAppendableNameSpace(com.jme3.shader.ShaderNodeVariable):java.lang.String	com.jme3.shader.ShaderNodeVariable	0/1	
+Move Method	com.jme3.shader.Glsl100ShaderGenerator::replace(java.lang.String, com.jme3.shader.ShaderNodeVariable, java.lang.String):java.lang.String	com.jme3.shader.ShaderNodeVariable	0/1	
+Move Method	com.jme3.shader.Glsl100ShaderGenerator::isWorldOrMaterialParam(com.jme3.shader.ShaderNodeVariable):boolean	com.jme3.shader.ShaderNodeVariable	0/1	
+Move Method	com.jme3.font.Letters::lineWrap(com.jme3.font.LetterQuad):void	com.jme3.font.LetterQuad	1/5	
+Move Method	com.jme3.scene.Mesh::getTriangle(int, com.jme3.math.Triangle):void	com.jme3.math.Triangle	1/5	
+Move Method	com.jme3.shadow.AbstractShadowRenderer::initForcedRenderState():void	com.jme3.material.RenderState	1/4	
+Move Method	com.jme3.asset.plugins.HttpZipLocator::openStream(com.jme3.asset.plugins.HttpZipLocator.ZipEntry2):java.io.InputStream	com.jme3.asset.plugins.HttpZipLocator.ZipEntry2	1/3	
+Move Method	com.jme3.cinematic.MotionPath::getWayPointIndexForDistance(float, com.jme3.math.Vector2f):com.jme3.math.Vector2f	com.jme3.math.Spline	1/3	
+Move Method	com.jme3.collision.SweepSphere::isPointInTriangle(com.jme3.math.Vector3f, com.jme3.math.AbstractTriangle):boolean	com.jme3.math.AbstractTriangle	1/3	
+Move Method	com.jme3.collision.SweepSphere::collideWithVertex(com.jme3.math.Vector3f, com.jme3.math.Vector3f, float, com.jme3.math.Vector3f, float):float	com.jme3.math.Vector3f	1/3	
+Move Method	com.jme3.collision.bih.BIHTree::getTriangle(int, com.jme3.math.Vector3f, com.jme3.math.Vector3f, com.jme3.math.Vector3f):void	com.jme3.math.Vector3f	1/3	
+Move Method	com.jme3.effect.ParticleEmitter::setGravity(float, float, float):void	com.jme3.math.Vector3f	1/3	
+Move Method	com.jme3.light.DirectionalLight::setDirection(com.jme3.math.Vector3f):void	com.jme3.math.Vector3f	1/3	
+Move Method	com.jme3.material.logic.SinglePassAndImageBasedLightingLogic::extractIndirectLights(com.jme3.light.LightList, boolean):com.jme3.light.LightProbe	com.jme3.math.ColorRGBA	1/3	
+Move Method	com.jme3.material.logic.SinglePassAndImageBasedLightingLogic::extractIndirectLights(com.jme3.light.LightList, boolean):com.jme3.light.LightProbe	com.jme3.light.LightList	1/3	
+Move Method	com.jme3.material.plugins.ShaderNodeLoaderDelegate::updateRightFromUniforms(com.jme3.material.MatParam, com.jme3.shader.VariableMapping, java.util.Map<java.lang.String,com.jme3.material.plugins.ShaderNodeLoaderDelegate.DeclaredVariable>, com.jme3.util.blockparser.Statement):boolean	com.jme3.material.MatParam	1/3	
+Move Method	com.jme3.environment.util.CubeMapWrapper::getPixel(int, int, int, com.jme3.math.ColorRGBA):com.jme3.math.ColorRGBA	com.jme3.texture.image.DefaultImageRaster	1/2	
+Move Method	com.jme3.environment.util.CubeMapWrapper::setPixel(int, int, int, com.jme3.math.ColorRGBA):void	com.jme3.texture.image.DefaultImageRaster	1/2	
+Move Method	com.jme3.font.BitmapFont::getLineHeight(com.jme3.font.StringBlock):float	com.jme3.font.BitmapCharacterSet	1/2	
+Move Method	com.jme3.material.Technique::applyOverrides(com.jme3.shader.DefineList, com.jme3.util.SafeArrayList<com.jme3.material.MatParamOverride>):void	com.jme3.material.TechniqueDef	1/2	
+Move Method	com.jme3.material.plugins.ShaderNodeLoaderDelegate::addDefine(java.lang.String, com.jme3.shader.VarType):void	com.jme3.material.TechniqueDef	1/2	
+Move Method	com.jme3.math.Ray::setDirection(com.jme3.math.Vector3f):void	com.jme3.math.Vector3f	1/2	
+Move Method	com.jme3.renderer.RenderManager::renderGeometryList(com.jme3.renderer.queue.GeometryList):void	com.jme3.renderer.queue.GeometryList	1/2	
+Move Method	com.jme3.scene.Mesh::scaleTextureCoordinates(com.jme3.math.Vector2f):void	com.jme3.math.Vector2f	1/2	
+Move Method	com.jme3.shader.Glsl100ShaderGenerator::appendOutput(java.lang.StringBuilder, java.lang.String, com.jme3.shader.ShaderNodeVariable):void	com.jme3.shader.ShaderNodeVariable	1/2	
+Move Method	com.jme3.shader.Glsl150ShaderGenerator::initVariable(java.lang.StringBuilder, com.jme3.shader.ShaderNodeVariable, java.lang.String):void	com.jme3.shader.ShaderNodeVariable	1/2	
+Move Method	jme3tools.optimize.TextureAtlas::applyCoords(com.jme3.scene.Geometry, int, com.jme3.scene.Mesh):boolean	com.jme3.scene.Geometry	1/2	
+Move Method	com.jme3.renderer.opengl.TextureUtil::uploadSubTexture(com.jme3.texture.Image, int, int, int, int, boolean):void	com.jme3.texture.Image	2/8	
+Move Method	com.jme3.input.FlyByCamera::zoomCamera(float):void	com.jme3.renderer.Camera	2/7	
+Move Method	com.jme3.math.Eigen3f::computeRoots(com.jme3.math.Matrix3f, double[]):void	com.jme3.math.Matrix3f	2/6	
+Move Method	com.jme3.input.InputManager::onJoyButtonEventQueued(com.jme3.input.event.JoyButtonEvent):void	com.jme3.input.event.JoyButtonEvent	2/4	
+Move Method	com.jme3.input.InputManager::onKeyEventQueued(com.jme3.input.event.KeyInputEvent):void	com.jme3.input.event.KeyInputEvent	2/4	
+Move Method	com.jme3.scene.shape.AbstractBox::updateGeometry(com.jme3.math.Vector3f, com.jme3.math.Vector3f):void	com.jme3.math.Vector3f	2/4	
+Move Method	com.jme3.cinematic.Cinematic::removeCinematicEvent(com.jme3.cinematic.KeyFrame, com.jme3.cinematic.events.CinematicEvent):boolean	com.jme3.cinematic.KeyFrame	2/3	
+Move Method	com.jme3.input.InputManager::onMouseMotionEventQueued(com.jme3.input.event.MouseMotionEvent):void	com.jme3.input.event.MouseMotionEvent	2/3	
+Move Method	com.jme3.input.InputManager::onMouseButtonEventQueued(com.jme3.input.event.MouseButtonEvent):void	com.jme3.input.event.MouseButtonEvent	2/3	
+Move Method	com.jme3.material.plugins.J3MLoader::readValueParam(java.lang.String):void	com.jme3.material.Material	2/3	
+Move Method	com.jme3.math.Ray::intersects(com.jme3.math.Vector3f, com.jme3.math.Vector3f, com.jme3.math.Vector3f):float	com.jme3.math.Vector3f	2/3	
+Move Method	com.jme3.renderer.RenderManager::setViewProjection(com.jme3.renderer.Camera, boolean):void	com.jme3.renderer.Camera	2/3	
+Move Method	com.jme3.scene.shape.Line::updatePoints(com.jme3.math.Vector3f, com.jme3.math.Vector3f):void	com.jme3.math.Vector3f	2/3	

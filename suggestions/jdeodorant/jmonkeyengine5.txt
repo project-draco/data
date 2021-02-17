@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.jme3.cursors.plugins.CursorLoader::setJmeCursor(com.jme3.cursors.plugins.CursorLoader.CursorImageData):com.jme3.cursors.plugins.JmeCursor	com.jme3.cursors.plugins.CursorLoader.CursorImageData	0/7	

@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	groovy.json.JsonLexer::readingConstant(groovy.json.JsonTokenType, groovy.json.JsonToken):groovy.json.JsonToken	groovy.json.JsonToken	2/3	

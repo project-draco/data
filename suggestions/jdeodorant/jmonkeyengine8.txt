@@ -1,0 +1,6 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.jme3.network.rmi.RmiSerializer::writeMethodCall(java.nio.ByteBuffer, com.jme3.network.rmi.RemoteMethodCallMessage):void	com.jme3.network.rmi.RemoteMethodCallMessage	0/4	
+Move Method	com.jme3.network.rmi.ObjectStore::makeObjectDef(com.jme3.network.rmi.LocalObject):com.jme3.network.rmi.ObjectDef	com.jme3.network.rmi.LocalObject	0/3	
+Move Method	com.jme3.network.rmi.RmiSerializer::writeMethodReturn(java.nio.ByteBuffer, com.jme3.network.rmi.RemoteMethodReturnMessage):void	com.jme3.network.rmi.RemoteMethodReturnMessage	0/2	
+Move Method	com.jme3.network.rmi.RemoteObject::methodEquals(com.jme3.network.rmi.MethodDef, java.lang.reflect.Method):boolean	com.jme3.network.rmi.MethodDef	0/1	
+Move Method	com.jme3.network.rmi.RmiSerializer::writeObjectDef(java.nio.ByteBuffer, com.jme3.network.rmi.ObjectDef):void	com.jme3.network.rmi.ObjectDef	2/3	

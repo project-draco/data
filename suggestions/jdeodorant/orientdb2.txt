@@ -1,0 +1,4 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	com.orientechnologies.orient.server.distributed.scenariotest.AbstractScenarioTest::simulateServerFault(com.orientechnologies.orient.server.distributed.ServerRun, java.lang.String):void	com.orientechnologies.orient.server.distributed.ServerRun	0/2	
+Move Method	com.orientechnologies.orient.server.distributed.AbstractServerClusterTest::getDistributedServerConfiguration(com.orientechnologies.orient.server.distributed.ServerRun):java.lang.String	com.orientechnologies.orient.server.distributed.ServerRun	0/1	
+Move Method	com.orientechnologies.orient.server.distributed.scenariotest.AbstractScenarioTest::getPlocalDatabaseURL(com.orientechnologies.orient.server.distributed.ServerRun, java.lang.String):java.lang.String	com.orientechnologies.orient.server.distributed.ServerRun	0/1	

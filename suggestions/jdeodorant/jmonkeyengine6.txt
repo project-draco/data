@@ -1,0 +1,2 @@
+Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
+Move Method	jme3test.input.combomoves.ComboMoveExecution::isStateSatisfied(java.util.HashSet<java.lang.String>, float, jme3test.input.combomoves.ComboMove.ComboMoveState):boolean	jme3test.input.combomoves.ComboMove.ComboMoveState	1/3	

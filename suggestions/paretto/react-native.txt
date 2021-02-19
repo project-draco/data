@@ -1,0 +1,1 @@
+ReactAndroid_src_main_java_com_facebook_react_views_textinput_ReactTextInputManager.java/[CN]/ReactTextInputManager/[MT]/setInlineImageLeft(ReactEditText,String)/body -> ReactImageManager (depcount: 10, candidates: [{ReactImageManager 0} {ReactTextInputManager 0} {ReactImageManager 10}])

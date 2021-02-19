@@ -1,0 +1,55 @@
+com.jme3.renderer.android.RendererUtil.checkEGLError(javax.microedition.khronos.egl.EGL10);AndroidConfigChooser
+com.jme3.scene.plugins.blender.meshes.MeshHelper.selectVertexColorSubset(com.jme3.scene.plugins.blender.meshes.Face, java.lang.Integer[]);Face
+com.jme3.scene.plugins.blender.meshes.MeshHelper.selectUVSubset(com.jme3.scene.plugins.blender.meshes.Face, java.lang.Integer[]);Face
+com.jme3.scene.plugins.blender.curves.CurvesHelper.transformToFirstLineOfBevelPoints(com.jme3.math.Vector3f[], com.jme3.math.Vector3f, com.jme3.math.Vector3f);CurvesTemporalMesh
+com.jme3.scene.plugins.blender.curves.CurvesHelper.transformBevel(com.jme3.math.Vector3f[], com.jme3.math.Vector3f, com.jme3.math.Vector3f, com.jme3.math.Vector3f);CurvesTemporalMesh
+com.jme3.scene.plugins.blender.curves.CurvesHelper.fixUpAxis;CurvesTemporalMesh
+com.jme3.scene.plugins.blender.landscape.LandscapeHelper.toSky(com.jme3.scene.plugins.blender.file.Structure);TexturePixel
+com.jme3.scene.plugins.blender.landscape.LandscapeHelper.blenderContext;TexturePixel
+com.jme3.scene.plugins.blender.textures.UVCoordinatesGenerator.isTextureCoordinateTypeSupported(com.jme3.scene.plugins.blender.textures.UVCoordinatesGenerator$UVCoordinatesType);CombinedTexture
+com.jme3.scene.plugins.blender.constraints.ConstraintHelper.bakeConstraints(com.jme3.scene.plugins.blender.BlenderContext);BoneContext
+com.jme3.math.Matrix4f.toRotationQuat();Transform
+com.jme3.math.Matrix4f.toScaleVector();Transform
+com.jme3.texture.TextureCubeMap.createEmptyLayeredImage(int, int, int, com.jme3.texture.Image$Format);Texture2D
+com.jme3.texture.TextureCubeMap.TextureCubeMap(int, int, com.jme3.texture.Image$Format);Texture2D
+com.jme3.scene.instancing.InstancedNode.getGeometryStartIndex2(com.jme3.scene.Geometry);InstancedGeometry
+com.jme3.scene.instancing.InstancedNode.setGeometryStartIndex2(com.jme3.scene.Geometry, int);InstancedGeometry
+com.jme3.material.MatParamOverride.type;Technique
+com.jme3.material.MatParamOverride.isEnabled();Technique
+com.jme3.font.BitmapCharacterSet.merge(com.jme3.font.BitmapCharacterSet);BitmapCharacter
+com.jme3.font.BitmapCharacterSet.write(com.jme3.export.JmeExporter);BitmapCharacter
+com.jme3.font.BitmapCharacterSet.read(com.jme3.export.JmeImporter);BitmapCharacter
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.updateLightListUniforms(com.jme3.shader.Shader, com.jme3.scene.Geometry, com.jme3.light.LightList, int, com.jme3.renderer.RenderManager, int, int);MikktspaceTangentGenerator
+com.jme3.scene.shape.Line.updatePoints(com.jme3.math.Vector3f, com.jme3.math.Vector3f);EnvMapUtils
+com.jme3.math.FastMath.counterClockwise(com.jme3.math.Vector2f, com.jme3.math.Vector2f, com.jme3.math.Vector2f);Vector2f
+com.jme3.math.FastMath.pointInsideTriangle(com.jme3.math.Vector2f, com.jme3.math.Vector2f, com.jme3.math.Vector2f, com.jme3.math.Vector2f);Vector2f
+com.jme3.scene.shape.Line.updateGeometry(com.jme3.math.Vector3f, com.jme3.math.Vector3f);EnvMapUtils
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.lightProbe;MikktspaceTangentGenerator
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.singlePassLightingDefineId;MikktspaceTangentGenerator
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.nbLightsDefineId;MikktspaceTangentGenerator
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.ADDITIVE_LIGHT;MikktspaceTangentGenerator
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.static {};MikktspaceTangentGenerator
+com.jme3.scene.shape.Line.getStart();EnvMapUtils
+com.jme3.system.JmeSystemDelegate.getPlatform();Platform
+com.jme3.system.JmeSystemDelegate.is64Bit(java.lang.String);Platform
+com.jme3.scene.shape.Line.start;EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.generateIrradianceMap(com.jme3.math.Vector3f[], int, com.jme3.environment.util.EnvMapUtils$FixSeamsMethod, com.jme3.texture.TextureCubeMap);EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.sourceMap;EnvMapUtils
+com.jme3.math.Quaternion.fromRotationMatrix(com.jme3.math.Matrix3f);Matrix3f
+com.jme3.environment.generation.IrradianceMapGenerator.targetMapSize;EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.store;EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.run();EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.setGenerationParam(com.jme3.texture.TextureCubeMap, int, com.jme3.environment.util.EnvMapUtils$FixSeamsMethod, com.jme3.texture.TextureCubeMap);EnvMapUtils
+com.jme3.environment.generation.IrradianceMapGenerator.fixSeamsMethod;EnvMapUtils
+com.jme3.shader.UniformBinding.ordinal();UniformBindingManager
+com.jme3.shader.UniformBinding.valueOf(java.lang.String);TechniqueDef
+com.jme3.util.ListMap.hashCode();Material
+com.jme3.util.clone.ListCloneFunction.cloneObject(com.jme3.util.clone.Cloner, java.util.List);Cloner
+com.jme3.font.BitmapFont.createLabel(java.lang.String);BitmapText
+com.jme3.shader.ShaderUtils.multiplicityMatch(com.jme3.shader.VariableMapping);ShaderNodeVariable
+com.jme3.scene.debug.WireBox.makeGeometry(com.jme3.bounding.BoundingBox);BoundingBox
+com.jme3.math.FastMath.pow(float, float);Environment
+com.jme3.math.ColorRGBA.clone();ColorTags
+com.jme3.system.awt.PaintMode.ordinal();AwtPanel
+com.jme3.input.lwjgl.LwjglKeyInput.getInputTimeNanos();LwjglTimer
+com.jme3.network.service.rpc.RpcHostedService.getRpcConnection(com.jme3.network.HostedConnection);RmiHostedService

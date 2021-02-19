@@ -1,0 +1,47 @@
+groovy.json.JsonBuilder.invokeMethod(java.lang.String, java.lang.Object);JsonDelegate
+groovy.json.JsonParserType.ordinal();JsonSlurper
+groovy.json.internal.Chr.add(char[][]);CharBuf
+org.codehaus.groovy.control.ErrorCollector.addFatalError(org.codehaus.groovy.control.messages.Message);SourceUnit
+org.codehaus.groovy.control.ErrorCollector.addError(org.codehaus.groovy.syntax.SyntaxException, org.codehaus.groovy.control.SourceUnit);SourceUnit
+org.codehaus.groovy.control.ErrorCollector.addError(org.codehaus.groovy.control.messages.Message, boolean);SourceUnit
+org.codehaus.groovy.classgen.VariableScopeVisitor.findClassMember(org.codehaus.groovy.ast.ClassNode, java.lang.String);TypeSignatureParser
+org.codehaus.groovy.ast.expr.VariableExpression.THIS_EXPRESSION;EnumVisitor
+org.codehaus.groovy.classgen.VariableScopeVisitor.getPropertyName(org.codehaus.groovy.ast.MethodNode);TypeSignatureParser
+org.codehaus.groovy.ast.expr.VariableExpression.static {};EnumVisitor
+org.codehaus.groovy.ast.expr.VariableExpression.SUPER_EXPRESSION;EnumVisitor
+org.codehaus.groovy.ast.expr.VariableExpression.VariableExpression(java.lang.String);EnumVisitor
+org.codehaus.groovy.ast.tools.GeneralUtils.makeDescriptorWithoutReturnType(org.codehaus.groovy.ast.MethodNode);Verifier
+org.codehaus.groovy.ast.tools.GeneralUtils.getSuperNonPropertyFields(org.codehaus.groovy.ast.ClassNode);Verifier
+org.codehaus.groovy.ast.tools.GeneralUtils.getSuperPropertyFields(org.codehaus.groovy.ast.ClassNode);Verifier
+org.codehaus.groovy.reflection.ClassInfo.isSAM(java.lang.Class);CachedSAMClass
+org.codehaus.groovy.reflection.ClassInfo.createCachedClass(java.lang.Class, org.codehaus.groovy.reflection.ClassInfo);CachedSAMClass
+org.codehaus.groovy.transform.trait.TraitASTTransformation.createReceiverType(boolean, org.codehaus.groovy.ast.ClassNode);TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.DO_DYNAMIC;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.POST_TYPECHECKING_REPLACEMENT;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.copyClassAnnotations(org.codehaus.groovy.ast.ClassNode, org.codehaus.groovy.ast.ClassNode);TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.INVOKERHELPER_CLASSNODE;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.processField(org.codehaus.groovy.ast.FieldNode, org.codehaus.groovy.ast.MethodNode, org.codehaus.groovy.ast.MethodNode, org.codehaus.groovy.ast.ClassNode, org.codehaus.groovy.ast.ClassNode, java.util.Set);TraitReceiverTransformer
+org.codehaus.groovy.control.SourceUnit.failedWithUnexpectedEOF();ErrorCollector
+org.codehaus.groovy.control.SourceUnit.isEofToken(antlr.Token);ErrorCollector
+org.codehaus.groovy.reflection.MixinInMetaClass.findDefaultConstructor(org.codehaus.groovy.reflection.CachedClass);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.mixinClassesToMetaClass(groovy.lang.MetaClass, java.util.List);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.staticMethod(groovy.lang.MetaClass, java.util.List, org.codehaus.groovy.reflection.CachedMethod);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.getMixinInstance(java.lang.Object);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.constructor;ExpandoMetaClass
+org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation.castToBoolean(java.lang.Object);InvokerHelper
+org.codehaus.groovy.tools.shell.util.Preferences.verbosity;IO
+org.codehaus.groovy.ast.ConstructorNode.ConstructorNode(int, org.codehaus.groovy.ast.stmt.Statement);LazyASTTransformation
+org.codehaus.groovy.syntax.Reduction.newContainer();Token
+org.codehaus.groovy.ast.GenericsType.getParameterizedSuperClass(org.codehaus.groovy.ast.ClassNode);ExtendedVerifier
+org.codehaus.groovy.util.ReferenceType.HARD;ReferenceBundle
+org.codehaus.groovy.util.ReferenceType.PHANTOM;ReferenceBundle
+org.codehaus.groovy.classgen.asm.sc.StaticInvocationWriter.pushZero(org.objectweb.asm.MethodVisitor, org.codehaus.groovy.ast.ClassNode);StaticTypesStatementWriter
+org.codehaus.groovy.util.ReferenceType.static {};ReferenceBundle
+groovy.lang.GroovySystem.getVersion();ReleaseInfo
+org.codehaus.groovy.reflection.CachedMethod.cachedClass;CallSiteGenerator
+org.codehaus.groovy.util.ReferenceType.WEAK;ReferenceBundle
+groovy.lang.GroovyShell.main(java.lang.String[]);GroovyMain
+org.codehaus.groovy.util.ReferenceType.SOFT;ReferenceBundle
+org.codehaus.groovy.runtime.MethodRankHelper.getPropertySuggestionString(java.lang.String, java.lang.Class);ClassInfo
+org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.ast.stmt.SwitchStatement.SwitchStatement(org.codehaus.groovy.ast.expr.Expression);SynchronizedASTTransformation

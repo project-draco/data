@@ -1,0 +1,60 @@
+groovy.json.JsonOutput.EMPTY_LIST_CHARS;DefaultJsonGenerator
+groovy.json.JsonOutput.EMPTY_MAP_CHARS;DefaultJsonGenerator
+groovy.json.JsonOutput.EMPTY_STRING_CHARS;DefaultJsonGenerator
+groovy.json.StreamingJsonBuilder.StreamingJsonBuilder(java.io.Writer, java.lang.Object);JsonOutput
+groovy.json.JsonParserType.ordinal();JsonSlurper
+groovy.json.internal.Chr.add(char[][]);CharBuf
+org.codehaus.groovy.classgen.VariableScopeVisitor.findClassMember(org.codehaus.groovy.ast.ClassNode, java.lang.String);InvokeDynamicWriter
+org.codehaus.groovy.classgen.VariableScopeVisitor.getPropertyName(org.codehaus.groovy.ast.MethodNode);InvokeDynamicWriter
+org.codehaus.groovy.reflection.ClassInfo.isSAM(java.lang.Class);CachedSAMClass
+org.codehaus.groovy.reflection.ClassInfo.createCachedClass(java.lang.Class, org.codehaus.groovy.reflection.ClassInfo);CachedSAMClass
+org.codehaus.groovy.ast.expr.VariableExpression.THIS_EXPRESSION;EnumVisitor
+org.codehaus.groovy.ast.expr.VariableExpression.static {};EnumVisitor
+org.codehaus.groovy.ast.expr.VariableExpression.SUPER_EXPRESSION;EnumVisitor
+org.codehaus.groovy.ast.expr.VariableExpression.VariableExpression(java.lang.String);EnumVisitor
+org.codehaus.groovy.control.customizers.SourceAwareCustomizer.setBaseNameValidator(groovy.lang.Closure);SourceAwareCustomizerFactory
+org.codehaus.groovy.control.customizers.SourceAwareCustomizer.baseNameValidator;SourceAwareCustomizerFactory
+org.codehaus.groovy.control.customizers.SourceAwareCustomizer.acceptBaseName(java.lang.String);SourceAwareCustomizerFactory
+org.codehaus.groovy.transform.trait.TraitASTTransformation.createReceiverType(boolean, org.codehaus.groovy.ast.ClassNode);TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.DO_DYNAMIC;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.POST_TYPECHECKING_REPLACEMENT;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.copyClassAnnotations(org.codehaus.groovy.ast.ClassNode, org.codehaus.groovy.ast.ClassNode);TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.INVOKERHELPER_CLASSNODE;TraitReceiverTransformer
+org.codehaus.groovy.transform.trait.TraitASTTransformation.processField(org.codehaus.groovy.ast.FieldNode, org.codehaus.groovy.ast.MethodNode, org.codehaus.groovy.ast.MethodNode, org.codehaus.groovy.ast.ClassNode, org.codehaus.groovy.ast.ClassNode, java.util.Set);TraitReceiverTransformer
+org.codehaus.groovy.reflection.MixinInMetaClass.findDefaultConstructor(org.codehaus.groovy.reflection.CachedClass);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.mixinClassesToMetaClass(groovy.lang.MetaClass, java.util.List);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.staticMethod(groovy.lang.MetaClass, java.util.List, org.codehaus.groovy.reflection.CachedMethod);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.getMixinInstance(java.lang.Object);ExpandoMetaClass
+org.codehaus.groovy.reflection.MixinInMetaClass.constructor;ExpandoMetaClass
+org.codehaus.groovy.ast.stmt.ReturnStatement.static {};AssertStatement
+org.codehaus.groovy.ast.stmt.ReturnStatement.RETURN_NULL_OR_VOID;AssertStatement
+org.codehaus.groovy.util.ReferenceManager.getDefaultSoftBundle();ReferenceBundle
+org.codehaus.groovy.util.ReferenceManager.getDefaultWeakBundle();ReferenceBundle
+org.codehaus.groovy.runtime.typehandling.DefaultTypeTransformation.castToBoolean(java.lang.Object);InvokerHelper
+org.codehaus.groovy.transform.stc.Receiver.make(org.codehaus.groovy.ast.ClassNode);TraitTypeCheckingExtension
+org.codehaus.groovy.syntax.Reduction.newContainer();Token
+org.codehaus.groovy.tools.shell.util.Preferences.verbosity;IO
+org.codehaus.groovy.util.ReferenceType.HARD;ReferenceBundle
+org.codehaus.groovy.util.ReferenceType.WEAK;ReferenceBundle
+org.codehaus.groovy.util.ReferenceType.static {};ReferenceBundle
+org.codehaus.groovy.util.ReferenceType.PHANTOM;ReferenceBundle
+org.codehaus.groovy.classgen.asm.sc.StaticTypesWriterController.updateStaticCompileFlag(org.codehaus.groovy.ast.MethodNode);StaticInvocationWriter
+org.codehaus.groovy.ast.GenericsType.getParameterizedSuperClass(org.codehaus.groovy.ast.ClassNode);MethodCallExpression
+org.codehaus.groovy.ast.stmt.SwitchStatement.SwitchStatement(org.codehaus.groovy.ast.expr.Expression);TraitComposer
+groovy.lang.GroovySystem.getVersion();ReleaseInfo
+groovy.lang.GroovyShell.main(java.lang.String[]);GroovyMain
+org.codehaus.groovy.util.ReferenceType.SOFT;ReferenceBundle
+org.codehaus.groovy.runtime.MethodRankHelper.getPropertySuggestionString(java.lang.String, java.lang.Class);ClassInfo
+org.codehaus.groovy.runtime.dgmimpl.NumberNumberMinus.minus(java.lang.Number, java.lang.Number);NumberRange
+org.codehaus.groovy.runtime.dgmimpl.arrays.DoubleArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.ObjectArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.IntegerArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.ShortArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.BooleanArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayPutAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.ByteArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.CharacterArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite
+org.codehaus.groovy.runtime.dgmimpl.arrays.LongArrayGetAtMetaMethod.createPojoCallSite(org.codehaus.groovy.runtime.callsite.CallSite, groovy.lang.MetaClassImpl, groovy.lang.MetaMethod, java.lang.Class[], java.lang.Object, java.lang.Object[]);PojoMetaMethodSite

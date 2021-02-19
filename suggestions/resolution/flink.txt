@@ -1,0 +1,81 @@
+org.apache.flink.client.CliFrontend.setJobManagerAddressInConfig(org.apache.flink.configuration.Configuration, java.net.InetSocketAddress);DefaultCLI
+org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo.static {};SqlTimeSerializer
+org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo.DATE;SqlTimeSerializer
+org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo.getInfoFor(java.lang.Class);SqlTimeSerializer
+org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo.TIME;SqlTimeSerializer
+org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo.TIMESTAMP;SqlTimeSerializer
+org.apache.flink.api.common.typeutils.base.DateComparator.putNormalizedKeyDate(java.util.Date, org.apache.flink.core.memory.MemorySegment, int, int);SqlTimestampComparator
+org.apache.flink.api.common.typeutils.base.DateComparator.putNormalizedKey(java.util.Date, org.apache.flink.core.memory.MemorySegment, int, int);SqlTimestampComparator
+org.apache.flink.api.common.typeutils.base.BigIntSerializer.writeBigInteger(java.math.BigInteger, org.apache.flink.core.memory.DataOutputView);BigDecSerializer
+org.apache.flink.api.common.typeutils.base.BigIntSerializer.serialize(java.math.BigInteger, org.apache.flink.core.memory.DataOutputView);BigDecSerializer
+org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArraySerializer.INSTANCE;PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArraySerializer.INSTANCE;PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArraySerializer.INSTANCE;PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArraySerializer.static {};PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArraySerializer.static {};PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArraySerializer.static {};PrimitiveArrayTypeInfo
+org.apache.flink.api.common.typeutils.base.NullValueSerializer.copy(org.apache.flink.types.NullValue);NullValue
+org.apache.flink.api.common.typeutils.base.NullValueSerializer.copy(org.apache.flink.types.NullValue, org.apache.flink.types.NullValue);NullValue
+org.apache.flink.api.common.typeutils.base.NullValueSerializer.deserialize(org.apache.flink.types.NullValue, org.apache.flink.core.memory.DataInputView);NullValue
+org.apache.flink.api.common.typeutils.base.BooleanValueSerializer.copy(org.apache.flink.types.BooleanValue, org.apache.flink.types.BooleanValue);BooleanValue
+org.apache.flink.api.common.typeutils.base.BooleanValueSerializer.copy(org.apache.flink.types.BooleanValue);BooleanValue
+org.apache.flink.api.common.typeutils.base.IntValueSerializer.copy(org.apache.flink.types.IntValue, org.apache.flink.types.IntValue);IntValue
+org.apache.flink.api.common.typeutils.base.FloatValueSerializer.copy(org.apache.flink.types.FloatValue, org.apache.flink.types.FloatValue);FloatValue
+org.apache.flink.api.common.typeutils.base.IntValueSerializer.copy(org.apache.flink.types.IntValue);IntValue
+org.apache.flink.api.common.typeutils.base.FloatValueSerializer.copy(org.apache.flink.types.FloatValue);FloatValue
+org.apache.flink.core.memory.HeapMemorySegment.FACTORY;MemorySegmentFactory
+org.apache.flink.api.common.accumulators.AccumulatorHelper.deserializeAccumulators(java.util.Map, java.lang.ClassLoader);SerializedValue
+org.apache.flink.util.NetUtils.getPortRangeFromString(java.lang.String);UnionIterator
+org.apache.flink.api.java.summarize.aggregation.CompensatedSum.ZERO;StringSummaryAggregator
+org.apache.flink.api.java.summarize.aggregation.CompensatedSum.static {};StringSummaryAggregator
+org.apache.flink.api.java.sca.NestedMethodAnalyzer.rightMergePriority;ModifiedASMAnalyzer
+org.apache.flink.api.java.sca.NestedMethodAnalyzer.merge(org.apache.flink.shaded.org.objectweb.asm.tree.analysis.BasicValue, org.apache.flink.shaded.org.objectweb.asm.tree.analysis.BasicValue);ModifiedASMAnalyzer
+org.apache.flink.api.java.operators.MapPartitionOperator.reduce(org.apache.flink.api.common.functions.ReduceFunction);DataSetUtils
+org.apache.flink.api.java.utils.DataSetUtils.checksumHashCode(org.apache.flink.api.java.DataSet);DataSink
+org.apache.flink.cep.nfa.SharedBuffer.extractPatterns(java.io.Serializable, java.lang.Object, long, org.apache.flink.cep.nfa.DeweyNumber);DeweyNumber
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.connectJobVertices(org.apache.flink.optimizer.plan.Channel, int, org.apache.flink.runtime.jobgraph.JobVertex, org.apache.flink.runtime.operators.util.TaskConfig, org.apache.flink.runtime.jobgraph.JobVertex, org.apache.flink.runtime.operators.util.TaskConfig, boolean);TempMode
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.addLocalInfoFromChannelToConfig(org.apache.flink.optimizer.plan.Channel, org.apache.flink.runtime.operators.util.TaskConfig, int, boolean);TempMode
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.getNumberOfSendersPerReceiver(org.apache.flink.runtime.jobgraph.DistributionPattern, int, int);TempMode
+org.apache.flink.optimizer.dag.ReduceNode.estimatedOutputSize;AllReduceProperties
+org.apache.flink.optimizer.dag.ReduceNode.getCombinerUtilityNode();AllReduceProperties
+org.apache.flink.optimizer.dag.ReduceNode.estimatedNumRecords;AllReduceProperties
+org.apache.flink.optimizer.dag.ReduceNode.preReduceUtilityNode;AllReduceProperties
+org.apache.flink.runtime.blob.BlobClient.sendPutHeader(java.io.OutputStream, org.apache.flink.api.common.JobID, java.lang.String);BlobUtils
+org.apache.flink.runtime.executiongraph.ExecutionJobVertex.cancel();ExecutionGraph
+org.apache.flink.runtime.executiongraph.ExecutionJobVertex.archive();ExecutionGraph
+org.apache.flink.runtime.blob.BlobClient.sendGetHeader(java.io.OutputStream, org.apache.flink.api.common.JobID, java.lang.String, org.apache.flink.runtime.blob.BlobKey);BlobUtils
+org.apache.flink.runtime.jobgraph.tasks.JobSnapshottingSettings.setSavepointPath(java.lang.String);JobGraph
+org.apache.flink.runtime.jobgraph.tasks.JobSnapshottingSettings.savepointPath;JobGraph
+org.apache.flink.runtime.jobgraph.tasks.JobSnapshottingSettings.getSavepointPath();JobGraph
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.toString();SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.spilledView;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.currentQueuePosition;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.currentBytesRead;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.PipelinedSubpartitionView.toString();PipelinedSubpartition
+org.apache.flink.runtime.io.network.partition.PipelinedSubpartitionView.parent;PipelinedSubpartition
+org.apache.flink.runtime.io.network.partition.PipelinedSubpartitionView.isReleased;PipelinedSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.isReleased;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.ioMode;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.bufferProvider;SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.SpillableSubpartitionView(org.apache.flink.runtime.io.network.partition.SpillableSubpartition, org.apache.flink.runtime.io.network.buffer.BufferProvider, int, org.apache.flink.runtime.io.disk.iomanager.IOManager$IOMode);SpillableSubpartition
+org.apache.flink.runtime.io.network.partition.SpillableSubpartitionView.numberOfBuffers;SpillableSubpartition
+org.apache.flink.runtime.deployment.InputChannelDeploymentDescriptor.fromEdges(org.apache.flink.runtime.executiongraph.ExecutionEdge[], org.apache.flink.runtime.instance.SimpleSlot);ExecutionState
+org.apache.flink.runtime.deployment.InputChannelDeploymentDescriptor.LOG;ExecutionState
+org.apache.flink.runtime.deployment.InputChannelDeploymentDescriptor.static {};ExecutionState
+org.apache.flink.runtime.webmonitor.WebMonitorUtils.createDetailsForJob(org.apache.flink.runtime.executiongraph.AccessExecutionGraph);JobStatus
+org.apache.flink.runtime.executiongraph.ExecutionJobVertex.getAggregateJobVertexState(int[], int);Execution
+org.apache.flink.runtime.clusterframework.BootstrapTools.getTaskManagerShellCommand(org.apache.flink.configuration.Configuration, org.apache.flink.runtime.clusterframework.ContaineredTaskManagerParameters, java.lang.String, java.lang.String, boolean, boolean, boolean, java.lang.Class);ContaineredTaskManagerParameters
+org.apache.flink.runtime.client.JobSubmissionClientActor.createActorProps(org.apache.flink.runtime.leaderretrieval.LeaderRetrievalService, scala.concurrent.duration.FiniteDuration, boolean, org.apache.flink.configuration.Configuration);JobClient
+org.apache.flink.runtime.client.JobClient.retrieveClassLoader(org.apache.flink.api.common.JobID, org.apache.flink.runtime.instance.ActorGateway, org.apache.flink.configuration.Configuration);JobListeningContext
+org.apache.flink.runtime.jobgraph.DistributionPattern.name();JobEdge
+org.apache.flink.runtime.jobgraph.JobVertexID.hashCode();BroadcastVariableKey
+org.apache.flink.runtime.checkpoint.CheckpointCoordinator.triggerSavepoint(long, java.lang.String);PendingCheckpoint
+org.apache.flink.runtime.jobgraph.JobVertexID.equals(java.lang.Object);BroadcastVariableKey
+org.apache.flink.runtime.jobgraph.ScheduleMode.ordinal();ExecutionGraph
+org.apache.flink.runtime.executiongraph.restart.FailureRateRestartStrategy.createFactory(org.apache.flink.configuration.Configuration);FixedDelayRestartStrategy
+org.apache.flink.runtime.executiongraph.ExecutionAttemptID.equals(java.lang.Object);ExecutionVertex
+org.apache.flink.runtime.concurrent.impl.FlinkCompletableFuture.completedExceptionally(java.lang.Throwable);Execution
+org.apache.flink.streaming.connectors.kafka.KafkaJsonTableSource.setFailOnMissingField(boolean);JsonRowDeserializationSchema
+org.apache.flink.streaming.connectors.kafka.KafkaJsonTableSource.createDeserializationSchema(java.lang.String[], java.lang.Class[]);JsonRowDeserializationSchema
+org.apache.flink.streaming.connectors.kafka.internals.KafkaTopicPartition.dropLeaderData(java.util.List);KafkaTopicPartitionLeader
+org.apache.flink.streaming.api.windowing.triggers.ProcessingTimeTrigger.onProcessingTime(long, org.apache.flink.streaming.api.windowing.windows.TimeWindow, org.apache.flink.streaming.api.windowing.triggers.Trigger$TriggerContext);EventTimeTrigger

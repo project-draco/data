@@ -1,0 +1,128 @@
+com.orientechnologies.orient.client.remote.OServerAdmin.existsDatabase();ODatabaseHelper
+com.orientechnologies.orient.core.storage.impl.local.statistic.OSessionStoragePerformanceStatistic.writeMetric(com.orientechnologies.orient.core.record.impl.ODocument, java.lang.String, java.lang.Number);OClusterCountersHolder
+com.orientechnologies.orient.core.storage.impl.local.statistic.OSessionStoragePerformanceStatistic.writeMetric(com.orientechnologies.orient.core.record.impl.ODocument, java.lang.String, java.lang.Number, com.orientechnologies.orient.core.metadata.schema.OType);OClusterCountersHolder
+com.orientechnologies.orient.core.index.OIndexManagerProxy.isDistributedCommand();OScenarioThreadLocal
+com.orientechnologies.orient.core.index.OIndexManagerProxy.database;OScenarioThreadLocal
+com.orientechnologies.orient.core.storage.impl.local.paginated.wal.ODiskWriteAheadLog.incrementCacheOverflowCount();OLogSegment
+com.orientechnologies.orient.core.storage.impl.local.paginated.wal.ODiskWriteAheadLog.getCacheOverflowCount();OLogSegment
+com.orientechnologies.orient.core.storage.impl.local.paginated.wal.ODiskWriteAheadLog.cacheOverflowCount;OLogSegment
+com.orientechnologies.orient.core.sql.ODynamicSQLElementFactory.static {};OSQLEngine
+com.orientechnologies.orient.core.sql.ODynamicSQLElementFactory.COMMANDS;OSQLEngine
+com.orientechnologies.common.serialization.types.ODecimalSerializer.getObjectSize(java.math.BigDecimal, java.lang.Object[]);OBinaryTypeSerializer
+com.orientechnologies.common.serialization.types.ODecimalSerializer.serialize(java.math.BigDecimal, byte[], int, java.lang.Object[]);OBinaryTypeSerializer
+com.orientechnologies.common.serialization.types.ODecimalSerializer.serializeNativeObject(java.math.BigDecimal, byte[], int, java.lang.Object[]);OBinaryTypeSerializer
+com.orientechnologies.orient.core.serialization.serializer.stream.OStreamSerializerRID.getObjectSize(com.orientechnologies.orient.core.db.record.OIdentifiable, java.lang.Object[]);OLinkSerializer
+com.orientechnologies.orient.core.serialization.serializer.stream.OStreamSerializerRID.serializeNativeObject(com.orientechnologies.orient.core.db.record.OIdentifiable, byte[], int, java.lang.Object[]);OLinkSerializer
+com.orientechnologies.orient.core.serialization.serializer.stream.OStreamSerializerRID.serializeInByteBufferObject(com.orientechnologies.orient.core.db.record.OIdentifiable, java.nio.ByteBuffer, java.lang.Object[]);OLinkSerializer
+com.orientechnologies.common.serialization.types.ODateSerializer.serialize(java.util.Date, byte[], int, java.lang.Object[]);ODateTimeSerializer
+com.orientechnologies.common.serialization.types.ODateSerializer.serializeNativeObject(java.util.Date, byte[], int, java.lang.Object[]);ODateTimeSerializer
+com.orientechnologies.orient.core.sql.parser.OTruncateClusterStatement.clusterName;OCommandExecutorSQLTruncateCluster
+com.orientechnologies.orient.core.sql.parser.OTruncateClusterStatement.clusterNumber;OCommandExecutorSQLTruncateCluster
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.customPropertyValue;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.settingValue;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.customPropertyName;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.className;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.propertyName;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OAlterPropertyStatement.settingName;OCommandExecutorSQLAlterProperty
+com.orientechnologies.orient.core.sql.parser.OJson.toDocument(com.orientechnologies.orient.core.db.record.OIdentifiable, com.orientechnologies.orient.core.command.OCommandContext);OExpression
+com.orientechnologies.orient.core.sql.parser.OJson.getClassNameForDocument(com.orientechnologies.orient.core.command.OCommandContext);OExpression
+com.orientechnologies.orient.core.sql.parser.OJson.toMap(com.orientechnologies.orient.core.db.record.OIdentifiable, com.orientechnologies.orient.core.command.OCommandContext);OExpression
+com.orientechnologies.orient.core.sql.parser.OBaseIdentifier.isBaseIdentifier();OSuffixIdentifier
+com.orientechnologies.orient.core.sql.parser.OBaseIdentifier.suffix;OSuffixIdentifier
+com.orientechnologies.orient.core.sql.parser.OArrayNumberSelector.integer;OArrayRangeSelector
+com.orientechnologies.orient.core.sql.parser.OArrayNumberSelector.getValue(com.orientechnologies.orient.core.db.record.OIdentifiable, java.lang.Object, com.orientechnologies.orient.core.command.OCommandContext);OArrayRangeSelector
+com.orientechnologies.orient.core.sql.parser.OArrayNumberSelector.expressionValue;OArrayRangeSelector
+com.orientechnologies.orient.core.sql.parser.OArrayNumberSelector.inputValue;OArrayRangeSelector
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.checkClassExists(com.orientechnologies.orient.core.db.document.ODatabaseDocument, java.lang.String, java.lang.String);OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.nextWord(java.lang.String, java.lang.String, int, java.lang.StringBuilder, boolean);OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.preParsedStatement;OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.parserTextUpperCase;OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.parse(com.orientechnologies.orient.core.command.OCommandRequest);OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.parserText;OAlterClassStatement
+com.orientechnologies.orient.core.query.live.OLiveQueryHook.getOpsReference(com.orientechnologies.orient.core.db.ODatabaseInternal);OLiveQueryQueueThread
+com.orientechnologies.orient.core.query.live.OLiveQueryHook.database;OLiveQueryQueueThread
+com.orientechnologies.orient.core.query.live.OLiveQueryHook.subscribe(java.lang.Integer, com.orientechnologies.orient.core.query.live.OLiveQueryListener, com.orientechnologies.orient.core.db.ODatabaseInternal);OLiveQueryQueueThread
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.attribute;OAlterClassStatement
+com.orientechnologies.orient.core.query.live.OLiveQueryHook.unsubscribe(java.lang.Integer, com.orientechnologies.orient.core.db.ODatabaseInternal);OLiveQueryQueueThread
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.execute(java.util.Map);OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.className;OAlterClassStatement
+com.orientechnologies.orient.core.sql.OCommandExecutorSQLAlterClass.value;OAlterClassStatement
+com.orientechnologies.orient.core.serialization.serializer.stream.OStreamSerializerSBTreeIndexRIDContainer.getObjectSize(com.orientechnologies.orient.core.db.record.ridbag.sbtree.OIndexRIDContainer, java.lang.Object[]);OIndexRIDContainer
+com.orientechnologies.orient.core.serialization.serializer.stream.OStreamSerializerSBTreeIndexRIDContainer.embeddedObjectSerializedSize(int);OIndexRIDContainer
+com.orientechnologies.common.serialization.types.ODoubleSerializer.serialize(java.lang.Double, byte[], int, java.lang.Object[]);OUUIDSerializer
+com.orientechnologies.orient.core.sql.OSQLHelper.bindParameters(com.orientechnologies.orient.core.record.impl.ODocument, java.util.List, com.orientechnologies.orient.core.sql.OCommandParameters, com.orientechnologies.orient.core.command.OCommandContext);ODocumentHelper
+com.orientechnologies.orient.core.sql.OSQLHelper.resolveFieldValue(com.orientechnologies.orient.core.record.impl.ODocument, java.lang.String, java.lang.Object, com.orientechnologies.orient.core.sql.OCommandParameters, com.orientechnologies.orient.core.command.OCommandContext);ODocumentHelper
+com.orientechnologies.orient.core.sql.OSQLHelper.bindParameters(com.orientechnologies.orient.core.record.impl.ODocument, java.util.Map, com.orientechnologies.orient.core.sql.OCommandParameters, com.orientechnologies.orient.core.command.OCommandContext);ODocumentHelper
+com.orientechnologies.orient.core.record.impl.ORecordFlat.ORecordFlat(com.orientechnologies.orient.core.db.ODatabaseDocumentInternal);ODocumentHelper
+com.orientechnologies.orient.core.record.ORecordFactoryManager.newInstance();ODocumentHelper
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.alias;OMatchFilter
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.filter;OMatchFilter
+com.orientechnologies.common.serialization.types.ODateTimeSerializer.serialize(java.util.Date, byte[], int, java.lang.Object[]);OLongSerializer
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorContainsAll.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorLike
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.optional;OMatchFilter
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.whileCondition;OMatchFilter
+com.orientechnologies.orient.core.serialization.serializer.OStringSerializerHelper.getRecordClassName(java.lang.String, com.orientechnologies.orient.core.metadata.schema.OClass);OType
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorTraverse.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.orient.core.sql.parser.OBaseExpression.getBaseIdentifier();OExpression
+com.orientechnologies.orient.core.serialization.serializer.binary.impl.OLinkSerializer.serializeNativeObject(com.orientechnologies.orient.core.db.record.OIdentifiable, byte[], int, java.lang.Object[]);OShortSerializer
+com.orientechnologies.orient.core.sql.parser.ODropClassStatement.name;OCommandExecutorSQLDropClass
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.className;OMatchFilter
+com.orientechnologies.common.collection.OMultiCollectionIterator.iterator();OMultiValue
+com.orientechnologies.orient.core.sql.operator.OIndexReuseType.ordinal();OFilterOptimizer
+com.orientechnologies.orient.core.sql.parser.OMatchExpression.origin;Pattern
+com.orientechnologies.orient.core.metadata.schema.OImmutableSchema.getDatabase();OSchemaShared
+com.orientechnologies.orient.core.sql.parser.OCollection.execute(com.orientechnologies.orient.core.db.record.OIdentifiable, com.orientechnologies.orient.core.command.OCommandContext);OLevelZeroIdentifier
+com.orientechnologies.common.parser.OStringParser.startsWithIgnoreCase(java.lang.String, java.lang.String);OCommandExecutorSQLDelete
+com.orientechnologies.orient.core.sql.parser.OMatchFilterItem.maxDepth;OMatchFilter
+com.orientechnologies.orient.core.fetch.json.OJSONFetchListener.processStandardCollectionValue(java.lang.Object, com.orientechnologies.orient.core.fetch.OFetchContext);OJSONWriter
+com.orientechnologies.common.serialization.types.OBinaryTypeSerializer.serialize(byte[], byte[], int, java.lang.Object[]);OIntegerSerializer
+com.orientechnologies.orient.core.db.record.ridbag.sbtree.ORidBagDeleter.deleteAllRidBags(com.orientechnologies.orient.core.record.impl.ODocument);ODocumentFieldWalker
+com.orientechnologies.common.serialization.types.OFloatSerializer.serialize(java.lang.Float, byte[], int, java.lang.Object[]);OIntegerSerializer
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorMinor.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorEquals.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorMinorEquals.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorMajor.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.orient.core.sql.operator.OQueryOperatorContainsValue.getIndexReuseType(java.lang.Object, java.lang.Object);OQueryOperatorInstanceof
+com.orientechnologies.common.util.OArrays.copyOfRange(byte[], int, int);OMemoryInputStream
+com.orientechnologies.orient.core.db.record.ridbag.sbtree.ORidBagDeleter.ORidBagDeleter();ODocumentFieldWalker
+com.orientechnologies.orient.core.sql.parser.OArraySingleValuesSelector.execute(com.orientechnologies.orient.core.db.record.OIdentifiable, java.lang.Object, com.orientechnologies.orient.core.command.OCommandContext);OArraySelector
+com.orientechnologies.orient.server.distributed.sql.OCommandExecutorSQLHASyncCluster.replaceCluster(com.orientechnologies.orient.server.distributed.impl.ODistributedAbstractPlugin, com.orientechnologies.orient.server.OServer, java.lang.String, java.lang.String);ODistributedDatabaseChunk
+com.orientechnologies.orient.server.distributed.sql.OCommandExecutorSQLHASyncCluster.writeDatabaseChunk(java.lang.String, int,
+com.orientechnologies.orient.server.distributed.impl.ODistributedDatabaseChunk, java.io.FileOutputStream);ODistributedDatabaseChunk
+com.orientechnologies.orient.server.distributed.impl.ODistributedStorage.executeUndoOnLocalServer(com.orientechnologies.orient.server.distributed.ODistributedRequestId, com.orientechnologies.orient.server.distributed.task.OAbstractReplicatedTask);ODistributedTransactionManager
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.createGraphElement(java.lang.Object);OrientVertex
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.getGraphElementRecord(java.lang.Object);OrientVertex
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.connection;OrientVertex
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.OrientVertexIterator(com.tinkerpop.blueprints.impls.orient.OrientVertex, java.lang.Object, java.util.Iterator, com.orientechnologies.common.util.OPair, java.lang.String[], int);OrientVertex
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.vertex;OrientVertex
+com.orientechnologies.orient.graph.sql.functions.HeuristicFormula.valueOf(java.lang.String);OSQLFunctionAstar
+com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.iLabels;OrientVertex
+com.orientechnologies.lucene.OLuceneIndexPlugin.registerFunctions();OLuceneFunctionsFactory
+com.orientechnologies.lucene.OLuceneIndexType.createField(java.lang.String, java.lang.Object, org.apache.lucene.document.Field$Store, org.apache.lucene.document.Field$Index);OLuceneFullTextIndexEngine
+com.orientechnologies.orient.object.jpa.OJPAEntityManagerFactory.getProperties();OJPAProperties
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.parseSchemaVersion(java.lang.String, com.orientechnologies.orient.object.jpa.parsing.PersistenceXml, org.xml.sax.Attributes);PersistenceXml
+com.orientechnologies.orient.object.jpa.OJPAEntityManagerFactory.properties;OJPAProperties
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_NS_URI;PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XML_ROOT;PersistenceXml
+com.orientechnologies.orient.object.jpa.OJPAEntityManagerFactory.createEntityManager();OJPAProperties
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XML_BASE_NAME;PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XSD_DIR;PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PERSISTENCE_XML;PersistenceXml
+com.orientechnologies.orient.object.serialization.OObjectSerializerManager.getDocumentBoundField(java.lang.Class);OObjectSerializerHelper
+com.orientechnologies.orient.object.serialization.OObjectSerializerManager.invokeCallback(java.lang.Object, com.orientechnologies.orient.core.record.impl.ODocument, java.lang.Class);OObjectSerializerHelper
+com.orientechnologies.orient.object.serialization.OObjectSerializerManager.toStream(java.lang.Object, com.orientechnologies.orient.core.record.impl.ODocument, com.orientechnologies.orient.core.entity.OEntityManager, com.orientechnologies.orient.core.metadata.schema.OClass, com.orientechnologies.orient.core.db.OUserObject2RecordHandler, com.orientechnologies.orient.core.db.object.ODatabaseObject, boolean);OObjectSerializerHelper
+com.orientechnologies.orient.object.serialization.OObjectSerializerManager.getFieldValue(java.lang.Object, java.lang.String);OObjectSerializerHelper
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.PersistenceXmlUtil();PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.static {};PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.getSchema(com.orientechnologies.orient.object.jpa.parsing.JPAVersion);PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.findPersistenceUnit(java.lang.String, java.util.Collection);PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.getPersistenceUnits(java.io.InputStream, java.net.URL, com.orientechnologies.orient.object.jpa.parsing.JPAVersion);PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.parse(java.net.URL);PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.getSchemaVersion(java.io.InputStream);PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.schemaFactory;PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.parserFactory;PersistenceXml
+com.orientechnologies.orient.object.jpa.parsing.PersistenceXmlUtil.parse(java.io.InputStream, org.xml.sax.helpers.DefaultHandler);PersistenceXml
+com.orientechnologies.orient.object.serialization.OObjectSerializerHelper.register();OObjectSerializerManager
+com.orientechnologies.orient.object.enhancement.OObjectProxyMethodHandler.attach(java.lang.Object);OObjectEntitySerializer
+com.orientechnologies.orient.server.network.protocol.http.command.get.OServerCommandGetExportDatabase.execute(com.orientechnologies.orient.server.network.protocol.http.OHttpRequest, com.orientechnologies.orient.server.network.protocol.http.OHttpResponse);OServerCommandGetStaticContent
+com.orientechnologies.orient.stresstest.OStressTester.main(java.lang.String[]);OStressTesterCommandLineParser

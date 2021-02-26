@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.navercorp.pinpoint.plugin.jdbc.jtds.JtdsPlugin::addConnectionTransformer(com.navercorp.pinpoint.plugin.jdbc.jtds.JtdsConfig):void	com.navercorp.pinpoint.plugin.jdbc.jtds.JtdsConfig	1/3	

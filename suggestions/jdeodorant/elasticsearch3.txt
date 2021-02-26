@@ -1,7 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.nio.SocketEventHandler::handleRegistration(org.elasticsearch.nio.SocketChannelContext):void	org.elasticsearch.nio.SocketChannelContext	0/3	
-Move Method	org.elasticsearch.nio.SocketEventHandler::handleConnect(org.elasticsearch.nio.SocketChannelContext):void	org.elasticsearch.nio.SocketChannelContext	0/2	
-Move Method	org.elasticsearch.nio.ChannelFactory::scheduleChannel(Socket, org.elasticsearch.nio.SocketSelector):void	org.elasticsearch.nio.SocketSelector	0/1	
-Move Method	org.elasticsearch.nio.ChannelFactory::scheduleServerChannel(ServerSocket, org.elasticsearch.nio.AcceptingSelector):void	org.elasticsearch.nio.AcceptingSelector	0/1	
-Move Method	org.elasticsearch.nio.SocketEventHandler::postHandling(org.elasticsearch.nio.SocketChannelContext):void	org.elasticsearch.nio.SocketChannelContext	1/3	
-Move Method	org.elasticsearch.nio.SocketSelector::attemptConnect(org.elasticsearch.nio.SocketChannelContext, boolean):void	org.elasticsearch.nio.SocketEventHandler	1/2	

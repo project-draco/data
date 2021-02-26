@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.orientechnologies.orient.etl.OETLBaseTest::process(java.lang.String):void	com.orientechnologies.orient.etl.OETLProcessor	1/2	
-Move Method	com.orientechnologies.orient.etl.OETLBaseTest::process(java.lang.String, com.orientechnologies.orient.core.command.OCommandContext):void	com.orientechnologies.orient.etl.OETLProcessor	1/2	

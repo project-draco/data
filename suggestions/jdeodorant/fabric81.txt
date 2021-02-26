@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	io.fabric8.apmagent.metrics.ApmAgentContext::resetAll(io.fabric8.apmagent.ClassInfo):void	io.fabric8.apmagent.ClassInfo	1/2	

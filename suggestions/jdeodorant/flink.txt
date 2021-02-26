@@ -1,0 +1,49 @@
+org.apache.flink.api.common.io.BinaryInputFormat.createStatistics(java.util.List<org.apache.flink.core.fs.FileStatus>, org.apache.flink.api.common.io.FileInputFormat.FileBaseStatistics);FileBaseStatistics
+org.apache.flink.api.common.io.FileInputFormat.getInflaterInputStreamFactory(org.apache.flink.core.fs.Path);Path
+org.apache.flink.types.Record.serializeHeader(org.apache.flink.types.Record.InternalDeSerializer, int[], int);InternalDeSerializer
+org.apache.flink.api.common.Plan.registerCachedFile(java.lang.String, org.apache.flink.api.common.cache.DistributedCache.DistributedCacheEntry);DistributedCacheEntry
+org.apache.flink.api.common.operators.Ordering.getFieldNumber(int);FieldList
+org.apache.flink.api.common.operators.Ordering.getFieldPositions();FieldList
+org.apache.flink.api.common.operators.Ordering.groupsFields(org.apache.flink.api.common.operators.util.FieldSet);FieldList
+org.apache.flink.api.java.utils.RequiredParameters.hasNoDefaultValueAndNoValuePassedOnAlternativeName(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkIsCastableToDefinedType(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkChoices(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkAmbiguousValues(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.hasNoDefaultValueAndNoValuePassedOnAlternativeName(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkIsCastableToDefinedType(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkChoices(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.api.java.utils.RequiredParameters.checkAmbiguousValues(org.apache.flink.api.java.utils.Option, java.util.Map<java.lang.String,java.lang.String>);Option
+org.apache.flink.optimizer.postpass.GenericFlatTypePostPass.getConflictingTypeErrorMessage(org.apache.flink.optimizer.postpass.ConflictingFieldTypeInfoException, java.lang.String);ConflictingFieldTypeInfoException
+org.apache.flink.optimizer.traversals.BinaryUnionReplacer.collect(org.apache.flink.optimizer.plan.Channel, java.util.List<org.apache.flink.optimizer.plan.Channel>);Channel
+org.apache.flink.optimizer.postpass.GenericFlatTypePostPass.addSchemaToSchema(T, T, org.apache.flink.optimizer.dag.OptimizerNode, int);OptimizerNode
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.addLocalInfoFromChannelToConfig(org.apache.flink.optimizer.plan.Channel, org.apache.flink.runtime.operators.util.TaskConfig, int, boolean);Channel
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.createDataSourceVertex(org.apache.flink.optimizer.plan.SourcePlanNode);SourcePlanNode
+org.apache.flink.optimizer.dataproperties.RequestedGlobalProperties.checkCompatiblePartitioningFields(org.apache.flink.optimizer.dataproperties.GlobalProperties);GlobalProperties
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.createDualInputVertex(org.apache.flink.optimizer.plan.DualInputPlanNode);DualInputPlanNode
+org.apache.flink.optimizer.dataproperties.RequestedLocalProperties.isMetBy(org.apache.flink.optimizer.dataproperties.LocalProperties);LocalProperties
+org.apache.flink.optimizer.postpass.GenericFlatTypePostPass.getConflictingTypeErrorMessage(org.apache.flink.optimizer.postpass.ConflictingFieldTypeInfoException, java.lang.String);ConflictingFieldTypeInfoException
+org.apache.flink.optimizer.traversals.BinaryUnionReplacer.collect(org.apache.flink.optimizer.plan.Channel, java.util.List<org.apache.flink.optimizer.plan.Channel>);Channel
+org.apache.flink.optimizer.postpass.GenericFlatTypePostPass.addSchemaToSchema(T, T, org.apache.flink.optimizer.dag.OptimizerNode, int);OptimizerNode
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.addLocalInfoFromChannelToConfig(org.apache.flink.optimizer.plan.Channel, org.apache.flink.runtime.operators.util.TaskConfig, int, boolean);Channel
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.createDataSourceVertex(org.apache.flink.optimizer.plan.SourcePlanNode);SourcePlanNode
+org.apache.flink.optimizer.dataproperties.RequestedGlobalProperties.checkCompatiblePartitioningFields(org.apache.flink.optimizer.dataproperties.GlobalProperties);GlobalProperties
+org.apache.flink.optimizer.plantranslate.JobGraphGenerator.createDualInputVertex(org.apache.flink.optimizer.plan.DualInputPlanNode);DualInputPlanNode
+org.apache.flink.optimizer.dataproperties.RequestedLocalProperties.isMetBy(org.apache.flink.optimizer.dataproperties.LocalProperties);LocalProperties
+org.apache.flink.python.api.PythonPlanBinder.createSortOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createGroupOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.applyGroupReduceOperation(org.apache.flink.api.java.DataSet, org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.applyGroupReduceOperation(org.apache.flink.api.java.operators.UnsortedGrouping, org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.applyGroupReduceOperation(org.apache.flink.api.java.operators.SortedGrouping, org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.applyReduceOperation(org.apache.flink.api.java.DataSet, org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.applyReduceOperation(org.apache.flink.api.java.operators.UnsortedGrouping, org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createCoGroupOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createCsvSink(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createFilterOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createFlatMapOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createMapOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createMapPartitionOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createTextSink(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createDistinctOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createFirstOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createHashPartitionOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo
+org.apache.flink.python.api.PythonPlanBinder.createUnionOperation(org.apache.flink.python.api.PythonOperationInfo);PythonOperationInfo

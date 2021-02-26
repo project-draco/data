@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.language.base.plugins.ComponentModelBasePlugin.PluginRules::inputRules(org.gradle.language.base.plugins.ComponentModelBasePlugin.PluginRules.AttachInputs, org.gradle.platform.base.GeneralComponentSpec):void	org.gradle.language.base.plugins.ComponentModelBasePlugin.PluginRules.AttachInputs	0/2	

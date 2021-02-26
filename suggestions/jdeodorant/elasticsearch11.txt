@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.wildfly.transport.TransportClientEmployeeResource::putEmployeeById(java.lang.Long, org.elasticsearch.wildfly.model.Employee):javax.ws.rs.core.Response	org.elasticsearch.wildfly.model.Employee	1/5	

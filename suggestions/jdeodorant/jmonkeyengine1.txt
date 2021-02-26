@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.jme3.input.android.AndroidInputHandler::removeListeners(android.opengl.GLSurfaceView):void	com.jme3.input.android.AndroidTouchInput	1/2	
-Move Method	com.jme3.system.android.AndroidConfigChooser::chooseConfig(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLConfig[], com.jme3.system.android.AndroidConfigChooser.Config, boolean, boolean, boolean, boolean):javax.microedition.khronos.egl.EGLConfig	com.jme3.system.android.AndroidConfigChooser.Config	2/7	

@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.hive.hcatalog.streaming.HiveEndPoint.ConnectionImpl::checkEndPoint(org.apache.hive.hcatalog.streaming.HiveEndPoint, org.apache.hadoop.hive.metastore.IMetaStoreClient):void	org.apache.hive.hcatalog.streaming.HiveEndPoint	0/4	
-Move Method	org.apache.hive.hcatalog.streaming.AbstractRecordWriter::getPathForEndPoint(org.apache.hadoop.hive.metastore.IMetaStoreClient, org.apache.hive.hcatalog.streaming.HiveEndPoint):org.apache.hadoop.fs.Path	org.apache.hive.hcatalog.streaming.HiveEndPoint	0/3	
-Move Method	org.apache.hive.hcatalog.streaming.mutate.client.MutatorClient::checkTable(org.apache.hadoop.hive.metastore.IMetaStoreClient, org.apache.hive.hcatalog.streaming.mutate.client.AcidTable):void	org.apache.hive.hcatalog.streaming.mutate.client.AcidTable	2/5	

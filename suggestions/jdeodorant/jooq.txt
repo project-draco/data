@@ -1,0 +1,3 @@
+org.jooq.SchemaMapping.matches(org.jooq.conf.MappedSchema, java.lang.String);MappedSchema
+org.jooq.SchemaMapping.matches(org.jooq.conf.MappedTable, java.lang.String);MappedTable
+org.jooq.tools.LoggerListener.logMultiline(java.lang.String, java.lang.String, java.util.logging.Level);JooqLogger

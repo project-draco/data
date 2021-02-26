@@ -1,0 +1,39 @@
+org.elasticsearch.client.RestClientSingleHostTests.testNullParams();RestClient
+org.elasticsearch.client.RestClientSingleHostTests.performRandomRequest(java.lang.String);RestClient
+org.elasticsearch.backwards.IndexingIT.buildShards(java.lang.String, org.elasticsearch.backwards.IndexingIT.Nodes, org.elasticsearch.client.RestClient);Nodes
+org.elasticsearch.wildfly.transport.TransportClientEmployeeResource.putEmployeeById(java.lang.Long, org.elasticsearch.wildfly.model.Employee);Employee
+org.elasticsearch.cluster.health.ClusterStateHealthTests.assertClusterHealth(org.elasticsearch.cluster.health.ClusterStateHealth, org.elasticsearch.cluster.routing.RoutingTableGenerator.ShardCounter);ShardCounter
+org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.getRequestForConfig(org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.TestConfig);TestConfig
+org.elasticsearch.cluster.health.ClusterIndexHealthTests.assertIndexHealth(org.elasticsearch.cluster.health.ClusterIndexHealth, org.elasticsearch.cluster.routing.RoutingTableGenerator.ShardCounter, org.elasticsearch.cluster.metadata.IndexMetaData);ShardCounter
+org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.validateResponse(org.elasticsearch.action.termvectors.TermVectorsResponse, org.apache.lucene.index.Fields, org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.TestConfig);TestConfig
+org.elasticsearch.discovery.zen.UnicastZenPingTests.assertPingCount(org.elasticsearch.discovery.zen.UnicastZenPingTests.NetworkHandle, org.elasticsearch.discovery.zen.UnicastZenPingTests.NetworkHandle, int);NetworkHandle
+org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.getTermVectorsFromLucene(org.apache.lucene.index.DirectoryReader, org.elasticsearch.action.termvectors.AbstractTermVectorsTestCase.TestDoc);TestDoc
+org.elasticsearch.search.aggregations.support.PathTests.assertValidPath(java.lang.String, org.elasticsearch.search.aggregations.support.PathTests.Tokens);Tokens
+org.elasticsearch.cluster.service.ClusterApplierServiceTests.testClusterStateUpdateLogging();TimedClusterApplierService
+org.elasticsearch.cluster.service.ClusterApplierServiceTests.testLongClusterStateUpdateLogging();TimedClusterApplierService
+org.elasticsearch.cluster.service.MasterServiceTests.testClusterStateUpdateLogging();TimedMasterService
+org.elasticsearch.cluster.service.MasterServiceTests.testLongClusterStateUpdateLogging();TimedMasterService
+org.elasticsearch.cluster.action.shard.ShardStateActionTests.setUpMasterRetryVerification(int, java.util.concurrent.atomic.AtomicInteger, java.util.concurrent.CountDownLatch, java.util.function.LongConsumer);TestShardStateAction
+org.elasticsearch.cluster.routing.RoutingServiceTests.testReroute();TestRoutingService
+org.elasticsearch.gateway.ReplicaShardAllocatorTests.testAsyncFetchOnAnythingButIndexCreation();TestAllocator
+org.elasticsearch.client.CustomRestHighLevelClientTests.testCustomEndpoint();RestHighLevelClient
+org.elasticsearch.client.CustomRestHighLevelClientTests.testCustomEndpointAsync();RestHighLevelClient
+org.elasticsearch.nio.SocketEventHandler.handleRegistration(org.elasticsearch.nio.SocketChannelContext);SocketChannelContext
+org.elasticsearch.nio.SocketEventHandler.handleConnect(org.elasticsearch.nio.SocketChannelContext);SocketChannelContext
+org.elasticsearch.nio.ChannelFactory.scheduleChannel(Socket, org.elasticsearch.nio.SocketSelector);SocketSelector
+org.elasticsearch.nio.ChannelFactory.scheduleServerChannel(ServerSocket, org.elasticsearch.nio.AcceptingSelector);AcceptingSelector
+org.elasticsearch.nio.SocketEventHandler.postHandling(org.elasticsearch.nio.SocketChannelContext);SocketChannelContext
+org.elasticsearch.nio.SocketSelector.attemptConnect(org.elasticsearch.nio.SocketChannelContext, boolean);SocketEventHandler
+org.elasticsearch.search.aggregations.matrix.stats.MatrixStatsResults.compute();RunningStats
+org.elasticsearch.painless.Definition.addRuntimeClass(org.elasticsearch.painless.Definition.Struct);Struct
+org.elasticsearch.painless.Definition.computeFunctionalInterfaceMethod(org.elasticsearch.painless.Definition.Struct);Struct
+org.elasticsearch.painless.Definition.getTypeInternal(org.elasticsearch.painless.Definition.Struct, int);Struct
+org.elasticsearch.painless.PainlessScriptEngine.writeNeedsMethods(java.lang.Class<?>, org.objectweb.asm.ClassWriter, org.elasticsearch.painless.node.SSource.MainMethodReserved);MainMethodReserved
+org.elasticsearch.painless.antlr.Walker.visitFieldaccess(org.elasticsearch.painless.antlr.PainlessParser.FieldaccessContext, org.elasticsearch.painless.node.AExpression);FieldaccessContext
+org.elasticsearch.painless.Globals.addSyntheticMethod(org.elasticsearch.painless.node.SFunction);SFunction
+org.elasticsearch.painless.antlr.Walker.visitCallinvoke(org.elasticsearch.painless.antlr.PainlessParser.CallinvokeContext, org.elasticsearch.painless.node.AExpression);CallinvokeContext
+org.elasticsearch.http.netty4.cors.Netty4CorsHandler.validateOrigin();Netty4CorsConfig
+org.elasticsearch.http.netty4.cors.Netty4CorsHandler.validateOrigin();Netty4CorsConfig
+org.elasticsearch.repositories.azure.AzureStorageServiceImpl.createClient(org.elasticsearch.repositories.azure.AzureStorageSettings);AzureStorageSettings
+org.elasticsearch.repositories.s3.S3BlobContainer.executeSingleUpload(org.elasticsearch.repositories.s3.S3BlobStore, java.lang.String, java.io.InputStream, long);S3BlobStore
+org.elasticsearch.repositories.s3.S3BlobContainer.executeMultipartUpload(org.elasticsearch.repositories.s3.S3BlobStore, java.lang.String, java.io.InputStream, long);S3BlobStore

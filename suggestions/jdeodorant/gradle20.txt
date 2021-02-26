@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.plugin.devel.plugins.IvyPluginPublishingRules::addMarkerPublications(org.gradle.api.publish.PublishingExtension, org.gradle.plugin.devel.GradlePluginDevelopmentExtension):void	org.gradle.plugin.devel.GradlePluginDevelopmentExtension	1/2	
-Move Method	org.gradle.plugin.devel.plugins.IvyPluginPublishingRules::createIvyMarkerPublication(org.gradle.plugin.devel.PluginDeclaration, org.gradle.api.publish.ivy.IvyPublication, org.gradle.api.publish.PublicationContainer):void	org.gradle.plugin.devel.PluginDeclaration	1/2	
-Move Method	org.gradle.plugin.devel.plugins.MavenPluginPublishingRules::addMarkerPublications(org.gradle.api.publish.PublishingExtension, org.gradle.plugin.devel.GradlePluginDevelopmentExtension):void	org.gradle.plugin.devel.GradlePluginDevelopmentExtension	1/2	
-Move Method	org.gradle.plugin.devel.plugins.MavenPluginPublishingRules::createMavenMarkerPublication(org.gradle.plugin.devel.PluginDeclaration, org.gradle.api.publish.maven.MavenPublication, org.gradle.api.publish.PublicationContainer):void	org.gradle.plugin.devel.PluginDeclaration	1/2	

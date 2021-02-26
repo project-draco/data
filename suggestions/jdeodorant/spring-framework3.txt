@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.springframework.cache.jcache.interceptor.CachePutOperation::getValueParameter(java.lang.Object[]):javax.cache.annotation.CacheInvocationParameter	org.springframework.cache.jcache.interceptor.AbstractJCacheOperation.CacheParameterDetail	1/2	

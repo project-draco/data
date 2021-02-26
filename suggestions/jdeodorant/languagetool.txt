@@ -1,0 +1,27 @@
+org.languagetool.rules.de.AgreementRule.makeString(org.languagetool.tagging.de.GermanToken.Kasus, org.languagetool.tagging.de.GermanToken.Numerus, org.languagetool.tagging.de.GermanToken.Genus, org.languagetool.tagging.de.GermanToken.Determination, java.util.Set<org.languagetool.rules.de.AgreementRule.GrammarCategory>);Determination
+org.languagetool.rules.de.AgreementRule.makeString(org.languagetool.tagging.de.GermanToken.Kasus, org.languagetool.tagging.de.GermanToken.Numerus, org.languagetool.tagging.de.GermanToken.Genus, org.languagetool.tagging.de.GermanToken.Determination, java.util.Set<org.languagetool.rules.de.AgreementRule.GrammarCategory>);Genus
+org.languagetool.rules.de.AgreementRule.makeString(org.languagetool.tagging.de.GermanToken.Kasus, org.languagetool.tagging.de.GermanToken.Numerus, org.languagetool.tagging.de.GermanToken.Genus, org.languagetool.tagging.de.GermanToken.Determination, java.util.Set<org.languagetool.rules.de.AgreementRule.GrammarCategory>);Kasus
+org.languagetool.rules.de.AgreementRule.makeString(org.languagetool.tagging.de.GermanToken.Kasus, org.languagetool.tagging.de.GermanToken.Numerus, org.languagetool.tagging.de.GermanToken.Genus, org.languagetool.tagging.de.GermanToken.Determination, java.util.Set<org.languagetool.rules.de.AgreementRule.GrammarCategory>);Numerus
+org.languagetool.chunking.EnglishChunkFilter.hasNounWithPluralReading(org.languagetool.chunking.ChunkTaggedToken);ChunkTaggedToken
+org.languagetool.languagemodel.LuceneSingleIndexLanguageModel.getCount(org.apache.lucene.index.Term, org.languagetool.languagemodel.LuceneSingleIndexLanguageModel.LuceneSearcher);LuceneSearcher
+org.languagetool.rules.patterns.XMLRuleHandler.setRuleFilter(java.lang.String, java.lang.String, org.languagetool.rules.patterns.AbstractPatternRule);AbstractPatternRule
+org.languagetool.tagging.BaseTagger.asAnalyzedToken(java.lang.String, org.languagetool.tagging.TaggedWord);TaggedWord
+org.languagetool.JLanguageTool.getAllBuiltinRules(org.languagetool.Language, java.util.ResourceBundle);Language
+org.languagetool.JLanguageTool.adjustRuleMatchPos(org.languagetool.rules.RuleMatch, int, int, int, java.lang.String, org.languagetool.markup.AnnotatedText);AnnotatedText
+org.languagetool.rules.ngrams.ConfusionProbabilityRule.getAlternativeTerm(java.util.Set<org.languagetool.rules.ConfusionString>, org.languagetool.rules.ngrams.GoogleToken);GoogleToken
+org.languagetool.rules.ngrams.ConfusionProbabilityRule.getConfusionString(java.util.Set<org.languagetool.rules.ConfusionString>, org.languagetool.rules.ngrams.GoogleToken);GoogleToken
+org.languagetool.tagging.disambiguation.rules.DisambiguationPatternRuleReplacer.replaceTokens(org.languagetool.AnalyzedTokenReadings, org.languagetool.AnalyzedTokenReadings);AnalyzedTokenReadings
+org.languagetool.rules.ngrams.ConfusionProbabilityRule.getMessage(org.languagetool.rules.ConfusionString, org.languagetool.rules.ConfusionString);ConfusionString
+org.languagetool.rules.patterns.PatternToken.isSentenceStart();PosToken
+org.languagetool.rules.patterns.PatternToken.isPosTokenMatched(org.languagetool.AnalyzedToken);AnalyzedToken
+org.languagetool.rules.patterns.PatternToken.getTestToken(org.languagetool.AnalyzedToken);AnalyzedToken
+org.languagetool.JLanguageTool.activateDefaultPatternRules();Language
+org.languagetool.gui.ConfigurationDialog.getEnabledState(org.languagetool.rules.Rule);Configuration
+org.languagetool.gui.ConfigurationDialog.getTreeModel(javax.swing.tree.DefaultMutableTreeNode);Configuration
+org.languagetool.remote.RemoteLanguageTool.getUrlParams(java.lang.String, org.languagetool.remote.CheckConfiguration);CheckConfiguration
+org.languagetool.server.Server.getRequestLimiterOrNull(org.languagetool.server.HTTPServerConfig);HTTPServerConfig
+org.languagetool.server.Server.getExecutorService(java.util.concurrent.LinkedBlockingQueue<java.lang.Runnable>, org.languagetool.server.HTTPServerConfig);HTTPServerConfig
+org.languagetool.server.TextChecker.getRuleMatches(java.lang.String, java.util.Map<java.lang.String,java.lang.String>, org.languagetool.Language, org.languagetool.Language, org.languagetool.server.TextChecker.QueryParams);QueryParams
+org.languagetool.dev.wikipedia.atom.MatchDatabase.add(org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch);WikipediaRuleMatch
+org.languagetool.dev.wikipedia.atom.MatchDatabase.markedFixed(org.languagetool.dev.wikipedia.atom.WikipediaRuleMatch);WikipediaRuleMatch
+org.languagetool.dev.index.Indexer.indexSentence(org.languagetool.dev.dumpcheck.Sentence, int);Sentence

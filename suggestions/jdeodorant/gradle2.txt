@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.api.plugins.buildcomparison.gradle.internal.GradleBuildComparison::createProjectConnection(org.gradle.api.plugins.buildcomparison.gradle.internal.ComparableGradleBuildExecuter):org.gradle.tooling.ProjectConnection	org.gradle.api.plugins.buildcomparison.gradle.internal.ComparableGradleBuildExecuter	1/2	

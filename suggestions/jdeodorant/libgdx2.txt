@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.badlogic.gdx.backends.android.AndroidMouseHandler::postTouchEvent(com.badlogic.gdx.backends.android.AndroidInput, int, int, int, int, long):void	com.badlogic.gdx.backends.android.AndroidInput	0/2	
-Move Method	com.badlogic.gdx.backends.android.AndroidMultiTouchHandler::postTouchEvent(com.badlogic.gdx.backends.android.AndroidInput, int, int, int, int, int, long):void	com.badlogic.gdx.backends.android.AndroidInput	0/2	
-Move Method	com.badlogic.gdx.backends.android.AndroidGraphics::getEglConfigChooser():android.opengl.GLSurfaceView.EGLConfigChooser	com.badlogic.gdx.backends.android.AndroidApplicationConfiguration	1/7	

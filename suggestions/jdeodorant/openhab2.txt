@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.openhab.io.squeezeserver.SqueezeServer.SqueezeServerListener::handlePrefsetMessage(org.openhab.io.squeezeserver.SqueezePlayer, java.lang.String[]):void	org.openhab.io.squeezeserver.SqueezePlayer	0/2	
-Move Method	org.openhab.io.squeezeserver.SqueezeServer.SqueezeServerListener::handlePlaylistMessage(org.openhab.io.squeezeserver.SqueezePlayer, java.lang.String[]):void	org.openhab.io.squeezeserver.SqueezePlayer	0/1	

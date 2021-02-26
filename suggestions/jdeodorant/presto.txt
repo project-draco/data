@@ -1,0 +1,127 @@
+com.facebook.presto.bytecode.BytecodeBlock.getField(com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.bytecode.BytecodeBlock.getStaticField(com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.bytecode.BytecodeBlock.putStaticField(com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.bytecode.expression.BytecodeExpression.invoke(com.facebook.presto.bytecode.MethodDefinition, java.lang.Iterable<? extends com.facebook.presto.bytecode.expression.BytecodeExpression>);MethodDefinition
+com.facebook.presto.bytecode.BytecodeBlock.getStaticField(com.facebook.presto.bytecode.ParameterizedType, com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.bytecode.control.DoWhileLoop.body(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.DoWhileLoop.condition(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.ForLoop.initialize(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.ForLoop.condition(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.ForLoop.update(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.ForLoop.body(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.IfStatement.condition(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.IfStatement.ifTrue(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.IfStatement.ifFalse(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.WhileLoop.condition(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.control.WhileLoop.body(com.facebook.presto.bytecode.BytecodeNode);BytecodeBlock
+com.facebook.presto.bytecode.BytecodeBlock.putField(com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.bytecode.BytecodeBlock.putStaticField(com.facebook.presto.bytecode.ParameterizedType, com.facebook.presto.bytecode.FieldDefinition);FieldDefinition
+com.facebook.presto.verifier.Validator.trySetConnectionProperties(com.facebook.presto.verifier.Query, java.sql.Connection);Query
+com.facebook.presto.verifier.Verifier.isCheckCorrectness(com.facebook.presto.verifier.QueryPair);VerifierConfig
+com.facebook.presto.verifier.HumanReadableEventClient.printEvent(com.facebook.presto.verifier.VerifierQueryEvent);VerifierQueryEvent
+com.facebook.presto.verifier.Verifier.buildEvent(com.facebook.presto.verifier.Validator);Validator
+com.facebook.presto.client.StatementClient.buildQueryRequest(com.facebook.presto.client.ClientSession, java.lang.String);ClientSession
+com.facebook.presto.hive.parquet.ParquetHiveRecordCursor.createParquetRecordReader(com.facebook.presto.hive.HdfsEnvironment, java.lang.String, org.apache.hadoop.conf.Configuration, org.apache.hadoop.fs.Path, long, long, java.util.List<com.facebook.presto.hive.HiveColumnHandle>, boolean, com.facebook.presto.spi.type.TypeManager, boolean, com.facebook.presto.spi.predicate.TupleDomain<com.facebook.presto.hive.HiveColumnHandle>);HdfsEnvironment
+com.facebook.presto.hive.HiveClientModule.createCachingHiveMetastoreExecutor(com.facebook.presto.hive.HiveConnectorId, com.facebook.presto.hive.HiveClientConfig);HiveClientConfig
+com.facebook.presto.hive.HiveMetadata.computePartitionUpdatesForMissingBuckets(com.facebook.presto.hive.HiveWritableTableHandle, com.facebook.presto.hive.metastore.Table, java.util.List<com.facebook.presto.hive.PartitionUpdate>);HiveWritableTableHandle
+com.facebook.presto.hive.metastore.SemiTransactionalHiveMetastore.AlterPartitionOperation.getDescription();Partition
+com.facebook.presto.hive.ColumnarBinaryHiveRecordCursor.isValidHiveStringType(com.facebook.presto.hive.HiveType);HiveType
+com.facebook.presto.hive.HiveMetadata.getOrComputePartitions(com.facebook.presto.hive.HiveTableLayoutHandle, com.facebook.presto.spi.ConnectorSession, com.facebook.presto.spi.ConnectorTableHandle);HiveTableLayoutHandle
+com.facebook.presto.hive.metastore.SemiTransactionalHiveMetastore.CreateTableOperation.getDescription();Table
+com.facebook.presto.sql.planner.optimizations.TransformUncorrelatedInPredicateSubqueryToSemiJoin.InsertSemiJoinRewriter.appendIdentityProjection(com.facebook.presto.sql.planner.plan.ProjectNode, com.facebook.presto.sql.planner.Symbol);ProjectNode
+com.facebook.presto.operator.aggregation.AccumulatorCompiler.generateAccumulatorFactoryBinder(com.facebook.presto.operator.aggregation.AggregationMetadata, com.facebook.presto.bytecode.DynamicClassLoader);AggregationMetadata
+com.facebook.presto.operator.scalar.RegexpFunctionsBenchmark.benchmarkLikeJoni(com.facebook.presto.operator.scalar.RegexpFunctionsBenchmark.DotStarAroundData);DotStarAroundData
+com.facebook.presto.operator.scalar.RegexpFunctionsBenchmark.benchmarkLikeRe2J(com.facebook.presto.operator.scalar.RegexpFunctionsBenchmark.DotStarAroundData);DotStarAroundData
+com.facebook.presto.operator.scalar.StringFunctionsBenchmark.benchmarkSubstringStart(com.facebook.presto.operator.scalar.StringFunctionsBenchmark.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.StringFunctionsBenchmark.benchmarkSubstringStartLength(com.facebook.presto.operator.scalar.StringFunctionsBenchmark.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.StringFunctionsBenchmark.benchmarkSubstringStartFromEnd(com.facebook.presto.operator.scalar.StringFunctionsBenchmark.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.StringFunctionsBenchmark.benchmarkSubstringStartLengthFromEnd(com.facebook.presto.operator.scalar.StringFunctionsBenchmark.BenchmarkData);BenchmarkData
+com.facebook.presto.sql.gen.NullIfCodeGenerator.cast(com.facebook.presto.sql.gen.BytecodeGeneratorContext, com.facebook.presto.bytecode.BytecodeNode, com.facebook.presto.spi.type.Type, com.facebook.presto.spi.type.TypeSignature);BytecodeGeneratorContext
+com.facebook.presto.sql.planner.InputExtractor.createInput(com.facebook.presto.metadata.TableMetadata, java.util.Optional<com.facebook.presto.metadata.TableLayoutHandle>, java.util.Set<com.facebook.presto.execution.Column>);TableMetadata
+com.facebook.presto.sql.planner.LocalExecutionPlanner.plan(com.facebook.presto.Session, com.facebook.presto.sql.planner.plan.PlanNode, java.util.List<com.facebook.presto.sql.planner.Symbol>, java.util.Map<com.facebook.presto.sql.planner.Symbol,com.facebook.presto.spi.type.Type>, com.facebook.presto.operator.OutputFactory);PlanNode
+com.facebook.presto.sql.planner.optimizations.AddExchanges.Rewriter.translateGroupIdSymbols(com.facebook.presto.sql.planner.plan.GroupIdNode);GroupIdNode
+com.facebook.presto.sql.planner.optimizations.BeginTableWrite.Rewriter.getTarget(com.facebook.presto.sql.planner.plan.PlanNode);PlanNode
+com.facebook.presto.metadata.PolymorphicScalarFunction.onlyFirstMatchedMethodHasPredicate(com.facebook.presto.metadata.SqlScalarFunctionBuilder.MethodsGroup, com.facebook.presto.metadata.SqlScalarFunctionBuilder.MethodsGroup);MethodsGroup
+com.facebook.presto.metadata.PolymorphicScalarFunction.predicateIsTrue(com.facebook.presto.metadata.SqlScalarFunctionBuilder.MethodsGroup, com.facebook.presto.metadata.SqlScalarFunctionBuilder.SpecializeContext);MethodsGroup
+com.facebook.presto.metadata.PolymorphicScalarFunction.computeExtraParameters(com.facebook.presto.metadata.SqlScalarFunctionBuilder.MethodsGroup, com.facebook.presto.metadata.SqlScalarFunctionBuilder.SpecializeContext);MethodsGroup
+com.facebook.presto.operator.PagesIndexOrdering.vectorSwap(com.facebook.presto.operator.PagesIndex, int, int, int);PagesIndex
+com.facebook.presto.server.ServerMainModule.createServerInfo(com.facebook.presto.client.NodeVersion, io.airlift.node.NodeInfo, com.facebook.presto.server.ServerConfig);ServerConfig
+com.facebook.presto.server.ServerMainModule.createExchangeExecutor(com.facebook.presto.operator.ExchangeClientConfig);ExchangeClientConfig
+com.facebook.presto.sql.analyzer.Scope.isColumnReference(com.facebook.presto.sql.tree.QualifiedName, com.facebook.presto.sql.analyzer.RelationType);RelationType
+com.facebook.presto.sql.planner.InputExtractor.extractInputs(com.facebook.presto.sql.planner.plan.PlanNode);PlanNode
+com.facebook.presto.sql.planner.LocalExecutionPlanner.Visitor.makeLayout(com.facebook.presto.sql.planner.plan.PlanNode);PlanNode
+com.facebook.presto.sql.planner.OutputExtractor.extractOutput(com.facebook.presto.sql.planner.plan.PlanNode);PlanNode
+com.facebook.presto.sql.planner.optimizations.PropertyDerivations.Visitor.translateGroupIdSymbols(com.facebook.presto.sql.planner.plan.GroupIdNode);GroupIdNode
+com.facebook.presto.sql.planner.optimizations.StreamPropertyDerivations.Visitor.translateGroupIdSymbols(com.facebook.presto.sql.planner.plan.GroupIdNode);GroupIdNode
+com.facebook.presto.sql.planner.plan.SimplePlanRewriter.RewriteContext.defaultRewrite(com.facebook.presto.sql.planner.plan.PlanNode, C);PlanNode
+com.facebook.presto.sql.planner.sanity.ValidateDependenciesChecker.Visitor.createInputs(com.facebook.presto.sql.planner.plan.PlanNode, java.util.Set<com.facebook.presto.sql.planner.Symbol>);PlanNode
+com.facebook.presto.sql.relational.SqlToRowExpressionTranslator.Visitor.changeType(com.facebook.presto.sql.relational.RowExpression, com.facebook.presto.spi.type.Type);RowExpression
+com.facebook.presto.sql.planner.LocalExecutionPlanner.Visitor.planGlobalAggregation(int, com.facebook.presto.sql.planner.plan.AggregationNode, com.facebook.presto.sql.planner.LocalExecutionPlanner.PhysicalOperation);AggregationNode
+com.facebook.presto.sql.planner.optimizations.UnaliasSymbolReferences.Rewriter.canonicalize(com.facebook.presto.sql.planner.plan.WindowNode.Frame);Frame
+com.facebook.presto.event.query.QueryMonitor.logQueryTimeline(com.facebook.presto.execution.QueryInfo);QueryInfo
+com.facebook.presto.metadata.SignatureBinder.calculateVariableValuesForLongConstraints(com.facebook.presto.metadata.BoundVariables.Builder);Builder
+com.facebook.presto.operator.BenchmarkGroupByHash.groupByHashPreCompute(com.facebook.presto.operator.BenchmarkGroupByHash.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.BenchmarkGroupByHash.addPagePreCompute(com.facebook.presto.operator.BenchmarkGroupByHash.BenchmarkData);BenchmarkData
+com.facebook.presto.sql.planner.PlanFragmenter.Fragmenter.buildFragment(com.facebook.presto.sql.planner.plan.PlanNode, com.facebook.presto.sql.planner.PlanFragmenter.FragmentProperties, com.facebook.presto.sql.planner.plan.PlanFragmentId);FragmentProperties
+com.facebook.presto.BenchmarkPagesIndexPageSorter.runBenchmark(com.facebook.presto.BenchmarkPagesIndexPageSorter.BenchmarkData);BenchmarkData
+com.facebook.presto.execution.buffer.ClientBuffer.processRead(com.facebook.presto.execution.buffer.ClientBuffer.PendingRead);PendingRead
+com.facebook.presto.index.IndexManager.getIndex(com.facebook.presto.Session, com.facebook.presto.metadata.IndexHandle, java.util.List<com.facebook.presto.spi.ColumnHandle>, java.util.List<com.facebook.presto.spi.ColumnHandle>);IndexHandle
+com.facebook.presto.operator.scalar.BenchmarkArrayDistinct.arrayDistinct(com.facebook.presto.operator.scalar.BenchmarkArrayDistinct.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.BenchmarkArrayHashCodeOperator.arrayHashCode(com.facebook.presto.operator.scalar.BenchmarkArrayHashCodeOperator.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.BenchmarkArraySort.arraySort(com.facebook.presto.operator.scalar.BenchmarkArraySort.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.BenchmarkArraySubscript.arraySubscript(com.facebook.presto.operator.scalar.BenchmarkArraySubscript.BenchmarkData);BenchmarkData
+com.facebook.presto.operator.scalar.BenchmarkMapSubscript.mapSubscript(com.facebook.presto.operator.scalar.BenchmarkMapSubscript.BenchmarkData);BenchmarkData
+com.facebook.presto.split.SplitManager.getSplits(com.facebook.presto.Session, com.facebook.presto.metadata.TableLayoutHandle);TableLayoutHandle
+com.facebook.presto.sql.planner.NodePartitioningManager.getPartitionFunction(com.facebook.presto.Session, com.facebook.presto.sql.planner.PartitioningScheme, java.util.List<com.facebook.presto.spi.type.Type>);PartitioningScheme
+com.facebook.presto.sql.planner.RelationPlanner.initializePlanBuilder(com.facebook.presto.sql.planner.RelationPlan);RelationPlan
+com.facebook.presto.sql.planner.optimizations.TransformCorrelatedScalarAggregationToJoin.Rewriter.updateFilterNode(com.facebook.presto.sql.planner.optimizations.PlanNodeSearcher, java.util.List<com.facebook.presto.sql.tree.Expression>);PlanNodeSearcher
+com.facebook.presto.sql.planner.optimizations.WindowFilterPushDown.Rewriter.convertToTopNRowNumber(com.facebook.presto.sql.planner.plan.WindowNode, int);WindowNode
+com.facebook.presto.execution.SqlTask.getTaskStats(com.facebook.presto.execution.SqlTask.TaskHolder);TaskStateMachine
+com.facebook.presto.execution.scheduler.TopologyAwareNodeSelector.bestNodeSplitCount(java.util.Iterator<com.facebook.presto.spi.Node>, int, int, com.facebook.presto.execution.scheduler.NodeAssignmentStats);NodeAssignmentStats
+com.facebook.presto.metadata.SessionPropertyManager.getAllSessionProperties(com.facebook.presto.Session);Session
+com.facebook.presto.operator.BenchmarkGroupByHash.bigintGroupByHash(com.facebook.presto.operator.BenchmarkGroupByHash.SingleChannelBenchmarkData);SingleChannelBenchmarkData
+com.facebook.presto.server.NodeResource.getFailed();HeartbeatFailureDetector
+com.facebook.presto.sql.planner.LogicalPlanner.createOutputPlan(com.facebook.presto.sql.planner.RelationPlan, com.facebook.presto.sql.analyzer.Analysis);RelationPlan
+com.facebook.presto.sql.planner.QueryPlanner.distinct(com.facebook.presto.sql.planner.PlanBuilder, com.facebook.presto.sql.tree.QuerySpecification, java.util.List<com.facebook.presto.sql.tree.Expression>, java.util.List<com.facebook.presto.sql.tree.Expression>);PlanBuilder
+com.facebook.presto.sql.planner.SymbolAllocator.newSymbol(com.facebook.presto.sql.analyzer.Field);Field
+com.facebook.presto.sql.planner.assertions.TableScanMatcher.domainMatches(com.facebook.presto.sql.planner.plan.TableScanNode, com.facebook.presto.Session, com.facebook.presto.metadata.Metadata);TableScanNode
+com.facebook.presto.sql.planner.optimizations.PropertyDerivations.Visitor.deriveGlobalProperties(com.facebook.presto.metadata.TableLayout, java.util.Map<com.facebook.presto.spi.ColumnHandle,com.facebook.presto.sql.planner.Symbol>, java.util.Map<com.facebook.presto.spi.ColumnHandle,com.facebook.presto.spi.predicate.NullableValue>);TableLayout
+com.facebook.presto.sql.planner.plan.PlanRewriter.RewriteContext.rewrite(com.facebook.presto.sql.planner.plan.PlanNode, C);PlanNode
+com.facebook.presto.sql.planner.LocalExecutionPlanner.Visitor.planGroupByAggregation(com.facebook.presto.sql.planner.plan.AggregationNode, com.facebook.presto.sql.planner.LocalExecutionPlanner.PhysicalOperation, int);AggregationNode
+com.facebook.presto.event.query.QueryMonitor.splitCompletedEvent(com.facebook.presto.execution.TaskId, com.facebook.presto.operator.DriverStats, java.lang.String, java.lang.String);DriverStats
+com.facebook.presto.operator.BenchmarkHashBuildAndJoinOperators.benchmarkJoinHash(com.facebook.presto.operator.BenchmarkHashBuildAndJoinOperators.JoinContext);JoinContext
+com.facebook.presto.operator.BenchmarkHashBuildAndJoinOperators.benchmarkBuildHash(com.facebook.presto.operator.BenchmarkHashBuildAndJoinOperators.BuildContext);BuildContext
+com.facebook.presto.sql.planner.optimizations.UnaliasSymbolReferences.Rewriter.canonicalizePartitionFunctionBinding(com.facebook.presto.sql.planner.PartitioningScheme);PartitioningScheme
+com.facebook.presto.server.TaskResource.createOrUpdateTask(com.facebook.presto.execution.TaskId, com.facebook.presto.server.TaskUpdateRequest, javax.ws.rs.core.UriInfo);TaskUpdateRequest
+com.facebook.presto.execution.BenchmarkNodeScheduler.benchmark(com.facebook.presto.execution.BenchmarkNodeScheduler.BenchmarkData);BenchmarkData
+com.facebook.presto.execution.resourceGroups.InternalResourceGroupManager.selectGroup(com.facebook.presto.Session);Session
+com.facebook.presto.execution.scheduler.SourcePartitionedScheduler.finalizeTaskCreationIfNecessary();SqlStageExecution
+com.facebook.presto.operator.MultiChannelGroupByHash.getGroupId(com.facebook.presto.operator.HashGenerator, com.facebook.presto.spi.Page, int);DictionaryLookBack
+com.facebook.presto.sql.gen.InCodeGenerator.buildInCase(com.facebook.presto.sql.gen.BytecodeGeneratorContext, com.facebook.presto.bytecode.Scope, com.facebook.presto.spi.type.Type, com.facebook.presto.bytecode.instruction.LabelNode, com.facebook.presto.bytecode.instruction.LabelNode, com.facebook.presto.bytecode.instruction.LabelNode, java.util.Collection<com.facebook.presto.bytecode.BytecodeNode>, boolean);BytecodeGeneratorContext
+com.facebook.presto.sql.planner.NodePartitioningManager.getNodePartitioningMap(com.facebook.presto.Session, com.facebook.presto.sql.planner.PartitioningHandle);PartitioningHandle
+com.facebook.presto.sql.planner.QueryPlanner.sort(com.facebook.presto.sql.planner.PlanBuilder, java.util.List<com.facebook.presto.sql.tree.SortItem>, java.util.Optional<java.lang.String>, java.util.List<com.facebook.presto.sql.tree.Expression>);PlanBuilder
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength1(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength2(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength3(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength4(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength5(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength6(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength7(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.optimizedLength256(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength1(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength2(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength3(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength4(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength5(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength6(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength7(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.stream.BenchmarkLongBitPacker.baselineLength256(com.facebook.presto.orc.stream.BenchmarkLongBitPacker.BenchmarkData);BenchmarkData
+com.facebook.presto.orc.TestingOrcPredicate.BasicOrcPredicate.chunkMatchesStats(java.util.List<T>, com.facebook.presto.orc.metadata.ColumnStatistics);ColumnStatistics
+com.facebook.presto.raptor.backup.HttpBackupModule.createBackupUriSupplier(com.facebook.presto.raptor.backup.HttpBackupConfig);HttpBackupConfig
+com.facebook.presto.raptor.metadata.DatabaseMetadataModule.MySqlDataSourceModule.createDataSource(com.facebook.presto.raptor.metadata.JdbcDatabaseConfig, io.airlift.dbpool.MySqlDataSourceConfig);JdbcDatabaseConfig
+com.facebook.presto.raptor.storage.OrcStorageManager.getColumnInfoFromOrcUserMetadata(com.facebook.presto.raptor.storage.OrcFileMetadata);OrcFileMetadata
+com.facebook.presto.raptor.RaptorMetadata.getRaptorColumnHandle(com.facebook.presto.raptor.metadata.TableColumn);TableColumn
+com.facebook.presto.raptor.RaptorMetadata.getTableLayout(com.facebook.presto.spi.ConnectorSession, com.facebook.presto.raptor.RaptorTableHandle, com.facebook.presto.spi.predicate.TupleDomain<com.facebook.presto.spi.ColumnHandle>);RaptorTableHandle
+com.facebook.presto.redis.RedisRecordCursor.setScanParms();RedisSplit
+com.facebook.presto.server.testing.TestingPrestoServerLauncher.run();TestingPrestoServerLauncherOptions
+com.facebook.presto.tests.QueryTemplate.resolve(java.lang.String, com.facebook.presto.tests.QueryTemplate.Parameter);Parameter

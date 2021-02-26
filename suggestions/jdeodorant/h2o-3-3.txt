@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	hex.genmodel.utils.GenmodelBitSet::fill3(byte[], hex.genmodel.utils.ByteBufferWrapper):void	hex.genmodel.utils.ByteBufferWrapper	1/3	
-Move Method	hex.genmodel.utils.GenmodelBitSet::fill2(byte[], hex.genmodel.utils.ByteBufferWrapper):void	hex.genmodel.utils.ByteBufferWrapper	1/2	
-Move Method	hex.genmodel.easy.EasyPredictModelWrapper::predictBinomial(hex.genmodel.easy.RowData):hex.genmodel.easy.prediction.BinomialModelPrediction	hex.genmodel.GenModel	2/3	
-Move Method	hex.genmodel.easy.EasyPredictModelWrapper::predictMultinomial(hex.genmodel.easy.RowData):hex.genmodel.easy.prediction.MultinomialModelPrediction	hex.genmodel.GenModel	2/3	

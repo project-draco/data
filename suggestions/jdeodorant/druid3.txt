@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	io.druid.storage.cloudfiles.CloudFilesStorageDruidModule::getCloudFilesApi(io.druid.storage.cloudfiles.CloudFilesAccountConfig):org.jclouds.rackspace.cloudfiles.v1.CloudFilesApi	io.druid.storage.cloudfiles.CloudFilesAccountConfig	1/4	
-Move Method	io.druid.storage.cloudfiles.CloudFilesObjectApiProxy::put(io.druid.storage.cloudfiles.CloudFilesObject):java.lang.String	io.druid.storage.cloudfiles.CloudFilesObject	1/2	

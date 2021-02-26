@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.springframework.aop.framework.DefaultAopProxyFactory::hasNoUserSuppliedProxyInterfaces(org.springframework.aop.framework.AdvisedSupport):boolean	org.springframework.aop.framework.AdvisedSupport	0/1	

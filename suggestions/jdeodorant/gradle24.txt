@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.plugins.signing.SigningExtension::addSignaturesToConfiguration(org.gradle.plugins.signing.Sign, org.gradle.api.artifacts.Configuration):java.lang.Object	org.gradle.plugins.signing.Sign	0/1	

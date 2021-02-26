@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.api.plugins.antlr.internal.AntlrSpecFactory::create(org.gradle.api.plugins.antlr.AntlrTask, java.util.Set<java.io.File>, org.gradle.api.file.SourceDirectorySet):org.gradle.api.plugins.antlr.internal.AntlrSpec	org.gradle.api.plugins.antlr.AntlrTask	0/7	
-Move Method	org.gradle.api.plugins.antlr.AntlrTask::evaluate(org.gradle.api.plugins.antlr.internal.AntlrResult):void	org.gradle.api.plugins.antlr.internal.AntlrResult	0/2	
-Move Method	org.gradle.api.plugins.antlr.internal.AntlrWorkerManager::createWorkerProcess(java.io.File, org.gradle.process.internal.worker.WorkerProcessFactory, org.gradle.api.file.FileCollection, org.gradle.api.plugins.antlr.internal.AntlrSpec):org.gradle.api.plugins.antlr.internal.AntlrWorker	org.gradle.api.plugins.antlr.internal.AntlrSpec	0/1	
-Move Method	org.gradle.api.plugins.antlr.internal.AntlrExecuter.AntlrTool::doProcess(org.gradle.api.plugins.antlr.internal.AntlrSpec):org.gradle.api.plugins.antlr.internal.AntlrResult	org.gradle.api.plugins.antlr.internal.AntlrSpec	1/5	

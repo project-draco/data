@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.navercorp.pinpoint.common.hbase.parallel.ParallelResultScanner::checkTask(com.navercorp.pinpoint.common.hbase.parallel.ScanTask):void	com.navercorp.pinpoint.common.hbase.parallel.ScanTask	0/1	

@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor::tryGettingExistingEntityFromContext(javax.lang.model.element.AnnotationMirror, java.lang.String):org.hibernate.jpamodelgen.model.MetaEntity	org.hibernate.jpamodelgen.Context	1/2	
-Move Method	org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor::addMetaEntityToContext(javax.lang.model.element.AnnotationMirror, org.hibernate.jpamodelgen.annotation.AnnotationMetaEntity):void	org.hibernate.jpamodelgen.Context	1/2	
-Move Method	org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor::createMetaModelClasses():void	org.hibernate.jpamodelgen.Context	2/5	

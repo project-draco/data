@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.repositories.azure.AzureStorageServiceImpl::createClient(org.elasticsearch.repositories.azure.AzureStorageSettings):void	org.elasticsearch.repositories.azure.AzureStorageSettings	2/3	

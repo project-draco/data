@@ -1,6 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.springframework.orm.jpa.JpaTransactionManager::closeEntityManagerAfterFailedBegin(org.springframework.orm.jpa.JpaTransactionManager.JpaTransactionObject):void	org.springframework.orm.jpa.JpaTransactionManager.JpaTransactionObject	0/3	
-Move Method	org.springframework.orm.hibernate5.LocalSessionFactoryBean::buildSessionFactory(org.springframework.orm.hibernate5.LocalSessionFactoryBuilder):org.hibernate.SessionFactory	org.springframework.orm.hibernate5.LocalSessionFactoryBuilder	1/2	
-Move Method	org.springframework.orm.jpa.AbstractEntityManagerFactoryBeanTests::checkInvariants(org.springframework.orm.jpa.AbstractEntityManagerFactoryBean):void	org.springframework.orm.jpa.AbstractEntityManagerFactoryBean	1/2	
-Move Method	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean::setDataSource(javax.sql.DataSource):void	org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager	1/2	
-Move Method	org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean::setJtaDataSource(javax.sql.DataSource):void	org.springframework.orm.jpa.persistenceunit.DefaultPersistenceUnitManager	1/2	

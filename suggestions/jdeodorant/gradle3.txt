@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.composite.internal.IncludedBuildArtifactBuilder::getBuildIdentifier(org.gradle.composite.internal.CompositeProjectComponentArtifactMetadata):org.gradle.api.artifacts.component.BuildIdentifier	org.gradle.composite.internal.CompositeProjectComponentArtifactMetadata	0/1	

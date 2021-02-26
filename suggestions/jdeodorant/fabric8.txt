@@ -1,0 +1,14 @@
+io.fabric8.apmagent.metrics.ApmAgentContext.resetAll(io.fabric8.apmagent.ClassInfo);ClassInfo
+io.fabric8.arquillian.kubernetes.SessionListener.preprocessEnvironment(io.fabric8.kubernetes.client.KubernetesClient, io.fabric8.kubernetes.api.Controller, io.fabric8.arquillian.kubernetes.Configuration, io.fabric8.arquillian.kubernetes.Session);Session
+io.fabric8.arquillian.kubernetes.SessionListener.clearTestResultDirectories(io.fabric8.arquillian.kubernetes.Session);Session
+io.fabric8.arquillian.kubernetes.SessionListener.expandTemplate(io.fabric8.kubernetes.api.Controller, io.fabric8.arquillian.kubernetes.Configuration, io.fabric8.arquillian.kubernetes.log.Logger, java.lang.String, java.lang.String, java.lang.Object);Configuration
+io.fabric8.arquillian.kubernetes.SessionListener.preprocessEnvironment(io.fabric8.kubernetes.client.KubernetesClient, io.fabric8.kubernetes.api.Controller, io.fabric8.arquillian.kubernetes.Configuration, io.fabric8.arquillian.kubernetes.Session);Configuration
+io.fabric8.arquillian.kubernetes.SessionListener.generateServiceAccount(io.fabric8.kubernetes.client.KubernetesClient, io.fabric8.arquillian.kubernetes.Session, java.util.Set<io.fabric8.kubernetes.api.model.Secret>, java.lang.String);Session
+io.fabric8.arquillian.kubernetes.SessionListener.generateSecrets(io.fabric8.kubernetes.client.KubernetesClient, io.fabric8.arquillian.kubernetes.Session, io.fabric8.kubernetes.api.model.ObjectMeta);Session
+io.fabric8.arquillian.kubernetes.ClientCreator.createClient(io.fabric8.arquillian.kubernetes.Configuration);Configuration
+io.fabric8.cxf.endpoint.jaxrs.BookStoreSpring.convertBook(io.fabric8.cxf.endpoint.jaxrs.Book2);Book2
+io.fabric8.cxf.endpoint.jaxrs.BookStore.addBook2(io.fabric8.cxf.endpoint.jaxrs.Book);Book
+io.fabric8.cxf.endpoint.jaxrs.BookStore.addBookCustomFailure(io.fabric8.cxf.endpoint.jaxrs.Book, javax.servlet.http.HttpServletResponse);Book
+io.fabric8.cxf.endpoint.jaxrs.BookStore.addBook(io.fabric8.cxf.endpoint.jaxrs.BookStore.BookInfo);BookInfo
+io.fabric8.cxf.endpoint.jaxrs.BookStore.getBeanParamBook(io.fabric8.cxf.endpoint.jaxrs.BookStore.BookBean);BookBean
+io.fabric8.selenium.forge.ProjectsPage.untilNextWizardPage(io.fabric8.selenium.WebDriverFacade, org.openqa.selenium.By);WebDriverFacade

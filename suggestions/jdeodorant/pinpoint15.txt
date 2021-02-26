@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.navercorp.pinpoint.plugin.spring.beans.interceptor.TargetBeanFilter::isBeanNameTarget(com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget, java.lang.String):boolean	com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget	0/1	
-Move Method	com.navercorp.pinpoint.plugin.spring.beans.interceptor.TargetBeanFilter::isClassNameTarget(com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget, java.lang.Class<?>):boolean	com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget	0/1	
-Move Method	com.navercorp.pinpoint.plugin.spring.beans.interceptor.TargetBeanFilter::isAnnotationTarget(com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget, java.lang.Class<?>):boolean	com.navercorp.pinpoint.plugin.spring.beans.SpringBeansTarget	0/1	

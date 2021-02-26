@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.api.java.archives.internal.DefaultManifestMergeSpec::addMergeDetailToManifest(java.lang.String, org.gradle.api.java.archives.internal.DefaultManifest, org.gradle.api.java.archives.internal.DefaultManifestMergeDetails):void	org.gradle.api.java.archives.internal.DefaultManifestMergeDetails	0/3	
-Move Method	org.gradle.jvm.plugins.JvmComponentPlugin.Rules::javaToolChains(org.gradle.model.ModelMap<org.gradle.jvm.toolchain.internal.LocalJavaInstallation>, org.gradle.jvm.toolchain.internal.JavaInstallationProbe):void	org.gradle.jvm.toolchain.internal.JavaInstallationProbe	0/1	

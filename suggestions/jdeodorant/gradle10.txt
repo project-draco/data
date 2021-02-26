@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.api.plugins.jetty.JettyPlugin::configureAbstractJettyTask(org.gradle.api.Project, org.gradle.api.plugins.jetty.JettyPluginConvention, org.gradle.api.plugins.jetty.AbstractJettyRunTask):void	org.gradle.api.plugins.jetty.AbstractJettyRunTask	1/4	
-Move Method	org.gradle.api.plugins.jetty.JettyPlugin::configureAbstractJettyTask(org.gradle.api.Project, org.gradle.api.plugins.jetty.JettyPluginConvention, org.gradle.api.plugins.jetty.AbstractJettyRunTask):void	org.gradle.api.plugins.jetty.JettyPluginConvention	1/3	
-Move Method	org.gradle.api.plugins.jetty.JettyPlugin::configureJettyStop(org.gradle.api.Project, org.gradle.api.plugins.jetty.JettyPluginConvention):void	org.gradle.api.plugins.jetty.JettyPluginConvention	1/2	

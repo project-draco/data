@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.languagetool.remote.RemoteLanguageTool::getUrlParams(java.lang.String, org.languagetool.remote.CheckConfiguration):java.lang.String	org.languagetool.remote.CheckConfiguration	1/6	

@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.languagetool.server.Server::getRequestLimiterOrNull(org.languagetool.server.HTTPServerConfig):org.languagetool.server.RequestLimiter	org.languagetool.server.HTTPServerConfig	0/2	
-Move Method	org.languagetool.server.Server::getExecutorService(java.util.concurrent.LinkedBlockingQueue<java.lang.Runnable>, org.languagetool.server.HTTPServerConfig):java.util.concurrent.ThreadPoolExecutor	org.languagetool.server.HTTPServerConfig	0/1	
-Move Method	org.languagetool.server.TextChecker::getRuleMatches(java.lang.String, java.util.Map<java.lang.String,java.lang.String>, org.languagetool.Language, org.languagetool.Language, org.languagetool.server.TextChecker.QueryParams):java.util.List<org.languagetool.rules.RuleMatch>	org.languagetool.server.TextChecker.QueryParams	1/3	

@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.openhab.io.harmonyhub.HarmonyHubGateway::connectClient(java.lang.String, org.openhab.io.harmonyhub.HostConfig):void	org.openhab.io.harmonyhub.HostConfig	2/3	

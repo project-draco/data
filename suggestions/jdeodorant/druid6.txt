@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	io.druid.tests.indexer.AbstractIndexerTest::unloadAndKillData(java.lang.String, java.lang.String, java.lang.String):void	io.druid.testing.clients.CoordinatorResourceTestClient	2/3	

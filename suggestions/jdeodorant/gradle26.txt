@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.testkit.runner.internal.DefaultGradleRunner::createBuildResult(org.gradle.testkit.runner.internal.GradleExecutionResult):org.gradle.testkit.runner.BuildResult	org.gradle.testkit.runner.internal.GradleExecutionResult	0/3	

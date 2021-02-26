@@ -1,8 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	im.actor.runtime.markdown.MarkdownParser::addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>):void	im.actor.runtime.markdown.MarkdownParser.TextCursor	0/2	
-Move Method	im.actor.runtime.json.JSONArray::writeTo(im.actor.runtime.json.JSONStringer):void	im.actor.runtime.json.JSONStringer	1/3	
-Move Method	im.actor.runtime.json.JSONObject::writeTo(im.actor.runtime.json.JSONStringer):void	im.actor.runtime.json.JSONStringer	1/3	
-Move Method	im.actor.runtime.intl.IntlEngine::traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String):void	im.actor.runtime.json.JSONObject	1/2	
-Move Method	im.actor.runtime.markdown.MarkdownParser::findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int):im.actor.runtime.markdown.MarkdownParser.TitledUrl	im.actor.runtime.markdown.MarkdownParser.TextCursor	1/2	
-Move Method	im.actor.runtime.markdown.MarkdownParser::findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int):im.actor.runtime.markdown.MarkdownParser.BasicUrl	im.actor.runtime.markdown.MarkdownParser.TextCursor	1/2	
-Move Method	im.actor.runtime.actors.dispatch.ActorDispatcher::processEnvelope(im.actor.runtime.actors.dispatch.Envelope):void	im.actor.runtime.actors.dispatch.Envelope	2/3	

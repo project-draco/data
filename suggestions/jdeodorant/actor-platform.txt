@@ -1,0 +1,101 @@
+im.actor.runtime.clc.ClcListStorage.loadSlice(im.actor.runtime.clc.Cursor);Cursor
+im.actor.core.modules.AbsModule.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.ModuleActor.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.settings.SettingsModule.getChatKey(im.actor.core.entity.Peer);Peer
+im.actor.runtime.markdown.MarkdownParser.addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.decrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.encryption.KeyManagerActor.validateUserKeysGroup(int, im.actor.core.api.ApiEncryptionKeyGroup);ApiEncryptionKeyGroup
+im.actor.runtime.json.JSONArray.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.json.JSONObject.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.core.modules.encryption.KeyManagerActor.fetchOwnIdentity();PrivateKeyStorage
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PrivateKey
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PublicKey
+im.actor.core.modules.typing.TypingProcessor.onTyping(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onTypingStop(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onMessage(im.actor.core.api.ApiPeer, int);ApiPeer
+im.actor.runtime.intl.IntlEngine.traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String);JSONObject
+im.actor.runtime.markdown.MarkdownParser.findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.markdown.MarkdownParser.findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.encrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.runtime.actors.dispatch.ActorDispatcher.processEnvelope(im.actor.runtime.actors.dispatch.Envelope);Envelope
+im.actor.core.modules.AbsModule.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.ModuleActor.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.settings.SettingsModule.getChatKey(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.encryption.EncryptedSessionActor.decrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.encryption.KeyManagerActor.validateUserKeysGroup(int, im.actor.core.api.ApiEncryptionKeyGroup);ApiEncryptionKeyGroup
+im.actor.core.modules.encryption.KeyManagerActor.fetchOwnIdentity();PrivateKeyStorage
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PrivateKey
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PublicKey
+im.actor.core.modules.typing.TypingProcessor.onTyping(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onTypingStop(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onMessage(im.actor.core.api.ApiPeer, int);ApiPeer
+im.actor.core.modules.encryption.EncryptedSessionActor.encrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.AbsModule.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.ModuleActor.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.settings.SettingsModule.getChatKey(im.actor.core.entity.Peer);Peer
+im.actor.runtime.markdown.MarkdownParser.addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.decrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.encryption.KeyManagerActor.validateUserKeysGroup(int, im.actor.core.api.ApiEncryptionKeyGroup);ApiEncryptionKeyGroup
+im.actor.runtime.json.JSONArray.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.json.JSONObject.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.core.js.JsFacade.bindMessages(im.actor.core.js.entity.JsPeer, im.actor.core.js.entity.JsMessagesBindClosure);Messenger
+im.actor.core.js.JsFacade.onAppVisible();JsMessenger
+im.actor.core.js.JsFacade.onAppHidden();JsMessenger
+im.actor.core.js.JsFacade.onUserVisible(im.actor.core.js.entity.JsPeer);JsPeer
+im.actor.core.js.JsFacade.convertSearchRes(java.util.List<im.actor.core.entity.MessageSearchEntity>);JsMessenger
+im.actor.core.modules.encryption.KeyManagerActor.fetchOwnIdentity();PrivateKeyStorage
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PrivateKey
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PublicKey
+im.actor.core.modules.typing.TypingProcessor.onTyping(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onTypingStop(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onMessage(im.actor.core.api.ApiPeer, int);ApiPeer
+im.actor.runtime.intl.IntlEngine.traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String);JSONObject
+im.actor.runtime.markdown.MarkdownParser.findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.markdown.MarkdownParser.findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.encrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.runtime.actors.dispatch.ActorDispatcher.processEnvelope(im.actor.runtime.actors.dispatch.Envelope);Envelope
+im.actor.core.modules.AbsModule.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.ModuleActor.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.settings.SettingsModule.getChatKey(im.actor.core.entity.Peer);Peer
+im.actor.runtime.markdown.MarkdownParser.addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.decrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.encryption.KeyManagerActor.validateUserKeysGroup(int, im.actor.core.api.ApiEncryptionKeyGroup);ApiEncryptionKeyGroup
+im.actor.runtime.json.JSONArray.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.json.JSONObject.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.core.modules.encryption.KeyManagerActor.fetchOwnIdentity();PrivateKeyStorage
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PrivateKey
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PublicKey
+im.actor.core.modules.typing.TypingProcessor.onTyping(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onTypingStop(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onMessage(im.actor.core.api.ApiPeer, int);ApiPeer
+im.actor.runtime.intl.IntlEngine.traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String);JSONObject
+im.actor.runtime.markdown.MarkdownParser.findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.markdown.MarkdownParser.findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.encrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.runtime.actors.dispatch.ActorDispatcher.processEnvelope(im.actor.runtime.actors.dispatch.Envelope);Envelope
+im.actor.core.modules.AbsModule.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.ModuleActor.buildApiPeer(im.actor.core.entity.Peer);Peer
+im.actor.core.modules.settings.SettingsModule.getChatKey(im.actor.core.entity.Peer);Peer
+im.actor.runtime.markdown.MarkdownParser.addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.decrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.core.modules.encryption.KeyManagerActor.validateUserKeysGroup(int, im.actor.core.api.ApiEncryptionKeyGroup);ApiEncryptionKeyGroup
+im.actor.runtime.json.JSONArray.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.json.JSONObject.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.core.modules.encryption.KeyManagerActor.fetchOwnIdentity();PrivateKeyStorage
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PrivateKey
+im.actor.core.modules.encryption.SessionManagerActor.spawnSession(int, int, int, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey, im.actor.core.modules.encryption.entity.PrivateKey, im.actor.core.modules.encryption.entity.PublicKey);PublicKey
+im.actor.core.modules.typing.TypingProcessor.onTyping(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onTypingStop(im.actor.core.api.ApiPeer, int, im.actor.core.api.ApiTypingType);ApiPeer
+im.actor.core.modules.typing.TypingProcessor.onMessage(im.actor.core.api.ApiPeer, int);ApiPeer
+im.actor.runtime.intl.IntlEngine.traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String);JSONObject
+im.actor.runtime.markdown.MarkdownParser.findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.markdown.MarkdownParser.findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.core.modules.encryption.EncryptedSessionActor.encrypt(im.actor.core.modules.encryption.session.EncryptedSessionChain, byte[]);EncryptedSessionChain
+im.actor.runtime.actors.dispatch.ActorDispatcher.processEnvelope(im.actor.runtime.actors.dispatch.Envelope);Envelope
+im.actor.runtime.markdown.MarkdownParser.addText(im.actor.runtime.markdown.MarkdownParser.TextCursor, int, java.util.ArrayList<im.actor.runtime.markdown.MDText>);TextCursor
+im.actor.runtime.json.JSONArray.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.json.JSONObject.writeTo(im.actor.runtime.json.JSONStringer);JSONStringer
+im.actor.runtime.intl.IntlEngine.traverseObject(java.util.HashMap<java.lang.String,java.lang.String>, im.actor.runtime.json.JSONObject, java.lang.String);JSONObject
+im.actor.runtime.markdown.MarkdownParser.findFormattedUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.markdown.MarkdownParser.findUrl(im.actor.runtime.markdown.MarkdownParser.TextCursor, int);TextCursor
+im.actor.runtime.actors.dispatch.ActorDispatcher.processEnvelope(im.actor.runtime.actors.dispatch.Envelope);Envelope

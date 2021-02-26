@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.http.netty4.cors.Netty4CorsHandler::validateOrigin():boolean	org.elasticsearch.http.netty4.cors.Netty4CorsConfig	2/3	

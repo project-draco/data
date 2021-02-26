@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.hadoop.hive.accumulo.mr.HiveAccumuloRecordReader::pushToValue(java.util.List<org.apache.accumulo.core.data.Key>, java.util.List<org.apache.accumulo.core.data.Value>, org.apache.hadoop.hive.accumulo.AccumuloHiveRow):void	org.apache.hadoop.hive.accumulo.AccumuloHiveRow	0/1	

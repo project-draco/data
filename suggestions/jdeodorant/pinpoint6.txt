@@ -1,8 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.google.common.util.concurrent.Monitor::enterIf(com.google.common.util.concurrent.Monitor.Guard):boolean	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.util.concurrent.Monitor::enterIfInterruptibly(com.google.common.util.concurrent.Monitor.Guard):boolean	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.util.concurrent.Monitor::enterIf(com.google.common.util.concurrent.Monitor.Guard, long, java.util.concurrent.TimeUnit):boolean	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.util.concurrent.Monitor::enterIfInterruptibly(com.google.common.util.concurrent.Monitor.Guard, long, java.util.concurrent.TimeUnit):boolean	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.util.concurrent.Monitor::tryEnterIf(com.google.common.util.concurrent.Monitor.Guard):boolean	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.util.concurrent.Monitor::getWaitQueueLength(com.google.common.util.concurrent.Monitor.Guard):int	com.google.common.util.concurrent.Monitor.Guard	1/2	
-Move Method	com.google.common.io.BaseEncoding.StandardBaseEncoding::encodeChunkTo(java.lang.Appendable, byte[], int, int):void	com.google.common.io.BaseEncoding.Alphabet	2/4	

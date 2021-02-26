@@ -1,0 +1,3 @@
+org.openhab.io.harmonyhub.HarmonyHubGateway.connectClient(java.lang.String, org.openhab.io.harmonyhub.HostConfig);HostConfig
+org.openhab.io.squeezeserver.SqueezeServer.SqueezeServerListener.handlePrefsetMessage(org.openhab.io.squeezeserver.SqueezePlayer, java.lang.String[]);SqueezePlayer
+org.openhab.io.squeezeserver.SqueezeServer.SqueezeServerListener.handlePlaylistMessage(org.openhab.io.squeezeserver.SqueezePlayer, java.lang.String[]);SqueezePlayer

@@ -1,0 +1,9 @@
+org.atmosphere.util.annotation.AnnotationDetector.hasCafebabe(org.atmosphere.util.annotation.ClassFileBuffer);ClassFileBuffer
+org.atmosphere.util.uri.UriTemplate.createUriPattern(org.atmosphere.util.uri.UriTemplateParser);UriTemplateParser
+org.atmosphere.lifecycle.LifecycleHandler.notifyIdleListener(org.atmosphere.cpr.DefaultBroadcaster);DefaultBroadcaster
+org.atmosphere.lifecycle.LifecycleHandler.notifyDestroyListener(org.atmosphere.cpr.DefaultBroadcaster);DefaultBroadcaster
+org.atmosphere.lifecycle.LifecycleHandler.notifyEmptyListener(org.atmosphere.cpr.DefaultBroadcaster);DefaultBroadcaster
+org.atmosphere.cpr.AsynchronousProcessor.invokeAtmosphereHandler(org.atmosphere.cpr.AtmosphereResourceImpl);AtmosphereResourceImpl
+org.atmosphere.cpr.DefaultBroadcaster.executeBlockingWrite(org.atmosphere.cpr.AtmosphereResource, org.atmosphere.cpr.Deliver, java.util.concurrent.atomic.AtomicInteger);Deliver
+org.atmosphere.cpr.WebSocketProcessorFactory.createProcessor(org.atmosphere.cpr.AtmosphereFramework);AtmosphereFramework
+org.atmosphere.websocket.DefaultWebSocketProcessor.finish(org.atmosphere.websocket.WebSocket, org.atmosphere.cpr.AtmosphereResource, org.atmosphere.cpr.AtmosphereRequest, org.atmosphere.cpr.AtmosphereResponse, boolean);WebSocket

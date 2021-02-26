@@ -1,0 +1,39 @@
+io.druid.storage.azure.AzureStorageDruidModule.getCloudBlobClient(io.druid.storage.azure.AzureAccountConfig);AzureAccountConfig
+io.druid.emitter.graphite.GraphiteEmitterModule.getEmitter(io.druid.emitter.graphite.GraphiteEmitterConfig, com.fasterxml.jackson.databind.ObjectMapper, com.google.inject.Injector);GraphiteEmitterConfig
+io.druid.benchmark.StupidPoolConcurrencyBenchmark.hammerQueue(io.druid.benchmark.StupidPoolConcurrencyBenchmark.BenchmarkPool, org.openjdk.jmh.infra.Blackhole);BenchmarkPool
+io.druid.storage.cloudfiles.CloudFilesStorageDruidModule.getCloudFilesApi(io.druid.storage.cloudfiles.CloudFilesAccountConfig);CloudFilesAccountConfig
+io.druid.storage.cloudfiles.CloudFilesObjectApiProxy.put(io.druid.storage.cloudfiles.CloudFilesObject);CloudFilesObject
+io.druid.indexer.IndexGeneratorJob.IndexGeneratorReducer.mergeQueryableIndex(java.util.List<io.druid.segment.QueryableIndex>, io.druid.query.aggregation.AggregatorFactory[], java.io.File, io.druid.segment.ProgressIndicator);HadoopDruidIndexerConfig
+io.druid.indexer.HadoopDruidIndexerConfig.getShardSpec(io.druid.indexer.Bucket);Bucket
+io.druid.indexer.IndexGeneratorJob.IndexGeneratorReducer.persist(io.druid.segment.incremental.IncrementalIndex, org.joda.time.Interval, java.io.File, io.druid.segment.ProgressIndicator);HadoopDruidIndexerConfig
+io.druid.indexer.HadoopDruidIndexerConfig.makeIntermediatePath();HadoopIngestionSpec
+io.druid.indexing.overlord.RemoteTaskRunner.makeWorkerURL(io.druid.indexing.worker.Worker, java.lang.String);Worker
+io.druid.tests.indexer.AbstractIndexerTest.unloadAndKillData(java.lang.String, java.lang.String, java.lang.String);CoordinatorResourceTestClient
+io.druid.server.lookup.namespace.cache.NamespaceExtractionCacheManager.cancelFuture(io.druid.server.lookup.namespace.cache.NamespaceExtractionCacheManager.NamespaceImplData);NamespaceImplData
+io.druid.server.lookup.namespace.JDBCExtractionNamespaceCacheFactory.lastUpdates(java.lang.String, io.druid.query.lookup.namespace.JDBCExtractionNamespace);JDBCExtractionNamespace
+io.druid.storage.s3.S3DataSegmentPuller.isObjectInBucket(io.druid.storage.s3.S3DataSegmentPuller.S3Coords);S3Coords
+io.druid.server.coordinator.CostBalancerStrategy.computeCost(io.druid.timeline.DataSegment, io.druid.server.coordinator.ServerHolder, boolean);ServerHolder
+io.druid.guice.StorageNodeModule.getMetadata(io.druid.server.DruidNode, io.druid.guice.NodeTypeConfig, io.druid.client.DruidServerConfig);DruidServerConfig
+io.druid.curator.discovery.DiscoveryModule.getServiceAnnouncer(io.druid.curator.discovery.CuratorServiceAnnouncer, com.google.inject.Injector, java.util.Set<io.druid.guice.KeyHolder<io.druid.server.DruidNode>>, com.metamx.common.lifecycle.Lifecycle);CuratorServiceAnnouncer
+io.druid.curator.discovery.DiscoveryModule.getServiceDiscovery(org.apache.curator.framework.CuratorFramework, io.druid.server.initialization.CuratorDiscoveryConfig, com.metamx.common.lifecycle.Lifecycle);CuratorDiscoveryConfig
+io.druid.server.initialization.jetty.JettyServerModule.getJettyMonitor(io.druid.server.metrics.DataSourceTaskIdHolder);DataSourceTaskIdHolder
+io.druid.server.metrics.MetricsModule.getJvmMonitor(io.druid.server.metrics.DataSourceTaskIdHolder);DataSourceTaskIdHolder
+io.druid.server.metrics.MetricsModule.getJvmCpuMonitor(io.druid.server.metrics.DataSourceTaskIdHolder);DataSourceTaskIdHolder
+io.druid.server.metrics.MetricsModule.getSysMonitor(io.druid.server.metrics.DataSourceTaskIdHolder);DataSourceTaskIdHolder
+io.druid.guice.DruidProcessingModule.getBackgroundExecutorService(io.druid.client.cache.CacheConfig);CacheConfig
+io.druid.segment.realtime.plumber.RealtimePlumber.computeCorruptedFileDumpDir(java.io.File, io.druid.segment.indexing.DataSchema);DataSchema
+io.druid.server.http.IntervalsResource.setProperties(java.util.Map<org.joda.time.Interval,java.util.Map<java.lang.String,java.util.Map<java.lang.String,java.lang.Object>>>, io.druid.client.DruidDataSource, io.druid.timeline.DataSegment);DruidDataSource
+io.druid.server.initialization.jetty.ChatHandlerServerModule.taskIdResponseHeaderFilterHolderBuilder(io.druid.server.metrics.DataSourceTaskIdHolder);DataSourceTaskIdHolder
+io.druid.client.cache.CacheMonitor.emitStats(com.metamx.emitter.service.ServiceEmitter, java.lang.String, io.druid.client.cache.CacheStats, com.metamx.emitter.service.ServiceMetricEvent.Builder);CacheStats
+io.druid.curator.CuratorModule.makeCurator(io.druid.curator.CuratorConfig, com.metamx.common.lifecycle.Lifecycle);CuratorConfig
+io.druid.metadata.IndexerSQLMetadataStorageCoordinator.start();SQLMetadataConnector
+io.druid.server.http.CoordinatorResource.getLoadStatus(java.lang.String, java.lang.String);DruidCoordinator
+io.druid.client.CoordinatorServerView.removeServer(io.druid.client.DruidServer);DruidServer
+io.druid.curator.CuratorTestBase.setupZNodeForServer(io.druid.client.DruidServer, io.druid.server.initialization.ZkPathsConfig, com.fasterxml.jackson.databind.ObjectMapper);ZkPathsConfig
+io.druid.segment.realtime.firehose.ServiceAnnouncingChatHandlerProvider.makeDruidNode(java.lang.String);DruidNode
+io.druid.server.http.LookupCoordinatorResource.getTiers(boolean);LookupCoordinatorManager
+io.druid.server.coordinator.ReplicationThrottler.update(java.lang.String, io.druid.server.coordinator.ReplicationThrottler.ReplicatorSegmentHolder, java.util.Map<java.lang.String,java.lang.Boolean>, java.lang.String);ReplicatorSegmentHolder
+io.druid.client.ServerInventoryView.addSingleInventory(io.druid.client.DruidServer, io.druid.timeline.DataSegment);DruidServer
+io.druid.client.ServerInventoryView.removeSingleInventory(io.druid.client.DruidServer, java.lang.String);DruidServer
+io.druid.segment.realtime.appenderator.AppenderatorPlumber.addSegment(io.druid.segment.realtime.appenderator.SegmentIdentifier);SegmentIdentifier
+io.druid.server.coordinator.rules.LoadRule.assign(io.druid.server.coordinator.ReplicationThrottler, java.lang.String, int, int, int, io.druid.server.coordinator.BalancerStrategy, java.util.List<io.druid.server.coordinator.ServerHolder>, io.druid.timeline.DataSegment);ReplicationThrottler

@@ -1,0 +1,116 @@
+hex.coxph.CoxPH.CoxPHDriver.calcCounts(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask);CoxPHTask
+hex.api.MakeGLMModelHandler.getDataInfoFrame(int, hex.schemas.DataInfoFrameV3);DataInfoFrameV3
+hex.api.MakeGLMModelHandler.make_model(int, hex.schemas.MakeGLMModelV3);MakeGLMModelV3
+hex.glrm.GLRM.GLRMDriver.createModelSummaryTable(hex.glrm.GLRMModel.GLRMOutput);GLRMOutput
+hex.glrm.GLRM.GLRMDriver.regularizedCholesky(hex.gram.Gram, int);Gram
+hex.tree.DTree.DecidedNode.bestCol(hex.tree.DTree.UndecidedNode, hex.tree.DHistogram[], long);UndecidedNode
+hex.tree.SharedTree.createModelSummaryTable(hex.tree.SharedTreeModel.SharedTreeOutput);SharedTreeOutput
+hex.api.MakeGLMModelHandler.extractRegularizationPath(int, hex.schemas.GLMRegularizationPathV3);GLMRegularizationPathV3
+hex.naivebayes.NaiveBayes.createModelSummaryTable(hex.naivebayes.NaiveBayesModel.NaiveBayesOutput);NaiveBayesOutput
+hex.glrm.GLRM.GLRMDriver.createScoringHistoryTable(hex.glrm.GLRMModel.GLRMOutput);GLRMOutput
+hex.kmeans.KMeans.KMeansDriver.createScoringHistoryTable(hex.kmeans.KMeansModel.KMeansOutput);KMeansOutput
+hex.deeplearning.Neurons.rate(double);DeepLearningParameters
+hex.tree.DTree.DecidedNode.pred(int);Split
+hex.coxph.CoxPH.CoxPHDriver.calcLoglik(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask);CoxPHTask
+hex.coxph.CoxPH.CoxPHDriver.calcCumhaz_0(hex.coxph.CoxPHModel, hex.coxph.CoxPH.CoxPHTask);CoxPHTask
+hex.deeplearning.Neurons.Input.setInput(long, double[], int);DataInfo
+hex.pca.PCA.PCADriver.computeStatsFillModel(hex.pca.PCAModel, hex.DataInfo, Jama.SingularValueDecomposition, hex.gram.Gram, long);DataInfo
+hex.glm.GLMTask.GLMGradientTask.computeNumericEtas(water.fvec.Chunk[], double[], double[], int[]);DataInfo
+hex.glm.GLMTask.GLMMultinomialGradientTask.computeNumericEtas(water.fvec.Chunk[], double[][], double[], int[]);DataInfo
+hex.glm.GLMTask.GLMMultinomialGradientTask.computeNumericGrads(water.fvec.Chunk[], double[][], double[], int[]);DataInfo
+hex.kmeans.KMeans.KMeansDriver.createModelSummaryTable(hex.kmeans.KMeansModel.KMeansOutput);KMeansOutput
+hex.deeplearning.Neurons.momentum(double);DeepLearningParameters
+hex.glm.GLM.COD_solve(hex.glm.GLMTask.GLMIterationTask, double, double);GLMIterationTask
+hex.glm.GLM.COD_solve(hex.glm.GLMTask.GLMIterationTask, double, double);ComputationState
+hex.glm.GLMTask.GLMGradientTask.computeCategoricalEtas(water.fvec.Chunk[], double[], double[], int[]);DataInfo
+hex.glm.GLMTask.GLMMultinomialGradientTask.computeCategoricalEtas(water.fvec.Chunk[], double[][], double[], int[]);DataInfo
+hex.glm.GLMTask.GLMMultinomialGradientTask.computeCategoricalGrads(water.fvec.Chunk[], double[][], double[], int[]);DataInfo
+water.bindings.H2oApi.train_deeplearning(water.bindings.pojos.DeepLearningParametersV3);DeepLearningParametersV3
+water.bindings.H2oApi.validate_deeplearning(water.bindings.pojos.DeepLearningParametersV3);DeepLearningParametersV3
+water.bindings.H2oApi.grid_search_deeplearning(water.bindings.pojos.DeepLearningParametersV3);DeepLearningParametersV3
+water.bindings.H2oApi.train_glm(water.bindings.pojos.GLMParametersV3);GLMParametersV3
+water.bindings.H2oApi.validate_glm(water.bindings.pojos.GLMParametersV3);GLMParametersV3
+water.bindings.H2oApi.grid_search_glm(water.bindings.pojos.GLMParametersV3);GLMParametersV3
+water.bindings.H2oApi.train_gbm(water.bindings.pojos.GBMParametersV3);GBMParametersV3
+water.bindings.H2oApi.validate_gbm(water.bindings.pojos.GBMParametersV3);GBMParametersV3
+water.bindings.H2oApi.grid_search_gbm(water.bindings.pojos.GBMParametersV3);GBMParametersV3
+water.bindings.H2oApi.train_glrm(water.bindings.pojos.GLRMParametersV3);GLRMParametersV3
+water.bindings.H2oApi.validate_glrm(water.bindings.pojos.GLRMParametersV3);GLRMParametersV3
+water.bindings.H2oApi.grid_search_glrm(water.bindings.pojos.GLRMParametersV3);GLRMParametersV3
+water.bindings.H2oApi.train_drf(water.bindings.pojos.DRFParametersV3);DRFParametersV3
+water.bindings.H2oApi.validate_drf(water.bindings.pojos.DRFParametersV3);DRFParametersV3
+water.bindings.H2oApi.grid_search_drf(water.bindings.pojos.DRFParametersV3);DRFParametersV3
+water.bindings.H2oApi.train_naivebayes(water.bindings.pojos.NaiveBayesParametersV3);NaiveBayesParametersV3
+water.bindings.H2oApi.validate_naivebayes(water.bindings.pojos.NaiveBayesParametersV3);NaiveBayesParametersV3
+water.bindings.H2oApi.grid_search_naivebayes(water.bindings.pojos.NaiveBayesParametersV3);NaiveBayesParametersV3
+water.bindings.H2oApi.train_pca(water.bindings.pojos.PCAParametersV3);PCAParametersV3
+water.bindings.H2oApi.validate_pca(water.bindings.pojos.PCAParametersV3);PCAParametersV3
+water.bindings.H2oApi.grid_search_pca(water.bindings.pojos.PCAParametersV3);PCAParametersV3
+water.bindings.H2oApi.train_svd(water.bindings.pojos.SVDParametersV99);SVDParametersV99
+water.bindings.H2oApi.validate_svd(water.bindings.pojos.SVDParametersV99);SVDParametersV99
+water.bindings.H2oApi.grid_search_svd(water.bindings.pojos.SVDParametersV99);SVDParametersV99
+water.bindings.H2oApi.train_aggregator(water.bindings.pojos.AggregatorParametersV99);AggregatorParametersV99
+water.bindings.H2oApi.validate_aggregator(water.bindings.pojos.AggregatorParametersV99);AggregatorParametersV99
+water.bindings.H2oApi.grid_search_aggregator(water.bindings.pojos.AggregatorParametersV99);AggregatorParametersV99
+water.bindings.H2oApi.train_kmeans(water.bindings.pojos.KMeansParametersV3);KMeansParametersV3
+water.bindings.H2oApi.validate_kmeans(water.bindings.pojos.KMeansParametersV3);KMeansParametersV3
+water.bindings.H2oApi.grid_search_kmeans(water.bindings.pojos.KMeansParametersV3);KMeansParametersV3
+water.bindings.H2oApi.createFrame(water.bindings.pojos.CreateFrameV3);CreateFrameV3
+water.bindings.H2oApi.parse(water.bindings.pojos.ParseV3);ParseV3
+water.bindings.H2oApi._mmFetch1(water.bindings.pojos.ModelMetricsListSchemaV3);ModelMetricsListSchemaV3
+water.bindings.H2oApi._mmDelete1(water.bindings.pojos.ModelMetricsListSchemaV3);ModelMetricsListSchemaV3
+water.bindings.H2oApi.score(water.bindings.pojos.ModelMetricsListSchemaV3);ModelMetricsListSchemaV3
+water.bindings.H2oApi.predict(water.bindings.pojos.ModelMetricsListSchemaV3);ModelMetricsListSchemaV3
+water.bindings.H2oApi.predict_async(water.bindings.pojos.ModelMetricsListSchemaV3);ModelMetricsListSchemaV3
+water.bindings.H2oApi.guessParseSetup(water.bindings.pojos.ParseSetupV3);ParseSetupV3
+water.bindings.H2oApi.exportFrame(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frameColumnSummary(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frameColumnDomain(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frameColumn(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frameColumns(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frameSummary(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frame(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.frames(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.deleteFrame(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.deleteAllFrames(water.bindings.pojos.FramesV3);FramesV3
+water.bindings.H2oApi.importSqlTable(water.bindings.pojos.ImportSQLTableV99);ImportSQLTableV99
+water.bindings.H2oApi.generateInteractions(water.bindings.pojos.InteractionV3);InteractionV3
+water.bindings.H2oApi.glm_regularization_path(water.bindings.pojos.GLMRegularizationPathV3);GLMRegularizationPathV3
+water.bindings.H2oApi._tabulate_run(water.bindings.pojos.TabulateV3);TabulateV3
+water.bindings.H2oApi.endpoints(water.bindings.pojos.MetadataV3);MetadataV3
+water.bindings.H2oApi.endpoint(water.bindings.pojos.MetadataV3);MetadataV3
+water.bindings.H2oApi.schemaForClass(water.bindings.pojos.MetadataV3);MetadataV3
+water.bindings.H2oApi.schema(water.bindings.pojos.MetadataV3);MetadataV3
+water.bindings.H2oApi.schemas(water.bindings.pojos.MetadataV3);MetadataV3
+water.bindings.H2oApi._dctTransformer_run(water.bindings.pojos.DCTTransformerV3);DCTTransformerV3
+water.bindings.H2oApi.findInFrame(water.bindings.pojos.FindV3);FindV3
+water.bindings.H2oApi._assembly_toJava(water.bindings.pojos.AssemblyV99);AssemblyV99
+water.bindings.H2oApi._assembly_fit(water.bindings.pojos.AssemblyV99);AssemblyV99
+water.bindings.H2oApi.make_glm_model(water.bindings.pojos.MakeGLMModelV3);MakeGLMModelV3
+water.bindings.H2oApi.glm_datainfo_frame(water.bindings.pojos.DataInfoFrameV3);DataInfoFrameV3
+water.bindings.H2oApi.splitFrame(water.bindings.pojos.SplitFrameV3);SplitFrameV3
+water.bindings.H2oApi._missingInserter_run(water.bindings.pojos.MissingInserterV3);MissingInserterV3
+water.bindings.H2oApi.model(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.models(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.deleteModel(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.deleteAllModels(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.modelPreview(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.modelJavaCode(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.modelMojo(water.bindings.pojos.ModelsV3);ModelsV3
+water.bindings.H2oApi.importModel(water.bindings.pojos.ModelImportV3);ModelImportV3
+water.bindings.H2oApi.exportModel(water.bindings.pojos.ModelExportV3);ModelExportV3
+water.bindings.H2oApi.grid(water.bindings.pojos.GridSchemaV99);GridSchemaV99
+water.bindings.H2oApi.makeMetrics(water.bindings.pojos.ModelMetricsMakerSchemaV3);ModelMetricsMakerSchemaV3
+water.bindings.H2oApi.npsContains(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsEnabled(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsPut(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsGet(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsRemove(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsCreateCategory(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.npsKeys(water.bindings.pojos.NodePersistentStorageV3);NodePersistentStorageV3
+water.bindings.H2oApi.rapidsExec(water.bindings.pojos.RapidsSchemaV3);RapidsSchemaV3
+hex.genmodel.utils.GenmodelBitSet.fill3(byte[], hex.genmodel.utils.ByteBufferWrapper);ByteBufferWrapper
+hex.genmodel.utils.GenmodelBitSet.fill2(byte[], hex.genmodel.utils.ByteBufferWrapper);ByteBufferWrapper
+hex.genmodel.easy.EasyPredictModelWrapper.predictBinomial(hex.genmodel.easy.RowData);GenModel
+hex.genmodel.easy.EasyPredictModelWrapper.predictMultinomial(hex.genmodel.easy.RowData);GenModel
+water.TestCase.makeBetaConstraints(double, double);DataSet

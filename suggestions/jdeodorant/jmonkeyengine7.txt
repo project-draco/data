@@ -1,6 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.jme3.bullet.collision.shapes.CompoundCollisionShape::addChildShapeDirect(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f, com.jme3.math.Matrix3f):void	com.jme3.bullet.collision.shapes.CollisionShape	0/2	
-Move Method	com.jme3.bullet.collision.shapes.CompoundCollisionShape::addChildShape(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f):void	com.jme3.bullet.collision.shapes.CollisionShape	1/2	
-Move Method	com.jme3.bullet.collision.shapes.CompoundCollisionShape::addChildShape(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f, com.jme3.math.Matrix3f):void	com.jme3.bullet.collision.shapes.CollisionShape	1/2	
-Move Method	com.jme3.bullet.collision.shapes.CompoundCollisionShape::removeChildShape(com.jme3.bullet.collision.shapes.CollisionShape):void	com.jme3.bullet.collision.shapes.CollisionShape	1/2	
-Move Method	com.jme3.bullet.control.KinematicRagdollControl::matchPhysicObjectToBone(com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink, com.jme3.math.Vector3f, com.jme3.math.Quaternion):void	com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink	1/2	

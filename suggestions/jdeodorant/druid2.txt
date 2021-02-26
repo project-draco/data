@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	io.druid.benchmark.StupidPoolConcurrencyBenchmark::hammerQueue(io.druid.benchmark.StupidPoolConcurrencyBenchmark.BenchmarkPool, org.openjdk.jmh.infra.Blackhole):void	io.druid.benchmark.StupidPoolConcurrencyBenchmark.BenchmarkPool	0/1	

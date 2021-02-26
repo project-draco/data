@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.jme3.bullet.control.KinematicRagdollControl::matchPhysicObjectToBone(com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink, com.jme3.math.Vector3f, com.jme3.math.Quaternion):void	com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink	1/2	

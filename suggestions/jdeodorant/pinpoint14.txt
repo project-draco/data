@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.navercorp.pinpoint.rpc.client.DefaultPinpointClientHandler::ensureOpen():void	com.navercorp.pinpoint.rpc.client.PinpointClientHandlerState	1/3	
-Move Method	com.navercorp.pinpoint.rpc.server.DefaultPinpointServer::createHandshakeResponse(com.navercorp.pinpoint.rpc.packet.HandshakeResponseCode, boolean):java.util.Map<java.lang.String,java.lang.Object>	com.navercorp.pinpoint.rpc.cluster.ClusterOption	1/2	
-Move Method	com.navercorp.pinpoint.rpc.stream.StreamChannelManager::handleCreateFail(com.navercorp.pinpoint.rpc.stream.ClientStreamChannelContext, com.navercorp.pinpoint.rpc.packet.stream.StreamCreateFailPacket):void	com.navercorp.pinpoint.rpc.stream.ClientStreamChannelContext	1/2	
-Move Method	com.navercorp.pinpoint.rpc.stream.StreamChannelManager::handlePing(com.navercorp.pinpoint.rpc.stream.StreamChannelContext, com.navercorp.pinpoint.rpc.packet.stream.StreamPingPacket):void	com.navercorp.pinpoint.rpc.packet.stream.StreamPingPacket	1/2	

@@ -1,0 +1,1 @@
+liquibase.test.DatabaseTestContext.adaptTestURLWithConfiguredHost(liquibase.test.DatabaseTestURL);DatabaseTestURL

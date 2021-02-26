@@ -1,0 +1,95 @@
+com.jme3.input.android.AndroidInputHandler.removeListeners(android.opengl.GLSurfaceView);AndroidTouchInput
+com.jme3.system.android.AndroidConfigChooser.chooseConfig(javax.microedition.khronos.egl.EGL10, javax.microedition.khronos.egl.EGLDisplay, javax.microedition.khronos.egl.EGLConfig[], com.jme3.system.android.AndroidConfigChooser.Config, boolean, boolean, boolean, boolean);Config
+com.jme3.scene.plugins.blender.modifiers.MaskModifier.removeVertexAt(int, com.jme3.scene.plugins.blender.meshes.TemporalMesh);TemporalMesh
+com.jme3.scene.plugins.blender.constraints.ConstraintHelper.bakeConstraints(com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.scene.plugins.blender.textures.generating.TextureGenerator.applyBrightnessAndContrast(com.jme3.scene.plugins.blender.textures.generating.TextureGenerator.BrightnessAndContrastData, com.jme3.scene.plugins.blender.textures.TexturePixel);TexturePixel
+com.jme3.scene.plugins.blender.AbstractBlenderHelper.applyProperties(com.jme3.scene.Spatial, com.jme3.scene.plugins.blender.objects.Properties);Properties
+com.jme3.scene.plugins.blender.meshes.MeshHelper.selectUVSubset(com.jme3.scene.plugins.blender.meshes.Face, java.lang.Integer[]);Face
+com.jme3.scene.plugins.blender.meshes.MeshHelper.selectVertexColorSubset(com.jme3.scene.plugins.blender.meshes.Face, java.lang.Integer[]);Face
+com.jme3.scene.plugins.blender.constraints.SimulationNode.findConstraints(java.lang.Long, com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.scene.plugins.blender.landscape.LandscapeHelper.toBackgroundColor(com.jme3.scene.plugins.blender.file.Structure);Structure
+com.jme3.scene.plugins.blender.materials.MaterialContext.readSpecularColor(com.jme3.scene.plugins.blender.file.Structure);Structure
+com.jme3.scene.plugins.blender.meshes.MeshHelper.isBMeshCompatible(com.jme3.scene.plugins.blender.file.Structure);Structure
+com.jme3.scene.plugins.blender.modifiers.SubdivisionSurfaceModifier.computeFaceUVs(com.jme3.scene.plugins.blender.meshes.Face);Face
+com.jme3.scene.plugins.blender.objects.ObjectHelper.getMatrix(com.jme3.scene.plugins.blender.file.Structure, java.lang.String, boolean, com.jme3.math.Matrix4f);Structure
+com.jme3.scene.plugins.blender.textures.TextureHelper.applyColorbandAndColorFactors(com.jme3.scene.plugins.blender.file.Structure, com.jme3.texture.Image, com.jme3.scene.plugins.blender.BlenderContext);Structure
+com.jme3.scene.plugins.blender.textures.generating.TextureGenerator.applyBrightnessAndContrast(com.jme3.scene.plugins.blender.textures.TexturePixel, float, float);TexturePixel
+com.jme3.scene.plugins.blender.lights.LightHelper.toLight(com.jme3.scene.plugins.blender.file.Structure, com.jme3.scene.plugins.blender.BlenderContext);Structure
+com.jme3.scene.plugins.blender.math.Matrix.setColumn(com.jme3.scene.plugins.blender.math.Vector3d, int);Vector3d
+com.jme3.scene.plugins.blender.animations.AnimationHelper.fromIpoStructure(com.jme3.scene.plugins.blender.file.Structure, com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.scene.plugins.blender.animations.AnimationHelper.getCurveType(com.jme3.scene.plugins.blender.file.Structure, com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.scene.plugins.blender.meshes.Face.getIndex(int);IndexesLoop
+com.jme3.scene.plugins.blender.meshes.MeshHelper.loadVerticesColors(com.jme3.scene.plugins.blender.file.Structure, com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.scene.plugins.blender.meshes.TemporalMesh.getAdjacentFaces(com.jme3.scene.plugins.blender.meshes.Edge);Edge
+com.jme3.scene.plugins.blender.modifiers.SubdivisionSurfaceModifier.subdivideCatmullClark(com.jme3.scene.plugins.blender.meshes.TemporalMesh);TemporalMesh
+com.jme3.scene.plugins.blender.AbstractBlenderHelper.loadLibrary(com.jme3.scene.plugins.blender.file.Structure);BlenderContext
+com.jme3.scene.plugins.blender.constraints.ConstraintHelper.loadConstraints(com.jme3.scene.plugins.blender.file.Structure, com.jme3.scene.plugins.blender.BlenderContext);BlenderContext
+com.jme3.bullet.control.KinematicRagdollControl.matchPhysicObjectToBone(com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink, com.jme3.math.Vector3f, com.jme3.math.Quaternion);PhysicsBoneLink
+com.jme3.scene.instancing.InstancedGeometry.updateInstance(com.jme3.math.Matrix4f, float[], int, com.jme3.math.Matrix3f, com.jme3.math.Quaternion);Matrix4f
+com.jme3.math.Eigen3f.scaleMatrix(com.jme3.math.Matrix3f);Matrix3f
+com.jme3.renderer.queue.RenderQueue.renderGeometryList(com.jme3.renderer.queue.GeometryList, com.jme3.renderer.RenderManager, com.jme3.renderer.Camera, boolean);GeometryList
+com.jme3.material.plugins.ShaderNodeLoaderDelegate.checkTypes(com.jme3.shader.VariableMapping, com.jme3.util.blockparser.Statement);VariableMapping
+com.jme3.bounding.BoundingSphere.getMaxAxis(com.jme3.math.Vector3f);Vector3f
+com.jme3.collision.bih.BIHTree.setMinMax(com.jme3.bounding.BoundingBox, boolean, int, float);BoundingBox
+com.jme3.material.plugins.ShaderNodeLoaderDelegate.updateRightTypeFromLeftType(com.jme3.shader.VariableMapping);VariableMapping
+com.jme3.animation.SkeletonControl.applySkinning(com.jme3.scene.Mesh, com.jme3.math.Matrix4f[]);Mesh
+com.jme3.animation.SkeletonControl.applySkinningTangents(com.jme3.scene.Mesh, com.jme3.math.Matrix4f[], com.jme3.scene.VertexBuffer);Mesh
+com.jme3.collision.bih.BIHTree.getMinMax(com.jme3.bounding.BoundingBox, boolean, int);BoundingBox
+com.jme3.math.Eigen3f.positiveRank(com.jme3.math.Matrix3f, float[], com.jme3.math.Vector3f);Matrix3f
+com.jme3.shader.Glsl100ShaderGenerator.fixInPositionType(com.jme3.shader.ShaderNodeVariable);ShaderNodeVariable
+com.jme3.material.MatParam.getWrapMode(com.jme3.texture.Texture, com.jme3.texture.Texture.WrapAxis);Texture
+com.jme3.shader.Glsl100ShaderGenerator.getAppendableNameSpace(com.jme3.shader.ShaderNodeVariable);ShaderNodeVariable
+com.jme3.shader.Glsl100ShaderGenerator.replace(java.lang.String, com.jme3.shader.ShaderNodeVariable, java.lang.String);ShaderNodeVariable
+com.jme3.shader.Glsl100ShaderGenerator.isWorldOrMaterialParam(com.jme3.shader.ShaderNodeVariable);ShaderNodeVariable
+com.jme3.font.Letters.lineWrap(com.jme3.font.LetterQuad);LetterQuad
+com.jme3.scene.Mesh.getTriangle(int, com.jme3.math.Triangle);Triangle
+com.jme3.shadow.AbstractShadowRenderer.initForcedRenderState();RenderState
+com.jme3.asset.plugins.HttpZipLocator.openStream(com.jme3.asset.plugins.HttpZipLocator.ZipEntry2);ZipEntry2
+com.jme3.cinematic.MotionPath.getWayPointIndexForDistance(float, com.jme3.math.Vector2f);Spline
+com.jme3.collision.SweepSphere.isPointInTriangle(com.jme3.math.Vector3f, com.jme3.math.AbstractTriangle);AbstractTriangle
+com.jme3.collision.SweepSphere.collideWithVertex(com.jme3.math.Vector3f, com.jme3.math.Vector3f, float, com.jme3.math.Vector3f, float);Vector3f
+com.jme3.collision.bih.BIHTree.getTriangle(int, com.jme3.math.Vector3f, com.jme3.math.Vector3f, com.jme3.math.Vector3f);Vector3f
+com.jme3.effect.ParticleEmitter.setGravity(float, float, float);Vector3f
+com.jme3.light.DirectionalLight.setDirection(com.jme3.math.Vector3f);Vector3f
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.extractIndirectLights(com.jme3.light.LightList, boolean);ColorRGBA
+com.jme3.material.logic.SinglePassAndImageBasedLightingLogic.extractIndirectLights(com.jme3.light.LightList, boolean);LightList
+com.jme3.material.plugins.ShaderNodeLoaderDelegate.updateRightFromUniforms(com.jme3.material.MatParam, com.jme3.shader.VariableMapping, java.util.Map<java.lang.String,com.jme3.material.plugins.ShaderNodeLoaderDelegate.DeclaredVariable>, com.jme3.util.blockparser.Statement);MatParam
+com.jme3.environment.util.CubeMapWrapper.getPixel(int, int, int, com.jme3.math.ColorRGBA);DefaultImageRaster
+com.jme3.environment.util.CubeMapWrapper.setPixel(int, int, int, com.jme3.math.ColorRGBA);DefaultImageRaster
+com.jme3.font.BitmapFont.getLineHeight(com.jme3.font.StringBlock);BitmapCharacterSet
+com.jme3.material.Technique.applyOverrides(com.jme3.shader.DefineList, com.jme3.util.SafeArrayList<com.jme3.material.MatParamOverride>);TechniqueDef
+com.jme3.material.plugins.ShaderNodeLoaderDelegate.addDefine(java.lang.String, com.jme3.shader.VarType);TechniqueDef
+com.jme3.math.Ray.setDirection(com.jme3.math.Vector3f);Vector3f
+com.jme3.renderer.RenderManager.renderGeometryList(com.jme3.renderer.queue.GeometryList);GeometryList
+com.jme3.scene.Mesh.scaleTextureCoordinates(com.jme3.math.Vector2f);Vector2f
+com.jme3.shader.Glsl100ShaderGenerator.appendOutput(java.lang.StringBuilder, java.lang.String, com.jme3.shader.ShaderNodeVariable);ShaderNodeVariable
+com.jme3.shader.Glsl150ShaderGenerator.initVariable(java.lang.StringBuilder, com.jme3.shader.ShaderNodeVariable, java.lang.String);ShaderNodeVariable
+jme3tools.optimize.TextureAtlas.applyCoords(com.jme3.scene.Geometry, int, com.jme3.scene.Mesh);Geometry
+com.jme3.renderer.opengl.TextureUtil.uploadSubTexture(com.jme3.texture.Image, int, int, int, int, boolean);Image
+com.jme3.input.FlyByCamera.zoomCamera(float);Camera
+com.jme3.math.Eigen3f.computeRoots(com.jme3.math.Matrix3f, double[]);Matrix3f
+com.jme3.input.InputManager.onJoyButtonEventQueued(com.jme3.input.event.JoyButtonEvent);JoyButtonEvent
+com.jme3.input.InputManager.onKeyEventQueued(com.jme3.input.event.KeyInputEvent);KeyInputEvent
+com.jme3.scene.shape.AbstractBox.updateGeometry(com.jme3.math.Vector3f, com.jme3.math.Vector3f);Vector3f
+com.jme3.cinematic.Cinematic.removeCinematicEvent(com.jme3.cinematic.KeyFrame, com.jme3.cinematic.events.CinematicEvent);KeyFrame
+com.jme3.input.InputManager.onMouseMotionEventQueued(com.jme3.input.event.MouseMotionEvent);MouseMotionEvent
+com.jme3.input.InputManager.onMouseButtonEventQueued(com.jme3.input.event.MouseButtonEvent);MouseButtonEvent
+com.jme3.material.plugins.J3MLoader.readValueParam(java.lang.String);Material
+com.jme3.math.Ray.intersects(com.jme3.math.Vector3f, com.jme3.math.Vector3f, com.jme3.math.Vector3f);Vector3f
+com.jme3.renderer.RenderManager.setViewProjection(com.jme3.renderer.Camera, boolean);Camera
+com.jme3.scene.shape.Line.updatePoints(com.jme3.math.Vector3f, com.jme3.math.Vector3f);Vector3f
+com.jme3.cursors.plugins.CursorLoader.setJmeCursor(com.jme3.cursors.plugins.CursorLoader.CursorImageData);CursorImageData
+jme3test.input.combomoves.ComboMoveExecution.isStateSatisfied(java.util.HashSet<java.lang.String>, float, jme3test.input.combomoves.ComboMove.ComboMoveState);ComboMoveState
+com.jme3.bullet.collision.shapes.CompoundCollisionShape.addChildShapeDirect(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f, com.jme3.math.Matrix3f);CollisionShape
+com.jme3.bullet.collision.shapes.CompoundCollisionShape.addChildShape(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f);CollisionShape
+com.jme3.bullet.collision.shapes.CompoundCollisionShape.addChildShape(com.jme3.bullet.collision.shapes.CollisionShape, com.jme3.math.Vector3f, com.jme3.math.Matrix3f);CollisionShape
+com.jme3.bullet.collision.shapes.CompoundCollisionShape.removeChildShape(com.jme3.bullet.collision.shapes.CollisionShape);CollisionShape
+com.jme3.bullet.control.KinematicRagdollControl.matchPhysicObjectToBone(com.jme3.bullet.control.KinematicRagdollControl.PhysicsBoneLink, com.jme3.math.Vector3f, com.jme3.math.Quaternion);PhysicsBoneLink
+com.jme3.network.rmi.RmiSerializer.writeMethodCall(java.nio.ByteBuffer, com.jme3.network.rmi.RemoteMethodCallMessage);RemoteMethodCallMessage
+com.jme3.network.rmi.ObjectStore.makeObjectDef(com.jme3.network.rmi.LocalObject);LocalObject
+com.jme3.network.rmi.RmiSerializer.writeMethodReturn(java.nio.ByteBuffer, com.jme3.network.rmi.RemoteMethodReturnMessage);RemoteMethodReturnMessage
+com.jme3.network.rmi.RemoteObject.methodEquals(com.jme3.network.rmi.MethodDef, java.lang.reflect.Method);MethodDef
+com.jme3.network.rmi.RmiSerializer.writeObjectDef(java.nio.ByteBuffer, com.jme3.network.rmi.ObjectDef);ObjectDef
+com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator.getCenterLocation(com.jme3.terrain.geomipmap.TerrainPatch);TerrainPatch
+com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator.getCenterLocation(com.jme3.terrain.geomipmap.TerrainPatch);TerrainPatch
+com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker.findClosestHeightIndex(com.jme3.math.Vector3f, com.jme3.terrain.geomipmap.TerrainPatch);TerrainPatch

@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application::createWindow(com.badlogic.gdx.backends.lwjgl3.Lwjgl3Window, com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration, long):void	com.badlogic.gdx.backends.lwjgl3.Lwjgl3Window	0/2	

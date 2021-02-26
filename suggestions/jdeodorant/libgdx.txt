@@ -1,0 +1,104 @@
+com.badlogic.gdx.graphics.g2d.TextureAtlas.newSprite(com.badlogic.gdx.graphics.g2d.TextureAtlas.AtlasRegion);AtlasRegion
+com.badlogic.gdx.maps.tiled.BaseTmxMapLoader.loadBasicLayerInfo(com.badlogic.gdx.maps.MapLayer, com.badlogic.gdx.utils.XmlReader.Element);MapLayer
+com.badlogic.gdx.graphics.g2d.GlyphLayout.adjustLastGlyph(com.badlogic.gdx.graphics.g2d.BitmapFont.BitmapFontData, com.badlogic.gdx.graphics.g2d.GlyphLayout.GlyphRun);BitmapFontData
+com.badlogic.gdx.assets.AssetLoadingTask.resolve(com.badlogic.gdx.assets.loaders.AssetLoader, com.badlogic.gdx.assets.AssetDescriptor);AssetDescriptor
+com.badlogic.gdx.graphics.g3d.loader.G3dModelLoader.parseColor(com.badlogic.gdx.utils.JsonValue);JsonValue
+com.badlogic.gdx.graphics.g3d.particles.ParticleEffectLoader.save(com.badlogic.gdx.graphics.g3d.particles.ParticleEffect, com.badlogic.gdx.graphics.g3d.particles.ParticleEffectLoader.ParticleEffectSaveParameter);ParticleEffect
+com.badlogic.gdx.graphics.g3d.utils.DefaultRenderableSorter.getTranslation(com.badlogic.gdx.math.Matrix4, com.badlogic.gdx.math.Vector3, com.badlogic.gdx.math.Vector3);Vector3
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox.onShow(com.badlogic.gdx.scenes.scene2d.Actor, boolean);Actor
+com.badlogic.gdx.scenes.scene2d.ui.SelectBox.onHide(com.badlogic.gdx.scenes.scene2d.Actor);Actor
+com.badlogic.gdx.net.NetJavaSocketImpl.applyHints(com.badlogic.gdx.net.SocketHints);SocketHints
+com.badlogic.gdx.graphics.g2d.BitmapFont.BitmapFontData.setGlyphRegion(com.badlogic.gdx.graphics.g2d.BitmapFont.Glyph, com.badlogic.gdx.graphics.g2d.TextureRegion);Glyph
+com.badlogic.gdx.graphics.g3d.Model.convertMaterial(com.badlogic.gdx.graphics.g3d.model.data.ModelMaterial, com.badlogic.gdx.graphics.g3d.utils.TextureProvider);ModelMaterial
+com.badlogic.gdx.graphics.Camera.unproject(com.badlogic.gdx.math.Vector3, float, float, float, float);Vector3
+com.badlogic.gdx.graphics.Camera.project(com.badlogic.gdx.math.Vector3, float, float, float, float);Vector3
+com.badlogic.gdx.graphics.g2d.PixmapPacker.GuillotineStrategy.insert(com.badlogic.gdx.graphics.g2d.PixmapPacker.GuillotineStrategy.Node, com.badlogic.gdx.math.Rectangle);Rectangle
+com.badlogic.gdx.graphics.g3d.environment.AmbientCubemap.add(com.badlogic.gdx.graphics.Color, com.badlogic.gdx.math.Vector3, com.badlogic.gdx.math.Vector3, float);Vector3
+com.badlogic.gdx.math.Quaternion.setFromCross(com.badlogic.gdx.math.Vector3, com.badlogic.gdx.math.Vector3);Vector3
+com.badlogic.gdx.scenes.scene2d.Stage.isInsideViewport(int, int);Viewport
+com.badlogic.gdx.utils.DelayedRemovalArray.remove(int);IntArray
+com.badlogic.gdx.utils.TextFormatter.replaceEscapeChars(java.lang.String);StringBuilder
+com.badlogic.gdx.utils.TextFormatter.simpleFormat(java.lang.String, java.lang.Object[]);StringBuilder
+com.badlogic.gdx.graphics.g2d.BitmapFont.load(com.badlogic.gdx.graphics.g2d.BitmapFont.BitmapFontData);BitmapFontData
+com.badlogic.gdx.graphics.g2d.BitmapFont.draw(com.badlogic.gdx.graphics.g2d.Batch, java.lang.CharSequence, float, float);BitmapFontCache
+com.badlogic.gdx.graphics.g2d.BitmapFont.draw(com.badlogic.gdx.graphics.g2d.Batch, java.lang.CharSequence, float, float, float, int, boolean);BitmapFontCache
+com.badlogic.gdx.graphics.g2d.BitmapFont.draw(com.badlogic.gdx.graphics.g2d.Batch, java.lang.CharSequence, float, float, int, int, float, int, boolean);BitmapFontCache
+com.badlogic.gdx.graphics.g2d.BitmapFont.draw(com.badlogic.gdx.graphics.g2d.Batch, java.lang.CharSequence, float, float, int, int, float, int, boolean, java.lang.String);BitmapFontCache
+com.badlogic.gdx.graphics.g2d.BitmapFont.draw(com.badlogic.gdx.graphics.g2d.Batch, com.badlogic.gdx.graphics.g2d.GlyphLayout, float, float);BitmapFontCache
+com.badlogic.gdx.graphics.g2d.RepeatablePolygonSprite.offset(float[]);Vector2
+com.badlogic.gdx.graphics.g3d.particles.ParallelArray.allocateChannel(com.badlogic.gdx.graphics.g3d.particles.ParallelArray.ChannelDescriptor);ChannelDescriptor
+com.badlogic.gdx.graphics.g3d.particles.ParticleEffect.scale(com.badlogic.gdx.math.Vector3);Vector3
+com.badlogic.gdx.math.DelaunayTriangulator.trim(com.badlogic.gdx.utils.ShortArray, float[], float[], int, int);ShortArray
+com.badlogic.gdx.math.Frustum.sphereInFrustum(com.badlogic.gdx.math.Vector3, float);Vector3
+com.badlogic.gdx.math.Frustum.sphereInFrustumWithoutNearFar(com.badlogic.gdx.math.Vector3, float);Vector3
+com.badlogic.gdx.graphics.g3d.decals.Decal.setBlending(int, int);DecalMaterial
+com.badlogic.gdx.graphics.glutils.GLFrameBuffer.setFrameBufferViewport();GLTexture
+com.badlogic.gdx.scenes.scene2d.Group.applyTransform(com.badlogic.gdx.graphics.glutils.ShapeRenderer, com.badlogic.gdx.math.Matrix4);ShapeRenderer
+com.badlogic.gdx.scenes.scene2d.Group.localToDescendantCoordinates(com.badlogic.gdx.scenes.scene2d.Actor, com.badlogic.gdx.math.Vector2);Actor
+com.badlogic.gdx.scenes.scene2d.Stage.stageToScreenCoordinates(com.badlogic.gdx.math.Vector2);Viewport
+com.badlogic.gdx.scenes.scene2d.actions.ParallelAction.addAction(com.badlogic.gdx.scenes.scene2d.Action);Action
+com.badlogic.gdx.scenes.scene2d.ui.Label.textEquals(java.lang.CharSequence);StringBuilder
+com.badlogic.gdx.scenes.scene2d.ui.TextArea.calculateCurrentLineIndex(int);IntArray
+com.badlogic.gdx.scenes.scene2d.ui.Tree.restoreExpandedObjects(com.badlogic.gdx.utils.Array);Array
+com.badlogic.gdx.utils.Json.writeArrayStart(java.lang.String);JsonWriter
+com.badlogic.gdx.utils.Json.readField(java.lang.Object, com.badlogic.gdx.utils.reflect.Field, java.lang.String, java.lang.Class, com.badlogic.gdx.utils.JsonValue);Field
+com.badlogic.gdx.utils.PerformanceCounters.toString(com.badlogic.gdx.utils.StringBuilder);StringBuilder
+com.badlogic.gdx.utils.XmlReader.text(java.lang.String);Element
+com.badlogic.gdx.graphics.g2d.PolygonSprite.getBoundingRectangle();Rectangle
+com.badlogic.gdx.graphics.g3d.shaders.BaseShader.getAttributeLocations(com.badlogic.gdx.graphics.VertexAttributes);IntArray
+com.badlogic.gdx.math.collision.BoundingBox.ext(com.badlogic.gdx.math.collision.BoundingBox, com.badlogic.gdx.math.Matrix4);Vector3
+com.badlogic.gdx.utils.viewport.Viewport.toScreenCoordinates(com.badlogic.gdx.math.Vector2, com.badlogic.gdx.math.Matrix4);Vector3
+com.badlogic.gdx.math.collision.BoundingBox.isValid();Vector3
+com.badlogic.gdx.math.collision.BoundingBox.contains(com.badlogic.gdx.math.Vector3);Vector3
+com.badlogic.gdx.scenes.scene2d.Stage.hit(float, float, boolean);Vector2
+com.badlogic.gdx.tools.hiero.BMFontUtil.writeGlyph(java.io.PrintStream, int, int, int, com.badlogic.gdx.tools.hiero.unicodefont.Glyph);Glyph
+com.badlogic.gdx.tools.texturepacker.MaxRectsPacker.MaxRects.isContainedIn(com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect);Rect
+com.badlogic.gdx.tools.texturepacker.TexturePacker.writeRect(java.io.Writer, com.badlogic.gdx.tools.texturepacker.TexturePacker.Page, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, java.lang.String);Rect
+com.badlogic.gdx.tools.texturepacker.GridPacker.packPage(com.badlogic.gdx.utils.Array<com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect>, int, int);Settings
+com.badlogic.gdx.tools.hiero.Kerning.readCoverageTable();TTFInputStream
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultModelInstanceController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultBillboardController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultPointController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultTemplateController();FlameMain
+com.badlogic.gdx.tools.flame.FlameMain.setTexture(com.badlogic.gdx.graphics.Texture);AppRenderer
+com.badlogic.gdx.tools.hiero.BMFontUtil.getGlyph(char);UnicodeFont
+com.badlogic.gdx.tools.hiero.Kerning.readClassDefinitionFormat1(com.badlogic.gdx.utils.IntArray[]);TTFInputStream
+com.badlogic.gdx.tools.particleeditor.EffectPanel.emitterChecked(int, boolean);ParticleEditor
+com.badlogic.gdx.tools.texturepacker.TexturePacker.getRepeatValue();Settings
+com.badlogic.gdx.tools.texturepacker.ImageProcessor.stripWhitespace(java.awt.image.BufferedImage);Settings
+com.badlogic.gdx.tools.flame.EffectPanel.saveEffect();FlameMain
+com.badlogic.gdx.tools.hiero.Kerning.readSubtables(int, int);TTFInputStream
+com.badlogic.gdx.backends.android.AndroidMouseHandler.postTouchEvent(com.badlogic.gdx.backends.android.AndroidInput, int, int, int, int, long);AndroidInput
+com.badlogic.gdx.backends.android.AndroidMultiTouchHandler.postTouchEvent(com.badlogic.gdx.backends.android.AndroidInput, int, int, int, int, int, long);AndroidInput
+com.badlogic.gdx.backends.android.AndroidGraphics.getEglConfigChooser();AndroidApplicationConfiguration
+com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application.createWindow(com.badlogic.gdx.backends.lwjgl3.Lwjgl3Window, com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration, long);Lwjgl3Window
+com.badlogic.gdx.backends.iosmoe.IOSApplication.willResignActive(apple.uikit.UIApplication);IOSGraphics
+com.badlogic.gdx.backends.iosrobovm.IOSApplication.willResignActive(org.robovm.apple.uikit.UIApplication);IOSGraphics
+com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.generateFont(com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeFontParameter, com.badlogic.gdx.graphics.g2d.freetype.FreeTypeFontGenerator.FreeTypeBitmapFontData);FreeTypeFontParameter
+com.badlogic.gdx.jnigen.AntScriptGenerator.getLibsDirectory(com.badlogic.gdx.jnigen.BuildConfig, com.badlogic.gdx.jnigen.BuildTarget);BuildTarget
+com.badlogic.gdx.jnigen.NativeCodeGenerator.findCMethod(com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod, java.util.ArrayList<com.badlogic.gdx.jnigen.parsing.CMethodParser.CMethod>);JavaMethod
+com.badlogic.gdx.jnigen.AndroidNdkScriptGenerator.generate(com.badlogic.gdx.jnigen.BuildConfig, com.badlogic.gdx.jnigen.BuildTarget);BuildTarget
+com.badlogic.gdx.jnigen.NativeCodeGenerator.emitJniSection(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JniSection);JniSection
+com.badlogic.gdx.jnigen.NativeCodeGenerator.emitMethodBody(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod);JavaMethod
+com.badlogic.gdx.jnigen.NativeCodeGenerator.emitJniSetupCode(java.lang.StringBuffer, com.badlogic.gdx.jnigen.parsing.JavaMethodParser.JavaMethod, java.lang.StringBuffer, java.lang.StringBuffer);JavaMethod
+com.badlogic.gdx.tests.g3d.shadows.system.BaseShadowSystem.interceptCamera(com.badlogic.gdx.tests.g3d.shadows.system.BaseShadowSystem.LightProperties);LightProperties
+com.badlogic.gdx.tests.ReflectionCorrectnessTest.doTest(java.lang.Class, com.badlogic.gdx.tests.ReflectionCorrectnessTest.Expectation);Expectation
+com.badlogic.gdx.tests.g3d.ShaderCollectionTest.setShader(java.lang.String);TestShaderProvider
+com.badlogic.gdx.tests.bullet.BaseBulletTest.toggleDebugMode();BulletWorld
+com.badlogic.gdx.tools.hiero.BMFontUtil.writeGlyph(java.io.PrintStream, int, int, int, com.badlogic.gdx.tools.hiero.unicodefont.Glyph);Glyph
+com.badlogic.gdx.tools.texturepacker.MaxRectsPacker.MaxRects.isContainedIn(com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect);Rect
+com.badlogic.gdx.tools.texturepacker.TexturePacker.writeRect(java.io.Writer, com.badlogic.gdx.tools.texturepacker.TexturePacker.Page, com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect, java.lang.String);Rect
+com.badlogic.gdx.tools.texturepacker.GridPacker.packPage(com.badlogic.gdx.utils.Array<com.badlogic.gdx.tools.texturepacker.TexturePacker.Rect>, int, int);Settings
+com.badlogic.gdx.tools.hiero.Kerning.readCoverageTable();TTFInputStream
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultModelInstanceController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultBillboardController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultPointController();FlameMain
+com.badlogic.gdx.tools.flame.EffectPanel.createDefaultTemplateController();FlameMain
+com.badlogic.gdx.tools.flame.FlameMain.setTexture(com.badlogic.gdx.graphics.Texture);AppRenderer
+com.badlogic.gdx.tools.hiero.BMFontUtil.getGlyph(char);UnicodeFont
+com.badlogic.gdx.tools.hiero.Kerning.readClassDefinitionFormat1(com.badlogic.gdx.utils.IntArray[]);TTFInputStream
+com.badlogic.gdx.tools.particleeditor.EffectPanel.emitterChecked(int, boolean);ParticleEditor
+com.badlogic.gdx.tools.texturepacker.TexturePacker.getRepeatValue();Settings
+com.badlogic.gdx.tools.texturepacker.ImageProcessor.stripWhitespace(java.awt.image.BufferedImage);Settings
+com.badlogic.gdx.tools.flame.EffectPanel.saveEffect();FlameMain
+com.badlogic.gdx.tools.hiero.Kerning.readSubtables(int, int);TTFInputStream

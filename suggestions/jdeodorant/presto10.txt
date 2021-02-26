@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.facebook.presto.verifier.Validator::trySetConnectionProperties(com.facebook.presto.verifier.Query, java.sql.Connection):void	com.facebook.presto.verifier.Query	1/2	
-Move Method	com.facebook.presto.verifier.Verifier::isCheckCorrectness(com.facebook.presto.verifier.QueryPair):boolean	com.facebook.presto.verifier.VerifierConfig	1/2	
-Move Method	com.facebook.presto.verifier.HumanReadableEventClient::printEvent(com.facebook.presto.verifier.VerifierQueryEvent):void	com.facebook.presto.verifier.VerifierQueryEvent	2/12	
-Move Method	com.facebook.presto.verifier.Verifier::buildEvent(com.facebook.presto.verifier.Validator):com.facebook.presto.verifier.VerifierQueryEvent	com.facebook.presto.verifier.Validator	2/5	

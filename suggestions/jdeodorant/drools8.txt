@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.kie.dmn.feel.lang.ast.ForExpressionNode::createQuantifiedExpressionIterationContext(org.kie.dmn.feel.lang.EvaluationContext, org.kie.dmn.feel.lang.ast.IterationContextNode):org.kie.dmn.feel.lang.ast.ForExpressionNode.ForIteration	org.kie.dmn.feel.lang.ast.IterationContextNode	0/2	
-Move Method	org.kie.dmn.feel.lang.ast.QuantifiedExpressionNode::createQuantifiedExpressionIterationContext(org.kie.dmn.feel.lang.EvaluationContext, org.kie.dmn.feel.lang.ast.IterationContextNode):org.kie.dmn.feel.lang.ast.QuantifiedExpressionNode.QEIteration	org.kie.dmn.feel.lang.ast.IterationContextNode	0/2	
-Move Method	org.kie.dmn.feel.runtime.functions.BaseFEELFunction::adjustForVariableParameters(org.kie.dmn.feel.runtime.functions.BaseFEELFunction.CandidateMethod, java.lang.Class<?>[]):void	org.kie.dmn.feel.runtime.functions.BaseFEELFunction.CandidateMethod	0/2	
-Move Method	org.kie.dmn.feel.parser.feel11.ASTBuilderVisitor::getFunctionName(org.kie.dmn.feel.lang.ast.BaseNode):java.lang.String	org.kie.dmn.feel.lang.ast.BaseNode	0/1	

@@ -1,8 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.painless.Definition::addRuntimeClass(org.elasticsearch.painless.Definition.Struct):void	org.elasticsearch.painless.Definition.Struct	0/4	
-Move Method	org.elasticsearch.painless.Definition::computeFunctionalInterfaceMethod(org.elasticsearch.painless.Definition.Struct):org.elasticsearch.painless.Definition.Method	org.elasticsearch.painless.Definition.Struct	0/3	
-Move Method	org.elasticsearch.painless.Definition::getTypeInternal(org.elasticsearch.painless.Definition.Struct, int):org.elasticsearch.painless.Definition.Type	org.elasticsearch.painless.Definition.Struct	0/3	
-Move Method	org.elasticsearch.painless.PainlessScriptEngine::writeNeedsMethods(java.lang.Class<?>, org.objectweb.asm.ClassWriter, org.elasticsearch.painless.node.SSource.MainMethodReserved):void	org.elasticsearch.painless.node.SSource.MainMethodReserved	0/1	
-Move Method	org.elasticsearch.painless.antlr.Walker::visitFieldaccess(org.elasticsearch.painless.antlr.PainlessParser.FieldaccessContext, org.elasticsearch.painless.node.AExpression):org.elasticsearch.painless.node.AExpression	org.elasticsearch.painless.antlr.PainlessParser.FieldaccessContext	1/3	
-Move Method	org.elasticsearch.painless.Globals::addSyntheticMethod(org.elasticsearch.painless.node.SFunction):void	org.elasticsearch.painless.node.SFunction	1/2	
-Move Method	org.elasticsearch.painless.antlr.Walker::visitCallinvoke(org.elasticsearch.painless.antlr.PainlessParser.CallinvokeContext, org.elasticsearch.painless.node.AExpression):org.elasticsearch.painless.node.AExpression	org.elasticsearch.painless.antlr.PainlessParser.CallinvokeContext	2/3	

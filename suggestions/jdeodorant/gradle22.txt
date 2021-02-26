@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.internal.resource.transport.aws.s3.S3Client::createConnectionProperties():com.amazonaws.ClientConfiguration	org.gradle.internal.resource.transport.aws.s3.S3ConnectionProperties	1/2	

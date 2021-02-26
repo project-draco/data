@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.internal.resource.transport.sftp.SftpClientFactory.SftpClientCreator::createNewClient(org.gradle.internal.resource.transport.sftp.SftpHost):org.gradle.internal.resource.transport.sftp.LockableSftpClient	org.gradle.internal.resource.transport.sftp.SftpHost	1/4	

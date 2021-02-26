@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.orientechnologies.orient.stresstest.workload.OBaseDocumentWorkload::getDocumentDatabase(com.orientechnologies.orient.stresstest.ODatabaseIdentifier, com.orientechnologies.orient.client.remote.OStorageRemote.CONNECTION_STRATEGY):com.orientechnologies.orient.core.db.ODatabase	com.orientechnologies.orient.stresstest.ODatabaseIdentifier	0/1	

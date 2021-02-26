@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.springframework.jdbc.core.AbstractRowMapperTests::verifyPerson(org.springframework.jdbc.core.test.Person):void	org.springframework.jdbc.core.test.Person	0/4	
-Move Method	org.springframework.jdbc.core.AbstractRowMapperTests::verifyPerson(org.springframework.jdbc.core.test.ConcretePerson):void	org.springframework.jdbc.core.test.ConcretePerson	0/4	
-Move Method	org.springframework.jdbc.core.AbstractRowMapperTests::verifyPerson(org.springframework.jdbc.core.test.SpacePerson):void	org.springframework.jdbc.core.test.SpacePerson	0/4	
-Move Method	org.springframework.jdbc.core.AbstractRowMapperTests::verifyPerson(org.springframework.jdbc.core.test.DatePerson):void	org.springframework.jdbc.core.test.DatePerson	0/4	

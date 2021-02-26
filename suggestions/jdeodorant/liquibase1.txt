@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	liquibase.test.DatabaseTestContext::adaptTestURLWithConfiguredHost(liquibase.test.DatabaseTestURL):java.lang.String	liquibase.test.DatabaseTestURL	0/2	

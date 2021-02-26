@@ -1,6 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	io.fabric8.cxf.endpoint.jaxrs.BookStoreSpring::convertBook(io.fabric8.cxf.endpoint.jaxrs.Book2):io.fabric8.cxf.endpoint.jaxrs.Book	io.fabric8.cxf.endpoint.jaxrs.Book2	0/2	
-Move Method	io.fabric8.cxf.endpoint.jaxrs.BookStore::addBook2(io.fabric8.cxf.endpoint.jaxrs.Book):io.fabric8.cxf.endpoint.jaxrs.Book	io.fabric8.cxf.endpoint.jaxrs.Book	0/1	
-Move Method	io.fabric8.cxf.endpoint.jaxrs.BookStore::addBookCustomFailure(io.fabric8.cxf.endpoint.jaxrs.Book, javax.servlet.http.HttpServletResponse):io.fabric8.cxf.endpoint.jaxrs.Book	io.fabric8.cxf.endpoint.jaxrs.Book	0/1	
-Move Method	io.fabric8.cxf.endpoint.jaxrs.BookStore::addBook(io.fabric8.cxf.endpoint.jaxrs.BookStore.BookInfo):javax.ws.rs.core.Response	io.fabric8.cxf.endpoint.jaxrs.BookStore.BookInfo	0/1	
-Move Method	io.fabric8.cxf.endpoint.jaxrs.BookStore::getBeanParamBook(io.fabric8.cxf.endpoint.jaxrs.BookStore.BookBean):io.fabric8.cxf.endpoint.jaxrs.Book	io.fabric8.cxf.endpoint.jaxrs.BookStore.BookBean	1/3	

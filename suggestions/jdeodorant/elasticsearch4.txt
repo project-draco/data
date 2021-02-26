@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.elasticsearch.search.aggregations.matrix.stats.MatrixStatsResults::compute():void	org.elasticsearch.search.aggregations.matrix.stats.RunningStats	2/6	

@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.hadoop.hive.common.io.DiskRangeList::hasContiguousNext():boolean	org.apache.hadoop.hive.common.io.DiskRange	1/2	

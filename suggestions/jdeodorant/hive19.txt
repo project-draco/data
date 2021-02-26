@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.hive.hcatalog.api.HCatPartition::setPartitionKeyValues(java.util.Map<java.lang.String,java.lang.String>):org.apache.hive.hcatalog.api.HCatPartition	org.apache.hive.hcatalog.api.HCatTable	2/3	

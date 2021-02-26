@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.badlogic.gdx.backends.iosrobovm.IOSApplication::willResignActive(org.robovm.apple.uikit.UIApplication):void	com.badlogic.gdx.backends.iosrobovm.IOSGraphics	1/2	

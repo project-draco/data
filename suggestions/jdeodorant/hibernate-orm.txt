@@ -1,0 +1,6 @@
+org.hibernate.cache.jcache.access.AbstractReadWriteRegionAccessStrategy.unlockItem(org.hibernate.engine.spi.SharedSessionContractImplementor, java.lang.Object, org.hibernate.cache.spi.access.SoftLock);JCacheTransactionalDataRegion
+org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor.tryGettingExistingEntityFromContext(javax.lang.model.element.AnnotationMirror, java.lang.String);Context
+org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor.addMetaEntityToContext(javax.lang.model.element.AnnotationMirror, org.hibernate.jpamodelgen.annotation.AnnotationMetaEntity);Context
+org.hibernate.jpamodelgen.JPAMetaModelEntityProcessor.createMetaModelClasses();Context
+org.hibernate.osgi.OsgiPersistenceProvider.generateSettings(java.util.Map);OsgiServiceUtil
+org.hibernate.spatial.dialect.mysql.MySQL56SpatialDialect.overrideObjectShapeFunctions(org.hibernate.spatial.dialect.mysql.MySQLSpatialFunctions);MySQLSpatialFunctions

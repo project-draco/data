@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apache.hive.spark.client.rpc.RpcDispatcher::handleReply(io.netty.channel.ChannelHandlerContext, java.lang.Object, org.apache.hive.spark.client.rpc.RpcDispatcher.OutstandingRpc):void	org.apache.hive.spark.client.rpc.RpcDispatcher.OutstandingRpc	0/1	
-Move Method	org.apache.hive.spark.client.rpc.TestRpc.TestDispatcher::handle(io.netty.channel.ChannelHandlerContext, org.apache.hive.spark.client.rpc.TestRpc.ErrorCall):void	org.apache.hive.spark.client.rpc.TestRpc.ErrorCall	0/1	
-Move Method	org.apache.hive.spark.client.SparkClientImpl.ClientProtocol::handle(io.netty.channel.ChannelHandlerContext, org.apache.hive.spark.client.BaseProtocol.JobMetrics):void	org.apache.hive.spark.client.BaseProtocol.JobMetrics	2/5	
-Move Method	org.apache.hive.spark.client.SparkClientImpl.ClientProtocol::handle(io.netty.channel.ChannelHandlerContext, org.apache.hive.spark.client.BaseProtocol.JobResult):void	org.apache.hive.spark.client.BaseProtocol.JobResult	2/4	

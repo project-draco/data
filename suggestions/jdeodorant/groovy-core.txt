@@ -1,0 +1,6 @@
+groovy.json.JsonLexer.readingConstant(groovy.json.JsonTokenType, groovy.json.JsonToken);JsonToken
+groovy.text.StreamingTemplateEngine.StreamingTemplate.offsetPositionFromSection(groovy.text.StreamingTemplateEngine.StreamingTemplate.Position, groovy.text.StreamingTemplateEngine.StreamingTemplate.StringSection);Position
+groovy.text.StreamingTemplateEngine.StreamingTemplate.findPrecedingSection(groovy.text.StreamingTemplateEngine.StreamingTemplate.Position, java.util.List<groovy.text.StreamingTemplateEngine.StreamingTemplate.StringSection>);Position
+groovy.text.StreamingTemplateEngine.StreamingTemplate.append(java.lang.StringBuilder, groovy.text.StreamingTemplateEngine.StreamingTemplate.Position, char);Position
+groovy.text.StreamingTemplateEngine.StreamingTemplate.mangleExceptionMessage(java.lang.String, groovy.text.StreamingTemplateEngine.StreamingTemplate.Position);Position
+groovy.text.markup.BaseTemplate.createWriter(java.io.Writer);TemplateConfiguration

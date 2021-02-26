@@ -1,4 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.jme3.terrain.geomipmap.lodcalc.DistanceLodCalculator::getCenterLocation(com.jme3.terrain.geomipmap.TerrainPatch):com.jme3.math.Vector3f	com.jme3.terrain.geomipmap.TerrainPatch	0/3	
-Move Method	com.jme3.terrain.geomipmap.lodcalc.PerspectiveLodCalculator::getCenterLocation(com.jme3.terrain.geomipmap.TerrainPatch):com.jme3.math.Vector3f	com.jme3.terrain.geomipmap.TerrainPatch	0/2	
-Move Method	com.jme3.terrain.geomipmap.picking.BresenhamTerrainPicker::findClosestHeightIndex(com.jme3.math.Vector3f, com.jme3.terrain.geomipmap.TerrainPatch):int	com.jme3.terrain.geomipmap.TerrainPatch	0/1	

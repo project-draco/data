@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.apereo.cas.pm.PasswordValidator::validateCasMustChangePassView(org.apereo.cas.pm.PasswordChangeBean, org.springframework.binding.validation.ValidationContext):void	org.apereo.cas.pm.PasswordChangeBean	1/2	

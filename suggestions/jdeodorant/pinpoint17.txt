@@ -1,3 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.navercorp.pinpoint.plugin.thrift.ThriftPlugin::addTServiceClientEditor(com.navercorp.pinpoint.plugin.thrift.ThriftPluginConfig):void	com.navercorp.pinpoint.plugin.thrift.ThriftPluginConfig	1/2	
-Move Method	com.navercorp.pinpoint.plugin.thrift.ThriftPlugin::addTProtocolInterceptors(com.navercorp.pinpoint.plugin.thrift.ThriftPluginConfig, java.lang.String):void	com.navercorp.pinpoint.plugin.thrift.ThriftPluginConfig	1/2	

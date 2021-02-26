@@ -1,2 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.orientechnologies.lucene.collections.LuceneResultSetFactory::create(com.orientechnologies.lucene.engine.OLuceneIndexEngine, com.orientechnologies.lucene.query.QueryContext):com.orientechnologies.lucene.collections.OLuceneAbstractResultSet	com.orientechnologies.lucene.query.QueryContext	0/1	

@@ -1,5 +1,0 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.gradle.api.internal.tasks.testing.junit.result.TestResultSerializer::write(org.gradle.api.internal.tasks.testing.junit.result.TestMethodResult, org.gradle.internal.serialize.Encoder):void	org.gradle.api.internal.tasks.testing.junit.result.TestMethodResult	0/6	
-Move Method	org.gradle.api.internal.tasks.testing.junit.result.Binary2JUnitXmlReportGenerator::getReportFileName(org.gradle.api.internal.tasks.testing.junit.result.TestClassResult):java.lang.String	org.gradle.api.internal.tasks.testing.junit.result.TestClassResult	0/1	
-Move Method	org.gradle.api.internal.tasks.testing.junit.result.TestResultSerializer::write(org.gradle.api.internal.tasks.testing.junit.result.TestClassResult, org.gradle.internal.serialize.Encoder):void	org.gradle.api.internal.tasks.testing.junit.result.TestClassResult	1/4	
-Move Method	org.gradle.api.internal.tasks.testing.detection.AbstractTestFrameworkDetector::publishTestClass(boolean, org.gradle.api.internal.tasks.testing.detection.TestClassVisitor, boolean):void	org.gradle.api.internal.tasks.testing.detection.TestClassVisitor	1/2	

@@ -140,7 +140,6 @@ org.apache.hadoop.fs.DefaultFileAccess.checkFileAccess(org.apache.hadoop.fs.File
 org.apache.hadoop.hive.shims.Utils.getUGI();HadoopShimsSecure
 org.apache.hadoop.hive.ql.exec.vector.IntervalDayTimeColumnVector.getDouble(int);HiveIntervalDayTime
 org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.rightTrimAndTruncate(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int, int);BytesColumnVector
-org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.truncate(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector,
-int, byte[], int, int, int);BytesColumnVector
+org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.truncate(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int, int);BytesColumnVector
 org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.assign(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int);BytesColumnVector
 org.apache.hadoop.hive.ql.exec.vector.expressions.StringExpr.rightTrim(org.apache.hadoop.hive.ql.exec.vector.BytesColumnVector, int, byte[], int, int);BytesColumnVector

@@ -1,0 +1,105 @@
+org.apache.cassandra.db.rows.RangeTombstoneBoundaryMarker.makeBoundary(boolean, org.apache.cassandra.db.ClusteringBound, org.apache.cassandra.db.ClusteringBound, org.apache.cassandra.db.DeletionTime, org.apache.cassandra.db.DeletionTime);RowAndDeletionMergeIterator
+org.apache.cassandra.db.rows.RangeTombstoneBoundaryMarker.exclusiveCloseInclusiveOpen(boolean, java.nio.ByteBuffer[], org.apache.cassandra.db.DeletionTime, org.apache.cassandra.db.DeletionTime);RowAndDeletionMergeIterator
+org.apache.cassandra.db.rows.RangeTombstoneBoundaryMarker.inclusiveCloseExclusiveOpen(boolean, java.nio.ByteBuffer[], org.apache.cassandra.db.DeletionTime, org.apache.cassandra.db.DeletionTime);RowAndDeletionMergeIterator
+org.apache.cassandra.db.compaction.CompactionManager.isCompacting(java.lang.Iterable);ActiveRepairService
+org.apache.cassandra.db.compaction.CompactionManager.waitForCessation(java.lang.Iterable);ActiveRepairService
+org.apache.cassandra.db.compaction.CompactionManager.instance;ActiveRepairService
+org.apache.cassandra.db.commitlog.CommitLog.recoverPath(java.lang.String);CommitLogReplayer
+org.apache.cassandra.db.commitlog.CommitLog.archiver;CommitLogReplayer
+org.apache.cassandra.dht.Range.intersects(org.apache.cassandra.dht.Bounds);Bounds
+org.apache.cassandra.dht.Range.intersects(org.apache.cassandra.dht.AbstractBounds);Bounds
+org.apache.cassandra.utils.MerkleTree.histogramOfRowSizePerLeaf();HistogramBuilder
+org.apache.cassandra.utils.MerkleTree.histogramOfRowCountPerLeaf();HistogramBuilder
+org.apache.cassandra.schema.CompressionParams.deflate(java.lang.Integer);DeflateCompressor
+org.apache.cassandra.schema.CompressionParams.deflate();DeflateCompressor
+org.apache.cassandra.gms.EndpointState.getStatus();VersionedValue
+org.apache.cassandra.db.Slice.extractValues(org.apache.cassandra.db.ClusteringPrefix);ClusteringBound
+org.apache.cassandra.db.rows.UnfilteredSerializer.UnfilteredSerializer();SSTableSimpleUnsortedWriter
+org.apache.cassandra.gms.EndpointState.isRpcReady();VersionedValue
+org.apache.cassandra.db.Slice.make(org.apache.cassandra.db.Clustering, org.apache.cassandra.db.Clustering);ClusteringBound
+org.apache.cassandra.db.Slice.make(org.apache.cassandra.db.Clustering);ClusteringBound
+org.apache.cassandra.db.PartitionRangeReadCommand.postReconciliationProcessing(org.apache.cassandra.db.partitions.PartitionIterator);StorageProxy
+org.apache.cassandra.schema.Types.with(org.apache.cassandra.db.marshal.UserType);UserType
+org.apache.cassandra.schema.Types.of(org.apache.cassandra.db.marshal.UserType[]);UserType
+org.apache.cassandra.schema.Types.builder();UserType
+org.apache.cassandra.schema.Types.without(java.nio.ByteBuffer);UserType
+org.apache.cassandra.db.rows.UnfilteredSerializer.serializer;SSTableSimpleUnsortedWriter
+org.apache.cassandra.db.PartitionRangeReadCommand.toString();StorageProxy
+org.apache.cassandra.db.SerializationHeader.SerializationHeader(boolean, org.apache.cassandra.config.CFMetaData, org.apache.cassandra.db.PartitionColumns, org.apache.cassandra.db.rows.EncodingStats);AbstractReadCommandBuilder
+org.apache.cassandra.db.SerializationHeader.makeWithoutStats(org.apache.cassandra.config.CFMetaData);AbstractReadCommandBuilder
+org.apache.cassandra.db.SerializationHeader.serializer;AbstractReadCommandBuilder
+org.apache.cassandra.index.sasi.plan.QueryController.calculatePrimary(java.util.Collection);Expression
+org.apache.cassandra.index.sasi.plan.QueryController.getView(org.apache.cassandra.index.sasi.plan.Operation$OperationType, java.util.Collection);Expression
+org.apache.cassandra.index.sasi.plan.QueryController.applyScope(java.util.Set);Expression
+org.apache.cassandra.streaming.StreamManager.instance;StreamResultFuture
+org.apache.cassandra.cache.KeyCacheKey.EMPTY_SIZE;CounterCacheKey
+org.apache.cassandra.cache.RowCacheKey.ksAndCFName;CacheService
+org.apache.cassandra.cache.RowCacheKey.toString();CacheService
+org.apache.cassandra.cache.RowCacheKey.equals(java.lang.Object);CacheService
+org.apache.cassandra.cache.RowCacheKey.hashCode();CacheService
+org.apache.cassandra.db.aggregation.AggregationSpecification.newGroupMaker();GroupingState
+org.apache.cassandra.streaming.compress.CompressedStreamWriter.getTransferSections(org.apache.cassandra.io.compress.CompressionMetadata$Chunk[]);Directories
+org.apache.cassandra.db.aggregation.AggregationSpecification.newGroupMaker(org.apache.cassandra.db.aggregation.GroupingState);GroupingState
+org.apache.cassandra.streaming.compress.CompressedStreamWriter.limiter;Directories
+org.apache.cassandra.streaming.compress.CompressedStreamWriter.session;Directories
+org.apache.cassandra.streaming.compress.CompressedStreamWriter.sstable;Directories
+org.apache.cassandra.db.ClusteringBound.BOTTOM;Slice
+org.apache.cassandra.streaming.compress.CompressedStreamWriter.logger;Directories
+org.apache.cassandra.db.ClusteringBound.TOP;Slice
+org.apache.cassandra.db.ClusteringBound.EMPTY_VALUES_ARRAY;Slice
+org.apache.cassandra.cql3.statements.StatementType.allowPartitionKeyRanges();StatementRestrictions
+org.apache.cassandra.cql3.statements.StatementType.allowClusteringColumnSlices();StatementRestrictions
+org.apache.cassandra.db.view.View.findAll(java.lang.String, java.lang.String);MigrationManager
+org.apache.cassandra.db.view.View.findBaseTable(java.lang.String, java.lang.String);MigrationManager
+org.apache.cassandra.db.marshal.UUIDType.parse(java.lang.String);BooleanSerializer
+org.apache.cassandra.db.marshal.UUIDType.version(java.nio.ByteBuffer);BooleanSerializer
+org.apache.cassandra.db.lifecycle.SSTableIntervalTree.buildIntervals(java.lang.Iterable);Interval
+org.apache.cassandra.db.lifecycle.SSTableIntervalTree.build(java.lang.Iterable);Interval
+org.apache.cassandra.db.marshal.SimpleDateType.toTimeInMillis(java.nio.ByteBuffer);SimpleDateSerializer
+org.apache.cassandra.db.filter.ColumnSubselection.slice(org.apache.cassandra.config.ColumnDefinition, org.apache.cassandra.db.rows.CellPath, org.apache.cassandra.db.rows.CellPath);RowFilter
+org.apache.cassandra.db.marshal.SimpleDateType.fromTimeInMillis(long);SimpleDateSerializer
+org.apache.cassandra.serializers.ByteSerializer.instance;ByteType
+org.apache.cassandra.serializers.EmptySerializer.instance;EmptyType
+org.apache.cassandra.serializers.IntegerSerializer.instance;IntegerType
+org.apache.cassandra.db.filter.ColumnSubselection.element(org.apache.cassandra.config.ColumnDefinition, org.apache.cassandra.db.rows.CellPath);RowFilter
+org.apache.cassandra.serializers.DoubleSerializer.instance;DoubleType
+org.apache.cassandra.serializers.ShortSerializer.instance;ShortType
+org.apache.cassandra.serializers.DecimalSerializer.instance;DecimalType
+org.apache.cassandra.service.MigrationManager.instance;Schema
+org.apache.cassandra.io.sstable.SSTableSimpleIterator.create(org.apache.cassandra.config.CFMetaData, org.apache.cassandra.io.util.DataInputPlus, org.apache.cassandra.db.SerializationHeader, org.apache.cassandra.db.rows.SerializationHelper, org.apache.cassandra.db.DeletionTime);SerializationHelper
+org.apache.cassandra.serializers.ListSerializer.getElement(java.nio.ByteBuffer, int);ProtocolVersion
+org.apache.cassandra.serializers.EmptySerializer.EmptySerializer();EmptyType
+org.apache.cassandra.tools.NodeTool.getOwnershipByDc(org.apache.cassandra.tools.NodeProbe, boolean, java.util.Map, java.util.Map);SetHostStat
+org.apache.cassandra.serializers.IntegerSerializer.IntegerSerializer();IntegerType
+org.apache.cassandra.serializers.ByteSerializer.ByteSerializer();ByteType
+org.apache.cassandra.cql3.selection.Selection.rowToJson(java.util.List, org.apache.cassandra.transport.ProtocolVersion, org.apache.cassandra.cql3.ResultSet$ResultMetadata);TypeCast
+org.apache.cassandra.db.rows.RowIterators.digest(org.apache.cassandra.db.rows.RowIterator, java.security.MessageDigest);SerializationHeader
+org.apache.cassandra.db.CompactTables.hasEmptyCompactValue(org.apache.cassandra.config.CFMetaData);CFMetaData
+org.apache.cassandra.serializers.MapSerializer.getSerializedValue(java.nio.ByteBuffer, java.nio.ByteBuffer, org.apache.cassandra.db.marshal.AbstractType);MapType
+org.apache.cassandra.db.filter.RowFilter.makeCompactClustering(org.apache.cassandra.config.CFMetaData, java.nio.ByteBuffer);AbstractReadCommandBuilder
+org.apache.cassandra.serializers.DoubleSerializer.DoubleSerializer();DoubleType
+org.apache.cassandra.serializers.DecimalSerializer.DecimalSerializer();DecimalType
+org.apache.cassandra.serializers.ShortSerializer.ShortSerializer();ShortType
+org.apache.cassandra.hints.HintsStore.isLive();FailureDetector
+org.apache.cassandra.service.AbstractReadExecutor.getReadExecutor(org.apache.cassandra.db.SinglePartitionReadCommand, org.apache.cassandra.db.ConsistencyLevel, long);TriggerExecutor
+org.apache.cassandra.index.sasi.plan.Operation.analyzeGroup(org.apache.cassandra.index.sasi.plan.QueryController, org.apache.cassandra.index.sasi.plan.Operation$OperationType, java.util.List);QueryController
+org.apache.cassandra.gms.FailureDetector.appendEndpointState(java.lang.StringBuilder, org.apache.cassandra.gms.EndpointState);Gossiper
+org.apache.cassandra.db.TypeSizes.sizeofVInt(long);VIntCoding
+org.apache.cassandra.utils.MurmurHash.hash2_64(java.nio.ByteBuffer, int, int, long);MetadataCollector
+org.apache.cassandra.db.TypeSizes.sizeofUnsignedVInt(long);VIntCoding
+org.apache.cassandra.transport.Event.deserialize(io.netty.buffer.ByteBuf, org.apache.cassandra.transport.ProtocolVersion);CBUtil
+org.apache.cassandra.db.TypeSizes.sizeofWithVIntLength(java.nio.ByteBuffer);VIntCoding
+org.apache.cassandra.db.Slice.equals(java.lang.Object);RangeTombstone
+org.apache.cassandra.net.OutboundTcpConnection.start();OutboundTcpConnectionPool
+org.apache.cassandra.db.ClusteringBound.create(org.apache.cassandra.db.ClusteringComparator, boolean, boolean, java.lang.Object[]);CBuilder
+org.apache.cassandra.hadoop.cql3.CqlOutputFormat.checkOutputSpecs(org.apache.hadoop.conf.Configuration);ConfigHelper
+org.apache.cassandra.cql3.restrictions.MultiColumnRestriction.getColumnsInCommons(org.apache.cassandra.cql3.restrictions.Restriction);ClusteringColumnRestrictions
+org.apache.cassandra.utils.MergeIterator.get(java.util.List, java.util.Comparator, org.apache.cassandra.utils.MergeIterator$Reducer);UnfilteredPartitionIterators
+org.apache.cassandra.db.rows.Rows.collectStats(org.apache.cassandra.db.rows.Row, org.apache.cassandra.db.partitions.PartitionStatisticsCollector);WrappedInt
+org.apache.cassandra.io.sstable.SSTableSimpleIterator.createTombstoneOnly(org.apache.cassandra.config.CFMetaData, org.apache.cassandra.io.util.DataInputPlus, org.apache.cassandra.db.SerializationHeader, org.apache.cassandra.db.rows.SerializationHelper, org.apache.cassandra.db.DeletionTime);SerializationHelper
+org.apache.cassandra.index.sasi.utils.RangeUnionIterator.builder();org.apache.cassandra.index.sasi.disk.OnDiskIndex
+org.apache.cassandra.hadoop.cql3.CqlOutputFormat.checkOutputSpecs(org.apache.hadoop.mapreduce.JobContext);ConfigHelper
+org.apache.cassandra.hadoop.cql3.CqlOutputFormat.checkOutputSpecs(org.apache.hadoop.fs.FileSystem, org.apache.hadoop.mapred.JobConf);ConfigHelper
+org.apache.cassandra.cql3.CQL3Type.getType();UDHelper
+org.apache.cassandra.cql3.ColumnCondition.getCells(org.apache.cassandra.db.rows.Row, org.apache.cassandra.config.ColumnDefinition);ComplexColumnData
+org.apache.cassandra.db.ClusteringBound.equals(java.lang.Object);RangeTombstone

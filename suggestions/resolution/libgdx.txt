@@ -70,8 +70,7 @@ com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.obtainM4();M
 com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.freeAll();MeshBuilder
 com.badlogic.gdx.scenes.scene2d.ui.Value.maxWidth;Container
 com.badlogic.gdx.scenes.scene2d.ui.Label.textEquals(java.lang.CharSequence);StringBuilder
-com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.build(com.badlogic.gdx.graphics.g3d.utils.MeshPartBuilder,
-float, float, float, float, float, float, float, float, int);MeshBuilder
+com.badlogic.gdx.graphics.g3d.utils.shapebuilders.ArrowShapeBuilder.build(com.badlogic.gdx.graphics.g3d.utils.MeshPartBuilder, float, float, float, float, float, float, float, float, int);MeshBuilder
 com.badlogic.gdx.math.Rectangle.merge(com.badlogic.gdx.math.Vector2);Ellipse
 com.badlogic.gdx.scenes.scene2d.ui.Value.static {};Container
 com.badlogic.gdx.utils.TimeUtils.millis();AnimatedTiledMapTile

@@ -1,0 +1,116 @@
+com.facebook.buck.util.ContextualProcessExecutor.ContextualProcessExecutor(com.facebook.buck.util.ProcessExecutor, com.google.common.collect.ImmutableMap);ProcessExecutorSerializer
+com.facebook.buck.util.ContextualProcessExecutor.getContext();ProcessExecutorSerializer
+com.facebook.buck.util.ContextualProcessExecutor.context;ProcessExecutorSerializer
+com.facebook.buck.parser.Parser.getAllTargetNodes(com.facebook.buck.event.BuckEventBus, com.facebook.buck.rules.Cell, boolean, com.google.common.util.concurrent.ListeningExecutorService, java.nio.file.Path);PerBuildState
+com.facebook.buck.parser.Parser.getRawTargetNode(com.facebook.buck.event.BuckEventBus, com.facebook.buck.rules.Cell, boolean, com.google.common.util.concurrent.ListeningExecutorService, com.facebook.buck.rules.TargetNode);PerBuildState
+com.facebook.buck.parser.Parser.getRawTargetNodes(com.facebook.buck.parser.PerBuildState, com.facebook.buck.rules.Cell, java.nio.file.Path);PerBuildState
+com.facebook.buck.parser.Parser.getRawTargetNode(com.facebook.buck.parser.PerBuildState, com.facebook.buck.rules.Cell, com.facebook.buck.rules.TargetNode);PerBuildState
+com.facebook.buck.query.Lexer.BINARY_OPERATORS;AbstractTargetLiteral
+com.facebook.buck.query.Lexer.static {};AbstractTargetLiteral
+com.facebook.buck.query.Lexer.isReservedWord(java.lang.String);AbstractTargetLiteral
+com.facebook.buck.artifact_cache.ArtifactCacheBuckConfig.getHttpCacheEntries();ArtifactCacheMode
+com.facebook.buck.artifact_cache.ArtifactCacheBuckConfig.getDirCacheEntries();ArtifactCacheMode
+com.facebook.buck.artifact_cache.ArtifactCacheBuckConfig.hasAtLeastOneWriteableCache();ArtifactCacheMode
+com.facebook.buck.artifact_cache.ArtifactCacheBuckConfig.getCacheEntries();ArtifactCacheMode
+com.facebook.buck.artifact_cache.ArtifactCacheBuckConfig.getSQLiteCacheEntries();ArtifactCacheMode
+com.facebook.buck.query.Lexer.keywordMap;AbstractTargetLiteral
+com.facebook.buck.query.Lexer.getTokenKindForWord(java.lang.String);AbstractTargetLiteral
+com.facebook.buck.cxx.CxxDescriptionEnhancer.createUberCompilationDatabase(com.facebook.buck.model.BuildTarget, com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.rules.BuildRuleResolver);Class:com.facebook.buck.cxx.CxxLibraryDescription
+com.facebook.buck.cxx.HeaderSymlinkTreeWithHeaderMap.create(com.facebook.buck.model.BuildTarget, com.facebook.buck.io.filesystem.ProjectFilesystem, java.nio.file.Path, com.google.common.collect.ImmutableMap);AppleLibraryDescriptionSwiftEnhancer
+com.facebook.buck.cxx.HeaderSymlinkTreeWithHeaderMap.getPath(com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.model.BuildTarget);AppleLibraryDescriptionSwiftEnhancer
+com.facebook.buck.cxx.CxxDescriptionEnhancer.createCompilationDatabaseDependencies(com.facebook.buck.model.BuildTarget, com.facebook.buck.model.FlavorDomain, com.facebook.buck.rules.BuildRuleResolver, com.facebook.buck.cxx.CxxConstructorArg);CxxLibraryDescription
+com.facebook.buck.io.file.MorePaths.filterForSubpaths(java.lang.Iterable, java.nio.file.Path);DefaultProjectFilesystem
+com.facebook.buck.io.file.MorePaths.expandHomeDir(java.nio.file.Path);DefaultProjectFilesystem
+com.facebook.buck.apple.MultiarchFile.ruleFinder;LinkerMapMode
+com.facebook.buck.apple.MultiarchFile.copyLinkMaps(com.facebook.buck.rules.BuildableContext, com.facebook.buck.rules.BuildContext, com.google.common.collect.ImmutableList$Builder);LinkerMapMode
+com.facebook.buck.apple.MultiarchFile.thinBinaries;LinkerMapMode
+com.facebook.buck.apple.MultiarchFile.lipoBinaries(com.facebook.buck.rules.BuildContext, com.google.common.collect.ImmutableList$Builder);LinkerMapMode
+com.facebook.buck.apple.MultiarchFile.lipo;LinkerMapMode
+com.facebook.buck.apple.AbstractAppleBundleDestinations.platformFrameworkDestinations(com.facebook.buck.apple.ApplePlatform);ApplePlatformType
+com.facebook.buck.parser.ParseEvent.started(java.lang.Iterable);Parser
+com.facebook.buck.parser.ParseEvent.finished(com.facebook.buck.parser.ParseEvent$Started, long, java.util.Optional);Parser
+com.facebook.buck.swift.SwiftLibrary.requireSwiftCompileRule(com.facebook.buck.model.Flavor[]);SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.requireSwiftLinkRule(com.facebook.buck.model.Flavor[]);SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.ruleResolver;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.frameworks;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.libraries;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.linkage;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.transitiveCxxPreprocessorInputCache;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.swiftPlatformFlavorDomain;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.bridgingHeader;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.supportedPlatformsRegex;SwiftLibraryDescription
+com.facebook.buck.swift.SwiftLibrary.isPlatformSupported(com.facebook.buck.cxx.toolchain.CxxPlatform);SwiftLibraryDescription
+com.facebook.buck.apple.AbstractAppleBundleDestinations.platformDestinations(com.facebook.buck.apple.ApplePlatform);ApplePlatformType
+com.facebook.buck.event.CompilerPluginDurationEvent.finished(com.facebook.buck.event.CompilerPluginDurationEvent$Started, com.google.common.collect.ImmutableMap);BuckTracingEventBusBridge
+com.facebook.buck.event.listener.CacheRateStatsKeeper.getAggregatedCacheRateStats(com.google.common.collect.ImmutableCollection);SuperConsoleEventBusListener
+com.facebook.buck.event.listener.CacheRateStatsKeeper.getCacheRateStatsUpdateEventFromSerializedStats(com.facebook.buck.distributed.thrift.CacheRateStats);SuperConsoleEventBusListener
+com.facebook.buck.event.CompilerPluginDurationEvent.started(com.facebook.buck.model.BuildTarget, java.lang.String, java.lang.String, com.google.common.collect.ImmutableMap);BuckTracingEventBusBridge
+com.facebook.buck.rules.BuildRuleStatus.SUCCESS;BuildResult
+com.facebook.buck.rules.BuildRuleStatus.CANCELED;BuildResult
+com.facebook.buck.util.Optionals.addIfPresent(java.util.Optional, com.google.common.collect.ImmutableCollection$Builder);PythonBinaryDescription
+com.facebook.buck.util.Optionals.bind(java.util.Optional, com.google.common.base.Function);PythonBinaryDescription
+com.facebook.buck.event.InstallEvent.started(com.facebook.buck.model.BuildTarget);InstallCommand
+com.facebook.buck.event.InstallEvent.finished(com.facebook.buck.event.InstallEvent$Started, boolean, java.util.Optional, java.util.Optional);InstallCommand
+com.facebook.buck.artifact_cache.ThriftArtifactCacheProtocol.createRequest(com.facebook.buck.slb.ThriftProtocol, com.facebook.buck.artifact_cache.thrift.BuckCacheRequest, com.google.common.io.ByteSource[]);HybridPayloadGenerator
+com.facebook.buck.artifact_cache.ThriftArtifactCacheProtocol.parseResponse(com.facebook.buck.slb.ThriftProtocol, java.io.InputStream);HybridPayloadGenerator
+com.facebook.buck.rules.BuildRuleStatus.static {};BuildResult
+com.facebook.buck.apple.AppleDebugFormat.DWARF;AppleDebuggableBinary
+com.facebook.buck.rules.BuildRuleStatus.FAIL;BuildResult
+com.facebook.buck.apple.AppleDebugFormat.DWARF_AND_DSYM;AppleDebuggableBinary
+com.facebook.buck.cxx.CxxDescriptionEnhancer.getHeaderModeForPlatform(com.facebook.buck.rules.BuildRuleResolver, com.facebook.buck.cxx.toolchain.CxxPlatform, boolean);HeaderMode
+com.facebook.buck.apple.AppleDebugFormat.static {};AppleDebuggableBinary
+com.facebook.buck.rules.BuildRuleStatus.BuildRuleStatus(java.lang.String, int);BuildResult
+com.facebook.buck.rules.AbstractBuildContext.getAndroidPlatformTargetSupplier();AndroidPlatformTarget
+com.facebook.buck.apple.AppleDebugFormat.NONE;AppleDebuggableBinary
+com.facebook.buck.android.NdkCxxPlatforms.isSupportedConfiguration(java.nio.file.Path, com.facebook.buck.android.toolchain.NdkCxxRuntime);NdkCxxRuntime
+com.facebook.buck.ocaml.AbstractOcamlBuildContext.builder(com.facebook.buck.ocaml.OcamlBuckConfig);OcamlBuckConfig
+com.facebook.buck.apple.AppleDebugFormat.FLAVOR_DOMAIN;AppleDebuggableBinary
+com.facebook.buck.event.SimplePerfEvent.getEventId();ChromeTraceBuildListener
+com.facebook.buck.event.SimplePerfEvent.getEventInfo();ChromeTraceBuildListener
+com.facebook.buck.rules.CachingBuildRuleBuilder.fetch(com.facebook.buck.artifact_cache.ArtifactCache, com.facebook.buck.rules.RuleKey, com.facebook.buck.io.file.LazyPath);CachingBuildEngine
+com.facebook.buck.macho.SegmentCommandUtils.enumerateSectionsInSegmentLoadCommand(java.nio.ByteBuffer, com.facebook.buck.macho.MachoMagicInfo, com.facebook.buck.macho.SegmentCommand, com.facebook.buck.charset.NulTerminatedCharsetDecoder, com.google.common.base.Function);CompDirReplacer
+com.facebook.buck.rules.BuildEvent.unskippedRuleCountUpdated(int);UnskippedRulesTracker
+com.facebook.buck.jvm.java.plugin.adapter.TaskListenerProxy.unmirror(com.facebook.buck.jvm.java.plugin.api.TaskEventMirror);TaskEventMirror
+com.facebook.buck.ide.intellij.model.AbstractIjModuleAndroidFacet.isAndroidLibrary();AndroidProjectType
+com.facebook.buck.rules.query.ClasspathFunction.eval(com.facebook.buck.query.QueryEvaluator, com.facebook.buck.query.QueryEnvironment, com.google.common.collect.ImmutableList);GraphEnhancementQueryEnvironment
+com.facebook.buck.event.SimplePerfEvent.getEventType();ChromeTraceBuildListener
+com.facebook.buck.haskell.HaskellHaddockRule.from(com.facebook.buck.model.BuildTarget, com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.rules.BuildRuleParams, com.facebook.buck.rules.SourcePathRuleFinder, com.facebook.buck.rules.Tool, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableSet);HaskellHaddockDescription
+com.facebook.buck.config.BuckConfig.xcodeProjectTestsMode();ProjectTestsMode
+com.facebook.buck.js.JsUtil.withWorkerDependencyOnly(com.facebook.buck.rules.BuildRuleParams, com.facebook.buck.rules.BuildRuleResolver, com.facebook.buck.model.BuildTarget);JsLibraryDescription
+com.facebook.buck.macho.SegmentCommandUtils.getSegmentCommandHeaderSize(com.facebook.buck.macho.SegmentCommand);CompDirReplacer
+com.facebook.buck.model.BuildTargets.getAnnotationPath(com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.model.BuildTarget, java.lang.String);AbstractCompilerParameters
+com.facebook.buck.model.BuildTargets.getScratchPath(com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.model.BuildTarget, java.lang.String);AbstractCompilerParameters
+com.facebook.buck.model.BuildTargets.getGenPath(com.facebook.buck.io.filesystem.ProjectFilesystem, com.facebook.buck.model.BuildTarget, java.lang.String);AbstractCompilerParameters
+com.facebook.buck.util.environment.Architecture.name();DistBuildCellIndexer
+com.facebook.buck.event.ParsingEvent.symlinkInvalidation(java.lang.String);PerBuildState
+com.facebook.buck.util.DependencyMode.ordinal();AndroidLibraryGraphEnhancer
+com.facebook.buck.android.toolchain.NdkCxxRuntime.ordinal();NdkCxxPlatforms
+com.facebook.buck.test.AbstractTestRunningOptions.getTestSelectorList();TestSelectorList
+com.facebook.buck.test.result.type.ResultType.equals(java.lang.Object);TestResultSummary
+com.facebook.buck.jvm.java.JarDumper.dump(java.nio.file.Path);JarDiffer
+com.facebook.buck.android.packageable.AndroidPackageableCollector.AndroidPackageableCollector(com.facebook.buck.model.BuildTarget);APKModuleGraph
+com.facebook.buck.cli.VerifyCachesCommand.verifyRuleKeyCache(com.facebook.buck.event.BuckEventBus, java.io.PrintStream, int, com.facebook.buck.util.cache.FileHashCache, com.facebook.buck.rules.keys.RuleKeyCacheRecycler);RuleKeyCacheRecycler
+com.facebook.buck.util.Types.getSupertypes(java.lang.Class);ParamInfo
+com.facebook.buck.lua.CxxLuaExtension.getExtension(com.facebook.buck.cxx.toolchain.CxxPlatform);LuaBinaryDescription
+com.facebook.buck.jvm.java.abi.source.TreeBackedTrees.getPath(javax.lang.model.element.Element, javax.lang.model.element.AnnotationMirror);TreeBackedAnnotationMirror
+com.facebook.buck.android.ApkGenrule.getInstallableApk();ApkGenruleDescription
+com.facebook.buck.cli.HelpCommand.run(java.io.PrintStream);AdditionalOptionsCmdLineParser
+com.facebook.buck.distributed.DistBuildState.dump(com.facebook.buck.distributed.DistBuildCellIndexer, com.facebook.buck.distributed.DistBuildFileHashes, com.facebook.buck.distributed.DistBuildTargetGraphCodec, com.facebook.buck.rules.TargetGraph, com.google.common.collect.ImmutableSet);DistBuildFileHashes
+com.facebook.buck.distributed.DistBuildFileHashes.createFileHashCache(com.facebook.buck.util.cache.ProjectFileHashCache, com.facebook.buck.distributed.thrift.BuildJobStateFileHashes);DistBuildState
+com.facebook.buck.android.resources.ResourceTable.get(java.nio.ByteBuffer);ResTableTypeSpec
+com.facebook.buck.util.collect.SortedSets.union(java.util.SortedSet, java.util.SortedSet);BuildInfoRecorder
+com.facebook.buck.jvm.java.AnnotationProcessingEvent.started(com.facebook.buck.model.BuildTarget, java.lang.String, com.facebook.buck.jvm.java.AnnotationProcessingEvent$Operation, int, boolean);TracingProcessorWrapper
+com.facebook.buck.parser.RawNodeParsePipeline.parseBuildTargetFromRawRule(java.nio.file.Path, java.util.Optional, java.util.Map, java.nio.file.Path);DaemonicCellState
+com.facebook.buck.js.JsUtil.copyParamsWithDependencies(com.facebook.buck.rules.BuildRuleParams, com.facebook.buck.rules.BuildRule[]);JsLibraryDescription
+com.facebook.buck.android.exopackage.ExopackageInstaller.parseExopackageInfoMetadata(java.nio.file.Path, java.nio.file.Path, com.facebook.buck.io.filesystem.ProjectFilesystem);DexExoHelper
+com.facebook.buck.apple.CoreDataModelDescription.isVersionedDataModel(com.facebook.buck.apple.AppleWrapperResourceArg);AppleWrapperResourceArg
+com.facebook.buck.ocaml.OcamlLinkStep.create(java.nio.file.Path, com.google.common.collect.ImmutableMap, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList, java.util.Optional, java.nio.file.Path, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList, com.google.common.collect.ImmutableList, boolean, boolean, com.facebook.buck.rules.SourcePathResolver);OcamlBuildStep
+com.facebook.buck.android.resources.ResTablePackage.get(java.nio.ByteBuffer);ResTableTypeSpec
+com.facebook.buck.util.autosparse.AbstractAutoSparseConfig.of(com.facebook.buck.util.config.Config);Config
+com.facebook.buck.util.autosparse.AbstractAutoSparseConfig.isAutosparseEnabled(com.facebook.buck.util.config.Config);Config
+com.facebook.buck.ide.intellij.model.AbstractIjModuleAndroidFacet.getAndroidProjectType();AndroidProjectType
+com.facebook.buck.step.AbstractExecutionContext.getRuleKeyDiagnosticsMode();CachingBuildRuleBuilder
+com.facebook.buck.js.JsLibraryDescription.mapSourcesToFlavors(com.facebook.buck.rules.SourcePathResolver, com.google.common.collect.ImmutableSet);Either
+com.facebook.buck.cxx.toolchain.HeaderMode.ordinal();CxxDescriptionEnhancer
+com.facebook.buck.rules.BuildRules.getExportedRules(java.lang.Iterable);AndroidInstrumentationTestDescription
+com.facebook.buck.event.listener.TestResultFormatter.runStarted(com.google.common.collect.ImmutableList$Builder, boolean, com.facebook.buck.test.selectors.TestSelectorList, boolean, com.google.common.collect.ImmutableSet, com.facebook.buck.event.listener.TestResultFormatter$FormatMode);SuperConsoleEventBusListener

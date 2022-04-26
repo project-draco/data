@@ -1,273 +1,272 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::updateClassJsDoc(com.google.javascript.rhino.JSDocInfo, com.google.javascript.rhino.JSDocInfoBuilder):void	com.google.javascript.rhino.JSDocInfoBuilder	0/15	
-Move Method	com.google.javascript.jscomp.CheckJSDoc::getFunctionDecl(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/9	
-Move Method	com.google.javascript.jscomp.PureFunctionIdentifier.CallSitePropagationInfo::propagate(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation):boolean	com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation	0/7	
-Move Method	com.google.javascript.jscomp.CheckRequiresForConstructors::declaresFunctionOrClass(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/6	
-Move Method	com.google.javascript.jscomp.parsing.IRFactory::setSourceInfo(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/6	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::replaceChildPreserveCast(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/5	
-Move Method	com.google.javascript.jscomp.CheckJSDoc::hasClassLevelJsDoc(com.google.javascript.rhino.JSDocInfo):boolean	com.google.javascript.rhino.JSDocInfo	0/4	
-Move Method	com.google.javascript.jscomp.ClosureCheckModule::isExportLhs(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/4	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::getTypeFromGetterOrSetter(com.google.javascript.rhino.Node):com.google.javascript.rhino.JSTypeExpression	com.google.javascript.rhino.Node	0/4	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope::getNodeNameForConstWarning(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	0/4	
-Move Method	com.google.javascript.jscomp.J2clClinitPrunerPass.RedundantClinitPruner::isNewControlBranch(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/4	
-Move Method	com.google.javascript.jscomp.parsing.IRFactory::setSourceInfo(com.google.javascript.rhino.Node, com.google.javascript.jscomp.parsing.parser.util.SourcePosition, com.google.javascript.jscomp.parsing.parser.util.SourcePosition):void	com.google.javascript.rhino.Node	0/4	
-Move Method	com.google.javascript.rhino.jstype.UnionTypeBuilder::isSubtype(com.google.javascript.rhino.jstype.JSType, com.google.javascript.rhino.jstype.JSType, boolean):boolean	com.google.javascript.rhino.jstype.JSType	0/4	
-Move Method	com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties::isGlobalFunctionDeclaration(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.NodeTraversal	0/3	
-Move Method	com.google.javascript.jscomp.BranchCoverageInstrumentationCallback::processBranchInfo(com.google.javascript.rhino.Node, com.google.javascript.jscomp.FileInstrumentationData, java.util.List<com.google.javascript.rhino.Node>):void	com.google.javascript.jscomp.FileInstrumentationData	0/3	
-Move Method	com.google.javascript.jscomp.DartSuperAccessorsPass::isSuperGet(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.DeadAssignmentsElimination::isRemovableAssign(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.Es6ExtractClasses.SelfReferenceRewriter::needsInnerNameRewriting(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::addToDefinePropertiesObject(com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata	0/3	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes::markAssignNodeAsAnalyzed(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope::computeFnDeclaredTypeFromCallee(com.google.javascript.rhino.Node, com.google.javascript.jscomp.newtypes.JSType):com.google.javascript.jscomp.newtypes.DeclaredFunctionType	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::canMoveModerately(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, com.google.javascript.jscomp.ReferenceCollectingCallback.Reference):boolean	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	0/3	
-Move Method	com.google.javascript.jscomp.J2clPass.NativeAliasInliner::isNativeAlias(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.TypeCheck::couldBeAConstructor(com.google.javascript.rhino.jstype.JSType):boolean	com.google.javascript.rhino.jstype.JSType	0/3	
-Move Method	com.google.javascript.jscomp.TypeTransformation::isBooleanOperation(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.ant.CompileTask::setDefine(com.google.javascript.jscomp.CompilerOptions, java.lang.String, java.lang.Object):boolean	com.google.javascript.jscomp.CompilerOptions	0/3	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::isBooleanOperation(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::isValidExpression(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/3	
-Move Method	com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties::isAssignRValue(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties::maybeGetVar(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):com.google.javascript.jscomp.Var	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.BranchCoverageInstrumentationCallback::newBranchesInLineNode(java.lang.String, com.google.javascript.jscomp.FileInstrumentationData):com.google.javascript.rhino.Node	com.google.javascript.jscomp.FileInstrumentationData	0/2	
-Move Method	com.google.javascript.jscomp.CallGraph::updateFunctionForUse(com.google.javascript.jscomp.CallGraph.Function, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.CallGraph.Function	0/2	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::markConst(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::markConstAndCopyJsDoc(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.ConformanceRules.RestrictedMethodCall::matchesProp(com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.RestrictedMethodCall.Restriction):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.DisambiguateProperties::isTypeToSkip(com.google.javascript.rhino.jstype.JSType):boolean	com.google.javascript.rhino.jstype.JSType	0/2	
-Move Method	com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance::isOverriden(com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance.JavascriptClass, java.lang.String):boolean	com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance.JavascriptClass	0/2	
-Move Method	com.google.javascript.jscomp.ExportTestFunctions.ExportTestFunctionsNodes::isCallTargetQName(com.google.javascript.rhino.Node, java.lang.String):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.GlobalNamespace.BuildGlobalNamespace::isNestedAssign(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo::isValidOverride(com.google.javascript.jscomp.newtypes.JSType, com.google.javascript.jscomp.newtypes.JSType):boolean	com.google.javascript.jscomp.newtypes.JSType	0/2	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::isValidDeclaration(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference):boolean	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	0/2	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::isValidReference(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference):boolean	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	0/2	
-Move Method	com.google.javascript.jscomp.J2clClinitPrunerPass.LookAheadRedundantClinitPruner::isParameter(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.JsMessageVisitor::maybeInitMetaDataFromJsDocOrHelpVar(com.google.javascript.jscomp.JsMessage.Builder, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.PeepholeRemoveDeadCode::getSimpleAssignmentName(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.PeepholeRemoveDeadCode::getConditionalStatementCondition(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.PerformanceTracker::estimateLines(com.google.javascript.rhino.Node):int	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.RecoverableJsAst::replay(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.jscomp.JsAst.ParseResult):void	com.google.javascript.jscomp.JsAst.ParseResult	0/2	
-Move Method	com.google.javascript.jscomp.RemoveSuperMethodsPass.RemoveSuperMethodsCallback::returnMatches(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getFunctionParameter(com.google.javascript.rhino.Node, int):java.lang.String	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getFunctionBody(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getCallName(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getCallArgument(com.google.javascript.rhino.Node, int):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getCallParamCount(com.google.javascript.rhino.Node):int	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getComputedPropValue(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypeTransformation::getComputedPropName(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder::getPrototypeOwnerType(com.google.javascript.rhino.jstype.ObjectType):com.google.javascript.rhino.jstype.ObjectType	com.google.javascript.rhino.jstype.ObjectType	0/2	
-Move Method	com.google.javascript.jscomp.parsing.IRFactory.TransformDispatcher::unsupportedLanguageFeature(com.google.javascript.jscomp.parsing.parser.trees.ParseTree, java.lang.String):com.google.javascript.rhino.Node	com.google.javascript.jscomp.parsing.IRFactory	0/2	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::getFunctionParamCount(com.google.javascript.rhino.Node):int	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::getFunctionBody(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::getCallName(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::getCallArgument(com.google.javascript.rhino.Node, int):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::getCallParamCount(com.google.javascript.rhino.Node):int	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::generateCode(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	0/2	
-Move Method	com.google.javascript.jscomp.ConformanceRules.BanUnknownTypedClassPropsReferences::isInWhitelistedSyntheticFile(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.CrossModuleCodeMotion::isRecursiveDeclaration(com.google.javascript.jscomp.Var, com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.Var	0/1	
-Move Method	com.google.javascript.jscomp.Es6ConvertSuperConstructorCalls::isDefinedInSources(com.google.javascript.jscomp.NodeTraversal, java.lang.String):boolean	com.google.javascript.jscomp.NodeTraversal	0/1	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::isGlobalSymbol(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.NodeTraversal	0/1	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::isGlobalSymbol(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.InlineFunctions::verifyAllReferencesInlined(com.google.javascript.jscomp.InlineFunctions.FunctionState):void	com.google.javascript.jscomp.InlineFunctions.FunctionState	0/1	
-Move Method	com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior::fillInitialValues(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, java.util.Map<java.lang.String,com.google.javascript.rhino.Node>):void	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	0/1	
-Move Method	com.google.javascript.jscomp.InlineProperties.GatherCandidates::inConstructor(com.google.javascript.jscomp.NodeTraversal):boolean	com.google.javascript.jscomp.NodeTraversal	0/1	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::canMoveAggressively(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.J2clPass.NativeAliasInliner::getDeclaringNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.J2clPass.NativeAliasInliner::getDeclaringNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.jscomp.NodeTraversal	0/1	
-Move Method	com.google.javascript.jscomp.NameBasedDefinitionProvider::jsdocContainsDeclarations(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.PeepholeMinimizeConditions::areMatchingExits(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.PeepholeRemoveDeadCode::getSimpleAssignmentValue(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.PeepholeRemoveDeadCode::isConditionalStatement(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.SymbolTable::getReferences(com.google.javascript.jscomp.SymbolTable.Symbol):java.lang.Iterable<com.google.javascript.jscomp.SymbolTable.Reference>	com.google.javascript.jscomp.SymbolTable.Symbol	0/1	
-Move Method	com.google.javascript.jscomp.SymbolTable::getReferenceList(com.google.javascript.jscomp.SymbolTable.Symbol):java.util.List<com.google.javascript.jscomp.SymbolTable.Reference>	com.google.javascript.jscomp.SymbolTable.Symbol	0/1	
-Move Method	com.google.javascript.jscomp.SymbolTable::fillSymbolVisibility(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	0/1	
-Move Method	com.google.javascript.jscomp.lint.CheckInterfaces::isInterface(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.lint.CheckJSDocStyle::isConstructorWithoutParameters(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	0/1	
-Move Method	com.google.javascript.jscomp.parsing.IRFactory::normalizeRegex(com.google.javascript.jscomp.parsing.parser.LiteralToken):java.lang.String	com.google.javascript.jscomp.parsing.parser.LiteralToken	0/1	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::generateCode(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.jscomp.AbstractCompiler	0/1	
-Move Method	com.google.javascript.rhino.jstype.CanCastToVisitor::canCastToFunction(com.google.javascript.rhino.jstype.JSType, com.google.javascript.rhino.jstype.FunctionType):boolean	com.google.javascript.rhino.jstype.FunctionType	0/1	
-Move Method	com.google.javascript.rhino.jstype.FunctionType::getDebugHashCodeStringOf(com.google.javascript.rhino.jstype.JSType):java.lang.String	com.google.javascript.rhino.jstype.JSType	0/1	
-Move Method	com.google.javascript.jscomp.transpile.BaseTranspiler.CompilerSupplier::setOptions(com.google.javascript.jscomp.CompilerOptions):void	com.google.javascript.jscomp.CompilerOptions	1/11	
-Move Method	com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder::defineSlot(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType, boolean):void	com.google.javascript.rhino.Node	1/9	
-Move Method	com.google.javascript.jscomp.PureFunctionIdentifierTest.NoSideEffectCallEnumerator::generateNameString(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	1/8	
-Move Method	com.google.javascript.jscomp.lint.CheckMissingSemicolon::shouldHaveSemicolon(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/8	
-Move Method	com.google.debugging.sourcemap.SourceMapConsumerV3::parseMetaMap(com.google.debugging.sourcemap.SourceMapObject, com.google.debugging.sourcemap.SourceMapSupplier):void	com.google.debugging.sourcemap.SourceMapObject	1/6	
-Move Method	com.google.javascript.jscomp.CheckAccessControls::shouldEmitDeprecationWarning(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/6	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::removeCast(com.google.javascript.rhino.Node, com.google.javascript.jscomp.AbstractCompiler):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/6	
-Move Method	com.google.javascript.jscomp.CompilerOptions::setManageClosureDependencies(boolean):void	com.google.javascript.jscomp.DependencyOptions	1/5	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::addTypeDeclarations(com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata	1/5	
-Move Method	com.google.javascript.jscomp.TypeTransformation::evalBooleanOperation(com.google.javascript.rhino.Node, com.google.javascript.jscomp.TypeTransformation.NameResolver):boolean	com.google.javascript.rhino.Node	1/5	
-Move Method	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat::padding(java.lang.CharSequence, int):java.lang.CharSequence	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken	1/5	
-Move Method	com.google.javascript.jscomp.ClosureCodingConvention::matchesCacheMethodName(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::safeSetString(com.google.javascript.rhino.Node, java.lang.String):void	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.CodeGenerator::opRequiresParentheses(com.google.javascript.rhino.Node, int, com.google.javascript.jscomp.CodeGenerator.Context):boolean	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.Compiler::createConfig(com.google.javascript.jscomp.parsing.Config.LanguageMode, com.google.javascript.jscomp.parsing.Config.StrictMode):com.google.javascript.jscomp.parsing.Config	com.google.javascript.jscomp.CompilerOptions	1/4	
-Move Method	com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest.TypeInformationGatherer::getNameString(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo::getDeclaredFunctionTypeOfCalleeIfAny(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope):com.google.javascript.jscomp.newtypes.DeclaredFunctionType	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.InlineFunctions::minimizeCost(com.google.javascript.jscomp.InlineFunctions.FunctionState):boolean	com.google.javascript.jscomp.InlineFunctions.FunctionState	1/4	
-Move Method	com.google.javascript.jscomp.OptimizeParameters::setParameterSideEffectInfo(com.google.javascript.jscomp.OptimizeParameters.Parameter, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.OptimizeParameters.Parameter	1/4	
-Move Method	com.google.javascript.jscomp.OptimizeParameters::optimizeCallSite(com.google.javascript.jscomp.DefinitionUseSiteFinder, java.util.List<com.google.javascript.jscomp.OptimizeParameters.Parameter>, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.PureFunctionIdentifier.FunctionAnalyzer::visitAssignmentOrUnaryOperator(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.jscomp.Scope, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation	1/4	
-Move Method	com.google.javascript.jscomp.RewritePolyfills.Polyfills::checkSuffix(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.javascript.jscomp.SymbolTable::getSymbolDeclaredBy(com.google.javascript.rhino.jstype.FunctionType):com.google.javascript.jscomp.SymbolTable.Symbol	com.google.javascript.rhino.jstype.FunctionType	1/4	
-Move Method	com.google.javascript.jscomp.SymbolTable::getSymbolForInstancesOf(com.google.javascript.rhino.jstype.FunctionType):com.google.javascript.jscomp.SymbolTable.Symbol	com.google.javascript.rhino.jstype.FunctionType	1/4	
-Move Method	com.google.javascript.jscomp.TypeInference::ensurePropertyDeclaredHelper(com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.ObjectType):boolean	com.google.javascript.rhino.jstype.ObjectType	1/4	
-Move Method	com.google.javascript.jscomp.newtypes.Namespace::isDefined(com.google.javascript.jscomp.newtypes.QualifiedName):boolean	com.google.javascript.jscomp.newtypes.QualifiedName	1/4	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::replaceRange(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/4	
-Move Method	com.google.debugging.sourcemap.SourceMapConsumerV3.MappingBuilder::tryConsumeToken(char):boolean	com.google.debugging.sourcemap.SourceMapConsumerV3.StringCharIterator	1/3	
-Move Method	com.google.javascript.jscomp.AbstractCommandLineRunner::expandCommandLinePath(java.lang.String, com.google.javascript.jscomp.JSModule):java.lang.String	com.google.javascript.jscomp.AbstractCommandLineRunner.CommandLineConfig	1/3	
-Move Method	com.google.javascript.jscomp.AstValidator::validateMinimumChildCount(com.google.javascript.rhino.Node, int):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.BranchCoverageInstrumentationCallback::instrumentBranchCoverage(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.FileInstrumentationData):void	com.google.javascript.jscomp.FileInstrumentationData	1/3	
-Move Method	com.google.javascript.jscomp.CheckJSDoc::isNameIntializeWithClass(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.CheckJSDoc::validateNoCollapse(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.ConformanceRules.BanGlobalVars::isWhitelisted(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.FunctionTypeBuilder::maybeSetBaseType(com.google.javascript.rhino.jstype.FunctionType):void	com.google.javascript.rhino.jstype.FunctionType	1/3	
-Move Method	com.google.javascript.jscomp.GlobalNamespace::scanFromNode(com.google.javascript.jscomp.GlobalNamespace.BuildGlobalNamespace, com.google.javascript.jscomp.JSModule, com.google.javascript.jscomp.Scope, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.InferConsts::considerVar(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection):void	com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection	1/3	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::removeDeclaration(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference):void	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	1/3	
-Move Method	com.google.javascript.jscomp.JSModuleGraph::createEntryPointInputs(com.google.javascript.jscomp.DependencyOptions, java.util.List<com.google.javascript.jscomp.CompilerInput>, com.google.javascript.jscomp.deps.SortedDependencies<com.google.javascript.jscomp.CompilerInput>):java.util.Collection<com.google.javascript.jscomp.CompilerInput>	com.google.javascript.jscomp.DependencyOptions	1/3	
-Move Method	com.google.javascript.jscomp.NTIScope::getNamespace(com.google.javascript.jscomp.newtypes.QualifiedName):com.google.javascript.jscomp.newtypes.Namespace	com.google.javascript.jscomp.newtypes.QualifiedName	1/3	
-Move Method	com.google.javascript.jscomp.NewTypeInference::isConstructorCall(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.PeepholeRemoveDeadCode::removeIfUnnamedBreak(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.PolymerClassRewriter::appendBehaviorMembersToBlock(com.google.javascript.jscomp.PolymerClassDefinition, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.PolymerClassDefinition	1/3	
-Move Method	com.google.javascript.jscomp.ProcessClosurePrimitives::handleTypedefDefinition(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.ProcessClosurePrimitives::processAddDependency(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	1/3	
-Move Method	com.google.javascript.jscomp.ProcessClosurePrimitives::processForwardDeclare(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	1/3	
-Move Method	com.google.javascript.jscomp.ProcessCommonJSModules::removeIIFEWrapper(com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.Compiler	1/3	
-Move Method	com.google.javascript.jscomp.SanityCheck::sanityCheckNormalization(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	1/3	
-Move Method	com.google.javascript.jscomp.TypeInference::isUnflowable(com.google.javascript.jscomp.TypedVar):boolean	com.google.javascript.jscomp.TypedVar	1/3	
-Move Method	com.google.javascript.jscomp.TypedCodeGenerator::getParameterNodeJSDocType(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.VerboseMessageFormatter::format(com.google.javascript.jscomp.JSError):java.lang.String	com.google.javascript.jscomp.JSError	1/3	
-Move Method	com.google.javascript.jscomp.WhitelistWarningsGuard::formatWarning(com.google.javascript.jscomp.JSError, boolean):java.lang.String	com.google.javascript.jscomp.JSError	1/3	
-Move Method	com.google.javascript.jscomp.lint.CheckMissingSemicolon::checkSemicolon(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.jscomp.newtypes.Namespace::getSubnamespace(com.google.javascript.jscomp.newtypes.QualifiedName):com.google.javascript.jscomp.newtypes.Namespace	com.google.javascript.jscomp.newtypes.QualifiedName	1/3	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::isValidStringParam(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::addChildToFront(com.google.javascript.rhino.Node, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::insertAfter(com.google.javascript.rhino.Node, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::deleteWithoutRemovingWhitespace(com.google.javascript.rhino.Node):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/3	
-Move Method	com.google.javascript.rhino.JSDocInfoBuilder::hasAnySingletonTypeTags():boolean	com.google.javascript.rhino.JSDocInfo	1/3	
-Move Method	com.google.debugging.sourcemap.SourceMapConsumerV3.MappingBuilder::entryComplete():boolean	com.google.debugging.sourcemap.SourceMapConsumerV3.StringCharIterator	1/2	
-Move Method	com.google.debugging.sourcemap.SourceMapGeneratorV3.MappingTraversal::getAdjustedCol(com.google.debugging.sourcemap.FilePosition):int	com.google.debugging.sourcemap.FilePosition	1/2	
-Move Method	com.google.javascript.jscomp.AstValidator::validateAssignmentTarget(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.AstValidator::validateObjectLiteralKeyName(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.AstValidator::validateMaximumChildCount(com.google.javascript.rhino.Node, int):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.CallGraph::getCallsiteForAstNode(com.google.javascript.rhino.Node):com.google.javascript.jscomp.CallGraph.Callsite	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.CallGraph::lookupFunctionForDefinition(com.google.javascript.jscomp.DefinitionsRemover.Definition):com.google.javascript.jscomp.CallGraph.Function	com.google.javascript.jscomp.DefinitionsRemover.Definition	1/2	
-Move Method	com.google.javascript.jscomp.CheckEventfulObjectDisposal.Traversal::localEventfulObjectAssign(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.jscomp.NodeTraversal	1/2	
-Move Method	com.google.javascript.jscomp.CheckSuspiciousCode::checkInvalidIn(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.CheckSuspiciousCode::checkNegatedLeftOperandOfInOperator(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.CollapseProperties::flattenSimpleStubDeclaration(com.google.javascript.jscomp.GlobalNamespace.Name, java.lang.String):void	com.google.javascript.jscomp.GlobalNamespace.Name	1/2	
-Move Method	com.google.javascript.jscomp.CollapseProperties::updateFunctionDeclarationAtFunctionNode(com.google.javascript.jscomp.GlobalNamespace.Name, boolean):void	com.google.javascript.jscomp.GlobalNamespace.Name	1/2	
-Move Method	com.google.javascript.jscomp.CollapseVariableDeclarations.GatherCollapses::canBeRedeclared(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Scope):boolean	com.google.javascript.jscomp.Scope	1/2	
-Move Method	com.google.javascript.jscomp.CollectFileOverviewVisibility::visit(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.ConformanceRules.AbstractRule::report(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.ConformanceResult):void	com.google.javascript.jscomp.ConformanceRules.ConformanceResult	1/2	
-Move Method	com.google.javascript.jscomp.ConformanceRules.AbstractTypeRestrictionRule::isTypeImmediatelyTightened(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.ConformanceRules.BannedProperty::isCandidatePropUse(com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.BannedProperty.Property):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.ConvertToTypedInterface.RemoveCode::removeNode(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.DartSuperAccessorsPass::reportEs6Change():void	com.google.javascript.jscomp.AbstractCompiler	1/2	
-Move Method	com.google.javascript.jscomp.DeadPropertyAssignmentElimination.FindCandidateAssignmentTraversal::visitBlock(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.DisambiguateProperties::buildPropNames(com.google.javascript.jscomp.DisambiguateProperties.Property):java.util.Map<com.google.javascript.rhino.jstype.JSType,java.lang.String>	com.google.javascript.jscomp.DisambiguateProperties.Property	1/2	
-Move Method	com.google.javascript.jscomp.Es6RenameReferences::renameReference(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.Es6RewriteArrowFunction::visitArrowFunction(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Es6RewriteArrowFunction.ThisContext):void	com.google.javascript.jscomp.Es6RewriteArrowFunction.ThisContext	1/2	
-Move Method	com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance::isReferenceToClass(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::initSymbolBefore(com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	1/2	
-Move Method	com.google.javascript.jscomp.Es6ToEs3Converter::visitClassMember(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata):void	com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata	1/2	
-Move Method	com.google.javascript.jscomp.ExpandJqueryAliases::isJqueryExpandedEachCall(com.google.javascript.rhino.Node, java.lang.String):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.ExpressionDecomposer::isConstantNameNode(com.google.javascript.rhino.Node, java.util.Set<java.lang.String>):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.FunctionArgumentInjector.ReferencedAfterSideEffect::isLocalName(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.FunctionRewriter::parseHelperCode(com.google.javascript.jscomp.FunctionRewriter.Reducer):com.google.javascript.rhino.Node	com.google.javascript.jscomp.FunctionRewriter.Reducer	1/2	
-Move Method	com.google.javascript.jscomp.FunctionToBlockMutator::makeLocalNamesUnique(com.google.javascript.rhino.Node, boolean):void	com.google.javascript.jscomp.AbstractCompiler	1/2	
-Move Method	com.google.javascript.jscomp.FunctionTypeBuilder::isOptionalParameter(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo):boolean	com.google.javascript.rhino.JSDocInfo	1/2	
-Move Method	com.google.javascript.jscomp.FunctionTypeBuilder::isVarArgsParameter(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo):boolean	com.google.javascript.rhino.JSDocInfo	1/2	
-Move Method	com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallback::processConstructorCall(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes::visitNewCtorWithoutFunctionLiteral(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope::isStaticCtorProp(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope):boolean	com.google.javascript.jscomp.NTIScope	1/2	
-Move Method	com.google.javascript.jscomp.InlineAliases.AliasesCollector::isPrivate(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.InlineFunctions.Inline::inlineFunction(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.InlineFunctions.Reference, com.google.javascript.jscomp.InlineFunctions.FunctionState):void	com.google.javascript.jscomp.InlineFunctions.FunctionState	1/2	
-Move Method	com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior::blacklistVarReferencesInTree(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Scope):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior::replaceAssignmentExpression(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, java.util.Map<java.lang.String,java.lang.String>):void	com.google.javascript.jscomp.ReferenceCollectingCallback.Reference	1/2	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::maybeEscapedOrModifiedArguments(com.google.javascript.jscomp.Scope, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceMap):boolean	com.google.javascript.jscomp.Scope	1/2	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::isStringWorthInlining(com.google.javascript.jscomp.Var, java.util.List<com.google.javascript.jscomp.ReferenceCollectingCallback.Reference>):boolean	com.google.javascript.jscomp.Var	1/2	
-Move Method	com.google.javascript.jscomp.J2clPass.GetDefineRewriter::isUtilGetDefineCall(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.MustBeReachingVariableDef::dependsOnOuterScopeVars(com.google.javascript.jscomp.MustBeReachingVariableDef.Definition):boolean	com.google.javascript.jscomp.MustBeReachingVariableDef.Definition	1/2	
-Move Method	com.google.javascript.jscomp.NewTypeInference::isPropertyTestCall(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.PeepholeMinimizeConditions::replaceNode(com.google.javascript.rhino.Node, com.google.javascript.jscomp.MinimizedCondition.MeasuredNode):com.google.javascript.rhino.Node	com.google.javascript.jscomp.MinimizedCondition.MeasuredNode	1/2	
-Move Method	com.google.javascript.jscomp.PeepholeReplaceKnownMethods::replaceWithCharAt(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.ProcessCommonJSModules.RewriteModule::getModuleImportName(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.jscomp.NodeTraversal	1/2	
-Move Method	com.google.javascript.jscomp.PureFunctionIdentifier.FunctionAnalyzer::visitCall(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.RemoveUnusedPolyfills.CollectUnusedPolyfills::determineReceiverType(com.google.javascript.rhino.Node):com.google.javascript.rhino.TypeI	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.RemoveUnusedVars.CallSiteOptimizer::canModifyCallers(com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.DefinitionUseSiteFinder	1/2	
-Move Method	com.google.javascript.jscomp.ReplaceMessagesForChrome::getNewValueNode(com.google.javascript.rhino.Node, com.google.javascript.jscomp.JsMessage):com.google.javascript.rhino.Node	com.google.javascript.jscomp.JsMessage	1/2	
-Move Method	com.google.javascript.jscomp.ReplaceStrings::doSubstitutions(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.ReplaceStrings.Config, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.ReplaceStrings.Config	1/2	
-Move Method	com.google.javascript.jscomp.Scope::undeclare(com.google.javascript.jscomp.Var):void	com.google.javascript.jscomp.Var	1/2	
-Move Method	com.google.javascript.jscomp.ScopedAliases.Traversal::isCallToScopeMethod(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.SideEffectsAnalysis::safeToMoveBefore(com.google.javascript.rhino.Node, com.google.javascript.jscomp.SideEffectsAnalysis.AbstractMotionEnvironment, com.google.javascript.rhino.Node):boolean	com.google.javascript.jscomp.SideEffectsAnalysis.LocationAbstraction	1/2	
-Move Method	com.google.javascript.jscomp.SideEffectsAnalysis.VisibilityLocationAbstraction::findStorageLocationReferences(com.google.javascript.rhino.Node):java.util.Set<com.google.javascript.rhino.Node>	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.TransformAMDToCJSModule.TransformAMDModulesCallback::handleDefineObjectLiteral(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.TypeCheck::checkPropertyInheritanceOnPrototypeLitKey(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, java.lang.String, com.google.javascript.rhino.jstype.ObjectType):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.TypeInference::inferArguments(com.google.javascript.jscomp.TypedScope):void	com.google.javascript.jscomp.TypedScope	1/2	
-Move Method	com.google.javascript.jscomp.TypeValidator::expectAllInterfaceProperties(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.FunctionType):void	com.google.javascript.rhino.jstype.FunctionType	1/2	
-Move Method	com.google.javascript.jscomp.TypedCodeGenerator::getTypeAnnotation(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.TypedScopeCreator.DiscoverEnumsAndTypedefs::identifyNameNode(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.lint.CheckJSDocStyle::visitNonFunction(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.jscomp.newtypes.Namespace::getReceiverNamespace(com.google.javascript.jscomp.newtypes.QualifiedName):com.google.javascript.jscomp.newtypes.Namespace	com.google.javascript.jscomp.newtypes.QualifiedName	1/2	
-Move Method	com.google.javascript.jscomp.newtypes.NominalType::isClassy():boolean	com.google.javascript.jscomp.newtypes.RawNominalType	1/2	
-Move Method	com.google.javascript.jscomp.newtypes.NominalType::isPropDefinedOnSubtype(com.google.javascript.jscomp.newtypes.QualifiedName):boolean	com.google.javascript.jscomp.newtypes.QualifiedName	1/2	
-Move Method	com.google.javascript.jscomp.newtypes.ObjectType::compareRecordTypeToIObject(com.google.javascript.jscomp.newtypes.NominalType, com.google.javascript.jscomp.newtypes.SubtypeCache):boolean	com.google.javascript.jscomp.newtypes.NominalType	1/2	
-Move Method	com.google.javascript.jscomp.parsing.JsDocInfoParser::lookAheadFor(char):boolean	com.google.javascript.jscomp.parsing.JsDocTokenStream	1/2	
-Move Method	com.google.javascript.jscomp.parsing.parser.Parser::checkVanillaForInitializers(com.google.javascript.jscomp.parsing.parser.trees.VariableDeclarationListTree):void	com.google.javascript.jscomp.parsing.parser.trees.VariableDeclarationListTree	1/2	
-Move Method	com.google.javascript.jscomp.parsing.parser.Parser::isAsyncId(com.google.javascript.jscomp.parsing.parser.trees.ParseTree):boolean	com.google.javascript.jscomp.parsing.parser.trees.ParseTree	1/2	
-Move Method	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatSpecifierParser::parseConversionType(com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken):com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken	1/2	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::insertBefore(com.google.javascript.rhino.Node, java.lang.String, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::addOrReplaceJsDoc(com.google.javascript.rhino.Node, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	1/2	
-Move Method	com.google.javascript.rhino.JSDocInfoBuilder::hasAnySingletonSideEffectTags():boolean	com.google.javascript.rhino.JSDocInfo	1/2	
-Move Method	com.google.javascript.rhino.jstype.TemplatizedType::wrapsSameRawType(com.google.javascript.rhino.jstype.JSType):boolean	com.google.javascript.rhino.jstype.JSType	1/2	
-Move Method	com.google.javascript.jscomp.Normalize.NormalizeStatements::annotateConstantsByConvention(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/11	
-Move Method	com.google.javascript.rhino.JSDocInfoBuilder::hasAnyTypeRelatedTags():boolean	com.google.javascript.rhino.JSDocInfo	2/9	
-Move Method	com.google.javascript.jscomp.Compiler::reconcileOptionsWithGuards():void	com.google.javascript.jscomp.CompilerOptions	2/8	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::maybeRecordExportDeclaration(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.ClosureRewriteModule.ScriptDescription	2/6	
-Move Method	com.google.javascript.jscomp.CodeGenerator::addNonEmptyStatement(com.google.javascript.rhino.Node, com.google.javascript.jscomp.CodeGenerator.Context, boolean):void	com.google.javascript.jscomp.CodeConsumer	2/6	
-Move Method	com.google.javascript.jscomp.ProcessClosurePrimitives::handleCandidateProvideDefinition(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/6	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::updateEndModule():void	com.google.javascript.jscomp.ClosureRewriteModule.ScriptDescription	2/5	
-Move Method	com.google.javascript.jscomp.DeadPropertyAssignmentElimination.FindCandidateAssignmentTraversal::getOrCreateProperty(com.google.javascript.rhino.Node):com.google.javascript.jscomp.DeadPropertyAssignmentElimination.Property	com.google.javascript.rhino.Node	2/5	
-Move Method	com.google.javascript.jscomp.Es6TypedToEs6Converter::maybeAddVisibility(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/5	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes::mayCreateFunctionNamespace(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/5	
-Move Method	com.google.javascript.jscomp.SymbolTable::getLexicalScopeDepth(com.google.javascript.jscomp.SymbolTable.SymbolScope):int	com.google.javascript.jscomp.SymbolTable.SymbolScope	2/5	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::recordExportsPropertyAssignment(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.ClosureRewriteModule.ScriptDescription	2/4	
-Move Method	com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope::simpleInferAndOrType(com.google.javascript.rhino.Node):com.google.javascript.jscomp.newtypes.JSType	com.google.javascript.rhino.Node	2/4	
-Move Method	com.google.javascript.jscomp.StripCode.Strip::isCallWhoseReturnValueShouldBeStripped(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/4	
-Move Method	com.google.javascript.jscomp.TypeValidator::expectNotNullOrUndefined(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType, java.lang.String, com.google.javascript.rhino.jstype.JSType):boolean	com.google.javascript.rhino.jstype.JSType	2/4	
-Move Method	com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder::lookupQualifiedName(com.google.javascript.rhino.Node):com.google.javascript.rhino.jstype.JSType	com.google.javascript.rhino.Node	2/4	
-Move Method	com.google.javascript.jscomp.AstValidator::validateNameDeclarationChild(com.google.javascript.rhino.Token, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.CheckJSDoc::isClassDecl(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.CheckUnusedPrivateProperties::getPropName(com.google.javascript.rhino.Node):java.lang.String	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::maybeUpdateExportDeclToNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.ClosureRewriteModule::recordExportToInline(com.google.javascript.jscomp.ClosureRewriteModule.ExportDefinition):void	com.google.javascript.jscomp.ClosureRewriteModule.ExportDefinition	2/3	
-Move Method	com.google.javascript.jscomp.ConformanceRules.BannedName::isCandidateNode(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.ControlFlowAnalysis::handleFunction(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.DisambiguateProperties::recordInterfaces(com.google.javascript.rhino.jstype.FunctionType, com.google.javascript.rhino.jstype.JSType, com.google.javascript.jscomp.DisambiguateProperties.Property):void	com.google.javascript.rhino.jstype.FunctionType	2/3	
-Move Method	com.google.javascript.jscomp.DisambiguateProperties::recordInterfaces(com.google.javascript.rhino.jstype.FunctionType, com.google.javascript.rhino.jstype.JSType, com.google.javascript.jscomp.DisambiguateProperties.Property):void	com.google.javascript.jscomp.DisambiguateProperties.Property	2/3	
-Move Method	com.google.javascript.jscomp.Es6ExtractClasses.SelfReferenceRewriter::maybeUpdateClassSelfRef(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.Es6RewriteGenerators::visitReturn():void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.ExtractPrototypeMemberDeclarations::replacePrototypeMemberDeclaration(com.google.javascript.jscomp.ExtractPrototypeMemberDeclarations.PrototypeMemberDeclaration):void	com.google.javascript.jscomp.ExtractPrototypeMemberDeclarations.PrototypeMemberDeclaration	2/3	
-Move Method	com.google.javascript.jscomp.InlineFunctions.FindCandidatesReferences::maybeAddReference(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.InlineFunctions.FunctionState, com.google.javascript.rhino.Node, com.google.javascript.jscomp.JSModule):void	com.google.javascript.jscomp.InlineFunctions.FunctionState	2/3	
-Move Method	com.google.javascript.jscomp.InlineVariables.InliningBehavior::isInlineableDeclaredConstant(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection):boolean	com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection	2/3	
-Move Method	com.google.javascript.jscomp.MinimizedCondition::getMinimized(com.google.javascript.jscomp.MinimizedCondition.MinimizationStyle):com.google.javascript.jscomp.MinimizedCondition.MeasuredNode	com.google.javascript.jscomp.MinimizedCondition.MeasuredNode	2/3	
-Move Method	com.google.javascript.jscomp.NTIScope::isNamespace(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.NameAnalyzer.FindReferences::maybeRecordAlias(java.lang.String, com.google.javascript.rhino.Node, com.google.javascript.jscomp.NameAnalyzer.NameInformation, java.lang.String):boolean	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.NewTypeInference::combineLhsAndRhsForLogicalOps(com.google.javascript.rhino.Token, com.google.javascript.jscomp.newtypes.JSType, com.google.javascript.jscomp.NewTypeInference.EnvTypePair, com.google.javascript.jscomp.NewTypeInference.EnvTypePair):com.google.javascript.jscomp.NewTypeInference.EnvTypePair	com.google.javascript.jscomp.newtypes.JSType	2/3	
-Move Method	com.google.javascript.jscomp.NewTypeInference::mayWarnAboutGlobalThis(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope):void	com.google.javascript.jscomp.NTIScope	2/3	
-Move Method	com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax::tryFoldStandardConstructors(com.google.javascript.rhino.Node):com.google.javascript.rhino.Node	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.ProcessClosurePrimitives::handleClosureDefinesValues(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node):void	com.google.javascript.jscomp.AbstractCompiler	2/3	
-Move Method	com.google.javascript.jscomp.ShadowVariables.DoShadowVariables::findBestShadow(com.google.javascript.jscomp.Scope, com.google.javascript.jscomp.Var):com.google.javascript.jscomp.RenameVars.Assignment	com.google.javascript.jscomp.Scope	2/3	
-Move Method	com.google.javascript.jscomp.SymbolTable::findSymbolForScope(com.google.javascript.jscomp.SymbolTable.SymbolScope):com.google.javascript.jscomp.SymbolTable.Symbol	com.google.javascript.jscomp.SymbolTable.SymbolScope	2/3	
-Move Method	com.google.javascript.jscomp.TypeInference::narrowScope(com.google.javascript.jscomp.type.FlowScope, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType):com.google.javascript.jscomp.type.FlowScope	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.TypeTransformation::buildRecordTypeFromObject(com.google.javascript.rhino.jstype.ObjectType):com.google.javascript.rhino.jstype.JSType	com.google.javascript.rhino.jstype.ObjectType	2/3	
-Move Method	com.google.javascript.jscomp.lint.CheckJSDocStyle::checkReturn(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo):void	com.google.javascript.rhino.JSDocInfo	2/3	
-Move Method	com.google.javascript.jscomp.newtypes.NominalType::instantiateGenerics(java.util.Map<java.lang.String,com.google.javascript.jscomp.newtypes.JSType>):com.google.javascript.jscomp.newtypes.NominalType	com.google.javascript.jscomp.newtypes.RawNominalType	2/3	
-Move Method	com.google.javascript.jscomp.parsing.IRFactory.TransformDispatcher::parseDirectives(com.google.javascript.rhino.Node):void	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.parsing.TypeTransformationParser::validBooleanOperation(com.google.javascript.rhino.Node):boolean	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat::wrapParentheses(java.lang.StringBuilder):java.lang.StringBuilder	com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken	2/3	
-Move Method	com.google.javascript.refactoring.SuggestedFix.Builder::addCast(com.google.javascript.rhino.Node, com.google.javascript.jscomp.AbstractCompiler, java.lang.String):com.google.javascript.refactoring.SuggestedFix.Builder	com.google.javascript.rhino.Node	2/3	
-Move Method	com.google.javascript.rhino.JSDocInfoBuilder::isPopulatedWithFileOverview():boolean	com.google.javascript.rhino.JSDocInfo	2/3	
-Move Method	com.google.javascript.rhino.jstype.FunctionType::appendArgString(java.lang.StringBuilder, com.google.javascript.rhino.Node, boolean):void	com.google.javascript.rhino.Node	2/3	
+com.google.javascript.jscomp.Es6ToEs3Converter.updateClassJsDoc(com.google.javascript.rhino.JSDocInfo, com.google.javascript.rhino.JSDocInfoBuilder);JSDocInfoBuilder
+com.google.javascript.jscomp.CheckJSDoc.getFunctionDecl(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PureFunctionIdentifier.CallSitePropagationInfo.propagate(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation);FunctionInformation
+com.google.javascript.jscomp.CheckRequiresForConstructors.declaresFunctionOrClass(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.IRFactory.setSourceInfo(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.replaceChildPreserveCast(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CheckJSDoc.hasClassLevelJsDoc(com.google.javascript.rhino.JSDocInfo);JSDocInfo
+com.google.javascript.jscomp.ClosureCheckModule.isExportLhs(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6ToEs3Converter.getTypeFromGetterOrSetter(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope.getNodeNameForConstWarning(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.J2clClinitPrunerPass.RedundantClinitPruner.isNewControlBranch(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.IRFactory.setSourceInfo(com.google.javascript.rhino.Node, com.google.javascript.jscomp.parsing.parser.util.SourcePosition, com.google.javascript.jscomp.parsing.parser.util.SourcePosition);Node
+com.google.javascript.rhino.jstype.UnionTypeBuilder.isSubtype(com.google.javascript.rhino.jstype.JSType, com.google.javascript.rhino.jstype.JSType, boolean);JSType
+com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties.isGlobalFunctionDeclaration(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);NodeTraversal
+com.google.javascript.jscomp.BranchCoverageInstrumentationCallback.processBranchInfo(com.google.javascript.rhino.Node, com.google.javascript.jscomp.FileInstrumentationData, java.util.List<com.google.javascript.rhino.Node>);FileInstrumentationData
+com.google.javascript.jscomp.DartSuperAccessorsPass.isSuperGet(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.DeadAssignmentsElimination.isRemovableAssign(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6ExtractClasses.SelfReferenceRewriter.needsInnerNameRewriting(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6ToEs3Converter.addToDefinePropertiesObject(com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata, com.google.javascript.rhino.Node);ClassDeclarationMetadata
+com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes.markAssignNodeAsAnalyzed(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope.computeFnDeclaredTypeFromCallee(com.google.javascript.rhino.Node, com.google.javascript.jscomp.newtypes.JSType);Node
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.canMoveModerately(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, com.google.javascript.jscomp.ReferenceCollectingCallback.Reference);Reference
+com.google.javascript.jscomp.J2clPass.NativeAliasInliner.isNativeAlias(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeCheck.couldBeAConstructor(com.google.javascript.rhino.jstype.JSType);JSType
+com.google.javascript.jscomp.TypeTransformation.isBooleanOperation(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ant.CompileTask.setDefine(com.google.javascript.jscomp.CompilerOptions, java.lang.String, java.lang.Object);CompilerOptions
+com.google.javascript.jscomp.parsing.TypeTransformationParser.isBooleanOperation(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.isValidExpression(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties.isAssignRValue(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.AnalyzePrototypeProperties.ProcessProperties.maybeGetVar(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.BranchCoverageInstrumentationCallback.newBranchesInLineNode(java.lang.String, com.google.javascript.jscomp.FileInstrumentationData);FileInstrumentationData
+com.google.javascript.jscomp.CallGraph.updateFunctionForUse(com.google.javascript.jscomp.CallGraph.Function, com.google.javascript.rhino.Node);Function
+com.google.javascript.jscomp.ClosureRewriteModule.markConst(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ClosureRewriteModule.markConstAndCopyJsDoc(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ConformanceRules.RestrictedMethodCall.matchesProp(com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.RestrictedMethodCall.Restriction);Node
+com.google.javascript.jscomp.DisambiguateProperties.isTypeToSkip(com.google.javascript.rhino.jstype.JSType);JSType
+com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance.isOverriden(com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance.JavascriptClass, java.lang.String);JavascriptClass
+com.google.javascript.jscomp.ExportTestFunctions.ExportTestFunctionsNodes.isCallTargetQName(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.jscomp.GlobalNamespace.BuildGlobalNamespace.isNestedAssign(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.isValidOverride(com.google.javascript.jscomp.newtypes.JSType, com.google.javascript.jscomp.newtypes.JSType);JSType
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.isValidDeclaration(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference);Reference
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.isValidReference(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference);Reference
+com.google.javascript.jscomp.J2clClinitPrunerPass.LookAheadRedundantClinitPruner.isParameter(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.JsMessageVisitor.maybeInitMetaDataFromJsDocOrHelpVar(com.google.javascript.jscomp.JsMessage.Builder, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeRemoveDeadCode.getSimpleAssignmentName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeRemoveDeadCode.getConditionalStatementCondition(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PerformanceTracker.estimateLines(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.RecoverableJsAst.replay(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.jscomp.JsAst.ParseResult);ParseResult
+com.google.javascript.jscomp.RemoveSuperMethodsPass.RemoveSuperMethodsCallback.returnMatches(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeTransformation.getFunctionParameter(com.google.javascript.rhino.Node, int);Node
+com.google.javascript.jscomp.TypeTransformation.getFunctionBody(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeTransformation.getCallName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeTransformation.getCallArgument(com.google.javascript.rhino.Node, int);Node
+com.google.javascript.jscomp.TypeTransformation.getCallParamCount(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeTransformation.getComputedPropValue(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeTransformation.getComputedPropName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder.getPrototypeOwnerType(com.google.javascript.rhino.jstype.ObjectType);ObjectType
+com.google.javascript.jscomp.parsing.IRFactory.TransformDispatcher.unsupportedLanguageFeature(com.google.javascript.jscomp.parsing.parser.trees.ParseTree, java.lang.String);IRFactory
+com.google.javascript.jscomp.parsing.TypeTransformationParser.getFunctionParamCount(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.getFunctionBody(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.getCallName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.getCallArgument(com.google.javascript.rhino.Node, int);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.getCallParamCount(com.google.javascript.rhino.Node);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.generateCode(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ConformanceRules.BanUnknownTypedClassPropsReferences.isInWhitelistedSyntheticFile(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CrossModuleCodeMotion.isRecursiveDeclaration(com.google.javascript.jscomp.Var, com.google.javascript.rhino.Node);Var
+com.google.javascript.jscomp.Es6ConvertSuperConstructorCalls.isDefinedInSources(com.google.javascript.jscomp.NodeTraversal, java.lang.String);NodeTraversal
+com.google.javascript.jscomp.Es6ToEs3Converter.isGlobalSymbol(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);NodeTraversal
+com.google.javascript.jscomp.Es6ToEs3Converter.isGlobalSymbol(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.InlineFunctions.verifyAllReferencesInlined(com.google.javascript.jscomp.InlineFunctions.FunctionState);FunctionState
+com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior.fillInitialValues(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, java.util.Map<java.lang.String,com.google.javascript.rhino.Node>);Reference
+com.google.javascript.jscomp.InlineProperties.GatherCandidates.inConstructor(com.google.javascript.jscomp.NodeTraversal);NodeTraversal
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.canMoveAggressively(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.J2clPass.NativeAliasInliner.getDeclaringNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.J2clPass.NativeAliasInliner.getDeclaringNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);NodeTraversal
+com.google.javascript.jscomp.NameBasedDefinitionProvider.jsdocContainsDeclarations(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeMinimizeConditions.areMatchingExits(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeRemoveDeadCode.getSimpleAssignmentValue(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeRemoveDeadCode.isConditionalStatement(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.SymbolTable.getReferences(com.google.javascript.jscomp.SymbolTable.Symbol);Symbol
+com.google.javascript.jscomp.SymbolTable.getReferenceList(com.google.javascript.jscomp.SymbolTable.Symbol);Symbol
+com.google.javascript.jscomp.SymbolTable.fillSymbolVisibility(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.lint.CheckInterfaces.isInterface(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.lint.CheckJSDocStyle.isConstructorWithoutParameters(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.IRFactory.normalizeRegex(com.google.javascript.jscomp.parsing.parser.LiteralToken);LiteralToken
+com.google.javascript.refactoring.SuggestedFix.Builder.generateCode(com.google.javascript.jscomp.AbstractCompiler, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.rhino.jstype.CanCastToVisitor.canCastToFunction(com.google.javascript.rhino.jstype.JSType, com.google.javascript.rhino.jstype.FunctionType);FunctionType
+com.google.javascript.rhino.jstype.FunctionType.getDebugHashCodeStringOf(com.google.javascript.rhino.jstype.JSType);JSType
+com.google.javascript.jscomp.transpile.BaseTranspiler.CompilerSupplier.setOptions(com.google.javascript.jscomp.CompilerOptions);CompilerOptions
+com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder.defineSlot(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType, boolean);Node
+com.google.javascript.jscomp.PureFunctionIdentifierTest.NoSideEffectCallEnumerator.generateNameString(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.lint.CheckMissingSemicolon.shouldHaveSemicolon(com.google.javascript.rhino.Node);Node
+com.google.debugging.sourcemap.SourceMapConsumerV3.parseMetaMap(com.google.debugging.sourcemap.SourceMapObject, com.google.debugging.sourcemap.SourceMapSupplier);SourceMapObject
+com.google.javascript.jscomp.CheckAccessControls.shouldEmitDeprecationWarning(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.removeCast(com.google.javascript.rhino.Node, com.google.javascript.jscomp.AbstractCompiler);Node
+com.google.javascript.jscomp.CompilerOptions.setManageClosureDependencies(boolean);DependencyOptions
+com.google.javascript.jscomp.Es6ToEs3Converter.addTypeDeclarations(com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata, com.google.javascript.rhino.Node);ClassDeclarationMetadata
+com.google.javascript.jscomp.TypeTransformation.evalBooleanOperation(com.google.javascript.rhino.Node, com.google.javascript.jscomp.TypeTransformation.NameResolver);Node
+com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.padding(java.lang.CharSequence, int);FormatToken
+com.google.javascript.jscomp.ClosureCodingConvention.matchesCacheMethodName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ClosureRewriteModule.safeSetString(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.jscomp.CodeGenerator.opRequiresParentheses(com.google.javascript.rhino.Node, int, com.google.javascript.jscomp.CodeGenerator.Context);Node
+com.google.javascript.jscomp.Compiler.createConfig(com.google.javascript.jscomp.parsing.Config.LanguageMode, com.google.javascript.jscomp.parsing.Config.StrictMode);CompilerOptions
+com.google.javascript.jscomp.DevirtualizePrototypeMethodsTest.TypeInformationGatherer.getNameString(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.getDeclaredFunctionTypeOfCalleeIfAny(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope);Node
+com.google.javascript.jscomp.InlineFunctions.minimizeCost(com.google.javascript.jscomp.InlineFunctions.FunctionState);FunctionState
+com.google.javascript.jscomp.OptimizeParameters.setParameterSideEffectInfo(com.google.javascript.jscomp.OptimizeParameters.Parameter, com.google.javascript.rhino.Node);Parameter
+com.google.javascript.jscomp.OptimizeParameters.optimizeCallSite(com.google.javascript.jscomp.DefinitionUseSiteFinder, java.util.List<com.google.javascript.jscomp.OptimizeParameters.Parameter>, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PureFunctionIdentifier.FunctionAnalyzer.visitAssignmentOrUnaryOperator(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.jscomp.Scope, com.google.javascript.rhino.Node);FunctionInformation
+com.google.javascript.jscomp.RewritePolyfills.Polyfills.checkSuffix(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.SymbolTable.getSymbolDeclaredBy(com.google.javascript.rhino.jstype.FunctionType);FunctionType
+com.google.javascript.jscomp.SymbolTable.getSymbolForInstancesOf(com.google.javascript.rhino.jstype.FunctionType);FunctionType
+com.google.javascript.jscomp.TypeInference.ensurePropertyDeclaredHelper(com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.ObjectType);ObjectType
+com.google.javascript.jscomp.newtypes.Namespace.isDefined(com.google.javascript.jscomp.newtypes.QualifiedName);QualifiedName
+com.google.javascript.refactoring.SuggestedFix.Builder.replaceRange(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.debugging.sourcemap.SourceMapConsumerV3.MappingBuilder.tryConsumeToken(char);StringCharIterator
+com.google.javascript.jscomp.AbstractCommandLineRunner.expandCommandLinePath(java.lang.String, com.google.javascript.jscomp.JSModule);CommandLineConfig
+com.google.javascript.jscomp.AstValidator.validateMinimumChildCount(com.google.javascript.rhino.Node, int);Node
+com.google.javascript.jscomp.BranchCoverageInstrumentationCallback.instrumentBranchCoverage(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.FileInstrumentationData);FileInstrumentationData
+com.google.javascript.jscomp.CheckJSDoc.isNameIntializeWithClass(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CheckJSDoc.validateNoCollapse(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo);Node
+com.google.javascript.jscomp.ConformanceRules.BanGlobalVars.isWhitelisted(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.FunctionTypeBuilder.maybeSetBaseType(com.google.javascript.rhino.jstype.FunctionType);FunctionType
+com.google.javascript.jscomp.GlobalNamespace.scanFromNode(com.google.javascript.jscomp.GlobalNamespace.BuildGlobalNamespace, com.google.javascript.jscomp.JSModule, com.google.javascript.jscomp.Scope, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.InferConsts.considerVar(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection);ReferenceCollection
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.removeDeclaration(com.google.javascript.jscomp.ReferenceCollectingCallback.Reference);Reference
+com.google.javascript.jscomp.JSModuleGraph.createEntryPointInputs(com.google.javascript.jscomp.DependencyOptions, java.util.List<com.google.javascript.jscomp.CompilerInput>, com.google.javascript.jscomp.deps.SortedDependencies<com.google.javascript.jscomp.CompilerInput>);DependencyOptions
+com.google.javascript.jscomp.NTIScope.getNamespace(com.google.javascript.jscomp.newtypes.QualifiedName);QualifiedName
+com.google.javascript.jscomp.NewTypeInference.isConstructorCall(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeRemoveDeadCode.removeIfUnnamedBreak(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PolymerClassRewriter.appendBehaviorMembersToBlock(com.google.javascript.jscomp.PolymerClassDefinition, com.google.javascript.rhino.Node);PolymerClassDefinition
+com.google.javascript.jscomp.ProcessClosurePrimitives.handleTypedefDefinition(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ProcessClosurePrimitives.processAddDependency(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.ProcessClosurePrimitives.processForwardDeclare(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.ProcessCommonJSModules.removeIIFEWrapper(com.google.javascript.rhino.Node);Compiler
+com.google.javascript.jscomp.SanityCheck.sanityCheckNormalization(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.TypeInference.isUnflowable(com.google.javascript.jscomp.TypedVar);TypedVar
+com.google.javascript.jscomp.TypedCodeGenerator.getParameterNodeJSDocType(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.VerboseMessageFormatter.format(com.google.javascript.jscomp.JSError);JSError
+com.google.javascript.jscomp.WhitelistWarningsGuard.formatWarning(com.google.javascript.jscomp.JSError, boolean);JSError
+com.google.javascript.jscomp.lint.CheckMissingSemicolon.checkSemicolon(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.newtypes.Namespace.getSubnamespace(com.google.javascript.jscomp.newtypes.QualifiedName);QualifiedName
+com.google.javascript.jscomp.parsing.TypeTransformationParser.isValidStringParam(com.google.javascript.rhino.Node);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.addChildToFront(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.insertAfter(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.deleteWithoutRemovingWhitespace(com.google.javascript.rhino.Node);Node
+com.google.javascript.rhino.JSDocInfoBuilder.hasAnySingletonTypeTags();JSDocInfo
+com.google.debugging.sourcemap.SourceMapConsumerV3.MappingBuilder.entryComplete();StringCharIterator
+com.google.debugging.sourcemap.SourceMapGeneratorV3.MappingTraversal.getAdjustedCol(com.google.debugging.sourcemap.FilePosition);FilePosition
+com.google.javascript.jscomp.AstValidator.validateAssignmentTarget(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.AstValidator.validateObjectLiteralKeyName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.AstValidator.validateMaximumChildCount(com.google.javascript.rhino.Node, int);Node
+com.google.javascript.jscomp.CallGraph.getCallsiteForAstNode(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CallGraph.lookupFunctionForDefinition(com.google.javascript.jscomp.DefinitionsRemover.Definition);Definition
+com.google.javascript.jscomp.CheckEventfulObjectDisposal.Traversal.localEventfulObjectAssign(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);NodeTraversal
+com.google.javascript.jscomp.CheckSuspiciousCode.checkInvalidIn(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CheckSuspiciousCode.checkNegatedLeftOperandOfInOperator(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CollapseProperties.flattenSimpleStubDeclaration(com.google.javascript.jscomp.GlobalNamespace.Name, java.lang.String);Name
+com.google.javascript.jscomp.CollapseProperties.updateFunctionDeclarationAtFunctionNode(com.google.javascript.jscomp.GlobalNamespace.Name, boolean);Name
+com.google.javascript.jscomp.CollapseVariableDeclarations.GatherCollapses.canBeRedeclared(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Scope);Scope
+com.google.javascript.jscomp.CollectFileOverviewVisibility.visit(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ConformanceRules.AbstractRule.report(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.ConformanceResult);ConformanceResult
+com.google.javascript.jscomp.ConformanceRules.AbstractTypeRestrictionRule.isTypeImmediatelyTightened(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ConformanceRules.BannedProperty.isCandidatePropUse(com.google.javascript.rhino.Node, com.google.javascript.jscomp.ConformanceRules.BannedProperty.Property);Node
+com.google.javascript.jscomp.ConvertToTypedInterface.RemoveCode.removeNode(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.DartSuperAccessorsPass.reportEs6Change();AbstractCompiler
+com.google.javascript.jscomp.DeadPropertyAssignmentElimination.FindCandidateAssignmentTraversal.visitBlock(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.DisambiguateProperties.buildPropNames(com.google.javascript.jscomp.DisambiguateProperties.Property);Property
+com.google.javascript.jscomp.Es6RenameReferences.renameReference(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6RewriteArrowFunction.visitArrowFunction(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Es6RewriteArrowFunction.ThisContext);ThisContext
+com.google.javascript.jscomp.Es6ToEs3ClassSideInheritance.isReferenceToClass(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6ToEs3Converter.initSymbolBefore(com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.Es6ToEs3Converter.visitClassMember(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Es6ToEs3Converter.ClassDeclarationMetadata);ClassDeclarationMetadata
+com.google.javascript.jscomp.ExpandJqueryAliases.isJqueryExpandedEachCall(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.jscomp.ExpressionDecomposer.isConstantNameNode(com.google.javascript.rhino.Node, java.util.Set<java.lang.String>);Node
+com.google.javascript.jscomp.FunctionArgumentInjector.ReferencedAfterSideEffect.isLocalName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.FunctionRewriter.parseHelperCode(com.google.javascript.jscomp.FunctionRewriter.Reducer);Reducer
+com.google.javascript.jscomp.FunctionToBlockMutator.makeLocalNamesUnique(com.google.javascript.rhino.Node, boolean);AbstractCompiler
+com.google.javascript.jscomp.FunctionTypeBuilder.isOptionalParameter(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo);JSDocInfo
+com.google.javascript.jscomp.FunctionTypeBuilder.isVarArgsParameter(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo);JSDocInfo
+com.google.javascript.jscomp.GatherSideEffectSubexpressionsCallback.processConstructorCall(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes.visitNewCtorWithoutFunctionLiteral(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope.isStaticCtorProp(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope);NTIScope
+com.google.javascript.jscomp.InlineAliases.AliasesCollector.isPrivate(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.InlineFunctions.Inline.inlineFunction(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.InlineFunctions.Reference, com.google.javascript.jscomp.InlineFunctions.FunctionState);FunctionState
+com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior.blacklistVarReferencesInTree(com.google.javascript.rhino.Node, com.google.javascript.jscomp.Scope);Node
+com.google.javascript.jscomp.InlineObjectLiterals.InliningBehavior.replaceAssignmentExpression(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.Reference, java.util.Map<java.lang.String,java.lang.String>);Reference
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.maybeEscapedOrModifiedArguments(com.google.javascript.jscomp.Scope, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceMap);Scope
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.isStringWorthInlining(com.google.javascript.jscomp.Var, java.util.List<com.google.javascript.jscomp.ReferenceCollectingCallback.Reference>);Var
+com.google.javascript.jscomp.J2clPass.GetDefineRewriter.isUtilGetDefineCall(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.MustBeReachingVariableDef.dependsOnOuterScopeVars(com.google.javascript.jscomp.MustBeReachingVariableDef.Definition);Definition
+com.google.javascript.jscomp.NewTypeInference.isPropertyTestCall(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.PeepholeMinimizeConditions.replaceNode(com.google.javascript.rhino.Node, com.google.javascript.jscomp.MinimizedCondition.MeasuredNode);MeasuredNode
+com.google.javascript.jscomp.PeepholeReplaceKnownMethods.replaceWithCharAt(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ProcessCommonJSModules.RewriteModule.getModuleImportName(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);NodeTraversal
+com.google.javascript.jscomp.PureFunctionIdentifier.FunctionAnalyzer.visitCall(com.google.javascript.jscomp.PureFunctionIdentifier.FunctionInformation, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.RemoveUnusedPolyfills.CollectUnusedPolyfills.determineReceiverType(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.RemoveUnusedVars.CallSiteOptimizer.canModifyCallers(com.google.javascript.rhino.Node);DefinitionUseSiteFinder
+com.google.javascript.jscomp.ReplaceMessagesForChrome.getNewValueNode(com.google.javascript.rhino.Node, com.google.javascript.jscomp.JsMessage);JsMessage
+com.google.javascript.jscomp.ReplaceStrings.doSubstitutions(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.ReplaceStrings.Config, com.google.javascript.rhino.Node);Config
+com.google.javascript.jscomp.Scope.undeclare(com.google.javascript.jscomp.Var);Var
+com.google.javascript.jscomp.ScopedAliases.Traversal.isCallToScopeMethod(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.SideEffectsAnalysis.safeToMoveBefore(com.google.javascript.rhino.Node, com.google.javascript.jscomp.SideEffectsAnalysis.AbstractMotionEnvironment, com.google.javascript.rhino.Node);LocationAbstraction
+com.google.javascript.jscomp.SideEffectsAnalysis.VisibilityLocationAbstraction.findStorageLocationReferences(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TransformAMDToCJSModule.TransformAMDModulesCallback.handleDefineObjectLiteral(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeCheck.checkPropertyInheritanceOnPrototypeLitKey(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, java.lang.String, com.google.javascript.rhino.jstype.ObjectType);Node
+com.google.javascript.jscomp.TypeInference.inferArguments(com.google.javascript.jscomp.TypedScope);TypedScope
+com.google.javascript.jscomp.TypeValidator.expectAllInterfaceProperties(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.FunctionType);FunctionType
+com.google.javascript.jscomp.TypedCodeGenerator.getTypeAnnotation(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypedScopeCreator.DiscoverEnumsAndTypedefs.identifyNameNode(com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo);Node
+com.google.javascript.jscomp.lint.CheckJSDocStyle.visitNonFunction(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.newtypes.Namespace.getReceiverNamespace(com.google.javascript.jscomp.newtypes.QualifiedName);QualifiedName
+com.google.javascript.jscomp.newtypes.NominalType.isClassy();RawNominalType
+com.google.javascript.jscomp.newtypes.NominalType.isPropDefinedOnSubtype(com.google.javascript.jscomp.newtypes.QualifiedName);QualifiedName
+com.google.javascript.jscomp.newtypes.ObjectType.compareRecordTypeToIObject(com.google.javascript.jscomp.newtypes.NominalType, com.google.javascript.jscomp.newtypes.SubtypeCache);NominalType
+com.google.javascript.jscomp.parsing.JsDocInfoParser.lookAheadFor(char);JsDocTokenStream
+com.google.javascript.jscomp.parsing.parser.Parser.checkVanillaForInitializers(com.google.javascript.jscomp.parsing.parser.trees.VariableDeclarationListTree);VariableDeclarationListTree
+com.google.javascript.jscomp.parsing.parser.Parser.isAsyncId(com.google.javascript.jscomp.parsing.parser.trees.ParseTree);ParseTree
+com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatSpecifierParser.parseConversionType(com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.FormatToken);FormatToken
+com.google.javascript.refactoring.SuggestedFix.Builder.insertBefore(com.google.javascript.rhino.Node, java.lang.String, java.lang.String);Node
+com.google.javascript.refactoring.SuggestedFix.Builder.addOrReplaceJsDoc(com.google.javascript.rhino.Node, java.lang.String);Node
+com.google.javascript.rhino.JSDocInfoBuilder.hasAnySingletonSideEffectTags();JSDocInfo
+com.google.javascript.rhino.jstype.TemplatizedType.wrapsSameRawType(com.google.javascript.rhino.jstype.JSType);JSType
+com.google.javascript.jscomp.Normalize.NormalizeStatements.annotateConstantsByConvention(com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.rhino.JSDocInfoBuilder.hasAnyTypeRelatedTags();JSDocInfo
+com.google.javascript.jscomp.Compiler.reconcileOptionsWithGuards();CompilerOptions
+com.google.javascript.jscomp.ClosureRewriteModule.maybeRecordExportDeclaration(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);ScriptDescription
+com.google.javascript.jscomp.CodeGenerator.addNonEmptyStatement(com.google.javascript.rhino.Node, com.google.javascript.jscomp.CodeGenerator.Context, boolean);CodeConsumer
+com.google.javascript.jscomp.ProcessClosurePrimitives.handleCandidateProvideDefinition(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ClosureRewriteModule.updateEndModule();ScriptDescription
+com.google.javascript.jscomp.DeadPropertyAssignmentElimination.FindCandidateAssignmentTraversal.getOrCreateProperty(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6TypedToEs6Converter.maybeAddVisibility(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.GlobalTypeInfo.CollectNamedTypes.mayCreateFunctionNamespace(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.SymbolTable.getLexicalScopeDepth(com.google.javascript.jscomp.SymbolTable.SymbolScope);SymbolScope
+com.google.javascript.jscomp.ClosureRewriteModule.recordExportsPropertyAssignment(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);ScriptDescription
+com.google.javascript.jscomp.GlobalTypeInfo.ProcessScope.simpleInferAndOrType(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.StripCode.Strip.isCallWhoseReturnValueShouldBeStripped(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.TypeValidator.expectNotNullOrUndefined(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType, java.lang.String, com.google.javascript.rhino.jstype.JSType);JSType
+com.google.javascript.jscomp.TypedScopeCreator.AbstractScopeBuilder.lookupQualifiedName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.AstValidator.validateNameDeclarationChild(com.google.javascript.rhino.Token, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CheckJSDoc.isClassDecl(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.CheckUnusedPrivateProperties.getPropName(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ClosureRewriteModule.maybeUpdateExportDeclToNode(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ClosureRewriteModule.recordExportToInline(com.google.javascript.jscomp.ClosureRewriteModule.ExportDefinition);ExportDefinition
+com.google.javascript.jscomp.ConformanceRules.BannedName.isCandidateNode(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ControlFlowAnalysis.handleFunction(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.DisambiguateProperties.recordInterfaces(com.google.javascript.rhino.jstype.FunctionType, com.google.javascript.rhino.jstype.JSType, com.google.javascript.jscomp.DisambiguateProperties.Property);FunctionType
+com.google.javascript.jscomp.DisambiguateProperties.recordInterfaces(com.google.javascript.rhino.jstype.FunctionType, com.google.javascript.rhino.jstype.JSType, com.google.javascript.jscomp.DisambiguateProperties.Property);Property
+com.google.javascript.jscomp.Es6ExtractClasses.SelfReferenceRewriter.maybeUpdateClassSelfRef(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.Es6RewriteGenerators.visitReturn();Node
+com.google.javascript.jscomp.ExtractPrototypeMemberDeclarations.replacePrototypeMemberDeclaration(com.google.javascript.jscomp.ExtractPrototypeMemberDeclarations.PrototypeMemberDeclaration);PrototypeMemberDeclaration
+com.google.javascript.jscomp.InlineFunctions.FindCandidatesReferences.maybeAddReference(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.jscomp.InlineFunctions.FunctionState, com.google.javascript.rhino.Node, com.google.javascript.jscomp.JSModule);FunctionState
+com.google.javascript.jscomp.InlineVariables.InliningBehavior.isInlineableDeclaredConstant(com.google.javascript.jscomp.Var, com.google.javascript.jscomp.ReferenceCollectingCallback.ReferenceCollection);ReferenceCollection
+com.google.javascript.jscomp.MinimizedCondition.getMinimized(com.google.javascript.jscomp.MinimizedCondition.MinimizationStyle);MeasuredNode
+com.google.javascript.jscomp.NTIScope.isNamespace(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.NameAnalyzer.FindReferences.maybeRecordAlias(java.lang.String, com.google.javascript.rhino.Node, com.google.javascript.jscomp.NameAnalyzer.NameInformation, java.lang.String);Node
+com.google.javascript.jscomp.NewTypeInference.combineLhsAndRhsForLogicalOps(com.google.javascript.rhino.Token, com.google.javascript.jscomp.newtypes.JSType, com.google.javascript.jscomp.NewTypeInference.EnvTypePair, com.google.javascript.jscomp.NewTypeInference.EnvTypePair);JSType
+com.google.javascript.jscomp.NewTypeInference.mayWarnAboutGlobalThis(com.google.javascript.rhino.Node, com.google.javascript.jscomp.NTIScope);NTIScope
+com.google.javascript.jscomp.PeepholeSubstituteAlternateSyntax.tryFoldStandardConstructors(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.ProcessClosurePrimitives.handleClosureDefinesValues(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node);AbstractCompiler
+com.google.javascript.jscomp.ShadowVariables.DoShadowVariables.findBestShadow(com.google.javascript.jscomp.Scope, com.google.javascript.jscomp.Var);Scope
+com.google.javascript.jscomp.SymbolTable.findSymbolForScope(com.google.javascript.jscomp.SymbolTable.SymbolScope);SymbolScope
+com.google.javascript.jscomp.TypeInference.narrowScope(com.google.javascript.jscomp.type.FlowScope, com.google.javascript.rhino.Node, com.google.javascript.rhino.jstype.JSType);Node
+com.google.javascript.jscomp.TypeTransformation.buildRecordTypeFromObject(com.google.javascript.rhino.jstype.ObjectType);ObjectType
+com.google.javascript.jscomp.lint.CheckJSDocStyle.checkReturn(com.google.javascript.jscomp.NodeTraversal, com.google.javascript.rhino.Node, com.google.javascript.rhino.JSDocInfo);JSDocInfo
+com.google.javascript.jscomp.newtypes.NominalType.instantiateGenerics(java.util.Map<java.lang.String,com.google.javascript.jscomp.newtypes.JSType>);RawNominalType
+com.google.javascript.jscomp.parsing.IRFactory.TransformDispatcher.parseDirectives(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.TypeTransformationParser.validBooleanOperation(com.google.javascript.rhino.Node);Node
+com.google.javascript.jscomp.parsing.parser.util.format.SimpleFormat.wrapParentheses(java.lang.StringBuilder);FormatToken
+com.google.javascript.refactoring.SuggestedFix.Builder.addCast(com.google.javascript.rhino.Node, com.google.javascript.jscomp.AbstractCompiler, java.lang.String);Node
+com.google.javascript.rhino.JSDocInfoBuilder.isPopulatedWithFileOverview();JSDocInfo
+com.google.javascript.rhino.jstype.FunctionType.appendArgString(java.lang.StringBuilder, com.google.javascript.rhino.Node, boolean);Node

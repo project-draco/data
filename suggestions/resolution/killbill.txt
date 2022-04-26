@@ -1,0 +1,3 @@
+org.killbill.billing.invoice.generator.InvoiceDateUtils.advanceByNPeriods(org.joda.time.LocalDate, org.killbill.billing.catalog.api.BillingPeriod, int);BillingIntervalDetail
+org.killbill.billing.invoice.generator.InvoiceDateUtils.recedeByNPeriods(org.joda.time.LocalDate, org.killbill.billing.catalog.api.BillingPeriod, int);BillingIntervalDetail
+org.killbill.billing.invoice.dao.InvoiceDaoHelper.createAdjustmentItem(org.killbill.billing.util.entity.dao.EntitySqlDaoWrapperFactory, java.util.UUID, java.util.UUID, java.math.BigDecimal, org.killbill.billing.catalog.api.Currency, org.joda.time.LocalDate, org.killbill.billing.callcontext.InternalCallContext);InvoiceItemModelDao

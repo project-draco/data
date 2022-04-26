@@ -87,8 +87,7 @@ com.orientechnologies.common.util.OArrays.copyOfRange(byte[], int, int);OMemoryI
 com.orientechnologies.orient.core.db.record.ridbag.sbtree.ORidBagDeleter.ORidBagDeleter();ODocumentFieldWalker
 com.orientechnologies.orient.core.sql.parser.OArraySingleValuesSelector.execute(com.orientechnologies.orient.core.db.record.OIdentifiable, java.lang.Object, com.orientechnologies.orient.core.command.OCommandContext);OArraySelector
 com.orientechnologies.orient.server.distributed.sql.OCommandExecutorSQLHASyncCluster.replaceCluster(com.orientechnologies.orient.server.distributed.impl.ODistributedAbstractPlugin, com.orientechnologies.orient.server.OServer, java.lang.String, java.lang.String);ODistributedDatabaseChunk
-com.orientechnologies.orient.server.distributed.sql.OCommandExecutorSQLHASyncCluster.writeDatabaseChunk(java.lang.String, int,
-com.orientechnologies.orient.server.distributed.impl.ODistributedDatabaseChunk, java.io.FileOutputStream);ODistributedDatabaseChunk
+com.orientechnologies.orient.server.distributed.sql.OCommandExecutorSQLHASyncCluster.writeDatabaseChunk(java.lang.String, int, com.orientechnologies.orient.server.distributed.impl.ODistributedDatabaseChunk, java.io.FileOutputStream);ODistributedDatabaseChunk
 com.orientechnologies.orient.server.distributed.impl.ODistributedStorage.executeUndoOnLocalServer(com.orientechnologies.orient.server.distributed.ODistributedRequestId, com.orientechnologies.orient.server.distributed.task.OAbstractReplicatedTask);ODistributedTransactionManager
 com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.createGraphElement(java.lang.Object);OrientVertex
 com.tinkerpop.blueprints.impls.orient.OrientVertexIterator.getGraphElementRecord(java.lang.Object);OrientVertex

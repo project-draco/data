@@ -1,6 +1,5 @@
 org.elasticsearch.painless.GenericElasticsearchScript.execute(java.util.Map, double, java.util.Map, java.lang.Object, java.util.Map);ScriptImpl
-org.elasticsearch.index.translog.Translog.createEmptyTranslog(java.nio.file.Path, long, org.elasticsearch.index.shard.ShardId,
-org.elasticsearch.index.translog.ChannelFactory);TranslogWriter
+org.elasticsearch.index.translog.Translog.createEmptyTranslog(java.nio.file.Path, long, org.elasticsearch.index.shard.ShardId, org.elasticsearch.index.translog.ChannelFactory);TranslogWriter
 org.elasticsearch.index.translog.Translog.createEmptyTranslog(java.nio.file.Path, long, org.elasticsearch.index.shard.ShardId);TranslogWriter
 org.elasticsearch.index.translog.Translog.readOperations(org.elasticsearch.common.io.stream.StreamInput);TranslogWriter
 org.elasticsearch.index.translog.Translog.readOperation(org.elasticsearch.index.translog.BufferedChecksumStreamInput);TranslogWriter
@@ -90,8 +89,7 @@ org.elasticsearch.common.collect.CopyOnWriteHashMap.isEmpty();FieldTypeLookup
 org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestBuilder.setIndicesOptions(org.elasticsearch.action.support.IndicesOptions);ClusterSearchShardsRequest
 org.elasticsearch.action.admin.cluster.shards.ClusterSearchShardsRequestBuilder.request();ClusterSearchShardsRequest
 org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.CLUSTER_TOTAL_SHARDS_PER_NODE_SETTING;SameShardAllocationDecider
-org.elasticsearch.gateway.ReplicaShardAllocator.canBeAllocatedToAtLeastOneNode(org.elasticsearch.cluster.routing.ShardRouting,
-org.elasticsearch.cluster.routing.allocation.RoutingAllocation);MoveDecision
+org.elasticsearch.gateway.ReplicaShardAllocator.canBeAllocatedToAtLeastOneNode(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.cluster.routing.allocation.RoutingAllocation);MoveDecision
 org.elasticsearch.cluster.routing.allocation.decider.ShardsLimitAllocationDecider.doDecide(org.elasticsearch.cluster.routing.ShardRouting, org.elasticsearch.cluster.routing.RoutingNode, org.elasticsearch.cluster.routing.allocation.RoutingAllocation, java.util.function.BiPredicate);SameShardAllocationDecider
 org.elasticsearch.gateway.ReplicaShardAllocator.augmentExplanationsWithStoreInfo(java.util.Map, java.util.Map);MoveDecision
 org.elasticsearch.gateway.ReplicaShardAllocator.hasInitiatedFetching(org.elasticsearch.cluster.routing.ShardRouting);MoveDecision
@@ -212,6 +210,5 @@ org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest
 org.elasticsearch.search.SearchSortValues.EMPTY;SearchHit
 org.elasticsearch.search.fetch.ScrollQueryFetchSearchResult.result();SearchScrollQueryAndFetchAsyncAction
 org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.indices(org.elasticsearch.index.Index[]);TransportCloseIndexAction
-org.elasticsearch.index.mapper.StringFieldType.fuzzyQuery(java.lang.Object, org.elasticsearch.common.unit.Fuzziness, int, int,
-boolean);Fuzziness
+org.elasticsearch.index.mapper.StringFieldType.fuzzyQuery(java.lang.Object, org.elasticsearch.common.unit.Fuzziness, int, int, boolean);Fuzziness
 org.elasticsearch.action.admin.indices.close.CloseIndexClusterStateUpdateRequest.CloseIndexClusterStateUpdateRequest();TransportCloseIndexAction

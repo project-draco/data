@@ -1,148 +1,147 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProtoNoTokens(edu.stanford.nlp.pipeline.CoreNLPProtos.Mention):edu.stanford.nlp.coref.data.Mention	edu.stanford.nlp.pipeline.CoreNLPProtos.Mention	0/29	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Entity, edu.stanford.nlp.util.CoreMap):edu.stanford.nlp.ie.machinereading.structure.EntityMention	edu.stanford.nlp.pipeline.CoreNLPProtos.Entity	0/20	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Relation, edu.stanford.nlp.util.CoreMap):edu.stanford.nlp.ie.machinereading.structure.RelationMention	edu.stanford.nlp.pipeline.CoreNLPProtos.Relation	0/15	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Timex):edu.stanford.nlp.time.Timex	edu.stanford.nlp.pipeline.CoreNLPProtos.Timex	0/14	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProto(edu.stanford.nlp.ie.machinereading.structure.EntityMention):edu.stanford.nlp.pipeline.CoreNLPProtos.Entity	edu.stanford.nlp.ie.machinereading.structure.EntityMention	0/9	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProto(edu.stanford.nlp.time.Timex):edu.stanford.nlp.pipeline.CoreNLPProtos.Timex	edu.stanford.nlp.time.Timex	0/7	
-Move Method	edu.stanford.nlp.parser.nndep.ArcStandard::canReach(edu.stanford.nlp.parser.nndep.Configuration, edu.stanford.nlp.parser.nndep.DependencyTree):boolean	edu.stanford.nlp.parser.nndep.Configuration	0/6	
-Move Method	edu.stanford.nlp.coref.neural.CategoricalFeatureExtractor::getMentionFeatures(edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.Document, java.util.Map<java.lang.Integer,java.util.List<edu.stanford.nlp.coref.data.Mention>>):org.ejml.simple.SimpleMatrix	edu.stanford.nlp.coref.data.Mention	0/5	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain, edu.stanford.nlp.pipeline.Annotation):edu.stanford.nlp.coref.data.CorefChain	edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain	0/5	
-Move Method	edu.stanford.nlp.coref.docreader.CoNLLDocumentReader::makeDocInfo(edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument):java.util.Map<java.lang.String,java.lang.String>	edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument	0/4	
-Move Method	edu.stanford.nlp.ling.tokensregex.ComplexNodePattern::populate(edu.stanford.nlp.ling.tokensregex.Env, java.util.Map<java.lang.String,java.lang.String>, java.util.function.Function<edu.stanford.nlp.util.Pair<edu.stanford.nlp.ling.tokensregex.Env,java.lang.String>,K>):void	edu.stanford.nlp.ling.tokensregex.Env	0/4	
-Move Method	edu.stanford.nlp.coref.md.DependencyCorefMentionFinder::getNPSpan(edu.stanford.nlp.ling.IndexedWord, edu.stanford.nlp.semgraph.SemanticGraph, java.util.List<edu.stanford.nlp.ling.CoreLabel>):edu.stanford.nlp.util.IntPair	edu.stanford.nlp.semgraph.SemanticGraph	0/3	
-Move Method	edu.stanford.nlp.parser.lexparser.BinaryHeadFinder::determineBinaryHead(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	0/3	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProto(edu.stanford.nlp.coref.data.CorefChain):edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain	edu.stanford.nlp.coref.data.CorefChain	0/3	
-Move Method	edu.stanford.nlp.coref.md.CorefMentionFinder::removeSpuriousMentionsEn(edu.stanford.nlp.pipeline.Annotation, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Dictionaries):void	edu.stanford.nlp.coref.data.Dictionaries	0/2	
-Move Method	edu.stanford.nlp.coref.md.DependencyCorefMentionFinder::getNPSpanOld(edu.stanford.nlp.ling.IndexedWord, edu.stanford.nlp.semgraph.SemanticGraph, java.util.List<edu.stanford.nlp.ling.CoreLabel>):edu.stanford.nlp.util.IntPair	edu.stanford.nlp.semgraph.SemanticGraph	0/2	
-Move Method	edu.stanford.nlp.naturalli.RelationTripleSegmenter::getValidChunk(edu.stanford.nlp.semgraph.SemanticGraph, edu.stanford.nlp.ling.IndexedWord, java.util.Set<java.lang.String>, java.util.Optional<java.lang.String>, boolean):java.util.Optional<java.util.List<edu.stanford.nlp.ling.IndexedWord>>	edu.stanford.nlp.semgraph.SemanticGraph	0/2	
-Move Method	edu.stanford.nlp.parser.lexparser.HTKLatticeReader::getProb(edu.stanford.nlp.parser.lexparser.HTKLatticeReader.LatticeWord):double	edu.stanford.nlp.parser.lexparser.HTKLatticeReader.LatticeWord	0/2	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProto(edu.stanford.nlp.coref.data.SpeakerInfo):edu.stanford.nlp.pipeline.CoreNLPProtos.SpeakerInfo	edu.stanford.nlp.coref.data.SpeakerInfo	0/2	
-Move Method	edu.stanford.nlp.tagger.maxent.Extractor::extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder):java.lang.String	edu.stanford.nlp.tagger.maxent.History	0/2	
-Move Method	edu.stanford.nlp.tagger.maxent.Extractor::extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder):java.lang.String	edu.stanford.nlp.tagger.maxent.PairsHolder	0/2	
-Move Method	edu.stanford.nlp.tagger.maxent.Extractor::extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder, int):java.lang.String	edu.stanford.nlp.tagger.maxent.History	0/2	
-Move Method	edu.stanford.nlp.tagger.maxent.Extractor::extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder, int):java.lang.String	edu.stanford.nlp.tagger.maxent.PairsHolder	0/2	
-Move Method	edu.stanford.nlp.fsm.QuasiDeterminizer::pushLambdas(edu.stanford.nlp.fsm.TransducerGraph, edu.stanford.nlp.stats.ClassicCounter):edu.stanford.nlp.fsm.TransducerGraph	edu.stanford.nlp.stats.ClassicCounter	0/1	
-Move Method	edu.stanford.nlp.international.french.pipeline.FTBDataset::getCanditoTreeID(edu.stanford.nlp.trees.Tree):java.lang.String	edu.stanford.nlp.trees.Tree	0/1	
-Move Method	edu.stanford.nlp.ling.tokensregex.SequenceMatchRules.AnnotationExtractRuleCreator::create(edu.stanford.nlp.ling.tokensregex.Env):edu.stanford.nlp.ling.tokensregex.SequenceMatchRules.AnnotationExtractRule	edu.stanford.nlp.ling.tokensregex.Env	0/1	
-Move Method	edu.stanford.nlp.patterns.ScorePhrases::statsWithoutApplyingPatterns(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, edu.stanford.nlp.patterns.surface.PatternsForEachToken, edu.stanford.nlp.stats.Counter<E>, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>):void	edu.stanford.nlp.patterns.surface.PatternsForEachToken	0/1	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.SpeakerInfo):edu.stanford.nlp.coref.data.SpeakerInfo	edu.stanford.nlp.pipeline.CoreNLPProtos.SpeakerInfo	0/1	
-Move Method	edu.stanford.nlp.trees.RecursiveTreeTransformer::transformLabel(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.ling.Label	edu.stanford.nlp.trees.Tree	0/1	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Token):edu.stanford.nlp.ling.CoreLabel	edu.stanford.nlp.pipeline.CoreNLPProtos.Token	1/76	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.NERMention):edu.stanford.nlp.util.CoreMap	edu.stanford.nlp.pipeline.CoreNLPProtos.NERMention	1/16	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProtoBuilder(edu.stanford.nlp.ling.CoreLabel, java.util.Set<java.lang.Class<?>>):edu.stanford.nlp.pipeline.CoreNLPProtos.Token.Builder	edu.stanford.nlp.ling.CoreLabel	1/12	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree	1/12	
-Move Method	edu.stanford.nlp.patterns.ScorePhrases::runParallelApplyPats(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.lang.String, E, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>, java.util.Set<edu.stanford.nlp.patterns.CandidatePhrase>):void	edu.stanford.nlp.patterns.ConstantsAndVariables	1/7	
-Move Method	edu.stanford.nlp.pipeline.StanfordCoreNLPClient::shutdown():void	edu.stanford.nlp.pipeline.StanfordCoreNLPClient.BackendScheduler	1/7	
-Move Method	edu.stanford.nlp.coref.hybrid.sieve.DeterministicCorefSieve::skipThisMention(edu.stanford.nlp.coref.data.Document, edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.CorefCluster, edu.stanford.nlp.coref.data.Dictionaries):boolean	edu.stanford.nlp.coref.hybrid.sieve.DcorefSieveOptions	1/6	
-Move Method	edu.stanford.nlp.dcoref.sievepasses.DeterministicCorefSieve::skipThisMention(edu.stanford.nlp.dcoref.Document, edu.stanford.nlp.dcoref.Mention, edu.stanford.nlp.dcoref.CorefCluster, edu.stanford.nlp.dcoref.Dictionaries):boolean	edu.stanford.nlp.dcoref.SieveOptions	1/6	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::toProto(edu.stanford.nlp.ie.machinereading.structure.RelationMention):edu.stanford.nlp.pipeline.CoreNLPProtos.Relation	edu.stanford.nlp.ie.machinereading.structure.RelationMention	1/6	
-Move Method	edu.stanford.nlp.ie.machinereading.domains.ace.AceReader::convertAceEventMention(edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEventMention, java.lang.String, edu.stanford.nlp.util.CoreMap, java.util.Map<java.lang.String,edu.stanford.nlp.ie.machinereading.structure.EntityMention>, int):edu.stanford.nlp.ie.machinereading.structure.EventMention	edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEventMention	1/5	
-Move Method	edu.stanford.nlp.ie.machinereading.domains.ace.AceReader::convertAceEntityMention(edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention, java.lang.String, edu.stanford.nlp.util.CoreMap, int):edu.stanford.nlp.ie.machinereading.structure.EntityMention	edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention	1/5	
-Move Method	edu.stanford.nlp.optimization.QNMinimizer::computeDir(double[], double[], double[], edu.stanford.nlp.optimization.QNMinimizer.QNInfo, edu.stanford.nlp.optimization.Function, java.lang.StringBuilder):void	edu.stanford.nlp.optimization.QNMinimizer.QNInfo	1/5	
-Move Method	edu.stanford.nlp.simple.Document::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain):edu.stanford.nlp.coref.data.CorefChain	edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain	1/5	
-Move Method	edu.stanford.nlp.dcoref.SieveCoreferenceSystem::printTopK(java.util.logging.Logger, edu.stanford.nlp.dcoref.Document, edu.stanford.nlp.dcoref.Semantics):void	edu.stanford.nlp.dcoref.Document	1/4	
-Move Method	edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceToken::adjustPhrasePositions(int, java.lang.String):int	edu.stanford.nlp.trees.SimpleConstituent	1/4	
-Move Method	edu.stanford.nlp.loglinear.benchmarks.CoNLLBenchmark::generateSentenceModel(edu.stanford.nlp.loglinear.model.ConcatVectorNamespace, edu.stanford.nlp.loglinear.benchmarks.CoNLLBenchmark.CoNLLSentence, java.util.List<java.lang.String>):edu.stanford.nlp.loglinear.model.GraphicalModel	edu.stanford.nlp.loglinear.benchmarks.CoNLLBenchmark.CoNLLSentence	1/4	
-Move Method	edu.stanford.nlp.neural.rnn.TopNGramRecord::simplifyTree(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	1/4	
-Move Method	edu.stanford.nlp.simple.SentenceAlgorithms::keyphraseSpans():java.util.List<edu.stanford.nlp.ie.machinereading.structure.Span>	edu.stanford.nlp.simple.Sentence	1/4	
-Move Method	edu.stanford.nlp.simple.SentenceAlgorithms::unescapeHTML():void	edu.stanford.nlp.simple.Sentence	1/4	
-Move Method	edu.stanford.nlp.tagger.maxent.TaggerExperiments::initTemplatesNew():void	edu.stanford.nlp.tagger.maxent.MaxentTagger	1/4	
-Move Method	edu.stanford.nlp.tagger.maxent.TestSentence::getExactHistories(edu.stanford.nlp.tagger.maxent.History, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>):double[]	edu.stanford.nlp.tagger.maxent.MaxentTagger	1/4	
-Move Method	edu.stanford.nlp.tagger.maxent.TestSentence::getApproximateHistories(java.lang.String[], edu.stanford.nlp.tagger.maxent.History, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>):double[]	edu.stanford.nlp.tagger.maxent.MaxentTagger	1/4	
-Move Method	edu.stanford.nlp.util.logging.RepeatedRecordHandler::flush(edu.stanford.nlp.util.logging.RepeatedRecordHandler.RepeatedRecordInfo, java.util.List<edu.stanford.nlp.util.logging.Redwood.Record>):void	edu.stanford.nlp.util.logging.RepeatedRecordHandler.RepeatedRecordInfo	1/4	
-Move Method	edu.stanford.nlp.fsm.FastExactAutomatonMinimizer::getInverseImages(edu.stanford.nlp.fsm.FastExactAutomatonMinimizer.Split):java.util.Collection	edu.stanford.nlp.fsm.FastExactAutomatonMinimizer.Split	1/3	
-Move Method	edu.stanford.nlp.ie.AbstractSequenceClassifier::countResults(java.util.List<IN>, edu.stanford.nlp.stats.Counter<java.lang.String>, edu.stanford.nlp.stats.Counter<java.lang.String>, edu.stanford.nlp.stats.Counter<java.lang.String>):boolean	edu.stanford.nlp.sequences.SeqClassifierFlags	1/3	
-Move Method	edu.stanford.nlp.international.spanish.process.SpanishTokenizer::processContraction(edu.stanford.nlp.ling.CoreLabel):edu.stanford.nlp.ling.CoreLabel	edu.stanford.nlp.ling.CoreLabel	1/3	
-Move Method	edu.stanford.nlp.parser.dvparser.DVParserCostAndGradient::concatenateContextWords(org.ejml.simple.SimpleMatrix, edu.stanford.nlp.util.IntPair, java.util.List<java.lang.String>):org.ejml.simple.SimpleMatrix	edu.stanford.nlp.parser.dvparser.DVModel	1/3	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getLeftLabelSet(int):java.lang.String	edu.stanford.nlp.parser.nndep.DependencyTree	1/3	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getRightLabelSet(int):java.lang.String	edu.stanford.nlp.parser.nndep.DependencyTree	1/3	
-Move Method	edu.stanford.nlp.patterns.dep.ApplyDepPatterns::matchedRestriction(edu.stanford.nlp.ling.CoreLabel, java.lang.String):boolean	edu.stanford.nlp.patterns.ConstantsAndVariables	1/3	
-Move Method	edu.stanford.nlp.process.Morphology::stem(java.lang.String):java.lang.String	edu.stanford.nlp.process.Morpha	1/3	
-Move Method	edu.stanford.nlp.sequences.CoNLLDocumentReaderAndWriter::deEndify(java.util.List<edu.stanford.nlp.ling.CoreLabel>):void	edu.stanford.nlp.sequences.SeqClassifierFlags	1/3	
-Move Method	edu.stanford.nlp.simple.Sentence::updateDependencies(edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph, edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph, edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph):void	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence.Builder	1/3	
-Move Method	edu.stanford.nlp.simple.SentenceAlgorithms::headOfSpan(edu.stanford.nlp.ie.machinereading.structure.Span):int	edu.stanford.nlp.ie.machinereading.structure.Span	1/3	
-Move Method	edu.stanford.nlp.tagger.maxent.PairsHolder::getWord(edu.stanford.nlp.tagger.maxent.History, int):java.lang.String	edu.stanford.nlp.tagger.maxent.History	1/3	
-Move Method	edu.stanford.nlp.tagger.maxent.PairsHolder::getTag(edu.stanford.nlp.tagger.maxent.History, int):java.lang.String	edu.stanford.nlp.tagger.maxent.History	1/3	
-Move Method	edu.stanford.nlp.coref.data.Mention::isDemonym(edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.Dictionaries):boolean	edu.stanford.nlp.coref.data.Dictionaries	1/2	
-Move Method	edu.stanford.nlp.coref.hybrid.sieve.DeterministicCorefSieve::getOrderedAntecedents(int, int, java.util.List<edu.stanford.nlp.coref.data.Mention>, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Mention, int, java.util.Map<java.lang.Integer,edu.stanford.nlp.coref.data.CorefCluster>, edu.stanford.nlp.coref.data.Dictionaries):java.util.List<edu.stanford.nlp.coref.data.Mention>	edu.stanford.nlp.coref.data.Mention	1/2	
-Move Method	edu.stanford.nlp.coref.neural.EmbeddingExtractor::getAverageEmbedding(java.util.List<edu.stanford.nlp.ling.CoreLabel>):org.ejml.simple.SimpleMatrix	edu.stanford.nlp.neural.Embedding	1/2	
-Move Method	edu.stanford.nlp.coref.statistical.Clusterer::writeModel(java.lang.String, java.lang.String):void	edu.stanford.nlp.coref.statistical.SimpleLinearClassifier	1/2	
-Move Method	edu.stanford.nlp.coref.statistical.Compressor::uncompress(edu.stanford.nlp.coref.statistical.CompressedFeatureVector):edu.stanford.nlp.stats.Counter<K>	edu.stanford.nlp.coref.statistical.CompressedFeatureVector	1/2	
-Move Method	edu.stanford.nlp.dcoref.Mention::isDemonym(edu.stanford.nlp.dcoref.Mention, edu.stanford.nlp.dcoref.Dictionaries):boolean	edu.stanford.nlp.dcoref.Dictionaries	1/2	
-Move Method	edu.stanford.nlp.dcoref.MentionExtractor::findTreePattern(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.trees.tregex.TregexPattern, java.util.Set<edu.stanford.nlp.util.Pair<java.lang.Integer,java.lang.Integer>>):void	edu.stanford.nlp.trees.tregex.TregexPattern	1/2	
-Move Method	edu.stanford.nlp.dcoref.sievepasses.DeterministicCorefSieve::getOrderedAntecedents(int, int, java.util.List<edu.stanford.nlp.dcoref.Mention>, java.util.List<java.util.List<edu.stanford.nlp.dcoref.Mention>>, edu.stanford.nlp.dcoref.Mention, int, java.util.Map<java.lang.Integer,edu.stanford.nlp.dcoref.CorefCluster>, edu.stanford.nlp.dcoref.Dictionaries):java.util.List<edu.stanford.nlp.dcoref.Mention>	edu.stanford.nlp.dcoref.Mention	1/2	
-Move Method	edu.stanford.nlp.ie.AbstractSequenceClassifier::writeAnswers(java.util.List<IN>, java.io.PrintWriter, edu.stanford.nlp.sequences.DocumentReaderAndWriter<IN>):void	edu.stanford.nlp.sequences.SeqClassifierFlags	1/2	
-Move Method	edu.stanford.nlp.international.spanish.pipeline.AnCoraProcessor.LeftOfFilter::getRightmostDescendant(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.international.spanish.pipeline.AnCoraProcessor.RightOfExclusiveFilter::getLeftmostDescendant(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.parser.lexparser.CollinsPuncTransformer::isPunc(edu.stanford.nlp.trees.Tree):boolean	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.parser.lexparser.CollinsPuncTransformer::transformRoot(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.trees.TreeFactory):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getLeftChild(int, int):int	edu.stanford.nlp.parser.nndep.DependencyTree	1/2	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getRightChild(int, int):int	edu.stanford.nlp.parser.nndep.DependencyTree	1/2	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::hasOtherChild(int, edu.stanford.nlp.parser.nndep.DependencyTree):boolean	edu.stanford.nlp.parser.nndep.DependencyTree	1/2	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getLeftValency(int):int	edu.stanford.nlp.parser.nndep.DependencyTree	1/2	
-Move Method	edu.stanford.nlp.parser.nndep.Configuration::getRightValency(int):int	edu.stanford.nlp.parser.nndep.DependencyTree	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::removeOverLappingLabels(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>):void	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::enforceMinSupportRequirements(edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>):java.util.Set<E>	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::writeMatchedTokensAndSents(java.lang.String, java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.lang.String, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>):void	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::writeLabelDataSents(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.io.BufferedWriter):void	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::evaluate(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, boolean):void	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::getNonBackgroundLabels(edu.stanford.nlp.ling.CoreLabel):java.util.Set<java.lang.String>	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.patterns.PhraseScorer::wordShape(java.lang.String):java.lang.String	edu.stanford.nlp.patterns.ConstantsAndVariables	1/2	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::loadSentenceMentions(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence, edu.stanford.nlp.util.CoreMap):void	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence	1/2	
-Move Method	edu.stanford.nlp.process.Morphology::lemmatize(edu.stanford.nlp.ling.WordTag):edu.stanford.nlp.ling.WordLemmaTag	edu.stanford.nlp.ling.WordTag	1/2	
-Move Method	edu.stanford.nlp.semgraph.semgrex.ssurgeon.pred.SsurgTestManager::registerNodeTest(edu.stanford.nlp.semgraph.semgrex.ssurgeon.pred.NodeTest):void	edu.stanford.nlp.semgraph.semgrex.ssurgeon.pred.NodeTest	1/2	
-Move Method	edu.stanford.nlp.sentiment.SentimentModel::basicCategory(java.lang.String):java.lang.String	edu.stanford.nlp.sentiment.RNNOptions	1/2	
-Move Method	edu.stanford.nlp.sequences.ObjectBankWrapper::fixDocLengths(java.util.List<java.util.List<IN>>):void	edu.stanford.nlp.sequences.SeqClassifierFlags	1/2	
-Move Method	edu.stanford.nlp.simple.Document::docid():java.util.Optional<java.lang.String>	edu.stanford.nlp.pipeline.CoreNLPProtos.Document.Builder	1/2	
-Move Method	edu.stanford.nlp.simple.Sentence::updateParse(edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree, edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree):void	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence.Builder	1/2	
-Move Method	edu.stanford.nlp.simple.Sentence::sentenceid():java.util.Optional<java.lang.String>	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence.Builder	1/2	
-Move Method	edu.stanford.nlp.simple.SentenceAlgorithms::dependencyPathBetween(int, int, java.util.function.Function<edu.stanford.nlp.simple.Sentence,java.util.List<java.lang.String>>):java.util.List<java.lang.String>	edu.stanford.nlp.simple.Sentence	1/2	
-Move Method	edu.stanford.nlp.stats.MultiClassChunkEvalStats::getTypeLabel(edu.stanford.nlp.pipeline.LabeledChunkIdentifier.LabelTagType):java.lang.String	edu.stanford.nlp.pipeline.LabeledChunkIdentifier.LabelTagType	1/2	
-Move Method	edu.stanford.nlp.tagger.maxent.TemplateHash::addPositions(int, int, edu.stanford.nlp.tagger.maxent.FeatureKey):void	edu.stanford.nlp.tagger.maxent.FeatureKey	1/2	
-Move Method	edu.stanford.nlp.tagger.maxent.TemplateHash::getPositions(edu.stanford.nlp.tagger.maxent.FeatureKey):int[]	edu.stanford.nlp.tagger.maxent.FeatureKey	1/2	
-Move Method	edu.stanford.nlp.time.SUTime.Range::beginTime():edu.stanford.nlp.time.SUTime.Time	edu.stanford.nlp.time.SUTime.Temporal	1/2	
-Move Method	edu.stanford.nlp.trees.SemanticHeadFinder::shouldSkip(edu.stanford.nlp.trees.Tree, boolean):boolean	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.trees.Tree::getNodeNumberHelper(edu.stanford.nlp.util.MutableInteger, int):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.util.MutableInteger	1/2	
-Move Method	edu.stanford.nlp.trees.UniversalSemanticHeadFinder::shouldSkip(edu.stanford.nlp.trees.Tree, boolean):boolean	edu.stanford.nlp.trees.Tree	1/2	
-Move Method	edu.stanford.nlp.wordseg.Gale2007ChineseSegmenterFeatureFactory::dictionaryFeaturesCpC(java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.String, java.util.Collection<java.lang.String>, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel):void	edu.stanford.nlp.ling.CoreLabel	1/2	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProtoNoTokens(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence):edu.stanford.nlp.util.CoreMap	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence	2/22	
-Move Method	edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer::fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence):edu.stanford.nlp.util.CoreMap	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence	2/19	
-Move Method	edu.stanford.nlp.classify.ColumnDataClassifier::makeClassifier(edu.stanford.nlp.classify.GeneralDataset<java.lang.String,java.lang.String>):edu.stanford.nlp.classify.Classifier<java.lang.String,java.lang.String>	edu.stanford.nlp.classify.ColumnDataClassifier.Flags	2/17	
-Move Method	edu.stanford.nlp.classify.ColumnDataClassifier::makeClassifierAdaptL1(edu.stanford.nlp.classify.GeneralDataset<java.lang.String,java.lang.String>):edu.stanford.nlp.classify.Classifier<java.lang.String,java.lang.String>	edu.stanford.nlp.classify.ColumnDataClassifier.Flags	2/12	
-Move Method	edu.stanford.nlp.classify.ColumnDataClassifier::makeNGramFeatures(java.lang.String, edu.stanford.nlp.classify.ColumnDataClassifier.Flags, boolean, java.lang.String):java.util.Collection<java.lang.String>	edu.stanford.nlp.classify.ColumnDataClassifier.Flags	2/10	
-Move Method	edu.stanford.nlp.sentiment.SentimentCostAndGradient::backpropDerivativesAndError(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,org.ejml.simple.SimpleMatrix>, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,org.ejml.simple.SimpleMatrix>, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,edu.stanford.nlp.neural.SimpleTensor>, java.util.Map<java.lang.String,org.ejml.simple.SimpleMatrix>, java.util.Map<java.lang.String,org.ejml.simple.SimpleMatrix>, org.ejml.simple.SimpleMatrix):void	edu.stanford.nlp.sentiment.SentimentModel	2/8	
-Move Method	edu.stanford.nlp.naturalli.ClauseSplitterSearchProblem::simpleClause(edu.stanford.nlp.semgraph.SemanticGraph, edu.stanford.nlp.semgraph.SemanticGraphEdge):void	edu.stanford.nlp.semgraph.SemanticGraph	2/6	
-Move Method	edu.stanford.nlp.parser.lexparser.NodePruner::prune(edu.stanford.nlp.trees.Tree, int):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.trees.Tree	2/6	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::labelWords(java.lang.String, java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.util.Collection<edu.stanford.nlp.patterns.CandidatePhrase>, java.lang.String, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>):void	edu.stanford.nlp.patterns.ConstantsAndVariables	2/6	
-Move Method	edu.stanford.nlp.sentiment.SentimentCostAndGradient::forwardPropagateTree(edu.stanford.nlp.trees.Tree):void	edu.stanford.nlp.sentiment.SentimentModel	2/6	
-Move Method	edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.DocumentIterator::annotateDocument(edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument):void	edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument	2/5	
-Move Method	edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.DocumentIterator::annotateDocument(edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.Document):void	edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.Document	2/5	
-Move Method	edu.stanford.nlp.dcoref.Mention::getRelation():java.lang.String	edu.stanford.nlp.semgraph.SemanticGraph	2/5	
-Move Method	edu.stanford.nlp.dcoref.Mention::getModal(edu.stanford.nlp.dcoref.Dictionaries):int	edu.stanford.nlp.semgraph.SemanticGraph	2/5	
-Move Method	edu.stanford.nlp.maxent.iis.LambdaSolve::GSFPrime(double, edu.stanford.nlp.maxent.Feature):double	edu.stanford.nlp.maxent.Feature	2/5	
-Move Method	edu.stanford.nlp.optimization.StochasticDiffFunctionTester::getVariance(double[], int):double[]	edu.stanford.nlp.optimization.AbstractStochasticCachingDiffFunction	2/5	
-Move Method	edu.stanford.nlp.trees.ud.CoNLLUDocumentWriter::printSemanticGraph(edu.stanford.nlp.semgraph.SemanticGraph, boolean):java.lang.String	edu.stanford.nlp.semgraph.SemanticGraph	2/5	
-Move Method	edu.stanford.nlp.dcoref.Mention::getNegation(edu.stanford.nlp.dcoref.Dictionaries):int	edu.stanford.nlp.semgraph.SemanticGraph	2/4	
-Move Method	edu.stanford.nlp.dcoref.Mention::getReportEmbedding(edu.stanford.nlp.dcoref.Dictionaries):int	edu.stanford.nlp.semgraph.SemanticGraph	2/4	
-Move Method	edu.stanford.nlp.ie.machinereading.domains.roth.RothCONLL04Reader::setHeadWord(edu.stanford.nlp.ie.machinereading.structure.EntityMention, edu.stanford.nlp.trees.Tree):void	edu.stanford.nlp.ie.machinereading.structure.EntityMention	2/4	
-Move Method	edu.stanford.nlp.maxent.iis.LambdaSolve::fExpected(edu.stanford.nlp.maxent.Feature):double	edu.stanford.nlp.maxent.Feature	2/4	
-Move Method	edu.stanford.nlp.parser.lexparser.SplittingGrammarExtractor::mergeTransitions(edu.stanford.nlp.trees.Tree, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][][]>, double[], java.util.Map<java.lang.String,int[]>):void	edu.stanford.nlp.trees.Tree	2/4	
-Move Method	edu.stanford.nlp.parser.nndep.DependencyParser::parseTextFile(java.io.BufferedReader, java.io.PrintWriter):void	edu.stanford.nlp.parser.nndep.Config	2/4	
-Move Method	edu.stanford.nlp.tagger.maxent.MaxentTagger::tagFromXML():void	edu.stanford.nlp.tagger.maxent.TaggerConfig	2/4	
-Move Method	edu.stanford.nlp.classify.ColumnDataClassifier::writeAnswer(java.lang.String[], java.lang.String, edu.stanford.nlp.stats.Distribution<java.lang.String>):void	edu.stanford.nlp.classify.ColumnDataClassifier.Flags	2/3	
-Move Method	edu.stanford.nlp.coref.md.CorefMentionFinder::removeSpuriousMentionsZh(edu.stanford.nlp.pipeline.Annotation, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Dictionaries, boolean):void	edu.stanford.nlp.coref.data.Dictionaries	2/3	
-Move Method	edu.stanford.nlp.international.spanish.SpanishVerbStripper::normalizeStrippedVerb(edu.stanford.nlp.international.spanish.SpanishVerbStripper.StrippedVerb):boolean	edu.stanford.nlp.international.spanish.SpanishVerbStripper.StrippedVerb	2/3	
-Move Method	edu.stanford.nlp.loglinear.model.ConcatVectorNamespace::debugVector(edu.stanford.nlp.loglinear.model.ConcatVector, java.io.BufferedWriter):void	edu.stanford.nlp.loglinear.model.ConcatVector	2/3	
-Move Method	edu.stanford.nlp.maxent.iis.LambdaSolve::save_problem(java.lang.String):void	edu.stanford.nlp.maxent.Problem	2/3	
-Move Method	edu.stanford.nlp.parser.lexparser.ExhaustivePCFGParser::scoreNonBinarizedTree(edu.stanford.nlp.trees.Tree):edu.stanford.nlp.trees.Tree	edu.stanford.nlp.parser.lexparser.Options	2/3	
-Move Method	edu.stanford.nlp.parser.lexparser.SplittingGrammarExtractor::recurseOutside(edu.stanford.nlp.trees.Tree, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[]>):void	edu.stanford.nlp.trees.Tree	2/3	
-Move Method	edu.stanford.nlp.parser.shiftreduce.ReorderingOracle::reorder(edu.stanford.nlp.parser.shiftreduce.State, edu.stanford.nlp.parser.shiftreduce.Transition, java.util.List<edu.stanford.nlp.parser.shiftreduce.Transition>):boolean	edu.stanford.nlp.parser.shiftreduce.State	2/3	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::readSavedPatternsAndIndex():void	edu.stanford.nlp.patterns.ConstantsAndVariables	2/3	
-Move Method	edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass::calculateSufficientStats(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, edu.stanford.nlp.patterns.surface.PatternsForEachToken, java.lang.String, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, java.util.Set<java.lang.String>):void	edu.stanford.nlp.patterns.ConstantsAndVariables	2/3	
-Move Method	edu.stanford.nlp.patterns.ScorePhrases::chooseTopWords(edu.stanford.nlp.stats.Counter<edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>, edu.stanford.nlp.stats.Counter<edu.stanford.nlp.patterns.CandidatePhrase>, java.util.Set<edu.stanford.nlp.patterns.CandidatePhrase>, double):edu.stanford.nlp.stats.Counter<edu.stanford.nlp.patterns.CandidatePhrase>	edu.stanford.nlp.patterns.ConstantsAndVariables	2/3	
-Move Method	edu.stanford.nlp.simple.Document::serialize():edu.stanford.nlp.pipeline.CoreNLPProtos.Document	edu.stanford.nlp.pipeline.CoreNLPProtos.Document.Builder	2/3	
-Move Method	edu.stanford.nlp.simple.Sentence::serialize():edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence	edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence.Builder	2/3	
-Move Method	edu.stanford.nlp.time.TimeExpressionExtractorImpl::resolveTimeExpression(edu.stanford.nlp.util.CoreMap, edu.stanford.nlp.time.TimeExpression, edu.stanford.nlp.time.SUTime.Time):void	edu.stanford.nlp.time.TimeExpression	2/3	
-Move Method	edu.stanford.nlp.time.suservlet.SUTimeServlet::addResults(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse):void	edu.stanford.nlp.time.suservlet.SUTimePipeline	2/3	
-Move Method	edu.stanford.nlp.trees.tregex.DescriptionPattern.DescriptionMatcher::removeNamedNodes():void	edu.stanford.nlp.trees.tregex.DescriptionPattern	2/3	
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProtoNoTokens(edu.stanford.nlp.pipeline.CoreNLPProtos.Mention);Mention
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Entity, edu.stanford.nlp.util.CoreMap);Entity
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Relation, edu.stanford.nlp.util.CoreMap);Relation
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Timex);Timex
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProto(edu.stanford.nlp.ie.machinereading.structure.EntityMention);EntityMention
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProto(edu.stanford.nlp.time.Timex);Timex
+edu.stanford.nlp.parser.nndep.ArcStandard.canReach(edu.stanford.nlp.parser.nndep.Configuration, edu.stanford.nlp.parser.nndep.DependencyTree);Configuration
+edu.stanford.nlp.coref.neural.CategoricalFeatureExtractor.getMentionFeatures(edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.Document, java.util.Map<java.lang.Integer,java.util.List<edu.stanford.nlp.coref.data.Mention>>);Mention
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain, edu.stanford.nlp.pipeline.Annotation);CorefChain
+edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.makeDocInfo(edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument);CoNLLDocument
+edu.stanford.nlp.ling.tokensregex.ComplexNodePattern.populate(edu.stanford.nlp.ling.tokensregex.Env, java.util.Map<java.lang.String,java.lang.String>, java.util.function.Function<edu.stanford.nlp.util.Pair<edu.stanford.nlp.ling.tokensregex.Env,java.lang.String>,K>);Env
+edu.stanford.nlp.coref.md.DependencyCorefMentionFinder.getNPSpan(edu.stanford.nlp.ling.IndexedWord, edu.stanford.nlp.semgraph.SemanticGraph, java.util.List<edu.stanford.nlp.ling.CoreLabel>);SemanticGraph
+edu.stanford.nlp.parser.lexparser.BinaryHeadFinder.determineBinaryHead(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProto(edu.stanford.nlp.coref.data.CorefChain);CorefChain
+edu.stanford.nlp.coref.md.CorefMentionFinder.removeSpuriousMentionsEn(edu.stanford.nlp.pipeline.Annotation, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Dictionaries);Dictionaries
+edu.stanford.nlp.coref.md.DependencyCorefMentionFinder.getNPSpanOld(edu.stanford.nlp.ling.IndexedWord, edu.stanford.nlp.semgraph.SemanticGraph, java.util.List<edu.stanford.nlp.ling.CoreLabel>);SemanticGraph
+edu.stanford.nlp.naturalli.RelationTripleSegmenter.getValidChunk(edu.stanford.nlp.semgraph.SemanticGraph, edu.stanford.nlp.ling.IndexedWord, java.util.Set<java.lang.String>, java.util.Optional<java.lang.String>, boolean);SemanticGraph
+edu.stanford.nlp.parser.lexparser.HTKLatticeReader.getProb(edu.stanford.nlp.parser.lexparser.HTKLatticeReader.LatticeWord);LatticeWord
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProto(edu.stanford.nlp.coref.data.SpeakerInfo);SpeakerInfo
+edu.stanford.nlp.tagger.maxent.Extractor.extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder);History
+edu.stanford.nlp.tagger.maxent.Extractor.extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder);PairsHolder
+edu.stanford.nlp.tagger.maxent.Extractor.extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder, int);History
+edu.stanford.nlp.tagger.maxent.Extractor.extractLV(edu.stanford.nlp.tagger.maxent.History, edu.stanford.nlp.tagger.maxent.PairsHolder, int);PairsHolder
+edu.stanford.nlp.fsm.QuasiDeterminizer.pushLambdas(edu.stanford.nlp.fsm.TransducerGraph, edu.stanford.nlp.stats.ClassicCounter);ClassicCounter
+edu.stanford.nlp.international.french.pipeline.FTBDataset.getCanditoTreeID(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.ling.tokensregex.SequenceMatchRules.AnnotationExtractRuleCreator.create(edu.stanford.nlp.ling.tokensregex.Env);Env
+edu.stanford.nlp.patterns.ScorePhrases.statsWithoutApplyingPatterns(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, edu.stanford.nlp.patterns.surface.PatternsForEachToken, edu.stanford.nlp.stats.Counter<E>, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>);PatternsForEachToken
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.SpeakerInfo);SpeakerInfo
+edu.stanford.nlp.trees.RecursiveTreeTransformer.transformLabel(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Token);Token
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.NERMention);NERMention
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProtoBuilder(edu.stanford.nlp.ling.CoreLabel, java.util.Set<java.lang.Class<?>>);CoreLabel
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree);ParseTree
+edu.stanford.nlp.patterns.ScorePhrases.runParallelApplyPats(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.lang.String, E, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>, java.util.Set<edu.stanford.nlp.patterns.CandidatePhrase>);ConstantsAndVariables
+edu.stanford.nlp.pipeline.StanfordCoreNLPClient.shutdown();BackendScheduler
+edu.stanford.nlp.coref.hybrid.sieve.DeterministicCorefSieve.skipThisMention(edu.stanford.nlp.coref.data.Document, edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.CorefCluster, edu.stanford.nlp.coref.data.Dictionaries);DcorefSieveOptions
+edu.stanford.nlp.dcoref.sievepasses.DeterministicCorefSieve.skipThisMention(edu.stanford.nlp.dcoref.Document, edu.stanford.nlp.dcoref.Mention, edu.stanford.nlp.dcoref.CorefCluster, edu.stanford.nlp.dcoref.Dictionaries);SieveOptions
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.toProto(edu.stanford.nlp.ie.machinereading.structure.RelationMention);RelationMention
+edu.stanford.nlp.ie.machinereading.domains.ace.AceReader.convertAceEventMention(edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEventMention, java.lang.String, edu.stanford.nlp.util.CoreMap, java.util.Map<java.lang.String,edu.stanford.nlp.ie.machinereading.structure.EntityMention>, int);AceEventMention
+edu.stanford.nlp.ie.machinereading.domains.ace.AceReader.convertAceEntityMention(edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceEntityMention, java.lang.String, edu.stanford.nlp.util.CoreMap, int);AceEntityMention
+edu.stanford.nlp.optimization.QNMinimizer.computeDir(double[], double[], double[], edu.stanford.nlp.optimization.QNMinimizer.QNInfo, edu.stanford.nlp.optimization.Function, java.lang.StringBuilder);QNInfo
+edu.stanford.nlp.simple.Document.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.CorefChain);CorefChain
+edu.stanford.nlp.dcoref.SieveCoreferenceSystem.printTopK(java.util.logging.Logger, edu.stanford.nlp.dcoref.Document, edu.stanford.nlp.dcoref.Semantics);Document
+edu.stanford.nlp.ie.machinereading.domains.ace.reader.AceToken.adjustPhrasePositions(int, java.lang.String);SimpleConstituent
+edu.stanford.nlp.loglinear.benchmarks.CoNLLBenchmark.generateSentenceModel(edu.stanford.nlp.loglinear.model.ConcatVectorNamespace, edu.stanford.nlp.loglinear.benchmarks.CoNLLBenchmark.CoNLLSentence, java.util.List<java.lang.String>);CoNLLSentence
+edu.stanford.nlp.neural.rnn.TopNGramRecord.simplifyTree(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.simple.SentenceAlgorithms.keyphraseSpans();Sentence
+edu.stanford.nlp.simple.SentenceAlgorithms.unescapeHTML();Sentence
+edu.stanford.nlp.tagger.maxent.TaggerExperiments.initTemplatesNew();MaxentTagger
+edu.stanford.nlp.tagger.maxent.TestSentence.getExactHistories(edu.stanford.nlp.tagger.maxent.History, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>);MaxentTagger
+edu.stanford.nlp.tagger.maxent.TestSentence.getApproximateHistories(java.lang.String[], edu.stanford.nlp.tagger.maxent.History, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>, java.util.List<edu.stanford.nlp.util.Pair<java.lang.Integer,edu.stanford.nlp.tagger.maxent.Extractor>>);MaxentTagger
+edu.stanford.nlp.util.logging.RepeatedRecordHandler.flush(edu.stanford.nlp.util.logging.RepeatedRecordHandler.RepeatedRecordInfo, java.util.List<edu.stanford.nlp.util.logging.Redwood.Record>);RepeatedRecordInfo
+edu.stanford.nlp.fsm.FastExactAutomatonMinimizer.getInverseImages(edu.stanford.nlp.fsm.FastExactAutomatonMinimizer.Split);Split
+edu.stanford.nlp.ie.AbstractSequenceClassifier.countResults(java.util.List<IN>, edu.stanford.nlp.stats.Counter<java.lang.String>, edu.stanford.nlp.stats.Counter<java.lang.String>, edu.stanford.nlp.stats.Counter<java.lang.String>);SeqClassifierFlags
+edu.stanford.nlp.international.spanish.process.SpanishTokenizer.processContraction(edu.stanford.nlp.ling.CoreLabel);CoreLabel
+edu.stanford.nlp.parser.dvparser.DVParserCostAndGradient.concatenateContextWords(org.ejml.simple.SimpleMatrix, edu.stanford.nlp.util.IntPair, java.util.List<java.lang.String>);DVModel
+edu.stanford.nlp.parser.nndep.Configuration.getLeftLabelSet(int);DependencyTree
+edu.stanford.nlp.parser.nndep.Configuration.getRightLabelSet(int);DependencyTree
+edu.stanford.nlp.patterns.dep.ApplyDepPatterns.matchedRestriction(edu.stanford.nlp.ling.CoreLabel, java.lang.String);ConstantsAndVariables
+edu.stanford.nlp.process.Morphology.stem(java.lang.String);Morpha
+edu.stanford.nlp.sequences.CoNLLDocumentReaderAndWriter.deEndify(java.util.List<edu.stanford.nlp.ling.CoreLabel>);SeqClassifierFlags
+edu.stanford.nlp.simple.Sentence.updateDependencies(edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph, edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph, edu.stanford.nlp.pipeline.CoreNLPProtos.DependencyGraph);Builder
+edu.stanford.nlp.simple.SentenceAlgorithms.headOfSpan(edu.stanford.nlp.ie.machinereading.structure.Span);Span
+edu.stanford.nlp.tagger.maxent.PairsHolder.getWord(edu.stanford.nlp.tagger.maxent.History, int);History
+edu.stanford.nlp.tagger.maxent.PairsHolder.getTag(edu.stanford.nlp.tagger.maxent.History, int);History
+edu.stanford.nlp.coref.data.Mention.isDemonym(edu.stanford.nlp.coref.data.Mention, edu.stanford.nlp.coref.data.Dictionaries);Dictionaries
+edu.stanford.nlp.coref.hybrid.sieve.DeterministicCorefSieve.getOrderedAntecedents(int, int, java.util.List<edu.stanford.nlp.coref.data.Mention>, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Mention, int, java.util.Map<java.lang.Integer,edu.stanford.nlp.coref.data.CorefCluster>, edu.stanford.nlp.coref.data.Dictionaries);Mention
+edu.stanford.nlp.coref.neural.EmbeddingExtractor.getAverageEmbedding(java.util.List<edu.stanford.nlp.ling.CoreLabel>);Embedding
+edu.stanford.nlp.coref.statistical.Clusterer.writeModel(java.lang.String, java.lang.String);SimpleLinearClassifier
+edu.stanford.nlp.coref.statistical.Compressor.uncompress(edu.stanford.nlp.coref.statistical.CompressedFeatureVector);CompressedFeatureVector
+edu.stanford.nlp.dcoref.Mention.isDemonym(edu.stanford.nlp.dcoref.Mention, edu.stanford.nlp.dcoref.Dictionaries);Dictionaries
+edu.stanford.nlp.dcoref.MentionExtractor.findTreePattern(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.trees.tregex.TregexPattern, java.util.Set<edu.stanford.nlp.util.Pair<java.lang.Integer,java.lang.Integer>>);TregexPattern
+edu.stanford.nlp.dcoref.sievepasses.DeterministicCorefSieve.getOrderedAntecedents(int, int, java.util.List<edu.stanford.nlp.dcoref.Mention>, java.util.List<java.util.List<edu.stanford.nlp.dcoref.Mention>>, edu.stanford.nlp.dcoref.Mention, int, java.util.Map<java.lang.Integer,edu.stanford.nlp.dcoref.CorefCluster>, edu.stanford.nlp.dcoref.Dictionaries);Mention
+edu.stanford.nlp.ie.AbstractSequenceClassifier.writeAnswers(java.util.List<IN>, java.io.PrintWriter, edu.stanford.nlp.sequences.DocumentReaderAndWriter<IN>);SeqClassifierFlags
+edu.stanford.nlp.international.spanish.pipeline.AnCoraProcessor.LeftOfFilter.getRightmostDescendant(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.international.spanish.pipeline.AnCoraProcessor.RightOfExclusiveFilter.getLeftmostDescendant(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.parser.lexparser.CollinsPuncTransformer.isPunc(edu.stanford.nlp.trees.Tree);Tree
+edu.stanford.nlp.parser.lexparser.CollinsPuncTransformer.transformRoot(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.trees.TreeFactory);Tree
+edu.stanford.nlp.parser.nndep.Configuration.getLeftChild(int, int);DependencyTree
+edu.stanford.nlp.parser.nndep.Configuration.getRightChild(int, int);DependencyTree
+edu.stanford.nlp.parser.nndep.Configuration.hasOtherChild(int, edu.stanford.nlp.parser.nndep.DependencyTree);DependencyTree
+edu.stanford.nlp.parser.nndep.Configuration.getLeftValency(int);DependencyTree
+edu.stanford.nlp.parser.nndep.Configuration.getRightValency(int);DependencyTree
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.removeOverLappingLabels(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>);ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.enforceMinSupportRequirements(edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>);ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.writeMatchedTokensAndSents(java.lang.String, java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.lang.String, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>);ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.writeLabelDataSents(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.io.BufferedWriter);ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.evaluate(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, boolean);ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.getNonBackgroundLabels(edu.stanford.nlp.ling.CoreLabel);ConstantsAndVariables
+edu.stanford.nlp.patterns.PhraseScorer.wordShape(java.lang.String);ConstantsAndVariables
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.loadSentenceMentions(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence, edu.stanford.nlp.util.CoreMap);Sentence
+edu.stanford.nlp.process.Morphology.lemmatize(edu.stanford.nlp.ling.WordTag);WordTag
+edu.stanford.nlp.semgraph.semgrex.ssurgeon.pred.SsurgTestManager.registerNodeTest(edu.stanford.nlp.semgraph.semgrex.ssurgeon.pred.NodeTest);NodeTest
+edu.stanford.nlp.sentiment.SentimentModel.basicCategory(java.lang.String);RNNOptions
+edu.stanford.nlp.sequences.ObjectBankWrapper.fixDocLengths(java.util.List<java.util.List<IN>>);SeqClassifierFlags
+edu.stanford.nlp.simple.Document.docid();Builder
+edu.stanford.nlp.simple.Sentence.updateParse(edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree, edu.stanford.nlp.pipeline.CoreNLPProtos.ParseTree);Builder
+edu.stanford.nlp.simple.Sentence.sentenceid();Builder
+edu.stanford.nlp.simple.SentenceAlgorithms.dependencyPathBetween(int, int, java.util.function.Function<edu.stanford.nlp.simple.Sentence,java.util.List<java.lang.String>>);Sentence
+edu.stanford.nlp.stats.MultiClassChunkEvalStats.getTypeLabel(edu.stanford.nlp.pipeline.LabeledChunkIdentifier.LabelTagType);LabelTagType
+edu.stanford.nlp.tagger.maxent.TemplateHash.addPositions(int, int, edu.stanford.nlp.tagger.maxent.FeatureKey);FeatureKey
+edu.stanford.nlp.tagger.maxent.TemplateHash.getPositions(edu.stanford.nlp.tagger.maxent.FeatureKey);FeatureKey
+edu.stanford.nlp.time.SUTime.Range.beginTime();Temporal
+edu.stanford.nlp.trees.SemanticHeadFinder.shouldSkip(edu.stanford.nlp.trees.Tree, boolean);Tree
+edu.stanford.nlp.trees.Tree.getNodeNumberHelper(edu.stanford.nlp.util.MutableInteger, int);MutableInteger
+edu.stanford.nlp.trees.UniversalSemanticHeadFinder.shouldSkip(edu.stanford.nlp.trees.Tree, boolean);Tree
+edu.stanford.nlp.wordseg.Gale2007ChineseSegmenterFeatureFactory.dictionaryFeaturesCpC(java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.Class<? extends edu.stanford.nlp.ling.CoreAnnotation<java.lang.String>>, java.lang.String, java.util.Collection<java.lang.String>, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel, edu.stanford.nlp.ling.CoreLabel);CoreLabel
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProtoNoTokens(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence);Sentence
+edu.stanford.nlp.pipeline.ProtobufAnnotationSerializer.fromProto(edu.stanford.nlp.pipeline.CoreNLPProtos.Sentence);Sentence
+edu.stanford.nlp.classify.ColumnDataClassifier.makeClassifier(edu.stanford.nlp.classify.GeneralDataset<java.lang.String,java.lang.String>);Flags
+edu.stanford.nlp.classify.ColumnDataClassifier.makeClassifierAdaptL1(edu.stanford.nlp.classify.GeneralDataset<java.lang.String,java.lang.String>);Flags
+edu.stanford.nlp.classify.ColumnDataClassifier.makeNGramFeatures(java.lang.String, edu.stanford.nlp.classify.ColumnDataClassifier.Flags, boolean, java.lang.String);Flags
+edu.stanford.nlp.sentiment.SentimentCostAndGradient.backpropDerivativesAndError(edu.stanford.nlp.trees.Tree, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,org.ejml.simple.SimpleMatrix>, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,org.ejml.simple.SimpleMatrix>, edu.stanford.nlp.util.TwoDimensionalMap<java.lang.String,java.lang.String,edu.stanford.nlp.neural.SimpleTensor>, java.util.Map<java.lang.String,org.ejml.simple.SimpleMatrix>, java.util.Map<java.lang.String,org.ejml.simple.SimpleMatrix>, org.ejml.simple.SimpleMatrix);SentimentModel
+edu.stanford.nlp.naturalli.ClauseSplitterSearchProblem.simpleClause(edu.stanford.nlp.semgraph.SemanticGraph, edu.stanford.nlp.semgraph.SemanticGraphEdge);SemanticGraph
+edu.stanford.nlp.parser.lexparser.NodePruner.prune(edu.stanford.nlp.trees.Tree, int);Tree
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.labelWords(java.lang.String, java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, java.util.Collection<edu.stanford.nlp.patterns.CandidatePhrase>, java.lang.String, edu.stanford.nlp.util.CollectionValuedMap<E,edu.stanford.nlp.util.Triple<java.lang.String,java.lang.Integer,java.lang.Integer>>);ConstantsAndVariables
+edu.stanford.nlp.sentiment.SentimentCostAndGradient.forwardPropagateTree(edu.stanford.nlp.trees.Tree);SentimentModel
+edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.DocumentIterator.annotateDocument(edu.stanford.nlp.coref.docreader.CoNLLDocumentReader.CoNLLDocument);CoNLLDocument
+edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.DocumentIterator.annotateDocument(edu.stanford.nlp.dcoref.CoNLL2011DocumentReader.Document);Document
+edu.stanford.nlp.dcoref.Mention.getRelation();SemanticGraph
+edu.stanford.nlp.dcoref.Mention.getModal(edu.stanford.nlp.dcoref.Dictionaries);SemanticGraph
+edu.stanford.nlp.maxent.iis.LambdaSolve.GSFPrime(double, edu.stanford.nlp.maxent.Feature);Feature
+edu.stanford.nlp.optimization.StochasticDiffFunctionTester.getVariance(double[], int);AbstractStochasticCachingDiffFunction
+edu.stanford.nlp.trees.ud.CoNLLUDocumentWriter.printSemanticGraph(edu.stanford.nlp.semgraph.SemanticGraph, boolean);SemanticGraph
+edu.stanford.nlp.dcoref.Mention.getNegation(edu.stanford.nlp.dcoref.Dictionaries);SemanticGraph
+edu.stanford.nlp.dcoref.Mention.getReportEmbedding(edu.stanford.nlp.dcoref.Dictionaries);SemanticGraph
+edu.stanford.nlp.ie.machinereading.domains.roth.RothCONLL04Reader.setHeadWord(edu.stanford.nlp.ie.machinereading.structure.EntityMention, edu.stanford.nlp.trees.Tree);EntityMention
+edu.stanford.nlp.maxent.iis.LambdaSolve.fExpected(edu.stanford.nlp.maxent.Feature);Feature
+edu.stanford.nlp.parser.lexparser.SplittingGrammarExtractor.mergeTransitions(edu.stanford.nlp.trees.Tree, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[][][]>, double[], java.util.Map<java.lang.String,int[]>);Tree
+edu.stanford.nlp.parser.nndep.DependencyParser.parseTextFile(java.io.BufferedReader, java.io.PrintWriter);Config
+edu.stanford.nlp.tagger.maxent.MaxentTagger.tagFromXML();TaggerConfig
+edu.stanford.nlp.classify.ColumnDataClassifier.writeAnswer(java.lang.String[], java.lang.String, edu.stanford.nlp.stats.Distribution<java.lang.String>);Flags
+edu.stanford.nlp.coref.md.CorefMentionFinder.removeSpuriousMentionsZh(edu.stanford.nlp.pipeline.Annotation, java.util.List<java.util.List<edu.stanford.nlp.coref.data.Mention>>, edu.stanford.nlp.coref.data.Dictionaries, boolean);Dictionaries
+edu.stanford.nlp.international.spanish.SpanishVerbStripper.normalizeStrippedVerb(edu.stanford.nlp.international.spanish.SpanishVerbStripper.StrippedVerb);StrippedVerb
+edu.stanford.nlp.loglinear.model.ConcatVectorNamespace.debugVector(edu.stanford.nlp.loglinear.model.ConcatVector, java.io.BufferedWriter);ConcatVector
+edu.stanford.nlp.maxent.iis.LambdaSolve.save_problem(java.lang.String);Problem
+edu.stanford.nlp.parser.lexparser.ExhaustivePCFGParser.scoreNonBinarizedTree(edu.stanford.nlp.trees.Tree);Options
+edu.stanford.nlp.parser.lexparser.SplittingGrammarExtractor.recurseOutside(edu.stanford.nlp.trees.Tree, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[]>, java.util.IdentityHashMap<edu.stanford.nlp.trees.Tree,double[]>);Tree
+edu.stanford.nlp.parser.shiftreduce.ReorderingOracle.reorder(edu.stanford.nlp.parser.shiftreduce.State, edu.stanford.nlp.parser.shiftreduce.Transition, java.util.List<edu.stanford.nlp.parser.shiftreduce.Transition>);State
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.readSavedPatternsAndIndex();ConstantsAndVariables
+edu.stanford.nlp.patterns.GetPatternsFromDataMultiClass.calculateSufficientStats(java.util.Map<java.lang.String,edu.stanford.nlp.patterns.DataInstance>, edu.stanford.nlp.patterns.surface.PatternsForEachToken, java.lang.String, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<E,edu.stanford.nlp.patterns.CandidatePhrase>, java.util.Set<java.lang.String>);ConstantsAndVariables
+edu.stanford.nlp.patterns.ScorePhrases.chooseTopWords(edu.stanford.nlp.stats.Counter<edu.stanford.nlp.patterns.CandidatePhrase>, edu.stanford.nlp.stats.TwoDimensionalCounter<edu.stanford.nlp.patterns.CandidatePhrase,E>, edu.stanford.nlp.stats.Counter<edu.stanford.nlp.patterns.CandidatePhrase>, java.util.Set<edu.stanford.nlp.patterns.CandidatePhrase>, double);ConstantsAndVariables
+edu.stanford.nlp.simple.Document.serialize();Builder
+edu.stanford.nlp.simple.Sentence.serialize();Builder
+edu.stanford.nlp.time.TimeExpressionExtractorImpl.resolveTimeExpression(edu.stanford.nlp.util.CoreMap, edu.stanford.nlp.time.TimeExpression, edu.stanford.nlp.time.SUTime.Time);TimeExpression
+edu.stanford.nlp.time.suservlet.SUTimeServlet.addResults(javax.servlet.http.HttpServletRequest, javax.servlet.http.HttpServletResponse);SUTimePipeline
+edu.stanford.nlp.trees.tregex.DescriptionPattern.DescriptionMatcher.removeNamedNodes();DescriptionPattern

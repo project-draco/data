@@ -1,0 +1,48 @@
+org.gradle.internal.classpath.DefaultClassPath.of(java.util.Collection);ClasspathUtil
+org.gradle.util.GUtil.serialize(java.lang.Object);StreamByteBuffer
+org.gradle.util.GUtil.serialize(java.lang.Object);StreamByteBuffer
+org.gradle.util.GUtil.serialize(java.lang.Object,java.io.OutputStream);StreamByteBuffer
+org.gradle.internal.ImmutableActionSet.of(org.gradle.api.Action[]);Actions
+org.gradle.internal.ImmutableActionSet.add(org.gradle.api.Action);Actions
+org.gradle.internal.ImmutableActionSet.unpackAction(org.gradle.api.Action, com.google.common.collect.ImmutableSet$Builder);Actions
+org.gradle.internal.ImmutableActionSet.doAdd(org.gradle.api.Action);Actions
+org.gradle.util.CollectionUtils.findFirst(java.lang.Iterable, org.gradle.api.specs.Spec);JavaReflectionUtil
+org.gradle.util.CollectionUtils.any(java.lang.Iterable, org.gradle.api.specs.Spec);JavaReflectionUtil
+org.gradle.internal.ImmutableActionSet.doAddAll(org.gradle.internal.ImmutableActionSet$CompositeSet);Actions
+org.gradle.internal.hash.HashUtil.compactStringFor(org.gradle.internal.hash.HashCode);HashCode
+org.gradle.internal.hash.HashUtil.compactStringFor(byte[]);HashCode
+org.gradle.internal.Factories.toFactory(java.lang.Runnable);ServiceLifecycle
+org.gradle.internal.reflect.JavaReflectionUtil.getWrapperTypeForPrimitiveType(java.lang.Class);DirectInstantiator
+org.gradle.internal.classloader.ClassLoaderUtils.disableUrlConnectionCaching();UncheckedException
+org.gradle.util.CollectionUtils.partition(java.lang.Iterable, org.gradle.api.specs.Spec);Pair
+org.gradle.api.reporting.dependents.internal.DependentComponentsUtils.getBuildScopedTerseName(org.gradle.api.artifacts.component.LibraryBinaryIdentifier);DependentComponentsRenderableDependency
+org.gradle.api.reporting.dependents.internal.DependentComponentsUtils.getBuildScopedTerseName(org.gradle.platform.base.internal.ComponentSpecIdentifier);DependentComponentsRenderableDependency
+org.gradle.api.reporting.dependents.internal.DependentComponentsUtils.getProjectPrefix(java.lang.String);DependentComponentsRenderableDependency
+org.gradle.api.java.archives.internal.DefaultManifestMergeDetails.isExcluded();DefaultManifestMergeSpec
+org.gradle.api.java.archives.internal.DefaultManifestMergeDetails.excluded;DefaultManifestMergeSpec
+org.gradle.api.tasks.ant.AntTarget.AntTarget();DefaultAntBuilder
+org.gradle.api.tasks.ant.AntTarget.dependsOn(java.lang.Object[]);DefaultAntBuilder
+org.gradle.api.tasks.ant.AntTarget.getProject();DefaultAntBuilder
+org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.enforceWithDependencies(org.gradle.execution.taskgraph.TaskInfo, java.util.Set);TaskInfo
+org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.enforceFinalizerTasks(org.gradle.execution.taskgraph.TaskInfo);TaskInfo
+org.gradle.internal.progress.BuildProgressLogger.beforeExecute();BuildProgressFilter
+org.gradle.internal.progress.BuildProgressLogger.beforeEvaluate(java.lang.String);BuildProgressFilter
+org.gradle.api.internal.initialization.ClassLoaderScopeIdentifier.localId();DefaultClassLoaderScope
+org.gradle.api.internal.initialization.ClassLoaderScopeIdentifier.exportId();DefaultClassLoaderScope
+org.gradle.api.internal.tasks.options.MethodOptionElement.create(org.gradle.api.internal.tasks.options.Option, java.lang.reflect.Method, org.gradle.api.internal.tasks.options.OptionValueNotationParserFactory);OptionReader
+org.gradle.api.internal.tasks.options.MethodOptionElement.calculateOptionType(java.lang.reflect.Method);OptionReader
+org.gradle.api.internal.tasks.NonCacheableTaskOutputPropertySpec.compareTo(java.lang.Object);CompositeTaskOutputPropertySpec
+org.gradle.api.internal.tasks.NonCacheableTaskOutputPropertySpec.compareTo(org.gradle.api.internal.tasks.TaskPropertySpec);CompositeTaskOutputPropertySpec
+org.gradle.api.internal.tasks.NonCacheableTaskOutputPropertySpec.withPropertyName(java.lang.String);CompositeTaskOutputPropertySpec
+org.gradle.api.tasks.bundling.Compression.ordinal();Tar
+org.gradle.execution.TaskNameResolver.tryFindUnqualifiedTaskCheaply(java.lang.String, org.gradle.api.internal.project.ProjectInternal);TaskSelector
+org.gradle.api.internal.file.ImmutablePatternSet.equals(java.lang.Object);ImmutableDirectoryTree
+org.gradle.api.internal.changedetection.state.InMemoryCacheDecoratorFactory.createInMemoryCache(java.lang.String, int);LoggingEvictionListener
+org.gradle.api.internal.plugins.DefaultPluginContainer.add(java.lang.Object);DefaultPluginManager
+org.gradle.process.internal.JvmOptions.bootstrapClasspath(java.lang.Object[]);DefaultConfigurableFileCollection
+org.gradle.api.tasks.bundling.ZipEntryCompression.ordinal();Zip
+org.gradle.api.internal.attributes.DefaultMutableAttributeContainer.toString();ImmutableAttributes
+org.gradle.api.internal.artifacts.ExcludeRuleNotationConverter.parser();DefaultExcludeRuleContainer
+org.gradle.api.internal.changedetection.state.InMemoryCacheDecoratorFactory.decorator(int, boolean);DefaultTaskOutputFilesRepository
+org.gradle.api.internal.file.ImmutablePatternSet.hashCode();ImmutableDirectoryTree
+org.gradle.util.ConfigureUtil.configureUsing(groovy.lang.Closure);MapFileTree

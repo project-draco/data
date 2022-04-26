@@ -1,58 +1,57 @@
-Refactoring Type	Source Entity	Target Class	Source/Target accessed members	Rate it!
-Move Method	org.opentripplanner.updater.alerts.AlertsUpdateHandler::createId(java.lang.String, com.google.transit.realtime.GtfsRealtime.EntitySelector):java.lang.String	com.google.transit.realtime.GtfsRealtime.EntitySelector	0/10	
-Move Method	org.opentripplanner.routing.edgetype.Timetable::adjustTimeForTransfer(org.opentripplanner.routing.core.State, org.onebusaway.gtfs.model.Stop, org.onebusaway.gtfs.model.Trip, boolean, org.opentripplanner.routing.core.ServiceDay, int):int	org.opentripplanner.routing.core.State	0/6	
-Move Method	org.opentripplanner.common.LuceneIndex::addCluster(org.apache.lucene.index.IndexWriter, org.opentripplanner.profile.StopCluster):void	org.opentripplanner.profile.StopCluster	0/4	
-Move Method	org.opentripplanner.routing.core.RoutingContext::makePartialEdgeAlong(org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.location.TemporaryStreetLocation, org.opentripplanner.routing.location.TemporaryStreetLocation):void	org.opentripplanner.routing.edgetype.StreetEdge	0/4	
-Move Method	org.opentripplanner.graph_builder.module.osm.WalkableAreaBuilder::toJTSPolygon(org.opentripplanner.visibility.VLPolygon):com.vividsolutions.jts.geom.Polygon	org.opentripplanner.visibility.VLPolygon	0/3	
-Move Method	org.opentripplanner.updater.stoptime.TimetableSnapshotSource::determineTripScheduleRelationship(com.google.transit.realtime.GtfsRealtime.TripUpdate):com.google.transit.realtime.GtfsRealtime.TripDescriptor.ScheduleRelationship	com.google.transit.realtime.GtfsRealtime.TripUpdate	0/3	
-Move Method	org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler::getCoordinate(org.opentripplanner.openstreetmap.model.OSMNode):com.vividsolutions.jts.geom.Coordinate	org.opentripplanner.openstreetmap.model.OSMNode	0/2	
-Move Method	org.opentripplanner.graph_builder.module.osm.Ring::toCoordinates(org.opentripplanner.visibility.VLPolygon):com.vividsolutions.jts.geom.Coordinate[]	org.opentripplanner.visibility.VLPolygon	0/2	
-Move Method	org.opentripplanner.routing.algorithm.AStar::isWorstTimeExceeded(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.RoutingRequest):boolean	org.opentripplanner.routing.core.RoutingRequest	0/2	
-Move Method	org.opentripplanner.routing.algorithm.EarliestArrivalSearch::isWorstTimeExceeded(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.RoutingRequest):boolean	org.opentripplanner.routing.core.RoutingRequest	0/2	
-Move Method	org.opentripplanner.routing.core.AbstractIntersectionTraversalCostModel::calculateTurnAngle(org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.core.RoutingRequest):int	org.opentripplanner.routing.edgetype.StreetEdge	0/2	
-Move Method	org.opentripplanner.updater.stoptime.TimetableSnapshotSource::isStopSkipped(com.google.transit.realtime.GtfsRealtime.TripUpdate.StopTimeUpdate):boolean	com.google.transit.realtime.GtfsRealtime.TripUpdate.StopTimeUpdate	0/2	
-Move Method	org.opentripplanner.visibility.VisibilityPolygon::is_spike(org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, double):boolean	org.opentripplanner.visibility.VLPoint	0/2	
-Move Method	org.opentripplanner.graph_builder.module.map.MatchState::getOutgoingMatchableEdges(org.opentripplanner.routing.graph.Vertex):java.util.List<org.opentripplanner.routing.graph.Edge>	org.opentripplanner.routing.graph.Vertex	0/1	
-Move Method	org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource::createNames(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, java.lang.String):void	org.opentripplanner.graph_builder.module.osm.WayPropertySet	0/1	
-Move Method	org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource::createNotes(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, java.lang.String, org.opentripplanner.routing.services.notes.NoteMatcher):void	org.opentripplanner.graph_builder.module.osm.WayPropertySet	0/1	
-Move Method	org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource::setProperties(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, org.opentripplanner.routing.edgetype.StreetTraversalPermission, double, double, boolean):void	org.opentripplanner.graph_builder.module.osm.WayPropertySet	0/1	
-Move Method	org.opentripplanner.graph_builder.module.osm.WayPropertySet::dumpTags(org.opentripplanner.openstreetmap.model.OSMWithTags):java.lang.String	org.opentripplanner.openstreetmap.model.OSMWithTags	0/1	
-Move Method	org.opentripplanner.openstreetmap.impl.OpenStreetMapParser::processTags(org.opentripplanner.openstreetmap.model.OSMWithTags, org.w3c.dom.Element):void	org.opentripplanner.openstreetmap.model.OSMWithTags	0/1	
-Move Method	org.opentripplanner.routing.spt.DominanceFunction::betterOrEqualAndComparable(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.State):boolean	org.opentripplanner.routing.core.State	1/8	
-Move Method	org.opentripplanner.graph_builder.module.osm.WalkableAreaBuilder::addtoVisibilityAndStartSets(java.util.Set<org.opentripplanner.openstreetmap.model.OSMNode>, java.util.ArrayList<org.opentripplanner.visibility.VLPoint>, java.util.ArrayList<org.opentripplanner.openstreetmap.model.OSMNode>, org.opentripplanner.openstreetmap.model.OSMNode):void	org.opentripplanner.openstreetmap.model.OSMNode	1/4	
-Move Method	org.opentripplanner.routing.core.StateEditor::weHaveWalkedTooFar(org.opentripplanner.routing.core.RoutingRequest):boolean	org.opentripplanner.routing.core.RoutingRequest	1/4	
-Move Method	org.opentripplanner.scripting.api.OtpsRoutingRequest::setMaxTimeSec(long):void	org.opentripplanner.routing.core.RoutingRequest	1/3	
-Move Method	org.opentripplanner.analyst.broker.Broker::workersAvailableForGraph(java.lang.String):boolean	org.opentripplanner.analyst.broker.WorkerCatalog	1/2	
-Move Method	org.opentripplanner.analyst.broker.Broker::activateJob(org.opentripplanner.analyst.broker.Job):void	org.opentripplanner.analyst.broker.Job	1/2	
-Move Method	org.opentripplanner.analyst.broker.Broker::deactivateJob(org.opentripplanner.analyst.broker.Job):void	org.opentripplanner.analyst.broker.Job	1/2	
-Move Method	org.opentripplanner.analyst.request.IsoChroneSPTRendererRecursiveGrid::computeInitialPoints(org.opentripplanner.routing.spt.ShortestPathTree):java.util.List<com.vividsolutions.jts.geom.Coordinate>	org.opentripplanner.routing.spt.ShortestPathTree	1/2	
-Move Method	org.opentripplanner.graph_builder.AnnotationsToHTML::addAnnotation(org.opentripplanner.graph_builder.annotation.GraphBuilderAnnotation):void	org.opentripplanner.graph_builder.annotation.GraphBuilderAnnotation	1/2	
-Move Method	org.opentripplanner.graph_builder.linking.SimpleStreetSplitter::makeTransitLinkEdges(org.opentripplanner.routing.vertextype.TransitStop, org.opentripplanner.routing.vertextype.StreetVertex):void	org.opentripplanner.routing.vertextype.TransitStop	1/2	
-Move Method	org.opentripplanner.graph_builder.module.map.MatchState::carsCanTraverse(org.opentripplanner.routing.graph.Edge):boolean	org.opentripplanner.routing.graph.Edge	1/2	
-Move Method	org.opentripplanner.graph_builder.module.ned.ElevationModule::assignMissingElevations(org.opentripplanner.routing.graph.Graph, java.util.List<org.opentripplanner.routing.edgetype.StreetEdge>, java.util.HashMap<org.opentripplanner.routing.graph.Vertex,java.lang.Double>):void	org.opentripplanner.routing.graph.Graph	1/2	
-Move Method	org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler::setWayName(org.opentripplanner.openstreetmap.model.OSMWithTags):void	org.opentripplanner.openstreetmap.model.OSMWithTags	1/2	
-Move Method	org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler::applyEdgesToTurnRestrictions(org.opentripplanner.openstreetmap.model.OSMWay, long, long, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge):void	org.opentripplanner.graph_builder.module.osm.OSMDatabase	1/2	
-Move Method	org.opentripplanner.profile.Ride::getSortedStoptimes(org.opentripplanner.profile.TimeWindow, boolean):gnu.trove.list.TIntList	org.opentripplanner.profile.TimeWindow	1/2	
-Move Method	org.opentripplanner.routing.alertpatch.AlertPatch::displayDuring(org.opentripplanner.routing.core.State):boolean	org.opentripplanner.routing.core.State	1/2	
-Move Method	org.opentripplanner.routing.algorithm.AStar::storeMemory():void	org.opentripplanner.util.monitoring.MonitoringStore	1/2	
-Move Method	org.opentripplanner.routing.core.AbstractIntersectionTraversalCostModel::computeNonDrivingTraversalCost(org.opentripplanner.routing.vertextype.IntersectionVertex, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge, float, float):double	org.opentripplanner.routing.edgetype.StreetEdge	1/2	
-Move Method	org.opentripplanner.routing.core.RoutingContext::overlappingStreetEdges(org.opentripplanner.routing.graph.Vertex, org.opentripplanner.routing.graph.Vertex):java.util.Set<org.opentripplanner.routing.edgetype.StreetEdge>	org.opentripplanner.routing.graph.Vertex	1/2	
-Move Method	org.opentripplanner.routing.edgetype.StreetEdge::canTurnOnto(org.opentripplanner.routing.graph.Edge, org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.TraverseMode):boolean	org.opentripplanner.routing.core.State	1/2	
-Move Method	org.opentripplanner.routing.edgetype.TripPattern::getResolvedTripTimes(int, org.opentripplanner.routing.core.State):org.opentripplanner.routing.trippattern.TripTimes	org.opentripplanner.routing.core.State	1/2	
-Move Method	org.opentripplanner.routing.edgetype.factory.TransferGraphLinker::run():void	org.opentripplanner.routing.graph.Graph	1/2	
-Move Method	org.opentripplanner.routing.impl.DefaultFareServiceImpl::populateFare(org.opentripplanner.routing.core.Fare, java.util.Currency, org.opentripplanner.routing.core.Fare.FareType, java.util.List<org.opentripplanner.routing.impl.Ride>, java.util.Collection<org.opentripplanner.routing.core.FareRuleSet>):boolean	org.opentripplanner.routing.core.Fare	1/2	
-Move Method	org.opentripplanner.routing.trippattern.TripTimes::tripAcceptable(org.opentripplanner.routing.core.State, int):boolean	org.opentripplanner.routing.core.State	1/2	
-Move Method	org.opentripplanner.updater.GtfsRealtimeFuzzyTripMatcher::getTrip(org.onebusaway.gtfs.model.Route, int, int, org.onebusaway.gtfs.model.calendar.ServiceDate):org.onebusaway.gtfs.model.Trip	org.opentripplanner.routing.graph.GraphIndex	1/2	
-Move Method	org.opentripplanner.updater.stoptime.TimetableSnapshotSource::getPatternForTripId(java.lang.String, java.lang.String):org.opentripplanner.routing.edgetype.TripPattern	org.opentripplanner.routing.graph.GraphIndex	1/2	
-Move Method	org.opentripplanner.visibility.VLPoint::projection_onto_vertices_of(org.opentripplanner.visibility.VLPolygon):org.opentripplanner.visibility.VLPoint	org.opentripplanner.visibility.VLPolygon	1/2	
-Move Method	org.opentripplanner.visibility.VLPoint::is_endpoint_of(org.opentripplanner.visibility.LineSegment, double):boolean	org.opentripplanner.visibility.LineSegment	1/2	
-Move Method	org.opentripplanner.updater.GtfsRealtimeFuzzyTripMatcher::match(java.lang.String, com.google.transit.realtime.GtfsRealtime.TripDescriptor):com.google.transit.realtime.GtfsRealtime.TripDescriptor	com.google.transit.realtime.GtfsRealtime.TripDescriptor	2/10	
-Move Method	org.opentripplanner.analyst.request.SampleGridRenderer::getSampleGrid(org.opentripplanner.analyst.request.SampleGridRequest, org.opentripplanner.routing.core.RoutingRequest):org.opentripplanner.common.geometry.ZSampleGrid<org.opentripplanner.analyst.request.SampleGridRenderer.WTWD>	org.opentripplanner.routing.core.RoutingRequest	2/8	
-Move Method	org.opentripplanner.api.parameter.QualifiedMode::applyToRoutingRequest(org.opentripplanner.routing.core.RoutingRequest, boolean):void	org.opentripplanner.routing.core.RoutingRequest	2/5	
-Move Method	org.opentripplanner.profile.AnalystProfileRouterPrototype::findClosestStops(org.opentripplanner.routing.core.TraverseMode):gnu.trove.map.TObjectIntMap<org.onebusaway.gtfs.model.Stop>	org.opentripplanner.profile.ProfileRequest	2/4	
-Move Method	org.opentripplanner.routing.spt.SPTWalker::walk(org.opentripplanner.routing.spt.SPTWalker.SPTVisitor, double):void	org.opentripplanner.routing.spt.ShortestPathTree	2/4	
-Move Method	org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler::initIntersectionNodes():void	org.opentripplanner.graph_builder.module.osm.OSMDatabase	2/3	
-Move Method	org.opentripplanner.index.IndexAPI::getRoutes(java.util.List<java.lang.String>):javax.ws.rs.core.Response	org.opentripplanner.routing.graph.GraphIndex	2/3	
-Move Method	org.opentripplanner.index.IndexAPI::getStoptimesForTrip(java.lang.String):javax.ws.rs.core.Response	org.opentripplanner.routing.graph.GraphIndex	2/3	
-Move Method	org.opentripplanner.routing.edgetype.factory.GTFSPatternHopFactory::createParentStationTransfers():void	org.opentripplanner.routing.edgetype.factory.GtfsStopContext	2/3	
-Move Method	org.opentripplanner.updater.stoptime.TimetableSnapshotSource::cancelPreviouslyAddedTrip(java.lang.String, java.lang.String, org.onebusaway.gtfs.model.calendar.ServiceDate):boolean	org.opentripplanner.routing.edgetype.TimetableSnapshot	2/3	
+org.opentripplanner.updater.alerts.AlertsUpdateHandler.createId(java.lang.String, com.google.transit.realtime.GtfsRealtime.EntitySelector);EntitySelector
+org.opentripplanner.routing.edgetype.Timetable.adjustTimeForTransfer(org.opentripplanner.routing.core.State, org.onebusaway.gtfs.model.Stop, org.onebusaway.gtfs.model.Trip, boolean, org.opentripplanner.routing.core.ServiceDay, int);State
+org.opentripplanner.common.LuceneIndex.addCluster(org.apache.lucene.index.IndexWriter, org.opentripplanner.profile.StopCluster);StopCluster
+org.opentripplanner.routing.core.RoutingContext.makePartialEdgeAlong(org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.location.TemporaryStreetLocation, org.opentripplanner.routing.location.TemporaryStreetLocation);StreetEdge
+org.opentripplanner.graph_builder.module.osm.WalkableAreaBuilder.toJTSPolygon(org.opentripplanner.visibility.VLPolygon);VLPolygon
+org.opentripplanner.updater.stoptime.TimetableSnapshotSource.determineTripScheduleRelationship(com.google.transit.realtime.GtfsRealtime.TripUpdate);TripUpdate
+org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler.getCoordinate(org.opentripplanner.openstreetmap.model.OSMNode);OSMNode
+org.opentripplanner.graph_builder.module.osm.Ring.toCoordinates(org.opentripplanner.visibility.VLPolygon);VLPolygon
+org.opentripplanner.routing.algorithm.AStar.isWorstTimeExceeded(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.RoutingRequest);RoutingRequest
+org.opentripplanner.routing.algorithm.EarliestArrivalSearch.isWorstTimeExceeded(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.RoutingRequest);RoutingRequest
+org.opentripplanner.routing.core.AbstractIntersectionTraversalCostModel.calculateTurnAngle(org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.core.RoutingRequest);StreetEdge
+org.opentripplanner.updater.stoptime.TimetableSnapshotSource.isStopSkipped(com.google.transit.realtime.GtfsRealtime.TripUpdate.StopTimeUpdate);StopTimeUpdate
+org.opentripplanner.visibility.VisibilityPolygon.is_spike(org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, org.opentripplanner.visibility.VLPoint, double);VLPoint
+org.opentripplanner.graph_builder.module.map.MatchState.getOutgoingMatchableEdges(org.opentripplanner.routing.graph.Vertex);Vertex
+org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource.createNames(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, java.lang.String);WayPropertySet
+org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource.createNotes(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, java.lang.String, org.opentripplanner.routing.services.notes.NoteMatcher);WayPropertySet
+org.opentripplanner.graph_builder.module.osm.DefaultWayPropertySetSource.setProperties(org.opentripplanner.graph_builder.module.osm.WayPropertySet, java.lang.String, org.opentripplanner.routing.edgetype.StreetTraversalPermission, double, double, boolean);WayPropertySet
+org.opentripplanner.graph_builder.module.osm.WayPropertySet.dumpTags(org.opentripplanner.openstreetmap.model.OSMWithTags);OSMWithTags
+org.opentripplanner.openstreetmap.impl.OpenStreetMapParser.processTags(org.opentripplanner.openstreetmap.model.OSMWithTags, org.w3c.dom.Element);OSMWithTags
+org.opentripplanner.routing.spt.DominanceFunction.betterOrEqualAndComparable(org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.State);State
+org.opentripplanner.graph_builder.module.osm.WalkableAreaBuilder.addtoVisibilityAndStartSets(java.util.Set<org.opentripplanner.openstreetmap.model.OSMNode>, java.util.ArrayList<org.opentripplanner.visibility.VLPoint>, java.util.ArrayList<org.opentripplanner.openstreetmap.model.OSMNode>, org.opentripplanner.openstreetmap.model.OSMNode);OSMNode
+org.opentripplanner.routing.core.StateEditor.weHaveWalkedTooFar(org.opentripplanner.routing.core.RoutingRequest);RoutingRequest
+org.opentripplanner.scripting.api.OtpsRoutingRequest.setMaxTimeSec(long);RoutingRequest
+org.opentripplanner.analyst.broker.Broker.workersAvailableForGraph(java.lang.String);WorkerCatalog
+org.opentripplanner.analyst.broker.Broker.activateJob(org.opentripplanner.analyst.broker.Job);Job
+org.opentripplanner.analyst.broker.Broker.deactivateJob(org.opentripplanner.analyst.broker.Job);Job
+org.opentripplanner.analyst.request.IsoChroneSPTRendererRecursiveGrid.computeInitialPoints(org.opentripplanner.routing.spt.ShortestPathTree);ShortestPathTree
+org.opentripplanner.graph_builder.AnnotationsToHTML.addAnnotation(org.opentripplanner.graph_builder.annotation.GraphBuilderAnnotation);GraphBuilderAnnotation
+org.opentripplanner.graph_builder.linking.SimpleStreetSplitter.makeTransitLinkEdges(org.opentripplanner.routing.vertextype.TransitStop, org.opentripplanner.routing.vertextype.StreetVertex);TransitStop
+org.opentripplanner.graph_builder.module.map.MatchState.carsCanTraverse(org.opentripplanner.routing.graph.Edge);Edge
+org.opentripplanner.graph_builder.module.ned.ElevationModule.assignMissingElevations(org.opentripplanner.routing.graph.Graph, java.util.List<org.opentripplanner.routing.edgetype.StreetEdge>, java.util.HashMap<org.opentripplanner.routing.graph.Vertex,java.lang.Double>);Graph
+org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler.setWayName(org.opentripplanner.openstreetmap.model.OSMWithTags);OSMWithTags
+org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler.applyEdgesToTurnRestrictions(org.opentripplanner.openstreetmap.model.OSMWay, long, long, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge);OSMDatabase
+org.opentripplanner.profile.Ride.getSortedStoptimes(org.opentripplanner.profile.TimeWindow, boolean);TimeWindow
+org.opentripplanner.routing.alertpatch.AlertPatch.displayDuring(org.opentripplanner.routing.core.State);State
+org.opentripplanner.routing.algorithm.AStar.storeMemory();MonitoringStore
+org.opentripplanner.routing.core.AbstractIntersectionTraversalCostModel.computeNonDrivingTraversalCost(org.opentripplanner.routing.vertextype.IntersectionVertex, org.opentripplanner.routing.edgetype.StreetEdge, org.opentripplanner.routing.edgetype.StreetEdge, float, float);StreetEdge
+org.opentripplanner.routing.core.RoutingContext.overlappingStreetEdges(org.opentripplanner.routing.graph.Vertex, org.opentripplanner.routing.graph.Vertex);Vertex
+org.opentripplanner.routing.edgetype.StreetEdge.canTurnOnto(org.opentripplanner.routing.graph.Edge, org.opentripplanner.routing.core.State, org.opentripplanner.routing.core.TraverseMode);State
+org.opentripplanner.routing.edgetype.TripPattern.getResolvedTripTimes(int, org.opentripplanner.routing.core.State);State
+org.opentripplanner.routing.edgetype.factory.TransferGraphLinker.run();Graph
+org.opentripplanner.routing.impl.DefaultFareServiceImpl.populateFare(org.opentripplanner.routing.core.Fare, java.util.Currency, org.opentripplanner.routing.core.Fare.FareType, java.util.List<org.opentripplanner.routing.impl.Ride>, java.util.Collection<org.opentripplanner.routing.core.FareRuleSet>);Fare
+org.opentripplanner.routing.trippattern.TripTimes.tripAcceptable(org.opentripplanner.routing.core.State, int);State
+org.opentripplanner.updater.GtfsRealtimeFuzzyTripMatcher.getTrip(org.onebusaway.gtfs.model.Route, int, int, org.onebusaway.gtfs.model.calendar.ServiceDate);GraphIndex
+org.opentripplanner.updater.stoptime.TimetableSnapshotSource.getPatternForTripId(java.lang.String, java.lang.String);GraphIndex
+org.opentripplanner.visibility.VLPoint.projection_onto_vertices_of(org.opentripplanner.visibility.VLPolygon);VLPolygon
+org.opentripplanner.visibility.VLPoint.is_endpoint_of(org.opentripplanner.visibility.LineSegment, double);LineSegment
+org.opentripplanner.updater.GtfsRealtimeFuzzyTripMatcher.match(java.lang.String, com.google.transit.realtime.GtfsRealtime.TripDescriptor);TripDescriptor
+org.opentripplanner.analyst.request.SampleGridRenderer.getSampleGrid(org.opentripplanner.analyst.request.SampleGridRequest, org.opentripplanner.routing.core.RoutingRequest);RoutingRequest
+org.opentripplanner.api.parameter.QualifiedMode.applyToRoutingRequest(org.opentripplanner.routing.core.RoutingRequest, boolean);RoutingRequest
+org.opentripplanner.profile.AnalystProfileRouterPrototype.findClosestStops(org.opentripplanner.routing.core.TraverseMode);ProfileRequest
+org.opentripplanner.routing.spt.SPTWalker.walk(org.opentripplanner.routing.spt.SPTWalker.SPTVisitor, double);ShortestPathTree
+org.opentripplanner.graph_builder.module.osm.OpenStreetMapModule.Handler.initIntersectionNodes();OSMDatabase
+org.opentripplanner.index.IndexAPI.getRoutes(java.util.List<java.lang.String>);GraphIndex
+org.opentripplanner.index.IndexAPI.getStoptimesForTrip(java.lang.String);GraphIndex
+org.opentripplanner.routing.edgetype.factory.GTFSPatternHopFactory.createParentStationTransfers();GtfsStopContext
+org.opentripplanner.updater.stoptime.TimetableSnapshotSource.cancelPreviouslyAddedTrip(java.lang.String, java.lang.String, org.onebusaway.gtfs.model.calendar.ServiceDate);TimetableSnapshot

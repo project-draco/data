@@ -1,0 +1,151 @@
+com.google.devtools.build.lib.analysis.RuleContext.getSingleSource(java.lang.String);PrerequisiteArtifacts
+com.google.devtools.build.lib.analysis.RuleContext.getSingleSource();PrerequisiteArtifacts
+com.google.devtools.build.lib.rules.cpp.CppCompilationContext.EMPTY;CcToolchainProvider
+com.google.devtools.build.lib.graph.Digraph.getFwdReachable(java.util.Collection);DFS
+com.google.devtools.build.lib.graph.Digraph.getFwdReachable(com.google.devtools.build.lib.graph.Node);DFS
+com.google.devtools.build.lib.graph.Digraph.getBackReachable(java.util.Collection);DFS
+com.google.devtools.build.lib.graph.Digraph.getBackReachable(com.google.devtools.build.lib.graph.Node);DFS
+com.google.devtools.build.lib.graph.Digraph.visitPreorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable);DFS
+com.google.devtools.build.lib.graph.Digraph.visitDepthFirst(com.google.devtools.build.lib.graph.GraphVisitor, com.google.devtools.build.lib.graph.DFS$Order, boolean, java.lang.Iterable);DFS
+com.google.devtools.build.lib.graph.Digraph.visitPostorder(com.google.devtools.build.lib.graph.GraphVisitor, java.lang.Iterable);DFS
+com.google.devtools.build.lib.analysis.RuleContext.getCompiler(boolean);LocationExpander
+com.google.devtools.build.lib.analysis.RuleContext.getAttributeMode(java.lang.String);LocationExpander
+com.google.devtools.build.lib.analysis.RuleContext.checkAttribute(java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode);LocationExpander
+com.google.devtools.build.lib.analysis.RuleContext.checkAttribute(java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode);LocationExpander
+com.google.devtools.common.options.OptionsParser.parse(com.google.devtools.common.options.OptionPriority, java.lang.String, java.util.List);OptionPriority_new_1
+com.google.devtools.common.options.OptionsParser.newOptionsParser(java.lang.Class);OptionPriority_new_1
+com.google.devtools.common.options.OptionsParser.parseAndExitUponError(com.google.devtools.common.options.OptionPriority, java.lang.String, java.lang.String[]);OptionPriority_new_1
+com.google.devtools.common.options.OptionsParser.parseAndExitUponError(java.lang.String[]);OptionPriority_new_1
+com.google.devtools.common.options.OptionsParser.parse(java.lang.String[]);OptionPriority_new_1
+com.google.devtools.common.options.OptionsParser.parse(java.util.List);OptionPriority_new_1
+com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.static {};ObjcRuleClasses_new_2
+com.google.devtools.build.lib.rules.objc.ReleaseBundlingSupport.IPA;ObjcRuleClasses_new_2
+com.google.devtools.build.lib.rules.android.AndroidCommon.ANDROID_COLLECTION_SPEC;ResourceDependencies_new_2
+com.google.devtools.build.lib.rules.android.AndroidCommon.static {};ResourceDependencies_new_2
+com.google.devtools.build.lib.rules.android.AndroidCommon.TRANSITIVE_ATTRIBUTES;ResourceDependencies_new_2
+com.google.devtools.build.lib.rules.android.AndroidCommon.collectTransitiveInfo(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode);ResourceDependencies_new_2
+com.google.devtools.build.lib.cmdline.RepositoryName.getSourceRoot();Label_new_2
+com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root);ArtifactFactory_new_2
+com.google.devtools.build.lib.cmdline.RepositoryName.getPathUnderExecRoot();Label_new_2
+com.google.devtools.build.lib.cmdline.RepositoryName.getRunfilesPath();Label_new_2
+com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.actions.Root, com.google.devtools.build.lib.vfs.PathFragment);ArtifactFactory_new_2
+com.google.devtools.build.lib.rules.android.AndroidCommon.getTransitivePrerequisites(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode, java.lang.Class);ResourceDependencies_new_2
+com.google.devtools.build.lib.actions.Artifact.Artifact(com.google.devtools.build.lib.vfs.PathFragment, com.google.devtools.build.lib.actions.Root);ArtifactFactory_new_2
+com.google.devtools.build.lib.runtime.ServerBuilder.getAttributeContainerFactory();AttributeContainer_new_2
+com.google.devtools.build.lib.events.Reporter.finishTask(com.google.devtools.build.lib.events.Location, java.lang.String);Event_new_1
+com.google.devtools.build.lib.events.Reporter.startTask(com.google.devtools.build.lib.events.Location, java.lang.String);Event_new_1
+com.google.devtools.build.lib.runtime.ServerBuilder.attributeContainerFactory;AttributeContainer_new_2
+com.google.devtools.build.lib.runtime.ServerBuilder.setAttributeContainerFactory(com.google.common.base.Function);AttributeContainer_new_2
+com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile);RecursiveFilesystemTraversalFunction_new_1
+com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.static {};RecursiveFilesystemTraversalFunction_new_1
+com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.of(com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue$ResolvedFile, com.google.devtools.build.lib.collect.nestedset.NestedSet);RecursiveFilesystemTraversalFunction_new_1
+com.google.devtools.build.lib.query2.engine.Lexer.BINARY_OPERATORS;QueryParser
+com.google.devtools.build.lib.query2.engine.LetExpression.NAME_PATTERN;TargetLiteral
+com.google.devtools.build.lib.query2.engine.Lexer.static {};QueryParser
+com.google.devtools.build.lib.query2.engine.LetExpression.static {};TargetLiteral
+com.google.devtools.build.lib.query2.engine.LetExpression.isValidVarReference(java.lang.String);TargetLiteral
+com.google.devtools.build.lib.query2.engine.Lexer.keywordMap;QueryParser
+com.google.devtools.build.lib.query2.engine.LetExpression.REF_PATTERN;TargetLiteral
+com.google.devtools.build.lib.profiler.output.CriticalPathHtml.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry);CriticalPathStatistics
+com.google.devtools.build.lib.query2.engine.Lexer.isReservedWord(java.lang.String);QueryParser
+com.google.devtools.build.lib.profiler.output.CriticalPathHtml.executionTime;CriticalPathStatistics
+com.google.devtools.build.lib.query2.engine.Lexer.getTokenKindForWord(java.lang.String);QueryParser
+com.google.devtools.build.lib.profiler.output.CriticalPathText.printCriticalPathTimingBreakdown(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry, com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry);CriticalPathStatistics
+com.google.devtools.build.lib.profiler.output.CriticalPathText.executionTime;CriticalPathStatistics
+com.google.devtools.build.lib.skyframe.RecursiveFilesystemTraversalValue.EMPTY;RecursiveFilesystemTraversalFunction_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.useInterfaceSharedObjects;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.forceIgnoreDashStatic;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.processHeadersInDependencies;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.skipStaticOutputs;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.legacyWholeArchive;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.symbolCounts;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.shareNativeDeps;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.forcePic;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.saveTemps;CppConfiguration_new_1
+com.google.devtools.build.lib.rules.cpp.CppOptions.stripoptList;CppConfiguration_new_1
+com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(com.google.devtools.build.lib.packages.Rule);RuleClass_new_2
+com.google.devtools.build.lib.packages.TestTimeout.getTestTimeout(java.lang.String);RuleClass_new_2
+com.google.devtools.build.lib.packages.TestTimeout.valueOf(java.lang.String);RuleClass_new_2
+com.google.devtools.common.options.OptionsData.of(java.util.Collection);OptionsParserImpl_new_2
+com.google.devtools.common.options.OptionsData.retrieveDefaultFromAnnotation(java.lang.reflect.Field);OptionsParserImpl_new_2
+com.google.devtools.build.lib.syntax.FunctionDefStatement.getStatements();SyntaxTreeVisitor
+com.google.devtools.common.options.OptionsData.getAllAnnotatedFields(java.lang.Class);OptionsParserImpl_new_2
+com.google.devtools.build.lib.syntax.FunctionDefStatement.statements;SyntaxTreeVisitor
+com.google.devtools.build.lib.syntax.FunctionDefStatement.parameters;SyntaxTreeVisitor
+com.google.devtools.build.lib.syntax.FunctionDefStatement.parameters;SyntaxTreeVisitor
+com.google.devtools.build.lib.syntax.FunctionDefStatement.getIdent();SyntaxTreeVisitor
+com.google.devtools.build.lib.syntax.FunctionDefStatement.ident;SyntaxTreeVisitor
+com.google.devtools.build.lib.skyframe.GlobValue.internalKey(com.google.devtools.build.lib.skyframe.GlobDescriptor, java.lang.String);GlobDescriptor
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromOptions(com.google.devtools.build.lib.analysis.config.BuildOptions);CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.isCandidateToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain);CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.describeFlags();CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.toString();CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.fromToolchain(com.google.devtools.build.lib.view.config.crosstool.CrosstoolConfig$CToolchain);CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.CrosstoolConfigurationIdentifier(java.lang.String, java.lang.String, java.lang.String);CppOptions_new_2
+com.google.devtools.build.lib.rules.cpp.CrosstoolConfigurationIdentifier.hashCode();CppOptions_new_2
+com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createLegacy(java.lang.String);InstrumentedFilesProviderImpl
+com.google.devtools.build.lib.rules.java.JvmConfigurationLoader.createDefault(com.google.devtools.build.lib.analysis.config.ConfigurationEnvironment, java.lang.String, java.lang.String);InstrumentedFilesProviderImpl
+com.google.devtools.build.lib.syntax.FunctionSignature.valueListOrNull(java.util.List);SkylarkCallbackFunction
+com.google.devtools.build.lib.syntax.FunctionSignature.getNames();SkylarkCallbackFunction
+com.google.devtools.build.lib.syntax.FunctionSignature.getShape();SkylarkCallbackFunction
+com.google.devtools.build.lib.skyframe.FileStateValue.NONEXISTENT_FILE_STATE_NODE;FileFunction
+com.google.devtools.build.lib.vfs.UnixGlob.forPath(com.google.devtools.build.lib.vfs.Path);GlobCache
+com.google.devtools.build.lib.vfs.UnixGlob.checkPatternForError(java.lang.String);GlobCache
+com.google.devtools.build.lib.vfs.UnixGlob.checkAndSplitPatterns(java.util.Collection);GlobCache
+com.google.devtools.build.lib.skyframe.FileStateValue.create(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor);FileFunction
+com.google.devtools.build.lib.syntax.Lexer.static {};TokenKind
+com.google.devtools.build.lib.windows.WindowsProcesses.nativeTerminate(long);WindowsSubprocess_new_2
+com.google.devtools.build.lib.rules.android.AndroidIdlHelper.getIdlImportRoot(com.google.devtools.build.lib.analysis.RuleContext);AndroidCommon_new_2
+com.google.devtools.build.lib.windows.WindowsProcesses.nativeWaitFor(long, long);WindowsSubprocess_new_2
+com.google.devtools.build.lib.rules.cpp.CppConfiguration.reportInvalidOptions(com.google.devtools.build.lib.events.EventHandler, com.google.devtools.build.lib.analysis.config.BuildOptions);CppOptions_new_2
+com.google.devtools.build.lib.rules.java.JavaHelper.getJavaResourcePath(com.google.devtools.build.lib.rules.java.JavaSemantics, com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.actions.Artifact);AndroidResourceContainerBuilder
+com.google.devtools.build.lib.skyframe.FileStateValue.static {};FileFunction
+com.google.devtools.build.lib.skyframe.FileStateValue.createWithStatNoFollow(com.google.devtools.build.lib.vfs.RootedPath, com.google.devtools.build.lib.vfs.FileStatusWithDigest, com.google.devtools.build.lib.util.io.TimestampGranularityMonitor);FileFunction
+com.google.devtools.build.lib.vfs.FileSystemUtils.dump(com.google.devtools.build.lib.vfs.FileSystem, java.io.PrintStream);Path_new_2
+com.google.devtools.build.lib.vfs.FileSystemUtils.checkBaseName(java.lang.String);Path_new_2
+com.google.devtools.build.lib.vfs.FileSystemUtils.startsWithAny(com.google.devtools.build.lib.vfs.Path, java.lang.Iterable);Path_new_2
+com.google.devtools.build.lib.vfs.FileSystemUtils.commonAncestor(com.google.devtools.build.lib.vfs.Path, com.google.devtools.build.lib.vfs.Path);Path_new_2
+com.google.devtools.build.skyframe.ValueOrExceptionUtils.downconvert(com.google.devtools.build.skyframe.ValueOrException2, java.lang.Class);ValueOrException2
+com.google.devtools.build.lib.shell.JavaSubprocessFactory.create(com.google.devtools.build.lib.shell.SubprocessBuilder);SubprocessBuilder_new_1
+com.google.devtools.build.lib.skyframe.FileStateValue.DIRECTORY_FILE_STATE_NODE;FileFunction
+com.google.devtools.build.lib.windows.WindowsProcesses.nativeGetProcessPid(long);WindowsSubprocess_new_2
+com.google.devtools.build.lib.bazel.repository.MavenJarFunction.getServer(com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.skyframe.SkyFunction$Environment);HttpDownloader
+com.google.devtools.build.lib.bazel.repository.MavenJarFunction.createMavenDownloader(com.google.devtools.build.lib.analysis.BlazeDirectories, com.google.devtools.build.lib.packages.Rule, com.google.devtools.build.lib.bazel.repository.MavenServerValue);HttpDownloader
+com.google.devtools.build.lib.shell.JavaSubprocessFactory.getRedirect(com.google.devtools.build.lib.shell.SubprocessBuilder$StreamAction, java.io.File);SubprocessBuilder_new_1
+com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.excludedDirectoriesBeneath(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, int, java.util.List);TargetPattern_new_1
+com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.keys(java.util.List, java.lang.String);TargetPattern_new_1
+com.google.devtools.build.lib.packages.Package.newExternalPackageBuilder(com.google.devtools.build.lib.packages.Package$Builder$Helper, com.google.devtools.build.lib.vfs.Path, java.lang.String);LegacyLoadingPhaseRunner_new_2
+com.google.devtools.build.lib.shell.JavaSubprocessFactory.JavaSubprocessFactory();SubprocessBuilder_new_3
+com.google.devtools.build.lib.skyframe.PrepareDepsOfPatternValue.setExcludedDirectories(com.google.devtools.build.lib.skyframe.TargetPatternValue$TargetPatternKey, com.google.common.collect.ImmutableSet);TargetPattern_new_1
+com.google.devtools.build.lib.shell.JavaSubprocessFactory.static {};SubprocessBuilder_new_3
+com.google.devtools.build.skyframe.CycleInfo.prepareCycles(com.google.devtools.build.skyframe.SkyKey, java.lang.Iterable);ErrorInfo
+com.google.devtools.build.lib.syntax.Runtime.registerModuleGlobals(com.google.devtools.build.lib.syntax.Environment, java.lang.Class);SkylarkModules
+com.google.devtools.build.lib.syntax.compiler.ByteCodeUtils.getField(java.lang.Class, java.lang.String);Runtime
+com.google.devtools.build.lib.rules.test.InstrumentedFileManifestAction.getInstrumentedFileManifest(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet, com.google.devtools.build.lib.collect.nestedset.NestedSet);TestActionBuilder
+com.google.devtools.build.lib.packages.TestSize.getTestSize(com.google.devtools.build.lib.packages.Rule);RuleClass_new_2
+com.google.devtools.build.lib.profiler.chart.ChartBar.accept(com.google.devtools.build.lib.profiler.chart.ChartVisitor);ChartRow
+com.google.devtools.build.lib.vfs.Path.statNullable();FileSystemUtils_new_1
+com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.IntegerLiteral);IntegerLiteral
+com.google.devtools.build.lib.skyframe.TargetPatternPhaseFunction.getTargetsToBuild(com.google.devtools.build.skyframe.SkyFunction$Environment, java.util.List, java.lang.String, boolean);CompileOneDependencyTransformer
+com.google.devtools.build.lib.syntax.SyntaxTreeVisitor.visit(com.google.devtools.build.lib.syntax.StringLiteral);StringLiteral
+com.google.devtools.build.lib.bazel.rules.BazelConfigurationCollection.getHostConfigurationFromRequest(com.google.devtools.build.lib.analysis.config.ConfigurationFactory, com.google.devtools.build.lib.analysis.config.PackageProviderForConfigurations, com.google.devtools.build.lib.analysis.config.BuildConfiguration, com.google.devtools.build.lib.analysis.config.BuildOptions, com.google.common.cache.Cache);ConfigurationFactory
+com.google.devtools.build.lib.shell.JavaSubprocessFactory.INSTANCE;SubprocessBuilder_new_3
+com.google.devtools.build.lib.analysis.SourceManifestAction.forRunfiles(com.google.devtools.build.lib.analysis.SourceManifestAction$ManifestType, com.google.devtools.build.lib.actions.ActionOwner, com.google.devtools.build.lib.actions.Artifact, com.google.devtools.build.lib.analysis.Runfiles);RunfilesSupport_new_1
+com.google.devtools.build.lib.profiler.statistics.CriticalPathStatistics.getMiddlemanFilteredPath(com.google.devtools.build.lib.profiler.ProfileInfo$CriticalPathEntry);CriticalPathText
+com.google.devtools.build.lib.rules.cpp.CcLinkingOutputs.libraryIdentifierOf(com.google.devtools.build.lib.actions.Artifact);LinkerInputs
+com.google.devtools.build.lib.actions.BaseSpawn.asShellCommand(java.util.Collection, com.google.devtools.build.lib.vfs.Path, java.util.Map);WorkerKey
+com.google.devtools.build.lib.packages.Attribute.isTaggable();Rule_new_2
+com.google.devtools.build.lib.skyframe.ConfiguredTargetValue.key(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.analysis.config.BuildConfiguration);PostConfiguredTargetFunction
+com.google.devtools.build.lib.analysis.AnalysisUtils.filterByProvider(java.lang.Iterable, java.lang.Class);RuleContext_new_3
+com.google.devtools.build.skyframe.ValueOrException2.get();TransitiveTargetFunction
+com.google.devtools.build.lib.analysis.AnalysisUtils.getUniqueDirectory(com.google.devtools.build.lib.cmdline.Label, com.google.devtools.build.lib.vfs.PathFragment);RuleContext_new_2
+com.google.devtools.build.lib.rules.test.BaselineCoverageAction.create(com.google.devtools.build.lib.analysis.RuleContext, com.google.devtools.build.lib.collect.nestedset.NestedSet);RuleConfiguredTargetBuilder
+com.google.devtools.build.lib.analysis.AnalysisUtils.checkProvider(java.lang.Class);RuleContext_new_3
+com.google.devtools.build.lib.analysis.AnalysisUtils.getProviders(java.lang.Iterable, java.lang.Class);RuleContext_new_3
+com.google.devtools.build.lib.profiler.ProfilerTask.name();MultiProfilePhaseHtml
+com.google.devtools.build.lib.rules.objc.ReleaseBundling.releaseBundling(com.google.devtools.build.lib.analysis.RuleContext);ObjcRuleClasses_new_2
+com.google.devtools.build.lib.packages.PackageSpecification.fromString(com.google.devtools.build.lib.cmdline.RepositoryName, java.lang.String);RepositoryName_new_1
+com.google.devtools.build.lib.rules.objc.ObjcRuleClasses.artifactByAppendingToBaseName(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String);ReleaseBundlingSupport
+com.google.devtools.build.lib.packages.PackageSpecification.fromLabel(com.google.devtools.build.lib.cmdline.Label);Label_new_1
+com.google.devtools.build.lib.analysis.PrerequisiteArtifacts.nestedSet(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String, com.google.devtools.build.lib.analysis.RuleConfiguredTarget$Mode);RuleContext_new_4
+com.google.devtools.build.lib.analysis.AnalysisUtils.getMiddlemanFor(com.google.devtools.build.lib.analysis.RuleContext, java.lang.String);RuleContext_new_5
